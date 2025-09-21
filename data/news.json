@@ -1,82 +1,12 @@
 [
-    {
-        "id": 1,
-        "title": "Tesla Model Y alcanza récord de ventas en España",
-        "summary": "El Tesla Model Y se convierte en el vehículo eléctrico más vendido del país en 2024, superando todas las expectativas del mercado español con más de 15,000 unidades vendidas.",
-        "category": "Coches Eléctricos",
-        "image": "https://images.unsplash.com/photo-1560958089-b8a1929cea89?w=800&q=80",
-        "link": "https://www.tesla.com/es_es/modely",
-        "date": "2024-12-15",
-        "readTime": "3 min"
-    },
-    {
-        "id": 2,
-        "title": "Nueva bicicleta eléctrica Specialized Turbo revoluciona el mercado",
-        "summary": "Specialized presenta su nueva línea Turbo con batería de 700Wh y autonomía de hasta 150km. La tecnología MasterMind promete cambiar la experiencia de conducción urbana.",
-        "category": "Bicicletas Eléctricas",
-        "image": "https://images.unsplash.com/photo-1571068316344-75bc76f77890?w=800&q=80",
-        "link": "https://www.specialized.com/es/es/turbo",
-        "date": "2024-12-14",
-        "readTime": "4 min"
-    },
-    {
-        "id": 3,
-        "title": "Xiaomi lanza su scooter eléctrico Mi Electric Scooter Pro 4",
-        "summary": "El nuevo scooter de Xiaomi incluye sistema de frenado regenerativo, conectividad 5G y una autonomía de 65km. Diseñado para la movilidad urbana sostenible del futuro.",
-        "category": "Scooters Eléctricos",
-        "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&q=80",
-        "link": "https://www.mi.com/es/mi-electric-scooter-pro-4",
-        "date": "2024-12-13",
-        "readTime": "5 min"
-    },
-    {
-        "id": 4,
-        "title": "Comparativa: BMW iX3 vs Mercedes EQC vs Audi e-tron",
-        "summary": "Analizamos los tres SUVs eléctricos premium más populares del mercado. Rendimiento, autonomía, precio y tecnología en una comparativa completa y detallada.",
-        "category": "Comparativas",
-        "image": "https://images.unsplash.com/photo-1606664515524-ed2f786a0bd6?w=800&q=80",
-        "link": "#comparativa-suvs-electricos",
-        "date": "2024-12-12",
-        "readTime": "8 min"
-    },
-    {
-        "id": 5,
-        "title": "Segway presenta su nueva línea de patinetes con IA integrada",
-        "summary": "Los nuevos patinetes Segway incluyen inteligencia artificial para optimizar rutas, predecir mantenimiento y mejorar la seguridad. Conectividad total con smartphones.",
-        "category": "Scooters Eléctricos",
-        "image": "https://images.unsplash.com/photo-1544191696-15693271555c?w=800&q=80",
-        "link": "https://www.segway.com/es/patinetes-electricos",
-        "date": "2024-12-11",
-        "readTime": "6 min"
-    },
-    {
-        "id": 6,
-        "title": "El gobierno anuncia nuevas ayudas para la compra de vehículos eléctricos",
-        "summary": "Plan MOVES IV: hasta 7.000€ de subvención para coches eléctricos y 1.400€ para bicis eléctricas. Nuevo impulso a la movilidad sostenible en España hasta 2026.",
-        "category": "Política y Regulación",
-        "image": "https://images.unsplash.com/photo-1593941707882-a5bac6861d75?w=800&q=80",
-        "link": "#plan-moves-iv",
-        "date": "2024-12-10",
-        "readTime": "4 min"
-    },
-    {
-        "id": 7,
-        "title": "Review: Probamos la nueva Harley Davidson LiveWire S2 Del Mar",
-        "summary": "La icónica marca americana apuesta fuerte por lo eléctrico. Probamos su nueva moto eléctrica: aceleración, autonomía, diseño y experiencia de conducción completa.",
-        "category": "Reviews",
-        "image": "https://images.unsplash.com/photo-1558618047-3c8c76ca7d13?w=800&q=80",
-        "link": "#review-harley-livewire",
-        "date": "2024-12-09",
-        "readTime": "7 min"
-    },
-    {
-        "id": 8,
-        "title": "Volkswagen ID.Buzz: La furgoneta eléctrica que todos esperábamos",
-        "summary": "El mítico diseño de la Volkswagen T1 renace en formato 100% eléctrico. Espaciosa, tecnológica y con 423km de autonomía. ¿El vehículo familiar perfecto?",
-        "category": "Coches Eléctricos",
-        "image": "https://images.unsplash.com/photo-1593941707874-ef1d7fea4113?w=800&q=80",
-        "link": "https://www.volkswagen.es/es/modelos/id-buzz.html",
-        "date": "2024-12-08",
-        "readTime": "5 min"
-    }
+  {
+    "id": 1,
+    "title": "Ventas de Tesla caen en España en mayo, pero las matriculaciones de eléctricos se disparan",
+    "summary": "Los datos de ANFAC muestran que, mientras Tesla retrocede en España en mayo de 2025, el conjunto de vehículos electrificados (BEV e híbridos enchufables) crece con fuerza. Te cuento qué hay detrás: competencia asiática, ofertas, y un mercado que madura (por fin) entre cargadores y ayudas que llegan a trompicones.",
+    "category": "Coches Eléctricos",
+    "image": "imagenes/ventas-ev-espana-2025.jpg",
+    "link": "articulos/ventas-ev-espana-2025.html",
+    "date": "2025-06-02",
+    "readTime": "4 min"
+  }
 ]

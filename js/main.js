@@ -70,7 +70,8 @@ class MovilidadElectrica {
      */
     async loadNews() {
         try {
-            const response = await fetch('data/news.json');
+            const url = `data/news.json?ts=${Date.now()}`;
+            const response = await fetch(url, { cache: 'no-store' });
             if (!response.ok) {
                 throw new Error(`HTTP error! status: ${response.status}`);
             }
@@ -140,13 +141,15 @@ class MovilidadElectrica {
         
         card.innerHTML = `
             <div class="relative">
-                <img 
-                    src="${news.image}" 
-                    alt="${news.title}"
-                    class="w-full h-48 object-cover"
-                    loading="lazy"
-                    onerror="this.src='https://images.unsplash.com/photo-1593941707882-a5bac6861d75?w=800&q=80'"
-                >
+                <a href="${news.link}" aria-label="Leer: ${news.title}">
+                    <img 
+                        src="${news.image}" 
+                        alt="${news.title}"
+                        class="w-full h-48 object-cover"
+                        loading="lazy"
+                        onerror="this.src='https://images.unsplash.com/photo-1593941707882-a5bac6861d75?w=800&q=80'"
+                    >
+                </a>
                 <div class="absolute top-3 left-3">
                     <span class="${categoryColor} text-white px-3 py-1 rounded-full text-xs font-medium">
                         ${news.category}
@@ -165,22 +168,23 @@ class MovilidadElectrica {
                     <span>${this.formatDate(news.date)}</span>
                 </div>
                 
-                <h3 class="text-xl font-bold text-gris-oscuro mb-3 clamp-2 leading-tight">
-                    ${news.title}
-                </h3>
+                <h2 class="text-xl font-bold text-gris-oscuro mb-3 clamp-2 leading-tight">
+                    <a href="${news.link}" class="hover:text-verde-principal">${news.title}</a>
+                </h2>
                 
                 <p class="text-gray-600 mb-6 clamp-3 leading-relaxed">
                     ${news.summary}
                 </p>
                 
                 <div class="flex items-center justify-between">
-                    <button 
-                        onclick="window.open('${news.link}', '_blank')"
+                    <a 
+                        href="${news.link}"
                         class="btn-hover bg-verde-principal hover:bg-verde-hover text-white font-medium px-6 py-3 rounded-lg transition-all duration-200 flex items-center space-x-2"
+                        aria-label="Leer más: ${news.title}"
                     >
                         <span>Leer más</span>
-                        <i class="fas fa-external-link-alt text-sm"></i>
-                    </button>
+                        <i class="fas fa-external-link-alt text-sm" aria-hidden="true"></i>
+                    </a>
                     
                     <div class="flex items-center space-x-3 text-gray-400">
                         <button class="hover:text-verde-principal transition-colors" title="Compartir">
