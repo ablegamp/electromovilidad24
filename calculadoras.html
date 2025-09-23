@@ -12,20 +12,22 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.0/css/all.min.css">
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
   <script>
-    tailwind.config = { theme: { extend: { fontFamily: { inter: ['Inter','sans-serif'] }, colors: { 'verde-principal':'#10B981','gris-oscuro':'#1F2937','gris-claro':'#F9FAFB' } } } }
+    tailwind.config = { theme: { extend: { fontFamily: { inter: ['Inter','sans-serif'] }, colors: { 'verde-principal':'#10B981','gris-oscuro':'#1F2937','gris-claro':'#F9FAFB', 'verde-suave':'#ECFDF5' }, boxShadow: { 'elevated':'0 10px 25px -5px rgba(0,0,0,.1), 0 8px 10px -6px rgba(0,0,0,.1)' } } } }
   </script>
   <style>
     body { font-family: 'Inter', sans-serif; }
     .card { transition: transform .15s ease, box-shadow .15s ease }
     .card:hover { transform: translateY(-2px); box-shadow: 0 10px 25px -5px rgba(0,0,0,.1), 0 8px 10px -6px rgba(0,0,0,.1) }
-    .calc-label { @apply block text-sm font-medium text-gray-700 mb-1; }
-    .calc-input { @apply w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-verde-principal; }
+    /* Sustituimos @apply por CSS equivalente para compatibilidad con Tailwind CDN */
+    .calc-label { display:block; font-size:0.875rem; font-weight:500; color:#374151; margin-bottom:0.25rem; }
+    .calc-input { width:100%; padding:0.75rem 1rem; border:1px solid #E5E7EB; border-radius:0.5rem; outline: none; background:#fff; transition: box-shadow .15s ease, border-color .15s ease; }
+    .calc-input:focus { box-shadow: 0 0 0 2px rgba(16,185,129,.35); border-color: transparent; }
   </style>
 </head>
-<body class="bg-gris-claro min-h-screen text-gris-oscuro">
+<body class="bg-gradient-to-b from-white to-gris-claro min-h-screen text-gris-oscuro">
   <!-- Header -->
-  <header class="bg-white shadow-lg sticky top-0 z-50">
-    <div class="container mx-auto px-4 py-4">
+  <header class="bg-white/90 backdrop-blur sticky top-0 z-50 shadow">
+    <div class="max-w-6xl mx-auto px-4 py-4">
       <div class="flex items-center justify-between">
         <div class="flex items-center space-x-3">
           <div class="bg-verde-principal text-white rounded-lg p-2">
@@ -41,11 +43,15 @@
         </button>
       </div>
       <nav class="mt-4">
-        <ul id="nav-menu" class="hidden md:flex space-x-8 text-gris-oscuro font-medium">
+        <ul id="nav-menu" class="hidden md:flex space-x-6 text-gris-oscuro font-medium">
           <li><a href="/index.html#news-section" class="hover:text-verde-principal transition-colors duration-200">Noticias</a></li>
           <li><a href="#" class="hover:text-verde-principal transition-colors duration-200">Comparativas</a></li>
           <li><a href="#" class="hover:text-verde-principal transition-colors duration-200">Reviews</a></li>
-          <li><a href="/calculadoras.html" class="hover:text-verde-principal transition-colors duration-200 border-b-2 border-verde-principal pb-1">Calculadoras eléctricas</a></li>
+          <li>
+            <a href="/calculadoras.html" class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-verde-suave text-emerald-700 border border-emerald-200">
+              <i class="fas fa-calculator"></i><span>Calculadoras</span>
+            </a>
+          </li>
           <li><a href="/sobre.html" class="hover:text-verde-principal transition-colors duration-200">Sobre mí</a></li>
           <li><a href="/contacto.html" class="hover:text-verde-principal transition-colors duration-200">Contacto</a></li>
         </ul>
@@ -61,21 +67,34 @@
     </div>
   </header>
 
-  <main class="container mx-auto px-4 py-10">
+  <main class="max-w-6xl mx-auto px-4 py-10">
     <nav class="text-sm text-gray-600 mb-6" aria-label="breadcrumb">
       <ol class="list-reset flex"><li><a class="hover:text-verde-principal" href="/index.html">Inicio</a></li><li class="mx-2">/</li><li class="text-gray-500">Calculadoras eléctricas</li></ol>
     </nav>
 
-    <section class="bg-white rounded-2xl shadow p-6 md:p-10">
+    <section class="bg-white/90 rounded-2xl shadow-elevated p-6 md:p-10 border border-gray-100">
       <header class="mb-8">
-        <h1 class="text-3xl md:text-4xl font-extrabold">Calculadoras eléctricas</h1>
-        <p class="text-gray-600 mt-2">Herramientas rápidas para el día a día: costes, tiempos y autonomía.</p>
+        <div class="flex items-start justify-between flex-wrap gap-4">
+          <div>
+            <div class="inline-flex items-center gap-2 text-emerald-700 bg-verde-suave border border-emerald-200 px-3 py-1 rounded-full text-sm font-medium">
+              <i class="fas fa-bolt"></i> Herramientas EV
+            </div>
+            <h1 class="text-3xl md:text-4xl font-extrabold mt-3">Calculadoras eléctricas</h1>
+            <p class="text-gray-600 mt-2">Herramientas rápidas para el día a día: costes, tiempos y autonomía.</p>
+          </div>
+        </div>
+        <div class="prose prose-emerald max-w-none mt-6 text-gray-700">
+          <p>Descubre cuánto puedes ahorrar con un <strong>coche eléctrico</strong> utilizando nuestras calculadoras para vehículos eléctricos gratuitas. Compara costes de viaje, estima tiempos de recarga y calcula la <strong>autonomía real</strong> de tu vehículo eléctrico en condiciones reales. Nuestras herramientas están diseñadas para ofrecerte resultados precisos y personalizables.</p>
+          <p>¿Cómo usar estas calculadoras? Introduce los datos solicitados en cada sección y pulsa el botón "Calcular". Utiliza el botón "Borrar" para reiniciar los campos. Todas las calculadoras funcionan sin conexión y se actualizan en tiempo real.</p>
+        </div>
       </header>
 
-      <div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-6 lg:gap-8">
         <!-- 1. Coste por viaje -->
-        <div class="card bg-white border border-gray-100 rounded-xl p-6">
-          <h2 class="text-xl font-bold text-verde-principal mb-4">Coste por viaje</h2>
+        <div class="card bg-white border border-gray-100 rounded-2xl p-6">
+          <div class="flex items-center justify-between mb-4">
+            <h2 class="text-xl font-bold text-gris-oscuro flex items-center gap-2"><span class="inline-flex items-center justify-center w-8 h-8 rounded-lg bg-verde-suave text-emerald-700"><i class="fas fa-road"></i></span> Coste por viaje</h2>
+          </div>
           <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
             <div>
               <label class="calc-label" for="viaje-km">Kilómetros</label>
@@ -99,15 +118,18 @@
             </div>
           </div>
           <div class="mt-4 flex items-center gap-3">
-            <button id="btn-calcular-viaje" class="bg-verde-principal hover:bg-emerald-600 text-white px-5 py-2 rounded-lg">Calcular</button>
+            <button id="btn-calcular-viaje" class="bg-verde-principal hover:bg-emerald-600 text-white px-5 py-2 rounded-lg shadow-sm">Calcular</button>
+            <button id="btn-reset-viaje" class="bg-gray-100 hover:bg-gray-200 text-gray-800 px-4 py-2 rounded-lg">Borrar</button>
             <span id="viaje-resultado" class="text-gris-oscuro font-medium"></span>
           </div>
           <p id="viaje-detalle" class="text-sm text-gray-600 mt-2"></p>
         </div>
 
         <!-- 2. Tiempo de recarga -->
-        <div class="card bg-white border border-gray-100 rounded-xl p-6">
-          <h2 class="text-xl font-bold text-verde-principal mb-4">Tiempo de recarga</h2>
+        <div class="card bg-emerald-50 border border-emerald-100 rounded-2xl p-6">
+          <div class="flex items-center justify-between mb-4">
+            <h2 class="text-xl font-bold text-gris-oscuro flex items-center gap-2"><span class="inline-flex items-center justify-center w-8 h-8 rounded-lg bg-verde-suave text-emerald-700"><i class="fas fa-clock"></i></span> Tiempo de recarga</h2>
+          </div>
           <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
             <div>
               <label class="calc-label" for="tiempo-capacidad">Capacidad batería (kWh)</label>
@@ -127,15 +149,18 @@
             </div>
           </div>
           <div class="mt-4 flex items-center gap-3">
-            <button id="btn-calcular-tiempo" class="bg-verde-principal hover:bg-emerald-600 text-white px-5 py-2 rounded-lg">Calcular</button>
+            <button id="btn-calcular-tiempo" class="bg-verde-principal hover:bg-emerald-600 text-white px-5 py-2 rounded-lg shadow-sm">Calcular</button>
+            <button id="btn-reset-tiempo" class="bg-gray-100 hover:bg-gray-200 text-gray-800 px-4 py-2 rounded-lg">Borrar</button>
             <span id="tiempo-resultado" class="text-gris-oscuro font-medium"></span>
           </div>
           <p id="tiempo-detalle" class="text-sm text-gray-600 mt-2"></p>
         </div>
 
         <!-- 3. Coste de recarga -->
-        <div class="card bg-white border border-gray-100 rounded-xl p-6">
-          <h2 class="text-xl font-bold text-verde-principal mb-4">Coste de recarga</h2>
+        <div class="card bg-white border border-gray-100 rounded-2xl p-6">
+          <div class="flex items-center justify-between mb-4">
+            <h2 class="text-xl font-bold text-gris-oscuro flex items-center gap-2"><span class="inline-flex items-center justify-center w-8 h-8 rounded-lg bg-verde-suave text-emerald-700"><i class="fas fa-euro-sign"></i></span> Coste de recarga</h2>
+          </div>
           <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
             <div>
               <label class="calc-label" for="coste-kwh">kWh a cargar</label>
@@ -147,14 +172,17 @@
             </div>
           </div>
           <div class="mt-4 flex items-center gap-3">
-            <button id="btn-calcular-coste" class="bg-verde-principal hover:bg-emerald-600 text-white px-5 py-2 rounded-lg">Calcular</button>
+            <button id="btn-calcular-coste" class="bg-verde-principal hover:bg-emerald-600 text-white px-5 py-2 rounded-lg shadow-sm">Calcular</button>
+            <button id="btn-reset-coste" class="bg-gray-100 hover:bg-gray-200 text-gray-800 px-4 py-2 rounded-lg">Borrar</button>
             <span id="coste-resultado" class="text-gris-oscuro font-medium"></span>
           </div>
         </div>
 
         <!-- 4. Autonomía real -->
-        <div class="card bg-white border border-gray-100 rounded-xl p-6">
-          <h2 class="text-xl font-bold text-verde-principal mb-4">Autonomía real</h2>
+        <div class="card bg-emerald-50 border border-emerald-100 rounded-2xl p-6">
+          <div class="flex items-center justify-between mb-4">
+            <h2 class="text-xl font-bold text-gris-oscuro flex items-center gap-2"><span class="inline-flex items-center justify-center w-8 h-8 rounded-lg bg-verde-suave text-emerald-700"><i class="fas fa-route"></i></span> Autonomía real</h2>
+          </div>
           <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
             <div>
               <label class="calc-label" for="auto-capacidad">Capacidad batería (kWh)</label>
@@ -178,15 +206,18 @@
             </div>
           </div>
           <div class="mt-4 flex items-center gap-3">
-            <button id="btn-calcular-auto" class="bg-verde-principal hover:bg-emerald-600 text-white px-5 py-2 rounded-lg">Calcular</button>
+            <button id="btn-calcular-auto" class="bg-verde-principal hover:bg-emerald-600 text-white px-5 py-2 rounded-lg shadow-sm">Calcular</button>
+            <button id="btn-reset-auto" class="bg-gray-100 hover:bg-gray-200 text-gray-800 px-4 py-2 rounded-lg">Borrar</button>
             <span id="auto-resultado" class="text-gris-oscuro font-medium"></span>
           </div>
           <p id="auto-detalle" class="text-sm text-gray-600 mt-2"></p>
         </div>
 
         <!-- 5. Coste por kilómetro -->
-        <div class="card bg-white border border-gray-100 rounded-xl p-6">
-          <h2 class="text-xl font-bold text-verde-principal mb-4">Coste por kilómetro</h2>
+        <div class="card bg-white border border-gray-100 rounded-2xl p-6">
+          <div class="flex items-center justify-between mb-4">
+            <h2 class="text-xl font-bold text-gris-oscuro flex items-center gap-2"><span class="inline-flex items-center justify-center w-8 h-8 rounded-lg bg-verde-suave text-emerald-700"><i class="fas fa-ruler-horizontal"></i></span> Coste por kilómetro</h2>
+          </div>
           <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
             <div>
               <label class="calc-label" for="k-cm-consumo">Consumo medio (kWh/100km)</label>
@@ -198,9 +229,28 @@
             </div>
           </div>
           <div class="mt-4 flex items-center gap-3">
-            <button id="btn-calcular-km" class="bg-verde-principal hover:bg-emerald-600 text-white px-5 py-2 rounded-lg">Calcular</button>
+            <button id="btn-calcular-km" class="bg-verde-principal hover:bg-emerald-600 text-white px-5 py-2 rounded-lg shadow-sm">Calcular</button>
+            <button id="btn-reset-km" class="bg-gray-100 hover:bg-gray-200 text-gray-800 px-4 py-2 rounded-lg">Borrar</button>
             <span id="km-resultado" class="text-gris-oscuro font-medium"></span>
           </div>
+        </div>
+      </div>
+
+      <div class="mt-16 bg-gray-50 rounded-2xl p-8 md:p-10 border border-gray-100">
+        <h2 class="text-2xl font-bold text-gris-oscuro mb-6">Ventajas de usar un coche eléctrico</h2>
+        <div class="grid md:grid-cols-2 gap-8">
+          <div>
+            <h3 class="font-semibold text-lg text-emerald-700 mb-3">Ahorro económico</h3>
+            <p class="text-gray-700">Los vehículos eléctricos tienen un <strong>coste por kilómetro significativamente menor</strong> que los de combustión. Con precios de la electricidad más estables que los combustibles fósiles, tu ahorro a largo plazo puede ser considerable.</p>
+          </div>
+          <div>
+            <h3 class="font-semibold text-lg text-emerald-700 mb-3">Mantenimiento reducido</h3>
+            <p class="text-gray-700">Al no tener motor de combustión, los coches eléctricos requieren menos mantenimiento. Olvídate de cambios de aceite, correas de distribución o problemas con el sistema de escape.</p>
+          </div>
+        </div>
+        <div class="mt-8 bg-white p-6 rounded-xl border border-emerald-100">
+          <h3 class="font-semibold text-lg text-emerald-700 mb-3">¿Sabías que...?</h3>
+          <p class="text-gray-700">Un vehículo eléctrico puede ahorrarte hasta un <strong>70% en costes de combustible</strong> en comparación con un coche de gasolina equivalente. Además, en muchas ciudades disfrutan de ventajas como acceso a zonas de bajas emisiones, aparcamiento gratuito en zonas reguladas y descuentos en peajes.</p>
         </div>
       </div>
     </section>
@@ -237,6 +287,15 @@
     const val = (id) => parseFloat(document.getElementById(id).value);
 
     const show = (id, txt) => { document.getElementById(id).textContent = txt; };
+    // Reset helpers
+    const clear = (id) => { const el = document.getElementById(id); if (el) el.value = ''; };
+    const clearText = (id) => { const el = document.getElementById(id); if (el) el.textContent = ''; };
+    const resetSelect = (id) => {
+      const el = document.getElementById(id);
+      if (!el) return;
+      const def = Array.from(el.options).find(o => o.defaultSelected) || el.options[0];
+      el.value = def ? def.value : '';
+    };
 
     // 1. Coste por viaje
     document.getElementById('btn-calcular-viaje').addEventListener('click', () => {
@@ -267,6 +326,11 @@
       }
       show('viaje-resultado', resumen);
     });
+    document.getElementById('btn-reset-viaje').addEventListener('click', () => {
+      ['viaje-km','viaje-consumo-ev','viaje-precio-kwh','viaje-precio-comb','viaje-consumo-comb'].forEach(clear);
+      clearText('viaje-resultado');
+      clearText('viaje-detalle');
+    });
 
     // 2. Tiempo de recarga
     document.getElementById('btn-calcular-tiempo').addEventListener('click', () => {
@@ -282,6 +346,11 @@
       show('tiempo-resultado', `Tiempo estimado: ${hh} h ${mm} min`);
       show('tiempo-detalle', `Energía a cargar: ${fmtNum(kwh)} kWh`);
     });
+    document.getElementById('btn-reset-tiempo').addEventListener('click', () => {
+      ['tiempo-capacidad','tiempo-actual','tiempo-deseado','tiempo-potencia'].forEach(clear);
+      clearText('tiempo-resultado');
+      clearText('tiempo-detalle');
+    });
 
     // 3. Coste de recarga
     document.getElementById('btn-calcular-coste').addEventListener('click', () => {
@@ -290,6 +359,10 @@
       if ([kwh, pkwh].some(isNaN)) { show('coste-resultado', 'Revisa los datos'); return; }
       const coste = kwh * pkwh;
       show('coste-resultado', `Coste estimado: ${fmtEur(coste)}`);
+    });
+    document.getElementById('btn-reset-coste').addEventListener('click', () => {
+      ['coste-kwh','coste-precio-kwh'].forEach(clear);
+      clearText('coste-resultado');
     });
 
     // 4. Autonomía real
@@ -312,6 +385,12 @@
       show('auto-resultado', `Autonomía estimada: ${fmtNum(autonomia, 0)} km`);
       show('auto-detalle', `Consumo ajustado: ${fmtNum(consAdj)} kWh/100 km (condiciones: ${cond}, temperatura: ${isNaN(temp)?'N/A':temp+'°C'})`);
     });
+    document.getElementById('btn-reset-auto').addEventListener('click', () => {
+      ['auto-capacidad','auto-consumo','auto-temp'].forEach(clear);
+      resetSelect('auto-cond');
+      clearText('auto-resultado');
+      clearText('auto-detalle');
+    });
 
     // 5. Coste por kilómetro
     document.getElementById('btn-calcular-km').addEventListener('click', () => {
@@ -320,6 +399,10 @@
       if ([cons, pkwh].some(isNaN)) { show('km-resultado', 'Revisa los datos'); return; }
       const costeKm = (cons/100) * pkwh;
       show('km-resultado', `Coste por km: ${fmtEur(costeKm)}`);
+    });
+    document.getElementById('btn-reset-km').addEventListener('click', () => {
+      ['k-cm-consumo','k-cm-precio'].forEach(clear);
+      clearText('km-resultado');
     });
   </script>
   <script src="/js/main.js?v=2"></script>
