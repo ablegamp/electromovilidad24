@@ -263,6 +263,61 @@
         </div>
       </div>
 
+      <!-- 6. Conversor de Unidades -->
+      <div class="card bg-white border border-gray-100 rounded-2xl p-6 mt-8">
+        <div class="flex items-center justify-between mb-4">
+          <h2 class="text-xl font-bold text-gris-oscuro flex items-center gap-2">
+            <span class="inline-flex items-center justify-center w-8 h-8 rounded-lg bg-verde-suave text-emerald-700">
+              <i class="fas fa-exchange-alt"></i>
+            </span>
+            Conversor de Unidades
+          </h2>
+        </div>
+        
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+          <!-- Columna Izquierda -->
+          <div>
+            <div class="mb-4">
+              <label for="conversion-type" class="block text-sm font-medium text-gray-700 mb-1">Tipo de conversión</label>
+              <select id="conversion-type" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-emerald-500 focus:border-emerald-500">
+                <option value="consumo">Consumo (kWh/100km ↔ km/kWh)</option>
+                <option value="energia">Energía (kWh ↔ litros de gasolina)</option>
+                <option value="potencia">Potencia (kW ↔ CV)</option>
+              </select>
+            </div>
+            
+            <div id="input-group" class="space-y-4">
+              <!-- Los campos se generarán dinámicamente con JavaScript -->
+            </div>
+            
+            <div class="mt-6 flex justify-between">
+              <button id="btn-convertir" class="bg-emerald-600 hover:bg-emerald-700 text-white px-6 py-2 rounded-lg font-medium transition-colors">
+                Convertir
+              </button>
+              <button id="btn-limpiar-conversor" class="bg-gray-100 hover:bg-gray-200 text-gray-800 px-6 py-2 rounded-lg font-medium transition-colors">
+                Limpiar
+              </button>
+            </div>
+          </div>
+          
+          <!-- Columna Derecha - Resultados -->
+          <div class="bg-gray-50 p-4 rounded-lg border border-gray-200">
+            <h3 class="font-medium text-gray-700 mb-3">Resultados:</h3>
+            <div id="resultados-conversion" class="space-y-3">
+              <p class="text-sm text-gray-500">Selecciona un tipo de conversión e introduce los valores.</p>
+            </div>
+          </div>
+        </div>
+        
+        <div class="mt-6 bg-blue-50 p-4 rounded-lg border border-blue-100">
+          <h4 class="font-medium text-blue-800 mb-2">💡 ¿Cómo usar el conversor?</h4>
+          <p class="text-sm text-blue-700">
+            Selecciona el tipo de conversión que necesitas, introduce los valores y haz clic en "Convertir". 
+            Puedes usar el botón "Limpiar" para reiniciar los campos. ¡Es muy sencillo!
+          </p>
+        </div>
+      </div>
+
       <div class="mt-16 bg-gray-50 rounded-2xl p-8 md:p-10 border border-gray-100">
         <h2 class="text-2xl font-bold text-gris-oscuro mb-6">Ventajas de usar un coche eléctrico</h2>
         <div class="grid md:grid-cols-2 gap-8">
@@ -311,18 +366,154 @@
     // Utilidades
     const fmtEur = (n) => new Intl.NumberFormat('es-ES', { style: 'currency', currency: 'EUR' }).format(n);
     const fmtNum = (n, d=2) => (isFinite(n) ? Number(n).toFixed(d) : '-');
-    const val = (id) => parseFloat(document.getElementById(id).value);
-
-    const show = (id, txt) => { document.getElementById(id).textContent = txt; };
+    const val = (id) => {
+      const element = document.getElementById(id);
+      return element ? parseFloat(element.value) || 0 : 0;
+    };
+    
+    const show = (id, txt) => { 
+      const element = document.getElementById(id);
+      if (element) element.textContent = txt; 
+    };
     // Reset helpers
     const clear = (id) => { const el = document.getElementById(id); if (el) el.value = ''; };
-    const clearText = (id) => { const el = document.getElementById(id); if (el) el.textContent = ''; };
+    const clearText = (id) => { 
+      const el = document.getElementById(id); 
+      if (el) el.textContent = ''; 
+    };
     const resetSelect = (id) => {
       const el = document.getElementById(id);
       if (!el) return;
       const def = Array.from(el.options).find(o => o.defaultSelected) || el.options[0];
       el.value = def ? def.value : '';
     };
+    
+    // Conversor de unidades
+    document.addEventListener('DOMContentLoaded', function() {
+      const conversionType = document.getElementById('conversion-type');
+      const inputGroup = document.getElementById('input-group');
+      const resultadosDiv = document.getElementById('resultados-conversion');
+      
+      // Mapeo de tipos de conversión a sus plantillas de entrada
+      const inputTemplates = {
+        consumo: `
+          <div>
+            <label for="valor-origen" class="block text-sm font-medium text-gray-700 mb-1">Valor a convertir</label>
+            <div class="flex gap-2">
+              <input type="number" id="valor-origen" class="flex-1 px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-emerald-500 focus:border-emerald-500" step="0.01" placeholder="Ej: 15">
+              <select id="unidad-origen" class="px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-emerald-500 focus:border-emerald-500">
+                <option value="kwh100km">kWh/100km</option>
+                <option value="kmkwh">km/kWh</option>
+              </select>
+            </div>
+          </div>
+        `,
+        energia: `
+          <div>
+            <label for="valor-origen" class="block text-sm font-medium text-gray-700 mb-1">Valor a convertir</label>
+            <div class="flex gap-2">
+              <input type="number" id="valor-origen" class="flex-1 px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-emerald-500 focus:border-emerald-500" step="0.01" placeholder="Ej: 50">
+              <select id="unidad-origen" class="px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-emerald-500 focus:border-emerald-500">
+                <option value="kwh">kWh</option>
+                <option value="litros">Litros de gasolina</option>
+              </select>
+            </div>
+          </div>
+          <div class="bg-yellow-50 p-3 rounded-lg border border-yellow-100">
+            <p class="text-xs text-yellow-700">Nota: 1 litro de gasolina ≈ 8.8 kWh (equivalencia energética)</p>
+          </div>
+        `,
+        potencia: `
+          <div>
+            <label for="valor-origen" class="block text-sm font-medium text-gray-700 mb-1">Valor a convertir</label>
+            <div class="flex gap-2">
+              <input type="number" id="valor-origen" class="flex-1 px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-emerald-500 focus:border-emerald-500" step="0.1" placeholder="Ej: 100">
+              <select id="unidad-origen" class="px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-emerald-500 focus:border-emerald-500">
+                <option value="kw">kW</option>
+                <option value="cv">CV</option>
+              </select>
+            </div>
+          </div>
+          <div class="bg-yellow-50 p-3 rounded-lg border border-yellow-100">
+            <p class="text-xs text-yellow-700">1 CV = 0.7355 kW | 1 kW = 1.3596 CV</p>
+          </div>
+        `
+      };
+      
+      // Función para actualizar los campos de entrada
+      function actualizarCampos() {
+        const tipo = conversionType.value;
+        inputGroup.innerHTML = inputTemplates[tipo] || '';
+      }
+      
+      // Función para realizar la conversión
+      function convertirUnidades() {
+        const tipo = conversionType.value;
+        const valor = parseFloat(document.getElementById('valor-origen')?.value);
+        const unidadOrigen = document.getElementById('unidad-origen')?.value;
+        
+        if (isNaN(valor)) {
+          resultadosDiv.innerHTML = '<p class="text-red-500 text-sm">Por favor, introduce un valor válido.</p>';
+          return;
+        }
+        
+        let resultado = '';
+        
+        switch(tipo) {
+          case 'consumo':
+            if (unidadOrigen === 'kwh100km') {
+              const kmkwh = 100 / valor;
+              resultado = `<p><span class="font-medium">${valor} kWh/100km</span> = <span class="font-bold text-emerald-700">${kmkwh.toFixed(2)} km/kWh</span></p>`;
+            } else {
+              const kwh100km = 100 / valor;
+              resultado = `<p><span class="font-medium">${valor} km/kWh</span> = <span class="font-bold text-emerald-700">${kwh100km.toFixed(2)} kWh/100km</span></p>`;
+            }
+            break;
+            
+          case 'energia':
+            if (unidadOrigen === 'kwh') {
+              const litros = valor / 8.8;
+              resultado = `<p><span class="font-medium">${valor} kWh</span> = <span class="font-bold text-emerald-700">${litros.toFixed(2)} litros de gasolina</span></p>`;
+            } else {
+              const kwh = valor * 8.8;
+              resultado = `<p><span class="font-medium">${valor} litros de gasolina</span> = <span class="font-bold text-emerald-700">${kwh.toFixed(2)} kWh</span></p>`;
+            }
+            break;
+            
+          case 'potencia':
+            if (unidadOrigen === 'kw') {
+              const cv = valor * 1.3596;
+              resultado = `<p><span class="font-medium">${valor} kW</span> = <span class="font-bold text-emerald-700">${cv.toFixed(2)} CV</span></p>`;
+            } else {
+              const kw = valor * 0.7355;
+              resultado = `<p><span class="font-medium">${valor} CV</span> = <span class="font-bold text-emerald-700">${kw.toFixed(2)} kW</span></p>`;
+            }
+            break;
+        }
+        
+        resultadosDiv.innerHTML = `
+          <div class="p-4 bg-white rounded-lg border border-emerald-100 shadow-sm">
+            <h4 class="font-medium text-gray-800 mb-2">Resultado de la conversión:</h4>
+            <div class="text-lg">${resultado}</div>
+            <p class="text-xs text-gray-500 mt-2">Los valores son aproximados y pueden variar según las condiciones reales.</p>
+          </div>
+        `;
+      }
+      
+      // Event listeners
+      conversionType.addEventListener('change', actualizarCampos);
+      
+      document.getElementById('btn-convertir')?.addEventListener('click', convertirUnidades);
+      
+      document.getElementById('btn-limpiar-conversor')?.addEventListener('click', function() {
+        const inputs = inputGroup.querySelectorAll('input[type="number"]');
+        inputs.forEach(input => input.value = '');
+        resultadosDiv.innerHTML = '<p class="text-sm text-gray-500">Selecciona un tipo de conversión e introduce los valores.</p>';
+      });
+      
+      // Inicializar
+      actualizarCampos();
+    });
 
     // 1. Coste por viaje
     document.getElementById('btn-calcular-viaje').addEventListener('click', () => {
