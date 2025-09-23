@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Sobre Nosotros - Movilidad Eléctrica 24</title>
+  <title>Sobre mí - Movilidad Eléctrica 24</title>
   <meta name="description" content="Conoce el proyecto Movilidad Eléctrica 24 y nuestra misión de informar sobre el futuro de la movilidad.">
   <script src="https://cdn.tailwindcss.com"></script>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.0/css/all.min.css">
@@ -11,42 +11,91 @@
   <script>
     tailwind.config = { theme: { extend: { fontFamily: { inter: ['Inter','sans-serif'] }, colors: { 'verde-principal':'#10B981','gris-oscuro':'#1F2937','gris-claro':'#F9FAFB' } } } }
   </script>
-  <style> body{font-family:'Inter',sans-serif} .prose h2{margin-top:1.5rem}</style>
+  <style> body{font-family:'Inter',sans-serif} .prose h2{margin-top:1.5rem} .prose p{margin-top:1rem;margin-bottom:1rem;line-height:1.8}</style>
   <link rel="canonical" href="/sobre.html">
   <link rel="icon" type="image/svg+xml" href="/favicon.svg">
 </head>
 <body class="bg-gris-claro min-h-screen text-gris-oscuro">
-  <header class="bg-white shadow sticky top-0 z-50">
-    <div class="container mx-auto px-4 py-4 flex items-center justify-between">
-      <a href="/index.html" class="flex items-center space-x-3">
-        <div class="bg-verde-principal text-white rounded-lg p-2"><i class="fas fa-charging-station text-xl"></i></div>
-        <div>
-          <span class="text-xl md:text-2xl font-bold">Movilidad Eléctrica 24</span>
-          <p class="text-xs text-gray-600">Noticias sobre el futuro de la movilidad</p>
+  <header class="bg-white shadow-lg sticky top-0 z-50">
+    <div class="container mx-auto px-4 py-4">
+      <!-- Logo y título -->
+      <div class="flex items-center justify-between">
+        <div class="flex items-center space-x-3">
+          <div class="bg-verde-principal text-white rounded-lg p-2">
+            <i class="fas fa-charging-station text-2xl"></i>
+          </div>
+          <div>
+            <h1 class="text-2xl md:text-3xl font-bold text-gris-oscuro">Movilidad Eléctrica 24</h1>
+            <p class="text-sm text-gray-600">Noticias sobre el futuro de la movilidad</p>
+          </div>
         </div>
-      </a>
+
+        <!-- Botón menú móvil -->
+        <button id="mobile-menu-btn" class="md:hidden bg-verde-principal text-white p-2 rounded-lg">
+          <i class="fas fa-bars"></i>
+        </button>
+      </div>
+
+      <!-- Navegación -->
+      <nav class="mt-4">
+        <ul id="nav-menu" class="hidden md:flex space-x-8 text-gris-oscuro font-medium">
+          <li><a href="/index.html#news-section" class="hover:text-verde-principal transition-colors duration-200">Noticias</a></li>
+          <li><a href="#" class="hover:text-verde-principal transition-colors duration-200">Comparativas</a></li>
+          <li><a href="#" class="hover:text-verde-principal transition-colors duration-200">Reviews</a></li>
+          <li><a href="/sobre.html" class="hover:text-verde-principal transition-colors duration-200 border-b-2 border-verde-principal pb-1">Sobre mí</a></li>
+          <li><a href="/contacto.html" class="hover:text-verde-principal transition-colors duration-200">Contacto</a></li>
+        </ul>
+
+        <!-- Menú móvil -->
+        <ul id="mobile-nav" class="md:hidden hidden flex-col space-y-3 mt-4 bg-gray-50 p-4 rounded-lg">
+          <li><a href="/index.html#news-section" class="block text-gris-oscuro hover:text-verde-principal font-medium">Noticias</a></li>
+          <li><a href="#" class="block text-gris-oscuro hover:text-verde-principal font-medium">Comparativas</a></li>
+          <li><a href="#" class="block text-gris-oscuro hover:text-verde-principal font-medium">Reviews</a></li>
+          <li><a href="/sobre.html" class="block text-gris-oscuro hover:text-verde-principal font-medium">Sobre mí</a></li>
+          <li><a href="/contacto.html" class="block text-gris-oscuro hover:text-verde-principal font-medium">Contacto</a></li>
+        </ul>
+      </nav>
     </div>
   </header>
 
   <main class="container mx-auto px-4 py-10">
     <nav class="text-sm text-gray-600 mb-6" aria-label="breadcrumb">
-      <ol class="list-reset flex"><li><a class="hover:text-verde-principal" href="/index.html">Inicio</a></li><li class="mx-2">/</li><li class="text-gray-500">Sobre Nosotros</li></ol>
+      <ol class="list-reset flex"><li><a class="hover:text-verde-principal" href="/index.html">Inicio</a></li><li class="mx-2">/</li><li class="text-gray-500">Sobre mí</li></ol>
     </nav>
 
     <section class="bg-white rounded-2xl shadow p-6 md:p-10">
       <header class="mb-6">
-        <h1 class="text-3xl md:text-4xl font-extrabold">Sobre Nosotros</h1>
+        <h1 class="text-3xl md:text-4xl font-extrabold">Sobre mí</h1>
         <p class="text-gray-600 mt-2">Nuestra misión y visión.</p>
       </header>
 
       <div class="prose max-w-none text-gray-800">
-        <p>Movilidad Eléctrica 24 es un proyecto dedicado a informar sobre la transición hacia una movilidad más sostenible: coches, bicicletas y scooters eléctricos, comparativas y reviews.</p>
-        <h2>Misión</h2>
-        <p>Acercar al público información clara, útil y actualizada sobre movilidad eléctrica.</p>
-        <h2>Visión</h2>
-        <p>Contribuir a una adopción más informada de tecnologías de transporte sostenibles.</p>
+        <div class="grid md:grid-cols-3 gap-8 items-start not-prose">
+          <div class="md:col-span-1 flex md:block justify-center">
+            <img src="/imagenes/perfil.png" alt="Autor del blog Movilidad Eléctrica 24" class="w-40 h-40 md:w-48 md:h-48 rounded-full object-cover ring-4 ring-emerald-100 shadow" loading="lazy">
+          </div>
+          <div class="md:col-span-2 prose">
+            <p>Tengo unos 50 años y una energía que, dicen en casa, parece que la cargo por las noches enchufado a la pared. Soy un apasionado de la movilidad eléctrica desde que descubrí que conducir en silencio no solo es posible, sino adictivo.</p>
+            <p>La primera vez que instalé un enchufe en el garaje, mi vecino me preguntó si estaba montando una nave espacial. A los tres meses, él me pedía consejo para comprar su primer coche eléctrico (y sí, también terminó instalando un wallbox… con más luces que su árbol de Navidad).</p>
+            <p>He vivido el famoso “range anxiety”: una tarde volviendo a casa, me quedé a un 2% a dos calles de mi portal. Un vecino héroe apareció con un alargador de 20 metros. Desde entonces, llevo mejor calculadas las rutas… y siempre una dosis de humor, que también ayuda a empujar el coche si hace falta.</p>
+            <p>En este blog quiero ayudarte a elegir con cabeza: comparar consumos reales, entender qué batería te conviene, cómo cargar más barato y cómo desmontar esos mitos que te suelta el cuñado en las comidas (“eso en invierno no anda”, “las baterías duran dos telediarios”… te suenan, ¿verdad?).</p>
+            <p>Mi objetivo es claro: que disfrutes de la movilidad eléctrica sin complicaciones, que ahorres tiempo, dinero y algún que otro disgusto. Y si de paso nos echamos unas risas, mejor que mejor.</p>
+          </div>
+        </div>
+
+        <h2 class="mt-10 text-verde-principal">Cómo puedo ayudarte</h2>
+        <p>Publico guías claras, comparativas sinceras y reviews con datos reales, no solo ficha técnica. También comparto trucos de carga, mantenimiento y planificación de viajes largos (sí, se puede ir de vacaciones con un eléctrico sin convertirlo en una expedición).</p>
+        <p>¿Tienes dudas concretas? Escríbeme y preparo contenido sobre ello. Este proyecto también es tuyo: nace de preguntas reales de usuarios reales.</p>
+
+        <h2 class="mt-10 text-verde-principal">Más sobre el proyecto</h2>
+        <p>Movilidad Eléctrica 24 existe para acercarte información útil y actualizada sobre coches, bicis y scooters eléctricos, con una mirada práctica y humana.</p>
+        <ul>
+          <li><strong>Misión:</strong> Acercar al público información clara, útil y accionable sobre movilidad eléctrica.</li>
+          <li><strong>Visión:</strong> Contribuir a una adopción informada y alegre de un transporte más sostenible.</li>
+        </ul>
+
         <h2>Contacto</h2>
-        <p>Puedes escribirnos a <a class="text-verde-principal hover:underline" href="mailto:contacto@movilidadelectrica24.com">contacto@movilidadelectrica24.com</a>.</p>
+        <p>Puedes escribirme a <a class="text-verde-principal hover:underline" href="mailto:contacto@movilidadelectrica24.com">contacto@movilidadelectrica24.com</a>. Me encantará leerte.</p>
       </div>
     </section>
   </main>

@@ -23,6 +23,9 @@
   <script src="https://cdn.tailwindcss.com"></script>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.0/css/all.min.css">
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <script>
+    tailwind.config = { theme: { extend: { fontFamily: { inter: ['Inter','sans-serif'] }, colors: { 'verde-principal':'#10B981','gris-oscuro':'#1F2937','gris-claro':'#F9FAFB' } } } }
+  </script>
   <style>
     body { font-family: 'Inter', sans-serif; }
     /* Estilos tipográficos sin plugin Typography */
@@ -83,16 +86,45 @@
   </script>
 </head>
 <body class="bg-gray-50 text-gray-900">
-  <header class="bg-white border-b">
-    <div class="max-w-4xl mx-auto px-4 py-4 flex items-center justify-between">
-      <div class="flex items-center space-x-3">
-        <div class="bg-emerald-500 text-white rounded-lg p-2"><i class="fas fa-charging-station"></i></div>
-        <div>
-          <h1 class="text-xl font-bold">Movilidad Eléctrica 24</h1>
-          <p class="text-sm text-gray-600">Opinión y análisis desde la trinchera eléctrica</p>
+  <header class="bg-white shadow-lg sticky top-0 z-50">
+    <div class="container mx-auto px-4 py-4">
+      <!-- Logo y título -->
+      <div class="flex items-center justify-between">
+        <div class="flex items-center space-x-3">
+          <div class="bg-verde-principal text-white rounded-lg p-2">
+            <i class="fas fa-charging-station text-2xl"></i>
+          </div>
+          <div>
+            <h1 class="text-2xl md:text-3xl font-bold text-gris-oscuro">Movilidad Eléctrica 24</h1>
+            <p class="text-sm text-gray-600">Noticias sobre el futuro de la movilidad</p>
+          </div>
         </div>
+
+        <!-- Botón menú móvil -->
+        <button id="mobile-menu-btn" class="md:hidden bg-verde-principal text-white p-2 rounded-lg">
+          <i class="fas fa-bars"></i>
+        </button>
       </div>
-      <a href="../index.html" class="text-emerald-600 hover:text-emerald-700 font-medium">Volver a la portada</a>
+
+      <!-- Navegación -->
+      <nav class="mt-4">
+        <ul id="nav-menu" class="hidden md:flex space-x-8 text-gris-oscuro font-medium">
+          <li><a href="../index.html#news-section" class="hover:text-verde-principal transition-colors duration-200">Noticias</a></li>
+          <li><a href="#" class="hover:text-verde-principal transition-colors duration-200">Comparativas</a></li>
+          <li><a href="#" class="hover:text-verde-principal transition-colors duration-200">Reviews</a></li>
+          <li><a href="../sobre.html" class="hover:text-verde-principal transition-colors duration-200">Sobre mí</a></li>
+          <li><a href="../contacto.html" class="hover:text-verde-principal transition-colors duration-200">Contacto</a></li>
+        </ul>
+
+        <!-- Menú móvil -->
+        <ul id="mobile-nav" class="md:hidden hidden flex-col space-y-3 mt-4 bg-gray-50 p-4 rounded-lg">
+          <li><a href="../index.html#news-section" class="block text-gris-oscuro hover:text-verde-principal font-medium">Noticias</a></li>
+          <li><a href="#" class="block text-gris-oscuro hover:text-verde-principal font-medium">Comparativas</a></li>
+          <li><a href="#" class="block text-gris-oscuro hover:text-verde-principal font-medium">Reviews</a></li>
+          <li><a href="../sobre.html" class="block text-gris-oscuro hover:text-verde-principal font-medium">Sobre mí</a></li>
+          <li><a href="../contacto.html" class="block text-gris-oscuro hover:text-verde-principal font-medium">Contacto</a></li>
+        </ul>
+      </nav>
     </div>
   </header>
 
@@ -249,5 +281,6 @@
       <p class="text-gray-400">© 2025 Movilidad Eléctrica 24</p>
     </div>
   </footer>
+  <script src="../js/main.js?v=2"></script>
 </body>
 </html>
