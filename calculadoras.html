@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculadoras eléctricas - Movilidad Eléctrica 24</title>
+  <meta name="description" content="Calcula el coste por viaje, tiempo y coste de recarga, autonomía real y coste por kilómetro para tu vehículo eléctrico.">
+  <link rel="canonical" href="/calculadoras.html">
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.0/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <script>
+    tailwind.config = { theme: { extend: { fontFamily: { inter: ['Inter','sans-serif'] }, colors: { 'verde-principal':'#10B981','gris-oscuro':'#1F2937','gris-claro':'#F9FAFB' } } } }
+  </script>
+  <style>
+    body { font-family: 'Inter', sans-serif; }
+    .card { transition: transform .15s ease, box-shadow .15s ease }
+    .card:hover { transform: translateY(-2px); box-shadow: 0 10px 25px -5px rgba(0,0,0,.1), 0 8px 10px -6px rgba(0,0,0,.1) }
+    .calc-label { @apply block text-sm font-medium text-gray-700 mb-1; }
+    .calc-input { @apply w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-verde-principal; }
+  </style>
+</head>
+<body class="bg-gris-claro min-h-screen text-gris-oscuro">
+  <!-- Header -->
+  <header class="bg-white shadow-lg sticky top-0 z-50">
+    <div class="container mx-auto px-4 py-4">
+      <div class="flex items-center justify-between">
+        <div class="flex items-center space-x-3">
+          <div class="bg-verde-principal text-white rounded-lg p-2">
+            <i class="fas fa-charging-station text-2xl"></i>
+          </div>
+          <div>
+            <h1 class="text-2xl md:text-3xl font-bold text-gris-oscuro">Movilidad Eléctrica 24</h1>
+            <p class="text-sm text-gray-600">Noticias sobre el futuro de la movilidad</p>
+          </div>
+        </div>
+        <button id="mobile-menu-btn" class="md:hidden bg-verde-principal text-white p-2 rounded-lg">
+          <i class="fas fa-bars"></i>
+        </button>
+      </div>
+      <nav class="mt-4">
+        <ul id="nav-menu" class="hidden md:flex space-x-8 text-gris-oscuro font-medium">
+          <li><a href="/index.html#news-section" class="hover:text-verde-principal transition-colors duration-200">Noticias</a></li>
+          <li><a href="#" class="hover:text-verde-principal transition-colors duration-200">Comparativas</a></li>
+          <li><a href="#" class="hover:text-verde-principal transition-colors duration-200">Reviews</a></li>
+          <li><a href="/calculadoras.html" class="hover:text-verde-principal transition-colors duration-200 border-b-2 border-verde-principal pb-1">Calculadoras eléctricas</a></li>
+          <li><a href="/sobre.html" class="hover:text-verde-principal transition-colors duration-200">Sobre mí</a></li>
+          <li><a href="/contacto.html" class="hover:text-verde-principal transition-colors duration-200">Contacto</a></li>
+        </ul>
+        <ul id="mobile-nav" class="md:hidden hidden flex-col space-y-3 mt-4 bg-gray-50 p-4 rounded-lg">
+          <li><a href="/index.html#news-section" class="block text-gris-oscuro hover:text-verde-principal font-medium">Noticias</a></li>
+          <li><a href="#" class="block text-gris-oscuro hover:text-verde-principal font-medium">Comparativas</a></li>
+          <li><a href="#" class="block text-gris-oscuro hover:text-verde-principal font-medium">Reviews</a></li>
+          <li><a href="/calculadoras.html" class="block text-gris-oscuro hover:text-verde-principal font-medium">Calculadoras eléctricas</a></li>
+          <li><a href="/sobre.html" class="block text-gris-oscuro hover:text-verde-principal font-medium">Sobre mí</a></li>
+          <li><a href="/contacto.html" class="block text-gris-oscuro hover:text-verde-principal font-medium">Contacto</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container mx-auto px-4 py-10">
+    <nav class="text-sm text-gray-600 mb-6" aria-label="breadcrumb">
+      <ol class="list-reset flex"><li><a class="hover:text-verde-principal" href="/index.html">Inicio</a></li><li class="mx-2">/</li><li class="text-gray-500">Calculadoras eléctricas</li></ol>
+    </nav>
+
+    <section class="bg-white rounded-2xl shadow p-6 md:p-10">
+      <header class="mb-8">
+        <h1 class="text-3xl md:text-4xl font-extrabold">Calculadoras eléctricas</h1>
+        <p class="text-gray-600 mt-2">Herramientas rápidas para el día a día: costes, tiempos y autonomía.</p>
+      </header>
+
+      <div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
+        <!-- 1. Coste por viaje -->
+        <div class="card bg-white border border-gray-100 rounded-xl p-6">
+          <h2 class="text-xl font-bold text-verde-principal mb-4">Coste por viaje</h2>
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+            <div>
+              <label class="calc-label" for="viaje-km">Kilómetros</label>
+              <input id="viaje-km" type="number" min="0" step="0.1" class="calc-input" placeholder="ej. 120">
+            </div>
+            <div>
+              <label class="calc-label" for="viaje-consumo-ev">Consumo EV (kWh/100km)</label>
+              <input id="viaje-consumo-ev" type="number" min="0" step="0.1" class="calc-input" placeholder="ej. 16">
+            </div>
+            <div>
+              <label class="calc-label" for="viaje-precio-kwh">Precio kWh (€)</label>
+              <input id="viaje-precio-kwh" type="number" min="0" step="0.001" class="calc-input" placeholder="ej. 0.18">
+            </div>
+            <div>
+              <label class="calc-label" for="viaje-precio-comb">Precio combustible (€/L)</label>
+              <input id="viaje-precio-comb" type="number" min="0" step="0.001" class="calc-input" placeholder="ej. 1.70">
+            </div>
+            <div>
+              <label class="calc-label" for="viaje-consumo-comb">Consumo combustible (L/100km)</label>
+              <input id="viaje-consumo-comb" type="number" min="0" step="0.1" class="calc-input" placeholder="ej. 6.5">
+            </div>
+          </div>
+          <div class="mt-4 flex items-center gap-3">
+            <button id="btn-calcular-viaje" class="bg-verde-principal hover:bg-emerald-600 text-white px-5 py-2 rounded-lg">Calcular</button>
+            <span id="viaje-resultado" class="text-gris-oscuro font-medium"></span>
+          </div>
+          <p id="viaje-detalle" class="text-sm text-gray-600 mt-2"></p>
+        </div>
+
+        <!-- 2. Tiempo de recarga -->
+        <div class="card bg-white border border-gray-100 rounded-xl p-6">
+          <h2 class="text-xl font-bold text-verde-principal mb-4">Tiempo de recarga</h2>
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+            <div>
+              <label class="calc-label" for="tiempo-capacidad">Capacidad batería (kWh)</label>
+              <input id="tiempo-capacidad" type="number" min="0" step="0.1" class="calc-input" placeholder="ej. 64">
+            </div>
+            <div>
+              <label class="calc-label" for="tiempo-actual">% actual</label>
+              <input id="tiempo-actual" type="number" min="0" max="100" step="1" class="calc-input" placeholder="ej. 20">
+            </div>
+            <div>
+              <label class="calc-label" for="tiempo-deseado">% deseado</label>
+              <input id="tiempo-deseado" type="number" min="0" max="100" step="1" class="calc-input" placeholder="ej. 80">
+            </div>
+            <div>
+              <label class="calc-label" for="tiempo-potencia">Potencia de carga (kW)</label>
+              <input id="tiempo-potencia" type="number" min="0" step="0.1" class="calc-input" placeholder="ej. 11">
+            </div>
+          </div>
+          <div class="mt-4 flex items-center gap-3">
+            <button id="btn-calcular-tiempo" class="bg-verde-principal hover:bg-emerald-600 text-white px-5 py-2 rounded-lg">Calcular</button>
+            <span id="tiempo-resultado" class="text-gris-oscuro font-medium"></span>
+          </div>
+          <p id="tiempo-detalle" class="text-sm text-gray-600 mt-2"></p>
+        </div>
+
+        <!-- 3. Coste de recarga -->
+        <div class="card bg-white border border-gray-100 rounded-xl p-6">
+          <h2 class="text-xl font-bold text-verde-principal mb-4">Coste de recarga</h2>
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+            <div>
+              <label class="calc-label" for="coste-kwh">kWh a cargar</label>
+              <input id="coste-kwh" type="number" min="0" step="0.1" class="calc-input" placeholder="ej. 30">
+            </div>
+            <div>
+              <label class="calc-label" for="coste-precio-kwh">Precio kWh (€)</label>
+              <input id="coste-precio-kwh" type="number" min="0" step="0.001" class="calc-input" placeholder="ej. 0.18">
+            </div>
+          </div>
+          <div class="mt-4 flex items-center gap-3">
+            <button id="btn-calcular-coste" class="bg-verde-principal hover:bg-emerald-600 text-white px-5 py-2 rounded-lg">Calcular</button>
+            <span id="coste-resultado" class="text-gris-oscuro font-medium"></span>
+          </div>
+        </div>
+
+        <!-- 4. Autonomía real -->
+        <div class="card bg-white border border-gray-100 rounded-xl p-6">
+          <h2 class="text-xl font-bold text-verde-principal mb-4">Autonomía real</h2>
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+            <div>
+              <label class="calc-label" for="auto-capacidad">Capacidad batería (kWh)</label>
+              <input id="auto-capacidad" type="number" min="0" step="0.1" class="calc-input" placeholder="ej. 60">
+            </div>
+            <div>
+              <label class="calc-label" for="auto-consumo">Consumo medio (kWh/100km)</label>
+              <input id="auto-consumo" type="number" min="0" step="0.1" class="calc-input" placeholder="ej. 16">
+            </div>
+            <div>
+              <label class="calc-label" for="auto-cond">Condiciones de conducción</label>
+              <select id="auto-cond" class="calc-input">
+                <option value="urbana">Urbana</option>
+                <option value="mixta" selected>Mixta</option>
+                <option value="autopista">Autopista</option>
+              </select>
+            </div>
+            <div>
+              <label class="calc-label" for="auto-temp">Temperatura (°C)</label>
+              <input id="auto-temp" type="number" step="1" class="calc-input" placeholder="ej. 20">
+            </div>
+          </div>
+          <div class="mt-4 flex items-center gap-3">
+            <button id="btn-calcular-auto" class="bg-verde-principal hover:bg-emerald-600 text-white px-5 py-2 rounded-lg">Calcular</button>
+            <span id="auto-resultado" class="text-gris-oscuro font-medium"></span>
+          </div>
+          <p id="auto-detalle" class="text-sm text-gray-600 mt-2"></p>
+        </div>
+
+        <!-- 5. Coste por kilómetro -->
+        <div class="card bg-white border border-gray-100 rounded-xl p-6">
+          <h2 class="text-xl font-bold text-verde-principal mb-4">Coste por kilómetro</h2>
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+            <div>
+              <label class="calc-label" for="k-cm-consumo">Consumo medio (kWh/100km)</label>
+              <input id="k-cm-consumo" type="number" min="0" step="0.1" class="calc-input" placeholder="ej. 16">
+            </div>
+            <div>
+              <label class="calc-label" for="k-cm-precio">Precio kWh (€)</label>
+              <input id="k-cm-precio" type="number" min="0" step="0.001" class="calc-input" placeholder="ej. 0.18">
+            </div>
+          </div>
+          <div class="mt-4 flex items-center gap-3">
+            <button id="btn-calcular-km" class="bg-verde-principal hover:bg-emerald-600 text-white px-5 py-2 rounded-lg">Calcular</button>
+            <span id="km-resultado" class="text-gris-oscuro font-medium"></span>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="bg-gris-oscuro text-white py-12 mt-16">
+    <div class="container mx-auto px-4">
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+        <div>
+          <div class="flex items-center space-x-3 mb-4">
+            <div class="bg-verde-principal text-white rounded-lg p-2"><i class="fas fa-charging-station text-xl"></i></div>
+            <h3 class="text-xl font-bold">Movilidad Eléctrica 24</h3>
+          </div>
+          <p class="text-gray-300">Tu fuente confiable de noticias sobre movilidad eléctrica.</p>
+        </div>
+        <div>
+          <h4 class="text-lg font-semibold mb-4">Enlaces Útiles</h4>
+          <ul class="space-y-2">
+            <li><a href="/privacidad.html" class="text-gray-300 hover:text-verde-principal transition-colors">Política de Privacidad</a></li>
+            <li><a href="/terminos.html" class="text-gray-300 hover:text-verde-principal transition-colors">Términos de Uso</a></li>
+            <li><a href="/contacto.html" class="text-gray-300 hover:text-verde-principal transition-colors">Contacto</a></li>
+            <li><a href="/index.html" class="text-gray-300 hover:text-verde-principal transition-colors">Volver al Inicio</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="border-t border-gray-700 mt-8 pt-8 text-center"><p class="text-gray-400">© 2025 Movilidad Eléctrica 24</p></div>
+    </div>
+  </footer>
+
+  <script>
+    // Utilidades
+    const fmtEur = (n) => new Intl.NumberFormat('es-ES', { style: 'currency', currency: 'EUR' }).format(n);
+    const fmtNum = (n, d=2) => (isFinite(n) ? Number(n).toFixed(d) : '-');
+    const val = (id) => parseFloat(document.getElementById(id).value);
+
+    const show = (id, txt) => { document.getElementById(id).textContent = txt; };
+
+    // 1. Coste por viaje
+    document.getElementById('btn-calcular-viaje').addEventListener('click', () => {
+      const km = val('viaje-km');
+      const evCons = val('viaje-consumo-ev'); // kWh/100km
+      const pkwh = val('viaje-precio-kwh');
+      const pcomb = val('viaje-precio-comb'); // €/L
+      const ccomb = val('viaje-consumo-comb'); // L/100km
+
+      if ([km, evCons, pkwh].some(isNaN)) { show('viaje-resultado', 'Completa los campos básicos'); return; }
+
+      const evEnergy = (evCons/100) * km; // kWh
+      const evCost = evEnergy * pkwh;
+
+      let iceCost = null;
+      if (!isNaN(pcomb) && !isNaN(ccomb)) {
+        const liters = (ccomb/100) * km;
+        iceCost = liters * pcomb;
+      }
+
+      let resumen = `Coste EV: ${fmtEur(evCost)}`;
+      if (iceCost !== null) {
+        const diff = iceCost - evCost;
+        resumen += ` | Combustión: ${fmtEur(iceCost)} (${diff >= 0 ? 'ahorro EV' : 'extra EV'}: ${fmtEur(Math.abs(diff))})`;
+        show('viaje-detalle', `Energía usada: ${fmtNum(evEnergy)} kWh · Litros estimados: ${isFinite(iceCost) ? fmtNum((ccomb/100)*km) : '-'} L`);
+      } else {
+        show('viaje-detalle', `Energía usada: ${fmtNum(evEnergy)} kWh`);
+      }
+      show('viaje-resultado', resumen);
+    });
+
+    // 2. Tiempo de recarga
+    document.getElementById('btn-calcular-tiempo').addEventListener('click', () => {
+      const cap = val('tiempo-capacidad'); // kWh
+      const pctA = val('tiempo-actual');
+      const pctD = val('tiempo-deseado');
+      const pwr = val('tiempo-potencia'); // kW
+      if ([cap, pctA, pctD, pwr].some(isNaN) || pctD < pctA) { show('tiempo-resultado', 'Revisa los datos'); return; }
+      const kwh = cap * (pctD - pctA) / 100; // kWh a cargar
+      const horas = kwh / (pwr || 1);
+      const hh = Math.floor(horas);
+      const mm = Math.round((horas - hh)*60);
+      show('tiempo-resultado', `Tiempo estimado: ${hh} h ${mm} min`);
+      show('tiempo-detalle', `Energía a cargar: ${fmtNum(kwh)} kWh`);
+    });
+
+    // 3. Coste de recarga
+    document.getElementById('btn-calcular-coste').addEventListener('click', () => {
+      const kwh = val('coste-kwh');
+      const pkwh = val('coste-precio-kwh');
+      if ([kwh, pkwh].some(isNaN)) { show('coste-resultado', 'Revisa los datos'); return; }
+      const coste = kwh * pkwh;
+      show('coste-resultado', `Coste estimado: ${fmtEur(coste)}`);
+    });
+
+    // 4. Autonomía real
+    document.getElementById('btn-calcular-auto').addEventListener('click', () => {
+      const cap = val('auto-capacidad');
+      let cons = val('auto-consumo'); // kWh/100km base
+      const cond = document.getElementById('auto-cond').value;
+      const temp = val('auto-temp');
+      if ([cap, cons].some(isNaN)) { show('auto-resultado', 'Revisa los datos'); return; }
+      // Ajustes simples
+      const condFactor = cond === 'urbana' ? 0.95 : (cond === 'mixta' ? 1.00 : 1.15); // autopista penaliza
+      let tempFactor = 1.0;
+      if (!isNaN(temp)) {
+        if (temp < 0) tempFactor = 1.25; // mucho frío
+        else if (temp < 10) tempFactor = 1.12; // frío moderado
+        else if (temp > 35) tempFactor = 1.10; // calor fuerte
+      }
+      const consAdj = cons * condFactor * tempFactor;
+      const autonomia = (cap / consAdj) * 100; // km
+      show('auto-resultado', `Autonomía estimada: ${fmtNum(autonomia, 0)} km`);
+      show('auto-detalle', `Consumo ajustado: ${fmtNum(consAdj)} kWh/100 km (condiciones: ${cond}, temperatura: ${isNaN(temp)?'N/A':temp+'°C'})`);
+    });
+
+    // 5. Coste por kilómetro
+    document.getElementById('btn-calcular-km').addEventListener('click', () => {
+      const cons = val('k-cm-consumo');
+      const pkwh = val('k-cm-precio');
+      if ([cons, pkwh].some(isNaN)) { show('km-resultado', 'Revisa los datos'); return; }
+      const costeKm = (cons/100) * pkwh;
+      show('km-resultado', `Coste por km: ${fmtEur(costeKm)}`);
+    });
+  </script>
+  <script src="/js/main.js?v=2"></script>
+</body>
+</html>
