@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sobre Nosotros - Movilidad Eléctrica 24</title>
+  <meta name="description" content="Conoce el proyecto Movilidad Eléctrica 24 y nuestra misión de informar sobre el futuro de la movilidad.">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.0/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <script>
+    tailwind.config = { theme: { extend: { fontFamily: { inter: ['Inter','sans-serif'] }, colors: { 'verde-principal':'#10B981','gris-oscuro':'#1F2937','gris-claro':'#F9FAFB' } } } }
+  </script>
+  <style> body{font-family:'Inter',sans-serif} .prose h2{margin-top:1.5rem}</style>
+  <link rel="canonical" href="/sobre.html">
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+</head>
+<body class="bg-gris-claro min-h-screen text-gris-oscuro">
+  <header class="bg-white shadow sticky top-0 z-50">
+    <div class="container mx-auto px-4 py-4 flex items-center justify-between">
+      <a href="/index.html" class="flex items-center space-x-3">
+        <div class="bg-verde-principal text-white rounded-lg p-2"><i class="fas fa-charging-station text-xl"></i></div>
+        <div>
+          <span class="text-xl md:text-2xl font-bold">Movilidad Eléctrica 24</span>
+          <p class="text-xs text-gray-600">Noticias sobre el futuro de la movilidad</p>
+        </div>
+      </a>
+    </div>
+  </header>
+
+  <main class="container mx-auto px-4 py-10">
+    <nav class="text-sm text-gray-600 mb-6" aria-label="breadcrumb">
+      <ol class="list-reset flex"><li><a class="hover:text-verde-principal" href="/index.html">Inicio</a></li><li class="mx-2">/</li><li class="text-gray-500">Sobre Nosotros</li></ol>
+    </nav>
+
+    <section class="bg-white rounded-2xl shadow p-6 md:p-10">
+      <header class="mb-6">
+        <h1 class="text-3xl md:text-4xl font-extrabold">Sobre Nosotros</h1>
+        <p class="text-gray-600 mt-2">Nuestra misión y visión.</p>
+      </header>
+
+      <div class="prose max-w-none text-gray-800">
+        <p>Movilidad Eléctrica 24 es un proyecto dedicado a informar sobre la transición hacia una movilidad más sostenible: coches, bicicletas y scooters eléctricos, comparativas y reviews.</p>
+        <h2>Misión</h2>
+        <p>Acercar al público información clara, útil y actualizada sobre movilidad eléctrica.</p>
+        <h2>Visión</h2>
+        <p>Contribuir a una adopción más informada de tecnologías de transporte sostenibles.</p>
+        <h2>Contacto</h2>
+        <p>Puedes escribirnos a <a class="text-verde-principal hover:underline" href="mailto:contacto@movilidadelectrica24.com">contacto@movilidadelectrica24.com</a>.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="bg-gris-oscuro text-white py-12 mt-16">
+    <div class="container mx-auto px-4">
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+        <div>
+          <div class="flex items-center space-x-3 mb-4">
+            <div class="bg-verde-principal text-white rounded-lg p-2"><i class="fas fa-charging-station text-xl"></i></div>
+            <h3 class="text-xl font-bold">Movilidad Eléctrica 24</h3>
+          </div>
+          <p class="text-gray-300">Tu fuente confiable de noticias sobre movilidad eléctrica.</p>
+        </div>
+        <div>
+          <h4 class="text-lg font-semibold mb-4">Enlaces Útiles</h4>
+          <ul class="space-y-2">
+            <li><a href="/privacidad.html" class="text-gray-300 hover:text-verde-principal transition-colors">Política de Privacidad</a></li>
+            <li><a href="/terminos.html" class="text-gray-300 hover:text-verde-principal transition-colors">Términos de Uso</a></li>
+            <li><a href="/contacto.html" class="text-gray-300 hover:text-verde-principal transition-colors">Contacto</a></li>
+            <li><button onclick="openCookieSettings()" class="text-gray-300 hover:text-verde-principal transition-colors">Configurar cookies</button></li>
+            <li><a href="/index.html" class="text-gray-300 hover:text-verde-principal transition-colors">Volver al Inicio</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="border-t border-gray-700 mt-8 pt-8 text-center"><p class="text-gray-400">© 2025 Movilidad Eléctrica 24</p></div>
+    </div>
+  </footer>
+
+  <script src="js/main.js?v=2"></script>
+</body>
+</html>

@@ -392,6 +392,14 @@ document.addEventListener('DOMContentLoaded', function() {
             hero.style.transform = `translateY(${scrolled * 0.1}px)`;
         }
     });
+
+    // Inicializar banner de cookies y analítica si ya hay consentimiento
+    initCookieBanner();
+    try {
+        if (localStorage.getItem('cookieConsent') === 'accepted') {
+            loadAnalytics();
+        }
+    } catch (e) {}
 });
 
 // Función para compartir noticias
@@ -459,12 +467,93 @@ function logPerformanceMetrics() {
 // Inicializar aplicación cuando el DOM esté listo
 document.addEventListener('DOMContentLoaded', () => {
     console.log('🚀 Iniciando Movilidad Eléctrica 24...');
-    
+        
     // Inicializar métricas de rendimiento
     logPerformanceMetrics();
-    
+        
     // Inicializar aplicación principal
-    new MovilidadElectrica();
-    
+    // Solo inicializar si existe el contenedor de noticias para evitar trabajo innecesario en páginas estáticas
+    if (document.getElementById('news-grid')) {
+        new MovilidadElectrica();
+    }
+        
     console.log('✅ Aplicación iniciada correctamente');
 });
+
+/**
+ * Banner de Cookies (reutilizable)
+ */
+function initCookieBanner(force = false) {
+    try {
+        const CONSENT_KEY = 'cookieConsent';
+        const consent = localStorage.getItem(CONSENT_KEY);
+        // Evitar duplicados
+        if (document.getElementById('cookie-banner')) return;
+        if (!force && (consent === 'accepted' || consent === 'rejected')) {
+            return; // ya hay decisión
+        }
+
+        const banner = document.createElement('div');
+        banner.id = 'cookie-banner';
+        banner.className = 'fixed inset-x-0 bottom-0 z-50';
+        banner.innerHTML = `
+            <div class="mx-auto max-w-5xl m-4 p-4 md:p-5 bg-white shadow-xl border border-gray-200 rounded-2xl">
+                <div class="flex flex-col md:flex-row md:items-center md:justify-between gap-4">
+                    <div class="flex items-start gap-3">
+                        <div class="shrink-0 bg-verde-principal text-white rounded-lg p-2">
+                            <i class="fas fa-cookie-bite"></i>
+                        </div>
+                        <p class="text-sm text-gray-700 leading-relaxed">
+                            Utilizamos cookies técnicas para que el sitio funcione correctamente y, de forma opcional, cookies de analítica agregada para mejorar nuestros contenidos.
+                            Puedes aceptar o rechazar las cookies no esenciales. Más información en nuestra
+                            <a href="/privacidad.html" class="text-verde-principal hover:underline">Política de Privacidad</a>.
+                        </p>
+                    </div>
+                    <div class="flex items-center gap-3 self-end md:self-auto">
+                        <button id="cookie-reject" class="px-4 py-2 rounded-lg border border-gray-300 text-gray-700 hover:bg-gray-50">Rechazar</button>
+                        <button id="cookie-accept" class="px-4 py-2 rounded-lg bg-verde-principal text-white hover:bg-emerald-600">Aceptar</button>
+                    </div>
+                </div>
+            </div>
+        `;
+
+        document.body.appendChild(banner);
+
+        const acceptBtn = document.getElementById('cookie-accept');
+        const rejectBtn = document.getElementById('cookie-reject');
+
+        const closeBanner = (value) => {
+            if (value) {
+                try { localStorage.setItem(CONSENT_KEY, value); } catch (e) {}
+            }
+            if (banner && banner.parentNode) {
+                banner.parentNode.removeChild(banner);
+            }
+            if (value === 'accepted') {
+                loadAnalytics();
+            }
+        };
+
+        if (acceptBtn) acceptBtn.addEventListener('click', () => closeBanner('accepted'));
+        if (rejectBtn) rejectBtn.addEventListener('click', () => closeBanner('rejected'));
+    } catch (e) {
+        console.warn('Cookie banner init error:', e);
+    }
+}
+
+// Reabrir configuración de cookies desde el footer
+function openCookieSettings() {
+    try { localStorage.removeItem('cookieConsent'); } catch (e) {}
+    initCookieBanner(true);
+}
+
+// Cargar analítica tras consentimiento (ejemplo Plausible)
+function loadAnalytics() {
+    if (document.getElementById('analytics-script')) return; // evitar duplicados
+    const script = document.createElement('script');
+    script.id = 'analytics-script';
+    script.defer = true;
+    script.setAttribute('data-domain', 'movilidadelectrica24.com'); // TODO: ajustar dominio
+    script.src = 'https://plausible.io/js/script.js';
+    document.head.appendChild(script);
+}
