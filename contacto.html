@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Contacto - Movilidad Eléctrica 24</title>
-  <meta name="description" content="Ponte en contacto con Movilidad Eléctrica 24 para consultas, sugerencias o colaboraciones.">
+  <title>Contacto - Electromovilidad 24</title>
+  <meta name="description" content="¿Tienes dudas sobre movilidad eléctrica? Escríbeme y te ayudaré con todo lo que necesites saber.">
   <script src="https://cdn.tailwindcss.com"></script>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.0/css/all.min.css">
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
@@ -21,11 +21,11 @@
       <!-- Logo y título -->
       <div class="flex items-center justify-between">
         <div class="flex items-center space-x-3">
-          <div class="bg-verde-principal text-white rounded-lg p-2">
-            <i class="fas fa-charging-station text-2xl"></i>
+          <div class="bg-white rounded-lg p-1">
+            <img src="/imagenes/logo.jpeg" alt="Electromovilidad 24" class="h-10 w-auto">
           </div>
           <div>
-            <h1 class="text-2xl md:text-3xl font-bold text-gris-oscuro">Movilidad Eléctrica 24</h1>
+            <h1 class="text-2xl md:text-3xl font-bold text-gris-oscuro">Electromovilidad 24</h1>
             <p class="text-sm text-gray-600">Noticias sobre el futuro de la movilidad</p>
           </div>
         </div>
@@ -67,35 +67,41 @@
 
     <section class="bg-white rounded-2xl shadow p-6 md:p-10">
       <header class="mb-6">
-        <h1 class="text-3xl md:text-4xl font-extrabold">Contacto</h1>
-        <p class="text-gray-600 mt-2">Envíanos tus consultas, sugerencias o propuestas.</p>
+        <h2 class="text-3xl md:text-4xl font-extrabold mb-2">Hablemos de movilidad eléctrica</h2>
+        <p class="text-gray-600 mb-8">¿Tienes dudas sobre coches, bicis o patinetes eléctricos? Estoy aquí para ayudarte.</p>
       </header>
 
-      <div class="grid md:grid-cols-2 gap-8">
-        <div class="prose max-w-none text-gray-800">
-          <h2>Información de contacto</h2>
-          <p>Email: <a class="text-verde-principal hover:underline" href="mailto:contacto@movilidadelectrica24.com">contacto@movilidadelectrica24.com</a></p>
-          <p>Redes sociales: <span class="text-gray-600">@MovilidadE24</span> (placeholder)</p>
-          <p>Responderemos lo antes posible.</p>
+      <div class="prose max-w-none text-gray-800">
+        <p>Hola, soy José. Si has llegado hasta aquí es porque probablemente compartas mi pasión por la movilidad eléctrica o tengas dudas que quieras resolver. Me encantaría escucharte y ayudarte en todo lo que necesites.</p>
+        
+        <h2 class="text-2xl font-bold mt-8 text-verde-principal">¿En qué puedo ayudarte?</h2>
+        <p>Estoy aquí para responder a todas tus preguntas sobre:</p>
+        <ul class="list-disc pl-6 space-y-2 my-4">
+          <li>Comparativas entre modelos de vehículos eléctricos</li>
+          <li>Consejos para ahorrar en la factura de la luz al cargar tu vehículo</li>
+          <li>Ayuda para elegir tu próximo coche, bici o patinete eléctrico</li>
+          <li>Dudas sobre mantenimiento y cuidados de vehículos eléctricos</li>
+          <li>Experiencias personales con diferentes marcas y modelos</li>
+        </ul>
+
+        <div class="bg-blue-50 p-6 rounded-xl my-8 border-l-4 border-blue-400">
+          <h3 class="text-xl font-semibold text-blue-800 mb-3">¿Por qué me escriben los lectores?</h3>
+          <p class="text-blue-700">La mayoría de las consultas que recibo son de personas normales, como tú, que buscan consejos honestos sin tecnicismos innecesarios. Me encanta poder ayudar a despejar dudas y compartir lo que he aprendido en este apasionante mundo de la movilidad eléctrica.</p>
         </div>
-        <div>
-          <form class="space-y-4" onsubmit="event.preventDefault(); showNotification('¡Gracias! Hemos recibido tu mensaje.'); this.reset();">
-            <div>
-              <label for="nombre" class="block text-sm font-medium text-gray-700 mb-1">Nombre</label>
-              <input id="nombre" type="text" required class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-verde-principal">
-            </div>
-            <div>
-              <label for="email" class="block text-sm font-medium text-gray-700 mb-1">Email</label>
-              <input id="email" type="email" required class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-verde-principal">
-            </div>
-            <div>
-              <label for="mensaje" class="block text-sm font-medium text-gray-700 mb-1">Mensaje</label>
-              <textarea id="mensaje" rows="5" required class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-verde-principal"></textarea>
-            </div>
-            <button class="bg-verde-principal hover:bg-emerald-600 text-white px-6 py-3 rounded-lg">Enviar</button>
-          </form>
+
+        <h2 class="text-2xl font-bold mt-12 text-verde-principal">¿Cómo contactar conmigo?</h2>
+        <p>Puedes escribirme directamente a <a href="mailto:contacto@electromovilidad24.com" class="text-verde-principal hover:underline font-medium">contacto@electromovilidad24.com</a>. Intento responder a todos los correos en un plazo de 24-48 horas, aunque a veces me lío con el teclado y tardo un poco más. 😉</p>
+        
+        <p class="mt-6">No te cortes si tienes dudas, por básicas que te parezcan. Todos empezamos en algún momento, y recuerdo perfectamente lo abrumador que puede ser al principio. ¡Estoy aquí para ayudarte!</p>
+        
+        <div class="bg-amber-50 p-6 rounded-xl my-8 border-l-4 border-amber-400">
+          <h3 class="text-xl font-semibold text-amber-800 mb-3">Un pequeño favor</h3>
+          <p class="text-amber-700">Si tu consulta es sobre un modelo concreto, te agradecería que me indiques qué es lo que más te preocupa o qué estás valorando exactamente. Así podré darte una respuesta más personalizada y útil.</p>
         </div>
-      </div>
+        
+        <p>¡Espero tu mensaje! Y recuerda: en el mundo de la movilidad eléctrica, la única pregunta tonta es la que no se hace.</p>
+        
+        <p class="mt-8 text-gray-600">Un saludo,<br><span class="font-semibold">José</span><br><em>Apasionado de la movilidad eléctrica</em></p>
     </section>
   </main>
 
@@ -104,8 +110,10 @@
       <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
         <div>
           <div class="flex items-center space-x-3 mb-4">
-            <div class="bg-verde-principal text-white rounded-lg p-2"><i class="fas fa-charging-station text-xl"></i></div>
-            <h3 class="text-xl font-bold">Movilidad Eléctrica 24</h3>
+            <div class="bg-white rounded-lg p-1">
+              <img src="/imagenes/logo.jpeg" alt="Electromovilidad 24" class="h-10 w-auto">
+            </div>
+            <h3 class="text-xl font-bold">Electromovilidad 24</h3>
           </div>
           <p class="text-gray-300">Tu fuente confiable de noticias sobre movilidad eléctrica.</p>
         </div>
@@ -120,7 +128,7 @@
           </ul>
         </div>
       </div>
-      <div class="border-t border-gray-700 mt-8 pt-8 text-center"><p class="text-gray-400">© 2025 Movilidad Eléctrica 24</p></div>
+      <div class="border-t border-gray-700 mt-8 pt-8 text-center"><p class="text-gray-400"> 2025 Electromovilidad 24</p></div>
     </div>
   </footer>
 

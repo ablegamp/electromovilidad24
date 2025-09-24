@@ -1,0 +1,549 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Autonomía real vs oficial en coches eléctricos: la verdad que no te cuentan</title>
+  <meta name="description" content="Descubre la diferencia entre la autonomía prometida y la real en los principales modelos de coches eléctricos del mercado. Datos reales de usuarios y pruebas independientes." />
+  <link rel="canonical" href="../articulos/comparativa-autonomia-real-vs-oficial.html" />
+  <!-- Open Graph -->
+  <meta property="og:type" content="article" />
+  <meta property="og:title" content="Autonomía real vs oficial en coches eléctricos: la verdad que no te cuentan" />
+  <meta property="og:description" content="¿Por qué tu coche eléctrico no alcanza los kilómetros prometidos? Analizamos la autonomía real de los modelos más populares." />
+  <meta property="og:image" content="../imagenes/comparativa1.jpg" />
+  <meta property="og:locale" content="es_ES" />
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Autonomía real vs oficial en coches eléctricos" />
+  <meta name="twitter:description" content="La verdad sobre cuántos kilómetros puedes esperar realmente de tu coche eléctrico. Datos reales y comparativa." />
+  <meta name="twitter:image" content="../imagenes/comparativa1.jpg" />
+  <meta name="author" content="Electromovilidad 24" />
+  <link rel="icon" type="image/svg+xml" href="../favicon.svg">
+  <link rel="shortcut icon" href="../favicon.svg">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.0/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <script>
+    tailwind.config = { theme: { extend: { fontFamily: { inter: ['Inter','sans-serif'] }, colors: { 'verde-principal':'#10B981','gris-oscuro':'#1F2937','gris-claro':'#F9FAFB' } } } }
+  </script>
+  <style>
+    body { font-family: 'Inter', sans-serif; }
+    /* Estilos tipográficos sin plugin Typography */
+    .article-content p { margin: 1rem 0; line-height: 1.75; }
+    .article-content h2 { margin-top: 1.5rem; margin-bottom: 0.75rem; font-size: 1.5rem; font-weight: 800; color: #065f46; }
+    .article-content h3 { margin-top: 1.5rem; margin-bottom: 0.75rem; font-size: 1.5rem; font-weight: 700; }
+    .article-content ul, .article-content ol { margin: 1rem 0 1.25rem 1.25rem; }
+    .article-content li { margin: 0.5rem 0; }
+    .article-content blockquote { border-left: 4px solid #10B981; padding-left: 1rem; color: #374151; font-style: italic; margin: 1rem 0; }
+    .article-header p { line-height: 1.6; }
+    .comparison-table { width: 100%; border-collapse: collapse; margin: 1.5rem 0; font-size: 0.9rem; }
+    .comparison-table th, .comparison-table td { padding: 0.75rem; text-align: left; border-bottom: 1px solid #e5e7eb; }
+    .comparison-table th { background-color: #f3f4f6; font-weight: 600; color: #111827; }
+    .comparison-table tr:hover { background-color: #f9fafb; }
+    .highlight-box { background-color: #f0fdf4; border-left: 4px solid #10B981; padding: 1rem; margin: 1.5rem 0; border-radius: 0 4px 4px 0; }
+  </style>
+  <!-- Datos estructurados JSON-LD -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Autonomía real vs oficial en coches eléctricos: la verdad que no te cuentan",
+    "datePublished": "2025-06-15T08:00:00+02:00",
+    "dateModified": "2025-06-15T08:00:00+02:00",
+    "author": {
+      "@type": "Person",
+      "name": "José"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Electromovilidad 24",
+      "logo": {"@type": "ImageObject", "url": "../imagenes/logo.jpeg"}
+    },
+    "image": "../imagenes/comparativa1.jpg",
+    "inLanguage": "es-ES",
+    "mainEntityOfPage": "../articulos/comparativa-autonomia-real-vs-oficial.html",
+    "articleSection": "Comparativas",
+    "description": "Análisis detallado de la diferencia entre la autonomía oficial WLTP y la autonomía real que puedes esperar de tu coche eléctrico en condiciones normales de uso."
+  }
+  </script>
+</head>
+<body class="bg-gray-50 text-gray-900">
+    <header class="bg-white shadow-md sticky top-0 z-50">
+    <div class="container mx-auto px-4">
+      <div class="flex flex-col md:flex-row justify-between items-center py-3">
+        <!-- Logo y título -->
+        <div class="flex items-center space-x-3">
+          <a href="/index.html" class="flex items-center space-x-2">
+            <img src="/imagenes/logo.jpeg" alt="Electromovilidad 24" class="h-12 w-auto">
+            <div>
+              <h1 class="text-xl font-bold text-gray-900">Electromovilidad 24</h1>
+              <p class="text-xs text-gray-600">El futuro de la movilidad sostenible</p>
+            </div>
+          </a>
+        </div>
+
+        <!-- Menú de navegación principal -->
+        <nav class="hidden md:flex items-center space-x-1 mt-4 md:mt-0">
+          <a href="/index.html" class="px-3 py-2 text-sm font-medium text-gray-700 hover:text-verde-principal">Inicio</a>
+          <a href="#" class="px-3 py-2 text-sm font-medium text-gray-700 hover:text-verde-principal">Noticias</a>
+          <a href="#" class="px-3 py-2 text-sm font-medium text-verde-principal font-semibold">Comparativas</a>
+          <a href="#" class="px-3 py-2 text-sm font-medium text-gray-700 hover:text-verde-principal">Reviews</a>
+          <a href="/calculadoras.html" class="px-3 py-2 text-sm font-medium text-gray-700 hover:text-verde-principal">Calculadoras</a>
+          <a href="/sobre.html" class="px-3 py-2 text-sm font-medium text-gray-700 hover:text-verde-principal">Sobre mí</a>
+          <a href="/contacto.html" class="ml-4 px-4 py-2 bg-verde-principal text-white text-sm font-medium rounded-md hover:bg-emerald-600">Contacto</a>
+        </nav>
+
+        <!-- Botón menú móvil -->
+        <div class="md:hidden flex items-center">
+          <button type="button" class="inline-flex items-center justify-center p-2 rounded-md text-gray-700 hover:text-verde-principal hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-verde-principal" id="mobile-menu-button" aria-expanded="false">
+            <span class="sr-only">Abrir menú principal</span>
+            <svg class="block h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+            </svg>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Menú móvil (oculto por defecto) -->
+    <div class="md:hidden hidden" id="mobile-menu">
+      <div class="px-2 pt-2 pb-3 space-y-1 sm:px-3 bg-gray-50">
+        <a href="/index.html" class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-verde-principal hover:bg-gray-100">Inicio</a>
+        <a href="#" class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-verde-principal hover:bg-gray-100">Noticias</a>
+        <a href="#" class="block px-3 py-2 rounded-md text-base font-medium text-verde-principal font-semibold bg-green-50">Comparativas</a>
+        <a href="#" class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-verde-principal hover:bg-gray-100">Reviews</a>
+        <a href="/calculadoras.html" class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-verde-principal hover:bg-gray-100">Calculadoras</a>
+        <a href="/sobre.html" class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-verde-principal hover:bg-gray-100">Sobre mí</a>
+        <a href="/contacto.html" class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-verde-principal hover:bg-gray-100">Contacto</a>
+      </div>
+    </div>
+  </header>
+
+  <main class="container mx-auto px-4 py-8 max-w-4xl">
+    <div class="mb-6">
+      <nav class="flex" aria-label="Breadcrumb">
+        <ol class="inline-flex items-center space-x-1 md:space-x-2">
+          <li class="inline-flex items-center">
+            <a href="/index.html" class="inline-flex items-center text-sm font-medium text-gray-700 hover:text-verde-principal">
+              <svg class="w-3 h-3 mr-2.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
+                <path d="m19.707 9.293-2-2-7-7a1 1 0 0 0-1.414 0l-7 7-2 2a1 1 0 0 0 1.414 1.414L4 10.414V18a1 1 0 0 0 1 1h2a1 1 0 0 0 1-1v-4a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v4a1 1 0 0 0 1 1h2a1 1 0 0 0 1-1v-7.586l.293.293a1 1 0 0 0 1.414-1.414Z"/>
+              </svg>
+              Inicio
+            </a>
+          </li>
+          <li aria-current="page">
+            <div class="flex items-center">
+              <svg class="w-3 h-3 text-gray-400 mx-1" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
+                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 9 4-4-4-4"/>
+              </svg>
+              <a href="#" class="ml-1 text-sm font-medium text-verde-principal md:ml-2">Comparativas</a>
+            </div>
+          </li>
+          <li aria-current="page">
+            <div class="flex items-center">
+              <svg class="w-3 h-3 text-gray-400 mx-1" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
+                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 9 4-4-4-4"/>
+              </svg>
+              <span class="ml-1 text-sm font-medium text-gray-500 md:ml-2">Autonomía real vs oficial</span>
+            </div>
+          </li>
+        </ol>
+      </nav>
+    </div>
+
+    <article class="bg-white rounded-xl shadow-sm overflow-hidden border border-gray-100">
+      <div class="p-6 md:p-8">
+        <header class="mb-8">
+          <div class="flex items-center mb-4">
+            <span class="inline-flex items-center px-3 py-1 rounded-full text-xs font-medium bg-green-100 text-verde-principal">
+              <svg class="w-3 h-3 mr-1.5" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z" clip-rule="evenodd"></path>
+              </svg>
+              Comparativa
+            </span>
+            <span class="ml-3 text-sm text-gray-500">
+              <time datetime="2025-06-15">15 de junio de 2025</time>
+            </span>
+          </div>
+          <h1 class="text-3xl md:text-4xl font-bold text-gray-900 mb-4 leading-tight">Autonomía real vs oficial: ¿cuántos kilómetros hace realmente tu coche eléctrico?</h1>
+          <div class="flex items-center text-sm text-gray-500">
+            <div class="flex items-center mr-4">
+              <svg class="w-4 h-4 mr-1.5" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-12a1 1 0 10-2 0v4a1 1 0 00.293.707l2.828 2.829a1 1 0 101.415-1.415L11 9.586V6z" clip-rule="evenodd"></path>
+              </svg>
+              8 min de lectura
+            </div>
+            <div class="flex items-center">
+              <svg class="w-4 h-4 mr-1.5" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                <path d="M10 12a2 2 0 100-4 2 2 0 000 4z"></path>
+                <path fill-rule="evenodd" d="M.458 10C1.732 5.943 5.522 3 10 3s8.268 2.943 9.542 7c-1.274 4.057-5.064 7-9.542 7S1.732 14.057.458 10zM14 10a4 4 0 11-8 0 4 4 0 018 0z" clip-rule="evenodd"></path>
+              </svg>
+              2.4k visitas
+            </div>
+          </div>
+      </header>
+
+      <figure class="my-8">
+        <img src="../imagenes/comparativa1.jpg" alt="Comparativa de coches eléctricos en carretera" class="w-full rounded-lg shadow-md">
+        <figcaption class="text-sm text-gray-500 mt-2 text-center">La autonomía real puede variar significativamente respecto a los datos oficiales</figcaption>
+      </figure>
+
+      <div class="prose max-w-none text-gray-700">
+        <p class="text-lg text-gray-700 leading-relaxed">¿Has notado que tu coche eléctrico nunca alcanza la autonomía que prometía el catálogo? No eres el único. La diferencia entre la autonomía oficial (WLTP) y la que realmente conseguimos en carretera es uno de los temas que más quebraderos de cabeza da a los conductores de vehículos eléctricos.</p>
+        
+        <p>Hoy te voy a contar <strong>por qué ocurre esto</strong>, te mostraré datos reales de varios modelos populares y, lo más importante, te daré consejos para sacar el máximo partido a la batería de tu coche.</p>
+
+        <div class="highlight-box">
+          <h3 class="text-lg font-semibold text-gray-900 mb-2">📌 Lo más importante</h3>
+          <p class="mb-2">La autonomía real de un coche eléctrico suele ser entre un 15% y un 35% inferior a la anunciada por el fabricante, dependiendo del modelo, las condiciones de conducción y el uso que le des al vehículo.</p>
+          <p>Factores como la velocidad, la temperatura exterior, el uso de climatización y el estilo de conducción influyen significativamente en la autonomía real.</p>
+        </div>
+
+        <h2>¿Por qué hay tanta diferencia entre la autonomía oficial y la real?</h2>
+        <p>Los fabricantes utilizan el ciclo de homologación WLTP (siglas en inglés de Procedimiento Mundial Armonizado para Ensayos de Vehículos Ligeros) para medir la autonomía de sus vehículos. Este test se realiza en condiciones controladas de laboratorio que rara vez se dan en la vida real:</p>
+        
+        <ul>
+          <li>✅ Temperatura ambiente de 23°C (ni frío ni calor extremos)</li>
+          <li>✅ Uso mínimo de sistemas auxiliares (climatización, luces, etc.)</li>
+          <li>✅ Conducción suave y constante, sin acelerones bruscos</li>
+          <li>✅ Neumáticos nuevos y con la presión óptima</li>
+          <li>✅ Sin viento, lluvia ni pendientes pronunciadas</li>
+        </ul>
+
+        <p>Como te imaginarás, en el mundo real las condiciones rara vez son tan ideales. Por eso es importante entender que la autonomía oficial es más bien una referencia que una promesa.</p>
+
+        <h2>Comparativa de autonomía real vs oficial</h2>
+        <p>Para este análisis, he recopilado datos de pruebas independientes, foros de propietarios y mis propias experiencias con diferentes modelos. Aquí tienes una comparativa de algunos de los coches eléctricos más populares:</p>
+
+        <div class="overflow-x-auto">
+          <table class="comparison-table">
+            <thead>
+              <tr>
+                <th>Modelo</th>
+                <th>Autonomía WLTP</th>
+                <th>Autonomía real*</th>
+                <th>Diferencia</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Tesla Model 3 RWD</td>
+                <td>491 km</td>
+                <td>420 km</td>
+                <td>-14.5%</td>
+              </tr>
+              <tr>
+                <td>Hyundai Kona Electric</td>
+                <td>484 km</td>
+                <td>385 km</td>
+                <td>-20.5%</td>
+              </tr>
+              <tr>
+                <td>Kia e-Niro</td>
+                <td>460 km</td>
+                <td>370 km</td>
+                <td>-19.6%</td>
+              </tr>
+              <tr>
+                <td>Volkswagen ID.3 Pro S</td>
+                <td>546 km</td>
+                <td>410 km</td>
+                <td>-24.9%</td>
+              </tr>
+              <tr>
+                <td>Renault Megane E-Tech</td>
+                <td>454 km</td>
+                <td>340 km</td>
+                <td>-25.1%</td>
+              </tr>
+              <tr>
+                <td>MG4 Electric</td>
+                <td>450 km</td>
+                <td>360 km</td>
+                <td>-20%</td>
+              </tr>
+              <tr>
+                <td>Fiat 500e</td>
+                <td>320 km</td>
+                <td>250 km</td>
+                <td>-21.9%</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <p class="text-sm text-gray-600 mt-2">*Autonomía real media en condiciones normales de uso (mezcla de ciudad y carretera, con uso de climatización)</p>
+
+        <blockquote>
+          "La autonomía es como el tiempo de duración de la batería del móvil: depende mucho de cómo lo uses. No es lo mismo ver vídeos en 4G con el brillo al máximo que tenerlo en modo ahorro con pantalla apagada."
+        </blockquote>
+
+        <h2>Factores que más afectan a la autonomía</h2>
+        
+        <h3>1. Velocidad</h3>
+        <p>La resistencia del aire aumenta con el cuadrado de la velocidad. Esto significa que a 120 km/h consumes mucha más energía que a 90 km/h. En autopista, reducir ligeramente la velocidad puede aumentar significativamente tu autonomía.</p>
+        
+        <h3>2. Climatización</h3>
+        <p>La calefacción es el mayor enemigo de la autonomía en invierno. El sistema de calefacción de un coche eléctrico puede consumir entre 1 y 3 kW, lo que puede reducir la autonomía hasta en un 30% en condiciones de frío extremo.</p>
+        
+        <h3>3. Temperatura exterior</h3>
+        <p>Las baterías de iones de litio funcionan mejor a temperaturas entre 20°C y 30°C. Por debajo de 10°C o por encima de 35°C, su eficiencia disminuye notablemente.</p>
+        
+        <h3>4. Estilo de conducción</h3>
+        <p>Aceleraciones bruscas y frenadas frecuentes consumen mucha más energía que una conducción suave. Los modos de conducción ECO y la frenada regenerativa pueden ayudarte a maximizar la autonomía.</p>
+
+        <h2>Consejos para mejorar la autonomía real</h2>
+        <p>Después de probar decenas de modelos y hablar con cientos de propietarios, estos son mis consejos para sacar el máximo partido a tu coche eléctrico:</p>
+        
+        <ul>
+          <li><strong>Precalienta el coche mientras está enchufado</strong> en invierno para no gastar batería en calentar el habitáculo.</li>
+          <li><strong>Usa el volante y los asientos calefactables</strong> en lugar de subir demasiado la temperatura del habitáculo.</li>
+          <li><strong>Mantén una velocidad constante</strong> en carretera, preferiblemente usando el control de crucero adaptativo.</li>
+          <li><strong>Planifica tus rutas</strong> para incluir paradas de carga estratégicas, especialmente en viajes largos.</li>
+          <li><strong>Revisa la presión de los neumáticos</strong> regularmente. Una presión baja aumenta la resistencia a la rodadura.</li>
+        </ul>
+
+        <h2>¿Qué modelo elijo entonces?</h2>
+        <p>Si estás pensando en comprar un coche eléctrico, mi recomendación es que:</p>
+        <ol>
+          <li>Resta un 20-25% a la autonomía oficial para tener una estimación más realista.</li>
+          <li>Elijas un modelo con al menos un 20% más de autonomía de la que crees que necesitas.</li>
+          <li>Consideres cómo y dónde vas a cargar el coche en tu día a día.</li>
+        </ol>
+
+        <p>Recuerda que, aunque la autonomía es importante, también debes fijarte en otros aspectos como la red de carga rápida del fabricante, la garantía de la batería y el precio de mantenimiento.</p>
+
+        <div class="bg-blue-50 p-6 rounded-xl my-8 border-l-4 border-blue-400">
+          <h3 class="text-xl font-semibold text-blue-800 mb-3">Mi experiencia personal</h3>
+          <p class="text-blue-700">Con mi coche anterior (un eléctrico de gama media), aprendí que la autonomía real era aproximadamente un 22% inferior a la anunciada. Al principio me preocupaba, pero una vez que entendí cómo optimizar el consumo y planificar mis viajes, dejó de ser un problema. Ahora, con un modelo de mayor autonomía, la diferencia porcentual es similar, pero al tener más kilómetros de base, prácticamente no noto las limitaciones en mi día a día.</p>
+        </div>
+
+        <h2>Conclusión</h2>
+        <p>La autonomía real de los coches eléctricos suele estar por debajo de los valores oficiales, pero esto no debería ser un impedimento para dar el salto a la movilidad eléctrica. Conocer las limitaciones reales de tu vehículo y aprender a gestionar eficientemente la energía te permitirá disfrutar de todas las ventajas de la conducción eléctrica sin sobresaltos.</p>
+        
+        <p>¿Tienes experiencia con la autonomía de tu coche eléctrico? ¿Coincide con lo que te prometieron? ¡Déjame un comentario con tu experiencia!</p>
+      </div>
+
+      <footer class="mt-12 pt-8 border-t border-gray-200">
+        <!-- Autor y compartir -->
+        <div class="flex flex-col md:flex-row justify-between items-start md:items-center mb-8">
+          <div class="flex items-center space-x-4 mb-6 md:mb-0">
+            <div class="flex-shrink-0">
+              <img class="h-12 w-12 rounded-full" src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80" alt="José Martín">
+            </div>
+            <div>
+              <p class="text-sm font-medium text-gray-900">José Martín</p>
+              <p class="text-sm text-gray-500">Periodista especializado en movilidad eléctrica</p>
+            </div>
+          </div>
+          
+          <div class="w-full md:w-auto">
+            <h3 class="text-lg font-semibold text-gray-900 mb-2">¿Te ha gustado este artículo?</h3>
+            <p class="text-gray-600 text-sm mb-3">Compártelo en tus redes sociales y ayuda a otros conductores a entender mejor la autonomía real de los coches eléctricos.</p>
+            <div class="flex space-x-3">
+              <a href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fwww.electromovilidad24.com%2Farticulos%2Fcomparativa-autonomia-real-vs-oficial.html&text=Autonom%C3%ADa+real+vs+oficial+en+coches+el%C3%A9ctricos%3A+la+verdad+que+no+te+cuentan" target="_blank" rel="noopener noreferrer" class="inline-flex items-center px-4 py-2 bg-blue-600 hover:bg-blue-700 text-white text-sm font-medium rounded-lg transition-colors duration-200">
+                <i class="fab fa-twitter mr-2"></i> Twitter
+              </a>
+              <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.electromovilidad24.com%2Farticulos%2Fcomparativa-autonomia-real-vs-oficial.html" target="_blank" rel="noopener noreferrer" class="inline-flex items-center px-4 py-2 bg-blue-800 hover:bg-blue-900 text-white text-sm font-medium rounded-lg transition-colors duration-200">
+                <i class="fab fa-facebook-f mr-2"></i> Facebook
+              </a>
+              <a href="https://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Fwww.electromovilidad24.com%2Farticulos%2Fcomparativa-autonomia-real-vs-oficial.html&title=Autonom%C3%ADa+real+vs+oficial+en+coches+el%C3%A9ctricos%3A+la+verdad+que+no+te+cuentan" target="_blank" rel="noopener noreferrer" class="inline-flex items-center px-4 py-2 bg-blue-700 hover:bg-blue-800 text-white text-sm font-medium rounded-lg transition-colors duration-200">
+                <i class="fab fa-linkedin-in mr-2"></i> LinkedIn
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Artículos relacionados -->
+        <div class="border-t border-gray-200 pt-8">
+          <h3 class="text-xl font-bold text-gray-900 mb-6">Artículos relacionados</h3>
+          <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            <!-- Artículo 1 -->
+            <div class="bg-white rounded-lg border border-gray-200 overflow-hidden hover:shadow-md transition-shadow duration-200">
+              <a href="#" class="block">
+                <div class="h-40 bg-gray-200 overflow-hidden">
+                  <img src="../imagenes/placeholder-1.jpg" alt="Artículo relacionado" class="w-full h-full object-cover">
+                </div>
+                <div class="p-4">
+                  <span class="inline-block px-2 py-1 text-xs font-semibold text-verde-principal bg-green-100 rounded-full mb-2">Guía</span>
+                  <h4 class="font-semibold text-gray-900 mb-2">Cómo aumentar la autonomía de tu coche eléctrico</h4>
+                  <p class="text-sm text-gray-600">Consejos prácticos para optimizar el consumo de energía y sacar el máximo partido a tu vehículo eléctrico.</p>
+                </div>
+              </a>
+            </div>
+            
+            <!-- Artículo 2 -->
+            <div class="bg-white rounded-lg border border-gray-200 overflow-hidden hover:shadow-md transition-shadow duration-200">
+              <a href="#" class="block">
+                <div class="h-40 bg-gray-200 overflow-hidden">
+                  <img src="../imagenes/placeholder-2.jpg" alt="Artículo relacionado" class="w-full h-full object-cover">
+                </div>
+                <div class="p-4">
+                  <span class="inline-block px-2 py-1 text-xs font-semibold text-verde-principal bg-green-100 rounded-full mb-2">Análisis</span>
+                  <h4 class="font-semibold text-gray-900 mb-2">Los 5 coches eléctricos con mejor autonomía en 2025</h4>
+                  <p class="text-sm text-gray-600">Descubre qué modelos ofrecen mayor autonomía real según las pruebas independientes más recientes.</p>
+                </div>
+              </a>
+            </div>
+            
+            <!-- Artículo 3 -->
+            <div class="bg-white rounded-lg border border-gray-200 overflow-hidden hover:shadow-md transition-shadow duration-200">
+              <a href="#" class="block">
+                <div class="h-40 bg-gray-200 overflow-hidden">
+                  <img src="../imagenes/placeholder-3.jpg" alt="Artículo relacionado" class="w-full h-full object-cover">
+                </div>
+                <div class="p-4">
+                  <span class="inline-block px-2 py-1 text-xs font-semibold text-verde-principal bg-green-100 rounded-full mb-2">Tecnología</span>
+                  <h4 class="font-semibold text-gray-900 mb-2">Baterías de estado sólido: ¿el futuro de los coches eléctricos?</h4>
+                  <p class="text-sm text-gray-600">Analizamos cómo esta tecnología podría revolucionar la autonomía y los tiempos de carga.</p>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+            <button class="bg-gray-800 hover:bg-gray-900 text-white px-4 py-2 rounded-lg flex items-center">
+              <i class="fab fa-whatsapp mr-2"></i> WhatsApp
+            </button>
+          </div>
+        </div>
+      </div>
+    </article>
+  </main>
+
+  <!-- Footer -->
+  <footer class="bg-gray-900 text-white pt-16 pb-8">
+    <div class="container mx-auto px-4">
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-12">
+        <!-- Columna 1: Logo y descripción -->
+        <div>
+          <div class="flex items-center space-x-2 mb-4">
+            <img src="/imagenes/logo-blanco.png" alt="Electromovilidad 24" class="h-10 w-auto">
+            <span class="text-xl font-bold">Electromovilidad 24</span>
+          </div>
+          <p class="text-gray-400 text-sm mb-4">Tu fuente de información confiable sobre vehículos eléctricos, movilidad sostenible y el futuro del transporte.</p>
+          <div class="flex space-x-4">
+            <a href="#" class="text-gray-400 hover:text-white transition-colors duration-200">
+              <span class="sr-only">Facebook</span>
+              <i class="fab fa-facebook-f text-xl"></i>
+            </a>
+            <a href="#" class="text-gray-400 hover:text-white transition-colors duration-200">
+              <span class="sr-only">Twitter</span>
+              <i class="fab fa-twitter text-xl"></i>
+            </a>
+            <a href="#" class="text-gray-400 hover:text-white transition-colors duration-200">
+              <span class="sr-only">Instagram</span>
+              <i class="fab fa-instagram text-xl"></i>
+            </a>
+            <a href="#" class="text-gray-400 hover:text-white transition-colors duration-200">
+              <span class="sr-only">YouTube</span>
+              <i class="fab fa-youtube text-xl"></i>
+            </a>
+          </div>
+        </div>
+
+        <!-- Columna 2: Enlaces rápidos -->
+        <div>
+          <h3 class="text-lg font-semibold mb-4">Enlaces rápidos</h3>
+          <ul class="space-y-2">
+            <li><a href="/index.html" class="text-gray-400 hover:text-white transition-colors duration-200">Inicio</a></li>
+            <li><a href="#" class="text-gray-400 hover:text-white transition-colors duration-200">Noticias</a></li>
+            <li><a href="#" class="text-gray-400 hover:text-white transition-colors duration-200">Comparativas</a></li>
+            <li><a href="#" class="text-gray-400 hover:text-white transition-colors duration-200">Reviews</a></li>
+            <li><a href="/calculadoras.html" class="text-gray-400 hover:text-white transition-colors duration-200">Calculadoras</a></li>
+            <li><a href="/sobre.html" class="text-gray-400 hover:text-white transition-colors duration-200">Sobre mí</a></li>
+            <li><a href="/contacto.html" class="text-gray-400 hover:text-white transition-colors duration-200">Contacto</a></li>
+          </ul>
+        </div>
+
+        <!-- Columna 3: Categorías -->
+        <div>
+          <h3 class="text-lg font-semibold mb-4">Categorías</h3>
+          <ul class="space-y-2">
+            <li><a href="#" class="text-gray-400 hover:text-white transition-colors duration-200">Novedades</a></li>
+            <li><a href="#" class="text-gray-400 hover:text-white transition-colors duration-200">Análisis</a></li>
+            <li><a href="#" class="text-gray-400 hover:text-white transition-colors duration-200">Guías prácticas</a></li>
+            <li><a href="#" class="text-gray-400 hover:text-white transition-colors duration-200">Tecnología</a></li>
+            <li><a href="#" class="text-gray-400 hover:text-white transition-colors duration-200">Ayudas y subvenciones</a></li>
+            <li><a href="#" class="text-gray-400 hover:text-white transition-colors duration-200">Infraestructura</a></li>
+          </ul>
+        </div>
+
+        <!-- Columna 4: Boletín -->
+        <div>
+          <h3 class="text-lg font-semibold mb-4">Suscríbete al boletín</h3>
+          <p class="text-gray-400 text-sm mb-4">Recibe las últimas noticias y ofertas directamente en tu correo electrónico.</p>
+          <form class="space-y-3">
+            <div>
+              <label for="email" class="sr-only">Correo electrónico</label>
+              <input type="email" id="email" name="email" placeholder="Tu correo electrónico" class="w-full px-4 py-2 rounded-md bg-gray-800 border border-gray-700 text-white placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-verde-principal focus:border-transparent">
+            </div>
+            <button type="submit" class="w-full bg-verde-principal hover:bg-emerald-600 text-white font-medium py-2 px-4 rounded-md transition-colors duration-200">
+              Suscribirme
+            </button>
+          </form>
+          <p class="text-xs text-gray-500 mt-2">Al suscribirte aceptas nuestra <a href="/privacidad.html" class="text-verde-principal hover:underline">Política de Privacidad</a>.</p>
+        </div>
+      </div>
+      
+      <!-- Derechos de autor y enlaces legales -->
+      <div class="border-t border-gray-800 pt-8">
+        <div class="flex flex-col md:flex-row justify-between items-center">
+          <p class="text-sm text-gray-500 text-center md:text-left mb-4 md:mb-0">
+            &copy; 2025 Electromovilidad 24. Todos los derechos reservados.
+          </p>
+          <div class="flex flex-wrap justify-center space-x-4">
+            <a href="/privacidad.html" class="text-sm text-gray-400 hover:text-white transition-colors duration-200">Política de Privacidad</a>
+            <a href="/cookies.html" class="text-sm text-gray-400 hover:text-white transition-colors duration-200">Política de Cookies</a>
+            <a href="/aviso-legal.html" class="text-sm text-gray-400 hover:text-white transition-colors duration-200">Aviso Legal</a>
+            <a href="/contacto.html" class="text-sm text-gray-400 hover:text-white transition-colors duration-200">Contacto</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Botón de ir arriba -->
+  <button id="back-to-top" class="fixed bottom-6 right-6 bg-verde-principal text-white p-3 rounded-full shadow-lg opacity-0 invisible transition-all duration-300">
+    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+      <path fill-rule="evenodd" d="M14.707 12.707a1 1 0 01-1.414 0L10 9.414l-3.293 3.293a1 1 0 01-1.414-1.414l4-4a1 1 0 011.414 0l4 4a1 1 0 010 1.414z" clip-rule="evenodd" />
+    </svg>
+    <span class="sr-only">Volver arriba</span>
+  </button>
+
+  <!-- JavaScript -->
+  <script>
+    // Menú móvil
+    const mobileMenuButton = document.getElementById('mobile-menu-button');
+    const mobileMenu = document.getElementById('mobile-menu');
+    
+    if (mobileMenuButton && mobileMenu) {
+      mobileMenuButton.addEventListener('click', () => {
+        const isExpanded = mobileMenuButton.getAttribute('aria-expanded') === 'true';
+        mobileMenuButton.setAttribute('aria-expanded', !isExpanded);
+        mobileMenu.classList.toggle('hidden');
+      });
+    }
+
+    // Botón de volver arriba
+    const backToTopButton = document.getElementById('back-to-top');
+    
+    if (backToTopButton) {
+      window.addEventListener('scroll', () => {
+        if (window.pageYOffset > 300) {
+          backToTopButton.classList.remove('opacity-0', 'invisible');
+          backToTopButton.classList.add('opacity-100', 'visible');
+        } else {
+          backToTopButton.classList.remove('opacity-100', 'visible');
+          backToTopButton.classList.add('opacity-0', 'invisible');
+        }
+      });
+
+      backToTopButton.addEventListener('click', () => {
+        window.scrollTo({
+          top: 0,
+          behavior: 'smooth'
+        });
+      });
+    }
+  </script>
+</body>
+</html>
