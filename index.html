@@ -89,19 +89,19 @@
             overflow: hidden;
         }
     </style>
-    <link rel="canonical" href="/index.html">
+    <link rel="canonical" href="index.html">
     <meta name="robots" content="index,follow">
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg">
-    <link rel="shortcut icon" href="/favicon.svg">
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
+    <link rel="shortcut icon" href="favicon.svg">
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
       "@type": "Organization",
       "name": "Movilidad Eléctrica 24",
-      "url": "/index.html",
+      "url": "index.html",
       "logo": {
         "@type": "ImageObject",
-        "url": "/imagenes/ventas-ev-espana-2025.jpg"
+        "url": "imagenes/logo.jpeg"
       }
     }
     </script>
@@ -114,7 +114,7 @@
             <div class="flex items-center justify-between">
                 <div class="flex items-center space-x-3">
                     <div class="bg-white rounded-lg p-1">
-                        <img src="/imagenes/logo.jpeg" alt="Electromovilidad 24" class="h-10 w-auto">
+                        <img src="imagenes/logo.jpeg" alt="Electromovilidad 24" class="h-10 w-auto">
                     </div>
                     <div>
                         <h1 class="text-2xl md:text-3xl font-bold text-gris-oscuro">Electromovilidad 24</h1>
@@ -131,8 +131,8 @@
             <!-- Navegación -->
             <nav class="mt-4">
                 <ul id="nav-menu" class="hidden md:flex space-x-8 text-gris-oscuro font-medium">
-                    <li><a href="#news-section" class="hover:text-verde-principal transition-colors duration-200 border-b-2 border-verde-principal pb-1">Noticias</a></li>
-                    <li><a href="#" class="hover:text-verde-principal transition-colors duration-200">Comparativas</a></li>
+                    <li><a href="#news-section" class="hover:text-verde-principal transition-colors duration-200">Noticias</a></li>
+                    <li><a href="#comparativas-section" class="hover:text-verde-principal transition-colors duration-200">Comparativas</a></li>
                     <li><a href="#" class="hover:text-verde-principal transition-colors duration-200">Reviews</a></li>
                     <li><a href="/calculadoras.html" class="hover:text-verde-principal transition-colors duration-200">Calculadoras eléctricas</a></li>
                     <li><a href="/sobre.html" class="hover:text-verde-principal transition-colors duration-200">Sobre mí</a></li>
@@ -142,7 +142,7 @@
                 <!-- Menú móvil -->
                 <ul id="mobile-nav" class="md:hidden hidden flex-col space-y-3 mt-4 bg-gray-50 p-4 rounded-lg">
                     <li><a href="#news-section" class="block text-gris-oscuro hover:text-verde-principal font-medium">Noticias</a></li>
-                    <li><a href="#" class="block text-gris-oscuro hover:text-verde-principal font-medium">Comparativas</a></li>
+                    <li><a href="#comparativas-section" class="block text-gris-oscuro hover:text-verde-principal font-medium">Comparativas</a></li>
                     <li><a href="#" class="block text-gris-oscuro hover:text-verde-principal font-medium">Reviews</a></li>
                     <li><a href="/calculadoras.html" class="block text-gris-oscuro hover:text-verde-principal font-medium">Calculadoras eléctricas</a></li>
                     <li><a href="/sobre.html" class="block text-gris-oscuro hover:text-verde-principal font-medium">Sobre mí</a></li>
@@ -213,17 +213,44 @@
                     </select>
                 </div>
             </div>
-            
+
             <!-- Grid de tarjetas -->
             <div id="news-grid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                 <!-- Las noticias se cargarán aquí dinámicamente -->
             </div>
-            
+
             <!-- Mensaje cuando no hay resultados -->
             <div id="no-results" class="hidden text-center py-12">
                 <i class="fas fa-search text-6xl text-gray-300 mb-4"></i>
                 <h3 class="text-2xl font-bold text-gris-oscuro mb-2">No se encontraron noticias</h3>
                 <p class="text-gray-600">Intenta con otros términos de búsqueda o revisa todas las noticias.</p>
+            </div>
+        </section>
+
+        <!-- Grid de comparativas -->
+        <section id="comparativas-section" class="hidden">
+            <div class="flex justify-between items-center mb-8">
+                <h3 class="text-3xl font-bold text-gris-oscuro">Comparativas</h3>
+                <div class="flex items-center space-x-4">
+                    <!-- Selector de ordenamiento -->
+                    <select id="sort-select-comparativas" class="px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-verde-principal">
+                        <option value="recent">Más recientes</option>
+                        <option value="title">Por título (A-Z)</option>
+                        <option value="category">Por categoría</option>
+                    </select>
+                </div>
+            </div>
+
+            <!-- Grid de tarjetas -->
+            <div id="comparativas-grid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Las comparativas se cargarán aquí dinámicamente -->
+            </div>
+
+            <!-- Mensaje cuando no hay resultados -->
+            <div id="no-results-comparativas" class="hidden text-center py-12">
+                <i class="fas fa-search text-6xl text-gray-300 mb-4"></i>
+                <h3 class="text-2xl font-bold text-gris-oscuro mb-2">No se encontraron comparativas</h3>
+                <p class="text-gray-600">Estamos trabajando en nuevas comparativas. ¡Vuelve pronto!</p>
             </div>
         </section>
     </main>
@@ -236,7 +263,7 @@
                 <div>
                     <div class="flex items-center space-x-3 mb-4">
                         <div class="bg-white rounded-lg p-1">
-                            <img src="/imagenes/logo.jpeg" alt="Electromovilidad 24" class="h-10 w-auto">
+                            <img src="imagenes/logo.jpeg" alt="Electromovilidad 24" class="h-10 w-auto">
                         </div>
                         <h3 class="text-xl font-bold">Electromovilidad 24</h3>
                     </div>
