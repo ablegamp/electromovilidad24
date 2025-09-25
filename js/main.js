@@ -111,18 +111,18 @@ class MovilidadElectrica {
 
         if (searchInput) {
             console.log('📝 Configurando event listener para búsqueda');
-            searchInput.addEventListener('input', this.debounce(this.handleSearch.bind(this), 300));
+            searchInput.addEventListener('input', this.debounce(this.handleSearchGeneric.bind(this), 300));
             searchInput.addEventListener('keypress', (e) => {
                 if (e.key === 'Enter') {
                     e.preventDefault();
-                    this.handleSearch(e);
+                    this.handleSearchGeneric(e);
                 }
             });
         }
 
         if (clearSearchBtn) {
             console.log('🧹 Configurando event listener para limpiar búsqueda');
-            clearSearchBtn.addEventListener('click', this.clearSearch.bind(this));
+            clearSearchBtn.addEventListener('click', this.clearSearchGeneric.bind(this));
         }
 
         // Selector de ordenamiento - solo configurar el de la sección actual
@@ -132,13 +132,13 @@ class MovilidadElectrica {
 
         if (this.currentSection === 'news' && sortSelect) {
             console.log('📊 Configurando event listener para ordenamiento de noticias');
-            sortSelect.addEventListener('change', this.handleSortChange.bind(this));
+            sortSelect.addEventListener('change', this.handleSortChangeGeneric.bind(this));
         } else if (this.currentSection === 'comparativas' && sortSelectComparativas) {
             console.log('📊 Configurando event listener para ordenamiento de comparativas');
-            sortSelectComparativas.addEventListener('change', this.handleSortChange.bind(this));
+            sortSelectComparativas.addEventListener('change', this.handleSortChangeGeneric.bind(this));
         } else if (this.currentSection === 'reviews' && sortSelectReviews) {
             console.log('⭐ Configurando event listener para ordenamiento de reviews');
-            sortSelectReviews.addEventListener('change', this.handleSortChange.bind(this));
+            sortSelectReviews.addEventListener('change', this.handleSortChangeGeneric.bind(this));
         }
     }
 
@@ -374,29 +374,53 @@ class MovilidadElectrica {
     }
 
     /**
-     * Renderizar las noticias en el grid
+     * Renderizar contenido genérico para cualquier tipo
      */
-    renderNews() {
-        console.log('Ejecutando renderNews');
-        const newsGrid = document.getElementById('news-grid');
-        const noResults = document.getElementById('no-results');
+    renderContentByType(contentType) {
+        console.log(`Ejecutando render${contentType.charAt(0).toUpperCase() + contentType.slice(1)}`);
+
+        // Configuración por tipo de contenido
+        const config = {
+            news: {
+                gridId: 'news-grid',
+                noResultsId: 'no-results',
+                filteredArray: this.filteredNews,
+                allArray: this.allNews
+            },
+            comparativas: {
+                gridId: 'comparativas-grid',
+                noResultsId: 'no-results-comparativas',
+                filteredArray: this.filteredComparativas,
+                allArray: this.allComparativas
+            },
+            reviews: {
+                gridId: 'reviews-grid',
+                noResultsId: 'no-results-reviews',
+                filteredArray: this.filteredReviews,
+                allArray: this.allReviews
+            }
+        };
+
+        const { gridId, noResultsId, filteredArray, allArray } = config[contentType];
+        const grid = document.getElementById(gridId);
+        const noResults = document.getElementById(noResultsId);
         const searchResults = document.getElementById('search-results');
         const resultsCount = document.getElementById('results-count');
 
-        console.log('Grid de noticias:', newsGrid);
-        console.log('Número de noticias filtradas:', this.filteredNews.length);
+        console.log(`Grid de ${contentType}:`, grid);
+        console.log(`Número de ${contentType} filtradas:`, filteredArray.length);
 
-        if (!newsGrid) {
-            console.log('ERROR: No se encontró el grid de noticias');
+        if (!grid) {
+            console.log(`ERROR: No se encontró el grid de ${contentType}`);
             return;
         }
 
         // Limpiar grid anterior
-        newsGrid.innerHTML = '';
+        grid.innerHTML = '';
 
-        // Si no hay noticias filtradas
-        if (this.filteredNews.length === 0) {
-            console.log('No hay noticias filtradas, mostrando mensaje de no resultados');
+        // Si no hay contenido filtrado
+        if (filteredArray.length === 0) {
+            console.log(`No hay ${contentType} filtradas, mostrando mensaje de no resultados`);
             if (noResults) noResults.classList.remove('hidden');
             if (searchResults) searchResults.classList.add('hidden');
             return;
@@ -409,142 +433,81 @@ class MovilidadElectrica {
         if (this.currentSearchTerm) {
             if (searchResults) {
                 searchResults.classList.remove('hidden');
-                if (resultsCount) resultsCount.textContent = this.filteredNews.length;
+                if (resultsCount) resultsCount.textContent = filteredArray.length;
             }
         } else {
             if (searchResults) searchResults.classList.add('hidden');
         }
 
-        // Renderizar cada noticia
-        this.filteredNews.forEach(news => {
-            const newsCard = this.createNewsCard(news);
-            newsGrid.appendChild(newsCard);
+        // Renderizar cada elemento
+        filteredArray.forEach(item => {
+            const card = this.createContentCard(item, contentType);
+            grid.appendChild(card);
         });
 
         // Añadir animación de entrada
         this.animateCardsEntrance();
+    }
+
+    /**
+     * Renderizar las noticias en el grid
+     */
+    renderNews() {
+        this.renderContentByType('news');
     }
 
     /**
      * Renderizar las comparativas en el grid
      */
     renderComparativas() {
-        console.log('Ejecutando renderComparativas');
-        const comparativasGrid = document.getElementById('comparativas-grid');
-        const noResults = document.getElementById('no-results-comparativas');
-        const searchResults = document.getElementById('search-results');
-        const resultsCount = document.getElementById('results-count');
-
-        console.log('Grid de comparativas:', comparativasGrid);
-        console.log('Número de comparativas filtradas:', this.filteredComparativas.length);
-
-        if (!comparativasGrid) {
-            console.log('ERROR: No se encontró el grid de comparativas');
-            return;
-        }
-
-        // Limpiar grid anterior
-        comparativasGrid.innerHTML = '';
-
-        // Si no hay comparativas filtradas
-        if (this.filteredComparativas.length === 0) {
-            console.log('No hay comparativas filtradas, mostrando mensaje de no resultados');
-            if (noResults) noResults.classList.remove('hidden');
-            if (searchResults) searchResults.classList.add('hidden');
-            return;
-        }
-
-        // Ocultar mensaje de "no resultados"
-        if (noResults) noResults.classList.add('hidden');
-
-        // Mostrar contador de resultados si hay búsqueda activa
-        if (this.currentSearchTerm) {
-            if (searchResults) {
-                searchResults.classList.remove('hidden');
-                if (resultsCount) resultsCount.textContent = this.filteredComparativas.length;
-            }
-        } else {
-            if (searchResults) searchResults.classList.add('hidden');
-        }
-
-        // Renderizar cada comparativa
-        this.filteredComparativas.forEach(comparativa => {
-            const comparativaCard = this.createComparativaCard(comparativa);
-            comparativasGrid.appendChild(comparativaCard);
-        });
-
-        // Añadir animación de entrada
-        this.animateCardsEntrance();
+        this.renderContentByType('comparativas');
     }
 
     /**
      * Renderizar las reviews en el grid
      */
     renderReviews() {
-        console.log('Ejecutando renderReviews');
-        const reviewsGrid = document.getElementById('reviews-grid');
-        const noResults = document.getElementById('no-results-reviews');
-        const searchResults = document.getElementById('search-results');
-        const resultsCount = document.getElementById('results-count');
+        this.renderContentByType('reviews');
+    }
 
-        console.log('Grid de reviews:', reviewsGrid);
-        console.log('Número de reviews filtradas:', this.filteredReviews.length);
+    /**
+     * Crear tarjeta genérica para cualquier tipo de contenido
+     */
+    createContentCard(content, contentType) {
+        const card = document.createElement('div');
+        card.className = 'card-hover bg-white rounded-xl shadow-md overflow-hidden opacity-0 transform translate-y-4';
 
-        if (!reviewsGrid) {
-            console.log('ERROR: No se encontró el grid de reviews');
-            return;
-        }
+        // Determinar el color de la categoría
+        const categoryColor = this.getCategoryColor(content.category);
 
-        // Limpiar grid anterior
-        reviewsGrid.innerHTML = '';
-
-        // Si no hay reviews filtradas
-        if (this.filteredReviews.length === 0) {
-            console.log('No hay reviews filtradas, mostrando mensaje de no resultados');
-            if (noResults) noResults.classList.remove('hidden');
-            if (searchResults) searchResults.classList.add('hidden');
-            return;
-        }
-
-        // Ocultar mensaje de "no resultados"
-        if (noResults) noResults.classList.add('hidden');
-
-        // Mostrar contador de resultados si hay búsqueda activa
-        if (this.currentSearchTerm) {
-            if (searchResults) {
-                searchResults.classList.remove('hidden');
-                if (resultsCount) resultsCount.textContent = this.filteredReviews.length;
+        // Configuración específica por tipo de contenido
+        const typeConfig = {
+            news: {
+                gridId: 'news-grid',
+                noResultsId: 'no-results',
+                searchResultsId: 'search-results',
+                resultsCountId: 'results-count'
+            },
+            comparativas: {
+                gridId: 'comparativas-grid',
+                noResultsId: 'no-results-comparativas',
+                searchResultsId: 'search-results',
+                resultsCountId: 'results-count'
+            },
+            reviews: {
+                gridId: 'reviews-grid',
+                noResultsId: 'no-results-reviews',
+                searchResultsId: 'search-results',
+                resultsCountId: 'results-count'
             }
-        } else {
-            if (searchResults) searchResults.classList.add('hidden');
-        }
-
-        // Renderizar cada review
-        this.filteredReviews.forEach(review => {
-            const reviewCard = this.createReviewCard(review);
-            reviewsGrid.appendChild(reviewCard);
-        });
-
-        // Añadir animación de entrada
-        this.animateCardsEntrance();
-    }
-
-    /**
-     * Crear tarjeta de noticia
-     */
-    createNewsCard(news) {
-        const card = document.createElement('div');
-        card.className = 'card-hover bg-white rounded-xl shadow-md overflow-hidden opacity-0 transform translate-y-4';
-
-        // Determinar el color de la categoría
-        const categoryColor = this.getCategoryColor(news.category);
+        };
 
         card.innerHTML = `
             <div class="relative">
-                <a href="${news.link}" aria-label="Leer: ${news.title}">
+                <a href="${content.link}" aria-label="Leer: ${content.title}">
                     <img
-                        src="${news.image}"
-                        alt="${news.title}"
+                        src="${content.image}"
+                        alt="${content.title}"
                         class="w-full h-48 object-cover"
                         loading="lazy"
                         onerror="this.src='https://images.unsplash.com/photo-1593941707882-a5bac6861d75?w=800&q=80'"
@@ -552,12 +515,12 @@ class MovilidadElectrica {
                 </a>
                 <div class="absolute top-3 left-3">
                     <span class="${categoryColor} text-white px-3 py-1 rounded-full text-xs font-medium">
-                        ${news.category}
+                        ${content.category}
                     </span>
                 </div>
                 <div class="absolute top-3 right-3">
                     <span class="bg-black bg-opacity-70 text-white px-2 py-1 rounded-full text-xs">
-                        ${news.readTime}
+                        ${content.readTime}
                     </span>
                 </div>
             </div>
@@ -565,166 +528,22 @@ class MovilidadElectrica {
             <div class="p-6">
                 <div class="flex items-center text-sm text-gray-500 mb-3">
                     <i class="fas fa-calendar-alt mr-2"></i>
-                    <span>${this.formatDate(news.date)}</span>
+                    <span>${this.formatDate(content.date)}</span>
                 </div>
 
                 <h2 class="text-xl font-bold text-gris-oscuro mb-3 clamp-2 leading-tight">
-                    <a href="${news.link}" class="hover:text-verde-principal">${news.title}</a>
+                    <a href="${content.link}" class="hover:text-verde-principal">${content.title}</a>
                 </h2>
 
                 <p class="text-gray-600 mb-6 clamp-3 leading-relaxed">
-                    ${news.summary}
+                    ${content.summary}
                 </p>
 
                 <div class="flex items-center justify-between">
                     <a
-                        href="${news.link}"
+                        href="${content.link}"
                         class="btn-hover bg-verde-principal hover:bg-verde-hover text-white font-medium px-6 py-3 rounded-lg transition-all duration-200 flex items-center space-x-2"
-                        aria-label="Leer más: ${news.title}"
-                    >
-                        <span>Leer más</span>
-                        <i class="fas fa-external-link-alt text-sm" aria-hidden="true"></i>
-                    </a>
-
-                    <div class="flex items-center space-x-3 text-gray-400">
-                        <button class="hover:text-verde-principal transition-colors" title="Compartir">
-                            <i class="fas fa-share-alt"></i>
-                        </button>
-                        <button class="hover:text-verde-principal transition-colors" title="Guardar">
-                            <i class="fas fa-bookmark"></i>
-                        </button>
-                    </div>
-                </div>
-            </div>
-        `;
-
-        return card;
-    }
-
-    /**
-     * Crear tarjeta de comparativa
-     */
-    createComparativaCard(comparativa) {
-        const card = document.createElement('div');
-        card.className = 'card-hover bg-white rounded-xl shadow-md overflow-hidden opacity-0 transform translate-y-4';
-
-        // Determinar el color de la categoría
-        const categoryColor = this.getCategoryColor(comparativa.category);
-
-        card.innerHTML = `
-            <div class="relative">
-                <a href="${comparativa.link}" aria-label="Leer: ${comparativa.title}">
-                    <img
-                        src="${comparativa.image}"
-                        alt="${comparativa.title}"
-                        class="w-full h-48 object-cover"
-                        loading="lazy"
-                        onerror="this.src='https://images.unsplash.com/photo-1593941707882-a5bac6861d75?w=800&q=80'"
-                    >
-                </a>
-                <div class="absolute top-3 left-3">
-                    <span class="${categoryColor} text-white px-3 py-1 rounded-full text-xs font-medium">
-                        ${comparativa.category}
-                    </span>
-                </div>
-                <div class="absolute top-3 right-3">
-                    <span class="bg-black bg-opacity-70 text-white px-2 py-1 rounded-full text-xs">
-                        ${comparativa.readTime}
-                    </span>
-                </div>
-            </div>
-
-            <div class="p-6">
-                <div class="flex items-center text-sm text-gray-500 mb-3">
-                    <i class="fas fa-calendar-alt mr-2"></i>
-                    <span>${this.formatDate(comparativa.date)}</span>
-                </div>
-
-                <h2 class="text-xl font-bold text-gris-oscuro mb-3 clamp-2 leading-tight">
-                    <a href="${comparativa.link}" class="hover:text-verde-principal">${comparativa.title}</a>
-                </h2>
-
-                <p class="text-gray-600 mb-6 clamp-3 leading-relaxed">
-                    ${comparativa.summary}
-                </p>
-
-                <div class="flex items-center justify-between">
-                    <a
-                        href="${comparativa.link}"
-                        class="btn-hover bg-verde-principal hover:bg-verde-hover text-white font-medium px-6 py-3 rounded-lg transition-all duration-200 flex items-center space-x-2"
-                        aria-label="Leer más: ${comparativa.title}"
-                    >
-                        <span>Leer más</span>
-                        <i class="fas fa-external-link-alt text-sm" aria-hidden="true"></i>
-                    </a>
-
-                    <div class="flex items-center space-x-3 text-gray-400">
-                        <button class="hover:text-verde-principal transition-colors" title="Compartir">
-                            <i class="fas fa-share-alt"></i>
-                        </button>
-                        <button class="hover:text-verde-principal transition-colors" title="Guardar">
-                            <i class="fas fa-bookmark"></i>
-                        </button>
-                    </div>
-                </div>
-            </div>
-        `;
-
-        return card;
-    }
-
-    /**
-     * Crear tarjeta de review
-     */
-    createReviewCard(review) {
-        const card = document.createElement('div');
-        card.className = 'card-hover bg-white rounded-xl shadow-md overflow-hidden opacity-0 transform translate-y-4';
-
-        // Determinar el color de la categoría
-        const categoryColor = this.getCategoryColor(review.category);
-
-        card.innerHTML = `
-            <div class="relative">
-                <a href="${review.link}" aria-label="Leer: ${review.title}">
-                    <img
-                        src="${review.image}"
-                        alt="${review.title}"
-                        class="w-full h-48 object-cover"
-                        loading="lazy"
-                        onerror="this.src='https://images.unsplash.com/photo-1593941707882-a5bac6861d75?w=800&q=80'"
-                    >
-                </a>
-                <div class="absolute top-3 left-3">
-                    <span class="${categoryColor} text-white px-3 py-1 rounded-full text-xs font-medium">
-                        ${review.category}
-                    </span>
-                </div>
-                <div class="absolute top-3 right-3">
-                    <span class="bg-black bg-opacity-70 text-white px-2 py-1 rounded-full text-xs">
-                        ${review.readTime}
-                    </span>
-                </div>
-            </div>
-
-            <div class="p-6">
-                <div class="flex items-center text-sm text-gray-500 mb-3">
-                    <i class="fas fa-calendar-alt mr-2"></i>
-                    <span>${this.formatDate(review.date)}</span>
-                </div>
-
-                <h2 class="text-xl font-bold text-gris-oscuro mb-3 clamp-2 leading-tight">
-                    <a href="${review.link}" class="hover:text-verde-principal">${review.title}</a>
-                </h2>
-
-                <p class="text-gray-600 mb-6 clamp-3 leading-relaxed">
-                    ${review.summary}
-                </p>
-
-                <div class="flex items-center justify-between">
-                    <a
-                        href="${review.link}"
-                        class="btn-hover bg-verde-principal hover:bg-verde-hover text-white font-medium px-6 py-3 rounded-lg transition-all duration-200 flex items-center space-x-2"
-                        aria-label="Leer más: ${review.title}"
+                        aria-label="Leer más: ${content.title}"
                     >
                         <span>Leer más</span>
                         <i class="fas fa-external-link-alt text-sm" aria-hidden="true"></i>
@@ -775,9 +594,9 @@ class MovilidadElectrica {
     }
 
     /**
-     * Manejar búsqueda
+     * Manejar búsqueda genérica
      */
-    handleSearch(event) {
+    handleSearchGeneric(event) {
         const searchTerm = event.target.value.toLowerCase().trim();
         console.log('🔍 Buscando:', searchTerm, 'en sección:', this.currentSection);
         this.currentSearchTerm = searchTerm;
@@ -790,46 +609,42 @@ class MovilidadElectrica {
 
         if (searchTerm === '') {
             console.log('🧹 Limpiando búsqueda');
-            if (this.currentSection === 'news') {
-                this.filteredNews = [...this.allNews];
-            } else if (this.currentSection === 'comparativas') {
-                this.filteredComparativas = [...this.allComparativas];
-            } else if (this.currentSection === 'reviews') {
-                this.filteredReviews = [...this.allReviews];
-            }
+            this.clearSearchGeneric();
         } else {
             console.log('🔎 Aplicando filtro de búsqueda');
-            if (this.currentSection === 'news') {
-                this.filteredNews = this.allNews.filter(news => {
-                    return news.title.toLowerCase().includes(searchTerm) ||
-                           news.summary.toLowerCase().includes(searchTerm) ||
-                           news.category.toLowerCase().includes(searchTerm);
-                });
-            } else if (this.currentSection === 'comparativas') {
-                this.filteredComparativas = this.allComparativas.filter(comparativa => {
-                    return comparativa.title.toLowerCase().includes(searchTerm) ||
-                           comparativa.summary.toLowerCase().includes(searchTerm) ||
-                           comparativa.category.toLowerCase().includes(searchTerm);
-                });
-            } else if (this.currentSection === 'reviews') {
-                this.filteredReviews = this.allReviews.filter(review => {
-                    return review.title.toLowerCase().includes(searchTerm) ||
-                           review.summary.toLowerCase().includes(searchTerm) ||
-                           review.category.toLowerCase().includes(searchTerm);
-                });
-            }
+            this.applySearchFilter(searchTerm);
         }
 
         // Aplicar ordenamiento actual
-        this.applySorting();
+        this.applySortingGeneric();
         console.log('📊 Renderizando después de búsqueda');
         this.renderContent();
     }
 
     /**
-     * Limpiar búsqueda
+     * Aplicar filtro de búsqueda genérico
      */
-    clearSearch() {
+    applySearchFilter(searchTerm) {
+        const contentArrays = {
+            news: { all: this.allNews, filtered: 'filteredNews' },
+            comparativas: { all: this.allComparativas, filtered: 'filteredComparativas' },
+            reviews: { all: this.allReviews, filtered: 'filteredReviews' }
+        };
+
+        const config = contentArrays[this.currentSection];
+        if (!config) return;
+
+        this[config.filtered] = config.all.filter(item => {
+            return item.title.toLowerCase().includes(searchTerm) ||
+                   item.summary.toLowerCase().includes(searchTerm) ||
+                   item.category.toLowerCase().includes(searchTerm);
+        });
+    }
+
+    /**
+     * Limpiar búsqueda genérica
+     */
+    clearSearchGeneric() {
         console.log('🧹 Limpiando búsqueda en sección:', this.currentSection);
         const searchInput = document.getElementById('search-input');
         const clearBtn = document.getElementById('clear-search');
@@ -838,69 +653,57 @@ class MovilidadElectrica {
         if (clearBtn) clearBtn.classList.add('hidden');
 
         this.currentSearchTerm = '';
-        if (this.currentSection === 'news') {
-            this.filteredNews = [...this.allNews];
-        } else if (this.currentSection === 'comparativas') {
-            this.filteredComparativas = [...this.allComparativas];
-        } else if (this.currentSection === 'reviews') {
-            this.filteredReviews = [...this.allReviews];
+
+        const contentArrays = {
+            news: { all: this.allNews, filtered: 'filteredNews' },
+            comparativas: { all: this.allComparativas, filtered: 'filteredComparativas' },
+            reviews: { all: this.allReviews, filtered: 'filteredReviews' }
+        };
+
+        const config = contentArrays[this.currentSection];
+        if (config) {
+            this[config.filtered] = [...config.all];
         }
-        this.applySorting();
+
+        this.applySortingGeneric();
         console.log('📊 Renderizando después de limpiar búsqueda');
         this.renderContent();
     }
 
     /**
-     * Manejar cambio de ordenamiento
+     * Manejar cambio de ordenamiento genérico
      */
-    handleSortChange(event) {
+    handleSortChangeGeneric(event) {
         console.log('🔄 Cambiando ordenamiento a:', event.target.value, 'en sección:', this.currentSection);
         this.currentSortBy = event.target.value;
-        this.applySorting();
+        this.applySortingGeneric();
         console.log('📊 Renderizando después de cambio de ordenamiento');
         this.renderContent();
     }
 
     /**
-     * Aplicar ordenamiento
+     * Aplicar ordenamiento genérico
      */
-    applySorting() {
-        if (this.currentSection === 'news') {
-            switch (this.currentSortBy) {
-                case 'recent':
-                    this.filteredNews.sort((a, b) => new Date(b.date) - new Date(a.date));
-                    break;
-                case 'title':
-                    this.filteredNews.sort((a, b) => a.title.localeCompare(b.title, 'es-ES'));
-                    break;
-                case 'category':
-                    this.filteredNews.sort((a, b) => a.category.localeCompare(b.category, 'es-ES'));
-                    break;
-            }
-        } else if (this.currentSection === 'comparativas') {
-            switch (this.currentSortBy) {
-                case 'recent':
-                    this.filteredComparativas.sort((a, b) => new Date(b.date) - new Date(a.date));
-                    break;
-                case 'title':
-                    this.filteredComparativas.sort((a, b) => a.title.localeCompare(b.title, 'es-ES'));
-                    break;
-                case 'category':
-                    this.filteredComparativas.sort((a, b) => a.category.localeCompare(b.category, 'es-ES'));
-                    break;
-            }
-        } else if (this.currentSection === 'reviews') {
-            switch (this.currentSortBy) {
-                case 'recent':
-                    this.filteredReviews.sort((a, b) => new Date(b.date) - new Date(a.date));
-                    break;
-                case 'title':
-                    this.filteredReviews.sort((a, b) => a.title.localeCompare(b.title, 'es-ES'));
-                    break;
-                case 'category':
-                    this.filteredReviews.sort((a, b) => a.category.localeCompare(b.category, 'es-ES'));
-                    break;
-            }
+    applySortingGeneric() {
+        const contentArrays = {
+            news: this.filteredNews,
+            comparativas: this.filteredComparativas,
+            reviews: this.filteredReviews
+        };
+
+        const array = contentArrays[this.currentSection];
+        if (!array) return;
+
+        switch (this.currentSortBy) {
+            case 'recent':
+                array.sort((a, b) => new Date(b.date) - new Date(a.date));
+                break;
+            case 'title':
+                array.sort((a, b) => a.title.localeCompare(b.title, 'es-ES'));
+                break;
+            case 'category':
+                array.sort((a, b) => a.category.localeCompare(b.category, 'es-ES'));
+                break;
         }
     }
 
@@ -909,18 +712,18 @@ class MovilidadElectrica {
      */
     animateCardsEntrance() {
         console.log('🎨 Animando tarjetas para sección:', this.currentSection);
-        let cards;
 
-        if (this.currentSection === 'news') {
-            cards = document.querySelectorAll('#news-grid .card-hover');
-            console.log('📰 Encontradas', cards.length, 'tarjetas de noticias para animar');
-        } else if (this.currentSection === 'comparativas') {
-            cards = document.querySelectorAll('#comparativas-grid .card-hover');
-            console.log('📊 Encontradas', cards.length, 'tarjetas de comparativas para animar');
-        } else if (this.currentSection === 'reviews') {
-            cards = document.querySelectorAll('#reviews-grid .card-hover');
-            console.log('⭐ Encontradas', cards.length, 'tarjetas de reviews para animar');
-        }
+        // Configuración por tipo de contenido
+        const config = {
+            news: { gridId: '#news-grid .card-hover', emoji: '📰', name: 'noticias' },
+            comparativas: { gridId: '#comparativas-grid .card-hover', emoji: '📊', name: 'comparativas' },
+            reviews: { gridId: '#reviews-grid .card-hover', emoji: '⭐', name: 'reviews' }
+        };
+
+        const { gridId, emoji, name } = config[this.currentSection];
+        const cards = document.querySelectorAll(gridId);
+
+        console.log(`${emoji} Encontradas`, cards.length, `tarjetas de ${name} para animar`);
 
         if (cards.length === 0) {
             console.log('⚠️ No se encontraron tarjetas para animar en sección:', this.currentSection);
