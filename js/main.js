@@ -23,6 +23,7 @@ class MovilidadElectrica {
         this.setupEventListeners();
         await this.loadNews();
         await this.loadComparativas();
+        await this.loadReviews();
 
         // ✅ Verificar la sección inicial según el hash de la URL
         this.checkInitialSection();
@@ -45,13 +46,18 @@ class MovilidadElectrica {
         console.log('🔍 Verificando sección inicial - Hash de la URL:', hash);
 
         // Forzar recarga de datos si venimos de una navegación externa
-        if (hash && (this.allNews.length === 0 || this.allComparativas.length === 0)) {
+        if (hash && (this.allNews.length === 0 || this.allComparativas.length === 0 || this.allReviews.length === 0)) {
             console.log('🔄 Recargando datos para navegación externa');
             this.loadNews();
             this.loadComparativas();
+            this.loadReviews();
         }
 
-        if (hash === '#comparativas-section') {
+        if (hash === '#reviews-section') {
+            console.log('⭐ Detectada sección de reviews en la URL - configurando como inicial');
+            this.currentSection = 'reviews';
+            this.switchToSection('reviews');
+        } else if (hash === '#comparativas-section') {
             console.log('📊 Detectada sección de comparativas en la URL - configurando como inicial');
             this.currentSection = 'comparativas';
             this.switchToSection('comparativas');
@@ -104,6 +110,7 @@ class MovilidadElectrica {
         // Selector de ordenamiento - solo configurar el de la sección actual
         const sortSelect = document.getElementById('sort-select');
         const sortSelectComparativas = document.getElementById('sort-select-comparativas');
+        const sortSelectReviews = document.getElementById('sort-select-reviews');
 
         if (this.currentSection === 'news' && sortSelect) {
             console.log('📊 Configurando event listener para ordenamiento de noticias');
@@ -111,6 +118,9 @@ class MovilidadElectrica {
         } else if (this.currentSection === 'comparativas' && sortSelectComparativas) {
             console.log('📊 Configurando event listener para ordenamiento de comparativas');
             sortSelectComparativas.addEventListener('change', this.handleSortChange.bind(this));
+        } else if (this.currentSection === 'reviews' && sortSelectReviews) {
+            console.log('⭐ Configurando event listener para ordenamiento de reviews');
+            sortSelectReviews.addEventListener('change', this.handleSortChange.bind(this));
         }
     }
 
@@ -118,9 +128,10 @@ class MovilidadElectrica {
      * Configurar cambio entre secciones
      */
     setupSectionSwitching() {
-        // Enlaces del menú para cambiar entre noticias y comparativas
+        // Enlaces del menú para cambiar entre noticias, comparativas y reviews
         const newsLinks = document.querySelectorAll('a[href="#news-section"]');
         const comparativasLinks = document.querySelectorAll('a[href="#comparativas-section"]');
+        const reviewsLinks = document.querySelectorAll('a[href="#reviews-section"]');
 
         newsLinks.forEach(link => {
             link.addEventListener('click', (e) => {
@@ -137,6 +148,14 @@ class MovilidadElectrica {
                 this.switchToSection('comparativas');
             });
         });
+
+        reviewsLinks.forEach(link => {
+            link.addEventListener('click', (e) => {
+                e.preventDefault();
+                console.log('Clic en reviews');
+                this.switchToSection('reviews');
+            });
+        });
     }
 
     /**
@@ -147,7 +166,8 @@ class MovilidadElectrica {
         console.log('📊 Estado actual:', {
             currentSection: this.currentSection,
             filteredNews: this.filteredNews.length,
-            filteredComparativas: this.filteredComparativas.length
+            filteredComparativas: this.filteredComparativas.length,
+            filteredReviews: this.filteredReviews.length
         });
 
         this.currentSection = section;
@@ -155,23 +175,28 @@ class MovilidadElectrica {
         // Actualizar clases activas en el menú
         const newsLinks = document.querySelectorAll('a[href="#news-section"]');
         const comparativasLinks = document.querySelectorAll('a[href="#comparativas-section"]');
+        const reviewsLinks = document.querySelectorAll('a[href="#reviews-section"]');
 
         console.log('🔍 Enlaces encontrados:', {
             newsLinks: newsLinks.length,
-            comparativasLinks: comparativasLinks.length
+            comparativasLinks: comparativasLinks.length,
+            reviewsLinks: reviewsLinks.length
         });
 
         // Ocultar todas las secciones
         const newsSection = document.getElementById('news-section');
         const comparativasSection = document.getElementById('comparativas-section');
+        const reviewsSection = document.getElementById('reviews-section');
 
         console.log('🎯 Secciones encontradas:', {
             newsSection: !!newsSection,
-            comparativasSection: !!comparativasSection
+            comparativasSection: !!comparativasSection,
+            reviewsSection: !!reviewsSection
         });
 
         if (newsSection) newsSection.classList.add('hidden');
         if (comparativasSection) comparativasSection.classList.add('hidden');
+        if (reviewsSection) reviewsSection.classList.add('hidden');
 
         if (section === 'news') {
             console.log('📰 Mostrando sección de noticias');
@@ -183,8 +208,12 @@ class MovilidadElectrica {
                 link.classList.remove('border-b-2', 'border-verde-principal', 'pb-1');
                 link.classList.add('hover:text-verde-principal');
             });
+            reviewsLinks.forEach(link => {
+                link.classList.remove('border-b-2', 'border-verde-principal', 'pb-1');
+                link.classList.add('hover:text-verde-principal');
+            });
             if (newsSection) newsSection.classList.remove('hidden');
-        } else {
+        } else if (section === 'comparativas') {
             console.log('📊 Mostrando sección de comparativas');
             comparativasLinks.forEach(link => {
                 link.classList.add('border-b-2', 'border-verde-principal', 'pb-1');
@@ -194,7 +223,26 @@ class MovilidadElectrica {
                 link.classList.remove('border-b-2', 'border-verde-principal', 'pb-1');
                 link.classList.add('hover:text-verde-principal');
             });
+            reviewsLinks.forEach(link => {
+                link.classList.remove('border-b-2', 'border-verde-principal', 'pb-1');
+                link.classList.add('hover:text-verde-principal');
+            });
             if (comparativasSection) comparativasSection.classList.remove('hidden');
+        } else if (section === 'reviews') {
+            console.log('⭐ Mostrando sección de reviews');
+            reviewsLinks.forEach(link => {
+                link.classList.add('border-b-2', 'border-verde-principal', 'pb-1');
+                link.classList.remove('hover:text-verde-principal');
+            });
+            newsLinks.forEach(link => {
+                link.classList.remove('border-b-2', 'border-verde-principal', 'pb-1');
+                link.classList.add('hover:text-verde-principal');
+            });
+            comparativasLinks.forEach(link => {
+                link.classList.remove('border-b-2', 'border-verde-principal', 'pb-1');
+                link.classList.add('hover:text-verde-principal');
+            });
+            if (reviewsSection) reviewsSection.classList.remove('hidden');
         }
 
         // Renderizar el contenido correspondiente
@@ -213,15 +261,19 @@ class MovilidadElectrica {
         console.log('📊 Estado antes de renderizar:', {
             currentSection: this.currentSection,
             filteredNews: this.filteredNews.length,
-            filteredComparativas: this.filteredComparativas.length
+            filteredComparativas: this.filteredComparativas.length,
+            filteredReviews: this.filteredReviews.length
         });
 
         if (this.currentSection === 'news') {
             console.log('📰 Renderizando noticias');
             this.renderNews();
-        } else {
+        } else if (this.currentSection === 'comparativas') {
             console.log('📊 Renderizando comparativas');
             this.renderComparativas();
+        } else if (this.currentSection === 'reviews') {
+            console.log('⭐ Renderizando reviews');
+            this.renderReviews();
         }
 
         console.log('✅ Renderizado completado para sección:', this.currentSection);
@@ -264,6 +316,26 @@ class MovilidadElectrica {
         } catch (error) {
             console.error('❌ Error al cargar las comparativas:', error);
             this.showErrorMessage('No se pudieron cargar las comparativas. Por favor, inténtalo de nuevo más tarde.');
+        }
+    }
+
+    /**
+     * Cargar reviews desde el archivo JSON
+     */
+    async loadReviews() {
+        try {
+            const url = `data/reviews.json?ts=${Date.now()}`;
+            const response = await fetch(url, { cache: 'no-store' });
+            if (!response.ok) {
+                throw new Error(`HTTP error! status: ${response.status}`);
+            }
+            this.allReviews = await response.json();
+            this.filteredReviews = [...this.allReviews];
+
+            console.log(`✅ Cargadas ${this.allReviews.length} reviews correctamente`);
+        } catch (error) {
+            console.error('❌ Error al cargar las reviews:', error);
+            this.showErrorMessage('No se pudieron cargar las reviews. Por favor, inténtalo de nuevo más tarde.');
         }
     }
 
@@ -365,6 +437,58 @@ class MovilidadElectrica {
         this.filteredComparativas.forEach(comparativa => {
             const comparativaCard = this.createComparativaCard(comparativa);
             comparativasGrid.appendChild(comparativaCard);
+        });
+
+        // Añadir animación de entrada
+        this.animateCardsEntrance();
+    }
+
+    /**
+     * Renderizar las reviews en el grid
+     */
+    renderReviews() {
+        console.log('Ejecutando renderReviews');
+        const reviewsGrid = document.getElementById('reviews-grid');
+        const noResults = document.getElementById('no-results-reviews');
+        const searchResults = document.getElementById('search-results');
+        const resultsCount = document.getElementById('results-count');
+
+        console.log('Grid de reviews:', reviewsGrid);
+        console.log('Número de reviews filtradas:', this.filteredReviews.length);
+
+        if (!reviewsGrid) {
+            console.log('ERROR: No se encontró el grid de reviews');
+            return;
+        }
+
+        // Limpiar grid anterior
+        reviewsGrid.innerHTML = '';
+
+        // Si no hay reviews filtradas
+        if (this.filteredReviews.length === 0) {
+            console.log('No hay reviews filtradas, mostrando mensaje de no resultados');
+            if (noResults) noResults.classList.remove('hidden');
+            if (searchResults) searchResults.classList.add('hidden');
+            return;
+        }
+
+        // Ocultar mensaje de "no resultados"
+        if (noResults) noResults.classList.add('hidden');
+
+        // Mostrar contador de resultados si hay búsqueda activa
+        if (this.currentSearchTerm) {
+            if (searchResults) {
+                searchResults.classList.remove('hidden');
+                if (resultsCount) resultsCount.textContent = this.filteredReviews.length;
+            }
+        } else {
+            if (searchResults) searchResults.classList.add('hidden');
+        }
+
+        // Renderizar cada review
+        this.filteredReviews.forEach(review => {
+            const reviewCard = this.createReviewCard(review);
+            reviewsGrid.appendChild(reviewCard);
         });
 
         // Añadir animación de entrada
@@ -516,6 +640,78 @@ class MovilidadElectrica {
     }
 
     /**
+     * Crear tarjeta de review
+     */
+    createReviewCard(review) {
+        const card = document.createElement('div');
+        card.className = 'card-hover bg-white rounded-xl shadow-md overflow-hidden opacity-0 transform translate-y-4';
+
+        // Determinar el color de la categoría
+        const categoryColor = this.getCategoryColor(review.category);
+
+        card.innerHTML = `
+            <div class="relative">
+                <a href="${review.link}" aria-label="Leer: ${review.title}">
+                    <img
+                        src="${review.image}"
+                        alt="${review.title}"
+                        class="w-full h-48 object-cover"
+                        loading="lazy"
+                        onerror="this.src='https://images.unsplash.com/photo-1593941707882-a5bac6861d75?w=800&q=80'"
+                    >
+                </a>
+                <div class="absolute top-3 left-3">
+                    <span class="${categoryColor} text-white px-3 py-1 rounded-full text-xs font-medium">
+                        ${review.category}
+                    </span>
+                </div>
+                <div class="absolute top-3 right-3">
+                    <span class="bg-black bg-opacity-70 text-white px-2 py-1 rounded-full text-xs">
+                        ${review.readTime}
+                    </span>
+                </div>
+            </div>
+
+            <div class="p-6">
+                <div class="flex items-center text-sm text-gray-500 mb-3">
+                    <i class="fas fa-calendar-alt mr-2"></i>
+                    <span>${this.formatDate(review.date)}</span>
+                </div>
+
+                <h2 class="text-xl font-bold text-gris-oscuro mb-3 clamp-2 leading-tight">
+                    <a href="${review.link}" class="hover:text-verde-principal">${review.title}</a>
+                </h2>
+
+                <p class="text-gray-600 mb-6 clamp-3 leading-relaxed">
+                    ${review.summary}
+                </p>
+
+                <div class="flex items-center justify-between">
+                    <a
+                        href="${review.link}"
+                        class="btn-hover bg-verde-principal hover:bg-verde-hover text-white font-medium px-6 py-3 rounded-lg transition-all duration-200 flex items-center space-x-2"
+                        aria-label="Leer más: ${review.title}"
+                    >
+                        <span>Leer más</span>
+                        <i class="fas fa-external-link-alt text-sm" aria-hidden="true"></i>
+                    </a>
+
+                    <div class="flex items-center space-x-3 text-gray-400">
+                        <button class="hover:text-verde-principal transition-colors" title="Compartir">
+                            <i class="fas fa-share-alt"></i>
+                        </button>
+                        <button class="hover:text-verde-principal transition-colors" title="Guardar">
+                            <i class="fas fa-bookmark"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        `;
+
+        return card;
+    }
+
+    /**
      * Obtener color de categoría
      */
     getCategoryColor(category) {
@@ -562,8 +758,10 @@ class MovilidadElectrica {
             console.log('🧹 Limpiando búsqueda');
             if (this.currentSection === 'news') {
                 this.filteredNews = [...this.allNews];
-            } else {
+            } else if (this.currentSection === 'comparativas') {
                 this.filteredComparativas = [...this.allComparativas];
+            } else if (this.currentSection === 'reviews') {
+                this.filteredReviews = [...this.allReviews];
             }
         } else {
             console.log('🔎 Aplicando filtro de búsqueda');
@@ -573,11 +771,17 @@ class MovilidadElectrica {
                            news.summary.toLowerCase().includes(searchTerm) ||
                            news.category.toLowerCase().includes(searchTerm);
                 });
-            } else {
+            } else if (this.currentSection === 'comparativas') {
                 this.filteredComparativas = this.allComparativas.filter(comparativa => {
                     return comparativa.title.toLowerCase().includes(searchTerm) ||
                            comparativa.summary.toLowerCase().includes(searchTerm) ||
                            comparativa.category.toLowerCase().includes(searchTerm);
+                });
+            } else if (this.currentSection === 'reviews') {
+                this.filteredReviews = this.allReviews.filter(review => {
+                    return review.title.toLowerCase().includes(searchTerm) ||
+                           review.summary.toLowerCase().includes(searchTerm) ||
+                           review.category.toLowerCase().includes(searchTerm);
                 });
             }
         }
@@ -602,8 +806,10 @@ class MovilidadElectrica {
         this.currentSearchTerm = '';
         if (this.currentSection === 'news') {
             this.filteredNews = [...this.allNews];
-        } else {
+        } else if (this.currentSection === 'comparativas') {
             this.filteredComparativas = [...this.allComparativas];
+        } else if (this.currentSection === 'reviews') {
+            this.filteredReviews = [...this.allReviews];
         }
         this.applySorting();
         console.log('📊 Renderizando después de limpiar búsqueda');
@@ -637,7 +843,7 @@ class MovilidadElectrica {
                     this.filteredNews.sort((a, b) => a.category.localeCompare(b.category, 'es-ES'));
                     break;
             }
-        } else {
+        } else if (this.currentSection === 'comparativas') {
             switch (this.currentSortBy) {
                 case 'recent':
                     this.filteredComparativas.sort((a, b) => new Date(b.date) - new Date(a.date));
@@ -647,6 +853,18 @@ class MovilidadElectrica {
                     break;
                 case 'category':
                     this.filteredComparativas.sort((a, b) => a.category.localeCompare(b.category, 'es-ES'));
+                    break;
+            }
+        } else if (this.currentSection === 'reviews') {
+            switch (this.currentSortBy) {
+                case 'recent':
+                    this.filteredReviews.sort((a, b) => new Date(b.date) - new Date(a.date));
+                    break;
+                case 'title':
+                    this.filteredReviews.sort((a, b) => a.title.localeCompare(b.title, 'es-ES'));
+                    break;
+                case 'category':
+                    this.filteredReviews.sort((a, b) => a.category.localeCompare(b.category, 'es-ES'));
                     break;
             }
         }
@@ -662,9 +880,12 @@ class MovilidadElectrica {
         if (this.currentSection === 'news') {
             cards = document.querySelectorAll('#news-grid .card-hover');
             console.log('📰 Encontradas', cards.length, 'tarjetas de noticias para animar');
-        } else {
+        } else if (this.currentSection === 'comparativas') {
             cards = document.querySelectorAll('#comparativas-grid .card-hover');
             console.log('📊 Encontradas', cards.length, 'tarjetas de comparativas para animar');
+        } else if (this.currentSection === 'reviews') {
+            cards = document.querySelectorAll('#reviews-grid .card-hover');
+            console.log('⭐ Encontradas', cards.length, 'tarjetas de reviews para animar');
         }
 
         if (cards.length === 0) {
@@ -688,18 +909,25 @@ class MovilidadElectrica {
         const loader = document.getElementById('loader');
         const newsSection = document.getElementById('news-section');
         const comparativasSection = document.getElementById('comparativas-section');
+        const reviewsSection = document.getElementById('reviews-section');
 
         setTimeout(() => {
             if (loader) loader.classList.add('hidden');
 
-            // Mostrar la sección actual y ocultar la otra
-            if (newsSection && comparativasSection) {
+            // Mostrar la sección actual y ocultar las otras
+            if (newsSection && comparativasSection && reviewsSection) {
                 if (this.currentSection === 'news') {
                     newsSection.classList.remove('hidden');
                     comparativasSection.classList.add('hidden');
-                } else {
+                    reviewsSection.classList.add('hidden');
+                } else if (this.currentSection === 'comparativas') {
                     comparativasSection.classList.remove('hidden');
                     newsSection.classList.add('hidden');
+                    reviewsSection.classList.add('hidden');
+                } else if (this.currentSection === 'reviews') {
+                    reviewsSection.classList.remove('hidden');
+                    newsSection.classList.add('hidden');
+                    comparativasSection.classList.add('hidden');
                 }
             }
         }, 1000);

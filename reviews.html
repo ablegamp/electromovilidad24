@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Reviews - Movilidad Eléctrica 24</title>
+  <meta name="description" content="Reviews honestas y detalladas de coches, bicis y scooters eléctricos. Pruebas reales con datos de autonomía, consumo y experiencia de uso." />
+  <link rel="canonical" href="reviews.html" />
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  <link rel="shortcut icon" href="favicon.svg">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.0/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <script>
+    tailwind.config = { theme: { extend: { fontFamily: { inter: ['Inter','sans-serif'] }, colors: { 'verde-principal':'#10B981','gris-oscuro':'#1F2937','gris-claro':'#F9FAFB' } } } }
+  </script>
+  <style>
+    body { font-family: 'Inter', sans-serif; }
+  </style>
+</head>
+<body class="bg-gris-claro min-h-screen">
+  <header class="bg-white shadow-lg sticky top-0 z-50">
+    <div class="container mx-auto px-4 py-4">
+      <div class="flex items-center justify-between">
+        <div class="flex items-center space-x-3">
+          <div class="bg-white rounded-lg p-1">
+            <img src="imagenes/logo.jpeg" alt="Electromovilidad 24" class="h-12 w-auto">
+          </div>
+          <div>
+            <h1 class="text-2xl md:text-3xl font-bold text-gris-oscuro">Electromovilidad 24</h1>
+            <p class="text-sm text-gray-600">Reviews de movilidad eléctrica</p>
+          </div>
+        </div>
+
+        <button id="mobile-menu-btn" class="md:hidden bg-verde-principal text-white p-2 rounded-lg">
+          <i class="fas fa-bars"></i>
+        </button>
+      </div>
+
+      <nav class="mt-4">
+        <ul id="nav-menu" class="hidden md:flex space-x-8 text-gris-oscuro font-medium">
+          <li><a href="index.html#news-section" class="hover:text-verde-principal transition-colors duration-200">Noticias</a></li>
+          <li><a href="index.html#comparativas-section" class="hover:text-verde-principal transition-colors duration-200">Comparativas</a></li>
+          <li><a href="index.html#reviews-section" class="hover:text-verde-principal transition-colors duration-200 border-b-2 border-verde-principal pb-1">Reviews</a></li>
+          <li><a href="calculadoras.html" class="hover:text-verde-principal transition-colors duration-200">Calculadoras eléctricas</a></li>
+          <li><a href="sobre.html" class="hover:text-verde-principal transition-colors duration-200">Sobre mí</a></li>
+          <li><a href="contacto.html" class="hover:text-verde-principal transition-colors duration-200">Contacto</a></li>
+        </ul>
+
+        <ul id="mobile-nav" class="md:hidden hidden flex-col space-y-3 mt-4 bg-gray-50 p-4 rounded-lg">
+          <li><a href="index.html#news-section" class="block text-gris-oscuro hover:text-verde-principal font-medium">Noticias</a></li>
+          <li><a href="index.html#comparativas-section" class="block text-gris-oscuro hover:text-verde-principal font-medium">Comparativas</a></li>
+          <li><a href="index.html#reviews-section" class="block text-gris-oscuro hover:text-verde-principal font-medium">Reviews</a></li>
+          <li><a href="calculadoras.html" class="block text-gris-oscuro hover:text-verde-principal font-medium">Calculadoras eléctricas</a></li>
+          <li><a href="sobre.html" class="block text-gris-oscuro hover:text-verde-principal font-medium">Sobre mí</a></li>
+          <li><a href="contacto.html" class="block text-gris-oscuro hover:text-verde-principal font-medium">Contacto</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container mx-auto px-4 py-8">
+    <div class="text-center mb-12">
+      <h2 class="text-4xl md:text-5xl font-bold text-gris-oscuro mb-4">
+        Reviews de
+        <span class="text-verde-principal">Movilidad Eléctrica</span>
+      </h2>
+      <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+        Pruebas reales, datos honestos y experiencias personales con los mejores vehículos eléctricos del mercado.
+      </p>
+    </div>
+
+    <!-- Loader -->
+    <div id="loader" class="flex justify-center items-center py-12">
+      <div class="loader"></div>
+      <span class="ml-3 text-gris-oscuro font-medium">Cargando reviews...</span>
+    </div>
+
+    <!-- Grid de reviews -->
+    <section id="reviews-section">
+      <div class="flex justify-between items-center mb-8">
+        <h3 class="text-3xl font-bold text-gris-oscuro">Todas las Reviews</h3>
+        <div class="flex items-center space-x-4">
+          <select id="sort-select-reviews" class="px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-verde-principal">
+            <option value="recent">Más recientes</option>
+            <option value="title">Por título (A-Z)</option>
+            <option value="category">Por categoría</option>
+          </select>
+        </div>
+      </div>
+
+      <div id="reviews-grid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <!-- Las reviews se cargarán aquí dinámicamente -->
+      </div>
+
+      <div id="no-results-reviews" class="hidden text-center py-12">
+        <i class="fas fa-search text-6xl text-gray-300 mb-4"></i>
+        <h3 class="text-2xl font-bold text-gris-oscuro mb-2">No se encontraron reviews</h3>
+        <p class="text-gray-600">Estamos trabajando en nuevas reviews. ¡Vuelve pronto!</p>
+      </div>
+    </section>
+
+    <!-- Buscador -->
+    <section class="mb-8 mt-12">
+      <div class="max-w-2xl mx-auto">
+        <div class="relative">
+          <input
+            type="text"
+            id="search-input"
+            placeholder="Buscar reviews... (ej: Tesla, autonomía, consumo)"
+            class="w-full pl-12 pr-4 py-4 text-lg border border-gray-300 rounded-xl focus:outline-none focus:ring-2 focus:ring-verde-principal focus:border-transparent shadow-md"
+          >
+          <div class="absolute inset-y-0 left-0 pl-4 flex items-center pointer-events-none">
+            <i class="fas fa-search text-gray-400 text-xl"></i>
+          </div>
+          <button
+            id="clear-search"
+            class="absolute inset-y-0 right-0 pr-4 flex items-center text-gray-400 hover:text-gris-oscuro hidden"
+          >
+            <i class="fas fa-times"></i>
+          </button>
+        </div>
+
+        <div id="search-results" class="mt-2 text-center text-gray-600 hidden">
+          <span id="results-count">0</span> reviews encontradas
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="bg-gris-oscuro text-white py-12 mt-16">
+    <div class="container mx-auto px-4">
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+        <div>
+          <div class="flex items-center space-x-3 mb-4">
+            <div class="bg-white rounded-lg p-1">
+              <img src="imagenes/logo.jpeg" alt="Electromovilidad 24" class="h-12 w-auto">
+            </div>
+            <h3 class="text-xl font-bold">Electromovilidad 24</h3>
+          </div>
+          <p class="text-gray-300">Tu fuente confiable de reviews sobre movilidad eléctrica.</p>
+        </div>
+        <div>
+          <h4 class="text-lg font-semibold mb-4">Enlaces Útiles</h4>
+          <ul class="space-y-2">
+            <li><a href="index.html" class="text-gray-300 hover:text-verde-principal transition-colors">Inicio</a></li>
+            <li><a href="index.html#news-section" class="text-gray-300 hover:text-verde-principal transition-colors">Noticias</a></li>
+            <li><a href="index.html#comparativas-section" class="text-gray-300 hover:text-verde-principal transition-colors">Comparativas</a></li>
+            <li><a href="calculadoras.html" class="text-gray-300 hover:text-verde-principal transition-colors">Calculadoras</a></li>
+            <li><a href="sobre.html" class="text-gray-300 hover:text-verde-principal transition-colors">Sobre mí</a></li>
+            <li><a href="contacto.html" class="text-gray-300 hover:text-verde-principal transition-colors">Contacto</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="border-t border-gray-700 mt-8 pt-8 text-center">
+        <p class="text-gray-400">© 2025 Electromovilidad 24</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js?v=2"></script>
+</body>
+</html>
