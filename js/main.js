@@ -23,16 +23,18 @@ class MovilidadElectrica {
         this.setupEventListeners();
         await this.loadNews();
         await this.loadComparativas();
-        this.renderNews();
+
+        // ✅ Verificar la sección inicial según el hash de la URL
+        this.checkInitialSection();
+
+        // ✅ Renderizar el contenido inicial
+        this.renderContent();
+
+        // ✅ Ocultar loader y mostrar la sección inicial
         this.hideLoader();
+
+        // ✅ Configurar cambio entre secciones
         this.setupSectionSwitching();
-        // ✅ Solo verificar la sección inicial si NO hay hash en la URL
-        // Si hay hash, significa que el usuario llegó directamente a esa sección
-        if (!window.location.hash) {
-            this.checkInitialSection();
-        } else {
-            this.checkInitialSection();
-        }
     }
 
     /**
@@ -41,6 +43,13 @@ class MovilidadElectrica {
     checkInitialSection() {
         const hash = window.location.hash;
         console.log('🔍 Verificando sección inicial - Hash de la URL:', hash);
+
+        // Forzar recarga de datos si venimos de una navegación externa
+        if (hash && (this.allNews.length === 0 || this.allComparativas.length === 0)) {
+            console.log('🔄 Recargando datos para navegación externa');
+            this.loadNews();
+            this.loadComparativas();
+        }
 
         if (hash === '#comparativas-section') {
             console.log('📊 Detectada sección de comparativas en la URL - configurando como inicial');
@@ -682,10 +691,17 @@ class MovilidadElectrica {
 
         setTimeout(() => {
             if (loader) loader.classList.add('hidden');
-            // Solo mostrar la sección inicial (news), mantener comparativas oculta
-            if (newsSection) newsSection.classList.remove('hidden');
-            // Mantener comparativas oculta hasta que se haga clic
-            if (comparativasSection) comparativasSection.classList.add('hidden');
+
+            // Mostrar la sección actual y ocultar la otra
+            if (newsSection && comparativasSection) {
+                if (this.currentSection === 'news') {
+                    newsSection.classList.remove('hidden');
+                    comparativasSection.classList.add('hidden');
+                } else {
+                    comparativasSection.classList.remove('hidden');
+                    newsSection.classList.add('hidden');
+                }
+            }
         }, 1000);
     }
 

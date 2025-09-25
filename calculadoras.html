@@ -628,6 +628,23 @@
       clearText('km-resultado');
     });
   </script>
-  <script src="/js/main.js?v=2"></script>
+
+  <!-- JavaScript básico para navegación -->
+  <script>
+    // Manejo básico del menú móvil
+    document.addEventListener('DOMContentLoaded', function() {
+      const mobileMenuBtn = document.getElementById('mobile-menu-btn');
+      const mobileNav = document.getElementById('mobile-nav');
+
+      if (mobileMenuBtn && mobileNav) {
+        mobileMenuBtn.addEventListener('click', function() {
+          mobileNav.classList.toggle('hidden');
+          const icon = mobileMenuBtn.querySelector('i');
+          icon.classList.toggle('fa-bars');
+          icon.classList.toggle('fa-times');
+        });
+      }
+    });
+  </script>
 </body>
 </html>
