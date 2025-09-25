@@ -40,7 +40,7 @@
       <nav class="mt-4">
         <ul id="nav-menu" class="hidden md:flex space-x-8 text-gris-oscuro font-medium">
           <li><a href="/index.html#news-section" class="hover:text-verde-principal transition-colors duration-200">Noticias</a></li>
-          <li><a href="#" class="hover:text-verde-principal transition-colors duration-200">Comparativas</a></li>
+          <li><a href="/index.html#comparativas-section" class="hover:text-verde-principal transition-colors duration-200">Comparativas</a></li>
           <li><a href="#" class="hover:text-verde-principal transition-colors duration-200">Reviews</a></li>
           <li><a href="/calculadoras.html" class="hover:text-verde-principal transition-colors duration-200">Calculadoras eléctricas</a></li>
           <li><a href="/sobre.html" class="hover:text-verde-principal transition-colors duration-200 border-b-2 border-verde-principal pb-1">Sobre mí</a></li>
@@ -50,7 +50,7 @@
         <!-- Menú móvil -->
         <ul id="mobile-nav" class="md:hidden hidden flex-col space-y-3 mt-4 bg-gray-50 p-4 rounded-lg">
           <li><a href="/index.html#news-section" class="block text-gris-oscuro hover:text-verde-principal font-medium">Noticias</a></li>
-          <li><a href="#" class="block text-gris-oscuro hover:text-verde-principal font-medium">Comparativas</a></li>
+          <li><a href="/index.html#comparativas-section" class="block text-gris-oscuro hover:text-verde-principal font-medium">Comparativas</a></li>
           <li><a href="#" class="block text-gris-oscuro hover:text-verde-principal font-medium">Reviews</a></li>
           <li><a href="/calculadoras.html" class="block text-gris-oscuro hover:text-verde-principal font-medium">Calculadoras eléctricas</a></li>
           <li><a href="/sobre.html" class="block text-gris-oscuro hover:text-verde-principal font-medium">Sobre mí</a></li>
@@ -129,6 +129,22 @@
     </div>
   </footer>
 
-  <script src="js/main.js?v=2"></script>
+  <!-- JavaScript básico para navegación -->
+  <script>
+    // Manejo básico del menú móvil
+    document.addEventListener('DOMContentLoaded', function() {
+      const mobileMenuBtn = document.getElementById('mobile-menu-btn');
+      const mobileNav = document.getElementById('mobile-nav');
+
+      if (mobileMenuBtn && mobileNav) {
+        mobileMenuBtn.addEventListener('click', function() {
+          mobileNav.classList.toggle('hidden');
+          const icon = mobileMenuBtn.querySelector('i');
+          icon.classList.toggle('fa-bars');
+          icon.classList.toggle('fa-times');
+        });
+      }
+    });
+  </script>
 </body>
 </html>
