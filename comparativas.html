@@ -3,9 +3,9 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Reviews - Movilidad Eléctrica 24</title>
-  <meta name="description" content="Reviews honestas y detalladas de coches, bicis y scooters eléctricos. Pruebas reales con datos de autonomía, consumo y experiencia de uso." />
-  <link rel="canonical" href="reviews.html" />
+  <title>Comparativas - Movilidad Eléctrica 24</title>
+  <meta name="description" content="Comparativas detalladas entre vehículos eléctricos: coches, bicis y scooters. Análisis técnicos, rendimiento y recomendaciones." />
+  <link rel="canonical" href="comparativas.html" />
   <link rel="icon" type="image/svg+xml" href="favicon.svg">
   <link rel="shortcut icon" href="favicon.svg">
   <script src="https://cdn.tailwindcss.com"></script>
@@ -28,7 +28,7 @@
           </div>
           <div>
             <h1 class="text-2xl md:text-3xl font-bold text-gris-oscuro">Electromovilidad 24</h1>
-            <p class="text-sm text-gray-600">Reviews de movilidad eléctrica</p>
+            <p class="text-sm text-gray-600">Comparativas de movilidad eléctrica</p>
           </div>
         </div>
 
@@ -40,8 +40,8 @@
       <nav class="mt-4">
         <ul id="nav-menu" class="hidden md:flex space-x-8 text-gris-oscuro font-medium">
           <li><a href="index.html#news-section" class="hover:text-verde-principal transition-colors duration-200">Noticias</a></li>
-          <li><a href="comparativas.html" class="hover:text-verde-principal transition-colors duration-200">Comparativas</a></li>
-          <li><a href="index.html#reviews-section" class="hover:text-verde-principal transition-colors duration-200 border-b-2 border-verde-principal pb-1">Reviews</a></li>
+          <li><a href="comparativas.html" class="hover:text-verde-principal transition-colors duration-200 border-b-2 border-verde-principal pb-1">Comparativas</a></li>
+          <li><a href="index.html#reviews-section" class="hover:text-verde-principal transition-colors duration-200">Reviews</a></li>
           <li><a href="calculadoras.html" class="hover:text-verde-principal transition-colors duration-200">Calculadoras eléctricas</a></li>
           <li><a href="sobre.html" class="hover:text-verde-principal transition-colors duration-200">Sobre mí</a></li>
           <li><a href="contacto.html" class="hover:text-verde-principal transition-colors duration-200">Contacto</a></li>
@@ -62,26 +62,27 @@
   <main class="container mx-auto px-4 py-8">
     <div class="text-center mb-12">
       <h2 class="text-4xl md:text-5xl font-bold text-gris-oscuro mb-4">
-        Reviews de
+        Comparativas de
         <span class="text-verde-principal">Movilidad Eléctrica</span>
       </h2>
       <p class="text-xl text-gray-600 max-w-3xl mx-auto">
-        Pruebas reales, datos honestos y experiencias personales con los mejores vehículos eléctricos del mercado.
+        Análisis detallados y comparaciones técnicas entre los mejores vehículos eléctricos del mercado.
+        Encuentra el modelo perfecto para tus necesidades.
       </p>
     </div>
 
     <!-- Loader -->
     <div id="loader" class="flex justify-center items-center py-12">
       <div class="loader"></div>
-      <span class="ml-3 text-gris-oscuro font-medium">Cargando reviews...</span>
+      <span class="ml-3 text-gris-oscuro font-medium">Cargando comparativas...</span>
     </div>
 
-    <!-- Grid de reviews -->
-    <section id="reviews-section">
+    <!-- Grid de comparativas -->
+    <section id="comparativas-section">
       <div class="flex justify-between items-center mb-8">
-        <h3 class="text-3xl font-bold text-gris-oscuro">Todas las Reviews</h3>
+        <h3 class="text-3xl font-bold text-gris-oscuro">Todas las Comparativas</h3>
         <div class="flex items-center space-x-4">
-          <select id="sort-select-reviews" class="px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-verde-principal">
+          <select id="sort-select-comparativas" class="px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-verde-principal">
             <option value="recent">Más recientes</option>
             <option value="title">Por título (A-Z)</option>
             <option value="category">Por categoría</option>
@@ -89,14 +90,14 @@
         </div>
       </div>
 
-      <div id="reviews-grid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-        <!-- Las reviews se cargarán aquí dinámicamente -->
+      <div id="comparativas-grid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <!-- Las comparativas se cargarán aquí dinámicamente -->
       </div>
 
-      <div id="no-results-reviews" class="hidden text-center py-12">
+      <div id="no-results-comparativas" class="hidden text-center py-12">
         <i class="fas fa-search text-6xl text-gray-300 mb-4"></i>
-        <h3 class="text-2xl font-bold text-gris-oscuro mb-2">No se encontraron reviews</h3>
-        <p class="text-gray-600">Estamos trabajando en nuevas reviews. ¡Vuelve pronto!</p>
+        <h3 class="text-2xl font-bold text-gris-oscuro mb-2">No se encontraron comparativas</h3>
+        <p class="text-gray-600">Estamos trabajando en nuevas comparativas. ¡Vuelve pronto!</p>
       </div>
     </section>
 
@@ -107,7 +108,7 @@
           <input
             type="text"
             id="search-input"
-            placeholder="Buscar reviews... (ej: Tesla, autonomía, consumo)"
+            placeholder="Buscar comparativas... (ej: Tesla vs, autonomía, rendimiento)"
             class="w-full pl-12 pr-4 py-4 text-lg border border-gray-300 rounded-xl focus:outline-none focus:ring-2 focus:ring-verde-principal focus:border-transparent shadow-md"
           >
           <div class="absolute inset-y-0 left-0 pl-4 flex items-center pointer-events-none">
@@ -122,7 +123,7 @@
         </div>
 
         <div id="search-results" class="mt-2 text-center text-gray-600 hidden">
-          <span id="results-count">0</span> reviews encontradas
+          <span id="results-count">0</span> comparativas encontradas
         </div>
       </div>
     </section>
@@ -138,7 +139,7 @@
             </div>
             <h3 class="text-xl font-bold">Electromovilidad 24</h3>
           </div>
-          <p class="text-gray-300">Tu fuente confiable de reviews sobre movilidad eléctrica.</p>
+          <p class="text-gray-300">Tu fuente confiable de comparativas sobre movilidad eléctrica.</p>
         </div>
         <div>
           <h4 class="text-lg font-semibold mb-4">Enlaces Útiles</h4>
@@ -148,16 +149,24 @@
             <li><a href="comparativas.html" class="text-gray-300 hover:text-verde-principal transition-colors">Comparativas</a></li>
             <li><a href="calculadoras.html" class="text-gray-300 hover:text-verde-principal transition-colors">Calculadoras</a></li>
             <li><a href="sobre.html" class="text-gray-300 hover:text-verde-principal transition-colors">Sobre mí</a></li>
-            <li><a href="contacto.html" class="text-gray-300 hover:text-verde-principal transition-colors">Contacto</a></li>
           </ul>
         </div>
       </div>
+
       <div class="border-t border-gray-700 mt-8 pt-8 text-center">
-        <p class="text-gray-400">© 2025 Electromovilidad 24</p>
+        <p class="text-gray-400">
+          © 2025 Electromovilidad 24 - Todas las comparativas sobre movilidad eléctrica
+        </p>
       </div>
     </div>
   </footer>
 
+  <!-- Safelist de clases Tailwind para colores de categorías (necesario con CDN/JIT) -->
+  <div class="hidden">
+    <span class="bg-blue-500 bg-green-500 bg-purple-500 bg-orange-500 bg-red-500 bg-gray-600 bg-verde-principal"></span>
+  </div>
+
+  <!-- JavaScript -->
   <script src="js/main.js?v=2"></script>
 </body>
 </html>

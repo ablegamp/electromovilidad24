@@ -43,7 +43,10 @@ class MovilidadElectrica {
      */
     checkInitialSection() {
         const hash = window.location.hash;
+        const currentPage = window.location.pathname.split('/').pop();
+
         console.log('🔍 Verificando sección inicial - Hash de la URL:', hash);
+        console.log('📄 Página actual:', currentPage);
 
         // Forzar recarga de datos si venimos de una navegación externa
         if (hash && (this.allNews.length === 0 || this.allComparativas.length === 0 || this.allReviews.length === 0)) {
@@ -51,6 +54,21 @@ class MovilidadElectrica {
             this.loadNews();
             this.loadComparativas();
             this.loadReviews();
+        }
+
+        // Detectar la sección basada en la página actual si no hay hash
+        if (!hash) {
+            if (currentPage === 'comparativas.html') {
+                console.log('📊 Detectada página de comparativas - configurando como inicial');
+                this.currentSection = 'comparativas';
+                this.switchToSection('comparativas');
+                return;
+            } else if (currentPage === 'reviews.html') {
+                console.log('⭐ Detectada página de reviews - configurando como inicial');
+                this.currentSection = 'reviews';
+                this.switchToSection('reviews');
+                return;
+            }
         }
 
         if (hash === '#reviews-section') {
@@ -128,6 +146,13 @@ class MovilidadElectrica {
      * Configurar cambio entre secciones
      */
     setupSectionSwitching() {
+        // Solo configurar navegación entre secciones en index.html
+        const currentPage = window.location.pathname.split('/').pop();
+        if (currentPage !== 'index.html') {
+            console.log('📄 En página específica, no se configura navegación entre secciones');
+            return;
+        }
+
         // Enlaces del menú para cambiar entre noticias, comparativas y reviews
         const newsLinks = document.querySelectorAll('a[href="#news-section"]');
         const comparativasLinks = document.querySelectorAll('a[href="#comparativas-section"]');
@@ -171,6 +196,15 @@ class MovilidadElectrica {
         });
 
         this.currentSection = section;
+
+        // Solo aplicar lógica de navegación en index.html
+        const currentPage = window.location.pathname.split('/').pop();
+        if (currentPage !== 'index.html') {
+            console.log('📄 En página específica, no se aplica lógica de navegación entre secciones');
+            this.renderContent();
+            this.setupEventListeners();
+            return;
+        }
 
         // Actualizar clases activas en el menú
         const newsLinks = document.querySelectorAll('a[href="#news-section"]');
@@ -907,29 +941,35 @@ class MovilidadElectrica {
      */
     hideLoader() {
         const loader = document.getElementById('loader');
-        const newsSection = document.getElementById('news-section');
-        const comparativasSection = document.getElementById('comparativas-section');
-        const reviewsSection = document.getElementById('reviews-section');
+        const currentPage = window.location.pathname.split('/').pop();
 
         setTimeout(() => {
             if (loader) loader.classList.add('hidden');
 
-            // Mostrar la sección actual y ocultar las otras
-            if (newsSection && comparativasSection && reviewsSection) {
-                if (this.currentSection === 'news') {
-                    newsSection.classList.remove('hidden');
-                    comparativasSection.classList.add('hidden');
-                    reviewsSection.classList.add('hidden');
-                } else if (this.currentSection === 'comparativas') {
-                    comparativasSection.classList.remove('hidden');
-                    newsSection.classList.add('hidden');
-                    reviewsSection.classList.add('hidden');
-                } else if (this.currentSection === 'reviews') {
-                    reviewsSection.classList.remove('hidden');
-                    newsSection.classList.add('hidden');
-                    comparativasSection.classList.add('hidden');
+            // Solo aplicar lógica de secciones en index.html
+            if (currentPage === 'index.html') {
+                const newsSection = document.getElementById('news-section');
+                const comparativasSection = document.getElementById('comparativas-section');
+                const reviewsSection = document.getElementById('reviews-section');
+
+                // Mostrar la sección actual y ocultar las otras
+                if (newsSection && comparativasSection && reviewsSection) {
+                    if (this.currentSection === 'news') {
+                        newsSection.classList.remove('hidden');
+                        comparativasSection.classList.add('hidden');
+                        reviewsSection.classList.add('hidden');
+                    } else if (this.currentSection === 'comparativas') {
+                        comparativasSection.classList.remove('hidden');
+                        newsSection.classList.add('hidden');
+                        reviewsSection.classList.add('hidden');
+                    } else if (this.currentSection === 'reviews') {
+                        reviewsSection.classList.remove('hidden');
+                        newsSection.classList.add('hidden');
+                        comparativasSection.classList.add('hidden');
+                    }
                 }
             }
+            // En páginas específicas (comparativas.html, reviews.html), el contenido ya está visible
         }, 1000);
     }
 
@@ -1078,8 +1118,8 @@ document.addEventListener('DOMContentLoaded', () => {
     logPerformanceMetrics();
 
     // Inicializar aplicación principal
-    // Solo inicializar si existe el contenedor de noticias para evitar trabajo innecesario en páginas estáticas
-    if (document.getElementById('news-grid')) {
+    // Solo inicializar si existe algún contenedor de contenido para evitar trabajo innecesario en páginas estáticas
+    if (document.getElementById('news-grid') || document.getElementById('comparativas-grid') || document.getElementById('reviews-grid')) {
         new MovilidadElectrica();
     }
 
