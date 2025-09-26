@@ -81,12 +81,17 @@
             line-clamp: 2;
             overflow: hidden;
         }
-        .clamp-3 {
-            display: -webkit-box;
-            -webkit-line-clamp: 3;
-            -webkit-box-orient: vertical;
-            line-clamp: 3;
-            overflow: hidden;
+        /* Estados activos de navegación basados en URL */
+        .nav-link[href="#news-section"].active,
+        .nav-link[href="index.html#news-section"].active {
+            border-bottom: 2px solid #10B981;
+            padding-bottom: 4px;
+        }
+
+        .nav-link[href="comparativas.html"].active,
+        .nav-link[href="reviews.html"].active {
+            border-bottom: 2px solid #10B981;
+            padding-bottom: 4px;
         }
     </style>
     <link rel="canonical" href="index.html">
@@ -131,17 +136,17 @@
             <!-- Navegación -->
             <nav class="mt-4">
                 <ul id="nav-menu" class="hidden md:flex space-x-8 text-gris-oscuro font-medium">
-                    <li><a href="#news-section" class="hover:text-verde-principal transition-colors duration-200">Noticias</a></li>
-                    <li><a href="comparativas.html" class="hover:text-verde-principal transition-colors duration-200">Comparativas</a></li>
-                    <li><a href="reviews.html" class="hover:text-verde-principal transition-colors duration-200">Reviews</a></li>
-                    <li><a href="/calculadoras.html" class="hover:text-verde-principal transition-colors duration-200">Calculadoras eléctricas</a></li>
-                    <li><a href="/sobre.html" class="hover:text-verde-principal transition-colors duration-200">Sobre mí</a></li>
-                    <li><a href="/contacto.html" class="hover:text-verde-principal transition-colors duration-200">Contacto</a></li>
+                    <li><a href="index.html" class="nav-link hover:text-verde-principal transition-colors duration-200">Noticias</a></li>
+                    <li><a href="comparativas.html" class="nav-link hover:text-verde-principal transition-colors duration-200">Comparativas</a></li>
+                    <li><a href="reviews.html" class="nav-link hover:text-verde-principal transition-colors duration-200">Reviews</a></li>
+                    <li><a href="/calculadoras.html" class="nav-link hover:text-verde-principal transition-colors duration-200">Calculadoras eléctricas</a></li>
+                    <li><a href="/sobre.html" class="nav-link hover:text-verde-principal transition-colors duration-200">Sobre mí</a></li>
+                    <li><a href="/contacto.html" class="nav-link hover:text-verde-principal transition-colors duration-200">Contacto</a></li>
                 </ul>
                 
                 <!-- Menú móvil -->
                 <ul id="mobile-nav" class="md:hidden hidden flex-col space-y-3 mt-4 bg-gray-50 p-4 rounded-lg">
-                    <li><a href="#news-section" class="block text-gris-oscuro hover:text-verde-principal font-medium">Noticias</a></li>
+                    <li><a href="index.html" class="block text-gris-oscuro hover:text-verde-principal font-medium">Noticias</a></li>
                     <li><a href="comparativas.html" class="block text-gris-oscuro hover:text-verde-principal font-medium">Comparativas</a></li>
                     <li><a href="reviews.html" class="block text-gris-oscuro hover:text-verde-principal font-medium">Reviews</a></li>
                     <li><a href="/calculadoras.html" class="block text-gris-oscuro hover:text-verde-principal font-medium">Calculadoras eléctricas</a></li>
@@ -201,7 +206,7 @@
         </div>
 
         <!-- Grid de noticias -->
-        <section id="news-section" class="hidden">
+        <section id="news-section">
             <div class="flex justify-between items-center mb-8">
                 <h3 class="text-3xl font-bold text-gris-oscuro">Últimas Noticias</h3>
                 <div class="flex items-center space-x-4">
@@ -224,60 +229,6 @@
                 <i class="fas fa-search text-6xl text-gray-300 mb-4"></i>
                 <h3 class="text-2xl font-bold text-gris-oscuro mb-2">No se encontraron noticias</h3>
                 <p class="text-gray-600">Intenta con otros términos de búsqueda o revisa todas las noticias.</p>
-            </div>
-        </section>
-
-        <!-- Grid de comparativas -->
-        <section id="comparativas-section" class="hidden">
-            <div class="flex justify-between items-center mb-8">
-                <h3 class="text-3xl font-bold text-gris-oscuro">Comparativas</h3>
-                <div class="flex items-center space-x-4">
-                    <!-- Selector de ordenamiento -->
-                    <select id="sort-select-comparativas" class="px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-verde-principal">
-                        <option value="recent">Más recientes</option>
-                        <option value="title">Por título (A-Z)</option>
-                        <option value="category">Por categoría</option>
-                    </select>
-                </div>
-            </div>
-
-            <!-- Grid de tarjetas -->
-            <div id="comparativas-grid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-                <!-- Las comparativas se cargarán aquí dinámicamente -->
-            </div>
-
-            <!-- Mensaje cuando no hay resultados -->
-            <div id="no-results-comparativas" class="hidden text-center py-12">
-                <i class="fas fa-search text-6xl text-gray-300 mb-4"></i>
-                <h3 class="text-2xl font-bold text-gris-oscuro mb-2">No se encontraron comparativas</h3>
-                <p class="text-gray-600">Estamos trabajando en nuevas comparativas. ¡Vuelve pronto!</p>
-            </div>
-        </section>
-
-        <!-- Grid de reviews -->
-        <section id="reviews-section" class="hidden">
-            <div class="flex justify-between items-center mb-8">
-                <h3 class="text-3xl font-bold text-gris-oscuro">Reviews</h3>
-                <div class="flex items-center space-x-4">
-                    <!-- Selector de ordenamiento -->
-                    <select id="sort-select-reviews" class="px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-verde-principal">
-                        <option value="recent">Más recientes</option>
-                        <option value="title">Por título (A-Z)</option>
-                        <option value="category">Por categoría</option>
-                    </select>
-                </div>
-            </div>
-
-            <!-- Grid de tarjetas -->
-            <div id="reviews-grid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-                <!-- Las reviews se cargarán aquí dinámicamente -->
-            </div>
-
-            <!-- Mensaje cuando no hay resultados -->
-            <div id="no-results-reviews" class="hidden text-center py-12">
-                <i class="fas fa-search text-6xl text-gray-300 mb-4"></i>
-                <h3 class="text-2xl font-bold text-gris-oscuro mb-2">No se encontraron reviews</h3>
-                <p class="text-gray-600">Estamos trabajando en nuevas reviews. ¡Vuelve pronto!</p>
             </div>
         </section>
     </main>
