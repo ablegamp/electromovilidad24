@@ -39,18 +39,8 @@ class MovilidadElectrica {
      * Configurar event listeners básicos
      */
     setupEventListeners() {
-        // Menú móvil
-        const mobileMenuBtn = document.getElementById('mobile-menu-btn');
-        const mobileNav = document.getElementById('mobile-nav');
-
-        if (mobileMenuBtn && mobileNav) {
-            mobileMenuBtn.addEventListener('click', () => {
-                mobileNav.classList.toggle('hidden');
-                const icon = mobileMenuBtn.querySelector('i');
-                icon.classList.toggle('fa-bars');
-                icon.classList.toggle('fa-times');
-            });
-        }
+        // Nota: El menú móvil ahora se configura en setupBasicFunctionality()
+        // para que funcione en TODAS las páginas
 
         // Buscador
         const searchInput = document.getElementById('search-input');
@@ -416,16 +406,32 @@ document.addEventListener('DOMContentLoaded', () => {
         new MovilidadElectrica();
     }
 
+    // Inicializar funcionalidades básicas en TODAS las páginas
+    setupBasicFunctionality();
+
     console.log('✅ Aplicación simplificada iniciada correctamente');
 });
 
 /**
- * Utilidades adicionales
+ * Configurar funcionalidades básicas que deben ejecutarse en todas las páginas
  */
+function setupBasicFunctionality() {
+    // Menú móvil toggle
+    const mobileMenuBtn = document.getElementById('mobile-menu-btn');
+    const mobileNav = document.getElementById('mobile-nav');
 
-// Scroll suave para enlaces
-document.addEventListener('DOMContentLoaded', function() {
-    // Smooth scrolling para todos los enlaces internos
+    if (mobileMenuBtn && mobileNav) {
+        mobileMenuBtn.addEventListener('click', () => {
+            mobileNav.classList.toggle('hidden');
+            const icon = mobileMenuBtn.querySelector('i');
+            if (icon) {
+                icon.classList.toggle('fa-bars');
+                icon.classList.toggle('fa-times');
+            }
+        });
+    }
+
+    // Smooth scrolling para enlaces internos
     document.querySelectorAll('a[href^="#"]').forEach(anchor => {
         anchor.addEventListener('click', function (e) {
             e.preventDefault();
@@ -448,63 +454,21 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     });
 
-    // Inicializar banner de cookies y analítica si ya hay consentimiento
+    // Inicializar banner de cookies y analítica
     initCookieBanner();
     try {
         if (localStorage.getItem('cookieConsent') === 'accepted') {
             loadAnalytics();
         }
     } catch (e) {}
-});
 
-// Función para compartir noticias
-function shareNews(title, url) {
-    if (navigator.share) {
-        navigator.share({
-            title: title,
-            url: url
-        }).then(() => {
-            console.log('✅ Noticia compartida correctamente');
-        }).catch((error) => {
-            console.log('❌ Error al compartir:', error);
-        });
-    } else {
-        // Fallback para navegadores que no soportan Web Share API
-        const dummy = document.createElement('textarea');
-        document.body.appendChild(dummy);
-        dummy.value = `${title} - ${url}`;
-        dummy.select();
-        document.execCommand('copy');
-        document.body.removeChild(dummy);
-
-        // Mostrar notificación
-        showNotification('¡Enlace copiado al portapapeles!');
-    }
+    // Inicializar métricas de rendimiento
+    logPerformanceMetrics();
 }
 
-// Función para mostrar notificaciones
-function showNotification(message) {
-    const notification = document.createElement('div');
-    notification.className = 'fixed bottom-4 right-4 bg-verde-principal text-white px-6 py-3 rounded-lg shadow-lg z-50 transform translate-y-full transition-transform duration-300';
-    notification.textContent = message;
-
-    document.body.appendChild(notification);
-
-    // Animar entrada
-    setTimeout(() => {
-        notification.classList.remove('translate-y-full');
-    }, 100);
-
-    // Remover después de 3 segundos
-    setTimeout(() => {
-        notification.classList.add('translate-y-full');
-        setTimeout(() => {
-            document.body.removeChild(notification);
-        }, 300);
-    }, 3000);
-}
-
-// Performance monitoring
+/**
+ * Performance monitoring
+ */
 function logPerformanceMetrics() {
     if (performance.mark && performance.measure) {
         performance.mark('app-start');
@@ -518,22 +482,6 @@ function logPerformanceMetrics() {
         });
     }
 }
-
-// Inicializar aplicación cuando el DOM esté listo
-document.addEventListener('DOMContentLoaded', () => {
-    console.log('🚀 Iniciando Movilidad Eléctrica 24...');
-
-    // Inicializar métricas de rendimiento
-    logPerformanceMetrics();
-
-    // Inicializar aplicación principal
-    // Solo inicializar si existe algún contenedor de contenido para evitar trabajo innecesario en páginas estáticas
-    if (document.getElementById('news-grid') || document.getElementById('comparativas-grid') || document.getElementById('reviews-grid')) {
-        new MovilidadElectrica();
-    }
-
-    console.log('✅ Aplicación iniciada correctamente');
-});
 
 /**
  * Banner de Cookies (reutilizable)
