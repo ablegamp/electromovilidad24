@@ -1,5 +1,25 @@
 [
   {
+    "id": 4,
+    "title": "¡Unidos por la carga! Nace Spark, la mayor red de recarga europea",
+    "summary": "Cuatro gigantes europeos forman la alianza Spark: Atlante, Ionity, Fastned y Electra crean la mayor red de recarga pública con una sola aplicación. Hasta 400 kW de potencia para revolucionar la movilidad eléctrica.",
+    "category": "Coches Eléctricos",
+    "image": "../imagenes/ev3.jpg",
+    "link": "articulos/spark-red-recarga-europa-2025.html",
+    "date": "2025-07-17",
+    "readTime": "5 min"
+  },
+  {
+    "id": 3,
+    "title": "¡Récord histórico! Las matriculaciones de eléctricos se disparan en España",
+    "summary": "España registra un crecimiento del 133.91% en matriculaciones de vehículos eléctricos e híbridos enchufables en junio 2025. Tesla lidera con un aumento del 60.7% y los eléctricos representan el 47.5% del total electrificado.",
+    "category": "Coches Eléctricos",
+    "image": "../imagenes/ev2.jpg",
+    "link": "articulos/record-matriculaciones-electricos-espana-2025.html",
+    "date": "2025-07-15",
+    "readTime": "5 min"
+  },
+  {
     "id": 2,
     "title": "La movilidad eléctrica pierde fuelle: los europeos ya no están tan convencidos",
     "summary": "Encuesta de Shell revela que solo el 41% de europeos considera comprar un coche eléctrico, un 7% menos que el año anterior. El alto precio y la infraestructura de carga, principales obstáculos para la adopción masiva.",

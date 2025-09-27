@@ -11,7 +11,17 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>/articulos/record-matriculaciones-electricos-espana-2025.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>/articulos/review-tesla-model-y-2025.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>/articulos/spark-red-recarga-europa-2025.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
