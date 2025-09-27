@@ -152,6 +152,22 @@ class MovilidadElectrica {
         });
 
         this.animateCardsEntrance();
+        this.hideLoader();
+    }
+
+    /**
+     * Ocultar loader
+     */
+    hideLoader() {
+        const loader = document.getElementById('loader');
+        if (loader) {
+            setTimeout(() => {
+                loader.classList.add('hidden');
+                const sectionId = `${this.contentType}-section`;
+                const section = document.getElementById(sectionId);
+                if (section) section.classList.remove('hidden');
+            }, 500);
+        }
     }
 
     /**
@@ -345,21 +361,27 @@ class MovilidadElectrica {
      * Mostrar mensaje de error
      */
     showErrorMessage(message) {
-        const loader = document.getElementById('loader');
-        if (loader) {
-            loader.innerHTML = `
-                <div class="text-center">
-                    <i class="fas fa-exclamation-triangle text-4xl text-red-500 mb-4"></i>
-                    <p class="text-gris-oscuro font-medium">${message}</p>
+        const gridId = `${this.contentType}-grid`;
+        const grid = document.getElementById(gridId);
+
+        if (grid) {
+            grid.innerHTML = `
+                <div class="col-span-full text-center py-12">
+                    <i class="fas fa-exclamation-triangle text-6xl text-red-400 mb-4"></i>
+                    <h3 class="text-2xl font-bold text-gris-oscuro mb-2">Error al cargar el contenido</h3>
+                    <p class="text-gray-600 mb-6">${message}</p>
                     <button
                         onclick="location.reload()"
-                        class="mt-4 bg-verde-principal hover:bg-verde-hover text-white px-6 py-2 rounded-lg transition-colors"
+                        class="bg-verde-principal hover:bg-verde-hover text-white px-6 py-2 rounded-lg transition-colors"
                     >
                         Intentar de nuevo
                     </button>
                 </div>
             `;
         }
+
+        // Ocultar el loader
+        this.hideLoader();
     }
 
     /**
