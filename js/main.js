@@ -342,21 +342,6 @@ class MovilidadElectrica {
     }
 
     /**
-     * Ocultar loader
-     */
-    hideLoader() {
-        const loader = document.getElementById('loader');
-        if (loader) {
-            setTimeout(() => {
-                loader.classList.add('hidden');
-                const sectionId = `${this.contentType}-section`;
-                const section = document.getElementById(sectionId);
-                if (section) section.classList.remove('hidden');
-            }, 1000);
-        }
-    }
-
-    /**
      * Mostrar mensaje de error
      */
     showErrorMessage(message) {
@@ -557,6 +542,6 @@ function loadAnalytics() {
     script.id = 'analytics-script';
     script.defer = true;
     script.setAttribute('data-domain', 'movilidadelectrica24.com'); // TODO: ajustar dominio
-    script.src = 'https://plausible.io/js/script.js';
+    script.src = 'https://plausible.io/js/plausible.js';
     document.head.appendChild(script);
 }
