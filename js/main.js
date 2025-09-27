@@ -225,14 +225,8 @@ class MovilidadElectrica {
                         <i class="fas fa-external-link-alt text-sm"></i>
                     </a>
 
-                    <div class="flex items-center space-x-3 text-gray-400">
-                        <button class="hover:text-verde-principal transition-colors" title="Compartir">
-                            <i class="fas fa-share-alt"></i>
-                        </button>
-                        <button class="hover:text-verde-principal transition-colors" title="Guardar">
-                            <i class="fas fa-bookmark"></i>
-                        </button>
-                    </div>
+                    <!-- Espacio para mantener el layout -->
+                    <div class="w-16"></div>
                 </div>
             </div>
         `;

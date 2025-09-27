@@ -1,5 +1,15 @@
 [
   {
+    "id": 2,
+    "title": "La movilidad eléctrica pierde fuelle: los europeos ya no están tan convencidos",
+    "summary": "Encuesta de Shell revela que solo el 41% de europeos considera comprar un coche eléctrico, un 7% menos que el año anterior. El alto precio y la infraestructura de carga, principales obstáculos para la adopción masiva.",
+    "category": "Coches Eléctricos",
+    "image": "../imagenes/ev1.jpg",
+    "link": "articulos/movilidad-electrica-pierde-fuelle-2025.html",
+    "date": "2025-06-25",
+    "readTime": "5 min"
+  },
+  {
     "id": 1,
     "title": "Ventas de Tesla caen en España en mayo, pero las matriculaciones de eléctricos se disparan",
     "summary": "Los datos de ANFAC muestran que, mientras Tesla retrocede en España en mayo de 2025, el conjunto de vehículos electrificados (BEV e híbridos enchufables) crece con fuerza. Te cuento qué hay detrás: competencia asiática, ofertas, y un mercado que madura (por fin) entre cargadores y ayudas que llegan a trompicones.",
