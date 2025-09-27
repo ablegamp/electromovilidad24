@@ -81,7 +81,7 @@ function generateSitemap(files, baseUrl = '') {
   return sitemap;
 }
 
-function main() {
+function main(baseUrl = '') {
   const rootDir = '.';
   const outputFile = 'sitemap.xml';
 
@@ -91,7 +91,7 @@ function main() {
     console.log(`📄 Encontrados ${htmlFiles.length} archivos HTML`);
 
     console.log('⚙️  Generando sitemap...');
-    const sitemap = generateSitemap(htmlFiles);
+    const sitemap = generateSitemap(htmlFiles, baseUrl);
 
     console.log(`💾 Guardando sitemap en ${outputFile}...`);
     fs.writeFileSync(outputFile, sitemap);
@@ -115,9 +115,12 @@ function main() {
   }
 }
 
+// Configuración de la URL base del sitio
+const SITE_URL = 'https://tudominio.com'; // Reemplaza con tu dominio real
+
 // Ejecutar si se llama directamente
 if (require.main === module) {
-  main();
+  main(SITE_URL);
 }
 
 module.exports = { generateSitemap, findHtmlFiles };

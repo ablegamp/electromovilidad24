@@ -1,67 +1,72 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>/articulos/comparativa-autonomia-real-vs-oficial.html</loc>
+    <loc>https://tudominio.com/articulos/comparativa-autonomia-real-vs-oficial.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>/articulos/movilidad-electrica-pierde-fuelle-2025.html</loc>
+    <loc>https://tudominio.com/articulos/confort-viajes-largos-electricos-2025.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>/articulos/record-matriculaciones-electricos-espana-2025.html</loc>
+    <loc>https://tudominio.com/articulos/movilidad-electrica-pierde-fuelle-2025.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>/articulos/review-tesla-model-y-2025.html</loc>
+    <loc>https://tudominio.com/articulos/record-matriculaciones-electricos-espana-2025.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>/articulos/spark-red-recarga-europa-2025.html</loc>
+    <loc>https://tudominio.com/articulos/review-tesla-model-y-2025.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>/articulos/ventas-ev-espana-2025.html</loc>
+    <loc>https://tudominio.com/articulos/spark-red-recarga-europa-2025.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>/calculadoras.html</loc>
+    <loc>https://tudominio.com/articulos/ventas-ev-espana-2025.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>/comparativas.html</loc>
+    <loc>https://tudominio.com/calculadoras.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://tudominio.com/comparativas.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>/contacto.html</loc>
+    <loc>https://tudominio.com/contacto.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>/index.html</loc>
+    <loc>https://tudominio.com/index.html</loc>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>/reviews.html</loc>
+    <loc>https://tudominio.com/reviews.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>/seo-editor.html</loc>
+    <loc>https://tudominio.com/seo-editor.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>/sobre.html</loc>
+    <loc>https://tudominio.com/sobre.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
