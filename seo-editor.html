@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Editor de SEO - Movilidad Eléctrica 24</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.0/css/all.min.css">
+    <style>
+        .fade-in { animation: fadeIn 0.5s ease-in; }
+        @keyframes fadeIn { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: translateY(0); } }
+    </style>
+</head>
+<body class="bg-gray-50 min-h-screen">
+    <header class="bg-white shadow-sm border-b">
+        <div class="max-w-6xl mx-auto px-4 py-4">
+            <div class="flex items-center justify-between">
+                <div class="flex items-center space-x-3">
+                    <div class="bg-emerald-500 text-white rounded-lg p-2">
+                        <i class="fas fa-search text-xl"></i>
+                    </div>
+                    <div>
+                        <h1 class="text-xl font-bold text-gray-900">Editor de SEO</h1>
+                        <p class="text-sm text-gray-600">Optimiza los metadatos de tus artículos</p>
+                    </div>
+                </div>
+                <a href="index.html" class="text-emerald-600 hover:text-emerald-700 text-sm font-medium">
+                    ← Volver al sitio
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <main class="max-w-6xl mx-auto px-4 py-8">
+        <div class="grid grid-cols-1 lg:grid-cols-3 gap-8">
+            <!-- Panel de archivos -->
+            <div class="lg:col-span-1">
+                <div class="bg-white rounded-xl shadow-sm border p-6">
+                    <h2 class="text-lg font-semibold text-gray-900 mb-4 flex items-center">
+                        <i class="fas fa-folder-open mr-2 text-emerald-500"></i>
+                        Artículos disponibles
+                    </h2>
+                    <div id="file-list" class="space-y-2">
+                        <div class="animate-pulse">
+                            <div class="h-4 bg-gray-200 rounded w-3/4 mb-2"></div>
+                            <div class="h-3 bg-gray-200 rounded w-1/2"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Editor de SEO -->
+            <div class="lg:col-span-2">
+                <div id="editor-container" class="hidden">
+                    <div class="bg-white rounded-xl shadow-sm border p-6 mb-6">
+                        <div class="flex items-center justify-between mb-6">
+                            <h2 class="text-xl font-semibold text-gray-900" id="article-title">Seleccionar artículo</h2>
+                            <div class="flex items-center space-x-3">
+                                <button id="preview-btn" class="bg-gray-100 hover:bg-gray-200 text-gray-700 px-4 py-2 rounded-lg text-sm font-medium transition-colors">
+                                    <i class="fas fa-eye mr-2"></i>Vista previa
+                                </button>
+                                <button id="save-btn" class="bg-emerald-500 hover:bg-emerald-600 text-white px-4 py-2 rounded-lg text-sm font-medium transition-colors">
+                                    <i class="fas fa-save mr-2"></i>Guardar cambios
+                                </button>
+                            </div>
+                        </div>
+
+                        <form id="seo-form" class="space-y-6">
+                            <!-- Información básica -->
+                            <div>
+                                <h3 class="text-lg font-medium text-gray-900 mb-4">Información básica</h3>
+                                <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                                    <div>
+                                        <label class="block text-sm font-medium text-gray-700 mb-2">Título *</label>
+                                        <input type="text" id="title" required
+                                               class="w-full px-3 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-emerald-500 focus:border-emerald-500"
+                                               placeholder="Título del artículo">
+                                    </div>
+                                    <div>
+                                        <label class="block text-sm font-medium text-gray-700 mb-2">URL del artículo *</label>
+                                        <input type="url" id="url" required readonly
+                                               class="w-full px-3 py-2 border border-gray-200 bg-gray-50 rounded-lg text-gray-500"
+                                               placeholder="URL del artículo">
+                                    </div>
+                                </div>
+                                <div class="mt-4">
+                                    <label class="block text-sm font-medium text-gray-700 mb-2">Descripción *</label>
+                                    <textarea id="description" required rows="3"
+                                              class="w-full px-3 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-emerald-500 focus:border-emerald-500"
+                                              placeholder="Descripción del artículo (150-160 caracteres recomendado)"></textarea>
+                                    <div class="flex justify-between mt-1">
+                                        <small class="text-gray-500">Caracteres: <span id="desc-count">0</span>/160</small>
+                                        <small id="desc-help" class="text-gray-500">Descripción atractiva para motores de búsqueda</small>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Open Graph -->
+                            <div>
+                                <h3 class="text-lg font-medium text-gray-900 mb-4">Open Graph (Redes sociales)</h3>
+                                <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                                    <div>
+                                        <label class="block text-sm font-medium text-gray-700 mb-2">Título para redes sociales</label>
+                                        <input type="text" id="og-title"
+                                               class="w-full px-3 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-emerald-500 focus:border-emerald-500"
+                                               placeholder="Título optimizado para redes sociales">
+                                    </div>
+                                    <div>
+                                        <label class="block text-sm font-medium text-gray-700 mb-2">Imagen para redes sociales</label>
+                                        <input type="url" id="og-image"
+                                               class="w-full px-3 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-emerald-500 focus:border-emerald-500"
+                                               placeholder="https://ejemplo.com/imagen.jpg">
+                                    </div>
+                                </div>
+                                <div class="mt-4">
+                                    <label class="block text-sm font-medium text-gray-700 mb-2">Descripción para redes sociales</label>
+                                    <textarea id="og-description" rows="2"
+                                              class="w-full px-3 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-emerald-500 focus:border-emerald-500"
+                                              placeholder="Descripción optimizada para redes sociales"></textarea>
+                                </div>
+                            </div>
+
+                            <!-- SEO avanzado -->
+                            <div>
+                                <h3 class="text-lg font-medium text-gray-900 mb-4">SEO avanzado</h3>
+                                <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                                    <div>
+                                        <label class="block text-sm font-medium text-gray-700 mb-2">Palabras clave principales</label>
+                                        <input type="text" id="keywords"
+                                               class="w-full px-3 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-emerald-500 focus:border-emerald-500"
+                                               placeholder="palabra1, palabra2, palabra3">
+                                        <small class="text-gray-500 mt-1 block">Separadas por comas</small>
+                                    </div>
+                                    <div>
+                                        <label class="block text-sm font-medium text-gray-700 mb-2">Categoría del artículo</label>
+                                        <select id="category"
+                                                class="w-full px-3 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-emerald-500 focus:border-emerald-500">
+                                            <option value="Coches Eléctricos">Coches Eléctricos</option>
+                                            <option value="Bicicletas Eléctricas">Bicicletas Eléctricas</option>
+                                            <option value="Scooters Eléctricos">Scooters Eléctricos</option>
+                                            <option value="Comparativas">Comparativas</option>
+                                            <option value="Reviews">Reviews</option>
+                                            <option value="Política y Regulación">Política y Regulación</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="mt-4">
+                                    <label class="block text-sm font-medium text-gray-700 mb-2">Fecha de publicación</label>
+                                    <input type="datetime-local" id="publish-date"
+                                           class="w-full px-3 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-emerald-500 focus:border-emerald-500">
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+
+                    <!-- Vista previa -->
+                    <div id="preview-container" class="hidden bg-white rounded-xl shadow-sm border p-6">
+                        <div class="flex items-center justify-between mb-6">
+                            <h3 class="text-xl font-semibold text-gray-900">Vista previa</h3>
+                            <button id="close-preview" class="text-gray-400 hover:text-gray-600">
+                                <i class="fas fa-times"></i>
+                            </button>
+                        </div>
+                        <div id="seo-preview" class="space-y-4">
+                            <!-- Aquí se mostrará la vista previa del SEO -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Modal de confirmación -->
+    <div id="save-modal" class="hidden fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50">
+        <div class="bg-white rounded-xl p-6 max-w-md mx-4">
+            <div class="text-center">
+                <div class="mx-auto flex items-center justify-center h-12 w-12 rounded-full bg-emerald-100 mb-4">
+                    <i class="fas fa-check text-emerald-600"></i>
+                </div>
+                <h3 class="text-lg font-medium text-gray-900 mb-2">Cambios guardados</h3>
+                <p class="text-sm text-gray-500 mb-6">Los metadatos SEO se han actualizado correctamente.</p>
+                <button id="close-save-modal" class="w-full bg-emerald-500 hover:bg-emerald-600 text-white px-4 py-2 rounded-lg font-medium">
+                    Entendido
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        class SEOEditor {
+            constructor() {
+                this.currentFile = null;
+                this.originalContent = '';
+                this.init();
+            }
+
+            async init() {
+                await this.loadFileList();
+                this.setupEventListeners();
+            }
+
+            async loadFileList() {
+                try {
+                    // Simular carga de archivos (en un entorno real, esto vendría de una API)
+                    const articles = [
+                        {
+                            filename: 'comparativa-autonomia-real-vs-oficial.html',
+                            title: 'Autonomía real vs oficial en coches eléctricos',
+                            url: '/articulos/comparativa-autonomia-real-vs-oficial.html',
+                            date: '2025-06-15'
+                        },
+                        {
+                            filename: 'review-tesla-model-y-2025.html',
+                            title: 'Review Tesla Model Y 2025',
+                            url: '/articulos/review-tesla-model-y-2025.html',
+                            date: '2025-06-10'
+                        },
+                        {
+                            filename: 'ventas-ev-espana-2025.html',
+                            title: 'Ventas de vehículos eléctricos en España 2025',
+                            url: '/articulos/ventas-ev-espana-2025.html',
+                            date: '2025-06-05'
+                        }
+                    ];
+
+                    this.renderFileList(articles);
+                } catch (error) {
+                    console.error('Error cargando archivos:', error);
+                }
+            }
+
+            renderFileList(articles) {
+                const fileList = document.getElementById('file-list');
+                fileList.innerHTML = '';
+
+                articles.forEach(article => {
+                    const articleElement = document.createElement('div');
+                    articleElement.className = 'p-3 border border-gray-200 rounded-lg hover:bg-gray-50 cursor-pointer transition-colors';
+                    articleElement.innerHTML = `
+                        <div class="flex items-center justify-between">
+                            <div class="flex-1">
+                                <h4 class="text-sm font-medium text-gray-900 truncate">${article.title}</h4>
+                                <p class="text-xs text-gray-500">${article.filename}</p>
+                            </div>
+                            <div class="ml-3">
+                                <i class="fas fa-chevron-right text-gray-400"></i>
+                            </div>
+                        </div>
+                    `;
+
+                    articleElement.addEventListener('click', () => this.loadArticle(article));
+                    fileList.appendChild(articleElement);
+                });
+            }
+
+            async loadArticle(article) {
+                this.currentFile = article.filename;
+
+                try {
+                    // Simular carga de contenido (en un entorno real, esto vendría de una API)
+                    const mockContent = this.getMockArticleContent(article.filename);
+                    this.originalContent = mockContent;
+
+                    this.populateForm(mockContent, article);
+                    this.showEditor();
+
+                    // Actualizar título
+                    document.getElementById('article-title').textContent = `Editando: ${article.title}`;
+
+                } catch (error) {
+                    console.error('Error cargando artículo:', error);
+                    alert('Error al cargar el artículo');
+                }
+            }
+
+            getMockArticleContent(filename) {
+                // Contenido mock basado en el artículo real que vimos antes
+                if (filename === 'comparativa-autonomia-real-vs-oficial.html') {
+                    return {
+                        title: 'Autonomía real vs oficial en coches eléctricos: la verdad que no te cuentan',
+                        description: 'Descubre la diferencia entre la autonomía prometida y la real en los principales modelos de coches eléctricos del mercado. Datos reales de usuarios y pruebas independientes.',
+                        ogTitle: 'Autonomía real vs oficial en coches eléctricos: la verdad que no te cuentan',
+                        ogDescription: '¿Por qué tu coche eléctrico no alcanza los kilómetros prometidos? Analizamos la autonomía real de los modelos más populares.',
+                        ogImage: '../imagenes/comparativa-autonomia-real-vs-oficial.jpg',
+                        category: 'Comparativas',
+                        publishDate: '2025-06-15T08:00:00',
+                        keywords: 'autonomía real, autonomía oficial, coches eléctricos, WLTP, Tesla, Hyundai Kona, Kia e-Niro'
+                    };
+                }
+
+                // Contenido por defecto para otros artículos
+                return {
+                    title: '',
+                    description: '',
+                    ogTitle: '',
+                    ogDescription: '',
+                    ogImage: '',
+                    category: 'Coches Eléctricos',
+                    publishDate: '',
+                    keywords: ''
+                };
+            }
+
+            populateForm(content, article) {
+                document.getElementById('title').value = content.title || '';
+                document.getElementById('url').value = article.url || '';
+                document.getElementById('description').value = content.description || '';
+                document.getElementById('og-title').value = content.ogTitle || '';
+                document.getElementById('og-description').value = content.ogDescription || '';
+                document.getElementById('og-image').value = content.ogImage || '';
+                document.getElementById('category').value = content.category || 'Coches Eléctricos';
+                document.getElementById('publish-date').value = content.publishDate ?
+                    new Date(content.publishDate).toISOString().slice(0, 16) : '';
+                document.getElementById('keywords').value = content.keywords || '';
+
+                // Actualizar contador de descripción
+                this.updateDescriptionCount();
+            }
+
+            setupEventListeners() {
+                // Contador de descripción
+                document.getElementById('description').addEventListener('input', () => {
+                    this.updateDescriptionCount();
+                });
+
+                // Botones
+                document.getElementById('preview-btn').addEventListener('click', () => {
+                    this.showPreview();
+                });
+
+                document.getElementById('save-btn').addEventListener('click', () => {
+                    this.saveChanges();
+                });
+
+                document.getElementById('close-preview').addEventListener('click', () => {
+                    this.hidePreview();
+                });
+
+                document.getElementById('close-save-modal').addEventListener('click', () => {
+                    document.getElementById('save-modal').classList.add('hidden');
+                });
+            }
+
+            updateDescriptionCount() {
+                const desc = document.getElementById('description').value;
+                const count = desc.length;
+                const countElement = document.getElementById('desc-count');
+                const helpElement = document.getElementById('desc-help');
+
+                countElement.textContent = count;
+
+                if (count > 160) {
+                    countElement.className = 'text-red-500';
+                    helpElement.textContent = 'La descripción es demasiado larga';
+                    helpElement.className = 'text-red-500';
+                } else if (count > 150) {
+                    countElement.className = 'text-yellow-500';
+                    helpElement.textContent = 'Descripción un poco larga, considera acortarla';
+                    helpElement.className = 'text-yellow-500';
+                } else {
+                    countElement.className = 'text-green-500';
+                    helpElement.textContent = 'Longitud ideal para SEO';
+                    helpElement.className = 'text-green-500';
+                }
+            }
+
+            showEditor() {
+                document.getElementById('editor-container').classList.remove('hidden');
+                document.getElementById('editor-container').classList.add('fade-in');
+            }
+
+            showPreview() {
+                const formData = this.getFormData();
+                const preview = this.generatePreview(formData);
+                document.getElementById('seo-preview').innerHTML = preview;
+                document.getElementById('preview-container').classList.remove('hidden');
+            }
+
+            hidePreview() {
+                document.getElementById('preview-container').classList.add('hidden');
+            }
+
+            getFormData() {
+                return {
+                    title: document.getElementById('title').value,
+                    description: document.getElementById('description').value,
+                    ogTitle: document.getElementById('og-title').value,
+                    ogDescription: document.getElementById('og-description').value,
+                    ogImage: document.getElementById('og-image').value,
+                    category: document.getElementById('category').value,
+                    keywords: document.getElementById('keywords').value,
+                    publishDate: document.getElementById('publish-date').value
+                };
+            }
+
+            generatePreview(data) {
+                return `
+                    <div class="border rounded-lg p-4">
+                        <h4 class="font-medium text-gray-900 mb-2">Vista en Google:</h4>
+                        <div class="text-blue-600 text-xl mb-1">${data.title}</div>
+                        <div class="text-green-700 mb-2">${document.getElementById('url').value}</div>
+                        <div class="text-gray-600 text-sm">${data.description}</div>
+                    </div>
+                    <div class="border rounded-lg p-4">
+                        <h4 class="font-medium text-gray-900 mb-2">Vista en redes sociales:</h4>
+                        <div class="flex items-start space-x-3">
+                            <img src="${data.ogImage || 'https://via.placeholder.com/100x100/10B981/FFFFFF?text=IMG'}'"
+                                 alt="Preview" class="w-16 h-16 rounded object-cover">
+                            <div>
+                                <div class="font-medium text-gray-900">${data.ogTitle || data.title}</div>
+                                <div class="text-gray-600 text-sm">${data.ogDescription || data.description}</div>
+                            </div>
+                        </div>
+                    </div>
+                `;
+            }
+
+            async saveChanges() {
+                const formData = this.getFormData();
+
+                // Validar campos requeridos
+                if (!formData.title || !formData.description) {
+                    alert('Por favor, completa los campos obligatorios (Título y Descripción)');
+                    return;
+                }
+
+                try {
+                    // En un entorno real, aquí se haría una llamada a una API para guardar
+                    console.log('Guardando cambios para:', this.currentFile);
+                    console.log('Datos:', formData);
+
+                    // Simular guardado exitoso
+                    await new Promise(resolve => setTimeout(resolve, 1000));
+
+                    // Mostrar modal de confirmación
+                    document.getElementById('save-modal').classList.remove('hidden');
+
+                } catch (error) {
+                    console.error('Error guardando:', error);
+                    alert('Error al guardar los cambios');
+                }
+            }
+        }
+
+        // Inicializar cuando cargue la página
+        document.addEventListener('DOMContentLoaded', () => {
+            new SEOEditor();
+        });
+    </script>
+</body>
+</html>
