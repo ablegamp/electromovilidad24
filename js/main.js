@@ -18,10 +18,39 @@ class MovilidadElectrica {
      * Obtener tipo de contenido basado en la página actual
      */
     getContentType() {
-        const currentPage = window.location.pathname.split('/').pop();
-        if (currentPage === 'comparativas.html') return 'comparativas';
-        if (currentPage === 'reviews.html') return 'reviews';
-        return 'news';
+        const currentPath = window.location.pathname;
+        const currentPage = currentPath.split('/').pop() || 'index.html';
+
+        console.log('🔍 Detectando tipo de contenido:', {
+            fullPath: currentPath,
+            currentPage: currentPage,
+            pathname: window.location.pathname,
+            href: window.location.href
+        });
+
+        // Detectar por nombre de archivo o por URL
+        if (currentPage === 'comparativas.html' || currentPath.includes('comparativas')) {
+            return 'comparativas';
+        }
+        if (currentPage === 'reviews.html' || currentPath.includes('reviews')) {
+            return 'reviews';
+        }
+        if (currentPage === 'index.html' || currentPath === '/' || currentPath === '') {
+            return 'news';
+        }
+
+        // Fallback: detectar por elementos del DOM
+        if (document.getElementById('comparativas-grid')) {
+            return 'comparativas';
+        }
+        if (document.getElementById('reviews-grid')) {
+            return 'reviews';
+        }
+        if (document.getElementById('news-grid')) {
+            return 'news';
+        }
+
+        return 'news'; // default fallback
     }
 
     /**
