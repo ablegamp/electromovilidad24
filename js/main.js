@@ -28,11 +28,18 @@ class MovilidadElectrica {
      * Inicialización simplificada
      */
     async init() {
+        console.log('🔄 Iniciando MovilidadElectrica...', {
+            contentType: this.contentType,
+            timestamp: new Date().toISOString()
+        });
+
         this.setupEventListeners();
         await this.loadContent();
         this.renderContent();
         this.hideLoader();
         this.setupActiveNavigation();
+
+        console.log('✅ MovilidadElectrica inicializada correctamente');
     }
 
     /**
@@ -102,14 +109,22 @@ class MovilidadElectrica {
                 url = `/data/news.json?ts=${Date.now()}`;
             }
 
+            console.log('📡 Cargando contenido desde:', url);
+
             const response = await fetch(url, { cache: 'no-store' });
             if (!response.ok) {
                 throw new Error(`HTTP error! status: ${response.status}`);
             }
             this.allContent = await response.json();
             this.filteredContent = [...this.allContent];
+
+            console.log('✅ Contenido cargado:', {
+                contentType: this.contentType,
+                itemsCount: this.allContent.length,
+                url: url
+            });
         } catch (error) {
-            console.error('Error al cargar el contenido:', error);
+            console.error('❌ Error al cargar el contenido:', error);
             this.showErrorMessage('No se pudo cargar el contenido.');
         }
     }
@@ -124,6 +139,13 @@ class MovilidadElectrica {
         const noResults = document.getElementById(noResultsId);
         const searchResults = document.getElementById('search-results');
         const resultsCount = document.getElementById('results-count');
+
+        console.log('🎨 Renderizando contenido:', {
+            gridId,
+            gridFound: !!grid,
+            contentLength: this.filteredContent.length,
+            contentType: this.contentType
+        });
 
         if (!grid) return;
 
@@ -403,8 +425,18 @@ document.addEventListener('DOMContentLoaded', () => {
     const hasComparativasGrid = document.getElementById('comparativas-grid');
     const hasReviewsGrid = document.getElementById('reviews-grid');
 
+    console.log('🔍 Detectando grids:', {
+        hasNewsGrid: !!hasNewsGrid,
+        hasComparativasGrid: !!hasComparativasGrid,
+        hasReviewsGrid: !!hasReviewsGrid,
+        currentPath: window.location.pathname
+    });
+
     if (hasNewsGrid || hasComparativasGrid || hasReviewsGrid) {
+        console.log('📦 Inicializando aplicación...');
         new MovilidadElectrica();
+    } else {
+        console.log('⚠️ No se encontraron grids de contenido');
     }
 
     // Inicializar funcionalidades básicas en TODAS las páginas
