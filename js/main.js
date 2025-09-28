@@ -95,11 +95,11 @@ class MovilidadElectrica {
         try {
             let url;
             if (this.contentType === 'comparativas') {
-                url = `data/comparativas.json?ts=${Date.now()}`;
+                url = `/data/comparativas.json?ts=${Date.now()}`;
             } else if (this.contentType === 'reviews') {
-                url = `data/reviews.json?ts=${Date.now()}`;
+                url = `/data/reviews.json?ts=${Date.now()}`;
             } else {
-                url = `data/news.json?ts=${Date.now()}`;
+                url = `/data/news.json?ts=${Date.now()}`;
             }
 
             const response = await fetch(url, { cache: 'no-store' });

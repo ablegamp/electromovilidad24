@@ -1,0 +1,31 @@
+[build]
+  publish = "."
+  command = "echo 'Static site - no build command needed'"
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
+
+[[redirects]]
+  from = "/data/*"
+  to = "/data/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/js/*"
+  to = "/js/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/imagenes/*"
+  to = "/imagenes/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/articulos/*"
+  to = "/articulos/:splat"
+  status = 200
+
+[build.environment]
+  NODE_VERSION = "18"
