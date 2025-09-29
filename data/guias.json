@@ -8,5 +8,15 @@
     "link": "articulos/que-es-coche-electrico-guia-completa.html",
     "date": "2025-09-29",
     "readTime": "12 min"
+  },
+  {
+    "id": 2,
+    "title": "Automóvil eléctrico: evolución, beneficios y retos",
+    "summary": "Descubre la fascinante evolución del automóvil eléctrico desde sus orígenes hasta hoy. Análisis completo de beneficios, avances tecnológicos y retos actuales de la movilidad eléctrica en España.",
+    "category": "Guías",
+    "image": "../imagenes/ev8.jpg",
+    "link": "articulos/automovil-electrico-evolucion-beneficios-retos.html",
+    "date": "2025-09-28",
+    "readTime": "12 min"
   }
 ]
