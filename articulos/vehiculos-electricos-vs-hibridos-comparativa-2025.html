@@ -37,24 +37,18 @@
   <style>
     body { font-family: 'Inter', sans-serif; }
     .article-content p { margin: 1rem 0; line-height: 1.75; }
-    .article-content h2 { margin-top: 2rem; margin-bottom: 1rem; font-size: 1.75rem; font-weight: 800; color: #065f46; }
-    .article-content h3 { margin-top: 1.5rem; margin-bottom: 0.75rem; font-size: 1.5rem; font-weight: 700; }
-    .article-content ul, .article-content ol { margin: 1rem 0 1.25rem 1.5rem; }
-    .article-content li { margin: 0.5rem 0; line-height: 1.6; }
-    .highlight-box {
-      @apply bg-emerald-50 border-l-4 border-emerald-500 p-4 my-6 rounded-r-lg;
+    .article-content h2 {
+      margin-top: 2rem;
+      margin-bottom: 1rem;
+      font-size: 1.75rem;
+      font-weight: 800;
+      color: #065f46;
     }
-    .comparison-table {
-      @apply w-full my-6 border-collapse;
-    }
-    .comparison-table th, .comparison-table td {
-      @apply border border-gray-300 p-3 text-left;
-    }
-    .comparison-table th {
-      @apply bg-gray-100 font-semibold;
-    }
-    .comparison-table tr:nth-child(even) {
-      @apply bg-gray-50;
+    .article-content h3 {
+      margin-top: 1.5rem;
+      margin-bottom: 0.75rem;
+      font-size: 1.5rem;
+      font-weight: 700;
     }
   </style>
   <!-- Datos estructurados JSON-LD -->
@@ -154,8 +148,8 @@
           <li><a class="hover:underline" href="#eleccion">¿Qué opción elegir en 2025?</a></li>
           <li><a class="hover:underline" href="#casos-uso">Casos de uso reales</a></li>
           <li><a class="hover:underline" href="#testimonios">Testimonios reales</a></li>
-          <li><a class="hover:underline" href="#futuro">El futuro de los vehículos eléctricos vs híbridos</a></li>
           <li><a class="hover:underline" href="#conclusion">Conclusión: híbridos o eléctricos</a></li>
+          <li><a class="hover:underline" href="#futuro">El futuro de los vehículos eléctricos vs híbridos</a></li>
         </ol>
       </nav>
 
@@ -201,7 +195,6 @@
         <p>Los <strong>híbridos no enchufables</strong> (HEV) no se pueden conectar a la red. La batería se recarga automáticamente mediante:</p>
 
         <ul>
-{{ ... }}
           <li>🔄 Frenada regenerativa</li>
           <li>⚡ Energía del motor de combustión</li>
           <li>🏷️ Etiqueta ECO de la DGT</li>
@@ -270,32 +263,40 @@
         <p>Una de las grandes diferencias prácticas entre eléctricos vs híbridos está en el mantenimiento y los gastos asociados. Vamos a comparar el <strong>coste mantenimiento eléctrico vs híbrido</strong>:</p>
 
         <table class="comparison-table">
-          <thead>
+          <thead class="bg-gradient-to-r from-emerald-600 to-emerald-700 text-white">
             <tr>
-              <th>Coste anual estimado</th>
-              <th>Vehículo Eléctrico</th>
-              <th>Híbrido Enchufable</th>
-              <th>Híbrido No Enchufable</th>
+              <th class="py-4 px-6 text-left font-bold">
+                <i class="fas fa-wrench text-yellow-300 mr-2"></i>Coste anual estimado
+              </th>
+              <th class="py-4 px-6 text-center font-bold">
+                <i class="fas fa-bolt text-yellow-300 mr-2"></i>Vehículo Eléctrico
+              </th>
+              <th class="py-4 px-6 text-center font-bold">
+                <i class="fas fa-plug text-blue-300 mr-2"></i>Híbrido Enchufable
+              </th>
+              <th class="py-4 px-6 text-center font-bold">
+                <i class="fas fa-gas-pump text-orange-300 mr-2"></i>Híbrido No Enchufable
+              </th>
             </tr>
           </thead>
           <tbody>
-            <tr>
-              <td>Mantenimiento general</td>
-              <td>150-250€</td>
-              <td>300-450€</td>
-              <td>400-600€</td>
+            <tr class="border-b border-gray-200">
+              <td class="py-3 px-6 font-semibold bg-gray-50">Mantenimiento general</td>
+              <td class="py-3 px-6 text-center bg-green-50">150-250€</td>
+              <td class="py-3 px-6 text-center bg-blue-50">300-450€</td>
+              <td class="py-3 px-6 text-center bg-orange-50">400-600€</td>
+            </tr>
+            <tr class="border-b border-gray-200">
+              <td class="py-3 px-6 font-semibold bg-gray-50">Combustible/Electricidad</td>
+              <td class="py-3 px-6 text-center bg-green-50">300-500€</td>
+              <td class="py-3 px-6 text-center bg-blue-50">400-700€</td>
+              <td class="py-3 px-6 text-center bg-orange-50">800-1.200€</td>
             </tr>
             <tr>
-              <td>Combustible/Electricidad</td>
-              <td>300-500€</td>
-              <td>400-700€</td>
-              <td>800-1.200€</td>
-            </tr>
-            <tr>
-              <td>Total anual</td>
-              <td>450-750€</td>
-              <td>700-1.150€</td>
-              <td>1.200-1.800€</td>
+              <td class="py-3 px-6 font-semibold bg-gray-50">Total anual</td>
+              <td class="py-3 px-6 text-center bg-green-50">450-750€</td>
+              <td class="py-3 px-6 text-center bg-blue-50">700-1.150€</td>
+              <td class="py-3 px-6 text-center bg-orange-50">1.200-1.800€</td>
             </tr>
           </tbody>
         </table>
@@ -305,32 +306,40 @@
         <p>El aspecto ecológico es fundamental en la decisión entre vehículos eléctricos vs híbridos:</p>
 
         <table class="comparison-table">
-          <thead>
+          <thead class="bg-gradient-to-r from-emerald-600 to-emerald-700 text-white">
             <tr>
-              <th>Impacto</th>
-              <th>Vehículo Eléctrico</th>
-              <th>Híbrido Enchufable</th>
-              <th>Híbrido No Enchufable</th>
+              <th class="py-4 px-6 text-left font-bold">
+                <i class="fas fa-leaf text-green-300 mr-2"></i>Impacto
+              </th>
+              <th class="py-4 px-6 text-center font-bold">
+                <i class="fas fa-bolt text-yellow-300 mr-2"></i>Vehículo Eléctrico
+              </th>
+              <th class="py-4 px-6 text-center font-bold">
+                <i class="fas fa-plug text-blue-300 mr-2"></i>Híbrido Enchufable
+              </th>
+              <th class="py-4 px-6 text-center font-bold">
+                <i class="fas fa-gas-pump text-orange-300 mr-2"></i>Híbrido No Enchufable
+              </th>
             </tr>
           </thead>
           <tbody>
-            <tr>
-              <td>Emisiones directas</td>
-              <td>Cero</td>
-              <td>Cero (en modo eléctrico)</td>
-              <td>Reduce un 20-30%</td>
+            <tr class="border-b border-gray-200">
+              <td class="py-3 px-6 font-semibold bg-gray-50">Emisiones directas</td>
+              <td class="py-3 px-6 text-center bg-green-50">Cero</td>
+              <td class="py-3 px-6 text-center bg-blue-50">Cero (en modo eléctrico)</td>
+              <td class="py-3 px-6 text-center bg-orange-50">Reduce un 20-30%</td>
+            </tr>
+            <tr class="border-b border-gray-200">
+              <td class="py-3 px-6 font-semibold bg-gray-50">Huella de carbono</td>
+              <td class="py-3 px-6 text-center bg-green-50">Baja (depende de la electricidad)</td>
+              <td class="py-3 px-6 text-center bg-blue-50">Media</td>
+              <td class="py-3 px-6 text-center bg-orange-50">Media-baja</td>
             </tr>
             <tr>
-              <td>Huella de carbono</td>
-              <td>Baja (depende de la electricidad)</td>
-              <td>Media</td>
-              <td>Media-baja</td>
-            </tr>
-            <tr>
-              <td>Etiqueta DGT</td>
-              <td>CERO</td>
-              <td>CERO</td>
-              <td>ECO</td>
+              <td class="py-3 px-6 font-semibold bg-gray-50">Etiqueta DGT</td>
+              <td class="py-3 px-6 text-center bg-green-50">CERO</td>
+              <td class="py-3 px-6 text-center bg-blue-50">CERO</td>
+              <td class="py-3 px-6 text-center bg-orange-50">ECO</td>
             </tr>
           </tbody>
         </table>
@@ -433,7 +442,7 @@
           <p>"Quería algo más eficiente que mi gasolina anterior pero sin complicaciones. El híbrido no enchufable era la opción perfecta. Ahorro un 30% en combustible y no tengo que pensar en enchufes."</p>
         </div>
 
-        <h2 id="conclusion">5. Conclusión: híbridos o eléctricos</h2>
+        <h2 id="conclusion">7. Conclusión: híbridos o eléctricos</h2>
 
         <p>La elección entre <strong>vehículos eléctricos vs híbridos</strong> ya no es una cuestión de "cuál es mejor", sino de "cuál se adapta mejor a tu vida". En 2025, ambas tecnologías son maduras y fiables, pero responden a necesidades diferentes. La comparativa entre <strong>automóvil eléctrico</strong> y <strong>coche híbrido</strong> muestra que cada uno tiene su lugar en el mercado actual.</p>
 
@@ -445,7 +454,7 @@
 
         <p>¿Y tú? ¿Estás pensando en dar el salto? ¿Tienes alguna duda específica sobre <strong>vehículos eléctricos vs híbridos</strong>?</p>
 
-        <h2 id="futuro">7. El futuro de los vehículos eléctricos vs híbridos en España</h2>
+        <h2 id="futuro">8. El futuro de los vehículos eléctricos vs híbridos en España</h2>
 
         <p>Más allá de la elección individual, es interesante analizar cómo evolucionará el mercado de <strong>vehículos eléctricos vs híbridos</strong> en los próximos años y cómo esto afectará la comparativa entre <strong>automóvil eléctrico</strong> y <strong>coche híbrido</strong>:</p>
 
