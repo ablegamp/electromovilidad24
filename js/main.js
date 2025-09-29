@@ -28,6 +28,9 @@ class MovilidadElectrica {
         if (currentPage === 'reviews.html' || currentPath.includes('reviews')) {
             return 'reviews';
         }
+        if (currentPage === 'guias.html' || currentPath.includes('guias')) {
+            return 'guias';
+        }
         if (currentPage === 'index.html' || currentPath === '/' || currentPath === '') {
             return 'news';
         }
@@ -38,6 +41,9 @@ class MovilidadElectrica {
         }
         if (document.getElementById('reviews-grid')) {
             return 'reviews';
+        }
+        if (document.getElementById('guias-grid')) {
+            return 'guias';
         }
         if (document.getElementById('news-grid')) {
             return 'news';
@@ -106,6 +112,8 @@ class MovilidadElectrica {
                 link.classList.add('active');
             } else if (currentPath.includes('reviews.html') && href === 'reviews.html') {
                 link.classList.add('active');
+            } else if (currentPath.includes('guias.html') && href === 'guias.html') {
+                link.classList.add('active');
             }
         });
     }
@@ -120,6 +128,8 @@ class MovilidadElectrica {
                 url = `/data/comparativas.json?ts=${Date.now()}`;
             } else if (this.contentType === 'reviews') {
                 url = `/data/reviews.json?ts=${Date.now()}`;
+            } else if (this.contentType === 'guias') {
+                url = `/data/guias.json?ts=${Date.now()}`;
             } else {
                 url = `/data/news.json?ts=${Date.now()}`;
             }
@@ -341,6 +351,7 @@ class MovilidadElectrica {
             'Scooters Eléctricos': 'bg-purple-500',
             'Comparativas': 'bg-orange-500',
             'Reviews': 'bg-red-500',
+            'Guías': 'bg-teal-500',
             'Política y Regulación': 'bg-gray-600'
         };
         return colors[category] || 'bg-verde-principal';
@@ -422,8 +433,9 @@ document.addEventListener('DOMContentLoaded', () => {
     const hasNewsGrid = document.getElementById('news-grid');
     const hasComparativasGrid = document.getElementById('comparativas-grid');
     const hasReviewsGrid = document.getElementById('reviews-grid');
+    const hasGuiasGrid = document.getElementById('guias-grid');
 
-    if (hasNewsGrid || hasComparativasGrid || hasReviewsGrid) {
+    if (hasNewsGrid || hasComparativasGrid || hasReviewsGrid || hasGuiasGrid) {
         new MovilidadElectrica();
     }
 

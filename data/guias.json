@@ -1,0 +1,52 @@
+[
+  {
+    "id": 1,
+    "title": "Guía completa para comprar tu primer coche eléctrico en España 2025",
+    "summary": "Todo lo que necesitas saber antes de comprar tu primer vehículo eléctrico: desde elegir el modelo adecuado hasta entender las ayudas del Plan MOVES III y la instalación de puntos de carga.",
+    "category": "Guías",
+    "image": "../imagenes/guia-coche-electrico.jpg",
+    "link": "articulos/guia-primer-coche-electrico-2025.html",
+    "date": "2025-09-25",
+    "readTime": "12 min"
+  },
+  {
+    "id": 2,
+    "title": "Cómo instalar un punto de carga doméstico: Guía paso a paso",
+    "summary": "Guía completa para instalar un wallbox en tu garaje. Tipos de cargadores, potencia necesaria, trámites con la compañía eléctrica y consejos para optimizar la carga de tu coche eléctrico.",
+    "category": "Guías",
+    "image": "../imagenes/guia-instalacion-cargador.jpg",
+    "link": "articulos/guia-instalacion-punto-carga-domestico.html",
+    "date": "2025-09-20",
+    "readTime": "10 min"
+  },
+  {
+    "id": 3,
+    "title": "Rutas en coche eléctrico por España: Consejos y planificación",
+    "summary": "Descubre las mejores rutas para viajar con coche eléctrico por España. Mapas de puntos de carga, tiempos de viaje realistas y consejos para no quedarte sin batería en carretera.",
+    "category": "Guías",
+    "image": "../imagenes/guia-rutas-coche-electrico.jpg",
+    "link": "articulos/guias-rutas-coche-electrico-espana.html",
+    "date": "2025-09-15",
+    "readTime": "8 min"
+  },
+  {
+    "id": 4,
+    "title": "Mantenimiento de bicicletas eléctricas: Guía completa del propietario",
+    "summary": "Aprende a mantener tu e-bike en perfecto estado. Consejos de limpieza, mantenimiento de batería, ajustes y cuándo llevarla al taller. Prolonga la vida útil de tu bicicleta eléctrica.",
+    "category": "Guías",
+    "image": "../imagenes/guia-mantenimiento-ebike.jpg",
+    "link": "articulos/guia-mantenimiento-bicicletas-electricas.html",
+    "date": "2025-09-10",
+    "readTime": "9 min"
+  },
+  {
+    "id": 5,
+    "title": "Cómo elegir el scooter eléctrico perfecto para ciudad",
+    "summary": "Guía de compra para patinetes eléctricos urbanos. Comparativa de modelos, autonomía real, velocidad, seguridad y características que realmente importan para el uso diario.",
+    "category": "Guías",
+    "image": "../imagenes/guia-scooter-electrico.jpg",
+    "link": "articulos/guia-elegir-scooter-electrico-ciudad.html",
+    "date": "2025-09-05",
+    "readTime": "7 min"
+  }
+]
