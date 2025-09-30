@@ -18,5 +18,15 @@
     "link": "articulos/automovil-electrico-evolucion-beneficios-retos.html",
     "date": "2025-09-28",
     "readTime": "12 min"
+  },
+  {
+    "id": 3,
+    "title": "Los coches eléctricos más baratos en España 2025",
+    "summary": "Descubre los modelos más asequibles de vehículos eléctricos disponibles en el mercado español. Desde el económico Dacia Spring hasta opciones chinas cada vez más competitivas.",
+    "category": "Guías",
+    "image": "../imagenes/coche-electrico-barato1.jpg",
+    "link": "articulos/coches-electricos-baratos-espana-2025.html",
+    "date": "2025-09-30",
+    "readTime": "12 min"
   }
 ]
