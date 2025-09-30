@@ -108,67 +108,83 @@
   </script>
 </head>
 
-<body class="bg-gris-claro">
-  <!-- Navegación -->
-  <header class="bg-verde-principal shadow-lg sticky top-0 z-50">
-    <nav class="max-w-6xl mx-auto px-4">
-      <div class="flex justify-between items-center h-16">
-        <div class="flex items-center">
-          <a href="../index.html" class="text-white font-bold text-xl">
-            <i class="fas fa-car mr-2"></i>Movilidad Eléctrica 24
-          </a>
+<body class="bg-gray-50 text-gray-900">
+<header class="bg-white shadow-lg sticky top-0 z-50">
+    <div class="container mx-auto px-4 py-4">
+      <!-- Logo y título -->
+      <div class="flex items-center justify-between">
+        <div class="flex items-center space-x-3">
+          <div class="bg-verde-principal text-white rounded-lg p-2">
+            <i class="fas fa-car text-2xl"></i>
+          </div>
+          <div>
+            <h1 class="text-2xl md:text-3xl font-bold text-gris-oscuro">Movilidad Eléctrica 24</h1>
+            <p class="text-sm text-gray-600">Descubre el futuro de la movilidad</p>
+          </div>
         </div>
-        <div class="hidden md:flex items-center space-x-8">
-          <a href="../index.html" class="text-white hover:text-gray-200">Inicio</a>
-          <a href="../guias.html" class="text-white hover:text-gray-200">Guías</a>
-          <a href="../reviews.html" class="text-white hover:text-gray-200">Reviews</a>
-          <a href="../comparativas.html" class="text-white hover:text-gray-200">Comparativas</a>
-          <a href="../contacto.html" class="text-white hover:text-gray-200">Contacto</a>
-        </div>
-        <button id="mobile-menu-btn" class="md:hidden text-white">
-          <i class="fas fa-bars text-xl"></i>
+
+        <!-- Botón menú móvil -->
+        <button id="mobile-menu-btn" class="md:hidden bg-verde-principal text-white p-2 rounded-lg">
+          <i class="fas fa-bars"></i>
         </button>
       </div>
-      <div id="nav-menu" class="hidden md:hidden bg-verde-principal shadow-lg">
-        <div class="px-2 pt-2 pb-3 space-y-1">
-          <a href="../index.html" class="block px-3 py-2 text-white hover:bg-emerald-700">Inicio</a>
-          <a href="../guias.html" class="block px-3 py-2 text-white hover:bg-emerald-700">Guías</a>
-          <a href="../reviews.html" class="block px-3 py-2 text-white hover:bg-emerald-700">Reviews</a>
-          <a href="../comparativas.html" class="block px-3 py-2 text-white hover:bg-emerald-700">Comparativas</a>
-          <a href="../contacto.html" class="block px-3 py-2 text-white hover:bg-emerald-700">Contacto</a>
-        </div>
-      </div>
-    </nav>
+
+      <!-- Navegación -->
+      <nav class="mt-4">
+        <ul id="nav-menu" class="hidden md:flex space-x-8 text-gris-oscuro font-medium">
+          <li><a href="../index.html" class="hover:text-verde-principal transition-colors duration-200">Inicio</a></li>
+          <li><a href="../guias.html" class="hover:text-verde-principal transition-colors duration-200">Guías</a></li>
+          <li><a href="../reviews.html" class="hover:text-verde-principal transition-colors duration-200">Reviews</a></li>
+          <li><a href="../comparativas.html" class="hover:text-verde-principal transition-colors duration-200">Comparativas</a></li>
+          <li><a href="../calculadoras.html" class="hover:text-verde-principal transition-colors duration-200">Calculadoras</a></li>
+          <li><a href="../contacto.html" class="hover:text-verde-principal transition-colors duration-200">Contacto</a></li>
+        </ul>
+
+        <!-- Menú móvil -->
+        <ul id="mobile-nav" class="md:hidden hidden flex-col space-y-3 mt-4 bg-gray-50 p-4 rounded-lg">
+          <li><a href="../index.html" class="block text-gris-oscuro hover:text-verde-principal font-medium">Inicio</a></li>
+          <li><a href="../guias.html" class="block text-gris-oscuro hover:text-verde-principal font-medium">Guías</a></li>
+          <li><a href="../reviews.html" class="block text-gris-oscuro hover:text-verde-principal font-medium">Reviews</a></li>
+          <li><a href="../comparativas.html" class="block text-gris-oscuro hover:text-verde-principal font-medium">Comparativas</a></li>
+          <li><a href="../calculadoras.html" class="block text-gris-oscuro hover:text-verde-principal font-medium">Calculadoras</a></li>
+          <li><a href="../contacto.html" class="block text-gris-oscuro hover:text-verde-principal font-medium">Contacto</a></li>
+        </ul>
+      </nav>
+    </div>
   </header>
 
   <!-- Contenido principal -->
   <main class="max-w-4xl mx-auto px-4 py-8">
     <article class="bg-white rounded-lg shadow-lg p-8">
       <!-- Encabezado del artículo -->
-      <header class="mb-8">
-        <div class="flex items-center mb-4">
-          <a href="../guias.html" class="bg-verde-principal text-white px-3 py-1 rounded-full text-sm font-semibold hover:bg-emerald-700">
-            <i class="fas fa-book mr-1"></i>Guías
-          </a>
-          <span class="text-gray-500 mx-2">•</span>
-          <span class="text-gray-500">30 septiembre 2025</span>
-          <span class="text-gray-500 mx-2">•</span>
-          <span class="text-gray-500">Tiempo de lectura: 12 min</span>
-        </div>
-        <h1 class="text-4xl font-bold text-gris-oscuro mb-4 leading-tight">
-          Los coches eléctricos más baratos en España 2025
-        </h1>
-        <p class="text-xl text-gray-600 leading-relaxed">
-          Descubre los modelos más asequibles de vehículos eléctricos disponibles en el mercado español. Desde el económico Dacia Spring hasta opciones chinas cada vez más competitivas.
+      <header class="mb-6">
+        <p class="text-sm text-gray-500 flex items-center space-x-2">
+          <i class="fas fa-calendar-alt"></i>
+          <time datetime="2025-09-30">30 septiembre 2025</time>
+          <span class="mx-2">•</span>
+          <span class="bg-emerald-500 text-white px-2 py-0.5 rounded text-xs">Guías</span>
+          <span class="mx-2">•</span>
+          <span>Lectura: 12 min</span>
         </p>
+        <h1 class="text-3xl md:text-4xl font-extrabold leading-tight mt-2">Los coches eléctricos más baratos en España 2025</h1>
+        <p class="mt-3 text-lg text-gray-700">Descubre los modelos más asequibles de vehículos eléctricos disponibles en el mercado español. Desde el económico Dacia Spring hasta opciones chinas cada vez más competitivas.</p>
       </header>
 
-      <!-- Tabla de contenidos -->
-      <nav class="bg-gray-50 rounded-lg p-6 mb-8">
-        <h2 class="text-xl font-bold mb-4 text-gris-oscuro">
-          <i class="fas fa-list text-verde-principal mr-2"></i>Tabla de contenidos
-        </h2>
-        <ol class="list-decimal list-inside space-y-2 text-gray-700">
+      <!-- Breadcrumbs visibles -->
+      <nav aria-label="breadcrumbs" class="text-sm text-gray-600 mb-4">
+        <ol class="flex flex-wrap items-center gap-2">
+          <li><a href="../index.html" class="text-emerald-700 hover:underline">Inicio</a></li>
+          <li>/</li>
+          <li><a href="../guias.html" class="text-emerald-700 hover:underline">Guías</a></li>
+          <li>/</li>
+          <li aria-current="page" class="text-gray-800">Los coches eléctricos más baratos...</li>
+        </ol>
+      </nav>
+
+      <!-- Índice del contenido -->
+      <nav class="bg-emerald-50 border border-emerald-100 rounded-lg p-4 mb-6 text-sm">
+        <p class="font-semibold text-emerald-800 mb-2">Contenido</p>
+        <ol class="list-decimal ml-5 space-y-1 text-emerald-900">
           <li><a class="hover:underline" href="#entendemos-barato">Qué entendemos por "coche eléctrico barato"</a></li>
           <li><a class="hover:underline" href="#top-modelos">Top 5 coches eléctricos baratos en España</a></li>
           <li><a class="hover:underline" href="#comparativa-precios">Comparativa de precios de coches eléctricos baratos</a></li>
@@ -472,7 +488,7 @@
   <script>
     // Menú móvil
     document.getElementById('mobile-menu-btn').addEventListener('click', function() {
-      const menu = document.getElementById('nav-menu');
+      const menu = document.getElementById('mobile-nav');
       menu.classList.toggle('hidden');
     });
   </script>
