@@ -1,5 +1,15 @@
 [
   {
+    "id": 4,
+    "title": "Ayudas y subvenciones para coches eléctricos en España 2025: guía completa del Plan MOVES",
+    "summary": "Guía completa de ayudas y subvenciones para coches eléctricos en España 2025. Plan MOVES III, requisitos, cuantías y cómo solicitar hasta 7.000€ de descuento.",
+    "category": "Guías",
+    "image": "../imagenes/familia-estrenando-coche-electrico.png",
+    "link": "articulos/ayudas-subvenciones-coches-electricos-espana-2025.html",
+    "date": "2025-10-02",
+    "readTime": "14 min"
+  },
+  {
     "id": 3,
     "title": "Los coches eléctricos más baratos en España 2025",
     "summary": "Descubre los modelos más asequibles de vehículos eléctricos disponibles en el mercado español. Desde el económico Dacia Spring hasta opciones chinas cada vez más competitivas.",
@@ -29,6 +39,4 @@
     "date": "2025-09-28",
     "readTime": "12 min"
   }
- 
-  
 ]
