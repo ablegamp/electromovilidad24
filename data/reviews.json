@@ -1,5 +1,15 @@
 [
   {
+    "id": 4,
+    "title": "Renault 4 eléctrico: el regreso de un clásico en versión sostenible",
+    "summary": "Descubre el nuevo Renault 4 eléctrico 2025: diseño retro, autonomía, precio y comparativa con otros modelos. El regreso del clásico francés en versión 100% eléctrica.",
+    "category": "Reviews",
+    "image": "../imagenes/renault-4-electrico-2025.png",
+    "link": "articulos/renault-4-electrico-2025.html",
+    "date": "2025-10-02",
+    "readTime": "12 min"
+  },
+  {
     "id": 3,
     "title": "Renault 5 eléctrico 2025: precio, autonomía y fecha de lanzamiento",
     "summary": "Análisis completo del nuevo Renault 5 eléctrico 2025. Precio, autonomía real, fecha de lanzamiento en España y comparación con competidores como Fiat 500 y BYD Dolphin.",
