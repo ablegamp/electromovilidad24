@@ -184,7 +184,7 @@ class MovilidadElectrica {
         });
 
         this.animateCardsEntrance();
-        this.hideLoader();
+        // Removido: this.hideLoader(); - debe ser manejado por init()
     }
 
     /**
@@ -407,7 +407,7 @@ class MovilidadElectrica {
             `;
         }
 
-        // Ocultar el loader
+        // Ocultar el loader después de mostrar el error
         this.hideLoader();
     }
 

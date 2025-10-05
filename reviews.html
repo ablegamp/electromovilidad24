@@ -106,8 +106,8 @@
         <ul id="nav-menu" class="hidden md:flex space-x-8 text-gris-oscuro font-medium">
           <li><a href="index.html" class="nav-link hover:text-verde-principal transition-colors duration-200">Noticias</a></li>
           <li><a href="comparativas.html" class="nav-link hover:text-verde-principal transition-colors duration-200">Comparativas</a></li>
-          <li><a href="guias.html" class="nav-link hover:text-verde-principal transition-colors duration-200">Guías</a></li>
           <li><a href="#reviews-section" class="nav-link hover:text-verde-principal transition-colors duration-200 border-b-2 border-verde-principal pb-1">Reviews</a></li>
+          <li><a href="guias.html" class="nav-link hover:text-verde-principal transition-colors duration-200">Guías</a></li>
           <li><a href="calculadoras.html" class="nav-link hover:text-verde-principal transition-colors duration-200">Calculadoras eléctricas</a></li>
           <li><a href="sobre.html" class="nav-link hover:text-verde-principal transition-colors duration-200">Sobre mí</a></li>
           <li><a href="contacto.html" class="nav-link hover:text-verde-principal transition-colors duration-200">Contacto</a></li>
@@ -137,38 +137,8 @@
       </p>
     </div>
 
-    <!-- Loader -->
-    <div id="loader" class="flex justify-center items-center py-12">
-      <div class="loader"></div>
-      <span class="ml-3 text-gris-oscuro font-medium">Cargando reviews...</span>
-    </div>
-
-    <!-- Grid de reviews -->
-    <section id="reviews-section">
-      <div class="flex justify-between items-center mb-8">
-        <h3 class="text-3xl font-bold text-gris-oscuro">Todas las Reviews</h3>
-        <div class="flex items-center space-x-4">
-          <select id="sort-select-reviews" class="px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-verde-principal">
-            <option value="recent">Más recientes</option>
-            <option value="title">Por título (A-Z)</option>
-            <option value="category">Por categoría</option>
-          </select>
-        </div>
-      </div>
-
-      <div id="reviews-grid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-        <!-- Las reviews se cargarán aquí dinámicamente -->
-      </div>
-
-      <div id="no-results-reviews" class="hidden text-center py-12">
-        <i class="fas fa-search text-6xl text-gray-300 mb-4"></i>
-        <h3 class="text-2xl font-bold text-gris-oscuro mb-2">No se encontraron reviews</h3>
-        <p class="text-gray-600">Estamos trabajando en nuevas reviews. ¡Vuelve pronto!</p>
-      </div>
-    </section>
-
     <!-- Buscador -->
-    <section class="mb-8 mt-12">
+    <section class="mb-8">
       <div class="max-w-2xl mx-auto">
         <div class="relative">
           <input
@@ -191,6 +161,36 @@
         <div id="search-results" class="mt-2 text-center text-gray-600 hidden">
           <span id="results-count">0</span> reviews encontradas
         </div>
+      </div>
+    </section>
+
+    <!-- Loader -->
+    <div id="loader" class="flex justify-center items-center py-12">
+      <div class="loader"></div>
+      <span class="ml-3 text-gris-oscuro font-medium">Cargando reviews...</span>
+    </div>
+
+    <!-- Grid de reviews -->
+    <section id="reviews-section">
+      <div class="flex justify-between items-center mb-8">
+        <h3 class="text-3xl font-bold text-gris-oscuro">Todas las Reviews</h3>
+        <div class="flex items-center space-x-4">
+          <select id="sort-select" class="px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-verde-principal">
+            <option value="recent">Más recientes</option>
+            <option value="title">Por título (A-Z)</option>
+            <option value="category">Por categoría</option>
+          </select>
+        </div>
+      </div>
+
+      <div id="reviews-grid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <!-- Las reviews se cargarán aquí dinámicamente -->
+      </div>
+
+      <div id="no-results-reviews" class="hidden text-center py-12">
+        <i class="fas fa-search text-6xl text-gray-300 mb-4"></i>
+        <h3 class="text-2xl font-bold text-gris-oscuro mb-2">No se encontraron reviews</h3>
+        <p class="text-gray-600">Estamos trabajando en nuevas reviews. ¡Vuelve pronto!</p>
       </div>
     </section>
   </main>
