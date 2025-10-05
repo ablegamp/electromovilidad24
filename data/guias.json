@@ -1,5 +1,15 @@
 [
   {
+    "id": 5,
+    "title": "Cómo cargar un coche eléctrico en casa: guía completa de instalación y costes",
+    "summary": "Guía completa para cargar tu coche eléctrico en casa: tipos de cargadores domésticos, instalación paso a paso, costes reales y subvenciones disponibles. Todo lo que necesitas saber sobre puntos de carga domésticos.",
+    "category": "Guías",
+    "image": "../imagenes/instalador-cargador-domestico.png",
+    "link": "articulos/como-cargar-coche-electrico-en-casa-guia-completa.html",
+    "date": "2025-10-05",
+    "readTime": "15 min"
+  },
+  {
     "id": 4,
     "title": "Ayudas y subvenciones para coches eléctricos en España 2025: guía completa del Plan MOVES",
     "summary": "Guía completa de ayudas y subvenciones para coches eléctricos en España 2025. Plan MOVES III, requisitos, cuantías y cómo solicitar hasta 7.000€ de descuento.",
