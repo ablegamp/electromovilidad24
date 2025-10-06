@@ -1,5 +1,15 @@
 [
   {
+    "id": 5,
+    "title": "Matriculaciones septiembre 2025: ¡España electrificada total!",
+    "summary": "Récord histórico con 23.847 vehículos eléctricos e híbridos enchufables matriculados en septiembre. Tesla domina con casi el 13% del mercado eléctrico español. Análisis completo con tabla de modelos más vendidos.",
+    "category": "Noticias",
+    "image": "../imagenes/Mercedes_GLA_Plug-in.png",
+    "link": "articulos/matriculaciones-coches-electricos-septiembre-2025.html",
+    "date": "2025-10-06",
+    "readTime": "8 min"
+  },
+  {
     "id": 4,
     "title": "¡Unidos por la carga! Nace Spark, la mayor red de recarga europea",
     "summary": "Cuatro gigantes europeos forman la alianza Spark: Atlante, Ionity, Fastned y Electra crean la mayor red de recarga pública con una sola aplicación. Hasta 400 kW de potencia para revolucionar la movilidad eléctrica.",
@@ -15,7 +25,7 @@
     "summary": "España registra un crecimiento del 133.91% en matriculaciones de vehículos eléctricos e híbridos enchufables en junio 2025. Tesla lidera con un aumento del 60.7% y los eléctricos representan el 47.5% del total electrificado.",
     "category": "Coches Eléctricos",
     "image": "../imagenes/ev2.webp",
-    "link": "articulos/record-matriculaciones-electricos-espana-2025.html",
+    "link": "articulos/matriculaciones-coches-electricos-septiembre-2025.html",
     "date": "2025-07-15",
     "readTime": "5 min"
   },
