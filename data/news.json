@@ -1,5 +1,15 @@
   [
   {
+    "id": 7,
+    "title": "Renault inaugura laboratorio de baterías: el futuro eléctrico se cocina en Francia",
+    "summary": "Renault abre su nuevo laboratorio de baterías en Lardy con 3.000 m² dedicados a innovación. Ampere lidera la investigación de celdas de batería para el futuro eléctrico. Noticias exclusivas sobre baterías de coches eléctricos.",
+    "category": "Noticias",
+    "image": "../imagenes/baterias-coches-electricos.png",
+    "link": "articulos/renault-laboratorio-baterias-2025.html",
+    "date": "2025-10-09",
+    "readTime": "15 min"
+  },
+  {
     "id": 6,
     "title": "Tesla lanza las versiones Standard: Model Y y Model 3 más accesibles que nunca",
     "summary": "Tesla presenta las versiones Standard del Model Y y Model 3 con precios más bajos y características simplificadas. El Model Y Standard cuesta 39.990 dólares en EE.UU. y ofrece 510 km de autonomía, mientras que el Model 3 Standard se convierte en el Tesla más barato de la gama.",
