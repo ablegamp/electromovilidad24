@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todos los Artículos - Electromovilidad 24</title>
+    <meta name="description" content="Consulta todos nuestros artículos sobre movilidad eléctrica: comparativas, reviews, guías y análisis de coches, bicicletas y scooters eléctricos." />
+
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Font Awesome para iconos -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.0/css/all.min.css">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <!-- Configuración personalizada de Tailwind -->
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        'inter': ['Inter', 'sans-serif'],
+                    },
+                    colors: {
+                        'verde-principal': '#10B981',
+                        'gris-oscuro': '#1F2937',
+                        'verde-hover': '#059669',
+                        'gris-claro': '#F9FAFB',
+                    }
+                }
+            }
+        }
+    </script>
+
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+
+        /* Animación suave para las tarjetas */
+        .card-hover {
+            transition: all 0.3s ease;
+        }
+
+        .card-hover:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+        }
+
+        /* Efecto hover para botones */
+        .btn-hover {
+            transition: all 0.2s ease;
+        }
+
+        .btn-hover:hover {
+            transform: translateY(-1px);
+        }
+
+        /* Truncado multilinea sin plugin */
+        .clamp-2 {
+            display: -webkit-box;
+            -webkit-line-clamp: 2;
+            -webkit-box-orient: vertical;
+            line-clamp: 2;
+            overflow: hidden;
+        }
+    </style>
+
+    <link rel="canonical" href="articulos.html">
+    <meta name="robots" content="index,follow">
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
+    <link rel="shortcut icon" href="favicon.svg">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Todos los Artículos - Electromovilidad 24" />
+    <meta property="og:description" content="Consulta todos nuestros artículos sobre movilidad eléctrica: comparativas, reviews, guías y análisis de coches, bicicletas y scooters eléctricos." />
+    <meta property="og:image" content="imagenes/logo.webp" />
+    <meta property="og:url" content="articulos.html" />
+    <meta property="og:site_name" content="Electromovilidad 24" />
+    <meta property="og:locale" content="es_ES" />
+</head>
+<body class="bg-gris-claro min-h-screen">
+    <!-- Header/Navigation -->
+    <header class="bg-white shadow-lg sticky top-0 z-50">
+        <div class="container mx-auto px-4 py-4">
+            <!-- Logo y título -->
+            <div class="flex items-center justify-between">
+                <a href="index.html" class="flex items-center space-x-3">
+                    <div class="bg-white rounded-lg p-1">
+                        <img src="imagenes/logo.webp" alt="Electromovilidad 24" class="h-16 w-auto">
+                    </div>
+                    <div>
+                        <h1 class="text-2xl md:text-3xl font-bold text-gris-oscuro">Electromovilidad 24</h1>
+                        <p class="text-sm text-gray-600">Descubre el futuro de la movilidad</p>
+                    </div>
+                </a>
+
+                <!-- Botón menú móvil -->
+                <button id="mobile-menu-btn" class="md:hidden bg-verde-principal text-white p-2 rounded-lg">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+
+            <!-- Navegación -->
+            <nav class="mt-4">
+                <ul id="nav-menu" class="hidden md:flex space-x-8 text-gris-oscuro font-medium">
+                    <li><a href="index.html" class="nav-link hover:text-verde-principal transition-colors duration-200">Noticias</a></li>
+                    <li><a href="comparativas.html" class="nav-link hover:text-verde-principal transition-colors duration-200">Comparativas</a></li>
+                    <li><a href="reviews.html" class="nav-link hover:text-verde-principal transition-colors duration-200">Reviews</a></li>
+                    <li><a href="guias.html" class="nav-link hover:text-verde-principal transition-colors duration-200">Guías</a></li>
+                    <li><a href="calculadoras.html" class="nav-link hover:text-verde-principal transition-colors duration-200">Calculadoras</a></li>
+                    <li><a href="sobre.html" class="nav-link hover:text-verde-principal transition-colors duration-200">Sobre mí</a></li>
+                    <li><a href="contacto.html" class="nav-link hover:text-verde-principal transition-colors duration-200">Contacto</a></li>
+                </ul>
+
+                <!-- Menú móvil -->
+                <ul id="mobile-nav" class="md:hidden hidden flex-col space-y-3 mt-4 bg-gray-50 p-4 rounded-lg">
+                    <li><a href="index.html" class="block text-gris-oscuro hover:text-verde-principal font-medium">Noticias</a></li>
+                    <li><a href="comparativas.html" class="block text-gris-oscuro hover:text-verde-principal font-medium">Comparativas</a></li>
+                    <li><a href="guias.html" class="block text-gris-oscuro hover:text-verde-principal font-medium">Guías</a></li>
+                    <li><a href="reviews.html" class="block text-gris-oscuro hover:text-verde-principal font-medium">Reviews</a></li>
+                    <li><a href="calculadoras.html" class="block text-gris-oscuro hover:text-verde-principal font-medium">Calculadoras</a></li>
+                    <li><a href="sobre.html" class="block text-gris-oscuro hover:text-verde-principal font-medium">Sobre mí</a></li>
+                    <li><a href="contacto.html" class="block text-gris-oscuro hover:text-verde-principal font-medium">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Sección principal -->
+    <main class="container mx-auto px-4 py-8">
+        <!-- Hero Section -->
+        <section class="text-center mb-12">
+            <h1 class="text-4xl md:text-5xl font-bold text-gris-oscuro mb-4">
+                Todos Nuestros
+                <span class="text-verde-principal">Artículos</span>
+            </h1>
+            <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+                Explora nuestra colección completa de artículos sobre movilidad eléctrica.
+                Comparativas, reviews, guías y análisis detallados de vehículos eléctricos.
+            </p>
+        </section>
+
+        <!-- Breadcrumbs -->
+        <nav aria-label="breadcrumbs" class="text-sm text-gray-600 mb-8">
+            <ol class="flex flex-wrap items-center gap-2">
+                <li><a href="index.html" class="text-emerald-700 hover:underline">Inicio</a></li>
+                <li>/</li>
+                <li aria-current="page" class="text-gray-800">Artículos</li>
+            </ol>
+        </nav>
+
+        <!-- Todos los artículos -->
+        <section>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Artículo destacado 1 -->
+                <article class="bg-white rounded-xl shadow-lg overflow-hidden card-hover">
+                    <div class="relative">
+                        <img src="imagenes/citroen-ec3.png" alt="6 coches eléctricos más baratos con 250 km de autonomía real" class="w-full h-48 object-cover">
+                        <div class="absolute top-4 left-4">
+                            <span class="bg-verde-principal text-white px-3 py-1 rounded-full text-sm font-semibold">Comparativa</span>
+                        </div>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold text-gris-oscuro mb-2">
+                            <a href="articulos/coches-electricos-baratos-250km-autonomia-2025.html" class="hover:text-verde-principal transition-colors">
+                                6 coches eléctricos más baratos con 250 km de autonomía real: guía completa 2025
+                            </a>
+                        </h3>
+                        <p class="text-gray-600 text-sm mb-3">
+                            Descubre los mejores coches eléctricos económicos de 2025 con autonomía real superior a 250 km. Análisis completo con precios, batería, consumo y recomendaciones.
+                        </p>
+                        <div class="flex items-center justify-between text-sm text-gray-500">
+                            <time datetime="2025-10-09">9 Oct 2025</time>
+                            <span class="bg-emerald-100 text-emerald-800 px-2 py-1 rounded text-xs">18 min lectura</span>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Artículo destacado 2 -->
+                <article class="bg-white rounded-xl shadow-lg overflow-hidden card-hover">
+                    <div class="relative">
+                        <img src="imagenes/tesla-model-y.png" alt="Tesla Model Y Standard Range 2025" class="w-full h-48 object-cover">
+                        <div class="absolute top-4 left-4">
+                            <span class="bg-blue-500 text-white px-3 py-1 rounded-full text-sm font-semibold">Review</span>
+                        </div>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold text-gris-oscuro mb-2">
+                            <a href="articulos/tesla-model-y-3-standard-2025.html" class="hover:text-verde-principal transition-colors">
+                                Tesla Model Y Standard Range 2025: análisis completo y prueba de autonomía real
+                            </a>
+                        </h3>
+                        <p class="text-gray-600 text-sm mb-3">
+                            Review detallada del Tesla Model Y Standard Range 2025. Analizamos su autonomía real, consumo, carga rápida y experiencia de conducción autónoma.
+                        </p>
+                        <div class="flex items-center justify-between text-sm text-gray-500">
+                            <time datetime="2025-10-08">8 Oct 2025</time>
+                            <span class="bg-emerald-100 text-emerald-800 px-2 py-1 rounded text-xs">15 min lectura</span>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Artículo destacado 3 -->
+                <article class="bg-white rounded-xl shadow-lg overflow-hidden card-hover">
+                    <div class="relative">
+                        <img src="imagenes/dacia-spring-electrico.png" alt="Coche eléctrico barato chino 2025" class="w-full h-48 object-cover">
+                        <div class="absolute top-4 left-4">
+                            <span class="bg-purple-500 text-white px-3 py-1 rounded-full text-sm font-semibold">Guía</span>
+                        </div>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold text-gris-oscuro mb-2">
+                            <a href="articulos/coche-electrico-barato-chino-2025.html" class="hover:text-verde-principal transition-colors">
+                                Coche eléctrico barato chino 2025: comparativa, precios y modelos destacados
+                            </a>
+                        </h3>
+                        <p class="text-gray-600 text-sm mb-3">
+                            Guía completa de los mejores coches eléctricos chinos económicos para 2025. Comparativa de precios, autonomía y características técnicas.
+                        </p>
+                        <div class="flex items-center justify-between text-sm text-gray-500">
+                            <time datetime="2025-10-07">7 Oct 2025</time>
+                            <span class="bg-emerald-100 text-emerald-800 px-2 py-1 rounded text-xs">12 min lectura</span>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Más artículos pueden añadirse aquí dinámicamente -->
+            </div>
+        </section>
+
+        <!-- Próximamente más artículos -->
+        <section class="mt-16 text-center">
+            <div class="bg-gray-50 rounded-xl p-8">
+                <i class="fas fa-construction text-4xl text-gray-400 mb-4"></i>
+                <h3 class="text-2xl font-bold text-gris-oscuro mb-2">Próximamente más artículos</h3>
+                <p class="text-gray-600 mb-4">Estamos trabajando en nuevas comparativas, reviews y guías sobre movilidad eléctrica.</p>
+                <p class="text-sm text-gray-500">¿Quieres que escriba sobre algún modelo específico? ¡Contáctame!</p>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-gris-oscuro text-white py-12 mt-16">
+        <div class="container mx-auto px-4">
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+            <div>
+              <div class="flex items-center space-x-3 mb-4">
+                <div class="bg-white rounded-lg p-1">
+                  <img src="imagenes/logo.webp" alt="Electromovilidad 24" class="h-16 w-auto">
+                </div>
+                <h3 class="text-xl font-bold">Electromovilidad 24</h3>
+              </div>
+              <p class="text-gray-300">Tu fuente confiable de comparativas sobre movilidad eléctrica.</p>
+            </div>
+            <div>
+              <h4 class="text-lg font-semibold mb-4">Enlaces Útiles</h4>
+              <ul class="space-y-2">
+                <li><a href="index.html" class="text-gray-300 hover:text-verde-principal transition-colors">Inicio</a></li>
+                <li><a href="index.html#news-section" class="text-gray-300 hover:text-verde-principal transition-colors">Noticias</a></li>
+                <li><a href="comparativas.html" class="text-gray-300 hover:text-verde-principal transition-colors">Comparativas</a></li>
+                <li><a href="reviews.html" class="text-gray-300 hover:text-verde-principal transition-colors">Reviews</a></li>
+                <li><a href="guias.html" class="text-gray-300 hover:text-verde-principal transition-colors">Guías</a></li>
+                <li><a href="calculadoras.html" class="text-gray-300 hover:text-verde-principal transition-colors">Calculadoras</a></li>
+                <li><a href="sobre.html" class="text-gray-300 hover:text-verde-principal transition-colors">Sobre mí</a></li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="border-t border-gray-700 mt-8 pt-8 text-center">
+            <p class="text-gray-400">
+              © 2025 Electromovilidad 24 - Todas las comparativas sobre movilidad eléctrica
+            </p>
+          </div>
+        </div>
+      </footer>
+
+    <script>
+        // Menú móvil
+        document.getElementById('mobile-menu-btn').addEventListener('click', function() {
+            const menu = document.getElementById('mobile-nav');
+            menu.classList.toggle('hidden');
+        });
+    </script>
+</body>
+</html>
