@@ -1,5 +1,15 @@
   [
   {
+    "id": 8,
+    "title": "¡Aprobada! La Ley de Movilidad Sostenible revoluciona España: qué cambia para ti",
+    "summary": "La nueva Ley de Movilidad Sostenible transforma el transporte en España con zonas de bajas emisiones obligatorias y apoyo masivo al vehículo eléctrico. Descubre cómo te afecta esta revolución en movilidad sostenible.",
+    "category": "Noticias",
+    "image": "https://electromovilidad24.com/imagenes/Un_grupo_de_coches_electricos.png",
+    "link": "articulos/ley-movilidad-sostenible-2025.html",
+    "date": "2025-10-10",
+    "readTime": "18 min"
+  },
+  {
     "id": 7,
     "title": "Renault inaugura laboratorio de baterías: el futuro eléctrico se cocina en Francia",
     "summary": "Renault abre su nuevo laboratorio de baterías en Lardy con 3.000 m² dedicados a innovación. Ampere lidera la investigación de celdas de batería para el futuro eléctrico. Noticias exclusivas sobre baterías de coches eléctricos.",
