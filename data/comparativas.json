@@ -1,5 +1,15 @@
 [
   {
+    "id": 11,
+    "title": "Los mejores coches eléctricos pequeños de 2025",
+    "summary": "Descubre los mejores coches eléctricos pequeños más eficientes y asequibles de 2025. Comparativa completa de Fiat 500e, Renault Twingo E-Tech, Citroën ë-C3, Dacia Spring, Peugeot e-208, Mini Cooper SE y Volkswagen ID.2all.",
+    "category": "Comparativas",
+    "image": "../imagenes/fiat-500-electrico-2025.png",
+    "link": "articulos/mejores-coches-electricos-pequenos-2025.html",
+    "date": "2025-10-10",
+    "readTime": "16 min"
+  },
+  {
     "id": 10,
     "title": "6 coches eléctricos más baratos con 250 km de autonomía real: guía completa 2025",
     "summary": "Descubre los 6 mejores coches eléctricos económicos de 2025 con autonomía real superior a 250 km. Comparativa completa con Citroën ë-C3, Renault Twingo E-Tech, Fiat 500e, Dacia Spring, Leapmotor T03 y BYD Dolphin.",
