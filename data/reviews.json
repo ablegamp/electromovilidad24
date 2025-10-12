@@ -1,16 +1,16 @@
 [
   {
-    "id": 5,
-    "title": "Fiat 500 Eléctrico 2025: precio, autonomía y opiniones en España",
-    "summary": "Review del Fiat 500 eléctrico 2025 en España: precio, autonomía real, tiempos de carga, equipamiento y comparativa con Dacia Spring, MG4 y Mini Cooper SE.",
+    "id": 6,
+    "title": "MG HS Hybrid+ 2025: análisis completo, precios y competencia",
+    "summary": "Review completo del MG HS Hybrid+ 2025: SUV híbrido con 224 CV, consumo de 5,5 l/100 km y autonomía de más de 1.000 km por menos de 30.000€. Análisis detallado, precios, características técnicas y comparativa con otros SUV híbridos en España.",
     "category": "Reviews",
-    "image": "../imagenes/fiat-500-electrico-2025.png",
-    "link": "articulos/fiat-500-electrico-2025.html",
-    "date": "2025-10-04",
-    "readTime": "10 min"
+    "image": "../imagenes/mg4-electrico.png",
+    "link": "articulos/mg-hs-hybrid-plus-2025-analisis-precios-competencia.html",
+    "date": "2025-10-12",
+    "readTime": "16 min"
   },
   {
-    "id": 4,
+    "id": 5,
     "title": "Renault 4 eléctrico: el regreso de un clásico en versión sostenible",
     "summary": "Descubre el nuevo Renault 4 eléctrico 2025: diseño retro, autonomía, precio y comparativa con otros modelos. El regreso del clásico francés en versión 100% eléctrica.",
     "category": "Reviews",
@@ -20,7 +20,7 @@
     "readTime": "12 min"
   },
   {
-    "id": 3,
+    "id": 4,
     "title": "Renault 5 eléctrico 2025: precio, autonomía y fecha de lanzamiento",
     "summary": "Análisis completo del nuevo Renault 5 eléctrico 2025. Precio, autonomía real, fecha de lanzamiento en España y comparación con competidores como Fiat 500 y BYD Dolphin.",
     "category": "Reviews",
@@ -30,7 +30,7 @@
     "readTime": "12 min"
   },
   {
-    "id": 2,
+    "id": 3,
     "title": "Mi experiencia real con un cargador doméstico Wallbox para coche eléctrico en España",
     "summary": "Te cuento mi experiencia real instalando y usando un Wallbox Pulsar Plus en casa. Comparativa de velocidad, coste y comodidad frente a la carga pública en España.",
     "category": "Reviews",
@@ -40,7 +40,7 @@
     "readTime": "7 min"
   },
   {
-    "id": 1,
+    "id": 2,
     "title": "Review Tesla Model Y 2025: autonomía real y experiencia de uso en España",
     "summary": "Prueba real del Tesla Model Y 2025 en condiciones españolas. Autonomía en autopista vs ciudad, tiempos de carga y mi experiencia personal con este SUV eléctrico que está conquistando Europa.",
     "category": "Reviews",
