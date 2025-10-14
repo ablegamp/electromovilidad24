@@ -1,4 +1,14 @@
-  [
+ [
+  {
+    "id": 11,
+    "title": "Revolución portátil: cargador Velion de Lincoln Electric permite cargar coches eléctricos en cualquier sitio",
+    "summary": "Lincoln Electric presenta Velion, un cargador portátil de 50 kW que transforma cualquier toma industrial en un punto de carga rápida para vehículos eléctricos. Análisis completo, ventajas frente a cargadores tradicionales y cómo cambia el panorama de la movilidad eléctrica en España.",
+    "category": "Noticias",
+    "image": "../imagenes/comparativa1.jpg",
+    "link": "articulos/cargador-portatil-lincoln-electric-velion-2025.html",
+    "date": "2025-10-14",
+    "readTime": "18 min"
+  },
   {
     "id": 10,
     "title": "Xiaomi SU7: el primer coche eléctrico de Xiaomi llega a España",
@@ -99,4 +109,4 @@
     "date": "2025-06-02",
     "readTime": "4 min"
   }
-]
+] 
