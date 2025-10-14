@@ -1,5 +1,15 @@
 [
   {
+    "id": 13,
+    "title": "Coches eléctricos chinos que llegan a España en 2026: marcas y modelos confirmados",
+    "summary": "Las marcas chinas preparan su desembarco en España en 2026 con nuevos coches eléctricos competitivos y de bajo precio. Descubre qué modelos llegarán y cuánto costarán.",
+    "category": "Comparativas",
+    "image": "../imagenes/byd-dolphin.png",
+    "link": "articulos/coches-electricos-chinos-espana-2026.html",
+    "date": "2025-10-14",
+    "readTime": "15 min"
+  },
+  {
     "id": 12,
     "title": "SUV eléctricos con más autonomía por menos de 40.000 euros: guía completa 2025",
     "summary": "Descubre los SUV eléctricos con mayor autonomía real disponibles en España por menos de 40.000 euros. Comparativa completa de modelos como Hyundai Kona, Kia e-Niro, Volkswagen ID.3, MG ZS EV y más opciones asequibles.",
@@ -109,4 +119,5 @@
     "date": "2025-06-15",
     "readTime": "6 min"
   }
+  
 ]
