@@ -1,4 +1,14 @@
- [
+[
+  {
+    "id": 12,
+    "title": "Plan MOVES 2026: previsiones, posibles ayudas y fecha de aprobación",
+    "summary": "El Plan MOVES 2026 podría renovar las ayudas a la movilidad eléctrica en España. Descubre cuándo se aprobará, qué subvenciones incluirá y cómo prepararte para solicitarlo.",
+    "category": "Noticias",
+    "image": "../imagenes/mujer-cargando-coche-electrico.png",
+    "link": "articulos/plan-moves-2026-previsiones-ayudas.html",
+    "date": "2025-10-14",
+    "readTime": "16 min"
+  },
   {
     "id": 11,
     "title": "Revolución portátil: cargador Velion de Lincoln Electric permite cargar coches eléctricos en cualquier sitio",
@@ -109,4 +119,4 @@
     "date": "2025-06-02",
     "readTime": "4 min"
   }
-] 
+]  
