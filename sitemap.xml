@@ -11,7 +11,17 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://electromovilidad24.com/articulos/baterias-lfp-vs-ncm-diferencias-ventajas-eleccion-2026.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://electromovilidad24.com/articulos/byd-coches-electricos-espana-2025.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://electromovilidad24.com/articulos/byd-tesla-ventas-electricos-2025.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -111,11 +121,6 @@
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://electromovilidad24.com/articulos/baterias-lfp-vs-ncm-diferencias-ventajas-eleccion-2026.html</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
     <loc>https://electromovilidad24.com/articulos/motores-electricos-coches-tipos-ventajas-guia-completa.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -172,6 +177,11 @@
   </url>
   <url>
     <loc>https://electromovilidad24.com/articulos/suv-electricos-mas-autonomia-menos-40000-2025.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://electromovilidad24.com/articulos/temperatura-autonomia-coches-electricos-2025.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
