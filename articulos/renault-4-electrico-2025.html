@@ -50,8 +50,37 @@
       font-size: 1.5rem;
       font-weight: 700;
     }
+    .comparison-table {
+      width: 100%;
+      margin: 1.5rem 0;
+      border-collapse: collapse;
+      border-radius: 0.5rem;
+      overflow: hidden;
+      box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+    }
+    .comparison-table th, .comparison-table td {
+      border: 1px solid #d1d5db;
+      padding: 1rem;
+      text-align: left;
+      vertical-align: top;
+    }
+    .comparison-table th {
+      background-color: #ecfdf5;
+      color: #065f46;
+      font-weight: 600;
+      border-color: #a7f3d0;
+    }
+    .comparison-table tr:nth-child(even) {
+      background-color: #f9fafb;
+    }
+    .comparison-table tr:nth-child(odd) {
+      background-color: #ffffff;
+    }
+    .comparison-table th:nth-child(2), .comparison-table th:nth-child(3),
+    .comparison-table td:nth-child(2), .comparison-table td:nth-child(3) {
+      text-align: center;
+    }
   </style>
-  <!-- Datos estructurados JSON-LD -->
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -308,38 +337,34 @@
         <h3>Comparación con el Renault 5 eléctrico</h3>
         <p>Ambos modelos comparten plataforma técnica, pero tienen enfoques diferentes:</p>
 
-        <table class="comparison-table min-w-full">
-          <thead class="bg-gradient-to-r from-emerald-600 to-emerald-700 text-white">
+        <table class="comparison-table">
+          <thead>
             <tr>
-              <th class="py-4 px-6 text-left font-bold">Aspecto</th>
-              <th class="py-4 px-6 text-center font-bold">
-                <i class="fas fa-car text-blue-300 mr-2"></i>Renault 4 eléctrico
-              </th>
-              <th class="py-4 px-6 text-center font-bold">
-                <i class="fas fa-car text-yellow-300 mr-2"></i>Renault 5 eléctrico
-              </th>
+              <th>Aspecto</th>
+              <th>Renault 4 eléctrico</th>
+              <th>Renault 5 eléctrico</th>
             </tr>
           </thead>
           <tbody>
-            <tr class="border-b border-gray-200">
-              <td class="py-3 px-6 font-semibold bg-gray-50">Longitud</td>
-              <td class="py-3 px-6 text-center bg-green-50">3,8 metros</td>
-              <td class="py-3 px-6 text-center bg-blue-50">4,0 metros</td>
-            </tr>
-            <tr class="border-b border-gray-200">
-              <td class="py-3 px-6 font-semibold bg-gray-50">Precio base</td>
-              <td class="py-3 px-6 text-center bg-green-50">22.000€</td>
-              <td class="py-3 px-6 text-center bg-blue-50">25.000€</td>
-            </tr>
-            <tr class="border-b border-gray-200">
-              <td class="py-3 px-6 font-semibold bg-gray-50">Autonomía</td>
-              <td class="py-3 px-6 text-center bg-green-50">350 km WLTP</td>
-              <td class="py-3 px-6 text-center bg-blue-50">400 km WLTP</td>
+            <tr>
+              <td><strong>Longitud</strong></td>
+              <td>3,8 metros</td>
+              <td>4,0 metros</td>
             </tr>
             <tr>
-              <td class="py-3 px-6 font-semibold bg-gray-50">Enfoque</td>
-              <td class="py-3 px-6 text-center bg-green-50">Urbano práctico</td>
-              <td class="py-3 px-6 text-center bg-blue-50">Polivalente familiar</td>
+              <td><strong>Precio base</strong></td>
+              <td>22.000€</td>
+              <td>25.000€</td>
+            </tr>
+            <tr>
+              <td><strong>Autonomía</strong></td>
+              <td>350 km WLTP</td>
+              <td>400 km WLTP</td>
+            </tr>
+            <tr>
+              <td><strong>Enfoque</strong></td>
+              <td>Urbano práctico</td>
+              <td>Polivalente familiar</td>
             </tr>
           </tbody>
         </table>

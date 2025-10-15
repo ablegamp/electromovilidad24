@@ -58,12 +58,34 @@
       margin: 1.5rem 0;
     }
     .comparison-table {
-      border-collapse: collapse;
       width: 100%;
       margin: 1.5rem 0;
-      box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+      border-collapse: collapse;
       border-radius: 0.5rem;
       overflow: hidden;
+      box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+    }
+    .comparison-table th, .comparison-table td {
+      border: 1px solid #d1d5db;
+      padding: 1rem;
+      text-align: left;
+      vertical-align: top;
+    }
+    .comparison-table th {
+      background-color: #ecfdf5;
+      color: #065f46;
+      font-weight: 600;
+      border-color: #a7f3d0;
+    }
+    .comparison-table tr:nth-child(even) {
+      background-color: #f9fafb;
+    }
+    .comparison-table tr:nth-child(odd) {
+      background-color: #ffffff;
+    }
+    .comparison-table th:nth-child(2), .comparison-table th:nth-child(3), .comparison-table th:nth-child(4), .comparison-table th:nth-child(5),
+    .comparison-table td:nth-child(2), .comparison-table td:nth-child(3), .comparison-table td:nth-child(4), .comparison-table td:nth-child(5) {
+      text-align: center;
     }
     .technical-box {
       background: #f0fdf4;
@@ -278,27 +300,27 @@
 
         <p>Aquí viene la parte que más interesa a las familias españolas: ¿cuánto cuesta realmente este SUV híbrido?</p>
 
-        <table class="comparison-table min-w-full">
-          <thead class="bg-gradient-to-r from-emerald-600 to-emerald-700 text-white">
+        <table class="comparison-table">
+          <thead>
             <tr>
-              <th class="py-4 px-6 text-left font-bold">Versión</th>
-              <th class="py-4 px-6 text-center font-bold">Precio oficial</th>
-              <th class="py-4 px-6 text-center font-bold">Precio lanzamiento</th>
-              <th class="py-4 px-6 text-center font-bold">Descuento</th>
+              <th>Versión</th>
+              <th>Precio oficial</th>
+              <th>Precio lanzamiento</th>
+              <th>Descuento</th>
             </tr>
           </thead>
           <tbody>
-            <tr class="border-b border-gray-200">
-              <td class="py-3 px-6 font-semibold bg-gray-50">Comfort</td>
-              <td class="py-3 px-6 text-center bg-blue-50">29.990 €</td>
-              <td class="py-3 px-6 text-center bg-green-50">25.990 €</td>
-              <td class="py-3 px-6 text-center bg-emerald-50">-4.000 €</td>
+            <tr>
+              <td><strong>Comfort</strong></td>
+              <td>29.990 €</td>
+              <td>25.990 €</td>
+              <td>-4.000 €</td>
             </tr>
-            <tr class="border-b border-gray-200">
-              <td class="py-3 px-6 font-semibold bg-gray-50">Luxury</td>
-              <td class="py-3 px-6 text-center bg-blue-50">32.490 €</td>
-              <td class="py-3 px-6 text-center bg-green-50">28.490 €</td>
-              <td class="py-3 px-6 text-center bg-emerald-50">-4.000 €</td>
+            <tr>
+              <td><strong>Luxury</strong></td>
+              <td>32.490 €</td>
+              <td>28.490 €</td>
+              <td>-4.000 €</td>
             </tr>
           </tbody>
         </table>
@@ -334,44 +356,44 @@
 
         <p>Para que veas dónde se posiciona el HS Hybrid+, vamos a compararlo con sus principales rivales:</p>
 
-        <table class="comparison-table min-w-full">
-          <thead class="bg-gradient-to-r from-emerald-600 to-emerald-700 text-white">
+        <table class="comparison-table">
+          <thead>
             <tr>
-              <th class="py-4 px-6 text-left font-bold">Modelo</th>
-              <th class="py-4 px-6 text-center font-bold">Potencia</th>
-              <th class="py-4 px-6 text-center font-bold">Consumo</th>
-              <th class="py-4 px-6 text-center font-bold">Precio desde</th>
-              <th class="py-4 px-6 text-center font-bold">Maletero</th>
+              <th>Modelo</th>
+              <th>Potencia</th>
+              <th>Consumo</th>
+              <th>Precio desde</th>
+              <th>Maletero</th>
             </tr>
           </thead>
           <tbody>
-            <tr class="border-b border-gray-200">
-              <td class="py-3 px-6 font-semibold bg-gray-50">MG HS Hybrid+</td>
-              <td class="py-3 px-6 text-center bg-green-50">224 CV</td>
-              <td class="py-3 px-6 text-center bg-green-50">5,5 l/100km</td>
-              <td class="py-3 px-6 text-center bg-green-50">25.990 €</td>
-              <td class="py-3 px-6 text-center bg-blue-50">530 L</td>
+            <tr>
+              <td><strong>MG HS Hybrid+</strong></td>
+              <td>224 CV</td>
+              <td>5,5 l/100km</td>
+              <td>25.990 €</td>
+              <td>530 L</td>
             </tr>
-            <tr class="border-b border-gray-200">
-              <td class="py-3 px-6 font-semibold bg-gray-50">Toyota C-HR</td>
-              <td class="py-3 px-6 text-center bg-blue-50">184 CV</td>
-              <td class="py-3 px-6 text-center bg-orange-50">5,8 l/100km</td>
-              <td class="py-3 px-6 text-center bg-red-50">32.900 €</td>
-              <td class="py-3 px-6 text-center bg-orange-50">443 L</td>
+            <tr>
+              <td><strong>Toyota C-HR</strong></td>
+              <td>184 CV</td>
+              <td>5,8 l/100km</td>
+              <td>32.900 €</td>
+              <td>443 L</td>
             </tr>
-            <tr class="border-b border-gray-200">
-              <td class="py-3 px-6 font-semibold bg-gray-50">Hyundai Tucson Hybrid</td>
-              <td class="py-3 px-6 text-center bg-blue-50">230 CV</td>
-              <td class="py-3 px-6 text-center bg-blue-50">6,0 l/100km</td>
-              <td class="py-3 px-6 text-center bg-red-50">35.000 €</td>
-              <td class="py-3 px-6 text-center bg-green-50">546 L</td>
+            <tr>
+              <td><strong>Hyundai Tucson Hybrid</strong></td>
+              <td>230 CV</td>
+              <td>6,0 l/100km</td>
+              <td>35.000 €</td>
+              <td>546 L</td>
             </tr>
-            <tr class="border-b border-gray-200">
-              <td class="py-3 px-6 font-semibold bg-gray-50">Kia Sportage Hybrid</td>
-              <td class="py-3 px-6 text-center bg-blue-50">230 CV</td>
-              <td class="py-3 px-6 text-center bg-orange-50">6,2 l/100km</td>
-              <td class="py-3 px-6 text-center bg-red-50">33.500 €</td>
-              <td class="py-3 px-6 text-center bg-orange-50">503 L</td>
+            <tr>
+              <td><strong>Kia Sportage Hybrid</strong></td>
+              <td>230 CV</td>
+              <td>6,2 l/100km</td>
+              <td>33.500 €</td>
+              <td>503 L</td>
             </tr>
           </tbody>
         </table>
