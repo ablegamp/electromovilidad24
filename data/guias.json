@@ -1,5 +1,15 @@
 [
   {
+    "id": 11,
+    "title": "Tipos de conectores para coches eléctricos: guía completa 2026",
+    "summary": "Descubre todos los tipos de conectores para coches eléctricos: Tipo 1, Tipo 2, CHAdeMO, CCS, Tesla y más. Conoce su compatibilidad, velocidad de carga y qué conector necesita tu vehículo en 2026.",
+    "category": "Guías",
+    "image": "../imagenes/conector-combo-ccs-2.png",
+    "link": "articulos/tipos-conectores-coches-electricos-guia-completa-2026.html",
+    "date": "2025-10-16",
+    "readTime": "15 min"
+  },
+  {
     "id": 10,
     "title": "Cómo afecta la temperatura a la autonomía de los coches eléctricos en 2025",
     "summary": "El frío y el calor pueden reducir significativamente la autonomía de tu coche eléctrico. Descubre por qué sucede, cuántos kilómetros puedes perder y cómo minimizar el impacto en tu día a día.",

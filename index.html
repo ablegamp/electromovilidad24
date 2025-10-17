@@ -252,7 +252,7 @@
                 </ul>
                 
                 <!-- Menú móvil -->
-                <ul id="mobile-nav" class="md:hidden hidden flex-col space-y-3 mt-4 bg-gray-50 p-4 rounded-lg">
+                <ul id="mobile-nav" class="md:hidden flex-col space-y-3 mt-4 bg-gray-50 p-4 rounded-lg" style="display: none;">
                     <li><a href="index.html" class="block text-gris-oscuro hover:text-verde-principal font-medium">Noticias</a></li>
                     <li><a href="comparativas.html" class="block text-gris-oscuro hover:text-verde-principal font-medium">Comparativas</a></li>
                     <li><a href="guias.html" class="block text-gris-oscuro hover:text-verde-principal font-medium">Guías</a></li>
@@ -493,10 +493,14 @@
 
     <!-- JavaScript -->
     <script>
-        // Funcionalidad menú móvil (existente)
+        // Funcionalidad menú móvil
         document.getElementById('mobile-menu-btn').addEventListener('click', function() {
             const menu = document.getElementById('mobile-nav');
-            menu.classList.toggle('hidden');
+            if (menu.style.display === 'none' || menu.style.display === '') {
+                menu.style.display = 'flex';
+            } else {
+                menu.style.display = 'none';
+            }
         });
     </script>
     <script src="js/main.js?v=2"></script>
