@@ -1,5 +1,15 @@
 [
   {
+    "id": 12,
+    "title": "Neumáticos para coches eléctricos: guía completa 2025",
+    "summary": "Todo lo que necesitas saber sobre neumáticos específicos para vehículos eléctricos. Diferencias con neumáticos convencionales, mejores marcas, duración, eficiencia energética y consejos prácticos para tu EV.",
+    "category": "Guías",
+    "image": "../imagenes/neumaticos-coches-electricos.png",
+    "link": "articulos/neumaticos-coches-electricos-guia-completa-2025.html",
+    "date": "2025-10-17",
+    "readTime": "15 min"
+  },
+  {
     "id": 11,
     "title": "Tipos de conectores para coches eléctricos: guía completa 2026",
     "summary": "Descubre todos los tipos de conectores para coches eléctricos: Tipo 1, Tipo 2, CHAdeMO, CCS, Tesla y más. Conoce su compatibilidad, velocidad de carga y qué conector necesita tu vehículo en 2026.",
