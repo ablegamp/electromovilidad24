@@ -1,5 +1,15 @@
 [
   {
+    "id": 10,
+    "title": "Volkswagen ID.4 2026: análisis, autonomía, precios y opinión completa",
+    "summary": "Review completo del Volkswagen ID.4 2026: el SUV eléctrico más equilibrado de Volkswagen. Autonomía real, versiones, prestaciones, precios en España y opinión tras probarlo.",
+    "category": "Reviews",
+    "image": "../imagenes/volkswagen-id4.png",
+    "link": "articulos/volkswagen-id4-2026-analisis-autonomia-precios-opinion.html",
+    "date": "2025-10-18",
+    "readTime": "12 min"
+  },
+  {
     "id": 9,
     "title": "Omoda 7 SHS 2025 - Análisis completo del nuevo SUV eléctrico chino premium",
     "summary": "Análisis completo del Omoda 7 SHS, el nuevo SUV eléctrico chino premium que llega a España en 2025. Diseño elegante, tecnología avanzada, autonomía competitiva y comparativa con otros modelos.",
