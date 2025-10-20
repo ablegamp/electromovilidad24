@@ -10,7 +10,7 @@ class MovilidadElectrica {
         this.currentSearchTerm = '';
         this.currentSortBy = 'recent';
         this.contentType = this.getContentType();
-        this.displayedCount = 12; // Número inicial de noticias a mostrar
+        this.displayedCount = 9; // Número inicial de noticias a mostrar
         this.increment = 3; // Número de noticias a cargar por clic
 
         this.init();
@@ -205,8 +205,13 @@ class MovilidadElectrica {
             return; // No hay más noticias que cargar
         }
 
-        const newsSection = document.getElementById('news-section');
+        const newsSection = document.getElementById('news-section') || document.getElementById('comparativas-section') || document.getElementById('reviews-section') || document.getElementById('guias-section');
         if (!newsSection) return;
+
+        // Personalizar texto del botón basado en contentType
+        const buttonText = this.contentType === 'comparativas' ? 'Cargar más comparativas' :
+                          (this.contentType === 'reviews' ? 'Cargar más reviews' :
+                          (this.contentType === 'guias' ? 'Cargar más guías' : 'Cargar más noticias'));
 
         const button = document.createElement('div');
         button.className = 'text-center mt-8';
@@ -215,8 +220,8 @@ class MovilidadElectrica {
                 id="load-more-btn"
                 class="bg-verde-principal hover:bg-verde-hover text-white font-medium px-8 py-3 rounded-lg transition-all duration-200 flex items-center justify-center space-x-2 mx-auto"
             >
-                <span>Cargar más noticias</span>
-                <i class="fas fa-plus"></i>
+                <span>${buttonText}</span>
+                <i class="fas fa-chevron-down"></i>
             </button>
         `;
 
@@ -352,7 +357,7 @@ class MovilidadElectrica {
     handleSearch(event) {
         const searchTerm = event.target.value.toLowerCase().trim();
         this.currentSearchTerm = searchTerm;
-        this.displayedCount = 12; // Resetear a inicial cuando se busca
+        this.displayedCount = 9; // Resetear a inicial cuando se busca
 
         const clearBtn = document.getElementById('clear-search');
         if (clearBtn) {
@@ -391,7 +396,7 @@ class MovilidadElectrica {
         if (clearBtn) clearBtn.classList.add('hidden');
 
         this.currentSearchTerm = '';
-        this.displayedCount = 12; // Resetear a inicial cuando se limpia la búsqueda
+        this.displayedCount = 9; // Resetear a inicial cuando se limpia la búsqueda
         this.filteredContent = [...this.allContent];
         this.applySorting();
         this.renderContent();
@@ -402,7 +407,7 @@ class MovilidadElectrica {
      */
     handleSortChange(event) {
         this.currentSortBy = event.target.value;
-        this.displayedCount = 12; // Resetear a inicial cuando se cambia el orden
+        this.displayedCount = 9; // Resetear a inicial cuando se cambia el orden
         this.applySorting();
         this.renderContent();
     }
