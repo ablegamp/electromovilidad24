@@ -1,5 +1,15 @@
 [
   {
+    "id": 12,
+    "title": "Kia EV3: precio, autonomía y fecha de lanzamiento en España (2025)",
+    "summary": "Review completo del Kia EV3 2025: SUV eléctrico compacto con hasta 600 km de autonomía, diseño inspirado en el EV9 y tecnología avanzada. Precios, versiones y comparativa con competidores.",
+    "category": "Reviews",
+    "image": "../imagenes/kia-ev3.png",
+    "link": "articulos/kia-ev3-precio-autonomia-espana-2025.html",
+    "date": "2025-10-20",
+    "readTime": "14 min"
+  },
+  {
     "id": 11,
     "title": "Polestar 2 precio en España (2025): versiones, batería y equipamiento",
     "summary": "Review completo del Polestar 2 2025 en España: precios oficiales, versiones disponibles, autonomía real y comparativa frente al Tesla Model 3 y BMW i4.",
