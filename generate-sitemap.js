@@ -116,7 +116,7 @@ function main(baseUrl = '') {
 }
 
 // Configuración de la URL base del sitio
-const SITE_URL = 'https://electromovilidad24.com'; // Reemplaza con tu dominio real
+const SITE_URL = 'https://www.electromovilidad24.com'; // Reemplaza con tu dominio real
 
 // Ejecutar si se llama directamente
 if (require.main === module) {
