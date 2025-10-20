@@ -1,5 +1,15 @@
 [
   {
+    "id": 13,
+    "title": "¿Cuánto cuesta cargar un coche eléctrico en 2025?",
+    "summary": "Descubre cuánto cuesta cargar un coche eléctrico en casa o en puntos públicos. Tarifas, precios por kWh, comparativa con gasolina y consejos para ahorrar en 2025.",
+    "category": "Guías",
+    "image": "../imagenes/coche-electrico-cargando.jpg",
+    "link": "articulos/cuanto-cuesta-cargar-coche-electrico-2025.html",
+    "date": "2025-10-20",
+    "readTime": "12 min"
+  },
+  {
     "id": 12,
     "title": "Neumáticos para coches eléctricos: guía completa 2025",
     "summary": "Todo lo que necesitas saber sobre neumáticos específicos para vehículos eléctricos. Diferencias con neumáticos convencionales, mejores marcas, duración, eficiencia energética y consejos prácticos para tu EV.",
