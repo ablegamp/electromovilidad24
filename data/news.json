@@ -1,5 +1,15 @@
 [
   {
+    "id": 17,
+    "title": "La Zona de Bajas Emisiones de Valencia entra en vigor en diciembre: ¿qué significa para ti?",
+    "summary": "La Zona de Bajas Emisiones (ZBE) de Valencia se activa en diciembre de 2025 con restricciones para vehículos contaminantes. Te cuento cómo afecta a tu movilidad diaria, multas y alternativas sostenibles como el coche eléctrico.",
+    "category": "Noticias",
+    "image": "../imagenes/coche-electrico-cargando.jpg",
+    "link": "articulos/zona-bajas-emisiones-valencia-2025.html",
+    "date": "2025-10-21",
+    "readTime": "8 min"
+  },
+  {
     "id": 16,
     "title": "Dongfeng Vigo desafía al mercado europeo: SUV eléctrico con carga ultrarrápida por menos de 22.000€",
     "summary": "El fabricante chino Dongfeng presenta el Vigo, un SUV eléctrico con 471 km de autonomía y carga ultrarrápida que recupera 100 km en 5 minutos. Estrategia agresiva contra Dacia Spring y conexión europea con Stellantis.",
