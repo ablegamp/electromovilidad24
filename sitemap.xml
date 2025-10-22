@@ -61,6 +61,11 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://www.electromovilidad24.com/articulos/coches-electricos-chinos-vs-europeos-2026.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://www.electromovilidad24.com/articulos/coches-electricos-mayor-autonomia-2025.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -107,6 +112,11 @@
   </url>
   <url>
     <loc>https://www.electromovilidad24.com/articulos/kia-ev3-precio-autonomia-espana-2025.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.electromovilidad24.com/articulos/leapmotor-lafa-5-espana-2026.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
