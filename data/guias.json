@@ -1,5 +1,15 @@
 [
   {
+    "id": 14,
+    "title": "Cuánto dura la batería de un coche eléctrico y cómo alargar su vida útil",
+    "summary": "Descubre cuántos años dura la batería de un coche eléctrico, qué factores afectan su vida útil y los mejores consejos para cuidarla y evitar su degradación.",
+    "category": "Guías",
+    "image": "../imagenes/bateria-coche-electrico-2.jpg",
+    "link": "articulos/cuanto-dura-bateria-coche-electrico.html",
+    "date": "2025-10-22",
+    "readTime": "8 min"
+  },
+  {
     "id": 13,
     "title": "¿Cuánto cuesta cargar un coche eléctrico en 2025?",
     "summary": "Descubre cuánto cuesta cargar un coche eléctrico en casa o en puntos públicos. Tarifas, precios por kWh, comparativa con gasolina y consejos para ahorrar en 2025.",
