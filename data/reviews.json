@@ -1,6 +1,16 @@
 [
   {
     "id": 13,
+    "title": "Volvo EX30 2025: análisis completo, precio, autonomía y qué modelo elegir",
+    "summary": "Análisis completo del Volvo EX30 2025: SUV eléctrico compacto premium de Volvo con hasta 442 km de autonomía. Precios en España, versiones disponibles, equipamiento de seguridad y comparativa con rivales como Volkswagen ID.4 y Tesla Model Y.",
+    "category": "Reviews",
+    "image": "../imagenes/volvo-ex30-2025.png",
+    "link": "articulos/volvo-ex30-2025-analisis-completo.html",
+    "date": "2025-10-23",
+    "readTime": "12 min"
+  },
+  {
+    "id": 12,
     "title": "MG S5 EV 2025: precio, autonomía y tecnología del nuevo SUV eléctrico de MG",
     "summary": "Descubre todo sobre el nuevo MG S5 EV 2025: precio en España, autonomía, ficha técnica completa, carga rápida, versiones y prestaciones del SUV eléctrico que competirá con Hyundai Kona y BYD Atto 3.",
     "category": "Reviews",
@@ -10,7 +20,7 @@
     "readTime": "14 min"
   },
   {
-    "id": 12,
+    "id": 11,
     "title": "Kia EV3: precio, autonomía y fecha de lanzamiento en España (2025)",
     "summary": "Review completo del Kia EV3 2025: SUV eléctrico compacto con hasta 600 km de autonomía, diseño inspirado en el EV9 y tecnología avanzada. Precios, versiones y comparativa con competidores.",
     "category": "Reviews",
@@ -20,7 +30,7 @@
     "readTime": "14 min"
   },
   {
-    "id": 11,
+    "id": 10,
     "title": "Polestar 2 precio en España (2025): versiones, batería y equipamiento",
     "summary": "Review completo del Polestar 2 2025 en España: precios oficiales, versiones disponibles, autonomía real y comparativa frente al Tesla Model 3 y BMW i4.",
     "category": "Reviews",
@@ -30,7 +40,7 @@
     "readTime": "12 min"
   },
   {
-    "id": 10,
+    "id": 9,
     "title": "Volkswagen ID.4 2026: análisis, autonomía, precios y opinión completa",
     "summary": "Review completo del Volkswagen ID.4 2026: el SUV eléctrico más equilibrado de Volkswagen. Autonomía real, versiones, prestaciones, precios en España y opinión tras probarlo.",
     "category": "Reviews",
@@ -40,7 +50,7 @@
     "readTime": "12 min"
   },
   {
-    "id": 9,
+    "id": 8,
     "title": "Omoda 7 SHS 2025 - Análisis completo del nuevo SUV eléctrico chino premium",
     "summary": "Análisis completo del Omoda 7 SHS, el nuevo SUV eléctrico chino premium que llega a España en 2025. Diseño elegante, tecnología avanzada, autonomía competitiva y comparativa con otros modelos.",
     "category": "Reviews",
@@ -50,7 +60,7 @@
     "readTime": "12 min"
   },
   {
-    "id": 8,
+    "id": 7,
     "title": "MG4 Electric 2025: autonomía real, comportamiento y relación calidad-precio",
     "summary": "Prueba completa del MG4 Electric 2025: autonomía real en condiciones españolas, comportamiento dinámico, batería LFP, consumo y relación calidad-precio frente a rivales como BYD Dolphin, Renault 5 eléctrico y Cupra Born.",
     "category": "Reviews",
@@ -60,7 +70,7 @@
     "readTime": "12 min"
   },
   {
-    "id": 7,
+    "id": 6,
     "title": "BYD en España: los coches eléctricos chinos que conquistan 2025",
     "summary": "Análisis completo de BYD en España 2025: modelos disponibles, precios con ayudas del Plan MOVES, ventajas y desventajas de los coches eléctricos chinos. ¿Vale la pena un BYD Dolphin, Atto 3 o Seal?",
     "category": "Reviews",
@@ -70,7 +80,7 @@
     "readTime": "14 min"
   },
   {
-    "id": 6,
+    "id": 5,
     "title": "MG HS Hybrid+ 2025: análisis completo, precios y competencia",
     "summary": "Review completo del MG HS Hybrid+ 2025: SUV híbrido con 224 CV, consumo de 5,5 l/100 km y autonomía de más de 1.000 km por menos de 30.000€. Análisis detallado, precios, características técnicas y comparativa con otros SUV híbridos en España.",
     "category": "Reviews",
@@ -80,7 +90,7 @@
     "readTime": "16 min"
   },
   {
-    "id": 5,
+    "id": 4,
     "title": "Renault 4 eléctrico: el regreso de un clásico en versión sostenible",
     "summary": "Descubre el nuevo Renault 4 eléctrico 2025: diseño retro, autonomía, precio y comparativa con otros modelos. El regreso del clásico francés en versión 100% eléctrica.",
     "category": "Reviews",
@@ -90,7 +100,7 @@
     "readTime": "12 min"
   },
   {
-    "id": 4,
+    "id": 3,
     "title": "Renault 5 eléctrico 2025: precio, autonomía y fecha de lanzamiento",
     "summary": "Análisis completo del nuevo Renault 5 eléctrico 2025. Precio, autonomía real, fecha de lanzamiento en España y comparación con competidores como Fiat 500 y BYD Dolphin.",
     "category": "Reviews",
@@ -100,7 +110,7 @@
     "readTime": "12 min"
   },
   {
-    "id": 3,
+    "id": 2,
     "title": "Mi experiencia real con un cargador doméstico Wallbox para coche eléctrico en España",
     "summary": "Te cuento mi experiencia real instalando y usando un Wallbox Pulsar Plus en casa. Comparativa de velocidad, coste y comodidad frente a la carga pública en España.",
     "category": "Reviews",
@@ -110,7 +120,7 @@
     "readTime": "7 min"
   },
   {
-    "id": 2,
+    "id": 1,
     "title": "Review Tesla Model Y 2025: autonomía real y experiencia de uso en España",
     "summary": "Prueba real del Tesla Model Y 2025 en condiciones españolas. Autonomía en autopista vs ciudad, tiempos de carga y mi experiencia personal con este SUV eléctrico que está conquistando Europa.",
     "category": "Reviews",
