@@ -1,5 +1,15 @@
 [
   {
+    "id": 19,
+    "title": "🚗 El eléctrico usado se consolida: precios caen 10,3% pero las ventas suben 35%",
+    "summary": "El mercado del vehículo eléctrico de ocasión en España vive una transformación: precios bajan hasta 30.626€ (-10,3%) pero la demanda crece 35%. Tesla lidera las ventas con 24% más de operaciones. Análisis completo del informe Electricar VO 2025.",
+    "category": "Noticias",
+    "image": "../imagenes/ventas-ev-espana-2025.webp",
+    "link": "articulos/electrico-usado-consolida-mercado-2025.html",
+    "date": "2025-10-23",
+    "readTime": "8 min"
+  },
+  {
     "id": 18,
     "title": "🚗 Leapmotor Lafa 5: el coche eléctrico chino que se producirá parcialmente en España",
     "summary": "El Leapmotor Lafa 5, compacto eléctrico chino, se ensamblará parcialmente en España a partir de 2026. Te contamos todos los detalles sobre sus características, precio y su impacto en el mercado eléctrico europeo.",
