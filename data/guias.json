@@ -1,4 +1,5 @@
 [
+
   {
     "id": 17,
     "title": "Consejos para maximizar la autonomía de tu coche eléctrico: reduce la velocidad y llega más lejos",
@@ -8,6 +9,16 @@
     "link": "articulos/consejos-maximizar-autonomia-coche-electrico-2025.html",
     "date": "2025-10-27",
     "readTime": "12 min"
+  },
+    {
+    "id": 16,
+    "title": "Guía completa de mantenimiento y cuidados del coche eléctrico",
+    "summary": "Descubre cada cuánto revisar un coche eléctrico, qué piezas requieren mantenimiento y cómo cuidar la batería para alargar su vida útil.",
+    "category": "Guías",
+    "image": "https://images.unsplash.com/photo-1676337167629-d896b3ed5724?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDB8fGJhdGVyaWElMjBjb2NoZSUyMGVsZWN0cmljb3xlbnwwfHwwfHx8Mg%3D%3D&auto=format&fit=crop&q=60&w=500",
+    "link": "articulos/guia-completa-mantenimiento-cuidados-coche-electrico-2025.html",
+    "date": "2025-10-24",
+    "readTime": "15 min"
   },
   {
     "id": 15,
@@ -20,7 +31,7 @@
     "readTime": "12 min"
   },
   {
-    "id": 14,
+    "id": 13,
     "title": "Cuánto dura la batería de un coche eléctrico y cómo alargar su vida útil",
     "summary": "Descubre cuántos años dura la batería de un coche eléctrico, qué factores afectan su vida útil y los mejores consejos para cuidarla y evitar su degradación.",
     "category": "Guías",
