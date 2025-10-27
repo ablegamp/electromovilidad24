@@ -76,6 +76,11 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://www.electromovilidad24.com/articulos/coches-electricos-valor-reventa-tesla-usado-2025.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://www.electromovilidad24.com/articulos/coches-hibridos-no-enchufables-2025.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -96,12 +101,22 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://www.electromovilidad24.com/articulos/consejos-maximizar-autonomia-coche-electrico-2025.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://www.electromovilidad24.com/articulos/cuanto-cuesta-cargar-coche-electrico-2025.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://www.electromovilidad24.com/articulos/cuanto-dura-bateria-coche-electrico.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.electromovilidad24.com/articulos/cupra-tavascan-2025-analisis-completo.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -122,6 +137,11 @@
   </url>
   <url>
     <loc>https://www.electromovilidad24.com/articulos/fiat-500-electrico-2025.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.electromovilidad24.com/articulos/guia-completa-mantenimiento-cuidados-coche-electrico-2025.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -222,6 +242,11 @@
   </url>
   <url>
     <loc>https://www.electromovilidad24.com/articulos/polestar-2-precio-espana-2025.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.electromovilidad24.com/articulos/precio-baterias-coches-electricos-menos-3000-euros-2030.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>

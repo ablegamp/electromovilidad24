@@ -1,13 +1,13 @@
 [
   {
-    "id": 16,
-    "title": "Guía completa de mantenimiento y cuidados del coche eléctrico",
-    "summary": "Descubre cada cuánto revisar un coche eléctrico, qué piezas requieren mantenimiento y cómo cuidar la batería para alargar su vida útil hasta los 300.000 km.",
+    "id": 17,
+    "title": "Consejos para maximizar la autonomía de tu coche eléctrico: reduce la velocidad y llega más lejos",
+    "summary": "El estudio Eurocharge 2025 revela el secreto para obtener la autonomía real de tu coche eléctrico: reducir la velocidad. Descubre cómo circular a 100 km/h puede duplicar tu autonomía real.",
     "category": "Guías",
-    "image": "https://images.unsplash.com/photo-1592318348310-f31b61a931c8?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8YmF0ZXJpYSUyMGNvY2hlJTIwZWxlY3RyaWNvfGVufDB8fDB8fHwy&auto=format&fit=crop&q=60&w=500",
-    "link": "articulos/guia-completa-mantenimiento-cuidados-coche-electrico-2025.html",
-    "date": "2025-10-24",
-    "readTime": "15 min"
+    "image": "https://images.unsplash.com/photo-1572191267783-5618f992aff5?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fGJhdGVyaWElMjBjb2NoZSUyMGVsZWN0cmljb3xlbnwwfHwwfHx8Mg%3D%3D&auto=format&fit=crop&q=60&w=400",
+    "link": "articulos/consejos-maximizar-autonomia-coche-electrico-2025.html",
+    "date": "2025-10-27",
+    "readTime": "12 min"
   },
   {
     "id": 15,
