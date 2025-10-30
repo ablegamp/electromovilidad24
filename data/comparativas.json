@@ -1,4 +1,13 @@
-[
+[  {
+    "id": 20,
+    "title": "Los 5 Mejores Coches Eléctricos Baratos en España 2025",
+    "summary": "Análisis detallado de los 5 coches eléctricos más asequibles de 2025, incluyendo Dacia Spring, Citroën ë-C3, Fiat 500e, Renault Twingo E-Tech y MG4. Comparativa con precios desde 18.900€ con ayudas del Plan MOVES.",
+    "category": "Comparativas",
+    "image": "../imagenes/byd-dolphin-surf.png",
+    "link": "articulos/mejores-coches-electricos-baratos-2025.html",
+    "date": "2025-10-30",
+    "readTime": "18 min"
+  },
   {
     "id": 19,
     "title": "Tesla Model Y vs Polestar 2 (2025): comparativa completa de prestaciones, autonomía y precio",
