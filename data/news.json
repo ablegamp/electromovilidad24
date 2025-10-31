@@ -1,5 +1,15 @@
 [
   {
+  "id": 23,
+  "title": "Tesla Roadster: Posible Fabricación en 2026 Tras Años de Espera",
+  "summary": "Elon Musk confirma que el Tesla Roadster podría llegar finalmente en 2026. Con 0-100 km/h en 1.9s, 1000 km de autonomía y SpaceX Package con propulsores de cohete. Analizamos si esta vez será realidad tras 7 años de retrasos.",
+  "category": "Noticias",
+  "image": "https://images.unsplash.com/photo-1617704548623-340376564e68?ixlib=rb-4.1.0&auto=format&fit=crop&q=60&w=500",
+  "link": "articulos/tesla-roadster-fabricacion-2026-confirmacion.html",
+  "date": "2025-10-31",
+  "readTime": "12 min"
+  },
+  {
     "id": 22,
     "title": "Chery presenta su batería de estado sólido con 1.300 km de autonomía real",
     "summary": "Chery revoluciona el mercado con su nueva batería de estado sólido que promete 1.300 km de autonomía real, carga ultrarrápida y mayor seguridad. Análisis de la tecnología que cambiará el futuro de los vehículos eléctricos.",
