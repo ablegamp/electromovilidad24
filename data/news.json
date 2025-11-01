@@ -1,5 +1,15 @@
 [
   {
+  "id": 25,
+  "title": "El Gobierno Apuesta por Prohibir los Híbridos: Solo Eléctricos Desde 2035",
+  "summary": "España confirma alineación con la UE y prohibirá la venta de todos los coches con motor de combustión, incluidos híbridos y enchufables, desde el 1 de enero de 2035. Solo se permitirán eléctricos puros. Análisis completo del impacto y recomendaciones.",
+  "category": "Noticias",
+  "image": "https://images.unsplash.com/photo-1630716059383-b3203bdda1e4?ixlib=rb-4.1.0&auto=format&fit=crop&q=60&w=500",
+  "link": "articulos/gobierno-prohibicion-coches-hibridos-2035-solo-electricos.html",
+  "date": "2025-11-01",
+  "readTime": "13 min"
+  },
+  {
   "id": 24,
   "title": "Las 5 Peores Averías de Coches Híbridos: Costes de Hasta 15.000€",
   "summary": "Análisis exhaustivo de las averías más caras de coches híbridos: batería de alta tensión (3.000-10.000€), inversor, motor eléctrico, transmisión CVT y refrigeración. Síntomas, costes reales, prevención y comparativa con gasolina y eléctricos.",
