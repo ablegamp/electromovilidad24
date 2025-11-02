@@ -1,5 +1,16 @@
 [
   {
+  "id": 27,
+  "title": "China Revoluciona las Baterías de Estado Sólido: Producción Masiva en 2025",
+  "summary": "Breakthrough tecnológico de China en baterías de estado sólido promete 400 Wh/kg de densidad energética, el doble que las actuales de litio. Producción masiva iniciará en 2025 con costos competitivos. Autonomías de +1000km, carga ultrarrápida y mayor seguridad transformarán la industria EV.",
+  "category": "Noticias",
+  "image": "https://images.unsplash.com/photo-1620288627223-53302f4e8c74?ixlib=rb-4.1.0&auto=format&fit=crop&q=60&w=500",
+  "link": "articulos/baterias-estado-solido-china-avance-revolucionario-2025.html",
+  "date": "2025-11-2",
+  "readTime": "9 min"
+},
+  
+  {
   "id": 26,
   "title": "Estudio Sueco: 8 de Cada 10 Eléctricos Usados Mantienen >90% de Batería",
   "summary": "Un estudio revolucionario de más de 1.300 vehículos eléctricos usados en Suecia desmonta el mito de la degradación: el 80% mantiene más del 90% de capacidad de batería. Degradación promedio de solo 2.3% anual. Análisis completo de datos y lo que significa para compradores.",
