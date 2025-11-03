@@ -1,4 +1,13 @@
-[
+[  {
+    "id": 30,
+    "title": "BYD Supera a Tesla en España: La Revolución de los Eléctricos Chinos",
+    "summary": "BYD y otras marcas chinas están revolucionando el mercado español de eléctricos con precios un 30% más baratos. Analizamos cómo marcas como BYD, MG y NIO están cambiando las reglas del juego y qué significa para el consumidor.",
+    "category": "Noticias",
+    "image": "https://images.unsplash.com/photo-1654246883355-d79160b61db5?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8YnlkfGVufDB8fDB8fHwy&auto=format&fit=crop&q=60&w=500",
+    "link": "articulos/byd-supera-tesla-espana-revolucion-electricos-chinos.html",
+    "date": "2025-11-03",
+    "readTime": "15 min"
+  },
   {
     "id": 29,
     "title": "INCREÍBLE: Cargar tu coche eléctrico GRATIS en casa ya es posible",
