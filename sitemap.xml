@@ -36,12 +36,27 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://www.electromovilidad24.com/articulos/byd-supera-tesla-espana-revolucion-electricos-chinos.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://www.electromovilidad24.com/articulos/byd-tesla-ventas-electricos-2025.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://www.electromovilidad24.com/articulos/carga-ac-dc-diferencias-potencias-cuando-usar.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://www.electromovilidad24.com/articulos/cargador-portatil-lincoln-electric-velion-2025.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.electromovilidad24.com/articulos/cargar-gratis-coche-electrico-casa-propuesta-revolucionaria.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -271,6 +286,11 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://www.electromovilidad24.com/articulos/nissan-leaf-2026-autonomia-real-prueba.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://www.electromovilidad24.com/articulos/omoda-7-shs-2025-analisis-completo.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -341,6 +361,11 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://www.electromovilidad24.com/articulos/renault-megane-e-tech-vs-volkswagen-id3-2025-comparativa.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://www.electromovilidad24.com/articulos/renting-vs-compra-coches-electricos.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -352,6 +377,11 @@
   </url>
   <url>
     <loc>https://www.electromovilidad24.com/articulos/review-tesla-model-y-2025.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.electromovilidad24.com/articulos/seguro-coches-electricos-comparativa-coberturas-ahorrar.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
