@@ -6,6 +6,11 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://www.electromovilidad24.com/articulos/ayudas-coches-electricos-comunidades-autonomas-2026.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://www.electromovilidad24.com/articulos/ayudas-europeas-nacionales-vehiculos-electricos-2026.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -176,6 +181,11 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://www.electromovilidad24.com/articulos/estado-carga-rapida-espana-2025.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://www.electromovilidad24.com/articulos/estudio-sueco-baterias-coches-electricos-usados-degradacion.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -202,6 +212,11 @@
   </url>
   <url>
     <loc>https://www.electromovilidad24.com/articulos/guia-completa-mantenimiento-cuidados-coche-electrico-2025.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.electromovilidad24.com/articulos/guia-comprar-primer-coche-electrico-2025.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
