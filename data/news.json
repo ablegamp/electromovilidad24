@@ -1,5 +1,15 @@
 [  
     {
+    "id": 37,
+    "title": "Jornada sobre Movilidad Eléctrica en la UPNA - Noviembre 2025",
+    "summary": "La Universidad Pública de Navarra acoge una jornada sobre los avances en movilidad eléctrica, con expertos del sector analizando las últimas tendencias y desarrollos tecnológicos en vehículos eléctricos y su impacto en la movilidad sostenible.",
+    "category": "Noticias",
+    "image": "https://images.unsplash.com/photo-1661665062657-fcb3bcc788ff?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fHVuaXZlcnNpZGFkJTIwcG9saXRlY25pY2ElMjBkZSUyMG5hdmFycmF8ZW58MHx8MHx8fDI%3D&auto=format&fit=crop&q=60&w=500",
+    "link": "articulos/upna-jornada-movilidad-electrica-noviembre-2025.html",
+    "date": "2025-11-07",
+    "readTime": "8 min"
+    },
+    {
     "id": 36,
     "title": "2025 confirma el despegue definitivo del coche eléctrico mundial",
     "summary": "Un estudio confirma que 2025 es el año del coche eléctrico: 18 millones de unidades vendidas, crecimiento del 27% y China liderando con el 60% del mercado. Europa se consolida en segunda posición con España acelerando su adopción.",
