@@ -1,5 +1,15 @@
 [  
     {
+  "id": 40,
+  "title": "España se convierte en el único refugio de Tesla en Europa",
+  "summary": "Un informe revela que España es el único gran mercado europeo donde Tesla crece (+7,6%) mientras se desploma en Alemania (-50%), Francia (-30%) e Italia. BYD emerge como competidor directo con crecimiento explosivo en el mercado español.",
+  "category": "Noticias",
+  "image": "https://source.unsplash.com/8TqdrogVGfs",
+  "link": "articulos/espana-unico-mercado-tesla-crece-europa.html",
+  "date": "2025-11-09",
+  "readTime": "8 min"
+},
+    {
   "id": 39,
   "title": "España supera los 48.900 puntos de recarga pública con inversión récord de 1.290 millones",
   "summary": "Según el barómetro de electromovilidad, España alcanza 48.923 puntos de recarga operativos. AEDIVE alerta que 15.000 puntos adicionales esperan permisos. Análisis de la distribución, inversión y retos administrativos que frenan el despliegue.",
