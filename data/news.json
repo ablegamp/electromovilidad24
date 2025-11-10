@@ -1,5 +1,15 @@
 [  
     {
+  "id": 41,
+  "title": "El parque de vehículos ecológicos se dispara un 21% en España",
+  "summary": "España alcanza 1,24 millones de vehículos híbridos y eléctricos en 2024, un aumento del 21,3%. El diésel cae un 1,7% mientras Madrid, Barcelona y Castellón lideran la electrificación. Análisis de las tendencias, provincias más ecológicas y perspectivas futuras.",
+  "category": "Noticias",
+  "image": "https://images.unsplash.com/photo-1707341596708-c81840f0e62d?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjEzfHxjb2NoZSUyMGVsZWN0cmljb3xlbnwwfHwwfHx8Mg%3D%3D&auto=format&fit=crop&q=60&w=500",
+  "link": "articulos/parque-vehiculos-ecologicos-dispara-espana-2024.html",
+  "date": "2025-11-10",
+  "readTime": "10 min"
+},
+{
   "id": 40,
   "title": "España se convierte en el único refugio de Tesla en Europa",
   "summary": "Un informe revela que España es el único gran mercado europeo donde Tesla crece (+7,6%) mientras se desploma en Alemania (-50%), Francia (-30%) e Italia. BYD emerge como competidor directo con crecimiento explosivo en el mercado español.",
