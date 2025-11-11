@@ -6,6 +6,11 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://www.electromovilidad24.com/articulos/ahorrar-electricidad-cargando-coche-electrico.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://www.electromovilidad24.com/articulos/automovil-electrico-evolucion-beneficios-retos.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -216,6 +221,11 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://www.electromovilidad24.com/articulos/fastned-100-millones-80-estaciones-carga-rapida-espana.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://www.electromovilidad24.com/articulos/fiat-500-electrico-2025.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -296,6 +306,11 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://www.electromovilidad24.com/articulos/mejores-coches-electricos-menos-30000-euros.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://www.electromovilidad24.com/articulos/mejores-coches-electricos-pequenos-2025.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -357,6 +372,11 @@
   </url>
   <url>
     <loc>https://www.electromovilidad24.com/articulos/omoda-7-shs-2025-analisis-completo.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.electromovilidad24.com/articulos/parque-vehiculos-ecologicos-dispara-espana-2024.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
