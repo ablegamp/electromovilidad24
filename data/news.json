@@ -1,5 +1,15 @@
 [  
     {
+  "id": 42,
+  "title": "Fastned invertirá 100 millones en 80 estaciones de carga rápida en España",
+  "summary": "El operador holandés Fastned anuncia una inversión de 100 millones de euros para desplegar 80 estaciones de recarga ultrarrápida en España. La mayor inversión privada en infraestructura de recarga del país, con estaciones de 150-400 kW en autopistas principales. Un impulso clave para la movilidad eléctrica en viajes largos.",
+  "category": "Noticias",
+  "image": "https://images.unsplash.com/photo-1751553512991-7ae218946be9?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTQxfHxjb2NoZSUyMGVsZWN0cmljb3xlbnwwfHwwfHx8Mg%3D%3D&auto=format&fit=crop&q=80&w=1200",
+  "link": "articulos/fastned-100-millones-80-estaciones-carga-rapida-espana.html",
+  "date": "2025-11-11",
+  "readTime": "9 min"
+    },
+    {
   "id": 41,
   "title": "El parque de vehículos ecológicos se dispara un 21% en España",
   "summary": "España alcanza 1,24 millones de vehículos híbridos y eléctricos en 2024, un aumento del 21,3%. El diésel cae un 1,7% mientras Madrid, Barcelona y Castellón lideran la electrificación. Análisis de las tendencias, provincias más ecológicas y perspectivas futuras.",
