@@ -31,6 +31,11 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://www.electromovilidad24.com/articulos/baterias-coches-electricos-duran-mas-esperado-estudio.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://www.electromovilidad24.com/articulos/baterias-estado-solido-china-avance-revolucionario-2025.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -71,6 +76,11 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://www.electromovilidad24.com/articulos/carga-casa-vs-carga-publica-comparativa.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://www.electromovilidad24.com/articulos/cargador-portatil-lincoln-electric-velion-2025.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -102,6 +112,11 @@
   </url>
   <url>
     <loc>https://www.electromovilidad24.com/articulos/coches-electricos-baratos-250km-autonomia-2025.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.electromovilidad24.com/articulos/coches-electricos-baratos-5000-euros.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -271,6 +286,11 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://www.electromovilidad24.com/articulos/kgm-torres-evx-actualizacion-2025.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://www.electromovilidad24.com/articulos/kia-ev3-precio-autonomia-espana-2025.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -327,6 +347,11 @@
   </url>
   <url>
     <loc>https://www.electromovilidad24.com/articulos/mejores-suv-electricos-familiares-2025.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.electromovilidad24.com/articulos/mercedes-suv-electrico-barato-2025.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -391,19 +416,27 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://www.electromovilidad24.com/articulos/peugeot-polygon-concept-futuro-e208-2027.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://www.electromovilidad24.com/articulos/plan-moves-2025-requisitos-ayudas-comunidades.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://www.electromovilidad24.com/articulos/plan-moves-2026-previsiones-ayudas.html</loc>
-    <lastmod>2025-11-12</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://www.electromovilidad24.com/articulos/plan-moves-2026-vs-2025-diferencias.html</loc>
-    <lastmod>2025-11-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.electromovilidad24.com/articulos/plan-mueve-madrid-2026-ayudas.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
