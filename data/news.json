@@ -1,5 +1,25 @@
 [  
     {
+      "id": 49,
+      "title": "Audi Q6 e-tron 2025: primeras impresiones y análisis completo",
+      "summary": "Primeras pruebas del Audi Q6 e-tron 2025: arquitectura 800V, carga ultrarrápida de 270 kW, más de 600 km de autonomía. Análisis completo del nuevo SUV eléctrico premium que redefine los estándares de Audi.",
+      "category": "Noticias",
+      "image": "/imagenes/audi-q6-e-tron.png",
+      "link": "articulos/audi-q6-etron-primeras-impresiones-2025.html",
+      "date": "2025-11-14",
+      "readTime": "10 min"
+    },
+    {
+      "id": 48,
+      "title": "Las ventas de coches eléctricos se ralentizan en noviembre 2025",
+      "summary": "Las ventas de coches eléctricos muestran una desaceleración en noviembre de 2025. Analizamos las causas de esta tendencia y qué podemos esperar para los próximos meses en el mercado de la movilidad eléctrica.",
+      "category": "Noticias",
+      "image": "https://images.unsplash.com/photo-1631347826177-de288776ed3b?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDB8fGNvY2hlJTIwZWxlY3RyaWNvfGVufDB8fDB8fHwy",
+      "link": "articulos/ventas-electricos-ralentizan-noviembre-2025.html",
+      "date": "2025-11-14",
+      "readTime": "8 min"
+    },
+    {
       "id": 47,
       "title": "Peugeot Polygon Concept: así será el revolucionario e-208 de 2027 con volante rectangular",
       "summary": "Peugeot presenta el Polygon Concept con volante Hypersquare, dirección steer-by-wire y materiales 100% reciclados. Descubre cómo será el revolucionario Peugeot e-208 de 2027.",
