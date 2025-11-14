@@ -11,6 +11,11 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://www.electromovilidad24.com/articulos/audi-q6-etron-primeras-impresiones-2025.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://www.electromovilidad24.com/articulos/automovil-electrico-evolucion-beneficios-retos.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -582,6 +587,11 @@
   </url>
   <url>
     <loc>https://www.electromovilidad24.com/articulos/ventajas-fiscales-coche-electrico-espana-2025.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.electromovilidad24.com/articulos/ventas-electricos-ralentizan-noviembre-2025.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
