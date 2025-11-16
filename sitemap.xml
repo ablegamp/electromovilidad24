@@ -201,6 +201,11 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://www.electromovilidad24.com/articulos/degradacion-bateria-coche-electrico-guia-soh.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://www.electromovilidad24.com/articulos/dongfeng-vigo-suv-electrico-2026.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -447,6 +452,11 @@
   </url>
   <url>
     <loc>https://www.electromovilidad24.com/articulos/plan-moves-2026-vs-2025-diferencias.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.electromovilidad24.com/articulos/plan-moves-corredores-2025-infraestructura-carga.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
