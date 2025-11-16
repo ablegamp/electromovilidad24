@@ -166,6 +166,11 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://www.electromovilidad24.com/articulos/comparativa-byd-dolphin-vs-mg4-2025.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://www.electromovilidad24.com/articulos/confort-viajes-largos-electricos-2025.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -282,6 +287,11 @@
   </url>
   <url>
     <loc>https://www.electromovilidad24.com/articulos/guia-comprar-primer-coche-electrico-2025.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.electromovilidad24.com/articulos/impuesto-asfalto-coste-cargar-sin-garaje.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -517,6 +527,11 @@
   </url>
   <url>
     <loc>https://www.electromovilidad24.com/articulos/spark-red-recarga-europa-2025.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.electromovilidad24.com/articulos/suv-electricos-dominan-ventas-noviembre-2025.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
