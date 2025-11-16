@@ -1,5 +1,15 @@
 [
     {
+  "id": 51,
+  "title": "El 'impuesto del asfalto': el coste de cargar sin garaje que frena el coche eléctrico",
+  "summary": "Conductores sin garaje pagan hasta 0,60 €/kWh en carga pública frente a 0,15 €/kWh en casa con wallbox. Esta desigualdad, bautizada como 'impuesto del asfalto', reduce el ahorro del eléctrico del 70% al 20-30% y penaliza especialmente a residentes urbanos. Analizamos el problema y las soluciones propuestas.",
+  "category": "Análisis",
+  "image": "https://images.unsplash.com/photo-1760539120788-8529cccfea75?w=1200&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8c3V2JTIwZWxlY3RyaWNvJTIwY2FyZ2FuZG98ZW58MHx8MHx8fDI%3D",
+  "link": "articulos/impuesto-asfalto-coste-cargar-sin-garaje.html",
+  "date": "2025-11-16",
+  "readTime": "8 min"
+    },
+    {
       "id": 50,
       "title": "SUV eléctricos: 7 de cada 10 ventas son carrocerías altas",
       "summary": "Análisis exclusivo de las ventas de noviembre 2025: el 70% de los coches eléctricos vendidos son SUV. Descubre por qué los compradores prefieren carrocerías altas y qué modelos dominan el mercado.",
