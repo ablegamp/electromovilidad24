@@ -1,4 +1,13 @@
-[
+[  {
+    "id": 34,
+    "title": "Instalar Cargador en Piso de Alquiler: Guía de Permisos y Derechos del Inquilino 2025",
+    "summary": "Guía legal completa para instalar un cargador de coche eléctrico en un piso de alquiler. Conoce tus derechos como inquilino, permisos, costes y cómo notificar a la comunidad y al propietario según la Ley de Propiedad Horizontal.",
+    "category": "Guías",
+    "image": "https://images.unsplash.com/photo-1760538978585-f82dc257ec15?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDV8fGNhcmdhJTIwZGUlMjBjb2NoZXMlMjBlbCVDMyVBOWN0cmljb3N8ZW58MHx8MHx8fDI%3D",
+    "link": "articulos/instalar-cargador-piso-alquiler-permisos-derechos.html",
+    "date": "2025-11-17",
+    "readTime": "15 min"
+  },
   {
     "id": 33,
     "title": "Degradación de la Batería del Coche Eléctrico: Guía SOH y Pérdida de Autonomía 2025",
