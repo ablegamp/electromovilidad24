@@ -196,6 +196,11 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://www.electromovilidad24.com/articulos/coste-total-propiedad-coche-electrico-vs-gasolina.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://www.electromovilidad24.com/articulos/cuanto-cuesta-cargar-coche-electrico-2025.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -302,6 +307,11 @@
   </url>
   <url>
     <loc>https://www.electromovilidad24.com/articulos/guia-comprar-primer-coche-electrico-2025.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.electromovilidad24.com/articulos/hyundai-kona-electric-2025-vs-kia-ev3.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
