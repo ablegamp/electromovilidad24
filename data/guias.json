@@ -1,4 +1,15 @@
-[  {
+[
+  {
+    "id": 37,
+    "title": "Deducciones Coche Eléctrico Autónomos y Empresas 2026 (IVA, IRPF)",
+    "summary": "Guía experta sobre las deducciones fiscales de vehículos eléctricos para empresas y autónomos en España. Analizamos el IVA (50% vs 100%), IRPF y Amortización.",
+    "category": "Guías",
+    "image": "https://images.unsplash.com/photo-1762152212840-3ec91c031d52?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8aXJwZnxlbnwwfHwwfHx8Mg%3D%3D",
+    "link": "articulos/deducciones-fiscales-coche-electrico-autonomos-empresas.html",
+    "date": "2025-11-19",
+    "readTime": "12 min"
+  },
+  {
     "id": 36,
     "title": "Wallbox Monofásico vs. Trifásico: Diferencias y Cuál Elegir para tu Coche Eléctrico",
     "summary": "Guía experta para decidir qué instalación de wallbox necesitas. Comparamos potencias, costes de instalación y si tu coche admite carga trifásica.",
