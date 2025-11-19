@@ -1,4 +1,14 @@
-[
+[ 
+    {
+  "id": 57,
+  "title": "Jeep Recon 2026: el SUV eléctrico todoterreno con 402 km Trail Rated",
+  "summary": "Jeep confirma el Recon 2026, su primer SUV 100% eléctrico con certificación Trail Rated, batería de 100 kWh, tracción 4x4, 402 km de autonomía EPA y producción en Toluca para lanzarse en otoño de 2026.",
+  "category": "Noticias",
+  "image": "/imagenes/jeep-reckon-2026.png",
+  "link": "articulos/jeep-recon-2026-suv-electrico-todoterreno.html",
+  "date": "2025-11-19",
+  "readTime": "7 min"
+    },
     {
   "id": 56,
   "title": "Kia EV5 llega a Europa en 2025: hasta 530 km de autonomía y tecnología avanzada",
