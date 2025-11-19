@@ -341,6 +341,11 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://www.electromovilidad24.com/articulos/kia-ev5-europa-lanzamiento-2025.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://www.electromovilidad24.com/articulos/leapmotor-lafa-5-espana-2026.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -667,6 +672,11 @@
   </url>
   <url>
     <loc>https://www.electromovilidad24.com/articulos/volvo-ex30-2025-analisis-completo.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.electromovilidad24.com/articulos/wallbox-monofasico-trifasico-diferencias.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>

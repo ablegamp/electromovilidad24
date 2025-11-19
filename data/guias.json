@@ -1,4 +1,14 @@
 [  {
+    "id": 36,
+    "title": "Wallbox Monofásico vs. Trifásico: Diferencias y Cuál Elegir para tu Coche Eléctrico",
+    "summary": "Guía experta para decidir qué instalación de wallbox necesitas. Comparamos potencias, costes de instalación y si tu coche admite carga trifásica.",
+    "category": "Guías",
+    "image": "https://images.unsplash.com/photo-1732193998117-97b3b2994323?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8d2FsbGJveHxlbnwwfHwwfHx8Mg%3D%3D",
+    "link": "articulos/wallbox-monofasico-trifasico-diferencias.html",
+    "date": "2025-11-19",
+    "readTime": "10 min"
+  },
+  {
     "id": 35,
     "title": "Coste Total de Propiedad (TCO): EV vs. Gasolina 5 Años",
     "summary": "Análisis definitivo del TCO. Descubre cuánto ahorras realmente en 5 años con un coche eléctrico frente a un gasolina, incluyendo mantenimiento y el temido coste de la batería.",
