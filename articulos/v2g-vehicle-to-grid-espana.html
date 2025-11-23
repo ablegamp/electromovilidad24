@@ -1,0 +1,668 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- SEO mejorado -->
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
+  <meta name="googlebot" content="index, follow" />
+  <meta name="theme-color" content="#10B981" />
+  <meta name="msapplication-TileColor" content="#10B981" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+  <meta name="format-detection" content="telephone=no" />
+  <title>Qué es el V2G (Vehicle-to-Grid) y cómo puede cambiar la red eléctrica en España</title>
+  <meta name="description" content="Descubre cómo la tecnología V2G permite que tu coche eléctrico devuelva energía a la red, generando ingresos pasivos y estabilizando el sistema eléctrico. Guía completa 2025 sobre Vehicle-to-Grid en España." />
+  <link rel="canonical" href="https://www.electromovilidad24.com/articulos/v2g-vehicle-to-grid-espana.html" />
+  <!-- Open Graph -->
+  <meta property="og:type" content="article" />
+  <meta property="og:title" content="Qué es el V2G (Vehicle-to-Grid) y cómo puede cambiar la red eléctrica en España" />
+  <meta property="og:description" content="Descubre cómo la tecnología V2G permite que tu coche eléctrico devuelva energía a la red, generando ingresos pasivos y estabilizando el sistema eléctrico. Guía completa 2025 sobre Vehicle-to-Grid en España." />
+  <meta property="og:locale" content="es_ES" />
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Qué es el V2G (Vehicle-to-Grid) y cómo puede cambiar la red eléctrica en España" />
+  <meta name="twitter:description" content="Descubre cómo la tecnología V2G permite que tu coche eléctrico devuelva energía a la red, generando ingresos pasivos y estabilizando el sistema eléctrico. Guía completa 2025 sobre Vehicle-to-Grid en España." />
+  <meta name="author" content="Movilidad Eléctrica 24" />
+  <link rel="icon" type="image/svg+xml" href="../favicon.svg">
+  <link rel="shortcut icon" href="../favicon.svg">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.0/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <script>
+    tailwind.config = { theme: { extend: { fontFamily: { inter: ['Inter','sans-serif'] }, colors: { 'verde-principal':'#10B981','gris-oscuro':'#1F2937','gris-claro':'#F9FAFB' } } } }
+  </script>
+  <style>
+    body { font-family: 'Inter', sans-serif; }
+    .article-content p { margin: 1rem 0; line-height: 1.75; }
+    .article-content h2 {
+      margin-top: 2rem;
+      margin-bottom: 1rem;
+      font-size: 1.75rem;
+      font-weight: 800;
+      color: #065f46;
+    }
+    .article-content h3 {
+      margin-top: 1.5rem;
+      margin-bottom: 0.75rem;
+      font-size: 1.5rem;
+      font-weight: 700;
+    }
+    .highlight-box {
+      background: linear-gradient(135deg, #ecfdf5 0%, #d1fae5 100%);
+      border-left: 4px solid #10B981;
+      padding: 1.5rem;
+      margin: 1.5rem 0;
+      border-radius: 0.5rem;
+    }
+    .stat-box {
+      background: linear-gradient(135deg, #dbeafe 0%, #bfdbfe 100%);
+      border-left: 4px solid #3b82f6;
+      padding: 1.5rem;
+      margin: 1.5rem 0;
+      border-radius: 0.5rem;
+    }
+    .warning-box {
+      background: linear-gradient(135deg, #fef3c7 0%, #fde68a 100%);
+      border-left: 4px solid #f59e0b;
+      padding: 1.5rem;
+      margin: 1.5rem 0;
+      border-radius: 0.5rem;
+    }
+    .success-box {
+      background: linear-gradient(135deg, #d1fae5 0%, #a7f3d0 100%);
+      border-left: 4px solid #059669;
+      padding: 1.5rem;
+      margin: 1.5rem 0;
+      border-radius: 0.5rem;
+    }
+  </style>
+  <!-- Datos estructurados JSON-LD -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Qué es el V2G (Vehicle-to-Grid) y cómo puede cambiar la red eléctrica en España",
+    "datePublished": "2025-11-23T10:00:00+02:00",
+    "dateModified": "2025-11-23T10:00:00+02:00",
+    "author": {
+      "@type": "Person",
+      "name": "Movilidad Eléctrica 24"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Movilidad Eléctrica 24",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://www.electromovilidad24.com/imagenes/logo.webp"
+      }
+    },
+    "description": "Guía completa sobre la tecnología V2G (Vehicle-to-Grid): cómo funciona, beneficios, coches compatibles y su impacto en la red eléctrica española.",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://www.electromovilidad24.com/articulos/v2g-vehicle-to-grid-espana.html"
+    },
+    "keywords": ["V2G", "Vehicle-to-Grid", "coche eléctrico bidireccional", "V2H", "red eléctrica España", "carga bidireccional"]
+  }
+  </script>
+  <!-- FAQ Schema JSON-LD -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "¿Qué es V2G y cómo funciona?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "V2G (Vehicle-to-Grid) es una tecnología que permite que los coches eléctricos no solo carguen su batería desde la red eléctrica, sino que también puedan devolver energía a la red cuando sea necesario. Funciona mediante cargadores bidireccionales (wallbox V2G) que pueden tanto cargar como descargar la batería del vehículo. El sistema gestiona automáticamente cuándo cargar (cuando la electricidad es barata o hay exceso de renovables) y cuándo vender energía a la red (en picos de demanda cuando el precio es alto). El usuario mantiene siempre un mínimo de carga configurado para su movilidad diaria. La tecnología requiere coches compatibles con carga bidireccional (estándar CHAdeMO o CCS bidireccional) y un wallbox V2G certificado."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "¿Qué coches eléctricos son compatibles con V2G en 2025?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Los principales coches compatibles con V2G en 2025 en España son: Nissan Leaf (todas las versiones desde 2018, con CHAdeMO), Nissan e-NV200, Mitsubishi Outlander PHEV, Hyundai Ioniq 5 y Ioniq 6 (con CCS bidireccional), Kia EV6 y EV9, Volkswagen ID.4 y ID.5 (versiones específicas), Ford F-150 Lightning, y MG 4 Electric (versiones recientes). Los modelos de Tesla actualmente no son compatibles con V2G comercial, aunque tienen capacidad técnica. Es importante verificar que tu modelo específico tenga habilitada la función bidireccional, ya que no todas las versiones de cada modelo la incluyen de serie. La mayoría de fabricantes están incorporando esta tecnología progresivamente en sus nuevos lanzamientos desde 2024-2025."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "¿Cuánto dinero se puede ganar con V2G?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Los ingresos con V2G dependen del programa específico, la capacidad de la batería y las horas disponibles para la red. En proyectos piloto europeos actuales, los usuarios generan entre 300-800€ anuales por vehículo. Con una batería de 60 kWh disponible para V2G (dejando 20 kWh reservados para movilidad), vendiendo 10 kWh diarios en diferencial pico-valle de 0,15€/kWh, generarías unos 550€/año. Los servicios de regulación de frecuencia pueden pagar más (hasta 1.000-1.500€/año) pero requieren mayor disponibilidad del vehículo. En España, los programas comerciales V2G están empezando en 2025, con estimaciones de 400-600€ anuales para usuarios residenciales. Además del ingreso directo, ahorras en tu factura eléctrica doméstica al usar el coche como batería virtual para arbitraje (comprar barato, consumir caro)."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "¿El V2G daña la batería del coche eléctrico?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "No, el V2G bien gestionado no daña significativamente la batería. Los estudios demuestran que el impacto en la degradación de batería es mínimo (inferior al 2-3% adicional en 8 años) cuando se gestiona correctamente, limitando ciclos profundos y manteniendo niveles de carga entre 20-80%. Los sistemas V2G modernos incluyen protocolos específicos de gestión térmica y de ciclos que priorizan la salud de la batería. De hecho, algunos estudios sugieren que mantener la batería activa con ciclos superficiales regulares puede ser mejor que dejarla estática durante días. Los fabricantes que ofrecen V2G mantienen las mismas garantías de batería, lo que confirma que la tecnología es segura. La clave está en usar sistemas certificados que respeten los parámetros del fabricante y no superar 1 ciclo equivalente completo al día de uso V2G."
+        }
+      }
+    ]
+  }
+  </script>
+</head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-5PD6Y58MK5"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-5PD6Y58MK5');
+</script>
+<body class="bg-gray-50 text-gray-900">
+  <header class="bg-white shadow-lg sticky top-0 z-50">
+    <div class="container mx-auto px-4 py-4">
+      <div class="flex items-center justify-between">
+        <a href="../index.html" class="flex items-center space-x-3">
+          <div class="bg-white rounded-lg p-1">
+            <img src="../imagenes/logo.webp" alt="Electromovilidad 24" class="h-16 w-auto">
+          </div>
+          <div>
+            <h1 class="text-2xl md:text-3xl font-bold text-gris-oscuro">Electromovilidad 24</h1>
+            <p class="text-sm text-gray-600">Descubre el futuro de la movilidad</p>
+          </div>
+        </a>
+        <button id="mobile-menu-btn" class="md:hidden bg-verde-principal text-white p-2 rounded-lg">
+          <i class="fas fa-bars"></i>
+        </button>
+      </div>
+      <nav class="mt-4">
+        <ul id="nav-menu" class="hidden md:flex space-x-8 text-gris-oscuro font-medium">
+          <li><a href="../index.html" class="hover:text-verde-principal transition-colors duration-200 border-b-2 border-verde-principal pb-1">Inicio</a></li>
+          <li><a href="../comparativas.html" class="hover:text-verde-principal transition-colors duration-200">Comparativas</a></li>
+          <li><a href="../reviews.html" class="hover:text-verde-principal transition-colors duration-200">Reviews</a></li>
+          <li><a href="../guias.html" class="hover:text-verde-principal transition-colors duration-200">Guías</a></li>
+          <li><a href="../calculadoras.html" class="hover:text-verde-principal transition-colors duration-200">Calculadoras</a></li>
+          <li><a href="../sobre.html" class="hover:text-verde-principal transition-colors duration-200">Sobre mí</a></li>
+          <li><a href="../contacto.html" class="hover:text-verde-principal transition-colors duration-200">Contacto</a></li>
+        </ul>
+
+        <!-- Menú móvil -->
+        <ul id="mobile-nav" class="md:hidden hidden flex-col space-y-3 mt-4 bg-gray-50 p-4 rounded-lg">
+            <li><a href="../index.html" class="block text-gris-oscuro hover:text-verde-principal font-medium">Inicio</a></li>
+            <li><a href="../index.html#news-section" class="block text-gris-oscuro hover:text-verde-principal font-medium">Noticias</a></li>
+            <li><a href="../comparativas.html" class="block text-gris-oscuro hover:text-verde-principal font-medium">Comparativas</a></li>
+            <li><a href="../reviews.html" class="block text-gris-oscuro hover:text-verde-principal font-medium">Reviews</a></li>
+            <li><a href="../guias.html" class="block text-gris-oscuro hover:text-verde-principal font-medium">Guías</a></li>
+            <li><a href="../calculadoras.html" class="block text-gris-oscuro hover:text-verde-principal font-medium">Calculadoras</a></li>
+            <li><a href="../sobre.html" class="block text-gris-oscuro hover:text-verde-principal font-medium">Sobre mí</a></li>
+            <li><a href="../contacto.html" class="block text-gris-oscuro hover:text-verde-principal font-medium">Contacto</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="max-w-4xl mx-auto px-4 py-8">
+    <article>
+      <header class="mb-6">
+        <p class="text-sm text-gray-500 flex items-center space-x-2">
+          <i class="fas fa-calendar-alt"></i>
+          <time datetime="2025-11-23">23 de noviembre de 2025</time>
+          <span class="mx-2">•</span>
+          <span class="bg-green-500 text-white px-2 py-0.5 rounded text-xs">Guía</span>
+          <span class="mx-2">•</span>
+          <span>Lectura: 11 min</span>
+        </p>
+        <h1 class="text-3xl md:text-4xl font-extrabold leading-tight mt-2">Qué es el V2G y cómo puede cambiar la red eléctrica en España</h1>
+        <p class="mt-3 text-lg text-gray-700">Imagina que tu coche eléctrico no solo consume energía, sino que también <strong>genera ingresos pasivos vendiéndola a la red</strong> cuando no lo usas. Esto es el V2G (Vehicle-to-Grid), una tecnología que está empezando a implantarse en España y que puede <strong>revolucionar nuestro sistema eléctrico</strong> mientras convierte tu vehículo en una fuente de ingresos. Te explico todo lo que necesitas saber sobre esta tecnología del futuro que ya está aquí.</p>
+      </header>
+
+      <!-- Breadcrumbs visibles -->
+      <nav aria-label="breadcrumbs" class="text-sm text-gray-600 mb-4">
+        <ol class="flex flex-wrap items-center gap-2">
+          <li><a href="../index.html" class="text-emerald-700 hover:underline">Inicio</a></li>
+          <li>/</li>
+          <li><a href="../guias.html" class="text-emerald-700 hover:underline">Guías</a></li>
+          <li>/</li>
+          <li aria-current="page" class="text-gray-800">V2G Vehicle-to-Grid España</li>
+        </ol>
+      </nav>
+
+      <!-- Índice del contenido -->
+      <nav class="bg-emerald-50 border border-emerald-100 rounded-lg p-4 mb-6 text-sm">
+        <p class="font-semibold text-emerald-800 mb-2">Contenido</p>
+        <ol class="list-decimal ml-5 space-y-1 text-emerald-900">
+          <li><a class="hover:underline" href="#que-es">¿Qué es el V2G (Vehicle-to-Grid)?</a></li>
+          <li><a class="hover:underline" href="#como-funciona">Cómo funciona técnicamente el V2G</a></li>
+          <li><a class="hover:underline" href="#beneficios">Beneficios del V2G para usuarios y sistema eléctrico</a></li>
+          <li><a class="hover:underline" href="#v2h-v2l">V2G, V2H y V2L: diferencias importantes</a></li>
+          <li><a class="hover:underline" href="#coches">Coches eléctricos compatibles con V2G en España</a></li>
+          <li><a class="hover:underline" href="#requisitos">Qué necesitas para usar V2G en casa</a></li>
+          <li><a class="hover:underline" href="#espana">Situación del V2G en España en 2025</a></li>
+          <li><a class="hover:underline" href="#regulacion">Regulación y marco legal actual</a></li>
+          <li><a class="hover:underline" href="#rentabilidad">¿Es rentable el V2G? Cálculos reales</a></li>
+          <li><a class="hover:underline" href="#faq">Preguntas frecuentes</a></li>
+        </ol>
+      </nav>
+
+      <!-- Hero Image -->
+      <div class="mb-8 rounded-lg overflow-hidden shadow-xl">
+        <img 
+          src="https://images.unsplash.com/photo-1704475336842-0ab3798abf0e?w=1200&auto=format&fit=crop&q=80&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8d2FsbGJveHxlbnwwfHwwfHx8Mg%3D%3D" 
+          alt="Wallbox bidireccional V2G para carga y descarga de coche eléctrico" 
+          class="w-full h-auto"
+          loading="lazy"
+        >
+        <p class="text-sm text-gray-500 p-2 bg-gray-50 text-center">La tecnología V2G permite que tu coche eléctrico funcione como batería de la red eléctrica</p>
+      </div>
+
+      <div class="article-content">
+        <p>Durante años hemos hablado de los coches eléctricos como consumidores de electricidad, pero ¿y si te dijera que <strong>tu coche puede convertirse en una central eléctrica móvil</strong> que te genera ingresos? Esto no es ciencia ficción: es la tecnología V2G (Vehicle-to-Grid), que permite que la batería de tu coche eléctrico devuelva energía a la red cuando no la estás usando.</p>
+
+        <p>Llevo años siguiendo la evolución de esta tecnología, y en 2025 estamos viendo cómo finalmente empieza a ser una realidad comercial en España. Los primeros proyectos piloto ya están funcionando, la regulación está avanzando, y cada vez más fabricantes lanzan coches compatibles. Si estás interesado en otros aspectos de la carga de vehículos eléctricos, te recomiendo nuestra guía sobre <a href="ahorrar-electricidad-cargando-coche-electrico.html" class="text-emerald-700 hover:underline">cómo ahorrar electricidad al cargar tu coche eléctrico</a>. En esta guía te explico todo sobre el V2G: qué es, cómo funciona, cuánto puedes ganar con ello, y cómo prepararte para aprovecharlo.</p>
+
+        <h2 id="que-es">¿Qué es el V2G (Vehicle-to-Grid)?</h2>
+
+        <p><strong>V2G son las siglas de "Vehicle-to-Grid"</strong> (Vehículo a Red), una tecnología que permite la transferencia bidireccional de energía entre un coche eléctrico y la red eléctrica. En términos simples: tu coche no solo puede <em>tomar</em> electricidad de la red para cargar su batería, sino también <em>devolver</em> electricidad a la red cuando sea necesario.</p>
+
+        <p><strong>¿Por qué es revolucionario?</strong> Porque convierte millones de coches eléctricos en una gigantesca red de baterías distribuidas que pueden estabilizar el sistema eléctrico, almacenar excedentes de energías renovables, y ayudar a gestionar picos de demanda. Si te interesa conocer más sobre la duración de estas baterías, no te pierdas nuestro análisis sobre <a href="baterias-coches-electricos-duran-mas-esperado-estudio.html" class="text-emerald-700 hover:underline">cómo las baterías de coches eléctricos duran más de lo esperado</a>. Y todo ello mientras los propietarios generan ingresos pasivos con un activo que de otro modo estaría parado el 95% del tiempo.</p>
+
+        <p>Piensa en ello: un coche eléctrico medio tiene una batería de 60-80 kWh. El consumo medio de un hogar español es de unos 10 kWh al día. Eso significa que <strong>tu coche tiene suficiente capacidad para alimentar tu casa durante 6-8 días completos</strong>. Cuando lo multiplicas por millones de vehículos, tienes una capacidad de almacenamiento energético colosal que puede transformar el sistema eléctrico.</p>
+
+        <div class="highlight-box">
+          <p class="font-semibold mb-2">💡 El concepto clave del V2G:</p>
+          <p>Tu coche está aparcado y enchufado unas 22-23 horas al día de media. Durante ese tiempo, un sistema inteligente puede gestionar su batería para:</p>
+          <ul class="space-y-2 mt-2">
+            <li>• <strong>Cargar</strong> cuando la electricidad es barata (madrugada, exceso de renovables)</li>
+            <li>• <strong>Devolver energía a la red</strong> cuando la electricidad es cara (picos de demanda)</li>
+            <li>• <strong>Mantener siempre</strong> un nivel mínimo de carga que tú configures para tu movilidad</li>
+            <li>• <strong>Generar ingresos</strong> con esa diferencia de precios, que tú te quedas</li>
+          </ul>
+          <p class="mt-2">Todo de forma automática, sin que tengas que hacer nada.</p>
+        </div>
+
+        <h2 id="como-funciona">Cómo funciona técnicamente el V2G</h2>
+
+        <p>Para que el V2G sea posible, necesitas tres elementos funcionando coordinadamente:</p>
+
+        <p><strong>1. Un coche eléctrico compatible con carga bidireccional:</strong> No todos los coches eléctricos pueden hacer V2G. Necesitas un vehículo cuyo sistema de carga permita el flujo de energía en ambas direcciones. Si estás buscando opciones asequibles, te recomendamos echar un vistazo a nuestra selección de <a href="coches-electricos-baratos-espana-2025.html" class="text-emerald-700 hover:underline">los coches eléctricos más baratos en España para 2025</a>. Esto depende tanto del hardware (inversor bidireccional) como del software del vehículo. Los principales estándares son CHAdeMO (pionero en V2G) y CCS bidireccional (más moderno y cada vez más común).</p>
+
+        <p><strong>2. Un wallbox o cargador bidireccional (V2G):</strong> Los cargadores convencionales solo pueden enviar energía al coche. Necesitas un wallbox V2G certificado que pueda tanto cargar como descargar la batería del vehículo, con toda la electrónica de potencia y protecciones necesarias. Si estás considerando instalar un cargador en casa, te puede interesar nuestra comparativa sobre <a href="carga-casa-vs-carga-publica-comparativa.html" class="text-emerald-700 hover:underline">carga en casa vs. carga pública</a> para entender mejor las diferencias. Estos wallbox cuestan actualmente entre 2.500-5.000€, aunque el precio está bajando rápidamente.</p>
+
+        <p><strong>3. Un sistema de gestión y agregación:</strong> Este es el cerebro del sistema. Un software (normalmente en la nube) que se comunica con tu coche, tu wallbox, y la red eléctrica para optimizar cuándo cargar y descargar según los precios, tus necesidades de movilidad, y las necesidades de la red. Empresas especializadas (agregadores) se encargan de esto y te pagan por tu participación.</p>
+
+        <p><strong>El flujo de funcionamiento es así:</strong></p>
+
+        <ol class="list-decimal ml-6 my-4 space-y-2">
+          <li>Llegas a casa y enchufas tu coche al wallbox V2G como siempre</li>
+          <li>En la app, configuras tus parámetros (ej: "necesito mínimo 40 kWh para mañana a las 8:00")</li>
+          <li>El sistema inteligente monitoriza los precios de la electricidad en tiempo real</li>
+          <li>De madrugada (precio bajo), carga tu coche más allá del mínimo que necesitas</li>
+          <li>Por la tarde (precio alto), vende ese excedente de vuelta a la red</li>
+          <li>Por la mañana, tienes tu 40 kWh garantizados + has ganado dinero con el diferencial</li>
+          <li>Te vas a trabajar y el ciclo se repite al volver</li>
+        </ol>
+
+        <p>Todo esto ocurre automáticamente. Tú solo enchufas el coche y configuras tus necesidades. El sistema hace el resto.</p>
+
+        <h2 id="beneficios">Beneficios del V2G para usuarios y sistema eléctrico</h2>
+
+        <p>El V2G es una de esas raras tecnologías en las que <strong>todos ganan</strong>: tú como usuario, el operador de la red, y el medio ambiente.</p>
+
+        <p><strong>Beneficios para ti como propietario del coche eléctrico:</strong></p>
+
+        <ul class="list-disc ml-6 my-4 space-y-2">
+          <li><strong>Ingresos pasivos:</strong> Ganas dinero con un activo (tu coche) que está parado la mayor parte del tiempo. Estimaciones actuales hablan de 300-800€ anuales por vehículo según uso.</li>
+          <li><strong>Reducción de la factura eléctrica doméstica:</strong> Puedes usar tu coche como batería virtual para tu casa (V2H), comprando electricidad barata y consumiéndola en horas caras.</li>
+          <li><strong>Backup energético:</strong> En caso de apagón, tu coche puede alimentar tu casa durante días (función V2H/V2L).</li>
+          <li><strong>Aprovechamiento de renovables:</strong> Si tienes paneles solares, puedes almacenar el excedente en el coche en vez de verterlo a precio bajo.</li>
+          <li><strong>Contribución a la sostenibilidad:</strong> Ayudas a estabilizar la red y facilitar la integración de más renovables.</li>
+        </ul>
+
+        <p><strong>Beneficios para el sistema eléctrico y la sociedad:</strong></p>
+
+        <ul class="list-disc ml-6 my-4 space-y-2">
+          <li><strong>Regulación de frecuencia:</strong> Los VE pueden responder en milisegundos a desbalances de la red, mucho más rápido que centrales convencionales.</li>
+          <li><strong>Gestión de picos de demanda:</strong> En vez de encender centrales de gas en picos, se usa energía de baterías de VE.</li>
+          <li><strong>Integración de renovables:</strong> Las baterías de VE pueden almacenar excedentes eólicos/solares que de otro modo se perderían.</li>
+          <li><strong>Ahorro en infraestructura:</strong> Menos necesidad de construir nuevas centrales y redes de distribución.</li>
+          <li><strong>Descarbonización:</strong> Facilita eliminar las últimas centrales de combustibles fósiles al resolver el problema de almacenamiento.</li>
+        </ul>
+
+        <div class="stat-box">
+          <p class="font-semibold mb-2">📊 El potencial del V2G en números:</p>
+          <ul class="space-y-2">
+            <li>Si España tiene <strong>5 millones de coches eléctricos en 2030</strong> (objetivo oficial) con baterías medias de 60 kWh, tenemos <strong>300.000 MWh de capacidad de almacenamiento</strong> móvil.</li>
+            <li>Eso equivale a <strong>1.200 centrales hidroeléctricas de bombeo</strong> de tamaño medio.</li>
+            <li>Con solo un <strong>10% de esos vehículos participando en V2G</strong>, tendríamos 30.000 MWh disponibles para estabilización de red.</li>
+            <li>La demanda eléctrica total de España en un momento pico es unos 40.000 MW. Los VE podrían <strong>gestionar fluctuaciones del 20-30% de la demanda nacional</strong>.</li>
+          </ul>
+        </div>
+
+        <h2 id="v2h-v2l">V2G, V2H y V2L: diferencias importantes</h2>
+
+        <p>Cuando hablamos de tecnología bidireccional en coches eléctricos, hay varias siglas que es importante diferenciar:</p>
+
+        <p><strong>V2G (Vehicle-to-Grid):</strong> El coche devuelve energía <em>a la red eléctrica general</em>. Requiere wallbox V2G certificado, acuerdo con comercializadora/agregador, y cumplimiento normativo. Es el que genera ingresos vendiendo a la red.</p>
+
+        <p><strong>V2H (Vehicle-to-Home):</strong> El coche alimenta <em>tu vivienda</em> en modo aislado de la red. Útil para autoconsumo optimizado (usar electricidad barata del coche en horas caras) o como backup en apagones. No vende a la red, solo a tu casa. Más fácil de implementar legalmente.</p>
+
+        <p><strong>V2L (Vehicle-to-Load):</strong> El coche puede alimentar <em>cualquier aparato o carga externa</em> mediante un enchufe convencional en el propio vehículo. Ideal para camping, herramientas eléctricas en obras, emergencias, etc. Muchos coches ya lo traen (Hyundai Ioniq 5/6, Kia EV6, etc.). Si estás planeando un viaje largo, no te pierdas nuestros <a href="consejos-maximizar-autonomia-coche-electrico-2025.html" class="text-emerald-700 hover:underline">consejos para maximizar la autonomía de tu coche eléctrico</a>. No genera ingresos pero es muy útil.</p>
+
+        <p><strong>V2V (Vehicle-to-Vehicle):</strong> Un coche puede cargar a otro coche. Útil en emergencias cuando un VE se queda sin batería y otro le puede "rescatar" con algunos kWh. Aún poco común.</p>
+
+        <p>Actualmente, <strong>V2L es lo más extendido</strong> (muchos modelos ya lo traen), <strong>V2H está empezando a comercializarse</strong> (con wallbox específicos), y <strong>V2G está en fase piloto/inicial</strong> en España. Pero la tecnología base es la misma: carga bidireccional.</p>
+
+        <h2 id="coches">Coches eléctricos compatibles con V2G en España (2025)</h2>
+
+        <p>No todos los coches eléctricos pueden hacer V2G. Aquí está el listado de los modelos actualmente compatibles o que lo serán pronto en el mercado español:</p>
+
+        <p><strong>Coches con V2G operativo (CHAdeMO):</strong></p>
+
+        <ul class="list-disc ml-6 my-4 space-y-2">
+          <li><strong>Nissan Leaf</strong> (todas las versiones desde 2018) - Pionero en V2G</li>
+          <li><strong>Nissan e-NV200</strong> - Furgoneta eléctrica</li>
+          <li><strong>Mitsubishi Outlander PHEV</strong> - Híbrido enchufable</li>
+        </ul>
+
+        <p><strong>Coches con V2G mediante CCS bidireccional (disponibles o próximos):</strong></p>
+
+        <ul class="list-disc ml-6 my-4 space-y-2">
+          <li><strong>Hyundai Ioniq 5 y Ioniq 6</strong> - V2L ya disponible, V2G en actualización</li>
+          <li><strong>Kia EV6, EV9, y EV3</strong> - Mismo grupo que Hyundai</li>
+          <li><strong>Volkswagen ID.4, ID.5, ID.7</strong> - V2G desde versiones 2024-2025</li>
+          <li><strong>Volkswagen ID.3</strong> (versiones recientes)</li>
+          <li><strong>Cupra Born</strong> (actualización software)</li>
+          <li><strong>Skoda Enyaq</strong> (versiones recientes)</li>
+          <li><strong>Audi Q4 e-tron</strong></li>
+          <li><strong>Ford F-150 Lightning</strong> - Pickup con gran capacidad V2H/V2G</li>
+          <li><strong>MG 4 Electric</strong> (versiones 2024-2025)</li>
+        </ul>
+
+        <p><strong>Fabricantes que han anunciado V2G próximamente:</strong></p>
+
+        <ul class="list-disc ml-6 my-4 space-y-2">
+          <li><strong>Renault</strong> - Modelos Megane E-Tech y Scenic E-Tech con actualización</li>
+          <li><strong>Peugeot/Citroën/Opel</strong> - Plataformas e-CMP2 y STLA</li>
+          <li><strong>BMW</strong> - Próxima generación de modelos iX</li>
+          <li><strong>Mercedes-Benz</strong> - Gama EQ con V2G progresivo</li>
+        </ul>
+
+        <div class="warning-box">
+          <p class="font-semibold mb-2">⚠️ Importante verificar antes de comprar:</p>
+          <p>Aunque un modelo tenga capacidad técnica de V2G, es fundamental verificar:</p>
+          <ul class="space-y-2 mt-2">
+            <li>✓ Que tu versión específica y año tenga la función habilitada</li>
+            <li>✓ Que esté certificada para V2G en España (puede funcionar en otros países pero no aquí aún)</li>
+            <li>✓ Qué estándar usa (CHAdeMO o CCS bidireccional) para elegir el wallbox compatible</li>
+            <li>✓ Si el fabricante mantiene la garantía de batería con uso V2G</li>
+          </ul>
+          <p class="mt-2">Consulta con el concesionario oficial antes de comprar si el V2G es importante para ti.</p>
+        </div>
+
+        <p><strong>¿Y Tesla?</strong> Actualmente los Tesla NO son compatibles con V2G comercial, aunque técnicamente podrían serlo. Tesla prefiere su propio ecosistema con Powerwalls. Sin embargo, hay rumores de que podrían abrir la funcionalidad V2G en futuros modelos o actualizaciones, especialmente ante la presión competitiva.</p>
+
+        <h2 id="requisitos">Qué necesitas para usar V2G en casa</h2>
+
+        <p>Si quieres implementar V2G en tu vivienda, estos son los requisitos actuales en España:</p>
+
+        <p><strong>1. Coche eléctrico compatible:</strong> De la lista anterior. Verifica que tu modelo concreto tenga V2G habilitado y certificado en España.</p>
+
+        <p><strong>2. Wallbox bidireccional V2G:</strong> No sirve un cargador convencional. Necesitas un wallbox específico V2G. Opciones principales en 2025:</p>
+
+        <ul class="list-disc ml-6 my-4 space-y-2">
+          <li><strong>Wallbox Quasar 2</strong> (CHAdeMO) - ~3.500€</li>
+          <li><strong>Wallbox Quasar 2 CCS</strong> (CCS bidireccional) - ~4.200€</li>
+          <li><strong>Fermev V2G Charger</strong> - ~3.000€</li>
+          <li><strong>EVBox Elvi V2G</strong> - ~3.800€</li>
+          <li><strong>Indra V2G</strong> - ~4.500€</li>
+        </ul>
+
+        <p><strong>3. Instalación eléctrica adecuada:</strong> Necesitas conexión trifásica en la mayoría de casos, protecciones específicas, y cumplir normativa de instalaciones con generación (porque técnicamente tu coche es un generador cuando descarga).</p>
+
+        <p><strong>4. Contrato con agregador o comercializadora:</strong> Necesitas una empresa que gestione la participación de tu coche en el mercado eléctrico. En España están empezando a operar: Iberdrola, Endesa, Wallbox, Zunder, y agregadores especializados.</p>
+
+        <p><strong>5. Contador bidireccional:</strong> Si vas a verter energía a la red, necesitas un contador que mida flujo en ambas direcciones (como en autoconsumo solar). Tu distribuidora debe instalarlo.</p>
+
+        <p><strong>6. Conectividad:</strong> WiFi o conexión 4G para que el sistema pueda comunicarse con la nube y optimizar cargas/descargas en tiempo real.</p>
+
+        <p><strong>Inversión total estimada:</strong> Entre 3.000-6.000€ en wallbox + instalación. Sin embargo, hay programas de subvención que pueden cubrir el 30-50% del coste, reduciendo la inversión neta a 2.000-3.500€ aproximadamente.</p>
+
+        <h2 id="espana">Situación del V2G en España en 2025</h2>
+
+        <p>España está en un momento interesante respecto al V2G: <strong>saliendo de la fase de proyectos piloto y entrando en comercialización inicial</strong>. Te cuento dónde estamos:</p>
+
+        <p><strong>Proyectos piloto en marcha:</strong></p>
+
+        <ul class="list-disc ml-6 my-4 space-y-2">
+          <li><strong>AELEC y Nissan</strong> - Proyecto piloto con flotas de Nissan Leaf en Madrid</li>
+          <li><strong>IREC y SEAT/Cupra</strong> - V2G con Cupra Born en Barcelona</li>
+          <li><strong>Iberdrola</strong> - Red de puntos V2G en País Vasco</li>
+          <li><strong>Endesa</strong> - Pruebas con Volkswagen ID en Cataluña</li>
+          <li><strong>Wenea/Zunder</strong> - Wallbox V2G en comunidades de propietarios</li>
+        </ul>
+
+        <p><strong>Marco regulatorio:</strong> El Real Decreto 244/2019 ya contempla el almacenamiento, pero faltaba desarrollo específico para V2G. En 2024-2025 se están aprobando las <strong>normativas específicas que permiten que particulares participen en servicios de regulación y mercados de ajuste</strong> con sus VE, simplificando trámites y retribuciones.</p>
+
+        <p><strong>Primera oferta comercial:</strong> En 2025 estamos viendo las primeras ofertas comerciales V2G para particulares (no solo flotas). Iberdrola y Endesa han lanzado programas piloto abiertos a clientes residenciales con coches compatibles. Wallbox (la empresa) también ofrece servicio V2G junto a su hardware.</p>
+
+        <p><strong>Barreras actuales:</strong></p>
+
+        <ul class="list-disc ml-6 my-4 space-y-2">
+          <li>Coste aún elevado del wallbox V2G (aunque bajando rápido)</li>
+          <li>Pocos modelos de coches compatibles en el mercado español</li>
+          <li>Trámites administrativos aún complejos para instalación</li>
+          <li>Falta de estandarización entre fabricantes</li>
+          <li>Desconocimiento general de la tecnología</li>
+        </ul>
+
+        <p><strong>Previsión 2025-2027:</strong> Según la Asociación Empresarial para el Desarrollo e Impulso del Vehículo Eléctrico (AEDIVE), se espera que para 2027 haya más de 50.000 vehículos conectados a V2G en España, con retribuciones consolidadas para usuarios entre 400-700€ anuales de media.</p>
+
+        <h2 id="regulacion">Regulación y marco legal actual</h2>
+
+        <p>El V2G requiere un marco legal específico porque el coche eléctrico actúa como <strong>generador y consumidor simultáneamente</strong>, algo que la normativa tradicional no contemplaba bien.</p>
+
+        <p><strong>Normativa aplicable en 2025:</strong></p>
+
+        <p><strong>Real Decreto 244/2019:</strong> Regula las condiciones de autoconsumo con almacenamiento. Sienta las bases para que los VE puedan considerarse almacenamiento distribuido.</p>
+
+        <p><strong>Circular 3/2020 de la CNMC:</strong> Establece cómo se retribuyen los servicios de respuesta rápida y gestión de demanda, donde el V2G puede participar.</p>
+
+        <p><strong>Proyecto de Circular de Acceso (2024-2025):</strong> Simplifica los trámites para que instalaciones V2G residenciales (hasta 15 kW) puedan conectarse sin necesidad de solicitar permisos de generación complejos.</p>
+
+        <p><strong>Tipos de retribución posibles:</strong></p>
+
+        <ul class="list-disc ml-6 my-4 space-y-2">
+          <li><strong>Arbitraje de energía:</strong> Comprar barato, vender caro según precio horario (PVPC o mercado spot). Disponible ya.</li>
+          <li><strong>Servicios de ajuste:</strong> La Red Eléctrica paga por tener disponibilidad de potencia para regular frecuencia. Requiere agregadores. Disponible para flotas, pronto para particulares.</li>
+          <li><strong>Potencia contratada optimizada:</strong> Usar el coche para reducir picos de consumo doméstico y contratar menos potencia. Ahorro indirecto.</li>
+          <li><strong>Servicios a comunidades energéticas:</strong> Vender excedente a vecinos en comunidad energética local. Marco en desarrollo.</li>
+        </ul>
+
+        <p><strong>Fiscalidad:</strong> Los ingresos por V2G se consideran actualmente rendimientos de actividad económica, aunque hay propuestas para tratarlos como mejora patrimonial con fiscalidad reducida. Consulta con asesor fiscal tu caso concreto.</p>
+
+        <h2 id="rentabilidad">¿Es rentable el V2G? Cálculos reales</h2>
+
+        <p>Llegamos a la pregunta del millón: <strong>¿compensa económicamente el V2G?</strong> Vamos con números reales:</p>
+
+        <div class="success-box">
+          <p class="font-semibold mb-3">💰 Ejemplo de rentabilidad V2G para un usuario típico:</p>
+          
+          <p><strong>Escenario:</strong> Usuario con Nissan Leaf (60 kWh), wallbox V2G Quasar, contrato con agregador, en vivienda unifamiliar en Madrid.</p>
+
+          <p class="mt-3"><strong>Inversión inicial:</strong></p>
+          <ul class="space-y-1 ml-4">
+            <li>• Wallbox V2G: 3.500€</li>
+            <li>• Instalación eléctrica: 800€</li>
+            <li>• Contador bidireccional: 150€</li>
+            <li>• Total: 4.450€</li>
+            <li>• Con subvención 40%: <strong>2.670€ neto</strong></li>
+          </ul>
+
+          <p class="mt-3"><strong>Ingresos anuales estimados:</strong></p>
+          <ul class="space-y-1 ml-4">
+            <li>• Arbitraje energía (diferencial punta-valle): 280€/año</li>
+            <li>• Servicios de ajuste/regulación: 320€/año</li>
+            <li>• Ahorro en factura doméstica (V2H): 150€/año</li>
+            <li>• <strong>Total ingresos: 750€/año</strong></li>
+          </ul>
+
+          <p class="mt-3"><strong>Periodo de amortización:</strong> 2.670€ / 750€ = <strong>3,6 años</strong></p>
+
+          <p class="mt-3"><strong>Beneficio a 10 años:</strong> (750€ × 10 años) - 2.670€ = <strong>4.830€ de beneficio neto</strong></p>
+
+          <p class="mt-2 text-sm">*Datos basados en proyectos piloto actuales y proyecciones del sector. Resultados pueden variar según zona geográfica, perfil de uso, y evolución del mercado eléctrico.</p>
+        </div>
+
+        <p><strong>Factores que mejoran la rentabilidad:</strong></p>
+
+        <ul class="list-disc ml-6 my-4 space-y-2">
+          <li>Batería grande (más capacidad para arbitrar)</li>
+          <li>Alta disponibilidad del coche (teletrabajo, jubilados...)</li>
+          <li>Zona con alta volatilidad de precios eléctricos</li>
+          <li>Combinación con paneles solares (arbitraje solar)</li>
+          <li>Participación en comunidad energética local</li>
+        </ul>
+
+        <p><strong>Factores que reducen la rentabilidad:</strong></p>
+
+        <ul class="list-disc ml-6 my-4 space-y-2">
+          <li>Uso muy frecuente del coche (poca disponibilidad para V2G)</li>
+          <li>Batería pequeña (menos capacidad)</li>
+          <li>Tarifas eléctricas planas sin discriminación horaria</li>
+          <li>Instalación compleja con costes elevados</li>
+        </ul>
+
+        <p><strong>Impacto en la batería:</strong> Los estudios actuales muestran que el V2G bien gestionado (ciclos superficiales, gestión térmica) tiene un impacto en degradación de batería inferior al 2-3% adicional en 8 años. Es decir, casi despreciable. Los fabricantes que ofrecen V2G mantienen las mismas garantías de batería, lo cual es la mejor prueba de que es seguro.</p>
+
+        <p><strong>¿Compensa entonces?</strong> Con las cifras actuales, <strong>sí compensa si cumples el perfil adecuado</strong>: tienes coche compatible, alta disponibilidad del vehículo, y puedes acceder a subvenciones. Con el tiempo, a medida que los wallbox bajen de precio y las retribuciones se estabilicen, será rentable para prácticamente cualquier usuario de VE.</p>
+
+        <h2 id="faq">Preguntas frecuentes sobre V2G</h2>
+
+        <div class="faq-section bg-gray-50 rounded-lg p-6 my-8">
+          <h3 class="text-2xl font-bold text-gris-oscuro mb-6 flex items-center">
+            <i class="fas fa-question-circle text-verde-principal mr-3"></i>
+            FAQ – V2G Vehicle-to-Grid
+          </h3>
+
+          <div class="space-y-6">
+            <div class="faq-item border-b border-gray-200 pb-4">
+              <h4 class="text-lg font-semibold text-gris-oscuro mb-2">
+                🔹 ¿Qué es V2G y cómo funciona?
+              </h4>
+              <p class="text-gray-700">
+                V2G (Vehicle-to-Grid) es una tecnología que permite que los coches eléctricos no solo carguen su batería desde la red eléctrica, sino que también puedan devolver energía a la red cuando sea necesario. Funciona mediante cargadores bidireccionales (wallbox V2G) que pueden tanto cargar como descargar la batería del vehículo. El sistema gestiona automáticamente cuándo cargar (cuando la electricidad es barata o hay exceso de renovables) y cuándo vender energía a la red (en picos de demanda cuando el precio es alto). El usuario mantiene siempre un mínimo de carga configurado para su movilidad diaria. La tecnología requiere coches compatibles con carga bidireccional (estándar CHAdeMO o CCS bidireccional) y un wallbox V2G certificado. Un sistema de gestión en la nube optimiza todo automáticamente para maximizar el beneficio económico mientras garantiza que siempre tengas autonomía disponible.
+              </p>
+            </div>
+
+            <div class="faq-item border-b border-gray-200 pb-4">
+              <h4 class="text-lg font-semibold text-gris-oscuro mb-2">
+                🔹 ¿Qué coches eléctricos son compatibles con V2G en 2025?
+              </h4>
+              <p class="text-gray-700">
+                Los principales coches compatibles con V2G en 2025 en España son: Nissan Leaf (todas las versiones desde 2018, con CHAdeMO), Nissan e-NV200, Mitsubishi Outlander PHEV, Hyundai Ioniq 5 y Ioniq 6 (con CCS bidireccional), Kia EV6 y EV9, Volkswagen ID.4 y ID.5 (versiones específicas con actualización software), Ford F-150 Lightning, y MG 4 Electric (versiones recientes). Los modelos de Tesla actualmente no son compatibles con V2G comercial en España, aunque tienen capacidad técnica que podrían habilitar en el futuro. Es importante verificar que tu modelo específico y año tenga habilitada la función bidireccional, ya que no todas las versiones de cada modelo la incluyen de serie. La mayoría de fabricantes están incorporando esta tecnología progresivamente en sus nuevos lanzamientos desde 2024-2025, especialmente en las plataformas eléctricas nativas más recientes. Consulta con el concesionario oficial antes de comprar.
+              </p>
+            </div>
+
+            <div class="faq-item border-b border-gray-200 pb-4">
+              <h4 class="text-lg font-semibold text-gris-oscuro mb-2">
+                🔹 ¿Cuánto dinero se puede ganar con V2G?
+              </h4>
+              <p class="text-gray-700">
+                Los ingresos con V2G dependen del programa específico, la capacidad de la batería y las horas disponibles para la red. En proyectos piloto europeos actuales, los usuarios generan entre 300-800€ anuales por vehículo. Con una batería de 60 kWh disponible para V2G (dejando 20 kWh reservados para movilidad), vendiendo 10 kWh diarios en diferencial pico-valle de 0,15€/kWh, generarías unos 550€/año. Los servicios de regulación de frecuencia pueden pagar más (hasta 1.000-1.500€/año) pero requieren mayor disponibilidad del vehículo. En España, los programas comerciales V2G están empezando en 2025, con estimaciones de 400-600€ anuales para usuarios residenciales según los primeros pilotos. Además del ingreso directo por vender a la red, ahorras en tu factura eléctrica doméstica al usar el coche como batería virtual para arbitraje (comprar barato de madrugada, consumir en horas caras). La rentabilidad mejora significativamente si tienes paneles solares y puedes almacenar tu excedente en el coche.
+              </p>
+            </div>
+
+            <div class="faq-item">
+              <h4 class="text-lg font-semibold text-gris-oscuro mb-2">
+                🔹 ¿El V2G daña la batería del coche eléctrico?
+              </h4>
+              <p class="text-gray-700">
+                No, el V2G bien gestionado no daña significativamente la batería. Los estudios demuestran que el impacto en la degradación de batería es mínimo (inferior al 2-3% adicional en 8 años) cuando se gestiona correctamente, limitando ciclos profundos y manteniendo niveles de carga entre 20-80%. Los sistemas V2G modernos incluyen protocolos específicos de gestión térmica y de ciclos que priorizan la salud de la batería por encima de la maximización de ingresos. De hecho, algunos estudios sugieren que mantener la batería activa con ciclos superficiales regulares puede ser incluso mejor que dejarla estática durante días a carga alta. Los fabricantes que ofrecen V2G mantienen las mismas garantías de batería (típicamente 8 años o 160.000 km con 70% capacidad mínima), lo que confirma que la tecnología es segura y no afecta significativamente a la vida útil. La clave está en usar sistemas certificados que respeten los parámetros del fabricante y no superar aproximadamente 1 ciclo equivalente completo al día de uso V2G.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <h3>Conclusión: El futuro energético pasa por tu garaje</h3>
+
+        <p>El V2G no es ciencia ficción: es una realidad que está empezando a implantarse en España en 2025. Aunque todavía estamos en las primeras fases de comercialización, las piezas del puzzle están encajando: <strong>coches compatibles, wallbox bidireccionales, regulación avanzando, y primeros programas comerciales funcionando</strong>.</p>
+
+        <p>Para mí, lo más fascinante del V2G es que representa un <strong>cambio de paradigma</strong> en cómo entendemos la energía y la movilidad. Tu coche pasa de ser un gasto (gasolina) a ser un activo que genera ingresos pasivos mientras está aparcado. La red eléctrica se vuelve más inteligente, resiliente y renovable gracias a millones de baterías distribuidas. Y todo esto mientras contribuyes a la descarbonización y a la estabilidad del sistema.</p>
+
+        <p>Si estás pensando en <a href="coches-electricos-baratos-espana-2025.html" class="text-emerald-700 hover:underline">comprar un coche eléctrico</a>, te recomiendo que consideres la compatibilidad V2G como un factor importante. Aunque hoy no lo uses, en 2-3 años probablemente quieras aprovecharlo. Y si ya tienes un eléctrico compatible, mantente atento a las ofertas comerciales V2G que están empezando a llegar a España.</p>
+
+        <p>El futuro de la energía es distribuido, renovable, e inteligente. Y una parte importante de ese futuro está en las baterías de los millones de coches eléctricos que circularán por nuestras carreteras. Aprovecharlo no solo tiene sentido económico, sino también medioambiental y social.</p>
+
+        <p>La revolución eléctrica no es solo sobre cambiar el motor de combustión por uno eléctrico. Es sobre reimaginar todo el sistema energético. Y tú puedes ser parte activa de esa transformación mientras ganas dinero con ello.</p>
+      </div>
+
+      <footer class="mt-10 pt-6 border-t text-sm text-gray-600">
+        <p>¿Quieres saber si tu coche es compatible con V2G? ¿Te interesa participar en programas piloto en tu zona? ¿Necesitas ayuda para calcular la rentabilidad del V2G en tu caso concreto? Contacta conmigo y te ayudaré a navegar el mundo del Vehicle-to-Grid y aprovechar al máximo esta tecnología revolucionaria.</p>
+      </footer>
+
+      <!-- Artículos relacionados -->
+      <aside class="mt-12">
+        <h2 class="text-2xl font-bold mb-4">Artículos relacionados</h2>
+        <ul class="list-disc ml-5 text-emerald-800 space-y-2">
+          <li><a class="hover:underline" href="ahorrar-electricidad-cargando-coche-electrico.html">Cómo ahorrar en electricidad cargando tu coche eléctrico</a></li>
+          <li><a class="hover:underline" href="ventajas-fiscales-coche-electrico-espana-2025.html">Deducciones fiscales y ventajas por tener un coche eléctrico en España 2025</a></li>
+          <li><a class="hover:underline" href="plan-moves-2025-requisitos-ayudas-comunidades.html">Plan MOVES 2025: todas las ayudas disponibles por comunidades</a></li>
+          <li><a class="hover:underline" href="coches-electricos-baratos-espana-2025.html">Coches eléctricos baratos en España 2025 - Guía completa</a></li>
+          <li><a class="hover:underline" href="../calculadoras.html">Calculadora de ahorro: eléctrico vs gasolina</a></li>
+          <li><a class="hover:underline" href="../guias.html">Todas las guías sobre coches eléctricos</a></li>
+        </ul>
+      </aside>
+
+      <!-- Sobre el autor -->
+      <section class="mt-12 bg-emerald-50 border border-emerald-100 rounded-xl p-6">
+        <h2 class="text-2xl font-bold mb-2">Sobre el autor</h2>
+        <p class="text-gray-700">Apasionado de la movilidad eléctrica con más de 50.000 km de experiencia en viajes por carretera. Comparto lo aprendido para que tu transición a la electrificación sea más sencilla y disfrutes cada kilómetro, sin sorpresas.</p>
+      </section>
+      <script async="async" data-cfasync="false" src="//pl28052676.effectivegatecpm.com/2f2bf98ebb38fc325879c099d716122f/invoke.js"></script>
+  <div id="container-2f2bf98ebb38fc325879c099d716122f"></div>
+    </article>
+  </main>
+
+  <footer class="bg-gris-oscuro text-white py-12 mt-16">
+    <div class="container mx-auto px-4">
+    <div class="flex flex-col md:flex-row gap-8">
+      <div class="flex-1">
+        <div class="flex items-start space-x-3 mb-2">
+          <div class="bg-white rounded-lg p-1">
+            <img src="../imagenes/logo.webp" alt="Electromovilidad 24" class="h-16 w-auto">
+          </div>
+          <div>
+            <h3 class="text-xl font-bold">Electromovilidad 24</h3>
+            <p class="text-gray-300">Tu fuente confiable de información sobre movilidad eléctrica.</p>
+          </div>
+        </div>
+      </div>
+      <div class="flex-1">
+        <h4 class="text-lg font-semibold mb-2">Enlaces Útiles</h4>
+        <div class="flex flex-wrap gap-4">
+          <a href="../index.html" class="text-gray-300 hover:text-verde-principal transition-colors">Inicio</a>
+          <a href="../index.html#news-section" class="text-gray-300 hover:text-verde-principal transition-colors">Noticias</a>
+          <a href="../comparativas.html" class="text-gray-300 hover:text-verde-principal transition-colors">Comparativas</a>
+          <a href="../reviews.html" class="text-gray-300 hover:text-verde-principal transition-colors">Reviews</a>
+          <a href="../guias.html" class="text-gray-300 hover:text-verde-principal transition-colors">Guías</a>
+          <a href="../calculadoras.html" class="text-gray-300 hover:text-verde-principal transition-colors">Calculadoras</a>
+          <a href="../sobre.html" class="text-gray-300 hover:text-verde-principal transition-colors">Sobre mí</a>
+        </div>
+      </div>
+    </div>
+
+      <div class="border-t border-gray-700 mt-8 pt-8 text-center">
+        <p class="text-gray-400">
+          2025 Electromovilidad 24 - Siguiendo la revolución eléctrica en tiempo real
+        </p>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    // Menú móvil
+    document.getElementById('mobile-menu-btn').addEventListener('click', function() {
+      const menu = document.getElementById('mobile-nav');
+      menu.classList.toggle('hidden');
+    });
+  </script>
+</body>
+</html>
