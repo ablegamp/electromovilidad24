@@ -1,5 +1,15 @@
 [ 
     {
+  "id": 60,
+  "title": "KIA PV5, Mejor Furgoneta Eléctrica del Mundo - Premio IVOTY y Récord de Eficiencia",
+  "summary": "La KIA PV5 gana el premio International Van Of The Year 2026. Descubre cómo esta furgoneta eléctrica batió récords recorriendo 693 km en un día laboral y revolucionando el sector logístico con su tecnología PBV.",
+  "category": "Noticias",
+  "image": "https://www.electromovilidad24.com/imagenes/kia-pv-2025-png",
+  "link": "articulos/kia-pv5-mejor-furgoneta-electrica-mundo.html",
+  "date": "2025-11-24",
+  "readTime": "8 min"
+    },
+    {
   "id": 59,
   "title": "Innovación en Baterías para el Frío: La Tecnología que Cambia el Juego",
   "summary": "Descubro cómo un ánodo de silicio flexible desarrollado en Alemania multiplica por 2.5 la capacidad de las baterías y elimina el problema del rendimiento en frío. Análisis completo del avance que revoluciona la autonomía invernal de los coches eléctricos.",
