@@ -1,4 +1,14 @@
-[ 
+[
+    {
+  "id": 63,
+  "title": "Electra abre su primera estación de carga ultrarrápida en Cartagena con 16 puntos",
+  "summary": "La compañía ha invertido 1,5 millones de euros en esta instalación, la más grande de la Región de Murcia, que permitirá cargar hasta 300 km de autonomía en solo 15 minutos. Conectividad total en el corredor mediterráneo.",
+  "category": "Noticias",
+  "image": "https://images.unsplash.com/photo-1641659376402-3d2f48a91ed7?w=1200&auto=format&fit=crop&q=80&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8ZWxlY3Ryb2xpbmVyYXxlbnwwfDB8MHx8fDI%3D",
+  "link": "articulos/electra-estacion-carga-cartagena.html",
+  "date": "2025-11-26",
+  "readTime": "8 min"
+    },
     {
   "id": 62,
   "title": "Genesis GV60 Magma: el SUV premium radical de 650 CV",
