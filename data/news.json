@@ -1,5 +1,15 @@
 [
     {
+  "id": 65,
+  "title": "Por 24.000 €, este BYD que se carga en 10 minutos y tiene hasta 700 km de autonomía es la nueva amenaza china",
+  "summary": "El BYD Han L 2025 revoluciona el mercado con carga ultrarrápida (16-80% en 10 min), 700 km de autonomía y aceleración de 0 a 100 km/h en solo 2,7 segundos. Precio desde 24.000€ con ayudas. Análisis completo de especificaciones, tecnología y disponibilidad en España.",
+  "category": "Noticias",
+  "image": "/imagenes/byd-han-l.png",
+  "link": "articulos/byd-han-l-carga-rapida-precio-2025.html",
+  "date": "2025-11-26",
+  "readTime": "8 min"
+    },
+    {
   "id": 64,
   "title": "Gigafactoría de baterías en Valladolid: 760 empleos y 712M€ de inversión",
   "summary": "La nueva gigafactoría de baterías en Valladolid supondrá 760 empleos directos, 712 millones de euros de inversión y 32 GWh de capacidad de producción anual. El proyecto, que comenzará a construirse en 2025, posiciona a España como referente en la industria de la movilidad eléctrica en Europa.",
