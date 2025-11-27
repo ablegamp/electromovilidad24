@@ -1,5 +1,15 @@
 [
-    {
+   {
+  "id": 66,
+  "title": "¡Increíble! Los coches eléctricos ya superan los 1.000 km de autonomía real",
+  "summary": "Los coches eléctricos de 2025 han roto todas las barreras de autonomía. Descubre cómo los últimos avances en baterías de estado sólido, aerodinámica y gestión energética han hecho posible superar los 1.000 km con una sola carga. Análisis de los modelos líderes y consejos para maximizar tu autonomía.",
+  "category": "Noticias",
+  "image": "https://images.unsplash.com/photo-1698223817326-a107c584c871?w=1200&auto=format&fit=crop&q=80&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjMxfHxjb2NoZSUyMGVsZWN0cmljb3xlbnwwfDB8MHx8fDI%3D",
+  "link": "articulos/autonomia-coches-electricos-2025-realidad-supera-ficcion.html",
+  "date": "2025-11-27",
+  "readTime": "12 min"
+    },
+   {
   "id": 65,
   "title": "Por 24.000 €, este BYD que se carga en 10 minutos y tiene hasta 700 km de autonomía es la nueva amenaza china",
   "summary": "El BYD Han L 2025 revoluciona el mercado con carga ultrarrápida (16-80% en 10 min), 700 km de autonomía y aceleración de 0 a 100 km/h en solo 2,7 segundos. Precio desde 24.000€ con ayudas. Análisis completo de especificaciones, tecnología y disponibilidad en España.",
