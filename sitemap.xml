@@ -21,6 +21,11 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://www.electromovilidad24.com/articulos/autonomia-coches-electricos-2025-realidad-supera-ficcion.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://www.electromovilidad24.com/articulos/ayudas-coches-electricos-comunidades-autonomas-2026.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -72,6 +77,16 @@
   </url>
   <url>
     <loc>https://www.electromovilidad24.com/articulos/byd-contra-tesla-burla-musk-pesadilla-2025.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.electromovilidad24.com/articulos/byd-han-l-carga-rapida-precio-2025.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.electromovilidad24.com/articulos/byd-red-cargadores-espana.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -267,6 +282,11 @@
   </url>
   <url>
     <loc>https://www.electromovilidad24.com/articulos/electrico-usado-consolida-mercado-2025.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.electromovilidad24.com/articulos/elegir-tipo-electricidad-cargar-coche-electrico.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
