@@ -1,4 +1,34 @@
-[
+[  
+   {
+  "id": 71,
+  "title": "Hyundai lanza V2G y V2H en España: tu coche como fuente de energía",
+  "summary": "Hyundai Motor Group anuncia la llegada de sus tecnologías V2G (Vehicle-to-Grid) y V2H (Vehicle-to-Home) al mercado español. A partir de 2025, modelos como el IONIQ 5, IONIQ 6 y Kia EV6 podrán suministrar energía a hogares o a la red eléctrica, con ahorros de hasta 600€ anuales en la factura.",
+  "category": "Tecnología",
+  "image": "https://images.unsplash.com/photo-1588036873025-7261a5647adf?w=1200&auto=format&fit=crop&q=80&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8aHl1bmRhaXxlbnwwfHwwfHx8Mg%3D%3D",
+  "link": "articulos/hyundai-v2g-v2h-espana-2025.html",
+  "date": "2025-11-28",
+  "readTime": "10 min"
+    },
+   {
+  "id": 70,
+  "title": "Skoda apunta a cerrar 2025 con récord de ventas en España, aunque sus eléctricos siguen por debajo de la media",
+  "summary": "Skoda prevé superar las 40.000 matriculaciones en España este año, con un crecimiento del 8% respecto a 2024. Sin embargo, solo el 10% de sus ventas corresponden a modelos eléctricos, por debajo de la media del mercado (19%). Análisis de la estrategia de la marca checa y sus planes de electrificación para 2026.",
+  "category": "Noticias",
+  "image": "https://images.unsplash.com/photo-1617631653506-98a461291a83?w=1200&auto=format&fit=crop&q=80&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fHNrb2RhfGVufDB8fDB8fHwy",
+  "link": "articulos/skoda-record-ventas-espana-2025.html",
+  "date": "2025-11-28",
+  "readTime": "8 min"
+    },
+   {
+  "id": 69,
+  "title": "Baterías de sodio-ión: una alternativa barata al litio",
+  "summary": "Explico en primera persona qué aportan las baterías de sodio‑ión: coste más bajo, buena seguridad y mejor rendimiento en frío, así como sus límites en densidad. Estado del mercado 2025, aplicaciones prácticas y cuándo las veremos en coches urbanos.",
+  "category": "Innovación",
+  "image": "https://images.unsplash.com/photo-1763543007050-4dac73ffc67f?w=1200&auto=format&fit=crop&q=80&ixlib=rb-4.1.0",
+  "link": "articulos/baterias-sodio-ion-alternativa-barata-litio.html",
+  "date": "2025-11-28",
+  "readTime": "14 min"
+    },
    {
   "id": 68,
   "title": "BYD TI7: El híbrido que arrasa en China con 50.000 reservas en 80 días",
