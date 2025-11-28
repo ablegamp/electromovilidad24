@@ -1,4 +1,14 @@
-[
+[  
+   {
+  "id": 71,
+  "title": "Hyundai lanza V2G y V2H en España: tu coche como fuente de energía",
+  "summary": "Hyundai Motor Group anuncia la llegada de sus tecnologías V2G (Vehicle-to-Grid) y V2H (Vehicle-to-Home) al mercado español. A partir de 2025, modelos como el IONIQ 5, IONIQ 6 y Kia EV6 podrán suministrar energía a hogares o a la red eléctrica, con ahorros de hasta 600€ anuales en la factura.",
+  "category": "Tecnología",
+  "image": "https://images.unsplash.com/photo-1588036873025-7261a5647adf?w=1200&auto=format&fit=crop&q=80&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8aHl1bmRhaXxlbnwwfHwwfHx8Mg%3D%3D",
+  "link": "articulos/hyundai-v2g-v2h-espana-2025.html",
+  "date": "2025-11-28",
+  "readTime": "10 min"
+    },
    {
   "id": 70,
   "title": "Skoda apunta a cerrar 2025 con récord de ventas en España, aunque sus eléctricos siguen por debajo de la media",
