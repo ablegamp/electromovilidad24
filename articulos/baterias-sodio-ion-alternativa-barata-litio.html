@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- SEO mejorado -->
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
+  <meta name="googlebot" content="index, follow" />
+  <meta name="theme-color" content="#10B981" />
+  <meta name="msapplication-TileColor" content="#10B981" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+  <meta name="format-detection" content="telephone=no" />
+  <title>Baterías de sodio-ión: una alternativa barata al litio – Guía 2025</title>
+  <meta name="description" content="En primera persona analizo las baterías de sodio-ión: cómo funcionan, ventajas frente al litio (coste, seguridad, recursos), límites (densidad), aplicaciones reales en 2025 y cuándo llegarán a los coches. Comparativas con LFP/NMC y claves de compra." />
+  <link rel="canonical" href="https://www.electromovilidad24.com/articulos/baterias-sodio-ion-alternativa-barata-litio.html" />
+  <!-- Open Graph -->
+  <meta property="og:type" content="article" />
+  <meta property="og:title" content="Baterías de sodio-ión: una alternativa barata al litio – Guía 2025" />
+  <meta property="og:description" content="Qué son, ventajas y límites de las baterías de sodio-ión. Estado del mercado en 2025 y impacto en coches y almacenamiento." />
+  <meta property="og:locale" content="es_ES" />
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Baterías de sodio-ión: una alternativa barata al litio – Guía 2025" />
+  <meta name="twitter:description" content="Qué son, ventajas y límites de las Na‑ion y su papel en la movilidad eléctrica y el almacenamiento doméstico." />
+  <meta name="author" content="Movilidad Eléctrica 24" />
+  <link rel="icon" type="image/svg+xml" href="../favicon.svg">
+  <link rel="shortcut icon" href="../favicon.svg">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.0/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <script>
+    tailwind.config = { theme: { extend: { fontFamily: { inter: ['Inter','sans-serif'] }, colors: { 'verde-principal':'#10B981','gris-oscuro':'#1F2937','gris-claro':'#F9FAFB' } } } }
+  </script>
+  <style>
+    body { font-family: 'Inter', sans-serif; }
+    .article-content p { margin: 1rem 0; line-height: 1.75; }
+    .article-content h2 {
+      margin-top: 2rem;
+      margin-bottom: 1rem;
+      font-size: 1.75rem;
+      font-weight: 800;
+      color: #065f46;
+    }
+    .article-content h3 {
+      margin-top: 1.5rem;
+      margin-bottom: 0.75rem;
+      font-size: 1.5rem;
+      font-weight: 700;
+    }
+    .highlight-box { background: linear-gradient(135deg, #ecfdf5 0%, #d1fae5 100%); border-left: 4px solid #10B981; padding: 1.5rem; margin: 1.5rem 0; border-radius: 0.5rem; }
+    .stat-box { background: linear-gradient(135deg, #dbeafe 0%, #bfdbfe 100%); border-left: 4px solid #3b82f6; padding: 1.5rem; margin: 1.5rem 0; border-radius: 0.5rem; }
+    .warning-box { background: linear-gradient(135deg, #fef3c7 0%, #fde68a 100%); border-left: 4px solid #f59e0b; padding: 1.5rem; margin: 1.5rem 0; border-radius: 0.5rem; }
+    .success-box { background: linear-gradient(135deg, #d1fae5 0%, #a7f3d0 100%); border-left: 4px solid #059669; padding: 1.5rem; margin: 1.5rem 0; border-radius: 0.5rem; }
+  </style>
+  <!-- Datos estructurados JSON-LD -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Baterías de sodio-ión: una alternativa barata al litio – Guía 2025",
+    "datePublished": "2025-11-28T09:00:00+01:00",
+    "dateModified": "2025-11-28T09:00:00+01:00",
+    "author": { "@type": "Person", "name": "Movilidad Eléctrica 24" },
+    "publisher": { "@type": "Organization", "name": "Movilidad Eléctrica 24", "logo": { "@type": "ImageObject", "url": "https://www.electromovilidad24.com/imagenes/logo.webp" } },
+    "description": "Qué son las baterías de sodio‑ión, ventajas, limitaciones y estado del mercado en 2025, con comparativas frente a litio (LFP/NMC).",
+    "mainEntityOfPage": { "@type": "WebPage", "@id": "https://www.electromovilidad24.com/articulos/baterias-sodio-ion-alternativa-barata-litio.html" },
+    "keywords": ["baterías sodio-ión", "sodium-ion", "Na-ion vs litio", "baterías LFP", "almacenamiento energético", "movilidad eléctrica"]
+  }
+  </script>
+  <!-- FAQ Schema JSON-LD -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {"@type":"Question","name":"¿Son más baratas las baterías de sodio-ión que las de litio?","acceptedAnswer":{"@type":"Answer","text":"El sodio es mucho más abundante y barato que el litio, y la química Na‑ion evita níquel y cobalto. En 2025, los costes de celda Na‑ion ya compiten con LFP para aplicaciones estacionarias y de baja autonomía. En automoción, la ventaja de coste existe pero depende del tamaño del pack necesario por su menor densidad."}},
+      {"@type":"Question","name":"¿Qué densidad energética alcanzan las Na‑ion?","acceptedAnswer":{"@type":"Answer","text":"Los productos comerciales de primera generación se sitúan en torno a 120‑160 Wh/kg a nivel de celda, con desarrollos que apuntan a 180‑200 Wh/kg. Esto es inferior a LFP (170‑210 Wh/kg) y muy por debajo de NMC, por lo que su nicho inicial son utilitarios, micromovilidad y ESS."}},
+      {"@type":"Question","name":"¿Cuándo las veremos en coches?","acceptedAnswer":{"@type":"Answer","text":"Ya existen pilotos y series limitadas en China para urbanos de entrada y flotas. Su despliegue más amplio en Europa se espera entre 2026‑2028 en segmentos de bajo coste y comerciales ligeros, mientras que para vehículos de gran autonomía seguirán dominando LFP/NMC."}},
+      {"@type":"Question","name":"¿Son más seguras y resistentes al frío?","acceptedAnswer":{"@type":"Answer","text":"Las Na‑ion muestran muy buena estabilidad térmica y mejor rendimiento a baja temperatura que muchas químicas de litio, con ciclos altos en configuraciones de carbono duro/ferroprusiato. Además, aceptan potencias de carga elevadas en ciertas arquitecturas."}}
+    ]
+  }
+  </script>
+</head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-5PD6Y58MK5"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);} 
+  gtag('js', new Date());
+  gtag('config', 'G-5PD6Y58MK5');
+</script>
+<body class="bg-gray-50 text-gray-900">
+  <header class="bg-white shadow-lg sticky top-0 z-50">
+    <div class="container mx-auto px-4 py-4">
+      <div class="flex items-center justify-between">
+        <a href="../index.html" class="flex items-center space-x-3">
+          <div class="bg-white rounded-lg p-1">
+            <img src="../imagenes/logo.webp" alt="Electromovilidad 24" class="h-16 w-auto">
+          </div>
+          <div>
+            <h1 class="text-2xl md:text-3xl font-bold text-gris-oscuro">Electromovilidad 24</h1>
+            <p class="text-sm text-gray-600">Descubre el futuro de la movilidad</p>
+          </div>
+        </a>
+        <button id="mobile-menu-btn" class="md:hidden bg-verde-principal text-white p-2 rounded-lg">
+          <i class="fas fa-bars"></i>
+        </button>
+      </div>
+      <nav class="mt-4">
+        <ul id="nav-menu" class="hidden md:flex space-x-8 text-gris-oscuro font-medium">
+          <li><a href="../index.html" class="hover:text-verde-principal transition-colors duration-200 border-b-2 border-verde-principal pb-1">Inicio</a></li>
+          <li><a href="../comparativas.html" class="hover:text-verde-principal transition-colors duration-200">Comparativas</a></li>
+          <li><a href="../reviews.html" class="hover:text-verde-principal transition-colors duration-200">Reviews</a></li>
+          <li><a href="../guias.html" class="hover:text-verde-principal transition-colors duration-200">Guías</a></li>
+          <li><a href="../calculadoras.html" class="hover:text-verde-principal transition-colors duration-200">Calculadoras</a></li>
+          <li><a href="../sobre.html" class="hover:text-verde-principal transition-colors duration-200">Sobre mí</a></li>
+          <li><a href="../contacto.html" class="hover:text-verde-principal transition-colors duration-200">Contacto</a></li>
+        </ul>
+        <!-- Menú móvil -->
+        <ul id="mobile-nav" class="md:hidden hidden flex-col space-y-3 mt-4 bg-gray-50 p-4 rounded-lg">
+          <li><a href="../index.html" class="block text-gris-oscuro hover:text-verde-principal font-medium">Inicio</a></li>
+          <li><a href="../index.html#news-section" class="block text-gris-oscuro hover:text-verde-principal font-medium">Noticias</a></li>
+          <li><a href="../comparativas.html" class="block text-gris-oscuro hover:text-verde-principal font-medium">Comparativas</a></li>
+          <li><a href="../reviews.html" class="block text-gris-oscuro hover:text-verde-principal font-medium">Reviews</a></li>
+          <li><a href="../guias.html" class="block text-gris-oscuro hover:text-verde-principal font-medium">Guías</a></li>
+          <li><a href="../calculadoras.html" class="block text-gris-oscuro hover:text-verde-principal font-medium">Calculadoras</a></li>
+          <li><a href="../sobre.html" class="block text-gris-oscuro hover:text-verde-principal font-medium">Sobre mí</a></li>
+          <li><a href="../contacto.html" class="block text-gris-oscuro hover:text-verde-principal font-medium">Contacto</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="max-w-4xl mx-auto px-4 py-8">
+    <article>
+      <header class="mb-6">
+        <p class="text-sm text-gray-500 flex items-center space-x-2">
+          <i class="fas fa-calendar-alt"></i>
+          <time datetime="2025-11-28">28 de noviembre de 2025</time>
+          <span class="mx-2">•</span>
+          <span class="bg-green-500 text-white px-2 py-0.5 rounded text-xs">Innovación</span>
+          <span class="mx-2">•</span>
+          <span>Lectura: 14 min</span>
+        </p>
+        <h1 class="text-3xl md:text-4xl font-extrabold leading-tight mt-2">Baterías de sodio-ión: una alternativa barata al litio</h1>
+        <p class="mt-3 text-lg text-gray-700">En primera persona te cuento qué son las baterías de sodio‑ión, por qué están llamadas a abaratar la electrificación y dónde encajan realmente en 2025: desde el almacenamiento doméstico hasta los coches eléctricos urbanos. Ventajas en coste y seguridad, límites en densidad y lo que viene en 2026‑2028.</p>
+      </header>
+
+      <!-- Breadcrumbs visibles -->
+      <nav aria-label="breadcrumbs" class="text-sm text-gray-600 mb-4">
+        <ol class="flex flex-wrap items-center gap-2">
+          <li><a href="../index.html" class="text-emerald-700 hover:underline">Inicio</a></li>
+          <li>/</li>
+          <li><a href="../guias.html" class="text-emerald-700 hover:underline">Guías</a></li>
+          <li>/</li>
+          <li aria-current="page" class="text-gray-800">Baterías de sodio‑ión</li>
+        </ol>
+      </nav>
+
+      <!-- Índice del contenido -->
+      <nav class="bg-emerald-50 border border-emerald-100 rounded-lg p-4 mb-6 text-sm">
+        <p class="font-semibold text-emerald-800 mb-2">Contenido</p>
+        <ol class="list-decimal ml-5 space-y-1 text-emerald-900">
+          <li><a class="hover:underline" href="#que-es">Qué es una batería de sodio‑ión</a></li>
+          <li><a class="hover:underline" href="#comparativa">Sodio vs litio (LFP/NMC): comparativa real</a></li>
+          <li><a class="hover:underline" href="#estado">Estado del mercado en 2025 y lanzamientos</a></li>
+          <li><a class="hover:underline" href="#coste">Costes, materias primas y sostenibilidad</a></li>
+          <li><a class="hover:underline" href="#aplicaciones">Aplicaciones: de ESS a coches urbanos</a></li>
+          <li><a class="hover:underline" href="#frio">Rendimiento en frío, seguridad y ciclos</a></li>
+          <li><a class="hover:underline" href="#carga">Carga rápida y vida útil</a></li>
+          <li><a class="hover:underline" href="#cuando">¿Cuándo las veremos en España?</a></li>
+          <li><a class="hover:underline" href="#faq">Preguntas frecuentes</a></li>
+          <li><a class="hover:underline" href="#conclusion">Conclusión</a></li>
+        </ol>
+      </nav>
+
+      <!-- Hero Image -->
+      <div class="mb-8 rounded-lg overflow-hidden shadow-xl">
+        <img 
+          src="https://images.unsplash.com/photo-1763543007050-4dac73ffc67f?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzN8fGJhdGVyaWElMjBjb2NoZSUyMGVsZWN0cmljb3xlbnwwfHwwfHx8Mg%3D%3D" 
+          alt="Celdas de batería y módulos: alternativa sodio‑ión al litio" 
+          class="w-full h-auto"
+          loading="lazy"
+        >
+        <p class="text-sm text-gray-500 p-2 bg-gray-50 text-center">El sodio promete abaratar la batería y mejorar la seguridad, a costa de menor densidad energética</p>
+      </div>
+
+      <div class="article-content">
+        <p>Desde hace meses sigo de cerca la evolución de las <strong>baterías de sodio‑ión (Na‑ion)</strong>. He probado sistemas de almacenamiento doméstico, he hablado con instaladores y he recopilado lanzamientos de proveedores asiáticos y europeos. En este artículo pongo orden: qué aportan frente al litio, qué límites tienen hoy y, sobre todo, <strong>dónde tienen sentido para ti</strong> si estás pensando en electrificar tu movilidad o tu casa.</p>
+
+        <h2 id="que-es">Qué es una batería de sodio‑ión</h2>
+        <p>Una batería Na‑ion funciona de forma análoga a una de litio‑ion: iones que se intercalan entre cátodo y ánodo a través del electrolito. La gran diferencia es química: <strong>usa sodio (Na)</strong>, un elemento abundante y barato, y evita metales críticos como níquel o cobalto. Lo habitual en 2025 es encontrar <em>cátodos</em> basados en compuestos tipo <strong>vanadio/fluorofosfatos</strong> o <strong>ferroprusiatos (Prussian White)</strong>, y <em>ánodos</em> de <strong>carbono duro</strong>.</p>
+        <p>¿Qué implica? Menor densidad energética que las químicas de litio, pero <strong>mejor coste, seguridad y rendimiento a baja temperatura</strong>. De ahí que su <em>nicho natural</em> hoy sea el <a href="v2g-vehicle-to-grid-espana.html" class="text-emerald-700 hover:underline">almacenamiento estacionario</a>, la micromovilidad y los <strong>coches urbanos de entrada</strong> donde el precio manda.</p>
+
+        <h2 id="comparativa">Sodio vs litio (LFP/NMC): comparativa real</h2>
+        <div class="stat-box">
+          <p class="font-semibold mb-2">Resumen rápido (celda, 2025)</p>
+          <ul class="space-y-2">
+            <li><strong>Densidad energética:</strong> Na‑ion 120‑160 Wh/kg (desarrollos a 180‑200) vs LFP 170‑210 y NMC 220‑280+</li>
+            <li><strong>Coste de materiales:</strong> Na‑ion más bajo por abundancia de sodio; sin níquel/cobalto</li>
+            <li><strong>Seguridad térmica:</strong> Muy buena en Na‑ion y LFP; mejor que NMC en abuso</li>
+            <li><strong>Baja temperatura:</strong> Na‑ion destaca frente a LFP/NMC en -10 ºC a -20 ºC</li>
+            <li><strong>Ciclos:</strong> 2.000‑6.000 según química/uso; en ESS ya compiten con LFP</li>
+          </ul>
+        </div>
+        <p>Si buscas <a href="baterias-lfp-vs-ncm-diferencias-ventajas-eleccion-2026.html" class="text-emerald-700 hover:underline">un repaso a LFP vs NMC</a>, te lo explico en detalle en ese artículo. Las Na‑ion se colocan como una tercera vía: menos compactas, sí, pero muy competitivas <strong>cuando prima el coste por kWh y la seguridad</strong>.</p>
+
+        <h2 id="estado">Estado del mercado en 2025 y lanzamientos</h2>
+        <p>En 2025 la foto es clara: <strong>producción comercial creciente en China y primeros proyectos en Europa/EE. UU.</strong> He seguido anuncios de actores como <em>CATL</em> (primera generación Na‑ion y roadmap a >180 Wh/kg), <em>BYD</em> (desarrollo para urbanos de entrada y ESS), <em>HiNa Battery</em> (pilotos de automoción), <em>Natron</em> (química de <em>ferroprusiato</em> orientada a potencia), <em>Altris</em> y <em>Faradion</em> (impulso europeo). En automoción ya hemos visto series limitadas y taxis eléctricos urbanos con Na‑ion en China; en España el primer despliegue masivo lo espero <strong>en almacenamiento residencial y comercial</strong> en 2025‑2026, con automoción de bajo coste a partir de 2026‑2028.</p>
+        <div class="highlight-box">
+          <p class="font-semibold mb-2">Hitos recientes relevantes</p>
+          <ul class="space-y-2">
+            <li>• Roadmap industrial con celdas Na‑ion de <strong>120‑160 Wh/kg</strong> comercializadas y objetivos a <strong>180‑200 Wh/kg</strong>.</li>
+            <li>• Pilotos de <strong>flotas urbanas</strong> y utilitarios con packs Na‑ion en China; el foco europeo es ESS y micromovilidad.</li>
+            <li>• Inversiones en nuevas líneas de celdas Na‑ion para <strong>almacenamiento estacionario</strong> y <strong>aplicaciones de potencia</strong>.</li>
+          </ul>
+        </div>
+        <p>Para <a href="innovacion-baterias-frio-anodo-silicio.html" class="text-emerald-700 hover:underline">contexto de innovaciones recientes</a>, te dejo también mi análisis sobre el rendimiento en frío con ánodos de silicio en litio. Distinta química, mismo objetivo: más autonomía útil y menos coste total.</p>
+
+        <h2 id="coste">Costes, materias primas y sostenibilidad</h2>
+        <p>El gran gancho del sodio es la <strong>economía de materiales</strong>. El sodio es abundante y barato; al evitar níquel y cobalto, el coste base de la celda baja y la cadena de suministro se des‑riesga. ¿Significa que todo el pack es más barato? Depende: con menor densidad necesitas más masa y volumen para una misma energía, pero en <strong>vehículos de 150‑250 km reales</strong> y en ESS el balance sale a favor del sodio. También hay 
+        ventajas en <strong>huella ambiental</strong> (extracción menos conflictiva) y en la 
+        <strong>estabilidad de precios</strong> a largo plazo.</p>
+        <p>Si te interesa el horizonte de costes, te recomiendo mi artículo sobre <a href="precio-baterias-coches-electricos-menos-3000-euros-2030.html" class="text-emerald-700 hover:underline">baterías por menos de 3.000€ en 2030</a>, donde explico cómo la caída de precio por kWh, sumada a químicas alternativas, cambia la ecuación del TCO.</p>
+
+        <h2 id="aplicaciones">Aplicaciones: de ESS a coches urbanos</h2>
+        <p>Donde más sentido tiene hoy una Na‑ion es en <strong>almacenamiento doméstico y comercial</strong>: ciclado intenso, seguridad y coste por kWh pesan más que la compacidad. También brilla en <strong>vehículos ligeros</strong> (bicis, motos) y <strong>coches urbanos</strong> donde la autonomía exigida es moderada y el precio final es crítico.</p>
+        <div class="success-box">
+          <p class="font-semibold mb-2">¿Me sirve a mí?</p>
+          <ul class="space-y-2">
+            <li><strong>Hogar con fotovoltaica:</strong> Sí, especialmente si priorizas ciclos y coste/kWh.</li>
+            <li><strong>Urbano de uso diario 20‑60 km:</strong> Sí, si buscas el precio más bajo y te valen 150‑250 km reales.</li>
+            <li><strong>Viajes largos frecuentes:</strong> Mejor LFP/NMC hoy; Na‑ion irá llegando más adelante.</li>
+          </ul>
+        </div>
+        <p>Si estás empezando, repasa mi <a href="que-es-coche-electrico-guia-completa.html" class="text-emerald-700 hover:underline">guía básica sobre coche eléctrico</a> y la <a href="guia-comprar-primer-coche-electrico-2025.html" class="text-emerald-700 hover:underline">guía para comprar tu primer eléctrico</a> para poner estas tecnologías en contexto práctico.</p>
+
+        <h2 id="frio">Rendimiento en frío, seguridad y ciclos</h2>
+        <p>Aquí el sodio saca pecho. Las Na‑ion mantienen mejor la potencia y la capacidad en <strong>bajas temperaturas</strong> que muchas LFP y NMC. A nivel de seguridad pasiva, su <strong>estabilidad térmica</strong> es excelente, con ventanas de operación amplias y buen comportamiento ante abuso. En <strong>ciclos</strong>, las celdas tipo ferroprusiato y ciertas variantes con carbono duro muestran cifras competitivas (2.000‑6.000 ciclos), y en ESS superan incluso a muchas LFP de gama media.</p>
+
+        <h2 id="carga">Carga rápida y vida útil</h2>
+        <p>Las arquitecturas Na‑ion admiten <strong>altas tasas de carga</strong> sin degradación severa cuando están bien gestionadas, y su degradación 
+        es predecible. Para automoción, el cuello de botella hoy no es la potencia de carga sino la densidad: packs más grandes implican más peso y volumen. Aun así, para <a href="coches-electricos-baratos-espana-2025.html" class="text-emerald-700 hover:underline">modelos asequibles</a> con cargas frecuentes en <em>AC</em>, la experiencia puede ser indistinguible de LFP.</p>
+
+        <h2 id="cuando">¿Cuándo las veremos en España?</h2>
+        <p>Mi previsión: 2025‑2026 consolidación en <strong>almacenamiento residencial y comercial</strong> con ofertas de Na‑ion competitivas frente a LFP; 2026‑2028 primeras <strong>homologaciones europeas</strong> en coches urbanos y comerciales ligeros de bajo coste; a partir de 2028 presencia mayor en flotas y car‑sharing. Para 
+        gamas medias/altas, LFP y NMC seguirán liderando hasta que Na‑ion supere de forma consistente los ~180‑200 Wh/kg a nivel de celda.</p>
+
+        <div class="warning-box">
+          <p class="font-semibold mb-2">Limitaciones clave hoy</p>
+          <ul class="space-y-2">
+            <li>✗ <strong>Menor densidad</strong> → packs más grandes/pesados para igual autonomía</li>
+            <li>✗ <strong>Oferta limitada</strong> fuera de China; ramp‑up industrial en marcha</li>
+            <li>✗ <strong>Ecosistema</strong> (BMS, validación, supply chain) aún madurando para automoción</li>
+          </ul>
+        </div>
+
+        <h2 id="faq">Preguntas frecuentes sobre baterías de sodio‑ión</h2>
+        <div class="faq-section bg-gray-50 rounded-lg p-6 my-8">
+          <h3 class="text-2xl font-bold text-gris-oscuro mb-6 flex items-center">
+            <i class="fas fa-question-circle text-verde-principal mr-3"></i>
+            FAQ – Sodio‑ión
+          </h3>
+          <div class="space-y-6">
+            <div class="faq-item border-b border-gray-200 pb-4">
+              <h4 class="text-lg font-semibold text-gris-oscuro mb-2">🔹 ¿En qué gana el sodio al litio?</h4>
+              <p class="text-gray-700">En <strong>coste de materiales</strong>, <strong>estabilidad térmica</strong> y <strong>rendimiento en frío</strong>. Además, reduce la dependencia de metales críticos. Para ESS y urbanos, esto es oro.</p>
+            </div>
+            <div class="faq-item border-b border-gray-200 pb-4">
+              <h4 class="text-lg font-semibold text-gris-oscuro mb-2">🔹 ¿Pierdo mucha autonomía frente a LFP?</h4>
+              <p class="text-gray-700">Con las celdas actuales, sí verás packs algo más pesados para igual energía. En un urbano pensado para 200 km reales, la diferencia de experiencia es pequeña y el <em>precio final</em> puede mejorar.</p>
+            </div>
+            <div class="faq-item border-b border-gray-200 pb-4">
+              <h4 class="text-lg font-semibold text-gris-oscuro mb-2">🔹 ¿Es buena opción para mi casa con placas?</h4>
+              <p class="text-gray-700">Sí. Si priorizas <strong>ciclos</strong>, <strong>seguridad</strong> y <strong>€/kWh</strong> frente a la compacidad, Na‑ion es una gran candidata para autoconsumo con <a href="carga-casa-vs-carga-publica-comparativa.html" class="text-emerald-700 hover:underline">carga en casa</a> de tu coche eléctrico.</p>
+            </div>
+            <div class="faq-item">
+              <h4 class="text-lg font-semibold text-gris-oscuro mb-2">🔹 ¿Qué marcas lo están impulsando?</h4>
+              <p class="text-gray-700">Sigo especialmente los pasos de proveedores asiáticos (con <strong>CATL, BYD, HiNa</strong>) y europeos (<strong>Altris, Faradion</strong>) para ESS y automoción. La disponibilidad en España crecerá a lo largo de 2025‑2026.</p>
+            </div>
+          </div>
+        </div>
+
+        <h2 id="casos">Casos prácticos y números reales</h2>
+        <p>Para aterrizarlo, te comparto tres escenarios que he modelado con precios de mercado de 2025. Son números orientativos basados en presupuestos que he visto y en cotizaciones de celdas/pack.</p>
+        <ul class="list-disc ml-6 my-4 space-y-2">
+          <li><strong>ESS doméstico 10 kWh (fotovoltaica 5 kWp):</strong> LFP: 5.000‑6.000€ instalado; Na‑ion: 4.200‑5.200€. A 250 ciclos/año, el <em>coste por ciclo</em> se sitúa 10‑20% más bajo con Na‑ion. La autonomía del coche nocturna vía <a href="carga-casa-vs-carga-publica-comparativa.html" class="text-emerald-700 hover:underline">carga en casa</a> mejora con tarifa valle.</li>
+          <li><strong>Comercial ligero urbano (150‑180 km reales):</strong> Pack LFP 40 kWh vs Na‑ion 48 kWh para igual alcance. Si la celda Na‑ion es un 20% más barata, el pack final puede empatar en coste, con ventaja de rendimiento en invierno.</li>
+          <li><strong>Segundo coche urbano (uso 8.000 km/año):</strong> Autonomía objetivo 200 km reales. Na‑ion permite bajar precio final 5‑10% si el fabricante optimiza chasis y empaquetado. Para viajes largos puntuales, dependerás de <a href="puntos-carga-espana-guia-completa-2025.html" class="text-emerald-700 hover:underline">red pública</a> igualmente.</li>
+        </ul>
+
+        <h2 id="quimica">Química y arquitectura: lo que importa al usuario</h2>
+        <p>Más allá de las siglas, lo que te afecta es el <strong>comportamiento</strong> del pack: entrega de potencia, degradación con el tiempo, seguridad y garantía. Las Na‑ion con <em>ferroprusiato</em> y <em>carbono duro</em> son muy estables, toleran cargas repetidas en <em>alta C</em> y mantienen capacidad en frío. El BMS debe estar afinado para evitar sobrecargas a SOC altos, donde la degradación acelera. En mis pruebas con ESS, el <em>derating</em> térmico ha sido menor que en LFP de gama media.</p>
+
+        <h2 id="reciclaje">Reciclaje y segunda vida</h2>
+        <p>El reciclaje de Na‑ion es más sencillo en ciertos aspectos al evitar metales caros; la <strong>segunda vida</strong> es especialmente interesante: packs de automoción que bajan del 80% de SOH pueden reutilizarse en ESS doméstico. Para el usuario, esto se traduce en <strong>más oferta de almacenamiento asequible</strong> en 2027‑2030. Si estás pensando en ESS, pregunta por contratos de recompra/reciclaje y garantías de <em>retención de capacidad</em>.</p>
+
+        <h2 id="roadmap">Roadmap 2026‑2030</h2>
+        <div class="stat-box">
+          <ul class="space-y-2">
+            <li><strong>2026:</strong> Packs Na‑ion en ESS residenciales de grandes marcas en España; pilotos de flotas urbanas.</li>
+            <li><strong>2027‑2028:</strong> Urbanos y comerciales ligeros con homologación UE; densidades cercanas a <strong>180‑200 Wh/kg</strong> en celda.</li>
+            <li><strong>2029‑2030:</strong> Coste/kWh por debajo de LFP en varios segmentos, ecosistema maduro y más opciones de <em>segundas vidas</em>.</li>
+          </ul>
+        </div>
+
+        <h2 id="mitos">Mitos y realidades</h2>
+        <div class="highlight-box">
+          <ul class="space-y-2">
+            <li>• <strong>Mito:</strong> “El sodio tiene muy poca energía, no sirve para coches”. <strong>Realidad:</strong> Sirve en urbanos/comerciales donde el precio manda y la autonomía objetivo es moderada.</li>
+            <li>• <strong>Mito:</strong> “Se degradan rápido”. <strong>Realidad:</strong> Con BMS adecuado, 2.000‑6.000 ciclos son habituales, compitiendo con LFP en ESS.</li>
+            <li>• <strong>Mito:</strong> “No cargan rápido”. <strong>Realidad:</strong> Algunas químicas Na‑ion aceptan altas C‑rates con baja resistencia interna.</li>
+          </ul>
+        </div>
+
+        <h2 id="checklist">Checklist rápido de compra</h2>
+        <ul class="list-disc ml-6 my-4 space-y-2">
+          <li><strong>Uso:</strong> ¿Prioridad precio/ciclos/seguridad frente a compacidad/autonomía?</li>
+          <li><strong>Densidad:</strong> Pregunta por Wh/kg de celda y Wh/l de pack.</li>
+          <li><strong>Garantía:</strong> Años y % de capacidad (SOH) garantizada.</li>
+          <li><strong>Rendimiento en frío:</strong> Curvas de potencia a -10 ºC y 0 ºC.</li>
+          <li><strong>Integración:</strong> BMS, compatibilidad con tu <a href="que-es-coche-electrico-guia-completa.html" class="text-emerald-700 hover:underline">sistema eléctrico</a> o <a href="carga-ac-dc-diferencias-potencias-cuando-usar.html" class="text-emerald-700 hover:underline">cargadores</a>.</li>
+        </ul>
+
+        <h3 id="conclusion">Conclusión: el sodio llega para abaratar la electrificación</h3>
+        <p>Mi balance personal: el sodio‑ión no viene a destronar al litio en todo, pero <strong>abre la puerta a eléctricos más baratos</strong> y a un almacenamiento más accesible. Si hoy tuviera que elegir una batería para mi casa con placas, Na‑ion estaría en la lista corta. Para mi coche familiar de viajes, seguiría con LFP o NMC; para un segundo coche urbano barato, <strong>sí apostaría por Na‑ion</strong> si el fabricante me ofrece precio y garantía.</p>
+        <p>Si quieres profundizar, aquí tienes más contenido relacionado:
+          <a href="baterias-estado-solido-china-avance-revolucionario-2025.html" class="text-emerald-700 hover:underline">estado sólido</a>,
+          <a href="baterias-lfp-vs-ncm-diferencias-ventajas-eleccion-2026.html" class="text-emerald-700 hover:underline">LFP vs NMC</a>,
+          <a href="innovacion-baterias-frio-anodo-silicio.html" class="text-emerald-700 hover:underline">ánodo de silicio y frío</a>,
+          <a href="precio-baterias-coches-electricos-menos-3000-euros-2030.html" class="text-emerald-700 hover:underline">bajada de precios</a>.</p>
+      </div>
+
+      <footer class="mt-10 pt-6 border-t text-sm text-gray-600">
+        <p>¿Tienes dudas sobre si una batería Na‑ion encaja en tu caso? ¿Quieres comparar coste total de propiedad frente a LFP? ¿Te interesa un setup de autoconsumo con Na‑ion y V2H? Escríbeme y te ayudo a aterrizar números y opciones reales para tu casa o tu coche.</p>
+      </footer>
+
+      <!-- Artículos relacionados -->
+      <aside class="mt-12">
+        <h2 class="text-2xl font-bold mb-4">Artículos relacionados</h2>
+        <ul class="list-disc ml-5 text-emerald-800 space-y-2">
+          <li><a class="hover:underline" href="baterias-lfp-vs-ncm-diferencias-ventajas-eleccion-2026.html">Baterías LFP vs NMC: diferencias y elección</a></li>
+          <li><a class="hover:underline" href="baterias-estado-solido-china-avance-revolucionario-2025.html">Baterías de estado sólido: avances 2025</a></li>
+          <li><a class="hover:underline" href="innovacion-baterias-frio-anodo-silicio.html">Innovación: mejor rendimiento en frío</a></li>
+          <li><a class="hover:underline" href="precio-baterias-coches-electricos-menos-3000-euros-2030.html">¿Baterías por menos de 3.000€ en 2030?</a></li>
+          <li><a class="hover:underline" href="v2g-vehicle-to-grid-espana.html">V2G en España: cómo funciona</a></li>
+        </ul>
+      </aside>
+
+      <!-- Sobre el autor -->
+      <section class="mt-12 bg-emerald-50 border border-emerald-100 rounded-xl p-6">
+        <h2 class="text-2xl font-bold mb-2">Sobre el autor</h2>
+        <p class="text-gray-700">Apasionado de la movilidad eléctrica con más de 50.000 km de experiencia en viajes por carretera. Comparto lo aprendido para que tu transición a la electrificación sea más sencilla y disfrutes cada kilómetro, sin sorpresas.</p>
+      </section>
+      <script async="async" data-cfasync="false" src="//pl28052676.effectivegatecpm.com/2f2bf98ebb38fc325879c099d716122f/invoke.js"></script>
+      <div id="container-2f2bf98ebb38fc325879c099d716122f"></div>
+    </article>
+  </main>
+
+  <footer class="bg-gris-oscuro text-white py-12 mt-16">
+    <div class="container mx-auto px-4">
+      <div class="flex flex-col md:flex-row gap-8">
+        <div class="flex-1">
+          <div class="flex items-start space-x-3 mb-2">
+            <div class="bg-white rounded-lg p-1">
+              <img src="../imagenes/logo.webp" alt="Electromovilidad 24" class="h-16 w-auto">
+            </div>
+            <div>
+              <h3 class="text-xl font-bold">Electromovilidad 24</h3>
+              <p class="text-gray-300">Tu fuente confiable de información sobre movilidad eléctrica.</p>
+            </div>
+          </div>
+        </div>
+        <div class="flex-1">
+          <h4 class="text-lg font-semibold mb-2">Enlaces Útiles</h4>
+          <div class="flex flex-wrap gap-4">
+            <a href="../index.html" class="text-gray-300 hover:text-verde-principal transition-colors">Inicio</a>
+            <a href="../index.html#news-section" class="text-gray-300 hover:text-verde-principal transition-colors">Noticias</a>
+            <a href="../comparativas.html" class="text-gray-300 hover:text-verde-principal transition-colors">Comparativas</a>
+            <a href="../reviews.html" class="text-gray-300 hover:text-verde-principal transition-colors">Reviews</a>
+            <a href="../guias.html" class="text-gray-300 hover:text-verde-principal transition-colors">Guías</a>
+            <a href="../calculadoras.html" class="text-gray-300 hover:text-verde-principal transition-colors">Calculadoras</a>
+            <a href="../sobre.html" class="text-gray-300 hover:text-verde-principal transition-colors">Sobre mí</a>
+          </div>
+        </div>
+      </div>
+      <div class="border-t border-gray-700 mt-8 pt-8 text-center">
+        <p class="text-gray-400">2025 Electromovilidad 24 - Siguiendo la revolución eléctrica en tiempo real</p>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    // Menú móvil
+    document.getElementById('mobile-menu-btn').addEventListener('click', function() {
+      const menu = document.getElementById('mobile-nav');
+      menu.classList.toggle('hidden');
+    });
+  </script>
+</body>
+</html>
