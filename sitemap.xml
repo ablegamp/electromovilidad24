@@ -96,6 +96,11 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://www.electromovilidad24.com/articulos/byd-seal-6-dmi-oferta-exclusiva-2025.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://www.electromovilidad24.com/articulos/byd-seal-vs-tesla-model-3-2025-comparativa.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -837,6 +842,11 @@
   </url>
   <url>
     <loc>https://www.electromovilidad24.com/articulos/xiaomi-su7-electrico-espana-2025.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.electromovilidad24.com/articulos/zeekr-alemania-lanzamiento-tres-modelos.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
