@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -12,53 +13,93 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="default" />
   <meta name="format-detection" content="telephone=no" />
   <title>Cómo afecta la temperatura a la autonomía de los coches eléctricos en 2025</title>
-  <meta name="description" content="El frío y el calor pueden reducir significativamente la autonomía de tu coche eléctrico. Descubre por qué sucede, cuántos kilómetros puedes perder y cómo minimizar el impacto en tu día a día." />
-  <link rel="canonical" href="https://www.electromovilidad24.com/articulos/temperatura-autonomia-coches-electricos-2025.html" />
+  <meta name="description"
+    content="El frío y el calor pueden reducir significativamente la autonomía de tu coche eléctrico. Descubre por qué sucede, cuántos kilómetros puedes perder y cómo minimizar el impacto en tu día a día." />
+  <link rel="canonical"
+    href="https://www.electromovilidad24.com/articulos/temperatura-autonomia-coches-electricos-2025.html" />
   <!-- Open Graph -->
   <meta property="og:type" content="article" />
   <meta property="og:title" content="Temperatura y autonomía: cómo afecta el frío y calor a los coches eléctricos" />
-  <meta property="og:description" content="El frío y el calor pueden reducir la autonomía de tu coche eléctrico. Descubre por qué sucede y cómo minimizar sus efectos en batería y consumo." />
+  <meta property="og:description"
+    content="El frío y el calor pueden reducir la autonomía de tu coche eléctrico. Descubre por qué sucede y cómo minimizar sus efectos en batería y consumo." />
   <meta property="og:image" content="../imagenes/coche-electrico-cargando.jpg" />
   <meta property="og:locale" content="es_ES" />
   <!-- Twitter -->
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="Temperatura y autonomía: cómo afecta el frío y calor a los coches eléctricos" />
-  <meta name="twitter:description" content="El frío y el calor pueden reducir la autonomía de tu coche eléctrico. Descubre por qué sucede y cómo minimizar sus efectos en batería y consumo." />
+  <meta name="twitter:description"
+    content="El frío y el calor pueden reducir la autonomía de tu coche eléctrico. Descubre por qué sucede y cómo minimizar sus efectos en batería y consumo." />
   <meta name="twitter:image" content="../imagenes/coche-electrico-cargando.jpg" />
   <meta name="author" content="Movilidad Eléctrica 24" />
   <link rel="icon" type="image/svg+xml" href="../favicon.svg">
   <link rel="shortcut icon" href="../favicon.svg">
   <script src="https://cdn.tailwindcss.com"></script>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.0/css/all.min.css">
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
+    rel="stylesheet">
   <script>
-    tailwind.config = { theme: { extend: { fontFamily: { inter: ['Inter','sans-serif'] }, colors: { 'verde-principal':'#10B981','gris-oscuro':'#1F2937','gris-claro':'#F9FAFB' } } } }
+    tailwind.config = { theme: { extend: { fontFamily: { inter: ['Inter', 'sans-serif'] }, colors: { 'verde-principal': '#10B981', 'gris-oscuro': '#1F2937', 'gris-claro': '#F9FAFB' } } } }
   </script>
   <style>
-    body { font-family: 'Inter', sans-serif; }
-    .article-content p { margin: 1rem 0; line-height: 1.75; }
-    .article-content h2 { margin-top: 2rem; margin-bottom: 1rem; font-size: 1.75rem; font-weight: 800; color: #065f46; }
-    .article-content h3 { margin-top: 1.5rem; margin-bottom: 0.75rem; font-size: 1.5rem; font-weight: 700; }
-    .article-content ul, .article-content ol { margin: 1rem 0 1.25rem 1.5rem; }
-    .article-content li { margin: 0.5rem 0; line-height: 1.6; }
+    body {
+      font-family: 'Inter', sans-serif;
+    }
+
+    .article-content p {
+      margin: 1rem 0;
+      line-height: 1.75;
+    }
+
+    .article-content h2 {
+      margin-top: 2rem;
+      margin-bottom: 1rem;
+      font-size: 1.75rem;
+      font-weight: 800;
+      color: #065f46;
+    }
+
+    .article-content h3 {
+      margin-top: 1.5rem;
+      margin-bottom: 0.75rem;
+      font-size: 1.5rem;
+      font-weight: 700;
+    }
+
+    .article-content ul,
+    .article-content ol {
+      margin: 1rem 0 1.25rem 1.5rem;
+    }
+
+    .article-content li {
+      margin: 0.5rem 0;
+      line-height: 1.6;
+    }
+
     .highlight-box {
       @apply bg-emerald-50 border-l-4 border-emerald-500 p-4 my-6 rounded-r-lg;
     }
+
     .comparison-table {
       @apply w-full my-6 border-collapse rounded-lg overflow-hidden shadow-sm;
     }
-    .comparison-table th, .comparison-table td {
+
+    .comparison-table th,
+    .comparison-table td {
       @apply border border-gray-300 p-4 text-left align-top;
     }
+
     .comparison-table th {
       @apply bg-emerald-50 font-semibold text-emerald-800 border-emerald-200;
     }
+
     .comparison-table tr:nth-child(even) {
       @apply bg-gray-50;
     }
+
     .comparison-table tr:nth-child(odd) {
       @apply bg-white;
     }
+
     .comparison-table tr:hover {
       @apply bg-emerald-25;
     }
@@ -135,6 +176,7 @@
   }
   </script>
 </head>
+
 <body class="bg-gray-50 text-gray-900">
   <header class="bg-white shadow-lg sticky top-0 z-50">
     <div class="container mx-auto px-4 py-4">
@@ -155,24 +197,37 @@
       <nav class="mt-4">
         <ul id="nav-menu" class="hidden md:flex space-x-8 text-gris-oscuro font-medium">
           <li><a href="../index.html" class="hover:text-verde-principal transition-colors duration-200">Inicio</a></li>
-          <li><a href="../comparativas.html" class="hover:text-verde-principal transition-colors duration-200">Comparativas</a></li>
-          <li><a href="../reviews.html" class="hover:text-verde-principal transition-colors duration-200">Reviews</a></li>
+          <li><a href="../comparativas.html"
+              class="hover:text-verde-principal transition-colors duration-200">Comparativas</a></li>
+          <li><a href="../reviews.html" class="hover:text-verde-principal transition-colors duration-200">Reviews</a>
+          </li>
           <li><a href="../guias.html" class="hover:text-verde-principal transition-colors duration-200">Guías</a></li>
-          <li><a href="../calculadoras.html" class="hover:text-verde-principal transition-colors duration-200">Calculadoras</a></li>
-          <li><a href="../sobre.html" class="hover:text-verde-principal transition-colors duration-200">Sobre mí</a></li>
-          <li><a href="../contacto.html" class="hover:text-verde-principal transition-colors duration-200">Contacto</a></li>
+          <li><a href="../calculadoras.html"
+              class="hover:text-verde-principal transition-colors duration-200">Calculadoras</a></li>
+          <li><a href="../sobre.html" class="hover:text-verde-principal transition-colors duration-200">Sobre mí</a>
+          </li>
+          <li><a href="../contacto.html" class="hover:text-verde-principal transition-colors duration-200">Contacto</a>
+          </li>
         </ul>
 
         <!-- Menú móvil -->
         <ul id="mobile-nav" class="md:hidden hidden flex-col space-y-3 mt-4 bg-gray-50 p-4 rounded-lg">
-            <li><a href="../index.html" class="block text-gris-oscuro hover:text-verde-principal font-medium">Inicio</a></li>
-            <li><a href="../index.html#news-section" class="block text-gris-oscuro hover:text-verde-principal font-medium">Noticias</a></li>
-            <li><a href="../comparativas.html" class="block text-gris-oscuro hover:text-verde-principal font-medium">Comparativas</a></li>
-            <li><a href="../reviews.html" class="block text-gris-oscuro hover:text-verde-principal font-medium">Reviews</a></li>
-            <li><a href="../guias.html" class="block text-gris-oscuro hover:text-verde-principal font-medium">Guías</a></li>
-            <li><a href="../calculadoras.html" class="block text-gris-oscuro hover:text-verde-principal font-medium">Calculadoras</a></li>
-            <li><a href="../sobre.html" class="block text-gris-oscuro hover:text-verde-principal font-medium">Sobre mí</a></li>
-            <li><a href="../contacto.html" class="block text-gris-oscuro hover:text-verde-principal font-medium">Contacto</a></li>
+          <li><a href="../index.html" class="block text-gris-oscuro hover:text-verde-principal font-medium">Inicio</a>
+          </li>
+          <li><a href="../index.html#news-section"
+              class="block text-gris-oscuro hover:text-verde-principal font-medium">Noticias</a></li>
+          <li><a href="../comparativas.html"
+              class="block text-gris-oscuro hover:text-verde-principal font-medium">Comparativas</a></li>
+          <li><a href="../reviews.html"
+              class="block text-gris-oscuro hover:text-verde-principal font-medium">Reviews</a></li>
+          <li><a href="../guias.html" class="block text-gris-oscuro hover:text-verde-principal font-medium">Guías</a>
+          </li>
+          <li><a href="../calculadoras.html"
+              class="block text-gris-oscuro hover:text-verde-principal font-medium">Calculadoras</a></li>
+          <li><a href="../sobre.html" class="block text-gris-oscuro hover:text-verde-principal font-medium">Sobre mí</a>
+          </li>
+          <li><a href="../contacto.html"
+              class="block text-gris-oscuro hover:text-verde-principal font-medium">Contacto</a></li>
         </ul>
       </nav>
     </div>
@@ -189,8 +244,13 @@
           <span class="mx-2">•</span>
           <span>Lectura: 16 min</span>
         </p>
-        <h1 class="text-3xl md:text-4xl font-extrabold leading-tight mt-2">Cómo afecta la temperatura a la autonomía de los coches eléctricos en 2025</h1>
-        <p class="mt-3 text-lg text-gray-700">¿Alguna vez has notado que la autonomía de tu coche eléctrico baja drásticamente en invierno? ¿O que en pleno verano el consumo se dispara con el aire acondicionado? No eres el único. Como propietario de un vehículo eléctrico desde 2022, te cuento todo lo que he aprendido sobre cómo la temperatura afecta a los coches eléctricos y, lo más importante, qué puedes hacer para minimizar su impacto.</p>
+        <h1 class="text-3xl md:text-4xl font-extrabold leading-tight mt-2">Cómo afecta la temperatura a la autonomía de
+          los coches eléctricos en 2025</h1>
+        <p class="mt-3 text-lg text-gray-700">¿Alguna vez has notado que la autonomía de tu coche eléctrico baja
+          drásticamente en invierno? ¿O que en pleno verano el consumo se dispara con el aire acondicionado? No eres el
+          único. Como propietario de un vehículo eléctrico desde 2022, te cuento todo lo que he aprendido sobre cómo la
+          temperatura afecta a los coches eléctricos y, lo más importante, qué puedes hacer para minimizar su impacto.
+        </p>
       </header>
 
       <!-- Breadcrumbs visibles -->
@@ -211,61 +271,95 @@
           <li><a class="hover:underline" href="#introduccion">¿Por qué la temperatura afecta a la batería?</a></li>
           <li><a class="hover:underline" href="#autonomia-invierno">¿Qué ocurre con la autonomía en invierno?</a></li>
           <li><a class="hover:underline" href="#autonomia-verano">¿Y qué pasa con el calor extremo?</a></li>
-          <li><a class="hover:underline" href="#minimizar-efectos">¿Cómo minimizar los efectos de la temperatura?</a></li>
-          <li><a class="hover:underline" href="#tecnologia-gestion-termica">Tecnología de gestión térmica: el gran aliado</a></li>
-          <li><a class="hover:underline" href="#conclusion">Conclusión: la temperatura importa, pero no tanto como antes</a></li>
+          <li><a class="hover:underline" href="#minimizar-efectos">¿Cómo minimizar los efectos de la temperatura?</a>
+          </li>
+          <li><a class="hover:underline" href="#tecnologia-gestion-termica">Tecnología de gestión térmica: el gran
+              aliado</a></li>
+          <li><a class="hover:underline" href="#conclusion">Conclusión: la temperatura importa, pero no tanto como
+              antes</a></li>
         </ol>
       </nav>
 
       <div class="flex justify-center my-8">
-        <img src="https://images.unsplash.com/photo-1706493339408-c955c21b46ee?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTUxfHxjb2NoZXMlMjBlbGVjdHJpY29zfGVufDB8fDB8fHwy&auto=format&fit=crop&q=60&w=500" alt="Coche eléctrico cargando en diferentes condiciones climáticas - Guía sobre autonomía en temperaturas extremas" class="rounded-lg shadow-lg w-full max-w-3xl">
+        <img
+          src="https://images.unsplash.com/photo-1706493339408-c955c21b46ee?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTUxfHxjb2NoZXMlMjBlbGVjdHJpY29zfGVufDB8fDB8fHwy&auto=format&fit=crop&q=60&w=500"
+          alt="Coche eléctrico cargando en diferentes condiciones climáticas - Guía sobre autonomía en temperaturas extremas"
+          class="rounded-lg shadow-lg w-full max-w-3xl">
       </div>
 
       <div class="article-content">
-        <p>¿Alguna vez has notado que la autonomía de tu coche eléctrico baja drásticamente en invierno? ¿O que en pleno verano el consumo se dispara con el aire acondicionado? No eres el único. Como propietario de un vehículo eléctrico desde 2022, he vivido en primera persona cómo las temperaturas extremas pueden afectar a la autonomía. En este artículo te cuento todo lo que he aprendido sobre cómo la temperatura afecta a los coches eléctricos y, lo más importante, qué puedes hacer para minimizar su impacto.</p>
+        <p>¿Alguna vez has notado que la autonomía de tu coche eléctrico baja drásticamente en invierno? ¿O que en pleno
+          verano el consumo se dispara con el aire acondicionado? No eres el único. Como propietario de un vehículo
+          eléctrico desde 2022, he vivido en primera persona cómo las temperaturas extremas pueden afectar a la
+          autonomía. En este artículo te cuento todo lo que he aprendido sobre cómo la temperatura afecta a los coches
+          eléctricos y, lo más importante, qué puedes hacer para minimizar su impacto.</p>
 
         <h2 id="introduccion">1. ¿Por qué la temperatura afecta a la batería de un coche eléctrico?</h2>
-        
-        <p>Las baterías de iones de litio que utilizan los coches eléctricos son como nosotros: tienen su temperatura ideal. Funcionan mejor entre los 20°C y 25°C. Fuera de este rango, su rendimiento se ve afectado por varias razones técnicas que vamos a explorar en detalle:</p>
-        
+
+        <p>Las baterías de iones de litio que utilizan los coches eléctricos son como nosotros: tienen su temperatura
+          ideal. Funcionan mejor entre los 20°C y 25°C. Fuera de este rango, su rendimiento se ve afectado por varias
+          razones técnicas que vamos a explorar en detalle:</p>
+
         <ul>
-          <li>🔋 <strong>Reacciones químicas más lentas</strong>: A bajas temperaturas, las reacciones químicas dentro de la batería se ralentizan, reduciendo su capacidad de entregar energía. Es como si el "motor químico" de la batería funcionara a cámara lenta.</li>
-          <li>🔥 <strong>Mayor resistencia interna</strong>: El frío aumenta la resistencia interna de la batería, lo que se traduce en pérdidas de energía por calentamiento innecesario. Imagina que el camino que recorre la electricidad dentro de la batería se vuelve más "pedregoso" en invierno.</li>
-          <li>❄️ <strong>Consumo de calefacción</strong>: En invierno, buena parte de la energía se destina a calentar la batería y la cabina. El sistema de calefacción puede consumir hasta un 20-30% de la energía disponible en condiciones muy frías.</li>
-          <li>☀️ <strong>Refrigeración activa</strong>: En verano, el sistema de refrigeración trabaja más para mantener la batería a una temperatura segura, consumiendo energía que podría destinarse a mover el vehículo.</li>
+          <li>🔋 <strong>Reacciones químicas más lentas</strong>: A bajas temperaturas, las reacciones químicas dentro
+            de la batería se ralentizan, reduciendo su capacidad de entregar energía. Es como si el "motor químico" de
+            la batería funcionara a cámara lenta.</li>
+          <li>🔥 <strong>Mayor resistencia interna</strong>: El frío aumenta la resistencia interna de la batería, lo
+            que se traduce en pérdidas de energía por calentamiento innecesario. Imagina que el camino que recorre la
+            electricidad dentro de la batería se vuelve más "pedregoso" en invierno.</li>
+          <li>❄️ <strong>Consumo de calefacción</strong>: En invierno, buena parte de la energía se destina a calentar
+            la batería y la cabina. El sistema de calefacción puede consumir hasta un 20-30% de la energía disponible en
+            condiciones muy frías.</li>
+          <li>☀️ <strong>Refrigeración activa</strong>: En verano, el sistema de refrigeración trabaja más para mantener
+            la batería a una temperatura segura, consumiendo energía que podría destinarse a mover el vehículo.</li>
         </ul>
 
         <div class="highlight-box">
           <p class="font-semibold mb-2">💡 Datos interesantes:</p>
-          <p>Según un estudio reciente de la Asociación Europea de Fabricantes de Automóviles (ACEA), la autonomía de los coches eléctricos puede variar hasta un 40% entre un día de verano a 30°C y una noche de invierno a -10°C. Sin embargo, los avances en gestión térmica están reduciendo significativamente este impacto en los modelos más recientes. Por ejemplo, el Tesla Model Y con bomba de calor pierde solo un 15-20% de autonomía en condiciones extremas, frente al 30-40% de modelos más antiguos.</p>
+          <p>Según un estudio reciente de la Asociación Europea de Fabricantes de Automóviles (ACEA), la autonomía de
+            los coches eléctricos puede variar hasta un 40% entre un día de verano a 30°C y una noche de invierno a
+            -10°C. Sin embargo, los avances en gestión térmica están reduciendo significativamente este impacto en los
+            modelos más recientes. Por ejemplo, el Tesla Model Y con bomba de calor pierde solo un 15-20% de autonomía
+            en condiciones extremas, frente al 30-40% de modelos más antiguos.</p>
         </div>
 
         <h2 id="autonomia-invierno">2. ¿Qué ocurre con la autonomía en invierno?</h2>
-        
-        <p>El invierno es el momento en que más notarás la reducción de autonomía en tu coche eléctrico. En mi experiencia con un <a href="review-tesla-model-y-2025.html" class="text-emerald-700 hover:underline">Tesla Model Y 2025</a>, he llegado a ver reducciones de hasta un 30% en días especialmente fríos. Estos son los principales factores que explican esta pérdida significativa:</p>
-        
+
+        <p>El invierno es el momento en que más notarás la reducción de autonomía en tu coche eléctrico. En mi
+          experiencia con un <a href="review-tesla-model-y-2025.html" class="text-emerald-700 hover:underline">Tesla
+            Model Y 2025</a>, he llegado a ver reducciones de hasta un 30% en días especialmente fríos. Estos son los
+          principales factores que explican esta pérdida significativa:</p>
+
         <h3>Factores que reducen la autonomía en invierno:</h3>
         <ul>
-          <li><strong>Calentamiento de la batería</strong>: La batería necesita estar a unos 20°C para funcionar óptimamente, por lo que el sistema dedica energía a calentarla.</li>
-          <li><strong>Calefacción del habitáculo</strong>: El consumo de energía para mantener el interior confortable puede ser muy elevado, especialmente con sistemas de calefacción tradicionales.</li>
-          <li><strong>Neumáticos fríos</strong>: Los neumáticos pierden presión con el frío y tienen menos adherencia, lo que aumenta la resistencia a la rodadura.</li>
-          <li><strong>Mayor densidad del aire</strong>: El aire frío es más denso, creando más resistencia aerodinámica.</li>
+          <li><strong>Calentamiento de la batería</strong>: La batería necesita estar a unos 20°C para funcionar
+            óptimamente, por lo que el sistema dedica energía a calentarla.</li>
+          <li><strong>Calefacción del habitáculo</strong>: El consumo de energía para mantener el interior confortable
+            puede ser muy elevado, especialmente con sistemas de calefacción tradicionales.</li>
+          <li><strong>Neumáticos fríos</strong>: Los neumáticos pierden presión con el frío y tienen menos adherencia,
+            lo que aumenta la resistencia a la rodadura.</li>
+          <li><strong>Mayor densidad del aire</strong>: El aire frío es más denso, creando más resistencia aerodinámica.
+          </li>
         </ul>
-        
+
         <h3>Pérdida de autonomía en condiciones invernales:</h3>
-        
-        <table style="width: 100%; margin: 1.5rem 0; border-collapse: collapse; border-radius: 0.5rem; overflow: hidden; box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);">
+
+        <table
+          style="width: 100%; margin: 1.5rem 0; border-collapse: collapse; border-radius: 0.5rem; overflow: hidden; box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);">
           <thead>
             <tr style="background-color: #ecfdf5; color: #065f46;">
               <th style="border: 1px solid #a7f3d0; padding: 1rem; text-align: left; font-weight: 600;">Temperatura</th>
-              <th style="border: 1px solid #a7f3d0; padding: 1rem; text-align: left; font-weight: 600;">Autonomía WLTP</th>
-              <th style="border: 1px solid #a7f3d0; padding: 1rem; text-align: left; font-weight: 600;">Autonomía real</th>
+              <th style="border: 1px solid #a7f3d0; padding: 1rem; text-align: left; font-weight: 600;">Autonomía WLTP
+              </th>
+              <th style="border: 1px solid #a7f3d0; padding: 1rem; text-align: left; font-weight: 600;">Autonomía real
+              </th>
               <th style="border: 1px solid #a7f3d0; padding: 1rem; text-align: left; font-weight: 600;">Pérdida</th>
             </tr>
           </thead>
           <tbody>
             <tr style="background-color: #f9fafb;">
-              <td style="border: 1px solid #d1d5db; padding: 1rem; text-align: left; vertical-align: top;">25°C (óptima)</td>
+              <td style="border: 1px solid #d1d5db; padding: 1rem; text-align: left; vertical-align: top;">25°C (óptima)
+              </td>
               <td style="border: 1px solid #d1d5db; padding: 1rem; text-align: left; vertical-align: top;">450 km</td>
               <td style="border: 1px solid #d1d5db; padding: 1rem; text-align: left; vertical-align: top;">450 km</td>
               <td style="border: 1px solid #d1d5db; padding: 1rem; text-align: left; vertical-align: top;">0%</td>
@@ -291,76 +385,135 @@
           </tbody>
         </table>
 
-        <p>Estos valores pueden variar según el modelo y el sistema de gestión térmica. Por ejemplo, los vehículos con bomba de calor, como el <a href="byd-atto3-2025-review.html" class="text-emerald-700 hover:underline">BYD Atto 3</a>, mantienen mejor la autonomía en frío que los que solo tienen calefacción por resistencias.</p>
+        <p>Estos valores pueden variar según el modelo y el sistema de gestión térmica. Por ejemplo, los vehículos con
+          bomba de calor, como el <a href="byd-atto3-2025-review.html" class="text-emerald-700 hover:underline">BYD Atto
+            3</a>, mantienen mejor la autonomía en frío que los que solo tienen calefacción por resistencias.</p>
 
         <h2 id="autonomia-verano">3. ¿Y qué pasa con el calor extremo?</h2>
-        
-        <p>Aunque el calor no afecta tanto como el frío, también tiene su impacto. En verano, la autonomía puede reducirse entre un 5% y un 15% por estos motivos específicos:</p>
-        
+
+        <p>Aunque el calor no afecta tanto como el frío, también tiene su impacto. En verano, la autonomía puede
+          reducirse entre un 5% y un 15% por estos motivos específicos:</p>
+
         <h3>Factores que afectan la autonomía en verano:</h3>
         <ul>
-          <li><strong>Sobrecalentamiento de la batería</strong>: Las baterías de litio no pueden superar los 45-50°C sin riesgo de degradación, por lo que el sistema de refrigeración debe trabajar constantemente.</li>
-          <li><strong>Aire acondicionado</strong>: Aunque consume menos energía que la calefacción (alrededor del 10-15% vs 20-30%), sigue siendo un gasto adicional significativo en viajes largos.</li>
-          <li><strong>Mayor resistencia eléctrica</strong>: A temperaturas elevadas, la resistencia interna de la batería aumenta ligeramente, reduciendo su eficiencia.</li>
-          <li><strong>Expansión térmica</strong>: El calor hace que los componentes se expandan, lo que puede generar pequeñas pérdidas de eficiencia en el sistema eléctrico.</li>
+          <li><strong>Sobrecalentamiento de la batería</strong>: Las baterías de litio no pueden superar los 45-50°C sin
+            riesgo de degradación, por lo que el sistema de refrigeración debe trabajar constantemente.</li>
+          <li><strong>Aire acondicionado</strong>: Aunque consume menos energía que la calefacción (alrededor del 10-15%
+            vs 20-30%), sigue siendo un gasto adicional significativo en viajes largos.</li>
+          <li><strong>Mayor resistencia eléctrica</strong>: A temperaturas elevadas, la resistencia interna de la
+            batería aumenta ligeramente, reduciendo su eficiencia.</li>
+          <li><strong>Expansión térmica</strong>: El calor hace que los componentes se expandan, lo que puede generar
+            pequeñas pérdidas de eficiencia en el sistema eléctrico.</li>
         </ul>
 
         <div class="highlight-box">
           <p class="font-semibold mb-2">🔥 Consejo experto:</p>
-          <p>Durante una ola de calor en España en julio de 2024, probé mi coche eléctrico en un viaje de 400 km por autopista. Con temperaturas superiores a 35°C y el aire acondicionado funcionando constantemente, la autonomía real fue un 12% menor que la anunciada por el fabricante. Sin embargo, cuando programé la carga para las horas más frescas del día (temprano por la mañana o por la noche), pude minimizar este impacto significativamente.</p>
+          <p>Durante una ola de calor en España en julio de 2024, probé mi coche eléctrico en un viaje de 400 km por
+            autopista. Con temperaturas superiores a 35°C y el aire acondicionado funcionando constantemente, la
+            autonomía real fue un 12% menor que la anunciada por el fabricante. Sin embargo, cuando programé la carga
+            para las horas más frescas del día (temprano por la mañana o por la noche), pude minimizar este impacto
+            significativamente.</p>
         </div>
 
         <h2 id="minimizar-efectos">4. ¿Cómo minimizar los efectos de la temperatura en la autonomía?</h2>
-        
-        <p>Después de tres años conduciendo un coche eléctrico en todas las estaciones, estos son mis mejores consejos para mantener la máxima autonomía:</p>
-        
+
+        <p>Después de tres años conduciendo un coche eléctrico en todas las estaciones, estos son mis mejores consejos
+          para mantener la máxima autonomía:</p>
+
         <h3>1. Precalienta el coche mientras está enchufado</h3>
-        <p>La mayoría de los coches eléctricos permiten programar el precalentamiento mientras están enchufados. Esto significa que la batería y el habitáculo se calentarán usando la energía de la red, no de la batería. En mi experiencia, esto puede ahorrar hasta un 15-20% de autonomía en un viaje de invierno.</p>
-        
+        <p>La mayoría de los coches eléctricos permiten programar el precalentamiento mientras están enchufados. Esto
+          significa que la batería y el habitáculo se calentarán usando la energía de la red, no de la batería. En mi
+          experiencia, esto puede ahorrar hasta un 15-20% de autonomía en un viaje de invierno.</p>
+
         <h3>2. Usa el volante y los asientos calefactables estratégicamente</h3>
-        <p>Calentar el volante y los asientos consume mucha menos energía que calentar todo el habitáculo. En mi <a href="tesla-model-3-2025-review.html" class="text-emerald-700 hover:underline">Tesla Model 3</a>, activar solo los asientos y el volante calefactables puede ahorrarme hasta un 10% de autonomía en invierno. Además, estos sistemas suelen ser más rápidos en calentar que el sistema general de climatización.</p>
-        
+        <p>Calentar el volante y los asientos consume mucha menos energía que calentar todo el habitáculo. En mi <a
+            href="tesla-model-3-2025-review.html" class="text-emerald-700 hover:underline">Tesla Model 3</a>, activar
+          solo los asientos y el volante calefactables puede ahorrarme hasta un 10% de autonomía en invierno. Además,
+          estos sistemas suelen ser más rápidos en calentar que el sistema general de climatización.</p>
+
         <h3>3. Aparca en garaje siempre que sea posible</h3>
-        <p>Un garaje, aunque no esté calefactado, puede mantener la temperatura de la batería varios grados por encima de la exterior en invierno, reduciendo la pérdida de autonomía. Incluso un garaje sin calefacción puede marcar la diferencia entre una pérdida del 25% y del 35% en condiciones muy frías.</p>
-        
+        <p>Un garaje, aunque no esté calefactado, puede mantener la temperatura de la batería varios grados por encima
+          de la exterior en invierno, reduciendo la pérdida de autonomía. Incluso un garaje sin calefacción puede marcar
+          la diferencia entre una pérdida del 25% y del 35% en condiciones muy frías.</p>
+
         <h3>4. Usa el modo Eco en condiciones extremas</h3>
-        <p>La mayoría de los coches eléctricos tienen un modo Eco que limita la potencia del motor y el climatizador para maximizar la autonomía. Aunque reduce las prestaciones, puede ser muy útil en viajes largos con temperaturas extremas. Para calcular exactamente cuánto puedes ahorrar con este modo, usa nuestra <a href="../calculadoras.html" class="text-emerald-700 hover:underline">calculadora de autonomía</a>.</p>
+        <p>La mayoría de los coches eléctricos tienen un modo Eco que limita la potencia del motor y el climatizador
+          para maximizar la autonomía. Aunque reduce las prestaciones, puede ser muy útil en viajes largos con
+          temperaturas extremas. Para calcular exactamente cuánto puedes ahorrar con este modo, usa nuestra <a
+            href="../calculadoras.html" class="text-emerald-700 hover:underline">calculadora de autonomía</a>.</p>
 
         <h3>5. Programa tus cargas para las horas más frescas</h3>
-        <p>En verano, cargar el coche durante las horas más calurosas del día puede generar más calor en la batería. Programa las cargas para primera hora de la mañana o por la noche cuando las temperaturas son más bajas.</p>
+        <p>En verano, cargar el coche durante las horas más calurosas del día puede generar más calor en la batería.
+          Programa las cargas para primera hora de la mañana o por la noche cuando las temperaturas son más bajas.</p>
 
         <h2 id="tecnologia-gestion-termica">5. Tecnología de gestión térmica: el gran aliado</h2>
-        
-        <p>Los avances en gestión térmica están reduciendo significativamente el impacto de la temperatura en la autonomía. Los sistemas más avanzados actualmente incluyen tecnologías que marcan una verdadera diferencia:</p>
-        
-        <p>Además, el tipo de batería influye directamente en cómo responde el vehículo a las temperaturas extremas. Para entender mejor las diferencias entre baterías LFP y NCM y cómo elegir la más adecuada para tu clima, te recomiendo nuestro artículo completo sobre <a href="baterias-lfp-vs-ncm-diferencias-ventajas-eleccion-2026.html" class="text-emerald-700 hover:underline">Baterías LFP vs NCM: diferencias y cuál elegir en 2026</a>.</p>
-        
+
+        <p>Los avances en gestión térmica están reduciendo significativamente el impacto de la temperatura en la
+          autonomía. Los sistemas más avanzados actualmente incluyen tecnologías que marcan una verdadera diferencia:
+        </p>
+
+        <p>Además, el tipo de batería influye directamente en cómo responde el vehículo a las temperaturas extremas.
+          Para entender mejor las diferencias entre baterías LFP y NCM y cómo elegir la más adecuada para tu clima, te
+          recomiendo nuestro artículo completo sobre <a
+            href="baterias-lfp-vs-ncm-diferencias-ventajas-eleccion-2026.html"
+            class="text-emerald-700 hover:underline">Baterías LFP vs NCM: diferencias y cuál elegir en 2026</a>.</p>
+
         <h3>Tecnologías de gestión térmica avanzada:</h3>
         <ul>
-          <li><strong>🌡️ Bombas de calor de nueva generación</strong>: Como la del <a href="hyundai-ioniq-5-2025-review.html" class="text-emerald-700 hover:underline">Hyundai Ioniq 5</a>, que pueden ser hasta tres veces más eficientes que los sistemas tradicionales de calefacción. En condiciones de -10°C, una bomba de calor puede reducir la pérdida de autonomía del 35% al 20%.</li>
-          <li><strong>❄️ Sistemas de refrigeración líquida inteligente</strong>: Mantienen la batería en su temperatura óptima (20-25°C) incluso en condiciones extremas mediante un circuito de refrigeración que utiliza líquido en lugar de aire.</li>
-          <li><strong>🔄 Sistemas de recuperación de calor</strong>: Algunos modelos de última generación, como el <a href="volkswagen-id4-2025-review.html" class="text-emerald-700 hover:underline">Volkswagen ID.4</a>, aprovechan el calor residual del motor eléctrico, la electrónica de potencia y hasta de los frenos para calentar la batería sin consumir energía adicional.</li>
-          <li><strong>🔋 Preacondicionamiento inteligente</strong>: Los sistemas más avanzados utilizan datos meteorológicos y de navegación para precalentar o preenfriar la batería automáticamente, optimizando el consumo energético.</li>
+          <li><strong>🌡️ Bombas de calor de nueva generación</strong>: Como la del <a
+              href="hyundai-ioniq-5-2025-review.html" class="text-emerald-700 hover:underline">Hyundai Ioniq 5</a>, que
+            pueden ser hasta tres veces más eficientes que los sistemas tradicionales de calefacción. En condiciones de
+            -10°C, una bomba de calor puede reducir la pérdida de autonomía del 35% al 20%.</li>
+          <li><strong>❄️ Sistemas de refrigeración líquida inteligente</strong>: Mantienen la batería en su temperatura
+            óptima (20-25°C) incluso en condiciones extremas mediante un circuito de refrigeración que utiliza líquido
+            en lugar de aire.</li>
+          <li><strong>🔄 Sistemas de recuperación de calor</strong>: Algunos modelos de última generación, como el <a
+              href="volkswagen-id4-2025-review.html" class="text-emerald-700 hover:underline">Volkswagen ID.4</a>,
+            aprovechan el calor residual del motor eléctrico, la electrónica de potencia y hasta de los frenos para
+            calentar la batería sin consumir energía adicional.</li>
+          <li><strong>🔋 Preacondicionamiento inteligente</strong>: Los sistemas más avanzados utilizan datos
+            meteorológicos y de navegación para precalentar o preenfriar la batería automáticamente, optimizando el
+            consumo energético.</li>
         </ul>
 
         <div class="highlight-box">
           <p class="font-semibold mb-2">📊 Datos comparativos:</p>
-          <p>Según pruebas realizadas por la EPA (Agencia de Protección Ambiental de EE.UU.), un Tesla Model 3 con bomba de calor pierde solo un 15% de autonomía en condiciones de frío extremo, mientras que modelos similares sin esta tecnología pueden perder hasta un 40%. Esta diferencia de 25 puntos porcentuales puede traducirse en 80-100 km adicionales de autonomía real en un viaje largo de invierno.</p>
+          <p>Según pruebas realizadas por la EPA (Agencia de Protección Ambiental de EE.UU.), un Tesla Model 3 con bomba
+            de calor pierde solo un 15% de autonomía en condiciones de frío extremo, mientras que modelos similares sin
+            esta tecnología pueden perder hasta un 40%. Esta diferencia de 25 puntos porcentuales puede traducirse en
+            80-100 km adicionales de autonomía real en un viaje largo de invierno.</p>
         </div>
 
         <h2 id="conclusion">6. Conclusión: la temperatura importa, pero no tanto como antes</h2>
-        
-        <p>Si bien es cierto que la temperatura sigue afectando a la autonomía de los coches eléctricos, los avances tecnológicos están reduciendo significativamente este impacto. Los modelos más recientes, especialmente los que incorporan bombas de calor y sistemas avanzados de gestión térmica, mantienen una autonomía mucho más estable en condiciones extremas.</p>
-        
-        <p>Para poner esto en perspectiva con números reales: mientras que un coche eléctrico de primera generación podía perder hasta 50 km de autonomía en un día de -15°C, los modelos actuales con tecnología avanzada pierden solo 20-30 km en las mismas condiciones. Esto representa una mejora del 40-60% en la estabilidad de la autonomía.</p>
-        
-        <p>Si estás pensando en comprar un coche eléctrico y vives en una zona con inviernos fríos o veranos muy calurosos, te recomiendo que consultes nuestra <a href="mejores-coches-electricos-climas-frios-2025.html" class="text-emerald-700 hover:underline">guía de los mejores coches eléctricos para climas extremos</a> para tomar la mejor decisión. Allí encontrarás comparativas detalladas de modelos con diferentes sistemas de gestión térmica.</p>
-        
-        <p>Y recuerda: aunque la autonomía pueda verse reducida en condiciones extremas, la gran mayoría de los trayectos diarios (menos de 100 km) se pueden completar sin problemas con cualquier coche eléctrico moderno, independientemente de la temperatura exterior. La infraestructura de carga rápida cada vez más extensa hace que incluso los viajes largos sean perfectamente viables.</p>
+
+        <p>Si bien es cierto que la temperatura sigue afectando a la autonomía de los coches eléctricos, los avances
+          tecnológicos están reduciendo significativamente este impacto. Los modelos más recientes, especialmente los
+          que incorporan bombas de calor y sistemas avanzados de gestión térmica, mantienen una autonomía mucho más
+          estable en condiciones extremas.</p>
+
+        <p>Para poner esto en perspectiva con números reales: mientras que un coche eléctrico de primera generación
+          podía perder hasta 50 km de autonomía en un día de -15°C, los modelos actuales con tecnología avanzada pierden
+          solo 20-30 km en las mismas condiciones. Esto representa una mejora del 40-60% en la estabilidad de la
+          autonomía.</p>
+
+        <p>Si estás pensando en comprar un coche eléctrico y vives en una zona con inviernos fríos o veranos muy
+          calurosos, te recomiendo que consultes nuestra <a href="mejores-coches-electricos-climas-frios-2025.html"
+            class="text-emerald-700 hover:underline">guía de los mejores coches eléctricos para climas extremos</a> para
+          tomar la mejor decisión. Allí encontrarás comparativas detalladas de modelos con diferentes sistemas de
+          gestión térmica.</p>
+
+        <p>Y recuerda: aunque la autonomía pueda verse reducida en condiciones extremas, la gran mayoría de los
+          trayectos diarios (menos de 100 km) se pueden completar sin problemas con cualquier coche eléctrico moderno,
+          independientemente de la temperatura exterior. La infraestructura de carga rápida cada vez más extensa hace
+          que incluso los viajes largos sean perfectamente viables.</p>
 
         <div class="highlight-box">
           <p class="font-semibold mb-2">💡 Reflexión final:</p>
-          <p>Después de tres años y más de 60.000 km con mi coche eléctrico, puedo decir que la temperatura ya no es el factor limitante que era antes. Los avances tecnológicos han convertido lo que antes era una preocupación real en una simple variable más a considerar, como el viento o la carga del vehículo. Si estás dudando por el tema de la autonomía en invierno o verano, mi consejo es que pruebes un modelo actual: te sorprenderá lo poco que ha cambiado tu rutina de movilidad.</p>
+          <p>Después de tres años y más de 60.000 km con mi coche eléctrico, puedo decir que la temperatura ya no es el
+            factor limitante que era antes. Los avances tecnológicos han convertido lo que antes era una preocupación
+            real en una simple variable más a considerar, como el viento o la carga del vehículo. Si estás dudando por
+            el tema de la autonomía en invierno o verano, mi consejo es que pruebes un modelo actual: te sorprenderá lo
+            poco que ha cambiado tu rutina de movilidad.</p>
         </div>
       </div>
 
@@ -369,89 +522,124 @@
         <h2 class="text-2xl font-bold mb-6 text-gray-800">Preguntas frecuentes sobre temperatura y autonomía</h2>
         <div class="space-y-4">
           <div class="border-b border-gray-200 pb-4">
-            <h3 class="text-lg font-semibold text-emerald-700 mb-2">¿Por qué la temperatura afecta tanto la autonomía de mi coche eléctrico?</h3>
-            <p class="text-gray-700">Las baterías de iones de litio funcionan mejor entre 20-25°C. Fuera de este rango, las reacciones químicas se ralentizan (en frío) o aumenta la resistencia interna (en calor), lo que reduce la capacidad de entregar energía y fuerza al sistema a consumir más para mantener la temperatura óptima.</p>
+            <h3 class="text-lg font-semibold text-emerald-700 mb-2">¿Por qué la temperatura afecta tanto la autonomía de
+              mi coche eléctrico?</h3>
+            <p class="text-gray-700">Las baterías de iones de litio funcionan mejor entre 20-25°C. Fuera de este rango,
+              las reacciones químicas se ralentizan (en frío) o aumenta la resistencia interna (en calor), lo que reduce
+              la capacidad de entregar energía y fuerza al sistema a consumir más para mantener la temperatura óptima.
+            </p>
           </div>
           <div class="border-b border-gray-200 pb-4">
-            <h3 class="text-lg font-semibold text-emerald-700 mb-2">¿Cuánta autonomía pierdo en invierno con temperaturas bajo cero?</h3>
-            <p class="text-gray-700">En condiciones de -10°C, puedes perder hasta un 30% de autonomía respecto a condiciones óptimas (20-25°C). Por ejemplo, un coche con 450 km WLTP podría quedarse en 315 km reales. Sin embargo, modelos con bomba de calor reducen esta pérdida al 15-20%.</p>
+            <h3 class="text-lg font-semibold text-emerald-700 mb-2">¿Cuánta autonomía pierdo en invierno con
+              temperaturas bajo cero?</h3>
+            <p class="text-gray-700">En condiciones de -10°C, puedes perder hasta un 30% de autonomía respecto a
+              condiciones óptimas (20-25°C). Por ejemplo, un coche con 450 km WLTP podría quedarse en 315 km reales. Sin
+              embargo, modelos con bomba de calor reducen esta pérdida al 15-20%.</p>
           </div>
           <div class="border-b border-gray-200 pb-4">
-            <h3 class="text-lg font-semibold text-emerald-700 mb-2">¿El calor afecta menos que el frío a la autonomía?</h3>
-            <p class="text-gray-700">Sí, el impacto del calor es menor, reduciendo la autonomía entre un 5-15% en temperaturas superiores a 30°C. El aire acondicionado consume menos energía que la calefacción, y el sistema de refrigeración es más eficiente que el de calefacción en la mayoría de modelos.</p>
+            <h3 class="text-lg font-semibold text-emerald-700 mb-2">¿El calor afecta menos que el frío a la autonomía?
+            </h3>
+            <p class="text-gray-700">Sí, el impacto del calor es menor, reduciendo la autonomía entre un 5-15% en
+              temperaturas superiores a 30°C. El aire acondicionado consume menos energía que la calefacción, y el
+              sistema de refrigeración es más eficiente que el de calefacción en la mayoría de modelos.</p>
           </div>
           <div class="border-b border-gray-200 pb-4">
-            <h3 class="text-lg font-semibold text-emerald-700 mb-2">¿Cómo puedo minimizar la pérdida de autonomía en condiciones extremas?</h3>
-            <p class="text-gray-700">Precalienta el coche mientras está enchufado, usa modos de conducción eficientes (Eco), aparca en garaje, programa cargas en horas frescas y aprovecha sistemas como bombas de calor. Estos consejos pueden reducir la pérdida al 10-15% incluso en temperaturas extremas.</p>
+            <h3 class="text-lg font-semibold text-emerald-700 mb-2">¿Cómo puedo minimizar la pérdida de autonomía en
+              condiciones extremas?</h3>
+            <p class="text-gray-700">Precalienta el coche mientras está enchufado, usa modos de conducción eficientes
+              (Eco), aparca en garaje, programa cargas en horas frescas y aprovecha sistemas como bombas de calor. Estos
+              consejos pueden reducir la pérdida al 10-15% incluso en temperaturas extremas.</p>
           </div>
           <div class="border-b border-gray-200 pb-4">
-            <h3 class="text-lg font-semibold text-emerald-700 mb-2">¿Todos los coches eléctricos sufren igual con la temperatura?</h3>
-            <p class="text-gray-700">No, depende del modelo y tecnología. Vehículos con bombas de calor (como Tesla Model Y o Hyundai Ioniq 5) pierden menos autonomía en frío. Las baterías LFP son más estables térmicamente que las NCM, pero tienen menor densidad energética.</p>
+            <h3 class="text-lg font-semibold text-emerald-700 mb-2">¿Todos los coches eléctricos sufren igual con la
+              temperatura?</h3>
+            <p class="text-gray-700">No, depende del modelo y tecnología. Vehículos con bombas de calor (como Tesla
+              Model Y o Hyundai Ioniq 5) pierden menos autonomía en frío. Las baterías LFP son más estables térmicamente
+              que las NCM, pero tienen menor densidad energética.</p>
           </div>
         </div>
       </section>
 
       <footer class="mt-10 pt-6 border-t text-sm text-gray-600">
-        <p>¿Tienes alguna experiencia o consejo sobre cómo afecta la temperatura a la autonomía de tu coche eléctrico? ¿Quieres que profundicemos en algún aspecto concreto? Déjame un comentario, estaré encantado de ayudarte con lo que necesites.</p>
+        <p>¿Tienes alguna experiencia o consejo sobre cómo afecta la temperatura a la autonomía de tu coche eléctrico?
+          ¿Quieres que profundicemos en algún aspecto concreto? Déjame un comentario, estaré encantado de ayudarte con
+          lo que necesites.</p>
       </footer>
 
       <!-- Sobre el autor -->
       <section class="mt-12 bg-emerald-50 border border-emerald-100 rounded-xl p-6">
         <h2 class="text-2xl font-bold mb-2">Sobre el autor</h2>
-        <p class="text-gray-700">Apasionado de la movilidad eléctrica con más de 50.000 km de experiencia en viajes por carretera. He probado todo tipo de vehículos: desde eléctricos puros hasta híbridos, y comparto lo aprendido para que tu transición a la movilidad sostenible sea más fácil y sin sorpresas.</p>
+        <p class="text-gray-700">Apasionado de la movilidad eléctrica con más de 50.000 km de experiencia en viajes por
+          carretera. He probado todo tipo de vehículos: desde eléctricos puros hasta híbridos, y comparto lo aprendido
+          para que tu transición a la movilidad sostenible sea más fácil y sin sorpresas.</p>
       </section>
 
       <!-- Fuentes y referencias técnicas -->
       <section class="mt-12 bg-gray-50 border border-gray-200 rounded-lg p-6">
         <h2 class="text-2xl font-bold mb-4 text-gray-800">Fuentes y referencias técnicas</h2>
-        <p class="text-gray-700 mb-4">Esta guía se basa en datos técnicos de fabricantes como Tesla, BYD y otros, informes de organizaciones independientes como la EPA (Agencia de Protección Ambiental de EE.UU.), ACEA (Asociación Europea de Fabricantes de Automóviles), pruebas de consumo reales realizadas por organizaciones como el ADAC alemán y mi experiencia personal con vehículos eléctricos en diferentes condiciones climáticas.</p>
+        <p class="text-gray-700 mb-4">Esta guía se basa en datos técnicos de fabricantes como Tesla, BYD y otros,
+          informes de organizaciones independientes como la EPA (Agencia de Protección Ambiental de EE.UU.), ACEA
+          (Asociación Europea de Fabricantes de Automóviles), pruebas de consumo reales realizadas por organizaciones
+          como el ADAC alemán y mi experiencia personal con vehículos eléctricos en diferentes condiciones climáticas.
+        </p>
 
         <h3 class="text-lg font-semibold text-emerald-700 mb-3">Fuentes técnicas consultadas:</h3>
         <ul class="list-disc ml-6 space-y-2 text-gray-700">
-          <li><strong>Estudio ACEA sobre autonomía en condiciones extremas (2024)</strong> - Datos sobre pérdida de autonomía en temperaturas extremas en Europa</li>
-          <li><strong>Informe EPA sobre eficiencia energética (2025)</strong> - Pruebas independientes de autonomía real vs condiciones de laboratorio</li>
-          <li><strong>Tesla Battery and Thermal Management System</strong> - Documentación técnica sobre gestión térmica de baterías</li>
-          <li><strong>BYD Blade Battery Thermal Performance</strong> - Información técnica sobre comportamiento térmico de baterías LFP</li>
+          <li><strong>Estudio ACEA sobre autonomía en condiciones extremas (2024)</strong> - Datos sobre pérdida de
+            autonomía en temperaturas extremas en Europa</li>
+          <li><strong>Informe EPA sobre eficiencia energética (2025)</strong> - Pruebas independientes de autonomía real
+            vs condiciones de laboratorio</li>
+          <li><strong>Tesla Battery and Thermal Management System</strong> - Documentación técnica sobre gestión térmica
+            de baterías</li>
+          <li><strong>BYD Blade Battery Thermal Performance</strong> - Información técnica sobre comportamiento térmico
+            de baterías LFP</li>
           <li><strong>ADAC EcoTest (2024-2025)</strong> - Pruebas independientes de autonomía en condiciones reales</li>
-          <li><strong>Journal of Power Sources - Thermal Effects on Li-ion Batteries</strong> - Estudios científicos sobre efectos térmicos en baterías de litio</li>
-          <li><strong>Hyundai Motor Group Thermal Management Technology</strong> - Información técnica sobre sistemas de gestión térmica avanzada</li>
-          <li><strong>Volkswagen ID. Family Thermal Management</strong> - Documentación sobre sistemas de recuperación de calor en vehículos eléctricos</li>
+          <li><strong>Journal of Power Sources - Thermal Effects on Li-ion Batteries</strong> - Estudios científicos
+            sobre efectos térmicos en baterías de litio</li>
+          <li><strong>Hyundai Motor Group Thermal Management Technology</strong> - Información técnica sobre sistemas de
+            gestión térmica avanzada</li>
+          <li><strong>Volkswagen ID. Family Thermal Management</strong> - Documentación sobre sistemas de recuperación
+            de calor en vehículos eléctricos</li>
         </ul>
 
         <p class="text-gray-600 mt-4 text-sm"><em>Última actualización: 15 de octubre de 2025</em></p>
       </section>
-      <script async="async" data-cfasync="false" src="//pl28052676.effectivegatecpm.com/2f2bf98ebb38fc325879c099d716122f/invoke.js"></script>
+      <script async="async" data-cfasync="false"
+        src="//pl28052676.effectivegatecpm.com/2f2bf98ebb38fc325879c099d716122f/invoke.js"></script>
       <div id="container-2f2bf98ebb38fc325879c099d716122f"></div>
     </article>
   </main>
 
   <footer class="bg-gris-oscuro text-white py-12 mt-16">
     <div class="container mx-auto px-4">
-    <div class="flex flex-col md:flex-row gap-8">
-      <div class="flex-1">
-        <div class="flex items-start space-x-3 mb-2">
-          <div class="bg-white rounded-lg p-1">
-            <img src="http://electromovilidad24.com/imagenes/logo.webp" alt="Electromovilidad 24" class="h-16 w-auto">
+      <div class="flex flex-col md:flex-row gap-8">
+        <div class="flex-1">
+          <div class="flex items-start space-x-3 mb-2">
+            <div class="bg-white rounded-lg p-1">
+              <img src="http://electromovilidad24.com/imagenes/logo.webp" alt="Electromovilidad 24" class="h-16 w-auto">
+            </div>
+            <div>
+              <h3 class="text-xl font-bold">Electromovilidad 24</h3>
+              <p class="text-gray-300">Tu fuente confiable de comparativas sobre movilidad eléctrica.</p>
+            </div>
           </div>
-          <div>
-            <h3 class="text-xl font-bold">Electromovilidad 24</h3>
-            <p class="text-gray-300">Tu fuente confiable de comparativas sobre movilidad eléctrica.</p>
+        </div>
+        <div class="flex-1">
+          <h4 class="text-lg font-semibold mb-2">Enlaces Útiles</h4>
+          <div class="flex flex-wrap gap-4">
+            <a href="../index.html" class="text-gray-300 hover:text-verde-principal transition-colors">Inicio</a>
+            <a href="../index.html#news-section"
+              class="text-gray-300 hover:text-verde-principal transition-colors">Noticias</a>
+            <a href="../comparativas.html"
+              class="text-gray-300 hover:text-verde-principal transition-colors">Comparativas</a>
+            <a href="../reviews.html" class="text-gray-300 hover:text-verde-principal transition-colors">Reviews</a>
+            <a href="../guias.html" class="text-gray-300 hover:text-verde-principal transition-colors">Guías</a>
+            <a href="../calculadoras.html"
+              class="text-gray-300 hover:text-verde-principal transition-colors">Calculadoras</a>
+            <a href="../sobre.html" class="text-gray-300 hover:text-verde-principal transition-colors">Sobre mí</a>
           </div>
         </div>
       </div>
-      <div class="flex-1">
-        <h4 class="text-lg font-semibold mb-2">Enlaces Útiles</h4>
-        <div class="flex flex-wrap gap-4">
-          <a href="../index.html" class="text-gray-300 hover:text-verde-principal transition-colors">Inicio</a>
-          <a href="../index.html#news-section" class="text-gray-300 hover:text-verde-principal transition-colors">Noticias</a>
-          <a href="../comparativas.html" class="text-gray-300 hover:text-verde-principal transition-colors">Comparativas</a>
-          <a href="../reviews.html" class="text-gray-300 hover:text-verde-principal transition-colors">Reviews</a>
-          <a href="../guias.html" class="text-gray-300 hover:text-verde-principal transition-colors">Guías</a>
-          <a href="../calculadoras.html" class="text-gray-300 hover:text-verde-principal transition-colors">Calculadoras</a>
-          <a href="../sobre.html" class="text-gray-300 hover:text-verde-principal transition-colors">Sobre mí</a>
-        </div>
-      </div>
-    </div>
 
       <div class="border-t border-gray-700 mt-8 pt-8 text-center">
         <p class="text-gray-400">
@@ -463,10 +651,13 @@
 
   <script>
     // Menú móvil
-    document.getElementById('mobile-menu-btn').addEventListener('click', function() {
+    document.getElementById('mobile-menu-btn').addEventListener('click', function () {
       const menu = document.getElementById('mobile-nav');
       menu.classList.toggle('hidden');
     });
   </script>
+  <script type='text/javascript'
+    src='//pl28052810.effectivegatecpm.com/87/85/ba/8785baa66295effbd2aec6714ef57340.js'></script>
 </body>
+
 </html>

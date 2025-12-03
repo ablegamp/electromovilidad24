@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -12,29 +13,43 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="default" />
   <meta name="format-detection" content="telephone=no" />
   <title>Wallbox Monofásico vs. Trifásico: Diferencias y Cuál Elegir para tu Coche Eléctrico</title>
-  <meta name="description" content="Guía experta para decidir qué tipo de instalación de Wallbox necesitas. Comparamos potencias, costes de instalación y si tu coche soporta la carga trifásica." />
-  <link rel="canonical" href="https://www.electromovilidad24.com/articulos/wallbox-monofasico-trifasico-diferencias.html" />
+  <meta name="description"
+    content="Guía experta para decidir qué tipo de instalación de Wallbox necesitas. Comparamos potencias, costes de instalación y si tu coche soporta la carga trifásica." />
+  <link rel="canonical"
+    href="https://www.electromovilidad24.com/articulos/wallbox-monofasico-trifasico-diferencias.html" />
   <!-- Open Graph -->
   <meta property="og:type" content="article" />
-  <meta property="og:title" content="Wallbox Monofásico vs. Trifásico: Diferencias y Cuál Elegir para tu Coche Eléctrico" />
-  <meta property="og:description" content="Guía experta para decidir qué tipo de instalación de Wallbox necesitas. Comparamos potencias, costes de instalación y si tu coche soporta la carga trifásica." />
+  <meta property="og:title"
+    content="Wallbox Monofásico vs. Trifásico: Diferencias y Cuál Elegir para tu Coche Eléctrico" />
+  <meta property="og:description"
+    content="Guía experta para decidir qué tipo de instalación de Wallbox necesitas. Comparamos potencias, costes de instalación y si tu coche soporta la carga trifásica." />
   <meta property="og:locale" content="es_ES" />
   <!-- Twitter -->
   <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content="Wallbox Monofásico vs. Trifásico: Diferencias y Cuál Elegir para tu Coche Eléctrico" />
-  <meta name="twitter:description" content="Guía experta para decidir qué tipo de instalación de Wallbox necesitas. Comparamos potencias, costes de instalación y si tu coche soporta la carga trifásica." />
+  <meta name="twitter:title"
+    content="Wallbox Monofásico vs. Trifásico: Diferencias y Cuál Elegir para tu Coche Eléctrico" />
+  <meta name="twitter:description"
+    content="Guía experta para decidir qué tipo de instalación de Wallbox necesitas. Comparamos potencias, costes de instalación y si tu coche soporta la carga trifásica." />
   <meta name="author" content="Movilidad Eléctrica 24" />
   <link rel="icon" type="image/svg+xml" href="../favicon.svg">
   <link rel="shortcut icon" href="../favicon.svg">
   <script src="https://cdn.tailwindcss.com"></script>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.0/css/all.min.css">
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
+    rel="stylesheet">
   <script>
-    tailwind.config = { theme: { extend: { fontFamily: { inter: ['Inter','sans-serif'] }, colors: { 'verde-principal':'#10B981','gris-oscuro':'#1F2937','gris-claro':'#F9FAFB' } } } }
+    tailwind.config = { theme: { extend: { fontFamily: { inter: ['Inter', 'sans-serif'] }, colors: { 'verde-principal': '#10B981', 'gris-oscuro': '#1F2937', 'gris-claro': '#F9FAFB' } } } }
   </script>
   <style>
-    body { font-family: 'Inter', sans-serif; }
-    .article-content p { margin: 1rem 0; line-height: 1.75; }
+    body {
+      font-family: 'Inter', sans-serif;
+    }
+
+    .article-content p {
+      margin: 1rem 0;
+      line-height: 1.75;
+    }
+
     .article-content h2 {
       margin-top: 2rem;
       margin-bottom: 1rem;
@@ -42,12 +57,14 @@
       font-weight: 800;
       color: #065f46;
     }
+
     .article-content h3 {
       margin-top: 1.5rem;
       margin-bottom: 0.75rem;
       font-size: 1.5rem;
       font-weight: 700;
     }
+
     .highlight-box {
       background: linear-gradient(135deg, #ecfdf5 0%, #d1fae5 100%);
       border-left: 4px solid #10B981;
@@ -55,6 +72,7 @@
       margin: 1.5rem 0;
       border-radius: 0.5rem;
     }
+
     .stat-box {
       background: linear-gradient(135deg, #dbeafe 0%, #bfdbfe 100%);
       border-left: 4px solid #3b82f6;
@@ -62,6 +80,7 @@
       margin: 1.5rem 0;
       border-radius: 0.5rem;
     }
+
     .warning-box {
       background: linear-gradient(135deg, #fef3c7 0%, #fde68a 100%);
       border-left: 4px solid #f59e0b;
@@ -69,6 +88,7 @@
       margin: 1.5rem 0;
       border-radius: 0.5rem;
     }
+
     .success-box {
       background: linear-gradient(135deg, #d1fae5 0%, #a7f3d0 100%);
       border-left: 4px solid #059669;
@@ -151,11 +171,12 @@
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-5PD6Y58MK5"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
+  function gtag() { dataLayer.push(arguments); }
   gtag('js', new Date());
 
   gtag('config', 'G-5PD6Y58MK5');
 </script>
+
 <body class="bg-gray-50 text-gray-900">
   <header class="bg-white shadow-lg sticky top-0 z-50">
     <div class="container mx-auto px-4 py-4">
@@ -175,25 +196,40 @@
       </div>
       <nav class="mt-4">
         <ul id="nav-menu" class="hidden md:flex space-x-8 text-gris-oscuro font-medium">
-          <li><a href="../index.html" class="hover:text-verde-principal transition-colors duration-200 border-b-2 border-verde-principal pb-1">Inicio</a></li>
-          <li><a href="../comparativas.html" class="hover:text-verde-principal transition-colors duration-200">Comparativas</a></li>
-          <li><a href="../reviews.html" class="hover:text-verde-principal transition-colors duration-200">Reviews</a></li>
+          <li><a href="../index.html"
+              class="hover:text-verde-principal transition-colors duration-200 border-b-2 border-verde-principal pb-1">Inicio</a>
+          </li>
+          <li><a href="../comparativas.html"
+              class="hover:text-verde-principal transition-colors duration-200">Comparativas</a></li>
+          <li><a href="../reviews.html" class="hover:text-verde-principal transition-colors duration-200">Reviews</a>
+          </li>
           <li><a href="../guias.html" class="hover:text-verde-principal transition-colors duration-200">Guías</a></li>
-          <li><a href="../calculadoras.html" class="hover:text-verde-principal transition-colors duration-200">Calculadoras</a></li>
-          <li><a href="../sobre.html" class="hover:text-verde-principal transition-colors duration-200">Sobre mí</a></li>
-          <li><a href="../contacto.html" class="hover:text-verde-principal transition-colors duration-200">Contacto</a></li>
+          <li><a href="../calculadoras.html"
+              class="hover:text-verde-principal transition-colors duration-200">Calculadoras</a></li>
+          <li><a href="../sobre.html" class="hover:text-verde-principal transition-colors duration-200">Sobre mí</a>
+          </li>
+          <li><a href="../contacto.html" class="hover:text-verde-principal transition-colors duration-200">Contacto</a>
+          </li>
         </ul>
 
         <!-- Menú móvil -->
         <ul id="mobile-nav" class="md:hidden hidden flex-col space-y-3 mt-4 bg-gray-50 p-4 rounded-lg">
-            <li><a href="../index.html" class="block text-gris-oscuro hover:text-verde-principal font-medium">Inicio</a></li>
-            <li><a href="../index.html#news-section" class="block text-gris-oscuro hover:text-verde-principal font-medium">Noticias</a></li>
-            <li><a href="../comparativas.html" class="block text-gris-oscuro hover:text-verde-principal font-medium">Comparativas</a></li>
-            <li><a href="../reviews.html" class="block text-gris-oscuro hover:text-verde-principal font-medium">Reviews</a></li>
-            <li><a href="../guias.html" class="block text-gris-oscuro hover:text-verde-principal font-medium">Guías</a></li>
-            <li><a href="../calculadoras.html" class="block text-gris-oscuro hover:text-verde-principal font-medium">Calculadoras</a></li>
-            <li><a href="../sobre.html" class="block text-gris-oscuro hover:text-verde-principal font-medium">Sobre mí</a></li>
-            <li><a href="../contacto.html" class="block text-gris-oscuro hover:text-verde-principal font-medium">Contacto</a></li>
+          <li><a href="../index.html" class="block text-gris-oscuro hover:text-verde-principal font-medium">Inicio</a>
+          </li>
+          <li><a href="../index.html#news-section"
+              class="block text-gris-oscuro hover:text-verde-principal font-medium">Noticias</a></li>
+          <li><a href="../comparativas.html"
+              class="block text-gris-oscuro hover:text-verde-principal font-medium">Comparativas</a></li>
+          <li><a href="../reviews.html"
+              class="block text-gris-oscuro hover:text-verde-principal font-medium">Reviews</a></li>
+          <li><a href="../guias.html" class="block text-gris-oscuro hover:text-verde-principal font-medium">Guías</a>
+          </li>
+          <li><a href="../calculadoras.html"
+              class="block text-gris-oscuro hover:text-verde-principal font-medium">Calculadoras</a></li>
+          <li><a href="../sobre.html" class="block text-gris-oscuro hover:text-verde-principal font-medium">Sobre mí</a>
+          </li>
+          <li><a href="../contacto.html"
+              class="block text-gris-oscuro hover:text-verde-principal font-medium">Contacto</a></li>
         </ul>
       </nav>
     </div>
@@ -210,8 +246,15 @@
           <span class="mx-2">•</span>
           <span>Lectura: 10 min</span>
         </p>
-        <h1 class="text-3xl md:text-4xl font-extrabold leading-tight mt-2">Wallbox Monofásico vs. Trifásico: Diferencias y Cuál Elegir para tu Coche Eléctrico</h1>
-        <p class="mt-3 text-lg text-gray-700">Una de las primeras decisiones al instalar un punto de recarga en casa es elegir entre un <strong>wallbox monofásico o trifásico</strong>. Aunque parezca una cuestión técnica compleja, en esta guía te explico de forma clara las diferencias, cómo saber qué tiene tu casa, si tu coche lo aprovecha y cuál es la mejor opción según tu situación. <strong>Evita errores costosos</strong> y elige el wallbox perfecto para tus necesidades. Si estás empezando con la carga doméstica, te recomiendo nuestra <a href="como-cargar-coche-electrico-en-casa-guia-completa.html" class="text-emerald-700 hover:underline">guía para cargar el coche eléctrico en casa</a>.</p>
+        <h1 class="text-3xl md:text-4xl font-extrabold leading-tight mt-2">Wallbox Monofásico vs. Trifásico: Diferencias
+          y Cuál Elegir para tu Coche Eléctrico</h1>
+        <p class="mt-3 text-lg text-gray-700">Una de las primeras decisiones al instalar un punto de recarga en casa es
+          elegir entre un <strong>wallbox monofásico o trifásico</strong>. Aunque parezca una cuestión técnica compleja,
+          en esta guía te explico de forma clara las diferencias, cómo saber qué tiene tu casa, si tu coche lo aprovecha
+          y cuál es la mejor opción según tu situación. <strong>Evita errores costosos</strong> y elige el wallbox
+          perfecto para tus necesidades. Si estás empezando con la carga doméstica, te recomiendo nuestra <a
+            href="como-cargar-coche-electrico-en-casa-guia-completa.html" class="text-emerald-700 hover:underline">guía
+            para cargar el coche eléctrico en casa</a>.</p>
       </header>
 
       <!-- Breadcrumbs visibles -->
@@ -243,37 +286,50 @@
 
       <!-- Hero Image -->
       <div class="mb-8 rounded-lg overflow-hidden shadow-xl">
-        <img 
-          src="https://images.unsplash.com/photo-1732193998117-97b3b2994323?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8d2FsbGJveHxlbnwwfHwwfHx8Mg%3D%3D" 
-          alt="Wallbox instalado en garaje para carga de coche eléctrico" 
-          class="w-full h-auto"
-          loading="lazy"
-        >
-        <p class="text-sm text-gray-500 p-2 bg-gray-50 text-center">Elegir correctamente entre wallbox monofásico o trifásico puede ahorrarte hasta 2.000€ en instalación innecesaria</p>
+        <img
+          src="https://images.unsplash.com/photo-1732193998117-97b3b2994323?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8d2FsbGJveHxlbnwwfHwwfHx8Mg%3D%3D"
+          alt="Wallbox instalado en garaje para carga de coche eléctrico" class="w-full h-auto" loading="lazy">
+        <p class="text-sm text-gray-500 p-2 bg-gray-50 text-center">Elegir correctamente entre wallbox monofásico o
+          trifásico puede ahorrarte hasta 2.000€ en instalación innecesaria</p>
       </div>
 
       <div class="article-content">
-        <p>Cuando decides instalar un wallbox para cargar tu coche eléctrico en casa, te encuentras rápidamente con términos como "monofásico", "trifásico", "7,4 kW", "11 kW" o "22 kW" que pueden resultar confusos. Y lo peor es que <strong>elegir incorrectamente puede costarte dinero en una instalación innecesaria o dejarte con un equipo infrautilizado</strong>.</p>
+        <p>Cuando decides instalar un wallbox para cargar tu coche eléctrico en casa, te encuentras rápidamente con
+          términos como "monofásico", "trifásico", "7,4 kW", "11 kW" o "22 kW" que pueden resultar confusos. Y lo peor
+          es que <strong>elegir incorrectamente puede costarte dinero en una instalación innecesaria o dejarte con un
+            equipo infrautilizado</strong>.</p>
 
-        <p>La buena noticia es que una vez entiendes las diferencias básicas, la decisión es bastante sencilla. En esta guía te lo explico todo de forma clara, sin tecnicismos innecesarios, para que elijas el wallbox perfecto para tu situación concreta.</p>
+        <p>La buena noticia es que una vez entiendes las diferencias básicas, la decisión es bastante sencilla. En esta
+          guía te lo explico todo de forma clara, sin tecnicismos innecesarios, para que elijas el wallbox perfecto para
+          tu situación concreta.</p>
 
         <h2 id="que-es">¿Qué es un wallbox monofásico y trifásico?</h2>
 
         <p>Antes de entrar en comparativas, vamos a entender qué significa cada término de forma sencilla:</p>
 
-        <p><strong>Wallbox monofásico:</strong> Es un cargador que utiliza una sola fase de corriente eléctrica para cargar tu coche. Es el tipo de instalación eléctrica más común en viviendas españolas, especialmente en pisos y apartamentos. La potencia máxima que puede ofrecer un wallbox monofásico es de <strong>7,4 kW (32 amperios a 230V)</strong>.</p>
+        <p><strong>Wallbox monofásico:</strong> Es un cargador que utiliza una sola fase de corriente eléctrica para
+          cargar tu coche. Es el tipo de instalación eléctrica más común en viviendas españolas, especialmente en pisos
+          y apartamentos. La potencia máxima que puede ofrecer un wallbox monofásico es de <strong>7,4 kW (32 amperios a
+            230V)</strong>.</p>
 
-        <p><strong>Wallbox trifásico:</strong> Es un cargador que utiliza tres fases de corriente eléctrica simultáneamente, lo que permite multiplicar la potencia disponible. Puede ofrecer <strong>11 kW (16A trifásico)</strong> o hasta <strong>22 kW (32A trifásico)</strong>. Requiere que tu vivienda tenga instalación eléctrica trifásica, algo más común en chalets, viviendas unifamiliares modernas y locales comerciales.</p>
+        <p><strong>Wallbox trifásico:</strong> Es un cargador que utiliza tres fases de corriente eléctrica
+          simultáneamente, lo que permite multiplicar la potencia disponible. Puede ofrecer <strong>11 kW (16A
+            trifásico)</strong> o hasta <strong>22 kW (32A trifásico)</strong>. Requiere que tu vivienda tenga
+          instalación eléctrica trifásica, algo más común en chalets, viviendas unifamiliares modernas y locales
+          comerciales.</p>
 
-        <p>La analogía sencilla: imagina que estás llenando una piscina. El wallbox monofásico es como usar una manguera, el trifásico es como usar tres mangueras a la vez. Evidentemente se llena más rápido, pero necesitas tener tres grifos disponibles (instalación trifásica).</p>
+        <p>La analogía sencilla: imagina que estás llenando una piscina. El wallbox monofásico es como usar una
+          manguera, el trifásico es como usar tres mangueras a la vez. Evidentemente se llena más rápido, pero necesitas
+          tener tres grifos disponibles (instalación trifásica).</p>
 
         <h2 id="diferencias">Diferencias principales de potencia de carga</h2>
 
-        <p>La diferencia más importante entre ambos tipos de wallbox es la <strong>velocidad de carga</strong> que ofrecen. Vamos a verlo con ejemplos prácticos:</p>
+        <p>La diferencia más importante entre ambos tipos de wallbox es la <strong>velocidad de carga</strong> que
+          ofrecen. Vamos a verlo con ejemplos prácticos:</p>
 
         <div class="stat-box">
           <p class="font-semibold mb-3">⚡ Comparativa de tiempos de carga reales:</p>
-          
+
           <p class="mb-2"><strong>Para cargar una batería de 60 kWh (del 20% al 80% = 36 kWh):</strong></p>
           <ul class="space-y-2 ml-4">
             <li>🔌 <strong>Wallbox monofásico 7,4 kW:</strong> ~5 horas</li>
@@ -289,26 +345,37 @@
           </ul>
         </div>
 
-        <p>Como ves, la diferencia es significativa. Pero aquí viene el detalle importante: <strong>estas velocidades solo se alcanzan si se cumplen DOS condiciones simultáneamente:</strong></p>
+        <p>Como ves, la diferencia es significativa. Pero aquí viene el detalle importante: <strong>estas velocidades
+            solo se alcanzan si se cumplen DOS condiciones simultáneamente:</strong></p>
 
         <ul class="list-disc ml-6 my-4 space-y-2">
           <li>Tu vivienda tiene instalación eléctrica trifásica</li>
           <li>Tu coche eléctrico admite carga trifásica de esa potencia</li>
         </ul>
 
-        <p>Si falla cualquiera de estas dos condiciones, comprar un wallbox trifásico es tirar el dinero, porque cargará a la velocidad del componente más limitante (normalmente 7,4 kW).</p>
+        <p>Si falla cualquiera de estas dos condiciones, comprar un wallbox trifásico es tirar el dinero, porque cargará
+          a la velocidad del componente más limitante (normalmente 7,4 kW).</p>
 
         <h2 id="casa">¿Cómo saber si tu casa tiene instalación trifásica?</h2>
 
-        <p>Antes de decidir qué wallbox comprar, necesitas saber qué tipo de instalación eléctrica tiene tu vivienda. Aquí te dejo <strong>4 formas sencillas de comprobarlo</strong>:</p>
+        <p>Antes de decidir qué wallbox comprar, necesitas saber qué tipo de instalación eléctrica tiene tu vivienda.
+          Aquí te dejo <strong>4 formas sencillas de comprobarlo</strong>:</p>
 
-        <p><strong>1. Revisa tu factura eléctrica:</strong> En la sección de "Datos del contrato" o "Características del suministro" suele indicar si tienes contratada potencia monofásica o trifásica. Si pone algo como "5,75 kW monofásica" o "Tarifa 2.0A", es monofásica. Si indica potencias superiores a 10 kW o "Tarifa 3.0A" o "3.1A", probablemente sea trifásica.</p>
+        <p><strong>1. Revisa tu factura eléctrica:</strong> En la sección de "Datos del contrato" o "Características del
+          suministro" suele indicar si tienes contratada potencia monofásica o trifásica. Si pone algo como "5,75 kW
+          monofásica" o "Tarifa 2.0A", es monofásica. Si indica potencias superiores a 10 kW o "Tarifa 3.0A" o "3.1A",
+          probablemente sea trifásica.</p>
 
-        <p><strong>2. Mira el cuadro eléctrico (ICP o magnetotérmico general):</strong> Abre la tapa de tu cuadro de luz y fíjate en el interruptor principal (ICP). Si tiene <strong>2 palancas/polos</strong>, es monofásica. Si tiene <strong>4 palancas/polos</strong>, es trifásica.</p>
+        <p><strong>2. Mira el cuadro eléctrico (ICP o magnetotérmico general):</strong> Abre la tapa de tu cuadro de luz
+          y fíjate en el interruptor principal (ICP). Si tiene <strong>2 palancas/polos</strong>, es monofásica. Si
+          tiene <strong>4 palancas/polos</strong>, es trifásica.</p>
 
-        <p><strong>3. Cuenta los cables de entrada al contador:</strong> Si ves los cables que entran al contador eléctrico (no siempre es posible), cuenta cuántos hay. Si entran 2-3 cables = monofásica. Si entran 4-5 cables = trifásica.</p>
+        <p><strong>3. Cuenta los cables de entrada al contador:</strong> Si ves los cables que entran al contador
+          eléctrico (no siempre es posible), cuenta cuántos hay. Si entran 2-3 cables = monofásica. Si entran 4-5 cables
+          = trifásica.</p>
 
-        <p><strong>4. Llama a tu compañía eléctrica o pregunta a un electricista:</strong> En caso de duda, la forma más segura es consultarlo. Un electricista lo verá en 30 segundos.</p>
+        <p><strong>4. Llama a tu compañía eléctrica o pregunta a un electricista:</strong> En caso de duda, la forma más
+          segura es consultarlo. Un electricista lo verá en 30 segundos.</p>
 
         <div class="highlight-box">
           <p class="font-semibold mb-2">💡 Situación típica en España:</p>
@@ -318,12 +385,15 @@
             <li>• <strong>Viviendas con potencia > 10 kW:</strong> Casi siempre trifásica</li>
             <li>• <strong>Garajes comunitarios:</strong> Generalmente monofásica en cada plaza individual</li>
           </ul>
-          <p class="mt-2">Si tu casa es monofásica pero quieres convertirla a trifásica, es posible pero implica solicitud a la distribuidora, obra eléctrica y coste adicional de 1.500-3.000€ según complejidad.</p>
+          <p class="mt-2">Si tu casa es monofásica pero quieres convertirla a trifásica, es posible pero implica
+            solicitud a la distribuidora, obra eléctrica y coste adicional de 1.500-3.000€ según complejidad.</p>
         </div>
 
         <h2 id="coche">¿Tu coche admite carga trifásica?</h2>
 
-        <p>Aquí viene otro punto crucial que mucha gente desconoce: <strong>no todos los coches eléctricos admiten carga trifásica</strong>. De hecho, muchos modelos populares solo aceptan carga monofásica de hasta 7,4 kW en corriente alterna (AC), independientemente del wallbox que instales.</p>
+        <p>Aquí viene otro punto crucial que mucha gente desconoce: <strong>no todos los coches eléctricos admiten carga
+            trifásica</strong>. De hecho, muchos modelos populares solo aceptan carga monofásica de hasta 7,4 kW en
+          corriente alterna (AC), independientemente del wallbox que instales.</p>
 
         <p><strong>Coches que SÍ admiten carga trifásica (11 kW o superior):</strong></p>
 
@@ -342,7 +412,8 @@
 
         <ul class="list-disc ml-6 my-4 space-y-2">
           <li><strong>MG4 / MG ZS EV / MG5:</strong> 7,4 kW AC máximo</li>
-          <li><strong>Hyundai Ioniq 5 / Ioniq 6 / Kona:</strong> 7,4 kW AC (aunque tienen carga rápida DC excelente)</li>
+          <li><strong>Hyundai Ioniq 5 / Ioniq 6 / Kona:</strong> 7,4 kW AC (aunque tienen carga rápida DC excelente)
+          </li>
           <li><strong>Kia EV6 / Niro EV:</strong> 7,4 kW AC</li>
           <li><strong>Nissan Leaf:</strong> 6,6 kW AC máximo</li>
           <li><strong>Peugeot e-208 / e-2008:</strong> 7,4 kW AC</li>
@@ -353,14 +424,23 @@
 
         <div class="warning-box">
           <p class="font-semibold mb-2">⚠️ Importante sobre carga rápida DC:</p>
-          <p>No confundas la carga en AC (wallbox en casa) con la carga rápida DC (electrolineras). Coches como el Hyundai Ioniq 5 o Kia EV6 que solo admiten 7,4 kW en AC trifásica, soportan 240 kW en carga rápida DC. La carga trifásica solo afecta a la carga en corriente alterna, típicamente en casa o cargadores públicos lentos. Si tienes dudas, consulta nuestra <a href="carga-ac-dc-diferencias-potencias-cuando-usar.html" class="text-emerald-700 hover:underline">guía de diferencias entre carga AC y DC</a>.</p>
+          <p>No confundas la carga en AC (wallbox en casa) con la carga rápida DC (electrolineras). Coches como el
+            Hyundai Ioniq 5 o Kia EV6 que solo admiten 7,4 kW en AC trifásica, soportan 240 kW en carga rápida DC. La
+            carga trifásica solo afecta a la carga en corriente alterna, típicamente en casa o cargadores públicos
+            lentos. Si tienes dudas, consulta nuestra <a href="carga-ac-dc-diferencias-potencias-cuando-usar.html"
+              class="text-emerald-700 hover:underline">guía de diferencias entre carga AC y DC</a>.</p>
         </div>
 
-        <p><strong>Cómo saber la capacidad de carga de tu coche:</strong> Consulta el manual técnico, la ficha del fabricante o la etiqueta del cargador integrado (OBC - On Board Charger). Busca especificaciones como "AC charging" o "carga en alterna". Y si necesitas aclarar compatibilidades, revisa nuestra <a href="tipos-conectores-coches-electricos-guia-completa-2026.html" class="text-emerald-700 hover:underline">guía de tipos de conectores para coches eléctricos</a>.</p>
+        <p><strong>Cómo saber la capacidad de carga de tu coche:</strong> Consulta el manual técnico, la ficha del
+          fabricante o la etiqueta del cargador integrado (OBC - On Board Charger). Busca especificaciones como "AC
+          charging" o "carga en alterna". Y si necesitas aclarar compatibilidades, revisa nuestra <a
+            href="tipos-conectores-coches-electricos-guia-completa-2026.html"
+            class="text-emerald-700 hover:underline">guía de tipos de conectores para coches eléctricos</a>.</p>
 
         <h2 id="costes">Costes de instalación: monofásica vs trifásica</h2>
 
-        <p>El coste total de instalar un wallbox varía significativamente según el tipo de instalación que elijas y la situación de partida de tu vivienda. Vamos a desglosarlo:</p>
+        <p>El coste total de instalar un wallbox varía significativamente según el tipo de instalación que elijas y la
+          situación de partida de tu vivienda. Vamos a desglosarlo:</p>
 
         <p><strong>Coste del wallbox (solo equipo):</strong></p>
 
@@ -373,7 +453,8 @@
         <p><strong>Coste de instalación (mano de obra + materiales):</strong></p>
 
         <ul class="list-disc ml-6 my-4 space-y-2">
-          <li><strong>Instalación monofásica estándar:</strong> 300-600€ (depende distancia al cuadro, obra necesaria...)</li>
+          <li><strong>Instalación monofásica estándar:</strong> 300-600€ (depende distancia al cuadro, obra
+            necesaria...)</li>
           <li><strong>Instalación trifásica (si ya tienes trifásica en casa):</strong> 400-800€</li>
           <li><strong>Conversión de monofásica a trifásica + instalación:</strong> 1.500-3.000€ adicionales</li>
         </ul>
@@ -383,22 +464,27 @@
         <div class="success-box">
           <ul class="space-y-3">
             <li><strong>Escenario 1 - Casa monofásica + Wallbox monofásico 7,4 kW:</strong><br>
-            Equipo 600€ + Instalación 400€ = <strong>1.000€ total</strong></li>
+              Equipo 600€ + Instalación 400€ = <strong>1.000€ total</strong></li>
 
             <li><strong>Escenario 2 - Casa trifásica + Wallbox trifásico 11 kW:</strong><br>
-            Equipo 800€ + Instalación 500€ = <strong>1.300€ total</strong></li>
+              Equipo 800€ + Instalación 500€ = <strong>1.300€ total</strong></li>
 
             <li><strong>Escenario 3 - Casa trifásica + Wallbox trifásico 22 kW:</strong><br>
-            Equipo 1.200€ + Instalación 600€ = <strong>1.800€ total</strong></li>
+              Equipo 1.200€ + Instalación 600€ = <strong>1.800€ total</strong></li>
 
             <li><strong>Escenario 4 - Casa monofásica → Conversión + Wallbox trifásico 11 kW:</strong><br>
-            Conversión eléctrica 2.000€ + Equipo 800€ + Instalación 500€ = <strong>3.300€ total</strong></li>
+              Conversión eléctrica 2.000€ + Equipo 800€ + Instalación 500€ = <strong>3.300€ total</strong></li>
           </ul>
 
-          <p class="mt-4 font-semibold">Recuerda: puedes deducir el 15% del coste en IRPF por instalación de puntos de recarga. Te lo explico en detalle en la <a href="ventajas-fiscales-coche-electrico-espana-2025.html" class="text-emerald-700 hover:underline">guía de ventajas y deducciones fiscales para coches eléctricos</a>.</p>
+          <p class="mt-4 font-semibold">Recuerda: puedes deducir el 15% del coste en IRPF por instalación de puntos de
+            recarga. Te lo explico en detalle en la <a href="ventajas-fiscales-coche-electrico-espana-2025.html"
+              class="text-emerald-700 hover:underline">guía de ventajas y deducciones fiscales para coches
+              eléctricos</a>.</p>
         </div>
 
-        <p>Como ves, <strong>convertir una instalación monofásica a trifásica solo para tener carga más rápida casi nunca compensa económicamente</strong> para un usuario particular, a menos que tengas necesidades muy específicas de carga ultra-rápida diaria.</p>
+        <p>Como ves, <strong>convertir una instalación monofásica a trifásica solo para tener carga más rápida casi
+            nunca compensa económicamente</strong> para un usuario particular, a menos que tengas necesidades muy
+          específicas de carga ultra-rápida diaria.</p>
 
         <h2 id="ventajas">Ventajas y desventajas de cada tipo</h2>
 
@@ -458,7 +544,8 @@
           <li>Tienes un solo coche eléctrico de uso personal/familiar</li>
         </ul>
 
-        <p class="font-semibold mt-4">👉 Recomendación: El 70-80% de usuarios domésticos deberían elegir esta opción.</p>
+        <p class="font-semibold mt-4">👉 Recomendación: El 70-80% de usuarios domésticos deberían elegir esta opción.
+        </p>
 
         <p class="mt-6"><strong>Elige wallbox TRIFÁSICO 11 kW si:</strong></p>
 
@@ -471,7 +558,8 @@
           <li>El sobreprecio no es un problema para ti</li>
         </ul>
 
-        <p class="font-semibold mt-4">👉 Recomendación: Opción equilibrada si cumples las condiciones (casa + coche trifásicos).</p>
+        <p class="font-semibold mt-4">👉 Recomendación: Opción equilibrada si cumples las condiciones (casa + coche
+          trifásicos).</p>
 
         <p class="mt-6"><strong>Elige wallbox TRIFÁSICO 22 kW si:</strong></p>
 
@@ -498,17 +586,30 @@
 
         <p>Para terminar, algunos <strong>consejos importantes</strong> que te ahorrarán dinero y dolores de cabeza:</p>
 
-        <p><strong>1. Verifica ANTES de comprar:</strong> Confirma qué instalación eléctrica tienes y qué admite tu coche ANTES de comprar el wallbox. He visto casos de gente que compró wallbox trifásico de 1.200€ para instalarlo en casa monofásica con coche que solo admite 7,4 kW. Resultado: desperdicio total.</p>
+        <p><strong>1. Verifica ANTES de comprar:</strong> Confirma qué instalación eléctrica tienes y qué admite tu
+          coche ANTES de comprar el wallbox. He visto casos de gente que compró wallbox trifásico de 1.200€ para
+          instalarlo en casa monofásica con coche que solo admite 7,4 kW. Resultado: desperdicio total.</p>
 
-        <p><strong>2. No sobredimensiones "por si acaso":</strong> Muchos piensan "compro trifásico de 22 kW por si en el futuro tengo otro coche". Error. Si ahora no lo necesitas, compra lo que necesitas ahora. En 5-7 años los wallbox serán mejores y más baratos.</p>
+        <p><strong>2. No sobredimensiones "por si acaso":</strong> Muchos piensan "compro trifásico de 22 kW por si en
+          el futuro tengo otro coche". Error. Si ahora no lo necesitas, compra lo que necesitas ahora. En 5-7 años los
+          wallbox serán mejores y más baratos.</p>
 
-        <p><strong>3. Potencia contratada adecuada:</strong> Si instalas wallbox trifásico de 11-22 kW, asegúrate de tener potencia contratada suficiente. Para 11 kW necesitas mínimo 8 kW contratados, para 22 kW necesitas >15 kW. Calcula el coste fijo mensual adicional.</p>
+        <p><strong>3. Potencia contratada adecuada:</strong> Si instalas wallbox trifásico de 11-22 kW, asegúrate de
+          tener potencia contratada suficiente. Para 11 kW necesitas mínimo 8 kW contratados, para 22 kW necesitas >15
+          kW. Calcula el coste fijo mensual adicional.</p>
 
-        <p><strong>4. Wallbox inteligente siempre:</strong> Ya sea monofásico o trifásico, elige siempre un modelo inteligente con programación horaria, gestión de potencia y conectividad. El ahorro en tarifa valle compensa la diferencia de precio en pocos meses. Lee nuestra <a href="ahorrar-electricidad-cargando-coche-electrico.html" class="text-emerald-700 hover:underline">guía de ahorro en carga</a> para más detalles.</p>
+        <p><strong>4. Wallbox inteligente siempre:</strong> Ya sea monofásico o trifásico, elige siempre un modelo
+          inteligente con programación horaria, gestión de potencia y conectividad. El ahorro en tarifa valle compensa
+          la diferencia de precio en pocos meses. Lee nuestra <a
+            href="ahorrar-electricidad-cargando-coche-electrico.html" class="text-emerald-700 hover:underline">guía de
+            ahorro en carga</a> para más detalles.</p>
 
-        <p><strong>5. Pide varios presupuestos:</strong> Los precios de instalación varían mucho entre instaladores. Pide mínimo 3 presupuestos y compara no solo precio, sino también garantías, materiales y experiencia con wallbox.</p>
+        <p><strong>5. Pide varios presupuestos:</strong> Los precios de instalación varían mucho entre instaladores.
+          Pide mínimo 3 presupuestos y compara no solo precio, sino también garantías, materiales y experiencia con
+          wallbox.</p>
 
-        <p><strong>6. Aprovecha deducciones fiscales:</strong> Recuerda que puedes deducir el 15% del coste en IRPF. Guarda facturas y certificados para incluirlo en tu declaración de la renta.</p>
+        <p><strong>6. Aprovecha deducciones fiscales:</strong> Recuerda que puedes deducir el 15% del coste en IRPF.
+          Guarda facturas y certificados para incluirlo en tu declaración de la renta.</p>
 
         <div class="warning-box">
           <p class="font-semibold mb-2">⚠️ Errores más comunes al elegir wallbox:</p>
@@ -536,7 +637,14 @@
                 🔹 ¿Cuál es la diferencia entre wallbox monofásico y trifásico?
               </h4>
               <p class="text-gray-700">
-                La diferencia principal está en la potencia de carga. Un wallbox monofásico trabaja con una sola fase eléctrica y ofrece hasta 7,4 kW de potencia (32A), lo que permite cargar aproximadamente 40-45 km de autonomía por hora. Un wallbox trifásico utiliza tres fases simultáneamente y puede ofrecer hasta 11 kW (16A trifásico) o incluso 22 kW (32A trifásico), cargando entre 60-140 km de autonomía por hora. Sin embargo, para aprovechar un wallbox trifásico necesitas dos cosas: que tu vivienda tenga instalación eléctrica trifásica (no todas la tienen) y que tu coche eléctrico admita carga trifásica (muchos modelos solo admiten monofásica). La instalación monofásica es más común en viviendas españolas, más económica de instalar y suficiente para la mayoría de usuarios que cargan de noche.
+                La diferencia principal está en la potencia de carga. Un wallbox monofásico trabaja con una sola fase
+                eléctrica y ofrece hasta 7,4 kW de potencia (32A), lo que permite cargar aproximadamente 40-45 km de
+                autonomía por hora. Un wallbox trifásico utiliza tres fases simultáneamente y puede ofrecer hasta 11 kW
+                (16A trifásico) o incluso 22 kW (32A trifásico), cargando entre 60-140 km de autonomía por hora. Sin
+                embargo, para aprovechar un wallbox trifásico necesitas dos cosas: que tu vivienda tenga instalación
+                eléctrica trifásica (no todas la tienen) y que tu coche eléctrico admita carga trifásica (muchos modelos
+                solo admiten monofásica). La instalación monofásica es más común en viviendas españolas, más económica
+                de instalar y suficiente para la mayoría de usuarios que cargan de noche.
               </p>
             </div>
 
@@ -545,7 +653,15 @@
                 🔹 ¿Cómo sé si mi casa tiene instalación trifásica?
               </h4>
               <p class="text-gray-700">
-                Hay varias formas de comprobarlo: 1) Mira tu factura eléctrica, en la sección de datos técnicos suele indicar si tienes potencia contratada monofásica o trifásica. 2) Revisa tu cuadro eléctrico (ICP o magnetotérmico general): si tiene 2 polos (dos interruptores juntos) es monofásica, si tiene 4 polos es trifásica. 3) Cuenta los cables que entran al contador: 2-3 cables = monofásica, 4-5 cables = trifásica. 4) Consulta tu potencia contratada: si supera los 10 kW probablemente sea trifásica. En España, la mayoría de viviendas unifamiliares modernas y chalets tienen trifásica, mientras que pisos y apartamentos suelen tener monofásica. Si tienes dudas, un electricista puede confirmarlo en minutos. Si no tienes trifásica pero la quieres, se puede solicitar a la compañía eléctrica, aunque implica obra y coste adicional de 1.500-3.000€.
+                Hay varias formas de comprobarlo: 1) Mira tu factura eléctrica, en la sección de datos técnicos suele
+                indicar si tienes potencia contratada monofásica o trifásica. 2) Revisa tu cuadro eléctrico (ICP o
+                magnetotérmico general): si tiene 2 polos (dos interruptores juntos) es monofásica, si tiene 4 polos es
+                trifásica. 3) Cuenta los cables que entran al contador: 2-3 cables = monofásica, 4-5 cables = trifásica.
+                4) Consulta tu potencia contratada: si supera los 10 kW probablemente sea trifásica. En España, la
+                mayoría de viviendas unifamiliares modernas y chalets tienen trifásica, mientras que pisos y
+                apartamentos suelen tener monofásica. Si tienes dudas, un electricista puede confirmarlo en minutos. Si
+                no tienes trifásica pero la quieres, se puede solicitar a la compañía eléctrica, aunque implica obra y
+                coste adicional de 1.500-3.000€.
               </p>
             </div>
 
@@ -554,7 +670,14 @@
                 🔹 ¿Merece la pena instalar un wallbox trifásico?
               </h4>
               <p class="text-gray-700">
-                Depende de tu situación concreta. Merece la pena si: 1) Tu casa ya tiene instalación trifásica (no hay coste adicional de conversión). 2) Tu coche admite carga trifásica de 11 kW o más. 3) Necesitas cargar rápido frecuentemente (grandes baterías, uso intensivo diario, flotas). 4) Haces más de 200-300 km diarios y necesitas recargar completamente cada noche. NO merece la pena si: tu vivienda es monofásica (el coste de conversión es alto, 1500-3000€), tu coche solo admite carga monofásica (desperdicio de inversión), cargas principalmente de noche con tiempo suficiente (7,4 kW en 8 horas da 60 kWh, suficiente para casi cualquier batería), o tu uso es moderado-bajo. Para el 70-80% de usuarios domésticos, un wallbox monofásico de 7,4 kW es más que suficiente y mucho más económico.
+                Depende de tu situación concreta. Merece la pena si: 1) Tu casa ya tiene instalación trifásica (no hay
+                coste adicional de conversión). 2) Tu coche admite carga trifásica de 11 kW o más. 3) Necesitas cargar
+                rápido frecuentemente (grandes baterías, uso intensivo diario, flotas). 4) Haces más de 200-300 km
+                diarios y necesitas recargar completamente cada noche. NO merece la pena si: tu vivienda es monofásica
+                (el coste de conversión es alto, 1500-3000€), tu coche solo admite carga monofásica (desperdicio de
+                inversión), cargas principalmente de noche con tiempo suficiente (7,4 kW en 8 horas da 60 kWh,
+                suficiente para casi cualquier batería), o tu uso es moderado-bajo. Para el 70-80% de usuarios
+                domésticos, un wallbox monofásico de 7,4 kW es más que suficiente y mucho más económico.
               </p>
             </div>
 
@@ -563,7 +686,14 @@
                 🔹 ¿Qué coches eléctricos admiten carga trifásica?
               </h4>
               <p class="text-gray-700">
-                No todos los coches eléctricos admiten carga trifásica en corriente alterna (AC). Modelos que SÍ admiten carga trifásica (11 kW o más): Renault Zoe (22 kW AC), Tesla Model 3/Y (11 kW), BMW i4/iX (11 kW), Audi e-tron (11-22 kW), Mercedes EQC/EQE (11 kW), Porsche Taycan (11 kW), Smart #1 (22 kW), algunos Volkswagen ID.4/ID.5. Modelos que SOLO admiten carga monofásica (máximo 7,4 kW AC): MG4/MG ZS, Hyundai Ioniq 5/6 y Kona, Kia EV6/Niro, Nissan Leaf, Peugeot e-208/e-2008, Fiat 500e, Dacia Spring, Citroën ë-C4. Es fundamental consultar las especificaciones técnicas de tu modelo concreto antes de invertir en un wallbox trifásico. La carga trifásica solo aplica a carga en AC; todos los coches eléctricos admiten carga rápida DC en estaciones públicas independientemente de su capacidad AC.
+                No todos los coches eléctricos admiten carga trifásica en corriente alterna (AC). Modelos que SÍ admiten
+                carga trifásica (11 kW o más): Renault Zoe (22 kW AC), Tesla Model 3/Y (11 kW), BMW i4/iX (11 kW), Audi
+                e-tron (11-22 kW), Mercedes EQC/EQE (11 kW), Porsche Taycan (11 kW), Smart #1 (22 kW), algunos
+                Volkswagen ID.4/ID.5. Modelos que SOLO admiten carga monofásica (máximo 7,4 kW AC): MG4/MG ZS, Hyundai
+                Ioniq 5/6 y Kona, Kia EV6/Niro, Nissan Leaf, Peugeot e-208/e-2008, Fiat 500e, Dacia Spring, Citroën
+                ë-C4. Es fundamental consultar las especificaciones técnicas de tu modelo concreto antes de invertir en
+                un wallbox trifásico. La carga trifásica solo aplica a carga en AC; todos los coches eléctricos admiten
+                carga rápida DC en estaciones públicas independientemente de su capacidad AC.
               </p>
             </div>
           </div>
@@ -571,29 +701,47 @@
 
         <h3>Conclusión: la mayoría debería elegir monofásico</h3>
 
-        <p>Después de analizar todos los factores, la realidad es clara: <strong>para la mayoría de usuarios domésticos en España, un wallbox monofásico de 7,4 kW es la mejor opción</strong>. Es más económico, compatible con cualquier vivienda, suficiente para cargas nocturnas completas y funciona perfectamente con la mayoría de coches eléctricos del mercado.</p>
+        <p>Después de analizar todos los factores, la realidad es clara: <strong>para la mayoría de usuarios domésticos
+            en España, un wallbox monofásico de 7,4 kW es la mejor opción</strong>. Es más económico, compatible con
+          cualquier vivienda, suficiente para cargas nocturnas completas y funciona perfectamente con la mayoría de
+          coches eléctricos del mercado.</p>
 
-        <p>El wallbox trifásico de 11-22 kW solo tiene sentido si cumples simultáneamente tres condiciones: casa con instalación trifásica, coche con carga trifásica compatible y necesidad real de cargas rápidas frecuentes. Si falta alguna de estas condiciones, estarás pagando más por una capacidad que no podrás usar.</p>
+        <p>El wallbox trifásico de 11-22 kW solo tiene sentido si cumples simultáneamente tres condiciones: casa con
+          instalación trifásica, coche con carga trifásica compatible y necesidad real de cargas rápidas frecuentes. Si
+          falta alguna de estas condiciones, estarás pagando más por una capacidad que no podrás usar.</p>
 
-        <p>Mi recomendación: verifica primero qué instalación eléctrica tienes y qué admite tu coche. Si ambos son monofásicos (lo más probable), no lo dudes: wallbox monofásico de 7,4 kW con funciones inteligentes. Ahorrarás dinero en la instalación y tendrás exactamente lo que necesitas.</p>
+        <p>Mi recomendación: verifica primero qué instalación eléctrica tienes y qué admite tu coche. Si ambos son
+          monofásicos (lo más probable), no lo dudes: wallbox monofásico de 7,4 kW con funciones inteligentes. Ahorrarás
+          dinero en la instalación y tendrás exactamente lo que necesitas.</p>
 
-        <p>Y recuerda: cargar de noche en hora valle con cualquier wallbox, ya sea monofásico o trifásico, es la clave para <a href="ahorrar-electricidad-cargando-coche-electrico.html" class="text-emerald-700 hover:underline">minimizar tu factura eléctrica</a>. La velocidad de carga importa menos que el ahorro inteligente.</p>
+        <p>Y recuerda: cargar de noche en hora valle con cualquier wallbox, ya sea monofásico o trifásico, es la clave
+          para <a href="ahorrar-electricidad-cargando-coche-electrico.html"
+            class="text-emerald-700 hover:underline">minimizar tu factura eléctrica</a>. La velocidad de carga importa
+          menos que el ahorro inteligente.</p>
 
-        <p>La electromovilidad debe ser práctica, económica y sin complicaciones innecesarias. Elige con cabeza, no por especificaciones que no vas a aprovechar.</p>
+        <p>La electromovilidad debe ser práctica, económica y sin complicaciones innecesarias. Elige con cabeza, no por
+          especificaciones que no vas a aprovechar.</p>
       </div>
 
       <footer class="mt-10 pt-6 border-t text-sm text-gray-600">
-        <p>¿Todavía tienes dudas sobre qué wallbox elegir para tu situación concreta? ¿Necesitas ayuda para verificar si tu instalación es monofásica o trifásica? ¿Quieres recomendaciones de modelos específicos según tu coche y presupuesto? Contacta conmigo y te ayudaré a tomar la decisión correcta sin desperdiciar dinero en equipos inadecuados.</p>
+        <p>¿Todavía tienes dudas sobre qué wallbox elegir para tu situación concreta? ¿Necesitas ayuda para verificar si
+          tu instalación es monofásica o trifásica? ¿Quieres recomendaciones de modelos específicos según tu coche y
+          presupuesto? Contacta conmigo y te ayudaré a tomar la decisión correcta sin desperdiciar dinero en equipos
+          inadecuados.</p>
       </footer>
 
       <!-- Artículos relacionados -->
       <aside class="mt-12">
         <h2 class="text-2xl font-bold mb-4">Artículos relacionados</h2>
         <ul class="list-disc ml-5 text-emerald-800 space-y-2">
-          <li><a class="hover:underline" href="ahorrar-electricidad-cargando-coche-electrico.html">Cómo ahorrar en electricidad cargando tu coche eléctrico</a></li>
-          <li><a class="hover:underline" href="ventajas-fiscales-coche-electrico-espana-2025.html">Deducciones fiscales por instalar wallbox en España 2025</a></li>
-          <li><a class="hover:underline" href="plan-moves-2025-requisitos-ayudas-comunidades.html">Ayudas para instalación de puntos de recarga - Plan MOVES 2025</a></li>
-          <li><a class="hover:underline" href="../calculadoras.html">Calculadora de tiempo de carga según potencia</a></li>
+          <li><a class="hover:underline" href="ahorrar-electricidad-cargando-coche-electrico.html">Cómo ahorrar en
+              electricidad cargando tu coche eléctrico</a></li>
+          <li><a class="hover:underline" href="ventajas-fiscales-coche-electrico-espana-2025.html">Deducciones fiscales
+              por instalar wallbox en España 2025</a></li>
+          <li><a class="hover:underline" href="plan-moves-2025-requisitos-ayudas-comunidades.html">Ayudas para
+              instalación de puntos de recarga - Plan MOVES 2025</a></li>
+          <li><a class="hover:underline" href="../calculadoras.html">Calculadora de tiempo de carga según potencia</a>
+          </li>
           <li><a class="hover:underline" href="../guias.html">Todas las guías sobre coches eléctricos</a></li>
         </ul>
       </aside>
@@ -601,40 +749,46 @@
       <!-- Sobre el autor -->
       <section class="mt-12 bg-emerald-50 border border-emerald-100 rounded-xl p-6">
         <h2 class="text-2xl font-bold mb-2">Sobre el autor</h2>
-        <p class="text-gray-700">Apasionado de la movilidad eléctrica con más de 50.000 km de experiencia en viajes por carretera. Comparto lo aprendido para que tu transición a la electrificación sea más sencilla y disfrutes cada kilómetro, sin sorpresas.</p>
+        <p class="text-gray-700">Apasionado de la movilidad eléctrica con más de 50.000 km de experiencia en viajes por
+          carretera. Comparto lo aprendido para que tu transición a la electrificación sea más sencilla y disfrutes cada
+          kilómetro, sin sorpresas.</p>
       </section>
-      <script async="async" data-cfasync="false" src="//pl28052676.effectivegatecpm.com/2f2bf98ebb38fc325879c099d716122f/invoke.js"></script>
-  <div id="container-2f2bf98ebb38fc325879c099d716122f"></div>
+      <script async="async" data-cfasync="false"
+        src="//pl28052676.effectivegatecpm.com/2f2bf98ebb38fc325879c099d716122f/invoke.js"></script>
+      <div id="container-2f2bf98ebb38fc325879c099d716122f"></div>
     </article>
   </main>
 
   <footer class="bg-gris-oscuro text-white py-12 mt-16">
     <div class="container mx-auto px-4">
-    <div class="flex flex-col md:flex-row gap-8">
-      <div class="flex-1">
-        <div class="flex items-start space-x-3 mb-2">
-          <div class="bg-white rounded-lg p-1">
-            <img src="../imagenes/logo.webp" alt="Electromovilidad 24" class="h-16 w-auto">
+      <div class="flex flex-col md:flex-row gap-8">
+        <div class="flex-1">
+          <div class="flex items-start space-x-3 mb-2">
+            <div class="bg-white rounded-lg p-1">
+              <img src="../imagenes/logo.webp" alt="Electromovilidad 24" class="h-16 w-auto">
+            </div>
+            <div>
+              <h3 class="text-xl font-bold">Electromovilidad 24</h3>
+              <p class="text-gray-300">Tu fuente confiable de información sobre movilidad eléctrica.</p>
+            </div>
           </div>
-          <div>
-            <h3 class="text-xl font-bold">Electromovilidad 24</h3>
-            <p class="text-gray-300">Tu fuente confiable de información sobre movilidad eléctrica.</p>
+        </div>
+        <div class="flex-1">
+          <h4 class="text-lg font-semibold mb-2">Enlaces Útiles</h4>
+          <div class="flex flex-wrap gap-4">
+            <a href="../index.html" class="text-gray-300 hover:text-verde-principal transition-colors">Inicio</a>
+            <a href="../index.html#news-section"
+              class="text-gray-300 hover:text-verde-principal transition-colors">Noticias</a>
+            <a href="../comparativas.html"
+              class="text-gray-300 hover:text-verde-principal transition-colors">Comparativas</a>
+            <a href="../reviews.html" class="text-gray-300 hover:text-verde-principal transition-colors">Reviews</a>
+            <a href="../guias.html" class="text-gray-300 hover:text-verde-principal transition-colors">Guías</a>
+            <a href="../calculadoras.html"
+              class="text-gray-300 hover:text-verde-principal transition-colors">Calculadoras</a>
+            <a href="../sobre.html" class="text-gray-300 hover:text-verde-principal transition-colors">Sobre mí</a>
           </div>
         </div>
       </div>
-      <div class="flex-1">
-        <h4 class="text-lg font-semibold mb-2">Enlaces Útiles</h4>
-        <div class="flex flex-wrap gap-4">
-          <a href="../index.html" class="text-gray-300 hover:text-verde-principal transition-colors">Inicio</a>
-          <a href="../index.html#news-section" class="text-gray-300 hover:text-verde-principal transition-colors">Noticias</a>
-          <a href="../comparativas.html" class="text-gray-300 hover:text-verde-principal transition-colors">Comparativas</a>
-          <a href="../reviews.html" class="text-gray-300 hover:text-verde-principal transition-colors">Reviews</a>
-          <a href="../guias.html" class="text-gray-300 hover:text-verde-principal transition-colors">Guías</a>
-          <a href="../calculadoras.html" class="text-gray-300 hover:text-verde-principal transition-colors">Calculadoras</a>
-          <a href="../sobre.html" class="text-gray-300 hover:text-verde-principal transition-colors">Sobre mí</a>
-        </div>
-      </div>
-    </div>
 
       <div class="border-t border-gray-700 mt-8 pt-8 text-center">
         <p class="text-gray-400">
@@ -646,10 +800,13 @@
 
   <script>
     // Menú móvil
-    document.getElementById('mobile-menu-btn').addEventListener('click', function() {
+    document.getElementById('mobile-menu-btn').addEventListener('click', function () {
       const menu = document.getElementById('mobile-nav');
       menu.classList.toggle('hidden');
     });
   </script>
+  <script type='text/javascript'
+    src='//pl28052810.effectivegatecpm.com/87/85/ba/8785baa66295effbd2aec6714ef57340.js'></script>
 </body>
+
 </html>

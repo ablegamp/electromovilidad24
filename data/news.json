@@ -1,415 +1,415 @@
-[  
+[
   {
-  "id": 79,
-  "title": "Kia EV3 y BYD Dolphin Surf empujan a los clásicos en España",
-  "summary": "Crónica en primera persona sobre cómo el Kia EV3 y el BYD Dolphin Surf ganan cuota frente a Tesla Model Y y otros eléctricos tradicionales, con datos de ventas, precios y planes para 2026.",
-  "category": "Noticias",
-  "image": "/imagenes/kia-ev3.png",
-  "link": "articulos/competencia-fuerte-kia-ev3-byd-dolphin-surf-espana.html",
-  "date": "2025-12-02",
-  "readTime": "12 min"
-  },
-   {
-  "id": 78,
-  "title": "El mercado de eléctricos en España sigue creciendo: datos de noviembre 2025",
-  "summary": "Noviembre 2025 cerró con un 22,8% de cuota para los vehículos electrificados en España, duplicando el registro del año anterior. Analizo el papel del panel Posventa+2, las flotas corporativas, la infraestructura de recarga y las previsiones para 2026.",
-  "category": "Noticias",
-  "image": "https://images.unsplash.com/photo-1763543020294-b1a2da6ec325?w=1200&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NTl8fGVzdGFjaSVDMyVCM24lMjBkZSUyMGNhcmdhfGVufDB8fDB8fHwy",
-  "link": "articulos/mercado-electricos-espana-noviembre-2025.html",
-  "date": "2025-12-02",
-  "readTime": "12 min"
-   },
-   {
-  "id": 77,
-  "title": "España inaugura 14 nuevos puntos de recarga ultrarrápidos en Alicante",
-  "summary": "Alicante refuerza su red de movilidad eléctrica con 14 nuevos cargadores en la avenida de la Estación, incluyendo 4 ultrarrápidos de 350 kW, 6 rápidos y 4 semirrápidos, gestionados por Iberdrola - BP Pulse. La inversión de 1,2 millones de euros mejora la infraestructura de carga en la ciudad y facilita los viajes de media y larga distancia.",
-  "category": "Noticias",
-  "image": "https://images.unsplash.com/photo-1680537732160-01750bae5217?w=1200&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8YWxpY2FudGV8ZW58MHx8MHx8fDI%3D",
-  "link": "articulos/alicante-nuevos-puntos-recarga-2025.html",
-  "date": "2025-12-02",
-  "readTime": "8 min"
-   },
-   {
-  "id": 76,
-  "title": "Zeekr desembarca en Alemania con tres modelos eléctricos: precios y disponibilidad",
-  "summary": "La marca premium de Geely, Zeekr, inicia su expansión en Europa con el desembarco en Alemania de sus tres modelos eléctricos: el sedán 001, el monovolumen 009 y el compacto X. Con precios desde 44.900€ y hasta 700 km de autonomía, la marca china busca hacerse un hueco en el competitivo mercado alemán. Te contamos todos los detalles de precios, características y estrategia de la marca en Europa.",
-  "category": "Noticias",
-  "image": "/imagenes/zeekr-001.png",
-  "link": "articulos/zeekr-alemania-lanzamiento-tres-modelos.html",
-  "date": "2025-12-01",
-  "readTime": "10 min"
-   },
-   {
-  "id": 75,
-  "title": "Hyundai presenta el IONIQ 6 N 2026: 641 CV y diseño de superdeportivo",
-  "summary": "Hyundai ha desvelado su última creación: el IONIQ 6 N 2026, una berlina deportiva eléctrica con hasta 641 CV, aceleración 0-100 km/h en 3.1 segundos y un diseño aerodinámico con alerón trasero fijo. Llegará a España a finales de 2026 con un precio estimado de 75.000€.",
-  "category": "Novedades",
-  "image": "/imagenes/ioniq-6-n.png",
-  "link": "articulos/hyundai-ioniq-6-n-2026.html",
-  "date": "2025-12-01",
-  "readTime": "12 min"
-   },
-   {
-  "id": 74,
-  "title": "Límite de 80 días para que los cargadores eléctricos estén operativos",
-  "summary": "El Gobierno español ha establecido un plazo máximo de 80 días para que los puntos de recarga de vehículos eléctricos estén operativos tras su instalación, acabando con los retrasos burocráticos que podían alargarse hasta tres años. Te explicamos en qué consiste esta nueva normativa y cómo afectará a la movilidad eléctrica en España.",
-  "category": "Noticias",
-  "image": "https://plus.unsplash.com/premium_photo-1715611974827-ee63fb3d705c?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzN8fGNhcmdhZG9yJTIwZWxlY3RyaWNvfGVufDB8MHwwfHx8MA%3D%3D",
-  "link": "articulos/limite-80-dias-cargadores-electricos-operativos.html",
-  "date": "2025-11-30",
-  "readTime": "8 min"
-    },
-    {
-  "id": 73,
-  "title": "Finalizan las Ofertas de Noviembre: Último día para ahorrar en eléctricos",
-  "summary": "Desde los concesionarios cuento en primera persona cómo cerrar hoy los descuentos y la financiación especial de Dacia Spring, Fiat 500e, CUPRA Tavascan y Škoda Elroq antes de que expiren a medianoche.",
-  "category": "Ofertas",
-  "image": "https://plus.unsplash.com/premium_photo-1664283228670-83be9ec315e2?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NjV8fGNvY2hlJTIwZWxlY3RyaWNvfGVufDB8fDB8fHww",
-  "link": "articulos/ofertas-noviembre-2025-electricos.html",
-  "date": "2025-11-30",
-  "readTime": "12 min"
-    },
-   {
-  "id": 72,
-  "title": "Plan MOVES III: 40.000 compradores esperan 300 millones en ayudas sin cobrar",
-  "summary": "Miles de compradores de coches eléctricos e híbridos enchufables esperan el pago de las ayudas del Plan MOVES III. Análisis de la situación actual, los retrasos y qué opciones tienen los afectados ante la falta de presupuesto.",
-  "category": "Noticias",
-  "image": "https://images.unsplash.com/photo-1596731498067-99aeb581d3d7?w=1200&auto=format&fit=crop&q=80",
-  "link": "articulos/plan-moves-iii-retrasos-pagos-300-millones.html",
-  "date": "2025-11-29",
-  "readTime": "8 min"
-    },
-   {
-  "id": 71,
-  "title": "Hyundai lanza V2G y V2H en España: tu coche como fuente de energía",
-  "summary": "Hyundai Motor Group anuncia la llegada de sus tecnologías V2G (Vehicle-to-Grid) y V2H (Vehicle-to-Home) al mercado español. A partir de 2025, modelos como el IONIQ 5, IONIQ 6 y Kia EV6 podrán suministrar energía a hogares o a la red eléctrica, con ahorros de hasta 600€ anuales en la factura.",
-  "category": "Tecnología",
-  "image": "https://images.unsplash.com/photo-1588036873025-7261a5647adf?w=1200&auto=format&fit=crop&q=80&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8aHl1bmRhaXxlbnwwfHwwfHx8Mg%3D%3D",
-  "link": "articulos/hyundai-v2g-v2h-espana-2025.html",
-  "date": "2025-11-28",
-  "readTime": "10 min"
-    },
-   {
-  "id": 70,
-  "title": "Skoda apunta a cerrar 2025 con récord de ventas en España, aunque sus eléctricos siguen por debajo de la media",
-  "summary": "Skoda prevé superar las 40.000 matriculaciones en España este año, con un crecimiento del 8% respecto a 2024. Sin embargo, solo el 10% de sus ventas corresponden a modelos eléctricos, por debajo de la media del mercado (19%). Análisis de la estrategia de la marca checa y sus planes de electrificación para 2026.",
-  "category": "Noticias",
-  "image": "https://images.unsplash.com/photo-1617631653506-98a461291a83?w=1200&auto=format&fit=crop&q=80&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fHNrb2RhfGVufDB8fDB8fHwy",
-  "link": "articulos/skoda-record-ventas-espana-2025.html",
-  "date": "2025-11-28",
-  "readTime": "8 min"
-    },
-   {
-  "id": 69,
-  "title": "Baterías de sodio-ión: una alternativa barata al litio",
-  "summary": "Explico en primera persona qué aportan las baterías de sodio‑ión: coste más bajo, buena seguridad y mejor rendimiento en frío, así como sus límites en densidad. Estado del mercado 2025, aplicaciones prácticas y cuándo las veremos en coches urbanos.",
-  "category": "Innovación",
-  "image": "https://images.unsplash.com/photo-1763543007050-4dac73ffc67f?w=1200&auto=format&fit=crop&q=80&ixlib=rb-4.1.0",
-  "link": "articulos/baterias-sodio-ion-alternativa-barata-litio.html",
-  "date": "2025-11-28",
-  "readTime": "14 min"
-    },
-   {
-  "id": 68,
-  "title": "BYD TI7: El híbrido que arrasa en China con 50.000 reservas en 80 días",
-  "summary": "El BYD TI7, el nuevo SUV híbrido enchufable de la marca china, ha logrado vender 50.000 unidades en solo 80 días en su mercado local. Con su tecnología DM-p de última generación, 500 km de autonomía eléctrica y un diseño revolucionario, llegará a España en 2026 para competir con los modelos premium europeos. Análisis completo de especificaciones, precios y primeras impresiones.",
-  "category": "Noticias",
-  "image": "/imagenes/byd-ti7.png",
-  "link": "articulos/byd-ti7-hibrido-2026.html",
-  "date": "2025-11-27",
-  "readTime": "12 min"
-    },
-   {
-  "id": 67,
-  "title": "BYD despliega su propia red de cargadores en España para competir con Tesla",
-  "summary": "El gigante chino BYD anuncia su estrategia para implantar una red propia de cargadores ultrarrápidos en España, con el objetivo claro de competir directamente con la red de Supercargadores de Tesla. La compañía planea instalar más de 50 estaciones de carga de hasta 360 kW en puntos estratégicos de la geografía española durante 2026.",
-  "category": "Noticias",
-  "image": "https://images.unsplash.com/photo-1654246883355-d79160b61db5?w=1200&auto=format&fit=crop&q=80&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8YnlkfGVufDB8MHwwfHx8MA%3D%3D",
-  "link": "articulos/byd-red-cargadores-espana.html",
-  "date": "2025-11-27",
-  "readTime": "8 min"
-    },
-   {
-  "id": 66,
-  "title": "¡Increíble! Los coches eléctricos ya superan los 1.000 km de autonomía real",
-  "summary": "Los coches eléctricos de 2025 han roto todas las barreras de autonomía. Descubre cómo los últimos avances en baterías de estado sólido, aerodinámica y gestión energética han hecho posible superar los 1.000 km con una sola carga. Análisis de los modelos líderes y consejos para maximizar tu autonomía.",
-  "category": "Noticias",
-  "image": "https://images.unsplash.com/photo-1698223817326-a107c584c871?w=1200&auto=format&fit=crop&q=80&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjMxfHxjb2NoZSUyMGVsZWN0cmljb3xlbnwwfDB8MHx8fDI%3D",
-  "link": "articulos/autonomia-coches-electricos-2025-realidad-supera-ficcion.html",
-  "date": "2025-11-27",
-  "readTime": "12 min"
-    },
-   {
-  "id": 65,
-  "title": "Por 24.000 €, este BYD que se carga en 10 minutos y tiene hasta 700 km de autonomía es la nueva amenaza china",
-  "summary": "El BYD Han L 2025 revoluciona el mercado con carga ultrarrápida (16-80% en 10 min), 700 km de autonomía y aceleración de 0 a 100 km/h en solo 2,7 segundos. Precio desde 24.000€ con ayudas. Análisis completo de especificaciones, tecnología y disponibilidad en España.",
-  "category": "Noticias",
-  "image": "/imagenes/byd-han-l.png",
-  "link": "articulos/byd-han-l-carga-rapida-precio-2025.html",
-  "date": "2025-11-26",
-  "readTime": "8 min"
-    },
-    {
-  "id": 64,
-  "title": "Gigafactoría de baterías en Valladolid: 760 empleos y 712M€ de inversión",
-  "summary": "La nueva gigafactoría de baterías en Valladolid supondrá 760 empleos directos, 712 millones de euros de inversión y 32 GWh de capacidad de producción anual. El proyecto, que comenzará a construirse en 2025, posiciona a España como referente en la industria de la movilidad eléctrica en Europa.",
-  "category": "Noticias",
-  "image": "https://images.unsplash.com/flagged/photo-1609573703715-538bc1446b64?w=1200&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8dmFsbGFkb2xpZHxlbnwwfHwwfHx8Mg%3D%3D",
-  "link": "articulos/gigafactoria-baterias-valladolid-2025.html",
-  "date": "2025-11-26",
-  "readTime": "8 min"
-    },
-    {
-  "id": 63,
-  "title": "Electra abre su primera estación de carga ultrarrápida en Cartagena con 16 puntos",
-  "summary": "La compañía ha invertido 1,5 millones de euros en esta instalación, la más grande de la Región de Murcia, que permitirá cargar hasta 300 km de autonomía en solo 15 minutos. Conectividad total en el corredor mediterráneo.",
-  "category": "Noticias",
-  "image": "https://images.unsplash.com/photo-1641659376402-3d2f48a91ed7?w=1200&auto=format&fit=crop&q=80&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8ZWxlY3Ryb2xpbmVyYXxlbnwwfDB8MHx8fDI%3D",
-  "link": "articulos/electra-estacion-carga-cartagena.html",
-  "date": "2025-11-26",
-  "readTime": "8 min"
-    },
-    {
-  "id": 62,
-  "title": "Genesis GV60 Magma: el SUV premium radical de 650 CV",
-  "summary": "Genesis estrena su primer modelo Magma con 650 CV en Boost Mode, 0-200 km/h en 10,9 s y chasis rebajado 20 mm. Te cuento por qué este SUV eléctrico coreano apunta a Porsche.",
-  "category": "Noticias",
-  "image": "/imagenes/gv60-magma.png",
-  "link": "articulos/genesis-gv60-magma-suv-premium-radical.html",
-  "date": "2025-11-26",
-  "readTime": "11 min"
-    },
-    {
-  "id": 61,
-  "title": "Nuevos Modelos Chinos con Gran Autonomía: Fulwin A9 eléctrico y T9L PHEV",
-  "summary": "En Guangzhou 2025, Chery presenta el Fulwin A9 100% eléctrico y el T9L PHEV con hasta 1.400 km combinados. Mis impresiones y claves técnicas.",
-  "category": "Noticias",
-  "image": "/imagenes/fulwin-a9.png",
-  "link": "articulos/chery-fulwin-a9-t9l-gran-autonomia-guangzhou-2025.html",
-  "date": "2025-11-25",
-  "readTime": "9 min"
-    },
-    {
-  "id": 60,
-  "title": "KIA PV5, Mejor Furgoneta Eléctrica del Mundo - Premio IVOTY y Récord de Eficiencia",
-  "summary": "La KIA PV5 gana el premio International Van Of The Year 2026. Descubre cómo esta furgoneta eléctrica batió récords recorriendo 693 km en un día laboral y revolucionando el sector logístico con su tecnología PBV.",
-  "category": "Noticias",
-  "image": "https://www.electromovilidad24.com/imagenes/kia-pv5-2025.png",
-  "link": "articulos/kia-pv5-mejor-furgoneta-electrica-mundo.html",
-  "date": "2025-11-24",
-  "readTime": "8 min"
-    },
-    {
-  "id": 59,
-  "title": "Innovación en Baterías para el Frío: La Tecnología que Cambia el Juego",
-  "summary": "Descubro cómo un ánodo de silicio flexible desarrollado en Alemania multiplica por 2.5 la capacidad de las baterías y elimina el problema del rendimiento en frío. Análisis completo del avance que revoluciona la autonomía invernal de los coches eléctricos.",
-  "category": "Innovación",
-  "image": "https://images.unsplash.com/photo-1658383767644-afecbf76f07c?w=1200&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8YmF0ZXJpYSUyMGNvY2hlJTIwZWwlQzMlQTljdHJpY298ZW58MHx8MHx8fDI%3D",
-  "link": "articulos/innovacion-baterias-frio-anodo-silicio.html",
-  "date": "2025-11-22",
-  "readTime": "8 min"
-},
-    {
-  "id": 58,
-  "title": "Citroën ë-C3 por menos de 10.000€: La oferta que desafía a los chinos",
-  "summary": "Citroën lanza una oferta histórica en España: el ë-C3 por debajo de 10.000€ con ayudas. Análisis completo de precios, requisitos y comparativa con la competencia china. ¿Es el momento de comprar?",
-  "category": "Noticias",
-  "image": "/imagenes/citroen-ec3.png",
-  "link": "articulos/citroen-ec3-oferta-10000-euros-espana.html",
-  "date": "2025-11-20",
-  "readTime": "8 min"
-    },
-    {
-  "id": 57,
-  "title": "Jeep Recon 2026: el SUV eléctrico todoterreno con 402 km Trail Rated",
-  "summary": "Jeep confirma el Recon 2026, su primer SUV 100% eléctrico con certificación Trail Rated, batería de 100 kWh, tracción 4x4, 402 km de autonomía EPA y producción en Toluca para lanzarse en otoño de 2026.",
-  "category": "Noticias",
-  "image": "/imagenes/jeep-reckon-2026.png",
-  "link": "articulos/jeep-recon-2026-suv-electrico-todoterreno.html",
-  "date": "2025-11-19",
-  "readTime": "7 min"
-    },
-    {
-  "id": 56,
-  "title": "Kia EV5 llega a Europa en 2025: hasta 530 km de autonomía y tecnología avanzada",
-  "summary": "El Kia EV5 desembarca en Europa con hasta 530 km de autonomía WLTP, diseño innovador y tecnología de vanguardia. Descubre precio, características y fecha de lanzamiento del nuevo SUV eléctrico de Kia.",
-  "category": "Noticias",
-  "image": "https://images.unsplash.com/photo-1657638005531-a5c98fa49677?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8a2lhfGVufDB8MHwwfHx8Mg%3D%3D",
-  "link": "articulos/kia-ev5-europa-lanzamiento-2025.html",
-  "date": "2025-11-18",
-  "readTime": "8 min"
-    },
-    {
-  "id": 55,
-  "title": "BMW iX3 2026 con conducción autónoma china: Alianza con Momenta",
-  "summary": "BMW anuncia alianza con la empresa china Momenta para implementar tecnología de conducción autónoma de nivel 3 en el iX3 2026. El SUV eléctrico ofrecerá funciones avanzadas de conducción autónoma específicamente adaptadas para el mercado chino, con producción local en la planta de Shenyang.",
-  "category": "Noticias",
-  "image": "https://images.unsplash.com/photo-1639302610362-4c86747e8680?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Ym13JTIwaXgzfGVufDB8fDB8fHwy",
-  "link": "articulos/bmw-ix3-conduccion-autonoma-momenta-2026.html",
-  "date": "2025-11-17",
-  "readTime": "8 min"
-    },
-    {
-  "id": 54,
-  "title": "Mazda3 Eléctrico con Tecnología China: ¿El Fin del 'Jinba-Ittai'?",
-  "summary": "Análisis del cambio estratégico de Mazda al considerar una plataforma de su socio chino Changan para el futuro Mazda3 eléctrico. Tras el éxito del EZ-6, ¿es el fin de la independencia japonesa?",
-  "category": "Noticias",
-  "image": "https://images.unsplash.com/photo-1531181616225-f8e50c1ab53e?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8bWF6ZGF8ZW58MHx8MHx8fDI%3D",
-  "link": "articulos/mazda3-electrico-plataforma-china-changan.html",
-  "date": "2025-11-17",
-  "readTime": "6 min"
-    },
-    {
-  "id": 53,
-  "title": "Ventas Coches Eléctricos: ¿Por Qué Portugal Triplica la Cuota de España? Análisis 2025",
-  "summary": "Análisis de por qué la cuota de mercado de coches eléctricos en Portugal (30%) triplica la de España (10%). Causas de la ralentización de ventas, diferencias en ayudas, fiscalidad e infraestructura.",
-  "category": "Noticias",
-  "image": "https://images.unsplash.com/photo-1617886322168-72b886573c35?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mjh8fGNhcmdhJTIwZGUlMjBjb2NoZXMlMjBlbCVDMyVBOWN0cmljb3N8ZW58MHx8MHx8fDI%3D",
-  "link": "articulos/ventas-coches-electricos-espana-portugal-2025.html",
-  "date": "2025-11-17",
-  "readTime": "10 min"
-    },
-    {
-  "id": 52,
-  "title": "Plan MOVES Corredores: España elimina los desiertos de carga en autopistas y carreteras principales",
-  "summary": "El Gobierno lanza el Plan MOVES Corredores para instalar cargadores rápidos cada 50-60 km en las principales vías de España. Inversión de 100 millones para eliminar los 'desiertos de carga' con puntos de 150-400 kW. Requisitos estrictos de ubicación, potencia y disponibilidad 24/7. Fases de despliegue hasta 2028.",
-  "category": "Noticias",
-  "image": "https://images.unsplash.com/photo-1703860271535-27d4543db10a?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTEzfHxiYXRlcmlhJTIwY29jaGUlMjBlbGVjdHJpY298ZW58MHx8MHx8fDI%3D",
-  "link": "articulos/plan-moves-corredores-2025-infraestructura-carga.html",
-  "date": "2025-11-16",
-  "readTime": "8 min"
-    },
-    {
-  "id": 51,
-  "title": "El 'impuesto del asfalto': el coste de cargar sin garaje que frena el coche eléctrico",
-  "summary": "Conductores sin garaje pagan hasta 0,60 €/kWh en carga pública frente a 0,15 €/kWh en casa con wallbox. Esta desigualdad, bautizada como 'impuesto del asfalto', reduce el ahorro del eléctrico del 70% al 20-30% y penaliza especialmente a residentes urbanos. Analizamos el problema y las soluciones propuestas.",
-  "category": "Noticias",
-  "image": "https://images.unsplash.com/photo-1760539120788-8529cccfea75?w=1200&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8c3V2JTIwZWxlY3RyaWNvJTIwY2FyZ2FuZG98ZW58MHx8MHx8fDI%3D",
-  "link": "articulos/impuesto-asfalto-coste-cargar-sin-garaje.html",
-  "date": "2025-11-16",
-  "readTime": "8 min"
-    },
-    {
-      "id": 50,
-      "title": "SUV eléctricos: 7 de cada 10 ventas son carrocerías altas",
-      "summary": "Análisis exclusivo de las ventas de noviembre 2025: el 70% de los coches eléctricos vendidos son SUV. Descubre por qué los compradores prefieren carrocerías altas y qué modelos dominan el mercado.",
-      "category": "Noticias",
-      "image": "https://images.unsplash.com/photo-1762912562431-717505f9f7fc?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fHN1diUyMGVsZWN0cmljb3xlbnwwfHwwfHx8Mg%3D%3D",
-      "link": "articulos/suv-electricos-dominan-ventas-noviembre-2025.html",
-      "date": "2025-11-15",
-      "readTime": "12 min"
-    },
-    {
-      "id": 49,
-      "title": "Audi Q6 e-tron 2025: primeras impresiones y análisis completo",
-      "summary": "Primeras pruebas del Audi Q6 e-tron 2025: arquitectura 800V, carga ultrarrápida de 270 kW, más de 600 km de autonomía. Análisis completo del nuevo SUV eléctrico premium que redefine los estándares de Audi.",
-      "category": "Noticias",
-      "image": "/imagenes/audi-q6-e-tron.png",
-      "link": "articulos/audi-q6-etron-primeras-impresiones-2025.html",
-      "date": "2025-11-14",
-      "readTime": "10 min"
-    },
-    {
-      "id": 48,
-      "title": "Las ventas de coches eléctricos se ralentizan en noviembre 2025",
-      "summary": "Las ventas de coches eléctricos muestran una desaceleración en noviembre de 2025. Analizamos las causas de esta tendencia y qué podemos esperar para los próximos meses en el mercado de la movilidad eléctrica.",
-      "category": "Noticias",
-      "image": "https://images.unsplash.com/photo-1631347826177-de288776ed3b?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDB8fGNvY2hlJTIwZWxlY3RyaWNvfGVufDB8fDB8fHwy",
-      "link": "articulos/ventas-electricos-ralentizan-noviembre-2025.html",
-      "date": "2025-11-14",
-      "readTime": "8 min"
-    },
-    {
-      "id": 47,
-      "title": "Peugeot Polygon Concept: así será el revolucionario e-208 de 2027 con volante rectangular",
-      "summary": "Peugeot presenta el Polygon Concept con volante Hypersquare, dirección steer-by-wire y materiales 100% reciclados. Descubre cómo será el revolucionario Peugeot e-208 de 2027.",
-      "category": "Noticias",
-      "image": "../imagenes/peugeot-polygon-concept.png",
-      "link": "articulos/peugeot-polygon-concept-futuro-e208-2027.html",
-      "date": "2025-11-13",
-      "readTime": "9 min"
-    },
-    {
-      "id": 46,
-      "title": "KGM Torres EVX: más de 600 km de autonomía sin subir precio",
-      "summary": "El KGM Torres EVX se actualiza con batería Blade de BYD de 80,6 kWh, más de 600 km de autonomía y garantía de 10 años sin subir precio. Descubre todas las mejoras y si merece la pena.",
-      "category": "Noticias",
-      "image": "../imagenes/kgm-torres-evx.png",
-      "link": "articulos/kgm-torres-evx-actualizacion-2025.html",
-      "date": "2025-11-13",
-      "readTime": "10 min"
-    },
-    {
-      "id": 45,
-      "title": "Mercedes prepara su SUV eléctrico más barato y práctico: todo lo que sabemos",
-      "summary": "Mercedes lanzará en menos de un mes su SUV eléctrico más accesible y práctico. Descubre las especificaciones, precio estimado y si merece la pena esperarlo frente a la competencia actual.",
-      "category": "Noticias",
-      "image": "../imagenes/mercedes-glb-electrico-2025.png",
-      "link": "articulos/mercedes-suv-electrico-barato-2025.html",
-      "date": "2025-11-12",
-      "readTime": "12 min"
-    },
-    {
-  "id": 44,
-  "title": "Madrid se desmarca: El Plan Mueve Madrid garantiza ayudas para eléctricos en 2026",
-  "summary": "Mientras el MOVES III nacional caduca en 2025, el Plan Mueve Madrid ofrece certeza y cubre la compra de vehículos eléctricos hasta finales de 2026. Te contamos todos los detalles de las ayudas disponibles.",
-  "category": "Noticias",
-  "image": "https://images.unsplash.com/photo-1726220198004-20452233c2ae?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fGNvY2hlJTIwZWxlY3RyaWNvJTIwY2FyZ2FuZG98ZW58MHx8MHx8fDI%3D",
-  "link": "articulos/plan-mueve-madrid-2026-ayudas.html",
-  "date": "2025-11-12",
-  "readTime": "10 min"
-    },
-    {
-  "id": 43,
-  "title": "Las baterías de coches eléctricos duran mucho más de lo esperado: nuevo estudio",
-  "summary": "Un estudio con datos reales de 15.000 vehículos eléctricos confirma que las baterías degradan solo 1.8-2.3% anual, manteniendo más del 80% de capacidad tras 10 años. Los datos desmontan el mito de la degradación acelerada y refuerzan la viabilidad económica del coche eléctrico a largo plazo.",
-  "category": "Noticias",
-  "image": "https://images.unsplash.com/photo-1672152825656-6747b9bd2377?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzV8fGJhdGVyaWElMjBjb2NoZSUyMGVsJUMzJUE5Y3RyaWNvfGVufDB8fDB8fHwy&auto=format&fit=crop&q=60&w=1200",
-  "link": "articulos/baterias-coches-electricos-duran-mas-esperado-estudio.html",
-  "date": "2025-11-11",
-  "readTime": "7 min"
-     },
-    {
-  "id": 42,
-  "title": "Fastned invertirá 100 millones en 80 estaciones de carga rápida en España",
-  "summary": "El operador holandés Fastned anuncia una inversión de 100 millones de euros para desplegar 80 estaciones de recarga ultrarrápida en España. La mayor inversión privada en infraestructura de recarga del país, con estaciones de 150-400 kW en autopistas principales. Un impulso clave para la movilidad eléctrica en viajes largos.",
-  "category": "Noticias",
-  "image": "https://images.unsplash.com/photo-1751553512991-7ae218946be9?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTQxfHxjb2NoZSUyMGVsZWN0cmljb3xlbnwwfHwwfHx8Mg%3D%3D&auto=format&fit=crop&q=80&w=1200",
-  "link": "articulos/fastned-100-millones-80-estaciones-carga-rapida-espana.html",
-  "date": "2025-11-11",
-  "readTime": "9 min"
-    },
-    {
-  "id": 41,
-  "title": "El parque de vehículos ecológicos se dispara un 21% en España",
-  "summary": "España alcanza 1,24 millones de vehículos híbridos y eléctricos en 2024, un aumento del 21,3%. El diésel cae un 1,7% mientras Madrid, Barcelona y Castellón lideran la electrificación. Análisis de las tendencias, provincias más ecológicas y perspectivas futuras.",
-  "category": "Noticias",
-  "image": "https://images.unsplash.com/photo-1707341596708-c81840f0e62d?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjEzfHxjb2NoZSUyMGVsZWN0cmljb3xlbnwwfHwwfHx8Mg%3D%3D&auto=format&fit=crop&q=60&w=500",
-  "link": "articulos/parque-vehiculos-ecologicos-dispara-espana-2024.html",
-  "date": "2025-11-10",
-  "readTime": "10 min"
+    "id": 79,
+    "title": "Kia EV3 y BYD Dolphin Surf empujan a los clásicos en España",
+    "summary": "Crónica en primera persona sobre cómo el Kia EV3 y el BYD Dolphin Surf ganan cuota frente a Tesla Model Y y otros eléctricos tradicionales, con datos de ventas, precios y planes para 2026.",
+    "category": "Noticias",
+    "image": "/imagenes/kia-ev3.png",
+    "link": "articulos/competencia-fuerte-kia-ev3-byd-dolphin-surf-espana.html",
+    "date": "2025-12-02",
+    "readTime": "12 min"
   },
   {
-  "id": 40,
-  "title": "España se convierte en el único refugio de Tesla en Europa",
-  "summary": "Un informe revela que España es el único gran mercado europeo donde Tesla crece (+7,6%) mientras se desploma en Alemania (-50%), Francia (-30%) e Italia. BYD emerge como competidor directo con crecimiento explosivo en el mercado español.",
-  "category": "Noticias",
-  "image": "https://images.unsplash.com/photo-1663008519747-9da38bbfd132?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8dGVzbGF8ZW58MHx8MHx8fDI%3D&auto=format&fit=crop&q=60&w=1200",
-  "link": "articulos/espana-unico-mercado-tesla-crece-europa.html",
-  "date": "2025-11-09",
-  "readTime": "8 min"
-},
-    {
-  "id": 39,
-  "title": "España supera los 48.900 puntos de recarga pública con inversión récord de 1.290 millones",
-  "summary": "Según el barómetro de electromovilidad, España alcanza 48.923 puntos de recarga operativos. AEDIVE alerta que 15.000 puntos adicionales esperan permisos. Análisis de la distribución, inversión y retos administrativos que frenan el despliegue.",
-  "category": "Noticias",
-  "image": "/imagenes/ev1.webp",
-  "link": "articulos/espana-48900-puntos-recarga-publica-2025.html",
-  "date": "2025-11-08",
-  "readTime": "6 min"
-    },
-    {
+    "id": 78,
+    "title": "El mercado de eléctricos en España sigue creciendo: datos de noviembre 2025",
+    "summary": "Noviembre 2025 cerró con un 22,8% de cuota para los vehículos electrificados en España, duplicando el registro del año anterior. Analizo el papel del panel Posventa+2, las flotas corporativas, la infraestructura de recarga y las previsiones para 2026.",
+    "category": "Noticias",
+    "image": "https://images.unsplash.com/photo-1763543020294-b1a2da6ec325?w=1200&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NTl8fGVzdGFjaSVDMyVCM24lMjBkZSUyMGNhcmdhfGVufDB8fDB8fHwy",
+    "link": "articulos/mercado-electricos-espana-noviembre-2025.html",
+    "date": "2025-12-02",
+    "readTime": "12 min"
+  },
+  {
+    "id": 77,
+    "title": "España inaugura 14 nuevos puntos de recarga ultrarrápidos en Alicante",
+    "summary": "Alicante refuerza su red de movilidad eléctrica con 14 nuevos cargadores en la avenida de la Estación, incluyendo 4 ultrarrápidos de 350 kW, 6 rápidos y 4 semirrápidos, gestionados por Iberdrola - BP Pulse. La inversión de 1,2 millones de euros mejora la infraestructura de carga en la ciudad y facilita los viajes de media y larga distancia.",
+    "category": "Noticias",
+    "image": "https://images.unsplash.com/photo-1680537732160-01750bae5217?w=1200&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8YWxpY2FudGV8ZW58MHx8MHx8fDI%3D",
+    "link": "articulos/alicante-nuevos-puntos-recarga-2025.html",
+    "date": "2025-12-02",
+    "readTime": "8 min"
+  },
+  {
+    "id": 76,
+    "title": "Zeekr desembarca en Alemania con tres modelos eléctricos: precios y disponibilidad",
+    "summary": "La marca premium de Geely, Zeekr, inicia su expansión en Europa con el desembarco en Alemania de sus tres modelos eléctricos: el sedán 001, el monovolumen 009 y el compacto X. Con precios desde 44.900€ y hasta 700 km de autonomía, la marca china busca hacerse un hueco en el competitivo mercado alemán. Te contamos todos los detalles de precios, características y estrategia de la marca en Europa.",
+    "category": "Noticias",
+    "image": "/imagenes/zeekr-001.png",
+    "link": "articulos/zeekr-alemania-lanzamiento-tres-modelos.html",
+    "date": "2025-12-01",
+    "readTime": "10 min"
+  },
+  {
+    "id": 75,
+    "title": "Hyundai presenta el IONIQ 6 N 2026: 641 CV y diseño de superdeportivo",
+    "summary": "Hyundai ha desvelado su última creación: el IONIQ 6 N 2026, una berlina deportiva eléctrica con hasta 641 CV, aceleración 0-100 km/h en 3.1 segundos y un diseño aerodinámico con alerón trasero fijo. Llegará a España a finales de 2026 con un precio estimado de 75.000€.",
+    "category": "Novedades",
+    "image": "/imagenes/ioniq-6-n.png",
+    "link": "articulos/hyundai-ioniq-6-n-2026.html",
+    "date": "2025-12-01",
+    "readTime": "12 min"
+  },
+  {
+    "id": 74,
+    "title": "Límite de 80 días para que los cargadores eléctricos estén operativos",
+    "summary": "El Gobierno español ha establecido un plazo máximo de 80 días para que los puntos de recarga de vehículos eléctricos estén operativos tras su instalación, acabando con los retrasos burocráticos que podían alargarse hasta tres años. Te explicamos en qué consiste esta nueva normativa y cómo afectará a la movilidad eléctrica en España.",
+    "category": "Noticias",
+    "image": "https://plus.unsplash.com/premium_photo-1715611974827-ee63fb3d705c?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzN8fGNhcmdhZG9yJTIwZWxlY3RyaWNvfGVufDB8MHwwfHx8MA%3D%3D",
+    "link": "articulos/limite-80-dias-cargadores-electricos-operativos.html",
+    "date": "2025-11-30",
+    "readTime": "8 min"
+  },
+  {
+    "id": 73,
+    "title": "Finalizan las Ofertas de Noviembre: Último día para ahorrar en eléctricos",
+    "summary": "Desde los concesionarios cuento en primera persona cómo cerrar hoy los descuentos y la financiación especial de Dacia Spring, Fiat 500e, CUPRA Tavascan y Škoda Elroq antes de que expiren a medianoche.",
+    "category": "Ofertas",
+    "image": "https://plus.unsplash.com/premium_photo-1664283228670-83be9ec315e2?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NjV8fGNvY2hlJTIwZWxlY3RyaWNvfGVufDB8fDB8fHww",
+    "link": "articulos/ofertas-noviembre-2025-electricos.html",
+    "date": "2025-11-30",
+    "readTime": "12 min"
+  },
+  {
+    "id": 72,
+    "title": "Plan MOVES III: 40.000 compradores esperan 300 millones en ayudas sin cobrar",
+    "summary": "Miles de compradores de coches eléctricos e híbridos enchufables esperan el pago de las ayudas del Plan MOVES III. Análisis de la situación actual, los retrasos y qué opciones tienen los afectados ante la falta de presupuesto.",
+    "category": "Noticias",
+    "image": "https://images.unsplash.com/photo-1596731498067-99aeb581d3d7?w=1200&auto=format&fit=crop&q=80",
+    "link": "articulos/plan-moves-iii-retrasos-pagos-300-millones.html",
+    "date": "2025-11-29",
+    "readTime": "8 min"
+  },
+  {
+    "id": 71,
+    "title": "Hyundai lanza V2G y V2H en España: tu coche como fuente de energía",
+    "summary": "Hyundai Motor Group anuncia la llegada de sus tecnologías V2G (Vehicle-to-Grid) y V2H (Vehicle-to-Home) al mercado español. A partir de 2025, modelos como el IONIQ 5, IONIQ 6 y Kia EV6 podrán suministrar energía a hogares o a la red eléctrica, con ahorros de hasta 600€ anuales en la factura.",
+    "category": "Tecnología",
+    "image": "https://images.unsplash.com/photo-1588036873025-7261a5647adf?w=1200&auto=format&fit=crop&q=80&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8aHl1bmRhaXxlbnwwfHwwfHx8Mg%3D%3D",
+    "link": "articulos/hyundai-v2g-v2h-espana-2025.html",
+    "date": "2025-11-28",
+    "readTime": "10 min"
+  },
+  {
+    "id": 70,
+    "title": "Skoda apunta a cerrar 2025 con récord de ventas en España, aunque sus eléctricos siguen por debajo de la media",
+    "summary": "Skoda prevé superar las 40.000 matriculaciones en España este año, con un crecimiento del 8% respecto a 2024. Sin embargo, solo el 10% de sus ventas corresponden a modelos eléctricos, por debajo de la media del mercado (19%). Análisis de la estrategia de la marca checa y sus planes de electrificación para 2026.",
+    "category": "Noticias",
+    "image": "https://images.unsplash.com/photo-1617631653506-98a461291a83?w=1200&auto=format&fit=crop&q=80&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fHNrb2RhfGVufDB8fDB8fHwy",
+    "link": "articulos/skoda-record-ventas-espana-2025.html",
+    "date": "2025-11-28",
+    "readTime": "8 min"
+  },
+  {
+    "id": 69,
+    "title": "Baterías de sodio-ión: una alternativa barata al litio",
+    "summary": "Explico en primera persona qué aportan las baterías de sodio‑ión: coste más bajo, buena seguridad y mejor rendimiento en frío, así como sus límites en densidad. Estado del mercado 2025, aplicaciones prácticas y cuándo las veremos en coches urbanos.",
+    "category": "Innovación",
+    "image": "https://images.unsplash.com/photo-1763543007050-4dac73ffc67f?w=1200&auto=format&fit=crop&q=80&ixlib=rb-4.1.0",
+    "link": "articulos/baterias-sodio-ion-alternativa-barata-litio.html",
+    "date": "2025-11-28",
+    "readTime": "14 min"
+  },
+  {
+    "id": 68,
+    "title": "BYD TI7: El híbrido que arrasa en China con 50.000 reservas en 80 días",
+    "summary": "El BYD TI7, el nuevo SUV híbrido enchufable de la marca china, ha logrado vender 50.000 unidades en solo 80 días en su mercado local. Con su tecnología DM-p de última generación, 500 km de autonomía eléctrica y un diseño revolucionario, llegará a España en 2026 para competir con los modelos premium europeos. Análisis completo de especificaciones, precios y primeras impresiones.",
+    "category": "Noticias",
+    "image": "/imagenes/byd-ti7.png",
+    "link": "articulos/byd-ti7-hibrido-2026.html",
+    "date": "2025-11-27",
+    "readTime": "12 min"
+  },
+  {
+    "id": 67,
+    "title": "BYD despliega su propia red de cargadores en España para competir con Tesla",
+    "summary": "El gigante chino BYD anuncia su estrategia para implantar una red propia de cargadores ultrarrápidos en España, con el objetivo claro de competir directamente con la red de Supercargadores de Tesla. La compañía planea instalar más de 50 estaciones de carga de hasta 360 kW en puntos estratégicos de la geografía española durante 2026.",
+    "category": "Noticias",
+    "image": "https://images.unsplash.com/photo-1654246883355-d79160b61db5?w=1200&auto=format&fit=crop&q=80&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8YnlkfGVufDB8MHwwfHx8MA%3D%3D",
+    "link": "articulos/byd-red-cargadores-espana.html",
+    "date": "2025-11-27",
+    "readTime": "8 min"
+  },
+  {
+    "id": 66,
+    "title": "¡Increíble! Los coches eléctricos ya superan los 1.000 km de autonomía real",
+    "summary": "Los coches eléctricos de 2025 han roto todas las barreras de autonomía. Descubre cómo los últimos avances en baterías de estado sólido, aerodinámica y gestión energética han hecho posible superar los 1.000 km con una sola carga. Análisis de los modelos líderes y consejos para maximizar tu autonomía.",
+    "category": "Noticias",
+    "image": "https://images.unsplash.com/photo-1698223817326-a107c584c871?w=1200&auto=format&fit=crop&q=80&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjMxfHxjb2NoZSUyMGVsZWN0cmljb3xlbnwwfDB8MHx8fDI%3D",
+    "link": "articulos/autonomia-coches-electricos-2025-realidad-supera-ficcion.html",
+    "date": "2025-11-27",
+    "readTime": "12 min"
+  },
+  {
+    "id": 65,
+    "title": "Por 24.000 €, este BYD que se carga en 10 minutos y tiene hasta 700 km de autonomía es la nueva amenaza china",
+    "summary": "El BYD Han L 2025 revoluciona el mercado con carga ultrarrápida (16-80% en 10 min), 700 km de autonomía y aceleración de 0 a 100 km/h en solo 2,7 segundos. Precio desde 24.000€ con ayudas. Análisis completo de especificaciones, tecnología y disponibilidad en España.",
+    "category": "Noticias",
+    "image": "/imagenes/byd-han-l.png",
+    "link": "articulos/byd-han-l-carga-rapida-precio-2025.html",
+    "date": "2025-11-26",
+    "readTime": "8 min"
+  },
+  {
+    "id": 64,
+    "title": "Gigafactoría de baterías en Valladolid: 760 empleos y 712M€ de inversión",
+    "summary": "La nueva gigafactoría de baterías en Valladolid supondrá 760 empleos directos, 712 millones de euros de inversión y 32 GWh de capacidad de producción anual. El proyecto, que comenzará a construirse en 2025, posiciona a España como referente en la industria de la movilidad eléctrica en Europa.",
+    "category": "Noticias",
+    "image": "https://images.unsplash.com/flagged/photo-1609573703715-538bc1446b64?w=1200&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8dmFsbGFkb2xpZHxlbnwwfHwwfHx8Mg%3D%3D",
+    "link": "articulos/gigafactoria-baterias-valladolid-2025.html",
+    "date": "2025-11-26",
+    "readTime": "8 min"
+  },
+  {
+    "id": 63,
+    "title": "Electra abre su primera estación de carga ultrarrápida en Cartagena con 16 puntos",
+    "summary": "La compañía ha invertido 1,5 millones de euros en esta instalación, la más grande de la Región de Murcia, que permitirá cargar hasta 300 km de autonomía en solo 15 minutos. Conectividad total en el corredor mediterráneo.",
+    "category": "Noticias",
+    "image": "https://images.unsplash.com/photo-1641659376402-3d2f48a91ed7?w=1200&auto=format&fit=crop&q=80&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8ZWxlY3Ryb2xpbmVyYXxlbnwwfDB8MHx8fDI%3D",
+    "link": "articulos/electra-estacion-carga-cartagena.html",
+    "date": "2025-11-26",
+    "readTime": "8 min"
+  },
+  {
+    "id": 62,
+    "title": "Genesis GV60 Magma: el SUV premium radical de 650 CV",
+    "summary": "Genesis estrena su primer modelo Magma con 650 CV en Boost Mode, 0-200 km/h en 10,9 s y chasis rebajado 20 mm. Te cuento por qué este SUV eléctrico coreano apunta a Porsche.",
+    "category": "Noticias",
+    "image": "/imagenes/gv60-magma.png",
+    "link": "articulos/genesis-gv60-magma-suv-premium-radical.html",
+    "date": "2025-11-26",
+    "readTime": "11 min"
+  },
+  {
+    "id": 61,
+    "title": "Nuevos Modelos Chinos con Gran Autonomía: Fulwin A9 eléctrico y T9L PHEV",
+    "summary": "En Guangzhou 2025, Chery presenta el Fulwin A9 100% eléctrico y el T9L PHEV con hasta 1.400 km combinados. Mis impresiones y claves técnicas.",
+    "category": "Noticias",
+    "image": "/imagenes/fulwin-a9.png",
+    "link": "articulos/chery-fulwin-a9-t9l-gran-autonomia-guangzhou-2025.html",
+    "date": "2025-11-25",
+    "readTime": "9 min"
+  },
+  {
+    "id": 60,
+    "title": "KIA PV5, Mejor Furgoneta Eléctrica del Mundo - Premio IVOTY y Récord de Eficiencia",
+    "summary": "La KIA PV5 gana el premio International Van Of The Year 2026. Descubre cómo esta furgoneta eléctrica batió récords recorriendo 693 km en un día laboral y revolucionando el sector logístico con su tecnología PBV.",
+    "category": "Noticias",
+    "image": "https://www.electromovilidad24.com/imagenes/kia-pv5-2025.png",
+    "link": "articulos/kia-pv5-mejor-furgoneta-electrica-mundo.html",
+    "date": "2025-11-24",
+    "readTime": "8 min"
+  },
+  {
+    "id": 59,
+    "title": "Innovación en Baterías para el Frío: La Tecnología que Cambia el Juego",
+    "summary": "Descubro cómo un ánodo de silicio flexible desarrollado en Alemania multiplica por 2.5 la capacidad de las baterías y elimina el problema del rendimiento en frío. Análisis completo del avance que revoluciona la autonomía invernal de los coches eléctricos.",
+    "category": "Innovación",
+    "image": "https://images.unsplash.com/photo-1658383767644-afecbf76f07c?w=1200&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8YmF0ZXJpYSUyMGNvY2hlJTIwZWwlQzMlQTljdHJpY298ZW58MHx8MHx8fDI%3D",
+    "link": "articulos/innovacion-baterias-frio-anodo-silicio.html",
+    "date": "2025-11-22",
+    "readTime": "8 min"
+  },
+  {
+    "id": 58,
+    "title": "Citroën ë-C3 por menos de 10.000€: La oferta que desafía a los chinos",
+    "summary": "Citroën lanza una oferta histórica en España: el ë-C3 por debajo de 10.000€ con ayudas. Análisis completo de precios, requisitos y comparativa con la competencia china. ¿Es el momento de comprar?",
+    "category": "Noticias",
+    "image": "/imagenes/citroen-ec3.png",
+    "link": "articulos/citroen-ec3-oferta-10000-euros-espana.html",
+    "date": "2025-11-20",
+    "readTime": "8 min"
+  },
+  {
+    "id": 57,
+    "title": "Jeep Recon 2026: el SUV eléctrico todoterreno con 402 km Trail Rated",
+    "summary": "Jeep confirma el Recon 2026, su primer SUV 100% eléctrico con certificación Trail Rated, batería de 100 kWh, tracción 4x4, 402 km de autonomía EPA y producción en Toluca para lanzarse en otoño de 2026.",
+    "category": "Noticias",
+    "image": "/imagenes/jeep-reckon-2026.png",
+    "link": "articulos/jeep-recon-2026-suv-electrico-todoterreno.html",
+    "date": "2025-11-19",
+    "readTime": "7 min"
+  },
+  {
+    "id": 56,
+    "title": "Kia EV5 llega a Europa en 2025: hasta 530 km de autonomía y tecnología avanzada",
+    "summary": "El Kia EV5 desembarca en Europa con hasta 530 km de autonomía WLTP, diseño innovador y tecnología de vanguardia. Descubre precio, características y fecha de lanzamiento del nuevo SUV eléctrico de Kia.",
+    "category": "Noticias",
+    "image": "https://images.unsplash.com/photo-1657638005531-a5c98fa49677?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8a2lhfGVufDB8MHwwfHx8Mg%3D%3D",
+    "link": "articulos/kia-ev5-europa-lanzamiento-2025.html",
+    "date": "2025-11-18",
+    "readTime": "8 min"
+  },
+  {
+    "id": 55,
+    "title": "BMW iX3 2026 con conducción autónoma china: Alianza con Momenta",
+    "summary": "BMW anuncia alianza con la empresa china Momenta para implementar tecnología de conducción autónoma de nivel 3 en el iX3 2026. El SUV eléctrico ofrecerá funciones avanzadas de conducción autónoma específicamente adaptadas para el mercado chino, con producción local en la planta de Shenyang.",
+    "category": "Noticias",
+    "image": "https://images.unsplash.com/photo-1639302610362-4c86747e8680?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Ym13JTIwaXgzfGVufDB8fDB8fHwy",
+    "link": "articulos/bmw-ix3-conduccion-autonoma-momenta-2026.html",
+    "date": "2025-11-17",
+    "readTime": "8 min"
+  },
+  {
+    "id": 54,
+    "title": "Mazda3 Eléctrico con Tecnología China: ¿El Fin del 'Jinba-Ittai'?",
+    "summary": "Análisis del cambio estratégico de Mazda al considerar una plataforma de su socio chino Changan para el futuro Mazda3 eléctrico. Tras el éxito del EZ-6, ¿es el fin de la independencia japonesa?",
+    "category": "Noticias",
+    "image": "https://images.unsplash.com/photo-1531181616225-f8e50c1ab53e?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8bWF6ZGF8ZW58MHx8MHx8fDI%3D",
+    "link": "articulos/mazda3-electrico-plataforma-china-changan.html",
+    "date": "2025-11-17",
+    "readTime": "6 min"
+  },
+  {
+    "id": 53,
+    "title": "Ventas Coches Eléctricos: ¿Por Qué Portugal Triplica la Cuota de España? Análisis 2025",
+    "summary": "Análisis de por qué la cuota de mercado de coches eléctricos en Portugal (30%) triplica la de España (10%). Causas de la ralentización de ventas, diferencias en ayudas, fiscalidad e infraestructura.",
+    "category": "Noticias",
+    "image": "https://images.unsplash.com/photo-1617886322168-72b886573c35?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mjh8fGNhcmdhJTIwZGUlMjBjb2NoZXMlMjBlbCVDMyVBOWN0cmljb3N8ZW58MHx8MHx8fDI%3D",
+    "link": "articulos/ventas-coches-electricos-espana-portugal-2025.html",
+    "date": "2025-11-17",
+    "readTime": "10 min"
+  },
+  {
+    "id": 52,
+    "title": "Plan MOVES Corredores: España elimina los desiertos de carga en autopistas y carreteras principales",
+    "summary": "El Gobierno lanza el Plan MOVES Corredores para instalar cargadores rápidos cada 50-60 km en las principales vías de España. Inversión de 100 millones para eliminar los 'desiertos de carga' con puntos de 150-400 kW. Requisitos estrictos de ubicación, potencia y disponibilidad 24/7. Fases de despliegue hasta 2028.",
+    "category": "Noticias",
+    "image": "https://images.unsplash.com/photo-1703860271535-27d4543db10a?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTEzfHxiYXRlcmlhJTIwY29jaGUlMjBlbGVjdHJpY298ZW58MHx8MHx8fDI%3D",
+    "link": "articulos/plan-moves-corredores-2025-infraestructura-carga.html",
+    "date": "2025-11-16",
+    "readTime": "8 min"
+  },
+  {
+    "id": 51,
+    "title": "El 'impuesto del asfalto': el coste de cargar sin garaje que frena el coche eléctrico",
+    "summary": "Conductores sin garaje pagan hasta 0,60 €/kWh en carga pública frente a 0,15 €/kWh en casa con wallbox. Esta desigualdad, bautizada como 'impuesto del asfalto', reduce el ahorro del eléctrico del 70% al 20-30% y penaliza especialmente a residentes urbanos. Analizamos el problema y las soluciones propuestas.",
+    "category": "Noticias",
+    "image": "https://images.unsplash.com/photo-1760539120788-8529cccfea75?w=1200&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8c3V2JTIwZWxlY3RyaWNvJTIwY2FyZ2FuZG98ZW58MHx8MHx8fDI%3D",
+    "link": "articulos/impuesto-asfalto-coste-cargar-sin-garaje.html",
+    "date": "2025-11-16",
+    "readTime": "8 min"
+  },
+  {
+    "id": 50,
+    "title": "SUV eléctricos: 7 de cada 10 ventas son carrocerías altas",
+    "summary": "Análisis exclusivo de las ventas de noviembre 2025: el 70% de los coches eléctricos vendidos son SUV. Descubre por qué los compradores prefieren carrocerías altas y qué modelos dominan el mercado.",
+    "category": "Noticias",
+    "image": "https://images.unsplash.com/photo-1762912562431-717505f9f7fc?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fHN1diUyMGVsZWN0cmljb3xlbnwwfHwwfHx8Mg%3D%3D",
+    "link": "articulos/suv-electricos-dominan-ventas-noviembre-2025.html",
+    "date": "2025-11-15",
+    "readTime": "12 min"
+  },
+  {
+    "id": 49,
+    "title": "Audi Q6 e-tron 2025: primeras impresiones y análisis completo",
+    "summary": "Primeras pruebas del Audi Q6 e-tron 2025: arquitectura 800V, carga ultrarrápida de 270 kW, más de 600 km de autonomía. Análisis completo del nuevo SUV eléctrico premium que redefine los estándares de Audi.",
+    "category": "Noticias",
+    "image": "/imagenes/audi-q6-e-tron.png",
+    "link": "articulos/audi-q6-etron-primeras-impresiones-2025.html",
+    "date": "2025-11-14",
+    "readTime": "10 min"
+  },
+  {
+    "id": 48,
+    "title": "Las ventas de coches eléctricos se ralentizan en noviembre 2025",
+    "summary": "Las ventas de coches eléctricos muestran una desaceleración en noviembre de 2025. Analizamos las causas de esta tendencia y qué podemos esperar para los próximos meses en el mercado de la movilidad eléctrica.",
+    "category": "Noticias",
+    "image": "https://images.unsplash.com/photo-1631347826177-de288776ed3b?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDB8fGNvY2hlJTIwZWxlY3RyaWNvfGVufDB8fDB8fHwy",
+    "link": "articulos/ventas-electricos-ralentizan-noviembre-2025.html",
+    "date": "2025-11-14",
+    "readTime": "8 min"
+  },
+  {
+    "id": 47,
+    "title": "Peugeot Polygon Concept: así será el revolucionario e-208 de 2027 con volante rectangular",
+    "summary": "Peugeot presenta el Polygon Concept con volante Hypersquare, dirección steer-by-wire y materiales 100% reciclados. Descubre cómo será el revolucionario Peugeot e-208 de 2027.",
+    "category": "Noticias",
+    "image": "../imagenes/peugeot-polygon-concept.png",
+    "link": "articulos/peugeot-polygon-concept-futuro-e208-2027.html",
+    "date": "2025-11-13",
+    "readTime": "9 min"
+  },
+  {
+    "id": 46,
+    "title": "KGM Torres EVX: más de 600 km de autonomía sin subir precio",
+    "summary": "El KGM Torres EVX se actualiza con batería Blade de BYD de 80,6 kWh, más de 600 km de autonomía y garantía de 10 años sin subir precio. Descubre todas las mejoras y si merece la pena.",
+    "category": "Noticias",
+    "image": "../imagenes/kgm-torres-evx.png",
+    "link": "articulos/kgm-torres-evx-actualizacion-2025.html",
+    "date": "2025-11-13",
+    "readTime": "10 min"
+  },
+  {
+    "id": 45,
+    "title": "Mercedes prepara su SUV eléctrico más barato y práctico: todo lo que sabemos",
+    "summary": "Mercedes lanzará en menos de un mes su SUV eléctrico más accesible y práctico. Descubre las especificaciones, precio estimado y si merece la pena esperarlo frente a la competencia actual.",
+    "category": "Noticias",
+    "image": "../imagenes/mercedes-glb-electrico-2025.png",
+    "link": "articulos/mercedes-suv-electrico-barato-2025.html",
+    "date": "2025-11-12",
+    "readTime": "12 min"
+  },
+  {
+    "id": 44,
+    "title": "Madrid se desmarca: El Plan Mueve Madrid garantiza ayudas para eléctricos en 2026",
+    "summary": "Mientras el MOVES III nacional caduca en 2025, el Plan Mueve Madrid ofrece certeza y cubre la compra de vehículos eléctricos hasta finales de 2026. Te contamos todos los detalles de las ayudas disponibles.",
+    "category": "Noticias",
+    "image": "https://images.unsplash.com/photo-1726220198004-20452233c2ae?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fGNvY2hlJTIwZWxlY3RyaWNvJTIwY2FyZ2FuZG98ZW58MHx8MHx8fDI%3D",
+    "link": "articulos/plan-mueve-madrid-2026-ayudas.html",
+    "date": "2025-11-12",
+    "readTime": "10 min"
+  },
+  {
+    "id": 43,
+    "title": "Las baterías de coches eléctricos duran mucho más de lo esperado: nuevo estudio",
+    "summary": "Un estudio con datos reales de 15.000 vehículos eléctricos confirma que las baterías degradan solo 1.8-2.3% anual, manteniendo más del 80% de capacidad tras 10 años. Los datos desmontan el mito de la degradación acelerada y refuerzan la viabilidad económica del coche eléctrico a largo plazo.",
+    "category": "Noticias",
+    "image": "https://images.unsplash.com/photo-1672152825656-6747b9bd2377?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzV8fGJhdGVyaWElMjBjb2NoZSUyMGVsJUMzJUE5Y3RyaWNvfGVufDB8fDB8fHwy&auto=format&fit=crop&q=60&w=1200",
+    "link": "articulos/baterias-coches-electricos-duran-mas-esperado-estudio.html",
+    "date": "2025-11-11",
+    "readTime": "7 min"
+  },
+  {
+    "id": 42,
+    "title": "Fastned invertirá 100 millones en 80 estaciones de carga rápida en España",
+    "summary": "El operador holandés Fastned anuncia una inversión de 100 millones de euros para desplegar 80 estaciones de recarga ultrarrápida en España. La mayor inversión privada en infraestructura de recarga del país, con estaciones de 150-400 kW en autopistas principales. Un impulso clave para la movilidad eléctrica en viajes largos.",
+    "category": "Noticias",
+    "image": "https://images.unsplash.com/photo-1751553512991-7ae218946be9?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTQxfHxjb2NoZSUyMGVsZWN0cmljb3xlbnwwfHwwfHx8Mg%3D%3D&auto=format&fit=crop&q=80&w=1200",
+    "link": "articulos/fastned-100-millones-80-estaciones-carga-rapida-espana.html",
+    "date": "2025-11-11",
+    "readTime": "9 min"
+  },
+  {
+    "id": 41,
+    "title": "El parque de vehículos ecológicos se dispara un 21% en España",
+    "summary": "España alcanza 1,24 millones de vehículos híbridos y eléctricos en 2024, un aumento del 21,3%. El diésel cae un 1,7% mientras Madrid, Barcelona y Castellón lideran la electrificación. Análisis de las tendencias, provincias más ecológicas y perspectivas futuras.",
+    "category": "Noticias",
+    "image": "https://images.unsplash.com/photo-1707341596708-c81840f0e62d?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjEzfHxjb2NoZSUyMGVsZWN0cmljb3xlbnwwfHwwfHx8Mg%3D%3D&auto=format&fit=crop&q=60&w=500",
+    "link": "articulos/parque-vehiculos-ecologicos-dispara-espana-2024.html",
+    "date": "2025-11-10",
+    "readTime": "10 min"
+  },
+  {
+    "id": 40,
+    "title": "España se convierte en el único refugio de Tesla en Europa",
+    "summary": "Un informe revela que España es el único gran mercado europeo donde Tesla crece (+7,6%) mientras se desploma en Alemania (-50%), Francia (-30%) e Italia. BYD emerge como competidor directo con crecimiento explosivo en el mercado español.",
+    "category": "Noticias",
+    "image": "https://images.unsplash.com/photo-1663008519747-9da38bbfd132?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8dGVzbGF8ZW58MHx8MHx8fDI%3D&auto=format&fit=crop&q=60&w=1200",
+    "link": "articulos/espana-unico-mercado-tesla-crece-europa.html",
+    "date": "2025-11-09",
+    "readTime": "8 min"
+  },
+  {
+    "id": 39,
+    "title": "España supera los 48.900 puntos de recarga pública con inversión récord de 1.290 millones",
+    "summary": "Según el barómetro de electromovilidad, España alcanza 48.923 puntos de recarga operativos. AEDIVE alerta que 15.000 puntos adicionales esperan permisos. Análisis de la distribución, inversión y retos administrativos que frenan el despliegue.",
+    "category": "Noticias",
+    "image": "/imagenes/ev1.webp",
+    "link": "articulos/espana-48900-puntos-recarga-publica-2025.html",
+    "date": "2025-11-08",
+    "readTime": "6 min"
+  },
+  {
     "id": 38,
     "title": "Renault Twingo E-TECH 2026: el urbano eléctrico por menos de 20.000€ que cambiará el mercado",
     "summary": "Renault confirma el Twingo E-TECH para 2026 con precio inferior a 20.000€. Fabricación europea en Eslovenia, 263 km de autonomía, batería LFP. El urbano eléctrico más esperado promete democratizar definitivamente la movilidad eléctrica en España y Europa.",
@@ -418,8 +418,8 @@
     "link": "articulos/renault-twingo-electrico-2026-precio.html",
     "date": "2025-11-08",
     "readTime": "12 min"
-    },
-    {
+  },
+  {
     "id": 37,
     "title": "Jornada sobre Movilidad Eléctrica en la UPNA - Noviembre 2025",
     "summary": "La Universidad Pública de Navarra acoge una jornada sobre los avances en movilidad eléctrica, con expertos del sector analizando las últimas tendencias y desarrollos tecnológicos en vehículos eléctricos y su impacto en la movilidad sostenible.",
@@ -428,8 +428,8 @@
     "link": "articulos/upna-jornada-movilidad-electrica-noviembre-2025.html",
     "date": "2025-11-07",
     "readTime": "8 min"
-    },
-    {
+  },
+  {
     "id": 36,
     "title": "2025 confirma el despegue definitivo del coche eléctrico mundial",
     "summary": "Un estudio confirma que 2025 es el año del coche eléctrico: 18 millones de unidades vendidas, crecimiento del 27% y China liderando con el 60% del mercado. Europa se consolida en segunda posición con España acelerando su adopción.",
@@ -438,9 +438,8 @@
     "link": "articulos/2025-ano-coches-electricos-estudio.html",
     "date": "2025-11-07",
     "readTime": "10 min"
-    },
-    
-    {
+  },
+  {
     "id": 35,
     "title": "Europa prepara normativa para coches eléctricos baratos en 2025",
     "summary": "La UE lanza una nueva normativa para producir coches eléctricos pequeños entre 15.000-20.000€. Descubre cómo afectará al mercado español y qué modelos económicos llegarán para competir con China.",
@@ -449,8 +448,8 @@
     "link": "articulos/europa-normativa-coches-electricos-baratos-2025.html",
     "date": "2025-11-07",
     "readTime": "12 min"
-    },
-    {
+  },
+  {
     "id": 34,
     "title": "Geely llega a España en 2025: la gran marca china que competirá con BYD",
     "summary": "El gigante chino Geely, propietario de marcas como Volvo, Polestar y Smart, desembarca oficialmente en España con su portafolio de vehículos eléctricos. Con modelos como el Zeekr y el Smart #1, Geely viene dispuesto a revolucionar el mercado español y plantar cara al exitoso BYD.",
@@ -459,8 +458,8 @@
     "link": "articulos/geely-llega-espana-competir-byd-2025.html",
     "date": "2025-11-06",
     "readTime": "8 min"
-    },
-    {
+  },
+  {
     "id": 33,
     "title": "Estado de la Carga Rápida en España 2025: 15.000+ puntos y crecimiento imparable",
     "summary": "Análisis actualizado de la red de carga rápida en España 2025: 15.000+ puntos, principales operadores (Iberdrola, Endesa, Repsol), cobertura nacional, precios y planes de expansión. Todo lo que necesitas saber sobre la infraestructura de carga en 2025.",
@@ -511,65 +510,64 @@
     "readTime": "15 min"
   },
   {
-  "id": 28,
-  "title": "El Gobierno confirma: los híbridos tendrán los días contados desde 2035",
-  "summary": "El Gobierno español apuesta por prohibir la circulación de coches híbridos desde 2035, solo permitiendo vehículos 100% eléctricos. Te contamos todos los detalles, plazos y qué significa para los conductores.",
-  "category": "Noticias",
-  "image": "https://images.unsplash.com/photo-1630716059383-b3203bdda1e4?ixlib=rb-4.1.0&auto=format&fit=crop&q=60&w=500",
-  "link": "articulos/gobierno-prohibicion-hibridos-2035-solo-electricos.html",
-  "date": "2025-11-02",
-  "readTime": "12 min"
+    "id": 28,
+    "title": "El Gobierno confirma: los híbridos tendrán los días contados desde 2035",
+    "summary": "El Gobierno español apuesta por prohibir la circulación de coches híbridos desde 2035, solo permitiendo vehículos 100% eléctricos. Te contamos todos los detalles, plazos y qué significa para los conductores.",
+    "category": "Noticias",
+    "image": "https://images.unsplash.com/photo-1630716059383-b3203bdda1e4?ixlib=rb-4.1.0&auto=format&fit=crop&q=60&w=500",
+    "link": "articulos/gobierno-prohibicion-hibridos-2035-solo-electricos.html",
+    "date": "2025-11-02",
+    "readTime": "12 min"
   },
   {
-  "id": 27,
-  "title": "China Revoluciona las Baterías de Estado Sólido: Producción Masiva en 2025",
-  "summary": "Breakthrough tecnológico de China en baterías de estado sólido promete 400 Wh/kg de densidad energética, el doble que las actuales de litio. Producción masiva iniciará en 2025 con costos competitivos. Autonomías de +1000km, carga ultrarrápida y mayor seguridad transformarán la industria EV.",
-  "category": "Noticias",
-  "image": "https://images.unsplash.com/photo-1620288627223-53302f4e8c74?ixlib=rb-4.1.0&auto=format&fit=crop&q=60&w=500",
-  "link": "articulos/baterias-estado-solido-china-avance-revolucionario-2025.html",
-  "date": "2025-11-2",
-  "readTime": "9 min"
-},
-  
-  {
-  "id": 26,
-  "title": "Estudio Sueco: 8 de Cada 10 Eléctricos Usados Mantienen >90% de Batería",
-  "summary": "Un estudio revolucionario de más de 1.300 vehículos eléctricos usados en Suecia desmonta el mito de la degradación: el 80% mantiene más del 90% de capacidad de batería. Degradación promedio de solo 2.3% anual. Análisis completo de datos y lo que significa para compradores.",
-  "category": "Noticias",
-  "image": "https://images.unsplash.com/photo-1593941707874-ef25b8b4a92b?ixlib=rb-4.1.0&auto=format&fit=crop&q=60&w=500",
-  "link": "articulos/estudio-sueco-baterias-coches-electricos-usados-degradacion.html",
-  "date": "2025-11-01",
-  "readTime": "11 min"
+    "id": 27,
+    "title": "China Revoluciona las Baterías de Estado Sólido: Producción Masiva en 2025",
+    "summary": "Breakthrough tecnológico de China en baterías de estado sólido promete 400 Wh/kg de densidad energética, el doble que las actuales de litio. Producción masiva iniciará en 2025 con costos competitivos. Autonomías de +1000km, carga ultrarrápida y mayor seguridad transformarán la industria EV.",
+    "category": "Noticias",
+    "image": "https://images.unsplash.com/photo-1620288627223-53302f4e8c74?ixlib=rb-4.1.0&auto=format&fit=crop&q=60&w=500",
+    "link": "articulos/baterias-estado-solido-china-avance-revolucionario-2025.html",
+    "date": "2025-11-2",
+    "readTime": "9 min"
   },
   {
-  "id": 25,
-  "title": "El Gobierno Apuesta por Prohibir los Híbridos: Solo Eléctricos Desde 2035",
-  "summary": "España confirma alineación con la UE y prohibirá la venta de todos los coches con motor de combustión, incluidos híbridos y enchufables, desde el 1 de enero de 2035. Solo se permitirán eléctricos puros. Análisis completo del impacto y recomendaciones.",
-  "category": "Noticias",
-  "image": "https://images.unsplash.com/photo-1630716059383-b3203bdda1e4?ixlib=rb-4.1.0&auto=format&fit=crop&q=60&w=500",
-  "link": "articulos/gobierno-prohibicion-coches-hibridos-2035-solo-electricos.html",
-  "date": "2025-11-01",
-  "readTime": "13 min"
+    "id": 26,
+    "title": "Estudio Sueco: 8 de Cada 10 Eléctricos Usados Mantienen >90% de Batería",
+    "summary": "Un estudio revolucionario de más de 1.300 vehículos eléctricos usados en Suecia desmonta el mito de la degradación: el 80% mantiene más del 90% de capacidad de batería. Degradación promedio de solo 2.3% anual. Análisis completo de datos y lo que significa para compradores.",
+    "category": "Noticias",
+    "image": "https://images.unsplash.com/photo-1593941707874-ef25b8b4a92b?ixlib=rb-4.1.0&auto=format&fit=crop&q=60&w=500",
+    "link": "articulos/estudio-sueco-baterias-coches-electricos-usados-degradacion.html",
+    "date": "2025-11-01",
+    "readTime": "11 min"
   },
   {
-  "id": 24,
-  "title": "Las 5 Peores Averías de Coches Híbridos: Costes de Hasta 15.000€",
-  "summary": "Análisis exhaustivo de las averías más caras de coches híbridos: batería de alta tensión (3.000-10.000€), inversor, motor eléctrico, transmisión CVT y refrigeración. Síntomas, costes reales, prevención y comparativa con gasolina y eléctricos.",
-  "category": "Noticias",
-  "image": "https://images.unsplash.com/photo-1626517060370-84ee259cc228?ixlib=rb-4.1.0&auto=format&fit=crop&q=60&w=500",
-  "link": "articulos/peores-averias-coches-hibridos-costes-prevencion.html",
-  "date": "2025-10-31",
-  "readTime": "14 min"
-  }, 
+    "id": 25,
+    "title": "El Gobierno Apuesta por Prohibir los Híbridos: Solo Eléctricos Desde 2035",
+    "summary": "España confirma alineación con la UE y prohibirá la venta de todos los coches con motor de combustión, incluidos híbridos y enchufables, desde el 1 de enero de 2035. Solo se permitirán eléctricos puros. Análisis completo del impacto y recomendaciones.",
+    "category": "Noticias",
+    "image": "https://images.unsplash.com/photo-1630716059383-b3203bdda1e4?ixlib=rb-4.1.0&auto=format&fit=crop&q=60&w=500",
+    "link": "articulos/gobierno-prohibicion-coches-hibridos-2035-solo-electricos.html",
+    "date": "2025-11-01",
+    "readTime": "13 min"
+  },
   {
-  "id": 23,
-  "title": "Tesla Roadster: Posible Fabricación en 2026 Tras Años de Espera",
-  "summary": "Elon Musk confirma que el Tesla Roadster podría llegar finalmente en 2026. Con 0-100 km/h en 1.9s, 1000 km de autonomía y SpaceX Package con propulsores de cohete. Analizamos si esta vez será realidad tras 7 años de retrasos.",
-  "category": "Noticias",
-  "image": "https://images.unsplash.com/photo-1617704548623-340376564e68?ixlib=rb-4.1.0&auto=format&fit=crop&q=60&w=500",
-  "link": "articulos/tesla-roadster-fabricacion-2026-confirmacion.html",
-  "date": "2025-10-31",
-  "readTime": "12 min"
+    "id": 24,
+    "title": "Las 5 Peores Averías de Coches Híbridos: Costes de Hasta 15.000€",
+    "summary": "Análisis exhaustivo de las averías más caras de coches híbridos: batería de alta tensión (3.000-10.000€), inversor, motor eléctrico, transmisión CVT y refrigeración. Síntomas, costes reales, prevención y comparativa con gasolina y eléctricos.",
+    "category": "Noticias",
+    "image": "https://images.unsplash.com/photo-1626517060370-84ee259cc228?ixlib=rb-4.1.0&auto=format&fit=crop&q=60&w=500",
+    "link": "articulos/peores-averias-coches-hibridos-costes-prevencion.html",
+    "date": "2025-10-31",
+    "readTime": "14 min"
+  },
+  {
+    "id": 23,
+    "title": "Tesla Roadster: Posible Fabricación en 2026 Tras Años de Espera",
+    "summary": "Elon Musk confirma que el Tesla Roadster podría llegar finalmente en 2026. Con 0-100 km/h en 1.9s, 1000 km de autonomía y SpaceX Package con propulsores de cohete. Analizamos si esta vez será realidad tras 7 años de retrasos.",
+    "category": "Noticias",
+    "image": "https://images.unsplash.com/photo-1617704548623-340376564e68?ixlib=rb-4.1.0&auto=format&fit=crop&q=60&w=500",
+    "link": "articulos/tesla-roadster-fabricacion-2026-confirmacion.html",
+    "date": "2025-10-31",
+    "readTime": "12 min"
   },
   {
     "id": 22,
@@ -781,4 +779,4 @@
     "date": "2025-06-02",
     "readTime": "4 min"
   }
-]  
+]
