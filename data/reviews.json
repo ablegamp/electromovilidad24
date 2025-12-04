@@ -1,4 +1,13 @@
 [  {
+    "id": 20,
+    "title": "BYD Dolphin: el coche eléctrico que está dejando en ridículo a Volkswagen y Tesla",
+    "summary": "Review completa del BYD Dolphin 2025: el eléctrico chino que arrasa en Europa desde 25.490€. Batería Blade, 427 km de autonomía, y una relación calidad-precio que nadie puede igualar. Descubre por qué las marcas europeas están nerviosas.",
+    "category": "Reviews",
+    "image": "../imagenes/byd-dolphin.png",
+    "link": "articulos/review-byd-dolphin-2025.html",
+    "date": "2025-12-04",
+    "readTime": "15 min"
+  },  {
     "id": 19,
     "title": "Kia Seltos híbrido 2026: precio, lanzamiento y claves para España",
     "summary": "Todo lo que debes saber del Kia Seltos híbrido antes de su llegada: motor 1.6 HEV con etiqueta ECO, precio previsto por debajo de 28.000 €, calendario de lanzamiento y comparación con sus rivales.",
