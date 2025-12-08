@@ -1,5 +1,15 @@
 [
   {
+  "id": 47,
+  "title": "Cargar coche eléctrico con placas solares: la cifra exacta de paneles que necesitas (y nadie te dice)",
+  "summary": "Guía completa de autoconsumo EV: cuántos paneles solares necesitas realmente (10-13 para la mayoría), costes actualizados 2025, tiempos de carga, wallbox con gestión de excedente, y cálculo de rentabilidad. Amortización en menos de 5 años y movilidad prácticamente gratis durante décadas.",
+  "category": "Guías",
+  "image": "https://images.unsplash.com/photo-1509391366360-2e959784a276?w=600&auto=format&fit=crop&q=60",
+  "link": "articulos/cargar-coche-electrico-placas-solares-autoconsumo.html",
+  "date": "2025-12-08",
+  "readTime": "10 min"
+},
+  {
     "id": 46,
     "title": "Híbrido enchufable vs eléctrico puro: ventajas y desventajas (Guía 2025)",
     "summary": "Comparativa completa en primera persona entre PHEV y EV en 2025: TCO real, autonomía, recarga en casa y pública, viajes largos, ayudas y mantenimiento. Consejos prácticos y perfiles de usuario para decidir correctamente.",
