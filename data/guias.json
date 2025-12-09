@@ -1,24 +1,34 @@
 [
   {
-  "id": 48,
-  "title": "El tipo de coche que se carga solo y nadie te ha explicado bien hasta ahora",
-  "summary": "Guía completa sobre coches híbridos no enchufables (HEV): cómo funcionan, por qué se recargan solos mientras conduces, tipos (full hybrid vs mild hybrid), ahorro real del 20-40% en combustible, etiqueta ECO y beneficios fiscales, modelos más populares en 2025 y para quién es la opción ideal.",
-  "category": "Guías",
-  "image": "https://images.unsplash.com/photo-1642507229657-51fc87152fc7?w=600&auto=format&fit=crop&q=60",
-  "link": "articulos/que-es-coche-hibrido-no-enchufable.html",
-  "date": "2025-12-09",
-  "readTime": "9 min"
-},
+    "id": 49,
+    "title": "Coches eléctricos para familias numerosas: las opciones de 7 plazas que no esperabas en 2025",
+    "summary": "Guía completa de SUV y monovolúmenes eléctricos de 7 plazas para familias numerosas en 2025. Comparativa de Peugeot E-5008, Kia EV9, Volvo EX90, Hyundai Ioniq 9, Mercedes EQB, BYD Tang y VW ID. Buzz con precios desde 48.000€ y autonomías de hasta 668 km.",
+    "category": "Guías",
+    "image": "https://images.unsplash.com/photo-1740170512964-860b0f8c266a?w=500&auto=format&fit=crop&q=60",
+    "link": "articulos/coches-electricos-7-plazas-familias-numerosas-2025.html",
+    "date": "2025-12-09",
+    "readTime": "12 min"
+  },
   {
-  "id": 47,
-  "title": "Cargar coche eléctrico con placas solares: la cifra exacta de paneles que necesitas (y nadie te dice)",
-  "summary": "Guía completa de autoconsumo EV: cuántos paneles solares necesitas realmente (10-13 para la mayoría), costes actualizados 2025, tiempos de carga, wallbox con gestión de excedente, y cálculo de rentabilidad. Amortización en menos de 5 años y movilidad prácticamente gratis durante décadas.",
-  "category": "Guías",
-  "image": "https://images.unsplash.com/photo-1509391366360-2e959784a276?w=600&auto=format&fit=crop&q=60",
-  "link": "articulos/cargar-coche-electrico-placas-solares-autoconsumo.html",
-  "date": "2025-12-08",
-  "readTime": "10 min"
-},
+    "id": 48,
+    "title": "El tipo de coche que se carga solo y nadie te ha explicado bien hasta ahora",
+    "summary": "Guía completa sobre coches híbridos no enchufables (HEV): cómo funcionan, por qué se recargan solos mientras conduces, tipos (full hybrid vs mild hybrid), ahorro real del 20-40% en combustible, etiqueta ECO y beneficios fiscales, modelos más populares en 2025 y para quién es la opción ideal.",
+    "category": "Guías",
+    "image": "https://images.unsplash.com/photo-1642507229657-51fc87152fc7?w=600&auto=format&fit=crop&q=60",
+    "link": "articulos/que-es-coche-hibrido-no-enchufable.html",
+    "date": "2025-12-09",
+    "readTime": "9 min"
+  },
+  {
+    "id": 47,
+    "title": "Cargar coche eléctrico con placas solares: la cifra exacta de paneles que necesitas (y nadie te dice)",
+    "summary": "Guía completa de autoconsumo EV: cuántos paneles solares necesitas realmente (10-13 para la mayoría), costes actualizados 2025, tiempos de carga, wallbox con gestión de excedente, y cálculo de rentabilidad. Amortización en menos de 5 años y movilidad prácticamente gratis durante décadas.",
+    "category": "Guías",
+    "image": "https://images.unsplash.com/photo-1509391366360-2e959784a276?w=600&auto=format&fit=crop&q=60",
+    "link": "articulos/cargar-coche-electrico-placas-solares-autoconsumo.html",
+    "date": "2025-12-08",
+    "readTime": "10 min"
+  },
   {
     "id": 46,
     "title": "Híbrido enchufable vs eléctrico puro: ventajas y desventajas (Guía 2025)",
@@ -30,16 +40,15 @@
     "readTime": "15 min"
   },
   {
-  "id": 45,
-  "title": "Renting vs Compra de Coche Eléctrico para Autónomos y Empresas 2025",
-  "summary": "Análisis completo del TCO: ¿renting o compra de coche eléctrico para autónomos y empresas? Comparativa fiscal, ventajas de deducción, casos prácticos reales y cuándo conviene cada opción en 2025.",
-  "category": "Guías",
-  "image": "https://images.unsplash.com/photo-1759975812539-d28983510586?w=1200&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fHJlbnRpbmclMjBjYXJ8ZW58MHx8MHx8fDI%3D",
-  "link": "articulos/renting-vs-compra-coches-electricos-empresas-autonomos.html",
-  "date": "2025-11-29",
-  "readTime": "12 min"
-},
-  
+    "id": 45,
+    "title": "Renting vs Compra de Coche Eléctrico para Autónomos y Empresas 2025",
+    "summary": "Análisis completo del TCO: ¿renting o compra de coche eléctrico para autónomos y empresas? Comparativa fiscal, ventajas de deducción, casos prácticos reales y cuándo conviene cada opción en 2025.",
+    "category": "Guías",
+    "image": "https://images.unsplash.com/photo-1759975812539-d28983510586?w=1200&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fHJlbnRpbmclMjBjYXJ8ZW58MHx8MHx8fDI%3D",
+    "link": "articulos/renting-vs-compra-coches-electricos-empresas-autonomos.html",
+    "date": "2025-11-29",
+    "readTime": "12 min"
+  },
   {
     "id": 44,
     "title": "Híbridos 2035: ¿Qué pasará realmente con tu coche híbrido después de 2035?",
@@ -222,65 +231,65 @@
   },
   {
     "id": 26,
-  "title": "Frenada Regenerativa en Coches Eléctricos: Guía Completa 2025",
-  "summary": "Descubre todo sobre la frenada regenerativa en coches eléctricos: cómo funciona, niveles de regeneración, ventajas, mitos y cómo aprovecharla al máximo para aumentar la autonomía de tu vehículo eléctrico.",
-  "category": "Guías",
-  "image": "https://images.unsplash.com/photo-1605984715406-8b6152970046?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fGZyZW5hZGElMjByZWdlbmVyYXRpdmElMjBjb2NoZSUyMGVsZWN0cmljb3xlbnwwfHwwfHx8Mg%3D%3D&auto=format&fit=crop&q=60&w=500",
-  "link": "articulos/frenada-regenerativa-coches-electricos-guia.html",
-  "date": "2025-11-07",
-  "readTime": "12 min"
-    },
-    {
-  "id": 25,
-  "title": "Ayudas y subvenciones para coches eléctricos por comunidades autónomas 2026: hasta 12.000€ disponibles",
-  "summary": "Guía completa de ayudas autonómicas para la compra de vehículos eléctricos en 2026. Combina el Plan MOVES III con ayudas regionales. Requisitos, cuantías y proceso de solicitud detallado para cada comunidad autónoma.",
-  "category": "Guías",
-  "image": "/imagenes/moves2026.png",
-  "link": "articulos/ayudas-coches-electricos-comunidades-autonomas-2026.html",
-  "date": "2025-11-06",
-  "readTime": "15 min"
-    },
-    {
-  "id": 24,
-  "title": "Guía para Comprar tu Primer Coche Eléctrico en 2025: Modelos, Precios y Consejos",
-  "summary": "¿Estás pensando en comprar tu primer coche eléctrico? Descubre los mejores modelos por rango de precio, ayudas disponibles, autonomía real, costes de mantenimiento y todo lo que necesitas saber para tomar la mejor decisión en 2025.",
-  "category": "Guías",
-  "image": "https://images.unsplash.com/photo-1704475386627-dcfcd97ed51a?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8ZWxlY3RyaWMlMjBjYXJ8ZW58MHx8MHx8fDI%3D&auto=format&fit=crop&q=60&w=500",
-  "link": "articulos/guia-comprar-primer-coche-electrico-2025.html",
-  "date": "2025-11-06",
-  "readTime": "20 min"
-    },
-    {
-  "id": 23,
-  "title": "¿Contaminan Más los Coches Eléctricos que los de Combustión? Mito vs Realidad 2025",
-  "summary": "Análisis completo del ciclo de vida: ¿Los coches eléctricos contaminan más que los de gasolina? Datos reales sobre fabricación de baterías, emisiones de uso, reciclaje y huella de carbono total. Desmontamos mitos con ciencia.",
-  "category": "Guías",
-  "image": "https://images.unsplash.com/photo-1578604665675-9aee692f6ddc?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8Y29udGFtaW5hY2lvbnxlbnwwfHwwfHx8Mg%3D%3D&auto=format&fit=crop&q=60&w=500",
-  "link": "articulos/contaminan-mas-coches-electricos-combustion-analisis-completo.html",
-  "date": "2025-11-05",
-  "readTime": "18 min"
-    },
-    {
-  "id": 22,
-  "title": "Carga AC vs DC en Coches Eléctricos 2025: Diferencias, Potencias y Cuándo Usar Cada Tipo",
-  "summary": "Guía definitiva sobre carga AC y DC: diferencias explicadas de forma simple, potencias reales (3.7kW a 350kW), conectores, costes, cuándo usar cada tipo y consejos basados en experiencia real con miles de cargas.",
-  "category": "Guías",
-  "image": "https://images.unsplash.com/photo-1617788138017-80ad40651399?ixlib=rb-4.1.0&auto=format&fit=crop&q=60&w=500",
-  "link": "articulos/carga-ac-dc-diferencias-potencias-cuando-usar.html",
-  "date": "2025-11-03",
-  "readTime": "16 min"
-    },
-    {
-  "id": 21,
-  "title": "Puntos de Carga en España 2025: Guía Completa de Dónde Cargar Tu Coche Eléctrico",
-  "summary": "Guía definitiva basada en experiencia real: más de 30.000 puntos de carga en España, mejores apps (Electromaps, Chargemap), principales redes (Iberdrola, Endesa, Ionity), costes reales, mapas por zonas y 10 consejos prácticos para no quedarte tirado.",
-  "category": "Guías",
-  "image": "https://images.unsplash.com/photo-1593941707882-a5bba14938c7?ixlib=rb-4.1.0&auto=format&fit=crop&q=60&w=500",
-  "link": "../articulos/puntos-carga-espana-guia-completa-2025.html",
-  "date": "2025-11-02",
-  "readTime": "18 min"
-    },
-    {
+    "title": "Frenada Regenerativa en Coches Eléctricos: Guía Completa 2025",
+    "summary": "Descubre todo sobre la frenada regenerativa en coches eléctricos: cómo funciona, niveles de regeneración, ventajas, mitos y cómo aprovecharla al máximo para aumentar la autonomía de tu vehículo eléctrico.",
+    "category": "Guías",
+    "image": "https://images.unsplash.com/photo-1605984715406-8b6152970046?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fGZyZW5hZGElMjByZWdlbmVyYXRpdmElMjBjb2NoZSUyMGVsZWN0cmljb3xlbnwwfHwwfHx8Mg%3D%3D&auto=format&fit=crop&q=60&w=500",
+    "link": "articulos/frenada-regenerativa-coches-electricos-guia.html",
+    "date": "2025-11-07",
+    "readTime": "12 min"
+  },
+  {
+    "id": 25,
+    "title": "Ayudas y subvenciones para coches eléctricos por comunidades autónomas 2026: hasta 12.000€ disponibles",
+    "summary": "Guía completa de ayudas autonómicas para la compra de vehículos eléctricos en 2026. Combina el Plan MOVES III con ayudas regionales. Requisitos, cuantías y proceso de solicitud detallado para cada comunidad autónoma.",
+    "category": "Guías",
+    "image": "/imagenes/moves2026.png",
+    "link": "articulos/ayudas-coches-electricos-comunidades-autonomas-2026.html",
+    "date": "2025-11-06",
+    "readTime": "15 min"
+  },
+  {
+    "id": 24,
+    "title": "Guía para Comprar tu Primer Coche Eléctrico en 2025: Modelos, Precios y Consejos",
+    "summary": "¿Estás pensando en comprar tu primer coche eléctrico? Descubre los mejores modelos por rango de precio, ayudas disponibles, autonomía real, costes de mantenimiento y todo lo que necesitas saber para tomar la mejor decisión en 2025.",
+    "category": "Guías",
+    "image": "https://images.unsplash.com/photo-1704475386627-dcfcd97ed51a?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8ZWxlY3RyaWMlMjBjYXJ8ZW58MHx8MHx8fDI%3D&auto=format&fit=crop&q=60&w=500",
+    "link": "articulos/guia-comprar-primer-coche-electrico-2025.html",
+    "date": "2025-11-06",
+    "readTime": "20 min"
+  },
+  {
+    "id": 23,
+    "title": "¿Contaminan Más los Coches Eléctricos que los de Combustión? Mito vs Realidad 2025",
+    "summary": "Análisis completo del ciclo de vida: ¿Los coches eléctricos contaminan más que los de gasolina? Datos reales sobre fabricación de baterías, emisiones de uso, reciclaje y huella de carbono total. Desmontamos mitos con ciencia.",
+    "category": "Guías",
+    "image": "https://images.unsplash.com/photo-1578604665675-9aee692f6ddc?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8Y29udGFtaW5hY2lvbnxlbnwwfHwwfHx8Mg%3D%3D&auto=format&fit=crop&q=60&w=500",
+    "link": "articulos/contaminan-mas-coches-electricos-combustion-analisis-completo.html",
+    "date": "2025-11-05",
+    "readTime": "18 min"
+  },
+  {
+    "id": 22,
+    "title": "Carga AC vs DC en Coches Eléctricos 2025: Diferencias, Potencias y Cuándo Usar Cada Tipo",
+    "summary": "Guía definitiva sobre carga AC y DC: diferencias explicadas de forma simple, potencias reales (3.7kW a 350kW), conectores, costes, cuándo usar cada tipo y consejos basados en experiencia real con miles de cargas.",
+    "category": "Guías",
+    "image": "https://images.unsplash.com/photo-1617788138017-80ad40651399?ixlib=rb-4.1.0&auto=format&fit=crop&q=60&w=500",
+    "link": "articulos/carga-ac-dc-diferencias-potencias-cuando-usar.html",
+    "date": "2025-11-03",
+    "readTime": "16 min"
+  },
+  {
+    "id": 21,
+    "title": "Puntos de Carga en España 2025: Guía Completa de Dónde Cargar Tu Coche Eléctrico",
+    "summary": "Guía definitiva basada en experiencia real: más de 30.000 puntos de carga en España, mejores apps (Electromaps, Chargemap), principales redes (Iberdrola, Endesa, Ionity), costes reales, mapas por zonas y 10 consejos prácticos para no quedarte tirado.",
+    "category": "Guías",
+    "image": "https://images.unsplash.com/photo-1593941707882-a5bba14938c7?ixlib=rb-4.1.0&auto=format&fit=crop&q=60&w=500",
+    "link": "../articulos/puntos-carga-espana-guia-completa-2025.html",
+    "date": "2025-11-02",
+    "readTime": "18 min"
+  },
+  {
     "id": 20,
     "title": "Renting vs Compra de Coches Eléctricos: Qué Opción Te Conviene Más en 2025",
     "summary": "Guía completa 2025: Descubre si te conviene más el renting coche eléctrico o la compra. Comparamos costes, ventajas fiscales, flexibilidad y casos reales para ayudarte a decidir.",
@@ -320,7 +329,7 @@
     "date": "2025-10-27",
     "readTime": "12 min"
   },
-    {
+  {
     "id": 16,
     "title": "Guía completa de mantenimiento y cuidados del coche eléctrico",
     "summary": "Descubre cada cuánto revisar un coche eléctrico, qué piezas requieren mantenimiento y cómo cuidar la batería para alargar su vida útil.",
