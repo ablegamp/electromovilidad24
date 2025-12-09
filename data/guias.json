@@ -1,5 +1,15 @@
 [
   {
+  "id": 48,
+  "title": "El tipo de coche que se carga solo y nadie te ha explicado bien hasta ahora",
+  "summary": "Guía completa sobre coches híbridos no enchufables (HEV): cómo funcionan, por qué se recargan solos mientras conduces, tipos (full hybrid vs mild hybrid), ahorro real del 20-40% en combustible, etiqueta ECO y beneficios fiscales, modelos más populares en 2025 y para quién es la opción ideal.",
+  "category": "Guías",
+  "image": "https://images.unsplash.com/photo-1642507229657-51fc87152fc7?w=600&auto=format&fit=crop&q=60",
+  "link": "articulos/que-es-coche-hibrido-no-enchufable.html",
+  "date": "2025-12-09",
+  "readTime": "9 min"
+},
+  {
   "id": 47,
   "title": "Cargar coche eléctrico con placas solares: la cifra exacta de paneles que necesitas (y nadie te dice)",
   "summary": "Guía completa de autoconsumo EV: cuántos paneles solares necesitas realmente (10-13 para la mayoría), costes actualizados 2025, tiempos de carga, wallbox con gestión de excedente, y cálculo de rentabilidad. Amortización en menos de 5 años y movilidad prácticamente gratis durante décadas.",
