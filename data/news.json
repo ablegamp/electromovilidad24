@@ -1,5 +1,15 @@
 [ 
   {
+  "id": 90,
+  "title": "Este 'mini' eléctrico de menos de 10.000€ conquista Europa y no es lo que imaginas",
+  "summary": "Un cuadriciclo eléctrico retro está causando furor en las calles europeas. Se puede conducir desde los 15 años, cuesta desde 9.890€, tiene 75 km de autonomía y se carga en cualquier enchufe. No es un coche, no es una moto: es el Fiat Topolino, y está redefiniendo la movilidad urbana. ¿Llegará pronto a EE.UU.?",
+  "category": "Noticias",
+  "image": "imagenes/fiat-topolino.jpg",
+  "link": "articulos/fiat-topolino-micro-coche-electrico-urbano.html",
+  "date": "2025-12-10",
+  "readTime": "9 min"
+},
+  {
   "id": 89,
   "title": "Dos gigantes del automóvil acaban de unirse para hacer lo que nadie esperaba",
   "summary": "Renault y Ford anuncian alianza histórica para fabricar coches eléctricos por debajo de 25.000€ en Europa. Usarán la plataforma AmpR Small de Renault, producirán en Francia y los primeros modelos llegarán en 2028. También colaborarán en furgonetas eléctricas. Una jugada para competir con los fabricantes chinos.",
