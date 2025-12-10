@@ -146,6 +146,11 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://www.electromovilidad24.com/articulos/cargar-coche-electrico-enchufe-normal.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://www.electromovilidad24.com/articulos/cargar-coche-electrico-placas-solares-autoconsumo.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -187,6 +192,11 @@
   </url>
   <url>
     <loc>https://www.electromovilidad24.com/articulos/coche-electrico-barato-chino-2025.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.electromovilidad24.com/articulos/coches-electricos-7-plazas-familias-numerosas-2025.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -756,6 +766,11 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://www.electromovilidad24.com/articulos/renault-ford-alianza-electricos-baratos-europa.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://www.electromovilidad24.com/articulos/renault-laboratorio-baterias-2025.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -942,6 +957,11 @@
   </url>
   <url>
     <loc>https://www.electromovilidad24.com/articulos/wallbox-monofasico-trifasico-diferencias.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.electromovilidad24.com/articulos/waybox-endesa-vs-wallbox-pulsar-plus-comparativa.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
