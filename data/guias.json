@@ -1,4 +1,13 @@
-[
+[  {
+    "id": 51,
+    "title": "¡Alerta! Esto es lo que la calefacción y el aire acondicionado le hacen a la autonomía de tu coche eléctrico",
+    "summary": "Descubre cómo los sistemas de calefacción y aire acondicionado reducen la autonomía de tu coche eléctrico, los porcentajes reales de pérdida, y estrategias profesionales para conducir sin perder eficiencia. ¡Lo que nadie te cuenta!",
+    "category": "Guías",
+    "image": "https://images.unsplash.com/photo-1658383767644-afecbf76f07c?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8YmF0ZXJpYSUyMGNvY2hlJTIwZWxlY3RyaWNvfGVufDB8fDB8fHwy",
+    "link": "articulos/calefaccion-aire-acondicionado-coche-electrico.html",
+    "date": "2025-12-12",
+    "readTime": "12 min"
+  },
   {
     "id": 50,
     "title": "¿Se puede cargar un coche eléctrico en un enchufe normal? Riesgos, tiempos y cuándo es buena idea",
