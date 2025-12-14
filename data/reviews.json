@@ -1,5 +1,16 @@
 [  
     {
+    "id": 24,
+    "title": "El sedán eléctrico coreano que puede destronar al Tesla Model 3 - Review completa",
+    "summary": "Kia presenta el EV4, un sedán eléctrico con 600 km de autonomía WLTP, carga del 10% al 80% en solo 18 minutos gracias a su arquitectura de 800V, y un precio original desde 45.990€. Analizamos sus especificaciones, tecnología, prestaciones y cómo se compara frente al Tesla Model 3.",
+    "category": "Reviews",
+    "image": "imagenes/kia-ev4.jpg",
+    "link": "articulos/review-kia-ev4-sedan-electrico.html",
+    "date": "2025-12-14",
+    "readTime": "10 min"
+},
+    
+    {
     "id": 23,
     "title": "Esta marca coreana ha presentado un coche que parece más de PlayStation que de carretera",
     "summary": "Kia sorprende con el Vision Meta Turismo Concept, un coche eléctrico futurista que fusiona conducción con gaming: HUD de realidad aumentada, controles tipo joystick, asientos hápticos y conexión al metaverso. ¿Es esto el futuro del automóvil o pura ciencia ficción?",
