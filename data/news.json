@@ -1,5 +1,15 @@
 [ 
   {
+  "id": 100,
+  "title": "Este país europeo podría dar marcha atrás en la prohibición de coches de combustión",
+  "summary": "El Partido Conservador del Reino Unido ha presentado una propuesta para revocar la prohibición de venta de coches de gasolina y diésel y eliminar el mandato ZEV. Aunque el gobierno laborista rechaza el cambio, la medida genera un intenso debate sobre el futuro de la movilidad eléctrica en Europa.",
+  "category": "Noticias",
+  "image": "https://images.unsplash.com/photo-1488747279002-c8523379faaa?w=600&auto=format&fit=crop&q=60",
+  "link": "articulos/reino-unido-propuesta-eliminar-prohibicion-coches-combustion.html",
+  "date": "2025-12-15",
+  "readTime": "9 min"
+}
+  {
   "id": 99,
   "title": "Hyundai Kona Eléctrico: Oferta Exclusiva con Descuento de Hasta 7.000€",
   "summary": "Hyundai lanza una oferta especial para el Kona Eléctrico con descuentos de hasta 7.000€, financiación a tipo 0% y 5 años de garantía. El SUV eléctrico con hasta 484 km de autonomía se posiciona como una de las mejores opciones en su segmento. Te contamos todos los detalles de la promoción y cómo aprovecharla.",
@@ -8,7 +18,8 @@
   "link": "articulos/hyundai-kona-oferta-510km-18000-descuento.html",
   "date": "2025-12-15",
   "readTime": "6 min"
-},  {
+},  
+  {
   "id": 98,
   "title": "Coches Geely en España: el movimiento que nadie esperaba en 2026 (y lo que aún no te han contado)",
   "summary": "Geely acelera su desembarco en España con modelos eléctricos e híbridos de sus marcas del grupo. Te cuento fechas estimadas, plataformas, precios orientativos y cómo impactará en el mercado, sin desvelar la gran sorpresa del plan.",
