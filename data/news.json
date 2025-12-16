@@ -1,5 +1,15 @@
 [ 
   {
+  "id": 101,
+  "title": "El coche urbano más querido de los 2000 resucita: será uno de los eléctricos más pequeños del mundo",
+  "summary": "El icónico Smart ForTwo, que marcó una era en el automovilismo urbano, regresará en 2026 completamente eléctrico. Con un diseño renovado pero manteniendo su esencia compacta, promete convertirse en uno de los vehículos eléctricos más pequeños del mercado. La nueva generación mantendrá su filosofía de movilidad urbana sostenible, ahora con cero emisiones.",
+  "category": "Noticias",
+  "image": "imagenes/smart-fortwo.png",
+  "link": "articulos/coche-urbano-iconico-2000-regresa-electrico-2026.html",
+  "date": "2025-12-16",
+  "readTime": "7 min"
+},  
+  {
   "id": 100,
   "title": "Este país europeo podría dar marcha atrás en la prohibición de coches de combustión",
   "summary": "El Partido Conservador del Reino Unido ha presentado una propuesta para revocar la prohibición de venta de coches de gasolina y diésel y eliminar el mandato ZEV. Aunque el gobierno laborista rechaza el cambio, la medida genera un intenso debate sobre el futuro de la movilidad eléctrica en Europa.",
