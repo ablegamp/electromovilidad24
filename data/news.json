@@ -1,5 +1,16 @@
 [ 
   {
+    "id": 26,
+    "title": "Si vas a comprar un coche eléctrico coreano, esta alianza puede ahorrarte cientos de euros",
+    "summary": "Kia y Repsol refuerzan su acuerdo con descuentos de hasta el 30% en wallbox, instalación básica incluida y 15% de descuento en más de 2.500 puntos de carga públicos. Los compradores de la gama EV pueden ahorrar más de 650€ el primer año.",
+    "category": "Noticias",
+    "image": "https://images.unsplash.com/photo-1647418551307-a9bb946afe2e?w=1200&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8a2lhfGVufDB8fDB8fHwy",
+    "link": "articulos/alianza-kia-repsol-descuentos-carga-electrica-2025.html",
+    "date": "2025-12-20",
+    "readTime": "7 min"
+},
+  
+  {
   "id": 109,
   "title": "El Gobierno lanza la herramienta definitiva para conductores de eléctricos (y es gratis)",
   "summary": "Nueva aplicación oficial REVE del Ministerio y Red Eléctrica integra los 43.000 puntos de recarga públicos de España. Incluye disponibilidad en tiempo real, precios y un planificador de rutas inteligente. Disponible gratis para iOS y Android.",
