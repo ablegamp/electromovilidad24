@@ -1,5 +1,16 @@
 [ 
   {
+    "id": 27,
+    "title": "100 millones de euros: la apuesta que hará a Tesla independiente de sus proveedores en Europa",
+    "summary": "Tesla invierte 100 millones de euros adicionales en su Gigafactoría de Berlín para producir celdas de batería 4680 propias desde 2027. El objetivo: reducir la dependencia de proveedores asiáticos y abaratar los precios del Model Y en Europa.",
+    "category": "Noticias",
+    "image": "https://images.unsplash.com/photo-1553260188-75a8d6205b6c?w=1200&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8dGVzbGF8ZW58MHx8MHx8fDI%3D",
+    "link": "articulos/tesla-gigafactory-berlin-baterias-2027.html",
+    "date": "2025-12-20",
+    "readTime": "8 min"
+},
+  
+  {
     "id": 26,
     "title": "Si vas a comprar un coche eléctrico coreano, esta alianza puede ahorrarte cientos de euros",
     "summary": "Kia y Repsol refuerzan su acuerdo con descuentos de hasta el 30% en wallbox, instalación básica incluida y 15% de descuento en más de 2.500 puntos de carga públicos. Los compradores de la gama EV pueden ahorrar más de 650€ el primer año.",
