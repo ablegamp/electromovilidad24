@@ -1,4 +1,15 @@
 [ 
+  
+  {
+    "id": 28,
+    "title": "Este SUV eléctrico de 30.000€ conquista Europa, pero España se queda fuera del lanzamiento",
+    "summary": "El Toyota Urban Cruiser, el SUV eléctrico más asequible de la marca japonesa, ya está disponible en los principales mercados europeos. Sin embargo, su llegada a los concesionarios españoles podría retrasarse hasta principios de 2026.",
+    "category": "Noticias",
+    "image": "imagenes/toyota-urban-cruiser.jpg",
+    "link": "articulos/toyota-urban-cruiser-suv-electrico-espana-2026.html",
+    "date": "2025-12-21",
+    "readTime": "8 min"
+},
   {
     "id": 27,
     "title": "100 millones de euros: la apuesta que hará a Tesla independiente de sus proveedores en Europa",
