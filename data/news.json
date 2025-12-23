@@ -1,5 +1,14 @@
 [ 
-  
+  {
+  "id": 114,
+  "title": "50 millones € para flotas eléctricas: el programa que abre hoy y que tu empresa no puede ignorar",
+  "summary": "El Plan MOVES Flotas Plus arranca hoy con 50 millones de euros para empresas. Ayudas de hasta 5.000€ por vehículo, retrofit de coches de combustión, puntos de recarga y más. Plazo hasta el 10 de febrero de 2026.",
+  "category": "Noticias",
+  "image": "https://images.unsplash.com/photo-1610698553131-1f12a1615cc2?w=1200&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDJ8fGNvY2hlJTIwZWwlQzMlQTljdHJpY298ZW58MHwwfDB8fHwy",
+  "link": "articulos/plan-moves-flotas-plus-2025-ayudas-empresas.html",
+  "date": "2025-12-23",
+  "readTime": "9 min"
+},
   {
     "id": 113,
     "title": "80.000 km en eléctrico: la hazaña que demuestra que los escépticos estaban equivocados",
