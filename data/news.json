@@ -1,5 +1,15 @@
 [ 
   {
+  "id": 115,
+  "title": "El SUV eléctrico de 7 plazas que carga 260 km en 10 minutos llega a España en 2026",
+  "summary": "Mercedes-Benz presenta el nuevo GLB 100% eléctrico: 631 km de autonomía, arquitectura 800V con carga a 320 kW, 7 plazas reales y el mayor frunk de la marca (127 litros). Precio estimado desde 56.000€ en España.",
+  "category": "Novedad",
+  "image": "imagenes/mercedes-glb-electrico-2026.jpg",
+  "link": "articulos/mercedes-glb-electrico-2026-suv-7-plazas.html",
+  "date": "2025-12-23",
+  "readTime": "9 min"
+},
+  {
   "id": 114,
   "title": "50 millones € para flotas eléctricas: el programa que abre hoy y que tu empresa no puede ignorar",
   "summary": "El Plan MOVES Flotas Plus arranca hoy con 50 millones de euros para empresas. Ayudas de hasta 5.000€ por vehículo, retrofit de coches de combustión, puntos de recarga y más. Plazo hasta el 10 de febrero de 2026.",
