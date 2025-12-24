@@ -1,5 +1,15 @@
 [  
  {
+    "id": 25,
+    "title": "El SUV chino con un dato que Porsche y Tesla preferirían que no supieras",
+    "summary": "Análisis completo del XPeng G9 2026: el SUV eléctrico chino con arquitectura de 800V que carga del 10% al 80% en solo 20 minutos. Con 567 CV, 520-570 km de autonomía WLTP y precio desde 57.490€, desafía directamente a Tesla Model X, BMW iX y Porsche Cayenne. Ficha técnica, sistema XNGP y comparativa.",
+    "category": "Reviews",
+    "image": "imagenes/xpeng-g9.jpg",
+    "link": "articulos/xpeng-g9-2026-suv-electrico-800v-analisis.html",
+    "date": "2025-12-24",
+    "readTime": "12 min"
+},
+ {
     "id": 24,
     "title": "El sedán eléctrico coreano que puede destronar al Tesla Model 3 - Review completa",
     "summary": "Kia presenta el EV4, un sedán eléctrico con 600 km de autonomía WLTP, carga del 10% al 80% en solo 18 minutos gracias a su arquitectura de 800V, y un precio original desde 45.990€. Analizamos sus especificaciones, tecnología, prestaciones y cómo se compara frente al Tesla Model 3.",
