@@ -1,5 +1,15 @@
 [ 
   {
+  "id": 120,
+  "title": "Un Coche Eléctrico de 13.500€ Hace Historia con una Tecnología que No Esperaban Hasta 2030",
+  "summary": "Primera batería semisólida del mundo en producción masiva: 530 km de autonomía, carga del 30% al 80% en 21 minutos y un test de seguridad que ninguna batería convencional supera. El futuro de las baterías ya rueda por las calles.",
+  "category": "Noticias",
+  "image": "https://images.unsplash.com/photo-1752959837780-72d6192a5265?w=600&auto=format&fit=crop&q=60",
+  "link": "articulos/primera-bateria-semisolida-produccion-masiva.html",
+  "date": "2025-12-27",
+  "readTime": "8 min"
+},
+  {
   "id": 119,
   "title": "El eléctrico más barato de Europa dice adiós a su mayor defecto: todo lo que llega en 2026",
   "summary": "La marca rumana prepara una revolución silenciosa: nuevo motor de 75 CV que duplica las prestaciones, batería mejorada de 31 kWh, tecnología V2L y precio final desde 11.500€ con ayudas. El rey del presupuesto eléctrico vuelve más fuerte que nunca.",
