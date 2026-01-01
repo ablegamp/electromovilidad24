@@ -1,5 +1,15 @@
 [ 
   {
+  "id": 122,
+  "title": "El gigante tecnológico que acaba de presentar la batería que hará obsoletos los coches eléctricos actuales",
+  "summary": "965 km de autonomía y carga completa en 9 minutos: las cifras de la nueva batería de estado sólido que promete revolucionar los coches eléctricos. Descubre quién está detrás, cuándo llegará al mercado y por qué las dos mayores excusas para no comprar un eléctrico tienen los días contados.",
+  "category": "Noticias",
+  "image": "https://images.unsplash.com/photo-1623588958271-8c019027feed?w=600&auto=format&fit=crop&q=60",
+  "link": "articulos/samsung-bateria-estado-solido-600-millas-autonomia-2027.html",
+  "date": "2026-01-01",
+  "readTime": "10 min"
+},
+  {
   "id": 120,
   "title": "Un Coche Eléctrico de 13.500€ Hace Historia con una Tecnología que No Esperaban Hasta 2030",
   "summary": "Primera batería semisólida del mundo en producción masiva: 530 km de autonomía, carga del 30% al 80% en 21 minutos y un test de seguridad que ninguna batería convencional supera. El futuro de las baterías ya rueda por las calles.",
