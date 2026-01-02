@@ -1,5 +1,16 @@
 [
 {
+  "id": 66,
+  "title": "La tecnología que promete duplicar la autonomía de tu coche eléctrico (pero hay un problema)",
+  "summary": "Guía completa sobre baterías de estado sólido para coches eléctricos: qué son, cómo funcionan, ventajas reales frente a las baterías actuales, los problemas que nadie menciona y cuándo llegarán realmente a los coches que podemos comprar. Toyota, Samsung, BMW y Nissan compiten por ser los primeros, pero los plazos siguen retrasándose.",
+  "category": "Guías",
+  "image": "https://images.unsplash.com/photo-1619641805634-b867f535071c?w=600&auto=format&fit=crop&q=60",
+  "link": "articulos/baterias-estado-solido-coches-electricos-guia-completa.html",
+  "date": "2026-01-02",
+  "readTime": "12 min"
+},
+
+  {
   "id": 65,
   "title": "La tarifa de luz que usan quienes menos pagan por cargar su coche eléctrico en casa",
   "summary": "Descubre las mejores tarifas eléctricas para cargar tu coche eléctrico en casa en España en 2025-2026. Cuánto cuesta por kWh, cómo ahorrar con discriminación horaria, ejemplos de Iberdrola, Endesa, Repsol y Naturgy, y comparativas reales que demuestran que cargar en casa puede costar hasta 8 veces menos que en un cargador público.",
