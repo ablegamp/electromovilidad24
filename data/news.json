@@ -1,6 +1,16 @@
 [ 
   {
   "id": 122,
+  "title": "La ciudad española con más de 1.000 cargadores públicos y ayudas de 600€ para motos eléctricas",
+  "summary": "Barcelona lidera la movilidad eléctrica en España con la red Endolla: más de 1.035 puntos de carga, 53.500 usuarios, energía 100% renovable y planes para instalar cargadores de 160 kW en la calle. Además, 15 millones en ayudas para electrificar motos y autobuses TMB cero emisiones.",
+  "category": "Guías",
+  "image": "https://images.unsplash.com/photo-1564221710304-0b37c8b9d729?w=600&auto=format&fit=crop&q=60",
+  "link": "articulos/barcelona-movilidad-electrica-cargadores-ayudas-2026.html",
+  "date": "2026-01-02",
+  "readTime": "8 min"
+},
+  {
+  "id": 121,
   "title": "El gigante tecnológico que acaba de presentar la batería que hará obsoletos los coches eléctricos actuales",
   "summary": "965 km de autonomía y carga completa en 9 minutos: las cifras de la nueva batería de estado sólido que promete revolucionar los coches eléctricos. Descubre quién está detrás, cuándo llegará al mercado y por qué las dos mayores excusas para no comprar un eléctrico tienen los días contados.",
   "category": "Noticias",
