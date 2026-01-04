@@ -1,5 +1,15 @@
 [
 {
+  "id": 67,
+  "title": "Cuánto tarda en cargar un coche eléctrico: los tiempos reales que nadie te cuenta (2026)",
+  "summary": "Guía completa sobre tiempos de carga de coches eléctricos según el tipo de cargador: doméstico, público, rápido y ultrarrápido. Descubre cuánto tarda realmente una carga en casa con wallbox, en estaciones públicas AC y en cargadores DC de 50 a 350 kW. Incluye tabla comparativa, ejemplos prácticos de uso real, factores que influyen en la velocidad de carga y consejos para reducir los tiempos de recarga.",
+  "category": "Guías",
+  "image": "https://images.unsplash.com/photo-1704475336842-0ab3798abf0e?w=600&auto=format&fit=crop&q=60",
+  "link": "articulos/cuanto-tarda-cargar-coche-electrico.html",
+  "date": "2026-01-04",
+  "readTime": "12 min"
+},
+  {
   "id": 66,
   "title": "La tecnología que promete duplicar la autonomía de tu coche eléctrico (pero hay un problema)",
   "summary": "Guía completa sobre baterías de estado sólido para coches eléctricos: qué son, cómo funcionan, ventajas reales frente a las baterías actuales, los problemas que nadie menciona y cuándo llegarán realmente a los coches que podemos comprar. Toyota, Samsung, BMW y Nissan compiten por ser los primeros, pero los plazos siguen retrasándose.",
