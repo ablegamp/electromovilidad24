@@ -1,5 +1,15 @@
 [ 
   {
+  "id": 123,
+  "title": "La marca que dominaba el mercado eléctrico se desploma un 44% en España",
+  "summary": "Las ventas de Tesla en España caen un 44% en diciembre de 2025 según datos de ANFAC, mientras el mercado de vehículos electrificados crece un 94,6%. Analizamos las causas del desplome, la competencia de BYD, Renault R5 y Kia EV3, y qué esperar en 2026 para la marca de Elon Musk.",
+  "category": "Noticias",
+  "image": "https://images.unsplash.com/photo-1650375629793-792050421377?w=600&auto=format&fit=crop&q=60",
+  "link": "articulos/ventas-tesla-espana-caen-44-diciembre-2025.html",
+  "date": "2026-01-05",
+  "readTime": "10 min"
+},
+  {
   "id": 122,
   "title": "La ciudad española con más de 1.000 cargadores públicos y ayudas de 600€ para motos eléctricas",
   "summary": "Barcelona lidera la movilidad eléctrica en España con la red Endolla: más de 1.035 puntos de carga, 53.500 usuarios, energía 100% renovable y planes para instalar cargadores de 160 kW en la calle. Además, 15 millones en ayudas para electrificar motos y autobuses TMB cero emisiones.",
