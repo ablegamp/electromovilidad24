@@ -1,5 +1,15 @@
 [
 {
+  "id": 68,
+  "title": "La cifra que desmonta el mayor mito sobre los coches eléctricos",
+  "summary": "Análisis completo de la huella de carbono de un coche eléctrico comparando fabricación vs uso a lo largo de su vida útil. Descubre cuánto contamina realmente fabricar una batería, en cuántos kilómetros se compensa la diferencia y por qué los eléctricos emiten hasta un 73% menos de CO₂ que los de gasolina según el ICCT. Incluye datos del mix eléctrico, reciclaje de baterías y ejemplos comparativos con fuentes verificadas.",
+  "category": "Guías",
+  "image": "https://images.unsplash.com/photo-1647427060118-4911c9821b82?w=600&auto=format&fit=crop&q=60",
+  "link": "articulos/huella-carbono-coche-electrico-fabricacion-vs-uso.html",
+  "date": "2026-01-05",
+  "readTime": "12 min"
+},
+  {
   "id": 67,
   "title": "Cuánto tarda en cargar un coche eléctrico: los tiempos reales que nadie te cuenta (2026)",
   "summary": "Guía completa sobre tiempos de carga de coches eléctricos según el tipo de cargador: doméstico, público, rápido y ultrarrápido. Descubre cuánto tarda realmente una carga en casa con wallbox, en estaciones públicas AC y en cargadores DC de 50 a 350 kW. Incluye tabla comparativa, ejemplos prácticos de uso real, factores que influyen en la velocidad de carga y consejos para reducir los tiempos de recarga.",
