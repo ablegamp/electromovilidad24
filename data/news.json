@@ -1,5 +1,15 @@
 [ 
   {
+  "id": 124,
+  "title": "Este coche eléctrico funcionó donde ningún motor de gasolina sobreviviría",
+  "summary": "La historia del Lunar Roving Vehicle de la NASA: el primer vehículo eléctrico que circuló por la Luna en las misiones Apolo 15, 16 y 17. Descubre su tecnología pionera con 4 motores eléctricos, baterías de plata-zinc, diseño plegable y por qué la movilidad eléctrica fue la única opción viable fuera de la Tierra hace más de 50 años.",
+  "category": "Noticias",
+  "image": "https://images.unsplash.com/photo-1562832135-14a35d25edef?w=600&auto=format&fit=crop&q=60",
+  "link": "articulos/lunar-roving-vehicle-primer-coche-electrico-luna.html",
+  "date": "2026-01-05",
+  "readTime": "12 min"
+},
+  {
   "id": 123,
   "title": "La marca que dominaba el mercado eléctrico se desploma un 44% en España",
   "summary": "Las ventas de Tesla en España caen un 44% en diciembre de 2025 según datos de ANFAC, mientras el mercado de vehículos electrificados crece un 94,6%. Analizamos las causas del desplome, la competencia de BYD, Renault R5 y Kia EV3, y qué esperar en 2026 para la marca de Elon Musk.",
