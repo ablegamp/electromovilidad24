@@ -1,5 +1,15 @@
 [
 {
+  "id": 69,
+  "title": "El método que puede dejarte la instalación del wallbox casi gratis",
+  "summary": "Guía completa para financiar la instalación de un cargador doméstico en España combinando todas las ayudas disponibles. Descubre cómo reducir el coste de 2.000€ a menos de 300€ aprovechando el Plan MOVES III (hasta 80%), la deducción del 15% en IRPF, bonificaciones municipales en IBI e ICIO, y financiación a plazos sin intereses. Incluye ejemplo real paso a paso, trucos para maximizar el ahorro y preguntas frecuentes con fuentes verificadas.",
+  "category": "Guías",
+  "image": "https://images.unsplash.com/photo-1633158829585-23ba8f7c8caf?w=600&auto=format&fit=crop&q=60",
+  "link": "articulos/financiar-instalacion-cargador-domestico.html",
+  "date": "2026-01-07",
+  "readTime": "12 min"
+},
+  {
   "id": 68,
   "title": "La cifra que desmonta el mayor mito sobre los coches eléctricos",
   "summary": "Análisis completo de la huella de carbono de un coche eléctrico comparando fabricación vs uso a lo largo de su vida útil. Descubre cuánto contamina realmente fabricar una batería, en cuántos kilómetros se compensa la diferencia y por qué los eléctricos emiten hasta un 73% menos de CO₂ que los de gasolina según el ICCT. Incluye datos del mix eléctrico, reciclaje de baterías y ejemplos comparativos con fuentes verificadas.",
