@@ -1,5 +1,15 @@
 [
 {
+  "id": 70,
+  "title": "El error que cometen 8 de cada 10 usuarios cuando su cargador falla",
+  "summary": "Guía completa sobre qué hacer cuando tu wallbox o cargador de coche eléctrico se estropea. Descubre los 6 fallos más comunes y cómo diagnosticarlos, el protocolo paso a paso antes de llamar al técnico, tus derechos como consumidor que las empresas no te cuentan, y la garantía legal de 3 años que tienes en España desde 2022. Incluye comparativa de costes de reparación vs sustitución, mantenimiento preventivo y cuándo merece la pena cambiar a un modelo nuevo.",
+  "category": "Guías",
+  "image": "https://images.unsplash.com/photo-1653665674648-7cc7fa657547?q=80&w=600&auto=format&fit=crop",
+  "link": "articulos/cargador-coche-electrico-averia-garantias-derechos.html",
+  "date": "2026-01-08",
+  "readTime": "12 min"
+},
+  {
   "id": 69,
   "title": "El método que puede dejarte la instalación del wallbox casi gratis",
   "summary": "Guía completa para financiar la instalación de un cargador doméstico en España combinando todas las ayudas disponibles. Descubre cómo reducir el coste de 2.000€ a menos de 300€ aprovechando el Plan MOVES III (hasta 80%), la deducción del 15% en IRPF, bonificaciones municipales en IBI e ICIO, y financiación a plazos sin intereses. Incluye ejemplo real paso a paso, trucos para maximizar el ahorro y preguntas frecuentes con fuentes verificadas.",
