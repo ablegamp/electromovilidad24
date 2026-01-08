@@ -1,6 +1,16 @@
 [ 
   {
   "id": 125,
+  "title": "Hacienda confirma el beneficio fiscal que muchos conductores desconocen en 2026",
+  "summary": "La Agencia Tributaria mantiene la deducción del 15% en IRPF por la compra de coches eléctricos durante 2026. Ahorra hasta 3.000€ en tu declaración de la renta, más 600€ adicionales si instalas cargador doméstico. Descubre qué vehículos son elegibles (BEV, PHEV, FCEV), cómo se calcula la deducción, su compatibilidad con el Plan MOVES III y la documentación que necesitas guardar para Hacienda.",
+  "category": "Noticias",
+  "image": "https://images.unsplash.com/photo-1586486855514-8c633cc6fd38?w=600&auto=format&fit=crop&q=60",
+  "link": "articulos/hacienda-deduccion-irpf-coche-electrico-2026.html",
+  "date": "2026-01-08",
+  "readTime": "8 min"
+},
+  {
+  "id": 125,
   "title": "El dato que nadie esperaba: así ha cerrado 2025 el mercado del coche eléctrico en España",
   "summary": "España cierra 2025 con un récord histórico de ventas electrificadas: 245.629 unidades y un crecimiento del 96%. Casi 1 de cada 5 coches vendidos ya es eléctrico o híbrido enchufable. Tesla lidera con Model 3 y Model Y. Todos los datos oficiales.",
   "category": "Noticias",
