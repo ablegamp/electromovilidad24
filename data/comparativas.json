@@ -1,5 +1,15 @@
 [  
    {
+  "id": 73,
+  "title": "Los 5 coches eléctricos más baratos que llegarán en 2026: precios, autonomía y fechas",
+  "summary": "Comparativa completa de los coches eléctricos más asequibles confirmados para 2026: Kia EV2 (448 km, desde 27.000€), Citroën ë-C3 (320 km, desde 23.300€), Renault Twingo EV (por debajo de 20.000€), Volkswagen ID.1 (20.000-22.000€) y BYD Seagull (20.000-23.000€). Tabla comparativa, análisis de cada modelo con datos oficiales, impacto de las baterías LFP en la bajada de precios según BloombergNEF, y qué cambiará en el mercado español con la llegada de estos vehículos.",
+  "category": "Comparativas",
+  "image": "imagenes/citroen-ec3.png",
+  "link": "articulos/coches-electricos-mas-baratos-2026-comparativa.html",
+  "date": "2026-01-09",
+  "readTime": "10 min"
+},
+   {
   "id": 37,
   "title": "Esta marca de eléctricos duplica el kilometraje de la competencia en España (y los datos lo demuestran)",
   "summary": "Un análisis de 200.000 coches eléctricos en España revela qué marca acumula más kilómetros reales. Los datos desmontan el mito del 'coche urbano' y muestran diferencias de hasta 60.000 km entre fabricantes. Descubre quién lidera y por qué.",
