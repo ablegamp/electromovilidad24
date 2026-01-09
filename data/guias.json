@@ -1,4 +1,156 @@
 [
+{
+  "id": 70,
+  "title": "El error que cometen 8 de cada 10 usuarios cuando su cargador falla",
+  "summary": "Guía completa sobre qué hacer cuando tu wallbox o cargador de coche eléctrico se estropea. Descubre los 6 fallos más comunes y cómo diagnosticarlos, el protocolo paso a paso antes de llamar al técnico, tus derechos como consumidor que las empresas no te cuentan, y la garantía legal de 3 años que tienes en España desde 2022. Incluye comparativa de costes de reparación vs sustitución, mantenimiento preventivo y cuándo merece la pena cambiar a un modelo nuevo.",
+  "category": "Guías",
+  "image": "https://images.unsplash.com/photo-1653665674648-7cc7fa657547?q=80&w=600&auto=format&fit=crop",
+  "link": "articulos/cargador-coche-electrico-averia-garantias-derechos.html",
+  "date": "2026-01-08",
+  "readTime": "12 min"
+},
+  {
+  "id": 69,
+  "title": "El método que puede dejarte la instalación del wallbox casi gratis",
+  "summary": "Guía completa para financiar la instalación de un cargador doméstico en España combinando todas las ayudas disponibles. Descubre cómo reducir el coste de 2.000€ a menos de 300€ aprovechando el Plan MOVES III (hasta 80%), la deducción del 15% en IRPF, bonificaciones municipales en IBI e ICIO, y financiación a plazos sin intereses. Incluye ejemplo real paso a paso, trucos para maximizar el ahorro y preguntas frecuentes con fuentes verificadas.",
+  "category": "Guías",
+  "image": "https://images.unsplash.com/photo-1633158829585-23ba8f7c8caf?w=600&auto=format&fit=crop&q=60",
+  "link": "articulos/financiar-instalacion-cargador-domestico.html",
+  "date": "2026-01-07",
+  "readTime": "12 min"
+},
+  {
+  "id": 68,
+  "title": "La cifra que desmonta el mayor mito sobre los coches eléctricos",
+  "summary": "Análisis completo de la huella de carbono de un coche eléctrico comparando fabricación vs uso a lo largo de su vida útil. Descubre cuánto contamina realmente fabricar una batería, en cuántos kilómetros se compensa la diferencia y por qué los eléctricos emiten hasta un 73% menos de CO₂ que los de gasolina según el ICCT. Incluye datos del mix eléctrico, reciclaje de baterías y ejemplos comparativos con fuentes verificadas.",
+  "category": "Guías",
+  "image": "https://images.unsplash.com/photo-1647427060118-4911c9821b82?w=600&auto=format&fit=crop&q=60",
+  "link": "articulos/huella-carbono-coche-electrico-fabricacion-vs-uso.html",
+  "date": "2026-01-05",
+  "readTime": "12 min"
+},
+  {
+  "id": 67,
+  "title": "Cuánto tarda en cargar un coche eléctrico: los tiempos reales que nadie te cuenta (2026)",
+  "summary": "Guía completa sobre tiempos de carga de coches eléctricos según el tipo de cargador: doméstico, público, rápido y ultrarrápido. Descubre cuánto tarda realmente una carga en casa con wallbox, en estaciones públicas AC y en cargadores DC de 50 a 350 kW. Incluye tabla comparativa, ejemplos prácticos de uso real, factores que influyen en la velocidad de carga y consejos para reducir los tiempos de recarga.",
+  "category": "Guías",
+  "image": "https://images.unsplash.com/photo-1704475336842-0ab3798abf0e?w=600&auto=format&fit=crop&q=60",
+  "link": "articulos/cuanto-tarda-cargar-coche-electrico.html",
+  "date": "2026-01-04",
+  "readTime": "12 min"
+},
+  {
+  "id": 66,
+  "title": "La tecnología que promete duplicar la autonomía de tu coche eléctrico (pero hay un problema)",
+  "summary": "Guía completa sobre baterías de estado sólido para coches eléctricos: qué son, cómo funcionan, ventajas reales frente a las baterías actuales, los problemas que nadie menciona y cuándo llegarán realmente a los coches que podemos comprar. Toyota, Samsung, BMW y Nissan compiten por ser los primeros, pero los plazos siguen retrasándose.",
+  "category": "Guías",
+  "image": "https://images.unsplash.com/photo-1619641805634-b867f535071c?w=600&auto=format&fit=crop&q=60",
+  "link": "articulos/baterias-estado-solido-coches-electricos-guia-completa.html",
+  "date": "2026-01-02",
+  "readTime": "12 min"
+},
+
+  {
+  "id": 65,
+  "title": "La tarifa de luz que usan quienes menos pagan por cargar su coche eléctrico en casa",
+  "summary": "Descubre las mejores tarifas eléctricas para cargar tu coche eléctrico en casa en España en 2025-2026. Cuánto cuesta por kWh, cómo ahorrar con discriminación horaria, ejemplos de Iberdrola, Endesa, Repsol y Naturgy, y comparativas reales que demuestran que cargar en casa puede costar hasta 8 veces menos que en un cargador público.",
+  "category": "Guías",
+  "image": "https://images.unsplash.com/photo-1551418846-50012a4e94c7?w=600&auto=format&fit=crop&q=60",
+  "link": "articulos/tarifas-luz-cargar-coche-electrico-casa-2025-2026.html",
+  "date": "2026-01-01",
+  "readTime": "12 min"
+},
+  {
+  "id": 64,
+  "title": "La cifra récord que España acaba de alcanzar y que cambiará tu decisión sobre el coche eléctrico",
+  "summary": "España roza los 50.000 puntos de recarga públicos en 2025 con un crecimiento del 10% interanual. Descubre dónde están, qué potencias ofrecen, qué comunidades lideran el ranking y cómo usar las mejores apps para encontrar cargadores. El mapa de la infraestructura EV que demuestra que la excusa de 'no hay dónde cargar' ya no existe.",
+  "category": "Guías",
+  "image": "https://images.unsplash.com/photo-1645709453620-2c9bfc5ac66f?w=600&auto=format&fit=crop&q=60",
+  "link": "articulos/puntos-recarga-espana-2025-infraestructura-ev.html",
+  "date": "2025-12-31",
+  "readTime": "9 min"
+},
+  {
+  "id": 63,
+  "title": "Lo que nadie te cuenta antes de comprar coche en 2026 (y que puede ahorrarte miles de euros)",
+  "summary": "Gasolina, híbrido, PHEV o eléctrico: la decisión correcta puede ahorrarte más de 13.000€ en 8 años. Analizamos las 5 tecnologías disponibles, comparamos costes totales de propiedad y te decimos qué opción se adapta mejor a tu perfil de uso. Guía definitiva para no equivocarte.",
+  "category": "Guías",
+  "image": "https://images.unsplash.com/photo-1574023278969-abb7ab49945c?w=600&auto=format&fit=crop&q=60",
+  "link": "articulos/que-coche-comprar-2026.html",
+  "date": "2025-12-29",
+  "readTime": "12 min"
+},
+ {
+  "id": 62,
+  "title": "Cuánto cuesta realmente cargar un coche eléctrico en 2025 (la verdad que nadie cuenta)",
+  "summary": "De 0,00€ a 0,78€ por kWh: la diferencia entre operadores es brutal. Comparamos precios de Iberdrola, Repsol, Endesa, Tesla y más en Madrid y Barcelona. Descubre qué operador es el más barato y cómo ahorrar hasta un 80% eligiendo bien dónde y cuándo cargas.",
+  "category": "Guías",
+  "image": "https://images.unsplash.com/photo-1616361715059-9daf3fdd50be?w=600&auto=format&fit=crop&q=60",
+  "link": "articulos/tarifas-recarga-coche-electrico-espana-europa-2025.html",
+  "date": "2025-12-28",
+  "readTime": "12 min"
+},
+ {
+  "id": 61,
+  "title": "Olvidarás los Cargadores: Las Tres Tecnologías que Cambiarán para Siempre Cómo Alimentas tu Coche Eléctrico",
+  "summary": "Carreteras que cargan tu coche a 300 kW mientras conduces, repostajes de hidrógeno en 5 minutos y baterías de grafeno que alcanzan el 80% en 8 minutos. No es ciencia ficción: ya están en pruebas en Francia, España e Israel. Te cuento cuándo llegarán.",
+  "category": "Guías",
+  "image": "https://images.unsplash.com/photo-1564668836804-05a2de350bb6?w=600&auto=format&fit=crop&q=60",
+  "link": "articulos/tecnologias-futuro-movilidad-electrica-carga-dinamica-hidrogeno-grafeno.html",
+  "date": "2025-12-27",
+  "readTime": "12 min"
+},
+ {
+  "id": 60,
+  "title": "La tecnología que enterrará a los híbridos enchufables llega en 2027 (y no es lo que piensas)",
+  "summary": "Más de 960 km de autonomía, conducción 100% eléctrica y más baratos que los BEV. Los EREV o eléctricos de autonomía extendida prometen lo mejor de dos mundos: la suavidad del eléctrico sin ansiedad por autonomía. Hyundai confirma su apuesta y un gigante coreano lidera la revolución.",
+  "category": "Guías",
+  "image": "https://images.unsplash.com/photo-1646728502468-06d9c7b3c2c2?w=1200&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8aHl1bmRhaXxlbnwwfDB8MHx8fDI%3D",
+  "link": "articulos/erev-electricos-autonomia-extendida-hyundai-2027.html",
+  "date": "2025-12-26",
+  "readTime": "8 min"
+},
+  {
+  "id": 59,
+  "title": "España esconde una 'mina de oro' bajo el asfalto: el plan que nadie esperaba para 2026",
+  "summary": "Millones de coches eléctricos circulan ya por España con baterías llenas de litio, cobalto y níquel. Hasta ahora exportábamos estos materiales como residuos. Ahora, plantas como Novocycle y BeeCycle convierten a España en el hub europeo de reciclaje. El pasaporte de batería, la 'black mass' y cómo recuperamos el 95% de los materiales críticos.",
+  "category": "Guías",
+  "image": "https://images.unsplash.com/photo-1600439614353-174ad0ee3b25?w=1200&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzB8fGJhdGVyaWElMjBjb2NoZSUyMGVsJUMzJUE5Y3RyaWNvfGVufDB8MHwwfHx8Mg%3D%3D",
+  "link": "articulos/reciclaje-baterias-coches-electricos-espana.html",
+  "date": "2025-12-26",
+  "readTime": "10 min"
+},
+  {
+  "id": 58,
+  "title": "El truco que usan miles de conductores para cargar su coche eléctrico sin pagar (o casi)",
+  "summary": "¿Cargar gratis es posible? Sí, pero con matices. Puntos gratuitos en Ikea, Lidl y centros comerciales, apps con kWh de regalo, tarifas valle a 0,08€/kWh y autoconsumo solar. Todos los métodos reales que funcionan en 2025, sin fantasías.",
+  "category": "Guías",
+  "image": "https://images.unsplash.com/photo-1606131959866-21ca5619bac5?w=1200&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8ODd8fGNvY2hlJTIwZWwlQzMlQTljdHJpY298ZW58MHx8MHx8fDI%3D",
+  "link": "articulos/cargar-coche-electrico-gratis-barato.html",
+  "date": "2025-12-25",
+  "readTime": "11 min"
+},
+  {
+    "id": 57,
+    "title": "¿Comprar ahora o en enero? La decisión de 3.000€ que nadie te explica bien",
+    "summary": "Quedan 7 días para que expire la deducción del 15% en el IRPF, pero en enero arranca el Plan Auto+ con ayudas directas en factura. Análisis completo: MOVES III vs Plan Auto+ 2026, tributación, tiempos de cobro y qué opción te conviene según tu perfil.",
+    "category": "Guías",
+    "image": "https://images.unsplash.com/photo-1642569135400-9e09b38dc200?w=1200&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NzV8fGNvY2hlcyUyMGVsJUMzJUE5Y3RyaWNvc3xlbnwwfDB8MHx8fDI%3D",
+    "link": "articulos/comprar-coche-electrico-2025-o-2026-ayudas.html",
+    "date": "2025-12-24",
+    "readTime": "8 min"
+},
+  {
+    "id": 56,
+    "title": "La cifra que nadie te cuenta sobre cambiar tu furgoneta diésel por una eléctrica en 2026",
+    "summary": "Las ZBE cierran el cerco a los vehículos comerciales diésel, pero hay un dato clave que cambia la ecuación por completo. Análisis de rentabilidad real para autónomos y pymes: TCO, ayudas de hasta 9.000€ y ahorro operativo del 70%.",
+    "category": "Guías",
+    "image": "https://images.unsplash.com/photo-1732193933911-78eda28a50ce?w=1200&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8ZnVyZ29uZXRhJTIwZWwlQzMlQTljdHJpY2F8ZW58MHx8MHx8fDI%3D",
+    "link": "articulos/furgonetas-camiones-electricos-autonomos-pymes-2026.html",
+    "date": "2025-12-22",
+    "readTime": "11 min"
+},
+  
   {
     "id": 55,
     "title": "Si te toca la lotería hoy, esto es lo primero que deberías saber antes de ir al concesionario",
