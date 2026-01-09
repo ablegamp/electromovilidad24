@@ -1,5 +1,15 @@
 [
 {
+  "id": 71,
+  "title": "El dato clave que nadie te cuenta antes de instalar un cargador de coche eléctrico en casa",
+  "summary": "Guía completa sobre qué potencia eléctrica necesitas realmente para cargar tu coche eléctrico en casa. Descubre la potencia contratada media en España según la CNMC, las diferencias entre cargar con enchufe Schuko y wallbox, ejemplos reales con modelos como Tesla Model 3, Hyundai Kona y Renault Megane E-Tech, y cómo usar la gestión dinámica de potencia para cargar sin subir tu contrato. Incluye tabla comparativa de potencias, tarifas eléctricas recomendadas por el MITECO y cómo ahorrar hasta un 60% cargando en horario valle.",
+  "category": "Guías",
+  "image": "https://images.unsplash.com/photo-1615903714163-1c9768bfcd06?w=600&auto=format&fit=crop&q=60",
+  "link": "articulos/potencia-electrica-cargar-coche-electrico-casa.html",
+  "date": "2026-01-09",
+  "readTime": "9 min"
+},
+  {
   "id": 70,
   "title": "El error que cometen 8 de cada 10 usuarios cuando su cargador falla",
   "summary": "Guía completa sobre qué hacer cuando tu wallbox o cargador de coche eléctrico se estropea. Descubre los 6 fallos más comunes y cómo diagnosticarlos, el protocolo paso a paso antes de llamar al técnico, tus derechos como consumidor que las empresas no te cuentan, y la garantía legal de 3 años que tienes en España desde 2022. Incluye comparativa de costes de reparación vs sustitución, mantenimiento preventivo y cuándo merece la pena cambiar a un modelo nuevo.",
