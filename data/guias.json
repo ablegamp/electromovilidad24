@@ -1,5 +1,15 @@
 [
 {
+  "id": 72,
+  "title": "La cifra que nadie te cuenta: cuánto cuesta realmente conducir un eléctrico en 2026",
+  "summary": "Análisis completo del coste por kilómetro de un coche eléctrico en España desde 2020 hasta 2026. Descubre cómo el precio varía hasta 10 veces según dónde cargues: desde 0,50€/100 km con autoconsumo solar hasta 12,75€ en cargadores rápidos públicos. Incluye datos de Eurostat sobre evolución de precios eléctricos, comparativa directa con gasolina y diésel, costes reales por modelos populares como Citroën ë-C3, Hyundai Inster y Kia EV3, y cómo las tarifas con discriminación horaria han protegido a los propietarios de EV durante la crisis energética.",
+  "category": "Guías",
+  "image": "https://images.unsplash.com/photo-1623572435912-9940866dca4e?w=600&auto=format&fit=crop&q=60",
+  "link": "articulos/coste-kilometro-coche-electrico-espana-2020-2026.html",
+  "date": "2026-01-12",
+  "readTime": "12 min"
+},
+  {
   "id": 71,
   "title": "El dato clave que nadie te cuenta antes de instalar un cargador de coche eléctrico en casa",
   "summary": "Guía completa sobre qué potencia eléctrica necesitas realmente para cargar tu coche eléctrico en casa. Descubre la potencia contratada media en España según la CNMC, las diferencias entre cargar con enchufe Schuko y wallbox, ejemplos reales con modelos como Tesla Model 3, Hyundai Kona y Renault Megane E-Tech, y cómo usar la gestión dinámica de potencia para cargar sin subir tu contrato. Incluye tabla comparativa de potencias, tarifas eléctricas recomendadas por el MITECO y cómo ahorrar hasta un 60% cargando en horario valle.",
