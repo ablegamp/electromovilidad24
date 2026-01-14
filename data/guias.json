@@ -1,5 +1,15 @@
 [
 {
+  "id": 74,
+  "title": "Lo que 22.700 coches eléctricos revelan sobre sus baterías (y nadie te había contado)",
+  "summary": "El mayor estudio sobre degradación de baterías de coches eléctricos analiza 22.700 vehículos de 21 marcas con datos reales de Geotab. La degradación media es del 2,3% anual, lo que significa que tras 10 años la batería retiene el 77% de capacidad. El factor más determinante es la carga rápida: usar frecuentemente potencias superiores a 100 kW duplica la degradación (3% vs 1,5% anual). Incluye consejos prácticos para maximizar la vida útil, impacto del clima en zonas calurosas de España, y desmonta mitos como que las baterías se degradan como las de los móviles.",
+  "category": "Guías",
+  "image": "imagenes/bateria-estado-solido-chery.png",
+  "link": "articulos/degradacion-baterias-coches-electricos-estudio-2025.html",
+  "date": "2026-01-14",
+  "readTime": "10 min"
+},
+  {
   "id": 73,
   "title": "Este coche eléctrico arrasa en España y nadie puede pararlo: ranking completo 2025",
   "summary": "Ranking oficial de los coches eléctricos más vendidos en España en 2025 basado en datos de ANFAC y AEDIVE. El Tesla Model Y lidera con más de 12.500 matriculaciones, seguido del MG4 Electric y el Tesla Model 3 Highland. Análisis de por qué estos modelos triunfan: precios competitivos, autonomías superiores a 300 km, renting atractivo y ayudas del Plan MOVES. Incluye tabla comparativa técnica del top 10 con autonomía, potencia y precios, y previsiones de modelos que podrían irrumpir en 2026 como el Renault 5 E-Tech, Citroën ë-C3 y BYD Seal U.",
