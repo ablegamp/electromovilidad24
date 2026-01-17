@@ -1,5 +1,16 @@
 [
-{
+
+  {
+  "id": 75,
+  "title": "El cambio en la luz que afectará a todos los coches eléctricos en 2026",
+  "summary": "Análisis completo de la reforma del precio de la electricidad en España y su impacto en el coste de recargar un coche eléctrico en 2026. Desde enero, el PVPC desliga el 55% del precio del mercado mayorista, aportando mayor estabilidad. Las previsiones apuntan a una bajada del 16% en el precio medio (de 66 a 55 €/MWh) gracias al aumento de renovables. El coste por 100 km puede variar entre 1,60€ (hora valle) y 4,16€ (hora punta). Incluye comparativa con otros países europeos, cálculos reales de coste por kilómetro, mejores horarios para cargar y estrategias prácticas para minimizar la factura eléctrica.",
+  "category": "Guías",
+  "image": "https://images.unsplash.com/photo-1413882353314-73389f63b6fd?w=600&auto=format&fit=crop&q=60",
+  "link": "articulos/precio-electricidad-coste-recarga-coche-electrico-2026.html",
+  "date": "2026-01-17",
+  "readTime": "9 min"
+},
+  {
   "id": 74,
   "title": "Lo que 22.700 coches eléctricos revelan sobre sus baterías (y nadie te había contado)",
   "summary": "El mayor estudio sobre degradación de baterías de coches eléctricos analiza 22.700 vehículos de 21 marcas con datos reales de Geotab. La degradación media es del 2,3% anual, lo que significa que tras 10 años la batería retiene el 77% de capacidad. El factor más determinante es la carga rápida: usar frecuentemente potencias superiores a 100 kW duplica la degradación (3% vs 1,5% anual). Incluye consejos prácticos para maximizar la vida útil, impacto del clima en zonas calurosas de España, y desmonta mitos como que las baterías se degradan como las de los móviles.",
