@@ -1,0 +1,581 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- SEO mejorado -->
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
+  <meta name="googlebot" content="index, follow" />
+  <meta name="theme-color" content="#10B981" />
+  <meta name="msapplication-TileColor" content="#10B981" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+  <meta name="format-detection" content="telephone=no" />
+  <title>¿Explotan las baterías de litio en ascensores? Desmontamos el mito viral</title>
+  <meta name="description" content="Fact-checking del mito viral sobre baterías de litio explotando en ascensores por 'campos magnéticos'. Explicamos qué es el thermal runaway, qué pasó realmente en China y por qué la ciencia desmiente esta desinformación." />
+  <link rel="canonical" href="https://www.electromovilidad24.com/articulos/baterias-litio-explotan-ascensor-mito-viral.html" />
+  <!-- Open Graph -->
+  <meta property="og:type" content="article" />
+  <meta property="og:title" content="¿Explotan las baterías de litio en ascensores? Desmontamos el mito viral" />
+  <meta property="og:description" content="Fact-checking del mito viral sobre baterías de litio explotando en ascensores por 'campos magnéticos'. Explicamos qué es el thermal runaway, qué pasó realmente en China y por qué la ciencia desmiente esta desinformación." />
+  <meta property="og:image" content="https://images.unsplash.com/photo-1660594161026-d084068e9787?w=1200&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fGJhdHRlcnklMjBsZnB8ZW58MHwwfDB8fHwy" />
+  <meta property="og:image:alt" content="Celdas de batería de litio de alta capacidad para vehículos eléctricos" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="800" />
+  <meta property="og:locale" content="es_ES" />
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="¿Explotan las baterías de litio en ascensores? Desmontamos el mito viral" />
+  <meta name="twitter:description" content="Fact-checking del mito viral sobre baterías de litio explotando en ascensores por 'campos magnéticos'. Explicamos qué es el thermal runaway, qué pasó realmente en China y por qué la ciencia desmiente esta desinformación." />
+  <meta name="author" content="Movilidad Eléctrica 24" />
+  <link rel="icon" type="image/svg+xml" href="../favicon.svg">
+  <link rel="shortcut icon" href="../favicon.svg">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.0/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <script>
+    tailwind.config = { theme: { extend: { fontFamily: { inter: ['Inter','sans-serif'] }, colors: { 'verde-principal':'#10B981','gris-oscuro':'#1F2937','gris-claro':'#F9FAFB' } } } }
+  </script>
+  <style>
+    body { font-family: 'Inter', sans-serif; }
+    .article-content p { margin: 1rem 0; line-height: 1.75; }
+    .article-content h2 {
+      margin-top: 2rem;
+      margin-bottom: 1rem;
+      font-size: 1.75rem;
+      font-weight: 800;
+      color: #065f46;
+    }
+    .article-content h3 {
+      margin-top: 1.5rem;
+      margin-bottom: 0.75rem;
+      font-size: 1.5rem;
+      font-weight: 700;
+    }
+    .highlight-box {
+      background: linear-gradient(135deg, #ecfdf5 0%, #d1fae5 100%);
+      border-left: 4px solid #10B981;
+      padding: 1.5rem;
+      margin: 1.5rem 0;
+      border-radius: 0.5rem;
+    }
+    .stat-box {
+      background: linear-gradient(135deg, #dbeafe 0%, #bfdbfe 100%);
+      border-left: 4px solid #3b82f6;
+      padding: 1.5rem;
+      margin: 1.5rem 0;
+      border-radius: 0.5rem;
+    }
+    .warning-box {
+      background: linear-gradient(135deg, #fef3c7 0%, #fde68a 100%);
+      border-left: 4px solid #f59e0b;
+      padding: 1.5rem;
+      margin: 1.5rem 0;
+      border-radius: 0.5rem;
+    }
+    .success-box {
+      background: linear-gradient(135deg, #d1fae5 0%, #a7f3d0 100%);
+      border-left: 4px solid #059669;
+      padding: 1.5rem;
+      margin: 1.5rem 0;
+      border-radius: 0.5rem;
+    }
+    .danger-box {
+      background: linear-gradient(135deg, #fee2e2 0%, #fecaca 100%);
+      border-left: 4px solid #dc2626;
+      padding: 1.5rem;
+      margin: 1.5rem 0;
+      border-radius: 0.5rem;
+    }
+  </style>
+  <!-- Datos estructurados JSON-LD -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "¿Explotan las baterías de litio en ascensores? Desmontamos el mito viral",
+    "datePublished": "2025-01-19T09:00:00+01:00",
+    "dateModified": "2025-01-19T09:00:00+01:00",
+    "author": {
+      "@type": "Person",
+      "name": "Movilidad Eléctrica 24"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Movilidad Eléctrica 24",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://www.electromovilidad24.com/imagenes/logo.webp"
+      }
+    },
+    "description": "Fact-checking del mito viral sobre baterías de litio explotando en ascensores por campos magnéticos. Explicamos el thermal runaway y la ciencia real detrás de los incendios de baterías.",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://www.electromovilidad24.com/articulos/baterias-litio-explotan-ascensor-mito-viral.html"
+    },
+    "keywords": ["baterías litio explotan", "mito ascensor batería", "thermal runaway", "seguridad baterías litio", "fact-check batería eléctrica"]
+  }
+  </script>
+  <!-- FAQ Schema JSON-LD -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "¿Puede un ascensor hacer explotar una batería de litio por campos electromagnéticos?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "No, es científicamente imposible. Una batería desconectada no puede generar un campo electromagnético significativo, y las puertas o estructura metálica de un ascensor no pueden convertirlo en una 'batería magnética'. Los verificadores de Maldita.es y expertos en física han desmentido completamente esta teoría viral. Las explosiones de baterías de litio se producen por thermal runaway (embalamiento térmico), causado por defectos, daños físicos, sobrecarga o sobrecalentamiento, nunca por campos magnéticos inventados."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "¿Qué es el thermal runaway o embalamiento térmico en baterías de litio?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "El thermal runaway es un fenómeno en baterías de iones de litio donde una celda se calienta de forma incontrolada, iniciando una reacción en cadena que libera más calor, gases inflamables y puede provocar fuego o explosión. Puede desencadenarse por cortocircuitos internos, daños físicos, sobrecarga eléctrica, defectos de fabricación o temperaturas ambientales extremas. Es un fenómeno bien documentado científicamente y la causa real de los incidentes con baterías de litio, no explicaciones sobrenaturales o pseudocientíficas."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "¿Son comunes las explosiones de baterías de litio?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "No, son estadísticamente muy raras en productos bien diseñados y certificados. Las baterías de calidad incluyen sistemas de gestión térmica (BMS) y protecciones contra sobrecarga, sobrecalentamiento y cortocircuitos. Para que ocurra un incendio o explosión deben combinarse varios factores adversos. Según el British Safety Council, el riesgo existe pero es minimizado con baterías certificadas y uso correcto. Los casos virales suelen implicar baterías de baja calidad, dañadas o mal utilizadas."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "¿Qué pasó realmente en el vídeo viral del ascensor en China?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "El incidente ocurrió en Cantón, China, en octubre de 2021. Un hombre llevó una batería de bicicleta eléctrica que ya mostraba signos de sobrecalentamiento a un ascensor, y la batería explotó dentro. La causa fue un embalamiento térmico (thermal runaway) que ya estaba en progreso antes de entrar al ascensor, no la creación de ningún campo electromagnético ni que el ascensor se convirtiera en una 'batería magnética'. El ascensor fue solo el lugar donde ocurrió, no la causa."
+        }
+      }
+    ]
+  }
+  </script>
+</head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-5PD6Y58MK5"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-5PD6Y58MK5');
+</script>
+<body class="bg-gray-50 text-gray-900">
+  <header class="bg-white shadow-lg sticky top-0 z-50">
+    <div class="container mx-auto px-4 py-4">
+      <div class="flex items-center justify-between">
+        <a href="../index.html" class="flex items-center space-x-3">
+          <div class="bg-white rounded-lg p-1">
+            <img src="../imagenes/logo.webp" alt="Electromovilidad 24" class="h-16 w-auto">
+          </div>
+          <div>
+            <h1 class="text-2xl md:text-3xl font-bold text-gris-oscuro">Electromovilidad 24</h1>
+            <p class="text-sm text-gray-600">Descubre el futuro de la movilidad</p>
+          </div>
+        </a>
+        <button id="mobile-menu-btn" class="md:hidden bg-verde-principal text-white p-2 rounded-lg">
+          <i class="fas fa-bars"></i>
+        </button>
+      </div>
+      <nav class="mt-4">
+        <ul id="nav-menu" class="hidden md:flex space-x-8 text-gris-oscuro font-medium">
+          <li><a href="../index.html" class="hover:text-verde-principal transition-colors duration-200 border-b-2 border-verde-principal pb-1">Inicio</a></li>
+          <li><a href="../comparativas.html" class="hover:text-verde-principal transition-colors duration-200">Comparativas</a></li>
+          <li><a href="../reviews.html" class="hover:text-verde-principal transition-colors duration-200">Reviews</a></li>
+          <li><a href="../guias.html" class="hover:text-verde-principal transition-colors duration-200">Guías</a></li>
+          <li><a href="../calculadoras.html" class="hover:text-verde-principal transition-colors duration-200">Calculadoras</a></li>
+          <li><a href="../sobre.html" class="hover:text-verde-principal transition-colors duration-200">Sobre mí</a></li>
+          <li><a href="../contacto.html" class="hover:text-verde-principal transition-colors duration-200">Contacto</a></li>
+        </ul>
+
+        <!-- Menú móvil -->
+        <ul id="mobile-nav" class="md:hidden hidden flex-col space-y-3 mt-4 bg-gray-50 p-4 rounded-lg">
+            <li><a href="../index.html" class="block text-gris-oscuro hover:text-verde-principal font-medium">Inicio</a></li>
+            <li><a href="../index.html#news-section" class="block text-gris-oscuro hover:text-verde-principal font-medium">Noticias</a></li>
+            <li><a href="../comparativas.html" class="block text-gris-oscuro hover:text-verde-principal font-medium">Comparativas</a></li>
+            <li><a href="../reviews.html" class="block text-gris-oscuro hover:text-verde-principal font-medium">Reviews</a></li>
+            <li><a href="../guias.html" class="block text-gris-oscuro hover:text-verde-principal font-medium">Guías</a></li>
+            <li><a href="../calculadoras.html" class="block text-gris-oscuro hover:text-verde-principal font-medium">Calculadoras</a></li>
+            <li><a href="../sobre.html" class="block text-gris-oscuro hover:text-verde-principal font-medium">Sobre mí</a></li>
+            <li><a href="../contacto.html" class="block text-gris-oscuro hover:text-verde-principal font-medium">Contacto</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="max-w-4xl mx-auto px-4 py-8">
+    <article>
+      <header class="mb-6">
+        <p class="text-sm text-gray-500 flex items-center space-x-2">
+          <i class="fas fa-calendar-alt"></i>
+          <time datetime="2025-01-19">19 de enero de 2025</time>
+          <span class="mx-2">•</span>
+          <span class="bg-red-500 text-white px-2 py-0.5 rounded text-xs">Fact-Check</span>
+          <span class="mx-2">•</span>
+          <span>Lectura: 9 min</span>
+        </p>
+        <h1 class="text-3xl md:text-4xl font-extrabold leading-tight mt-2">¿Explotan las baterías de litio en ascensores? Desmontamos el mito viral</h1>
+        <p class="mt-3 text-lg text-gray-700">Circula por redes sociales un vídeo impactante de una batería explotando en un ascensor, acompañado de explicaciones pseudocientíficas sobre "campos magnéticos" y "baterías magnéticas". <strong>La explosión fue real, pero la explicación es completamente falsa</strong>. Te cuento qué pasó realmente y por qué la ciencia desmiente este mito viral.</p>
+      </header>
+
+      <!-- Breadcrumbs visibles -->
+      <nav aria-label="breadcrumbs" class="text-sm text-gray-600 mb-4">
+        <ol class="flex flex-wrap items-center gap-2">
+          <li><a href="../index.html" class="text-emerald-700 hover:underline">Inicio</a></li>
+          <li>/</li>
+          <li><a href="../guias.html" class="text-emerald-700 hover:underline">Guías</a></li>
+          <li>/</li>
+          <li aria-current="page" class="text-gray-800">Mito viral baterías ascensor</li>
+        </ol>
+      </nav>
+
+      <!-- Índice del contenido -->
+      <nav class="bg-emerald-50 border border-emerald-100 rounded-lg p-4 mb-6 text-sm">
+        <p class="font-semibold text-emerald-800 mb-2">Contenido</p>
+        <ol class="list-decimal ml-5 space-y-1 text-emerald-900">
+          <li><a class="hover:underline" href="#mito">El mito viral que circula por redes</a></li>
+          <li><a class="hover:underline" href="#verdad">Qué pasó realmente: el caso de Cantón</a></li>
+          <li><a class="hover:underline" href="#thermal">Qué es el thermal runaway</a></li>
+          <li><a class="hover:underline" href="#fisica">Por qué la física desmiente el mito</a></li>
+          <li><a class="hover:underline" href="#causas">Causas reales de explosiones en baterías</a></li>
+          <li><a class="hover:underline" href="#frecuencia">¿Son comunes estos accidentes?</a></li>
+          <li><a class="hover:underline" href="#seguridad">Consejos de seguridad para baterías de litio</a></li>
+          <li><a class="hover:underline" href="#faq">Preguntas frecuentes</a></li>
+        </ol>
+      </nav>
+
+      <!-- Hero Image -->
+      <div class="mb-8 rounded-lg overflow-hidden shadow-xl">
+        <img 
+          src="https://images.unsplash.com/photo-1660594161026-d084068e9787?w=1200&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fGJhdHRlcnklMjBsZnB8ZW58MHwwfDB8fHwy" 
+          alt="Celdas de batería de litio LFP de alta capacidad utilizadas en vehículos eléctricos y sistemas de almacenamiento" 
+          class="w-full h-auto"
+          loading="lazy"
+        >
+        <p class="text-sm text-gray-500 p-2 bg-gray-50 text-center">Las baterías de litio modernas incluyen múltiples sistemas de seguridad que minimizan el riesgo de incidentes</p>
+      </div>
+
+      <div class="article-content">
+        <p>Si usas redes sociales, probablemente hayas visto circular un vídeo bastante impactante: una persona entra en un ascensor con una batería y, segundos después, se produce una explosión espectacular con llamas y humo. El vídeo suele ir acompañado de explicaciones que afirman que el ascensor se convirtió en una "batería magnética" o que las puertas metálicas generaron un "campo electromagnético" que provocó la explosión.</p>
+
+        <p>Como periodista especializado en movilidad eléctrica, me tomo muy en serio la desinformación que rodea a las baterías de litio. Por un lado, porque genera miedo injustificado hacia tecnologías seguras y bien desarrolladas. Por otro, porque desvía la atención de los riesgos reales y cómo prevenirlos. Así que vamos a analizar este caso con datos verificados y fuentes científicas.</p>
+
+        <h2 id="mito">El mito viral que circula por redes</h2>
+
+        <p>El mensaje viral que acompaña al vídeo suele decir algo parecido a esto: <em>"Cuidado con las baterías de litio en ascensores. Al cerrarse las puertas metálicas, el espacio se convierte en una batería magnética/campo electromagnético que hace explotar la batería"</em>.</p>
+
+        <p>Variantes del mensaje hablan de "jaula de Faraday", "inducción electromagnética" o "acumulación de energía magnética" en el habitáculo cerrado del ascensor. <strong>Todas estas explicaciones son científicamente falsas</strong>.</p>
+
+        <div class="danger-box">
+          <p class="font-semibold mb-2">❌ FALSO: Lo que dice el mito viral</p>
+          <ul class="space-y-2">
+            <li>• Que el ascensor se convierte en una "batería magnética"</li>
+            <li>• Que las puertas metálicas generan un campo electromagnético peligroso</li>
+            <li>• Que el espacio cerrado acumula energía que hace explotar la batería</li>
+            <li>• Que cualquier batería de litio puede explotar al entrar en un ascensor</li>
+          </ul>
+          <p class="mt-3 text-sm">Fuente: <a href="https://maldita.es/malditobulo/20240731/bateria-litio-explota-ascensor-magnetico/" class="underline" target="_blank" rel="noopener">Maldita.es - Verificación de bulos</a></p>
+        </div>
+
+        <h2 id="verdad">Qué pasó realmente: el caso de Cantón, China</h2>
+
+        <p>El vídeo que se ha viralizado corresponde a un accidente real ocurrido en <strong>Cantón (Guangzhou), China, en octubre de 2021</strong>. Un hombre entró en un ascensor llevando una batería de bicicleta eléctrica que <strong>ya presentaba signos evidentes de sobrecalentamiento</strong> antes de entrar.</p>
+
+        <p>La batería explotó dentro del ascensor, causando un incendio grave. El hombre sufrió quemaduras severas. Fue un accidente trágico y real, pero <strong>la causa no tuvo absolutamente nada que ver con campos electromagnéticos ni con que el ascensor fuera un espacio cerrado metálico</strong>.</p>
+
+        <div class="highlight-box">
+          <p class="font-semibold mb-2">✅ VERDAD: Lo que realmente ocurrió</p>
+          <p>La batería ya estaba experimentando un proceso llamado <strong>thermal runaway</strong> (embalamiento térmico) antes de que el hombre entrara al ascensor. Este fenómeno, una vez iniciado, es prácticamente imposible de detener y puede provocar fuego o explosión en cuestión de segundos o minutos.</p>
+          <p class="mt-2">El ascensor fue simplemente el lugar donde la batería explotó, no la causa de la explosión.</p>
+        </div>
+
+        <h2 id="thermal">Qué es el thermal runaway (embalamiento térmico)</h2>
+
+        <p>El <strong>thermal runaway</strong> o embalamiento térmico es un fenómeno bien documentado en la literatura científica sobre baterías de iones de litio. Según la documentación técnica disponible en <a href="https://en.wikipedia.org/wiki/Lithium-ion_battery" class="text-emerald-700 hover:underline" target="_blank" rel="noopener">Wikipedia</a> y estudios publicados en <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC10464770/" class="text-emerald-700 hover:underline" target="_blank" rel="noopener">PubMed/NIH</a>, se produce de la siguiente manera:</p>
+
+        <p><strong>Definición técnica:</strong> Es un proceso en el que una celda de la batería se calienta de forma incontrolada, lo que genera más calor, que a su vez acelera las reacciones químicas internas, liberando aún más calor en una reacción en cadena que puede acabar en fuego o explosión.</p>
+
+        <p><strong>Fases del proceso:</strong></p>
+
+        <ul class="list-disc ml-6 my-4 space-y-2">
+          <li><strong>Inicio:</strong> Algo provoca un aumento de temperatura anormal (cortocircuito, daño físico, sobrecarga...)</li>
+          <li><strong>Descomposición del SEI:</strong> La capa protectora interna de la celda empieza a degradarse a partir de ~80-120°C</li>
+          <li><strong>Reacciones exotérmicas:</strong> Se producen reacciones químicas que liberan calor y gases inflamables</li>
+          <li><strong>Separador comprometido:</strong> El separador entre ánodo y cátodo se derrite, provocando cortocircuito interno</li>
+          <li><strong>Fuga térmica total:</strong> La temperatura puede superar los 600-1000°C, provocando fuego o explosión</li>
+        </ul>
+
+        <div class="stat-box">
+          <p class="font-semibold mb-2">🔬 Datos científicos sobre thermal runaway</p>
+          <ul class="space-y-2">
+            <li><strong>Temperatura crítica:</strong> El proceso suele iniciarse cuando las celdas superan los 60-80°C de forma sostenida</li>
+            <li><strong>Velocidad:</strong> Una vez iniciado, puede progresar a explosión en segundos o minutos</li>
+            <li><strong>Gases liberados:</strong> Se emiten gases tóxicos e inflamables como monóxido de carbono, fluoruro de hidrógeno y vapores de electrolito</li>
+            <li><strong>Propagación:</strong> En packs de múltiples celdas, una celda en thermal runaway puede desencadenar el proceso en celdas adyacentes</li>
+          </ul>
+          <p class="mt-3 text-sm">Fuentes: <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC10464770/" class="underline" target="_blank" rel="noopener">NIH/PubMed</a>, <a href="https://www.britsafe.org/safety-management/2024/lithium-ion-batteries-a-growing-fire-risk" class="underline" target="_blank" rel="noopener">British Safety Council</a></p>
+        </div>
+
+        <h2 id="fisica">Por qué la física desmiente el mito del "ascensor magnético"</h2>
+
+        <p>Vamos a analizar por qué las explicaciones pseudocientíficas del mito viral no tienen ningún fundamento. Los verificadores de <a href="https://maldita.es/malditobulo/20240731/bateria-litio-explota-ascensor-magnetico/" class="text-emerald-700 hover:underline" target="_blank" rel="noopener">Maldita.es</a> consultaron con expertos en física y electromagnetismo para desmontar estas afirmaciones:</p>
+
+        <p><strong>1. Una batería desconectada no genera campos electromagnéticos significativos</strong></p>
+
+        <p>Los campos electromagnéticos se generan cuando hay flujo de corriente eléctrica. Una batería que no está conectada a nada (como la que llevaba el hombre en el vídeo) no tiene corriente circulando, por lo que no puede generar ningún campo electromagnético apreciable. Lo que tiene es energía química almacenada, pero eso es completamente diferente.</p>
+
+        <p><strong>2. Un ascensor no puede convertirse en una "batería magnética"</strong></p>
+
+        <p>El concepto de "batería magnética" no existe en física. Una batería almacena energía química, no magnética. La estructura metálica de un ascensor puede actuar como jaula de Faraday (bloqueando señales electromagnéticas externas), pero eso no tiene nada que ver con hacer explotar una batería. De hecho, una jaula de Faraday protege de campos externos, no los genera.</p>
+
+        <p><strong>3. Las puertas metálicas no generan campos peligrosos</strong></p>
+
+        <p>Para que se generara un campo electromagnético capaz de afectar a una batería, necesitarías corrientes eléctricas intensas o imanes extremadamente potentes. Las puertas de un ascensor convencional no tienen nada de eso. Sus motores eléctricos generan campos muy localizados y de baja intensidad que no afectan a objetos a centímetros de distancia.</p>
+
+        <div class="warning-box">
+          <p class="font-semibold mb-2">⚠️ Por qué el mito es peligroso</p>
+          <p>Difundir explicaciones falsas sobre por qué explotan las baterías desvía la atención de las causas reales y los comportamientos de riesgo genuinos. Si la gente cree que el peligro está en los ascensores, no prestará atención a lo que realmente importa: no usar baterías dañadas, no sobrecargarlas, no exponerlas a calor extremo, y comprar productos certificados.</p>
+        </div>
+
+        <h2 id="causas">Causas reales de explosiones en baterías de litio</h2>
+
+        <p>Aunque el mito del ascensor es falso, es cierto que las baterías de litio pueden, en circunstancias específicas, incendiarse o explotar. Según el <a href="https://www.britsafe.org/safety-management/2025/the-hidden-risks-of-lithium-ion-batteries" class="text-emerald-700 hover:underline" target="_blank" rel="noopener">British Safety Council</a>, las causas documentadas son las siguientes:</p>
+
+        <p><strong>Cortocircuitos internos</strong></p>
+        <p>Pueden ocurrir por defectos de fabricación, donde partículas metálicas microscópicas perforan el separador interno de la celda, o por degradación con el tiempo. Esto crea un camino para que la corriente fluya de forma incontrolada, generando calor intenso.</p>
+
+        <p><strong>Daños físicos</strong></p>
+        <p>Golpes, aplastamientos, perforaciones o incluso doblar una batería flexible puede dañar la estructura interna y provocar cortocircuitos. Por eso es importante no usar baterías que han sufrido caídas o impactos fuertes.</p>
+
+        <p><strong>Sobrecarga eléctrica</strong></p>
+        <p>Cargar una batería más allá de su voltaje máximo diseñado puede desestabilizar la química interna. Esto ocurre cuando se usan cargadores no originales o de baja calidad que no respetan los límites de la batería.</p>
+
+        <p><strong>Sobrecalentamiento externo</strong></p>
+        <p>Exponer la batería a temperaturas muy altas (dejándola al sol en verano dentro de un coche, por ejemplo) puede iniciar el proceso de degradación térmica incluso sin que haya ningún fallo interno.</p>
+
+        <p><strong>Baterías de baja calidad</strong></p>
+        <p>Las baterías sin certificación de seguridad, especialmente las de fabricantes desconocidos o las falsificaciones, a menudo carecen de sistemas de gestión térmica (BMS) adecuados y tienen componentes de inferior calidad que fallan con más facilidad.</p>
+
+        <div class="success-box">
+          <p class="font-semibold mb-2">✅ Lo que SÍ puede causar problemas (científicamente verificado)</p>
+          <ul class="space-y-2">
+            <li>✔ Usar baterías dañadas físicamente o con signos de hinchazón</li>
+            <li>✔ Usar cargadores no originales o de mala calidad</li>
+            <li>✔ Dejar baterías cargando sin supervisión durante muchas horas</li>
+            <li>✔ Exponer baterías a temperaturas extremas (>45°C o <-20°C)</li>
+            <li>✔ Comprar baterías de fabricantes desconocidos sin certificación</li>
+            <li>✔ Modificar o manipular baterías de forma casera</li>
+          </ul>
+        </div>
+
+        <h2 id="frecuencia">¿Son comunes estos accidentes?</h2>
+
+        <p>Aquí viene la buena noticia: <strong>no, los incendios y explosiones de baterías de litio son estadísticamente muy raros</strong>, especialmente en productos bien diseñados y certificados.</p>
+
+        <p>Según datos del <a href="https://www.britsafe.org/safety-management/2025/the-hidden-risks-of-lithium-ion-batteries" class="text-emerald-700 hover:underline" target="_blank" rel="noopener">British Safety Council</a>, las baterías de litio de calidad incluyen múltiples sistemas de protección:</p>
+
+        <ul class="list-disc ml-6 my-4 space-y-2">
+          <li><strong>BMS (Battery Management System):</strong> Monitoriza cada celda y corta la carga/descarga si detecta anomalías</li>
+          <li><strong>Protección contra sobrecarga:</strong> Circuitos que impiden cargar más allá del límite seguro</li>
+          <li><strong>Protección contra sobrecalentamiento:</strong> Sensores que desconectan si la temperatura sube demasiado</li>
+          <li><strong>Fusibles y válvulas de seguridad:</strong> Que se activan para prevenir daños mayores</li>
+          <li><strong>Materiales retardantes de llama:</strong> En las carcasas y separadores de celdas modernas</li>
+        </ul>
+
+        <p>Para que ocurra un incidente grave, normalmente tienen que fallar varios de estos sistemas simultáneamente o, como en el caso del vídeo viral, tratarse de una batería ya comprometida que se usó a pesar de mostrar señales de problemas.</p>
+
+        <p>En el contexto de coches eléctricos, las estadísticas son claras: según datos de múltiples estudios, <strong>los vehículos de combustión se incendian con mucha más frecuencia por kilómetro recorrido que los vehículos eléctricos</strong>. Las baterías de automoción están sometidas a estándares de seguridad extremadamente rigurosos.</p>
+
+        <h2 id="seguridad">Consejos de seguridad para baterías de litio</h2>
+
+        <p>Aunque el riesgo es bajo con productos de calidad, aquí van algunas recomendaciones basadas en las mejores prácticas de seguridad:</p>
+
+        <p><strong>Compra y uso responsable:</strong></p>
+
+        <ul class="list-disc ml-6 my-4 space-y-2">
+          <li>Compra baterías y cargadores de fabricantes reconocidos con certificación CE/UL</li>
+          <li>No uses baterías que muestren hinchazón, deformación o daños visibles</li>
+          <li>Si una batería se calienta excesivamente durante la carga, desconéctala y no la uses</li>
+          <li>Usa siempre el cargador original o uno compatible certificado por el fabricante</li>
+          <li>No dejes baterías cargando sin supervisión durante largos periodos</li>
+        </ul>
+
+        <p><strong>Almacenamiento correcto:</strong></p>
+
+        <ul class="list-disc ml-6 my-4 space-y-2">
+          <li>Almacena las baterías en lugares frescos y secos (15-25°C es ideal)</li>
+          <li>No las dejes en coches al sol ni cerca de fuentes de calor</li>
+          <li>Si no vas a usar una batería durante tiempo, guárdala al 40-60% de carga</li>
+          <li>Mantén las baterías alejadas de materiales inflamables</li>
+        </ul>
+
+        <p><strong>Señales de alarma:</strong></p>
+
+        <div class="warning-box">
+          <p class="font-semibold mb-2">🚨 Deja de usar inmediatamente una batería si:</p>
+          <ul class="space-y-2">
+            <li>• Está hinchada o deformada</li>
+            <li>• Emite olores extraños (químicos, quemado)</li>
+            <li>• Se calienta anormalmente durante el uso o la carga</li>
+            <li>• Ha sufrido un golpe fuerte o se ha mojado</li>
+            <li>• Muestra signos de corrosión o fugas de líquido</li>
+          </ul>
+          <p class="mt-3">En caso de detectar estas señales, coloca la batería en un lugar seguro alejado de materiales inflamables y llévala a un punto de reciclaje de baterías.</p>
+        </div>
+
+        <h2 id="faq">Preguntas frecuentes sobre baterías de litio y seguridad</h2>
+
+        <div class="faq-section bg-gray-50 rounded-lg p-6 my-8">
+          <h3 class="text-2xl font-bold text-gris-oscuro mb-6 flex items-center">
+            <i class="fas fa-question-circle text-verde-principal mr-3"></i>
+            FAQ – Seguridad de baterías de litio
+          </h3>
+
+          <div class="space-y-6">
+            <div class="faq-item border-b border-gray-200 pb-4">
+              <h4 class="text-lg font-semibold text-gris-oscuro mb-2">
+                🔹 ¿Puede un ascensor hacer explotar una batería de litio?
+              </h4>
+              <p class="text-gray-700">
+                No, es científicamente imposible. Una batería desconectada no puede generar un campo electromagnético significativo, y las puertas o estructura metálica de un ascensor no pueden convertirlo en una "batería magnética" ni generar campos peligrosos. Los verificadores de Maldita.es y expertos en física han desmentido completamente esta teoría viral. Las explosiones de baterías de litio se producen por thermal runaway (embalamiento térmico), causado por defectos, daños físicos, sobrecarga o sobrecalentamiento, nunca por campos magnéticos inventados. El caso viral de China ocurrió porque la batería ya estaba sobrecalentándose antes de entrar al ascensor.
+              </p>
+            </div>
+
+            <div class="faq-item border-b border-gray-200 pb-4">
+              <h4 class="text-lg font-semibold text-gris-oscuro mb-2">
+                🔹 ¿Qué es el thermal runaway y por qué es peligroso?
+              </h4>
+              <p class="text-gray-700">
+                El thermal runaway o embalamiento térmico es un fenómeno en baterías de iones de litio donde una celda se calienta de forma incontrolada, iniciando una reacción en cadena que libera más calor, gases inflamables y puede provocar fuego o explosión. Puede desencadenarse por cortocircuitos internos, daños físicos a la batería, sobrecarga eléctrica con cargadores inadecuados, defectos de fabricación o exposición a temperaturas ambientales extremas. Es un fenómeno bien documentado científicamente y la causa real de los incidentes con baterías de litio. La buena noticia es que las baterías de calidad incluyen sistemas de gestión térmica (BMS) que detectan y previenen este proceso.
+              </p>
+            </div>
+
+            <div class="faq-item border-b border-gray-200 pb-4">
+              <h4 class="text-lg font-semibold text-gris-oscuro mb-2">
+                🔹 ¿Son seguras las baterías de los coches eléctricos?
+              </h4>
+              <p class="text-gray-700">
+                Sí, las baterías de los coches eléctricos modernos son extremadamente seguras. Están diseñadas con múltiples capas de protección: sistemas de gestión térmica activos que mantienen las celdas en temperatura óptima, estructuras reforzadas que las protegen en caso de colisión, sensores que detectan anomalías, y cortes automáticos de emergencia. Estadísticamente, los vehículos de combustión se incendian con mucha más frecuencia que los eléctricos. Las normativas de homologación exigen pruebas muy rigurosas de seguridad antes de permitir la venta de cualquier vehículo eléctrico. Los casos de incendios en coches eléctricos, aunque mediáticos, son extraordinariamente raros.
+              </p>
+            </div>
+
+            <div class="faq-item">
+              <h4 class="text-lg font-semibold text-gris-oscuro mb-2">
+                🔹 ¿Qué hago si mi batería muestra signos de problema?
+              </h4>
+              <p class="text-gray-700">
+                Si detectas signos de problema (hinchazón, calor excesivo, olores químicos, deformación o fugas), deja de usar la batería inmediatamente. No intentes cargarla ni manipularla. Colócala en un lugar seguro alejado de materiales inflamables y de preferencia en un recipiente metálico o sobre una superficie no combustible. No la tires a la basura normal: llévala a un punto de recogida de residuos electrónicos o baterías. Si la batería está humeando o muy caliente, aléjate y llama a los servicios de emergencia. Nunca intentes apagar un fuego de batería de litio con agua, usa un extintor de CO2 o arena.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <h3>Conclusión: información veraz frente a desinformación viral</h3>
+
+        <p>El mito del ascensor que hace explotar baterías es un ejemplo perfecto de cómo la desinformación puede propagarse más rápido que la verdad. Un vídeo real de un accidente trágico, combinado con una explicación pseudocientífica inventada, genera miedo injustificado y desvía la atención de lo que realmente importa.</p>
+
+        <p><strong>Los hechos son claros:</strong></p>
+
+        <ul class="list-disc ml-6 my-4 space-y-2">
+          <li>La explosión en el vídeo fue real, pero ocurrió por thermal runaway, no por campos magnéticos</li>
+          <li>La batería ya estaba sobrecalentándose antes de entrar al ascensor</li>
+          <li>Un ascensor no puede generar campos electromagnéticos que afecten a baterías</li>
+          <li>Las baterías de litio de calidad son seguras cuando se usan correctamente</li>
+          <li>Los incidentes son raros y casi siempre implican baterías dañadas, de mala calidad o mal uso</li>
+        </ul>
+
+        <p>Mi recomendación: si ves este tipo de contenido viral en redes sociales, antes de compartirlo consulta fuentes de verificación como <a href="https://maldita.es" class="text-emerald-700 hover:underline" target="_blank" rel="noopener">Maldita.es</a>, <a href="https://www.newtral.es" class="text-emerald-700 hover:underline" target="_blank" rel="noopener">Newtral</a> o <a href="https://www.efe.com/verificaEFE" class="text-emerald-700 hover:underline" target="_blank" rel="noopener">EFE Verifica</a>. La desinformación sobre tecnología eléctrica perjudica la transición hacia una movilidad más limpia y segura.</p>
+
+        <p>Las baterías de litio han revolucionado nuestra vida cotidiana y la movilidad eléctrica. Como con cualquier tecnología, merecen respeto y uso responsable, pero no miedo basado en mitos sin fundamento científico.</p>
+      </div>
+
+      <!-- Fuentes del artículo -->
+      <div class="mt-10 pt-6 border-t">
+        <h3 class="text-xl font-bold mb-4">Fuentes consultadas</h3>
+        <ul class="list-disc ml-5 text-gray-700 space-y-2 text-sm">
+          <li><a href="https://maldita.es/malditobulo/20240731/bateria-litio-explota-ascensor-magnetico/" class="text-emerald-700 hover:underline" target="_blank" rel="noopener">Maldita.es - Verificación del bulo sobre batería y ascensor</a></li>
+          <li><a href="https://en.wikipedia.org/wiki/Lithium-ion_battery" class="text-emerald-700 hover:underline" target="_blank" rel="noopener">Wikipedia - Lithium-ion battery (thermal runaway)</a></li>
+          <li><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC10464770/" class="text-emerald-700 hover:underline" target="_blank" rel="noopener">PubMed/NIH - Safety risks of lithium-ion batteries</a></li>
+          <li><a href="https://www.britsafe.org/safety-management/2025/the-hidden-risks-of-lithium-ion-batteries" class="text-emerald-700 hover:underline" target="_blank" rel="noopener">British Safety Council - Hidden risks of lithium-ion batteries</a></li>
+          <li><a href="https://www.britsafe.org/safety-management/2024/lithium-ion-batteries-a-growing-fire-risk" class="text-emerald-700 hover:underline" target="_blank" rel="noopener">British Safety Council - Lithium-ion batteries fire risk</a></li>
+        </ul>
+      </div>
+
+      <footer class="mt-10 pt-6 border-t text-sm text-gray-600">
+        <p>¿Tienes dudas sobre la seguridad de las baterías de tu coche eléctrico o patinete? ¿Quieres saber cómo identificar baterías de calidad certificada? ¿Necesitas información sobre cómo almacenar o mantener correctamente tus baterías de litio? Contacta conmigo y te ayudaré a resolver tus dudas con información verificada.</p>
+      </footer>
+
+      <!-- Artículos relacionados -->
+      <aside class="mt-12">
+        <h2 class="text-2xl font-bold mb-4">Artículos relacionados</h2>
+        <ul class="list-disc ml-5 text-emerald-800 space-y-2">
+          <li><a class="hover:underline" href="ahorrar-electricidad-cargando-coche-electrico.html">Cómo ahorrar en electricidad cargando tu coche eléctrico</a></li>
+          <li><a class="hover:underline" href="ventajas-fiscales-coche-electrico-espana-2025.html">Ventajas fiscales del coche eléctrico en España 2025</a></li>
+          <li><a class="hover:underline" href="coches-electricos-baratos-espana-2025.html">Coches eléctricos baratos en España 2025</a></li>
+          <li><a class="hover:underline" href="../guias.html">Todas las guías sobre coches eléctricos</a></li>
+        </ul>
+      </aside>
+
+      <!-- Sobre el autor -->
+      <section class="mt-12 bg-emerald-50 border border-emerald-100 rounded-xl p-6">
+        <h2 class="text-2xl font-bold mb-2">Sobre el autor</h2>
+        <p class="text-gray-700">Apasionado de la movilidad eléctrica con más de 50.000 km de experiencia en viajes por carretera. Comparto lo aprendido para que tu transición a la electrificación sea más sencilla y disfrutes cada kilómetro, sin sorpresas.</p>
+      </section>
+      <script async="async" data-cfasync="false" src="//pl28052676.effectivegatecpm.com/2f2bf98ebb38fc325879c099d716122f/invoke.js"></script>
+  <div id="container-2f2bf98ebb38fc325879c099d716122f"></div>
+    </article>
+  </main>
+
+  <footer class="bg-gris-oscuro text-white py-12 mt-16">
+    <div class="container mx-auto px-4">
+    <div class="flex flex-col md:flex-row gap-8">
+      <div class="flex-1">
+        <div class="flex items-start space-x-3 mb-2">
+          <div class="bg-white rounded-lg p-1">
+            <img src="../imagenes/logo.webp" alt="Electromovilidad 24" class="h-16 w-auto">
+          </div>
+          <div>
+            <h3 class="text-xl font-bold">Electromovilidad 24</h3>
+            <p class="text-gray-300">Tu fuente confiable de información sobre movilidad eléctrica.</p>
+          </div>
+        </div>
+      </div>
+      <div class="flex-1">
+        <h4 class="text-lg font-semibold mb-2">Enlaces Útiles</h4>
+        <div class="flex flex-wrap gap-4">
+          <a href="../index.html" class="text-gray-300 hover:text-verde-principal transition-colors">Inicio</a>
+          <a href="../index.html#news-section" class="text-gray-300 hover:text-verde-principal transition-colors">Noticias</a>
+          <a href="../comparativas.html" class="text-gray-300 hover:text-verde-principal transition-colors">Comparativas</a>
+          <a href="../reviews.html" class="text-gray-300 hover:text-verde-principal transition-colors">Reviews</a>
+          <a href="../guias.html" class="text-gray-300 hover:text-verde-principal transition-colors">Guías</a>
+          <a href="../calculadoras.html" class="text-gray-300 hover:text-verde-principal transition-colors">Calculadoras</a>
+          <a href="../sobre.html" class="text-gray-300 hover:text-verde-principal transition-colors">Sobre mí</a>
+        </div>
+      </div>
+    </div>
+
+      <div class="border-t border-gray-700 mt-8 pt-8 text-center">
+        <p class="text-gray-400">
+          2025 Electromovilidad 24 - Siguiendo la revolución eléctrica en tiempo real
+        </p>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    // Menú móvil
+    document.getElementById('mobile-menu-btn').addEventListener('click', function() {
+      const menu = document.getElementById('mobile-nav');
+      menu.classList.toggle('hidden');
+    });
+  </script>
+  <script type='text/javascript' src='//pl28052810.effectivegatecpm.com/87/85/ba/8785baa66295effbd2aec6714ef57340.js'></script>
+</body>
+</html>
