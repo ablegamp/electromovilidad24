@@ -1,0 +1,594 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- SEO mejorado -->
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
+  <meta name="googlebot" content="index, follow" />
+  <meta name="theme-color" content="#10B981" />
+  <meta name="msapplication-TileColor" content="#10B981" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+  <meta name="format-detection" content="telephone=no" />
+  <title>Híbrido enchufable sin cargar: ¿contamina igual que un diésel? La verdad con datos</title>
+  <meta name="description" content="Análisis con datos reales sobre el consumo y emisiones de los híbridos enchufables (PHEV) cuando no se cargan. Estudios demuestran que sin recarga, emiten hasta 5 veces más CO₂ que las cifras oficiales, igualando a un diésel." />
+  <link rel="canonical" href="https://www.electromovilidad24.com/articulos/hibrido-enchufable-sin-cargar-consumo-emisiones.html" />
+  <!-- Open Graph -->
+  <meta property="og:type" content="article" />
+  <meta property="og:title" content="Híbrido enchufable sin cargar: ¿contamina igual que un diésel? La verdad con datos" />
+  <meta property="og:description" content="Análisis con datos reales sobre el consumo y emisiones de los híbridos enchufables (PHEV) cuando no se cargan. Estudios demuestran que sin recarga, emiten hasta 5 veces más CO₂ que las cifras oficiales, igualando a un diésel." />
+  <meta property="og:image" content="https://images.unsplash.com/photo-1617886322009-e02db73a70ee?w=1200&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8Y29jaGUlMjBlbCVDMyVBOWN0cmljbyUyMGNhcmdhbmRvfGVufDB8MHwwfHx8Mg%3D%3D" />
+  <meta property="og:image:alt" content="Coche eléctrico enchufable cargando en un punto de recarga doméstico" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="800" />
+  <meta property="og:locale" content="es_ES" />
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Híbrido enchufable sin cargar: ¿contamina igual que un diésel? La verdad con datos" />
+  <meta name="twitter:description" content="Análisis con datos reales sobre el consumo y emisiones de los híbridos enchufables (PHEV) cuando no se cargan. Estudios demuestran que sin recarga, emiten hasta 5 veces más CO₂ que las cifras oficiales, igualando a un diésel." />
+  <meta name="author" content="Movilidad Eléctrica 24" />
+  <link rel="icon" type="image/svg+xml" href="../favicon.svg">
+  <link rel="shortcut icon" href="../favicon.svg">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.0/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <script>
+    tailwind.config = { theme: { extend: { fontFamily: { inter: ['Inter','sans-serif'] }, colors: { 'verde-principal':'#10B981','gris-oscuro':'#1F2937','gris-claro':'#F9FAFB' } } } }
+  </script>
+  <style>
+    body { font-family: 'Inter', sans-serif; }
+    .article-content p { margin: 1rem 0; line-height: 1.75; }
+    .article-content h2 {
+      margin-top: 2rem;
+      margin-bottom: 1rem;
+      font-size: 1.75rem;
+      font-weight: 800;
+      color: #065f46;
+    }
+    .article-content h3 {
+      margin-top: 1.5rem;
+      margin-bottom: 0.75rem;
+      font-size: 1.5rem;
+      font-weight: 700;
+    }
+    .highlight-box {
+      background: linear-gradient(135deg, #ecfdf5 0%, #d1fae5 100%);
+      border-left: 4px solid #10B981;
+      padding: 1.5rem;
+      margin: 1.5rem 0;
+      border-radius: 0.5rem;
+    }
+    .stat-box {
+      background: linear-gradient(135deg, #dbeafe 0%, #bfdbfe 100%);
+      border-left: 4px solid #3b82f6;
+      padding: 1.5rem;
+      margin: 1.5rem 0;
+      border-radius: 0.5rem;
+    }
+    .warning-box {
+      background: linear-gradient(135deg, #fef3c7 0%, #fde68a 100%);
+      border-left: 4px solid #f59e0b;
+      padding: 1.5rem;
+      margin: 1.5rem 0;
+      border-radius: 0.5rem;
+    }
+    .success-box {
+      background: linear-gradient(135deg, #d1fae5 0%, #a7f3d0 100%);
+      border-left: 4px solid #059669;
+      padding: 1.5rem;
+      margin: 1.5rem 0;
+      border-radius: 0.5rem;
+    }
+    .danger-box {
+      background: linear-gradient(135deg, #fee2e2 0%, #fecaca 100%);
+      border-left: 4px solid #dc2626;
+      padding: 1.5rem;
+      margin: 1.5rem 0;
+      border-radius: 0.5rem;
+    }
+  </style>
+  <!-- Datos estructurados JSON-LD -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Híbrido enchufable sin cargar: ¿contamina igual que un diésel? La verdad con datos",
+    "datePublished": "2025-01-19T10:00:00+01:00",
+    "dateModified": "2025-01-19T10:00:00+01:00",
+    "author": {
+      "@type": "Person",
+      "name": "Movilidad Eléctrica 24"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Movilidad Eléctrica 24",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://www.electromovilidad24.com/imagenes/logo.webp"
+      }
+    },
+    "description": "Análisis con datos reales sobre el consumo y emisiones de los híbridos enchufables (PHEV) cuando no se cargan regularmente. Estudios de Transport & Environment demuestran que sin recarga emiten hasta 5 veces más CO₂.",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://www.electromovilidad24.com/articulos/hibrido-enchufable-sin-cargar-consumo-emisiones.html"
+    },
+    "keywords": ["PHEV sin cargar", "híbrido enchufable emisiones", "consumo real PHEV", "PHEV vs diésel", "utility factor PHEV"]
+  }
+  </script>
+  <!-- FAQ Schema JSON-LD -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "¿Cuánto contamina un híbrido enchufable si no lo cargo?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Según estudios de Transport & Environment realizados con la Technical University of Graz, los PHEV que no se cargan regularmente emiten entre 5 y 7 veces más CO₂ que las cifras oficiales de homologación. En pruebas reales, modelos de BMW y Peugeot alcanzaron aproximadamente 200 g/km de CO₂ con la batería descargada, valores comparables o incluso superiores a coches diésel modernos. El problema es que el vehículo funciona como un coche de combustión pero con el peso extra de la batería y el sistema eléctrico."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "¿Qué es el 'utility factor' o factor de utilidad en un PHEV?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "El utility factor o factor de utilidad es la proporción de kilómetros que un PHEV recorre realmente en modo eléctrico frente al total. Los tests de homologación WLTP asumen factores de utilidad del 70-85%, pero estudios con más de 800.000 vehículos PHEV en Europa encontraron que el factor real está entre el 27-30%. Esto significa que los conductores usan mucho menos el modo eléctrico de lo que asumen las pruebas oficiales, principalmente porque no cargan la batería con regularidad."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "¿Por qué un PHEV sin cargar consume más que un coche normal?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Un híbrido enchufable sin cargar puede consumir igual o incluso más combustible que un coche de gasolina o diésel equivalente debido al peso extra. Los PHEV llevan una batería grande (normalmente 10-20 kWh), uno o dos motores eléctricos, y toda la electrónica de gestión, lo que añade entre 200-400 kg al peso del vehículo. Si ese peso extra no se compensa con el uso del modo eléctrico, el motor de combustión tiene que mover más masa, aumentando el consumo de combustible."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "¿Cuándo tiene sentido comprar un híbrido enchufable?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Un PHEV tiene sentido si cumples estas condiciones: tienes acceso a un punto de carga en casa o en el trabajo donde puedas enchufarlo diariamente, la mayoría de tus desplazamientos diarios están dentro de la autonomía eléctrica del vehículo (30-60 km según modelo), y te comprometes a cargarlo regularmente. En estas condiciones, puedes hacer el 70-90% de tus kilómetros en modo eléctrico y aprovechar realmente las ventajas del sistema. Si no vas a cargarlo con frecuencia, un híbrido convencional (HEV) o directamente un eléctrico puro pueden ser opciones más honestas."
+        }
+      }
+    ]
+  }
+  </script>
+</head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-5PD6Y58MK5"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-5PD6Y58MK5');
+</script>
+<body class="bg-gray-50 text-gray-900">
+  <header class="bg-white shadow-lg sticky top-0 z-50">
+    <div class="container mx-auto px-4 py-4">
+      <div class="flex items-center justify-between">
+        <a href="../index.html" class="flex items-center space-x-3">
+          <div class="bg-white rounded-lg p-1">
+            <img src="../imagenes/logo.webp" alt="Electromovilidad 24" class="h-16 w-auto">
+          </div>
+          <div>
+            <h1 class="text-2xl md:text-3xl font-bold text-gris-oscuro">Electromovilidad 24</h1>
+            <p class="text-sm text-gray-600">Descubre el futuro de la movilidad</p>
+          </div>
+        </a>
+        <button id="mobile-menu-btn" class="md:hidden bg-verde-principal text-white p-2 rounded-lg">
+          <i class="fas fa-bars"></i>
+        </button>
+      </div>
+      <nav class="mt-4">
+        <ul id="nav-menu" class="hidden md:flex space-x-8 text-gris-oscuro font-medium">
+          <li><a href="../index.html" class="hover:text-verde-principal transition-colors duration-200">Inicio</a></li>
+          <li><a href="../comparativas.html" class="hover:text-verde-principal transition-colors duration-200">Comparativas</a></li>
+          <li><a href="../reviews.html" class="hover:text-verde-principal transition-colors duration-200">Reviews</a></li>
+          <li><a href="../guias.html" class="hover:text-verde-principal transition-colors duration-200 border-b-2 border-verde-principal pb-1">Guías</a></li>
+          <li><a href="../calculadoras.html" class="hover:text-verde-principal transition-colors duration-200">Calculadoras</a></li>
+          <li><a href="../sobre.html" class="hover:text-verde-principal transition-colors duration-200">Sobre mí</a></li>
+          <li><a href="../contacto.html" class="hover:text-verde-principal transition-colors duration-200">Contacto</a></li>
+        </ul>
+
+        <!-- Menú móvil -->
+        <ul id="mobile-nav" class="md:hidden hidden flex-col space-y-3 mt-4 bg-gray-50 p-4 rounded-lg">
+            <li><a href="../index.html" class="block text-gris-oscuro hover:text-verde-principal font-medium">Inicio</a></li>
+            <li><a href="../index.html#news-section" class="block text-gris-oscuro hover:text-verde-principal font-medium">Noticias</a></li>
+            <li><a href="../comparativas.html" class="block text-gris-oscuro hover:text-verde-principal font-medium">Comparativas</a></li>
+            <li><a href="../reviews.html" class="block text-gris-oscuro hover:text-verde-principal font-medium">Reviews</a></li>
+            <li><a href="../guias.html" class="block text-gris-oscuro hover:text-verde-principal font-medium">Guías</a></li>
+            <li><a href="../calculadoras.html" class="block text-gris-oscuro hover:text-verde-principal font-medium">Calculadoras</a></li>
+            <li><a href="../sobre.html" class="block text-gris-oscuro hover:text-verde-principal font-medium">Sobre mí</a></li>
+            <li><a href="../contacto.html" class="block text-gris-oscuro hover:text-verde-principal font-medium">Contacto</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="max-w-4xl mx-auto px-4 py-8">
+    <article>
+      <header class="mb-6">
+        <p class="text-sm text-gray-500 flex items-center space-x-2">
+          <i class="fas fa-calendar-alt"></i>
+          <time datetime="2025-01-19">19 de enero de 2025</time>
+          <span class="mx-2">•</span>
+          <span class="bg-green-500 text-white px-2 py-0.5 rounded text-xs">Guía</span>
+          <span class="mx-2">•</span>
+          <span>Lectura: 10 min</span>
+        </p>
+        <h1 class="text-3xl md:text-4xl font-extrabold leading-tight mt-2">Híbrido enchufable sin cargar: ¿contamina igual que un diésel? La verdad con datos</h1>
+        <p class="mt-3 text-lg text-gray-700">Los híbridos enchufables (PHEV) prometen lo mejor de ambos mundos: eficiencia eléctrica para el día a día y autonomía de combustión para viajes largos. Pero hay una trampa que muchos compradores desconocen: <strong>si no cargas la batería regularmente, tu PHEV puede contaminar tanto o más que un diésel</strong>. Te explico por qué ocurre esto con datos de estudios reales.</p>
+      </header>
+
+      <!-- Breadcrumbs visibles -->
+      <nav aria-label="breadcrumbs" class="text-sm text-gray-600 mb-4">
+        <ol class="flex flex-wrap items-center gap-2">
+          <li><a href="../index.html" class="text-emerald-700 hover:underline">Inicio</a></li>
+          <li>/</li>
+          <li><a href="../guias.html" class="text-emerald-700 hover:underline">Guías</a></li>
+          <li>/</li>
+          <li aria-current="page" class="text-gray-800">PHEV sin cargar: consumo y emisiones</li>
+        </ol>
+      </nav>
+
+      <!-- Índice del contenido -->
+      <nav class="bg-emerald-50 border border-emerald-100 rounded-lg p-4 mb-6 text-sm">
+        <p class="font-semibold text-emerald-800 mb-2">Contenido</p>
+        <ol class="list-decimal ml-5 space-y-1 text-emerald-900">
+          <li><a class="hover:underline" href="#problema">El problema: PHEV sin enchufar</a></li>
+          <li><a class="hover:underline" href="#utility-factor">Qué es el "utility factor" y por qué importa</a></li>
+          <li><a class="hover:underline" href="#emisiones">Emisiones reales vs cifras oficiales</a></li>
+          <li><a class="hover:underline" href="#consumo">Consumo con batería descargada</a></li>
+          <li><a class="hover:underline" href="#comportamiento">Cómo usan realmente los conductores sus PHEV</a></li>
+          <li><a class="hover:underline" href="#comparacion">Comparación con diésel y gasolina</a></li>
+          <li><a class="hover:underline" href="#causas">Por qué ocurre esto</a></li>
+          <li><a class="hover:underline" href="#cuando-si">Cuándo sí tiene sentido un PHEV</a></li>
+          <li><a class="hover:underline" href="#faq">Preguntas frecuentes</a></li>
+        </ol>
+      </nav>
+
+      <!-- Hero Image -->
+      <div class="mb-8 rounded-lg overflow-hidden shadow-xl">
+        <img 
+          src="https://images.unsplash.com/photo-1617886322009-e02db73a70ee?w=1200&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8Y29jaGUlMjBlbCVDMyVBOWN0cmljbyUyMGNhcmdhbmRvfGVufDB8MHwwfHx8Mg%3D%3D" 
+          alt="Coche híbrido enchufable conectado a un punto de carga doméstico, requisito esencial para aprovechar sus ventajas" 
+          class="w-full h-auto"
+          loading="lazy"
+        >
+        <p class="text-sm text-gray-500 p-2 bg-gray-50 text-center">Sin carga regular, un híbrido enchufable pierde prácticamente todas sus ventajas medioambientales y económicas</p>
+      </div>
+
+      <div class="article-content">
+        <p>Cuando alguien me pregunta si debería comprarse un híbrido enchufable, mi primera pregunta siempre es la misma: <em>"¿Tienes dónde enchufarlo todos los días?"</em>. Y no es una pregunta retórica. La diferencia entre un PHEV que se carga regularmente y uno que no se enchufa nunca es abismal: estamos hablando de pasar de un vehículo eficiente a uno que contamina igual o más que el diésel que pretendías sustituir.</p>
+
+        <p>No es una opinión personal ni una exageración. Es lo que demuestran múltiples estudios independientes realizados en los últimos años, incluyendo análisis de Transport & Environment con datos de más de 800.000 vehículos PHEV en Europa. Y los resultados son tan contundentes que merecen una explicación detallada.</p>
+
+        <h2 id="problema">El problema: PHEV sin enchufar</h2>
+
+        <p>Los híbridos enchufables se diseñaron con una premisa clara: <strong>usar la batería para los desplazamientos cortos del día a día y reservar el motor de combustión para viajes largos</strong>. En teoría, si cargas tu PHEV cada noche y tus trayectos diarios están dentro de la autonomía eléctrica (30-60 km según el modelo), podrías hacer el 70-90% de tus kilómetros sin quemar una gota de combustible.</p>
+
+        <p>Pero aquí está el problema: <strong>muchos propietarios de PHEV no los enchufan con regularidad</strong>. Ya sea por falta de acceso a un punto de carga, por pereza, por desconocimiento, o simplemente porque "total, tiene motor de gasolina", el resultado es que el vehículo funciona permanentemente con su motor de combustión.</p>
+
+        <p>Y cuando un PHEV funciona solo con combustión, ocurre algo que pocos anticipan: <strong>consume y contamina más que un coche de gasolina o diésel equivalente</strong>. ¿Por qué? Porque está arrastrando el peso extra de una batería de 10-20 kWh, uno o dos motores eléctricos, y toda la electrónica de gestión que no está usando.</p>
+
+        <div class="danger-box">
+          <p class="font-semibold mb-2">⚠️ La paradoja del PHEV sin cargar</p>
+          <p>Un híbrido enchufable que no se enchufa es, en la práctica, un coche de combustión con 200-400 kg de peso muerto. Ese peso extra se traduce directamente en mayor consumo de combustible y mayores emisiones.</p>
+        </div>
+
+        <h2 id="utility-factor">Qué es el "utility factor" y por qué importa</h2>
+
+        <p>Para entender por qué los PHEV sin cargar son tan problemáticos, hay que conocer un concepto técnico clave: el <strong>utility factor</strong> o factor de utilidad.</p>
+
+        <p><strong>Definición:</strong> El utility factor es la proporción de kilómetros que un PHEV recorre realmente en modo eléctrico frente al total de kilómetros recorridos. Es el indicador más importante para saber si un híbrido enchufable está cumpliendo su función.</p>
+
+        <p><strong>Lo que asumen las homologaciones:</strong> Los tests WLTP que determinan las cifras oficiales de consumo y emisiones asumen utility factors del 70-85%. Es decir, asumen que el conductor carga la batería regularmente y hace la mayoría de sus kilómetros en modo eléctrico.</p>
+
+        <p><strong>Lo que ocurre en la realidad:</strong> Un análisis basado en más de 800.000 vehículos PHEV en Europa (2021-2023) encontró que el utility factor real está entre el <strong>27% y el 30%</strong>. Menos de la mitad de lo que asumen los tests oficiales.</p>
+
+        <div class="stat-box">
+          <p class="font-semibold mb-2">📊 Utility factor: expectativa vs realidad</p>
+          <ul class="space-y-2">
+            <li><strong>Tests WLTP asumen:</strong> 70-85% de kilómetros en modo eléctrico</li>
+            <li><strong>Realidad medida:</strong> 27-30% de kilómetros en modo eléctrico</li>
+            <li><strong>Diferencia:</strong> Los conductores usan 2-3 veces menos el modo eléctrico de lo previsto</li>
+          </ul>
+          <p class="mt-3 text-sm">Fuente: <a href="https://www.transportenvironment.org/articles/plug-in-hybrids-are-a-wolf-in-sheeps-clothing" class="underline" target="_blank" rel="noopener">Transport & Environment - Análisis de PHEV en Europa</a></p>
+        </div>
+
+        <p>Esta diferencia entre lo esperado y lo real es la raíz de todo el problema. Las cifras de consumo y emisiones que aparecen en los catálogos de los fabricantes solo se cumplen si cargas la batería como asumen los tests. Si no lo haces, esas cifras no tienen ningún valor.</p>
+
+        <h2 id="emisiones">Emisiones reales vs cifras oficiales: los datos que nadie quiere ver</h2>
+
+        <p>Transport & Environment (T&E), una de las organizaciones independientes más respetadas en análisis de transporte y medio ambiente, ha realizado múltiples estudios sobre las emisiones reales de los PHEV. Los resultados son demoledores.</p>
+
+        <p><strong>El estudio de la Technical University of Graz:</strong></p>
+
+        <p>Un informe independiente encargado por T&E a la Technical University of Graz sometió a varios modelos PHEV populares a pruebas de emisiones en condiciones reales. Los resultados mostraron que con la batería descargada, estos vehículos emitían <strong>entre 5 y 7 veces más CO₂</strong> que las cifras oficiales de homologación.</p>
+
+        <div class="warning-box">
+          <p class="font-semibold mb-2">🔬 Emisiones reales medidas (batería descargada)</p>
+          <ul class="space-y-2">
+            <li><strong>BMW X5 PHEV:</strong> ~200 g/km de CO₂ (vs 27-32 g/km oficial)</li>
+            <li><strong>Peugeot 3008 PHEV:</strong> ~200 g/km de CO₂ (vs 29-33 g/km oficial)</li>
+            <li><strong>Renault Captur PHEV:</strong> ~138 g/km de CO₂ (vs 32 g/km oficial)</li>
+          </ul>
+          <p class="mt-3">Esos 200 g/km son valores típicos de un SUV diésel de hace 10 años, no de un vehículo "ecológico" de 2024.</p>
+          <p class="text-sm mt-2">Fuente: <a href="https://www.transportenvironment.org/discover/plug-in-hybrids-new-emissions-scandal-tests-show/" class="underline" target="_blank" rel="noopener">T&E - Tests de emisiones de PHEV</a></p>
+        </div>
+
+        <p><strong>El análisis de 800.000 vehículos:</strong></p>
+
+        <p>Un estudio más amplio que analizó datos de uso real de más de 800.000 PHEV en Europa entre 2021 y 2023 confirmó estas cifras a escala masiva:</p>
+
+        <ul class="list-disc ml-6 my-4 space-y-2">
+          <li>Las emisiones reales de CO₂ de los PHEV fueron <strong>casi 5 veces mayores</strong> que sus valores de homologación</li>
+          <li>En promedio, los PHEV solo redujeron emisiones un <strong>19%</strong> frente a un diésel o gasolina similar cuando no se tenía en cuenta un uso eléctrico elevado</li>
+          <li>Algunos modelos, en condiciones de uso sin carga regular, emitían <strong>más CO₂ que coches de combustión equivalentes</strong></li>
+        </ul>
+
+        <h2 id="consumo">Consumo de combustible con batería descargada</h2>
+
+        <p>Las emisiones de CO₂ van directamente ligadas al consumo de combustible. Si un PHEV emite más CO₂ que las cifras oficiales, es porque está consumiendo más gasolina de la prometida.</p>
+
+        <p>Un estudio publicado en ScienceDirect midió el consumo de varios PHEV en distintos modos de funcionamiento. Las conclusiones fueron claras:</p>
+
+        <ul class="list-disc ml-6 my-4 space-y-2">
+          <li><strong>Con batería cargada (modo EV):</strong> Consumo de combustible prácticamente cero, solo electricidad</li>
+          <li><strong>Con batería parcialmente cargada (modo híbrido):</strong> Consumo reducido, el sistema optimiza entre ambos motores</li>
+          <li><strong>Con batería descargada (modo "charge sustaining"):</strong> Consumo de combustible similar o superior a un coche de combustión equivalente</li>
+        </ul>
+
+        <p>Un análisis en Reino Unido encontró que los propietarios de PHEV gastaban aproximadamente <strong>£500 más al año en combustible</strong> de lo que predecían los tests oficiales, precisamente porque no cargaban la batería con la frecuencia asumida en las homologaciones.</p>
+
+        <div class="stat-box">
+          <p class="font-semibold mb-2">⛽ Consumo real vs oficial en PHEV</p>
+          <p>Ejemplo con un SUV PHEV típico:</p>
+          <ul class="space-y-2 mt-2">
+            <li><strong>Consumo oficial WLTP:</strong> 1,5-2,0 l/100 km</li>
+            <li><strong>Consumo real (cargando diariamente):</strong> 2,5-4,0 l/100 km</li>
+            <li><strong>Consumo real (sin cargar):</strong> 7,0-9,0 l/100 km</li>
+          </ul>
+          <p class="mt-3 text-sm">Fuente: <a href="https://eciu.net/media/press-releases/2023/phevs-pollute-and-cost-more-than-tests-suggest" class="underline" target="_blank" rel="noopener">ECIU - Análisis de costes reales de PHEV</a></p>
+        </div>
+
+        <h2 id="comportamiento">Cómo usan realmente los conductores sus PHEV</h2>
+
+        <p>Una pregunta legítima es: ¿por qué tantos propietarios de PHEV no cargan sus vehículos? Los estudios y reportes periodísticos identifican varias razones:</p>
+
+        <p><strong>1. Falta de acceso a carga:</strong> Muchos compradores de PHEV no tienen garaje propio o acceso a un punto de carga en casa o en el trabajo. Cargar en la calle es posible pero inconveniente, así que simplemente no lo hacen.</p>
+
+        <p><strong>2. Comodidad:</strong> El motor de combustión siempre está ahí como "respaldo". Es más cómodo no preocuparse de enchufar que establecer una rutina de carga diaria.</p>
+
+        <p><strong>3. Desconocimiento:</strong> Algunos compradores no entienden que el PHEV solo es eficiente si se carga. Creen que el sistema híbrido optimiza automáticamente todo, cuando en realidad sin electricidad externa funciona como un híbrido convencional muy pesado.</p>
+
+        <p><strong>4. Compra por incentivos fiscales:</strong> En muchos países, los PHEV tienen ventajas fiscales (impuesto de matriculación reducido, acceso a zonas de bajas emisiones, etc.) que hacen atractiva su compra aunque el propietario no tenga intención de cargarlo.</p>
+
+        <div class="warning-box">
+          <p class="font-semibold mb-2">📉 El problema de los coches de empresa</p>
+          <p>Un porcentaje significativo de PHEV son coches de empresa. Los conductores no pagan el combustible de su bolsillo, así que tienen poco incentivo para cargar la batería. Según algunos análisis, los PHEV de empresa tienen utility factors aún más bajos que los de particulares.</p>
+        </div>
+
+        <h2 id="comparacion">Comparación directa con diésel y gasolina</h2>
+
+        <p>Llegamos a la pregunta clave: <strong>¿contamina un PHEV sin cargar igual que un diésel?</strong> Los datos sugieren que sí, e incluso en algunos casos más.</p>
+
+        <p><strong>Emisiones de CO₂ comparadas:</strong></p>
+
+        <ul class="list-disc ml-6 my-4 space-y-2">
+          <li><strong>Diésel moderno (SUV medio):</strong> 130-160 g/km de CO₂</li>
+          <li><strong>Gasolina moderno (SUV medio):</strong> 150-180 g/km de CO₂</li>
+          <li><strong>PHEV sin cargar (SUV):</strong> 140-200 g/km de CO₂</li>
+          <li><strong>PHEV cargando diariamente (SUV):</strong> 40-70 g/km de CO₂</li>
+        </ul>
+
+        <p>Como puedes ver, un PHEV que se carga regularmente puede reducir emisiones a menos de la mitad que un coche de combustión. Pero un PHEV que no se carga está en el mismo rango o peor.</p>
+
+        <p><strong>Consumo de combustible comparado:</strong></p>
+
+        <ul class="list-disc ml-6 my-4 space-y-2">
+          <li><strong>Diésel moderno (SUV medio):</strong> 5,5-7,0 l/100 km</li>
+          <li><strong>Gasolina moderno (SUV medio):</strong> 7,0-9,0 l/100 km</li>
+          <li><strong>PHEV sin cargar (SUV):</strong> 7,0-9,5 l/100 km</li>
+          <li><strong>PHEV cargando diariamente (SUV):</strong> 2,0-4,0 l/100 km</li>
+        </ul>
+
+        <p>El PHEV sin cargar consume incluso un poco más que el gasolina equivalente debido al peso extra. Solo cuando se carga regularmente muestra su ventaja real.</p>
+
+        <h2 id="causas">Por qué ocurre esto: las tres razones técnicas</h2>
+
+        <p>Hay tres factores técnicos que explican por qué un PHEV sin cargar no ofrece beneficios:</p>
+
+        <p><strong>1. Peso extra significativo</strong></p>
+
+        <p>Un PHEV típico lleva:</p>
+        <ul class="list-disc ml-6 my-4 space-y-2">
+          <li>Batería de alta tensión: 100-200 kg</li>
+          <li>Motor(es) eléctrico(s): 30-80 kg</li>
+          <li>Electrónica de potencia, cableado, sistemas de refrigeración: 50-100 kg</li>
+        </ul>
+
+        <p>En total, 200-400 kg adicionales respecto a la versión de combustión del mismo modelo. Ese peso solo se "rentabiliza" si usas el modo eléctrico. Si no lo usas, solo estás arrastrando peso muerto.</p>
+
+        <p><strong>2. Motor de combustión no optimizado</strong></p>
+
+        <p>Los motores de combustión de los PHEV suelen ser más pequeños y menos potentes que los de coches puramente térmicos, porque se diseñan para trabajar en combinación con el motor eléctrico. Sin la ayuda eléctrica, ese motor puede funcionar más forzado y menos eficientemente.</p>
+
+        <p><strong>3. Transmisión y arquitectura híbrida</strong></p>
+
+        <p>La arquitectura híbrida añade complejidad y pérdidas de energía adicionales cuando el sistema no está funcionando en modo óptimo. Sin batería cargada, el vehículo no puede aprovechar la regeneración ni la optimización que hace el sistema de gestión.</p>
+
+        <h2 id="cuando-si">Cuándo SÍ tiene sentido un híbrido enchufable</h2>
+
+        <p>No quiero que este artículo se interprete como un ataque a los PHEV. <strong>Cuando se usan correctamente, son vehículos excelentes</strong>. Pero tienen que cumplirse ciertas condiciones:</p>
+
+        <div class="success-box">
+          <p class="font-semibold mb-2">✅ Un PHEV es buena opción si:</p>
+          <ul class="space-y-2">
+            <li>✔ Tienes un punto de carga en casa o trabajo donde puedas enchufarlo cada día</li>
+            <li>✔ La mayoría de tus desplazamientos diarios están dentro de la autonomía eléctrica (30-60 km)</li>
+            <li>✔ Te comprometes a crear una rutina de carga regular</li>
+            <li>✔ Ocasionalmente necesitas hacer viajes largos donde un eléctrico puro sería incómodo</li>
+            <li>✔ Entiendes que el vehículo solo es eficiente si lo cargas</li>
+          </ul>
+        </div>
+
+        <div class="danger-box">
+          <p class="font-semibold mb-2">❌ Un PHEV probablemente NO es para ti si:</p>
+          <ul class="space-y-2">
+            <li>✗ No tienes acceso fácil a un punto de carga</li>
+            <li>✗ Tus desplazamientos diarios superan con creces la autonomía eléctrica</li>
+            <li>✗ No quieres o no puedes establecer una rutina de carga</li>
+            <li>✗ Lo compras principalmente por incentivos fiscales sin intención de cargarlo</li>
+            <li>✗ Crees que "ya optimizará él solo" sin enchufarlo</li>
+          </ul>
+          <p class="mt-3">En estos casos, considera un híbrido convencional (HEV) que al menos regenera en frenadas, o directamente un eléctrico puro si puedes cubrir tus necesidades de autonomía.</p>
+        </div>
+
+        <h2 id="faq">Preguntas frecuentes sobre PHEV y carga</h2>
+
+        <div class="faq-section bg-gray-50 rounded-lg p-6 my-8">
+          <h3 class="text-2xl font-bold text-gris-oscuro mb-6 flex items-center">
+            <i class="fas fa-question-circle text-verde-principal mr-3"></i>
+            FAQ – Híbridos enchufables y consumo real
+          </h3>
+
+          <div class="space-y-6">
+            <div class="faq-item border-b border-gray-200 pb-4">
+              <h4 class="text-lg font-semibold text-gris-oscuro mb-2">
+                🔹 ¿Cuánto contamina un híbrido enchufable si no lo cargo?
+              </h4>
+              <p class="text-gray-700">
+                Según estudios de Transport & Environment realizados con la Technical University of Graz, los PHEV que no se cargan regularmente emiten entre 5 y 7 veces más CO₂ que las cifras oficiales de homologación. En pruebas reales, modelos de BMW y Peugeot alcanzaron aproximadamente 200 g/km de CO₂ con la batería descargada, valores comparables o incluso superiores a coches diésel modernos. El problema es que el vehículo funciona como un coche de combustión pero con el peso extra de la batería y el sistema eléctrico, lo que aumenta el consumo.
+              </p>
+            </div>
+
+            <div class="faq-item border-b border-gray-200 pb-4">
+              <h4 class="text-lg font-semibold text-gris-oscuro mb-2">
+                🔹 ¿Qué es el "utility factor" y por qué es importante?
+              </h4>
+              <p class="text-gray-700">
+                El utility factor o factor de utilidad es la proporción de kilómetros que un PHEV recorre realmente en modo eléctrico frente al total. Los tests de homologación WLTP asumen factores de utilidad del 70-85%, pero estudios con más de 800.000 vehículos PHEV en Europa encontraron que el factor real está entre el 27-30%. Esto significa que los conductores usan mucho menos el modo eléctrico de lo que asumen las pruebas oficiales, principalmente porque no cargan la batería con regularidad. Esta diferencia explica por qué las cifras oficiales de consumo y emisiones no se cumplen en la práctica.
+              </p>
+            </div>
+
+            <div class="faq-item border-b border-gray-200 pb-4">
+              <h4 class="text-lg font-semibold text-gris-oscuro mb-2">
+                🔹 ¿Por qué un PHEV sin cargar consume más que un coche normal?
+              </h4>
+              <p class="text-gray-700">
+                Un híbrido enchufable sin cargar puede consumir igual o incluso más combustible que un coche de gasolina o diésel equivalente debido al peso extra. Los PHEV llevan una batería grande (normalmente 10-20 kWh), uno o dos motores eléctricos, y toda la electrónica de gestión, lo que añade entre 200-400 kg al peso del vehículo. Si ese peso extra no se compensa con el uso del modo eléctrico, el motor de combustión tiene que mover más masa, aumentando el consumo de combustible. Además, el motor de combustión de un PHEV suele ser más pequeño y puede trabajar más forzado sin la ayuda del eléctrico.
+              </p>
+            </div>
+
+            <div class="faq-item">
+              <h4 class="text-lg font-semibold text-gris-oscuro mb-2">
+                🔹 ¿Cuándo tiene sentido comprar un híbrido enchufable?
+              </h4>
+              <p class="text-gray-700">
+                Un PHEV tiene sentido si cumples estas condiciones: tienes acceso a un punto de carga en casa o en el trabajo donde puedas enchufarlo diariamente, la mayoría de tus desplazamientos diarios están dentro de la autonomía eléctrica del vehículo (30-60 km según modelo), y te comprometes a cargarlo regularmente. En estas condiciones, puedes hacer el 70-90% de tus kilómetros en modo eléctrico y aprovechar realmente las ventajas del sistema. Si no vas a cargarlo con frecuencia, un híbrido convencional (HEV) o directamente un eléctrico puro pueden ser opciones más honestas y eficientes.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <h3>Conclusión: el PHEV es una herramienta, no una solución mágica</h3>
+
+        <p>Los híbridos enchufables pueden ser vehículos extraordinariamente eficientes cuando se usan como fueron diseñados: cargando la batería regularmente y aprovechando el modo eléctrico para los desplazamientos cotidianos. En esas condiciones, ofrecen lo mejor de ambos mundos.</p>
+
+        <p>Pero <strong>si no vas a enchufarlo, el PHEV pierde todo su sentido</strong>. Te quedas con un coche más pesado, más caro de comprar y mantener, y que contamina igual o más que el diésel que pretendías evitar. Los datos de los estudios son claros: sin carga regular, las promesas de bajas emisiones de los PHEV son papel mojado.</p>
+
+        <p>Mi recomendación: antes de comprar un PHEV, hazte la pregunta honesta de si vas a poder y querer cargarlo prácticamente a diario. Si la respuesta es sí, puede ser una opción excelente. Si la respuesta es no, o "ya veremos", probablemente estés mejor con un híbrido convencional que al menos regenera en frenadas sin depender de que tú lo enchufes, o con un eléctrico puro si tu situación lo permite.</p>
+
+        <p>La electrificación del transporte solo tiene sentido si usamos la electricidad. Un PHEV sin enchufar es, como dice el titular, prácticamente indistinguible de un diésel. Y eso no es lo que ninguno de nosotros queremos cuando buscamos un vehículo más limpio.</p>
+      </div>
+
+      <!-- Fuentes del artículo -->
+      <div class="mt-10 pt-6 border-t">
+        <h3 class="text-xl font-bold mb-4">Fuentes consultadas</h3>
+        <ul class="list-disc ml-5 text-gray-700 space-y-2 text-sm">
+          <li><a href="https://www.transportenvironment.org/discover/plug-in-hybrids-new-emissions-scandal-tests-show/" class="text-emerald-700 hover:underline" target="_blank" rel="noopener">Transport & Environment - Plug-in hybrids: new emissions scandal tests show</a></li>
+          <li><a href="https://www.transportenvironment.org/articles/plug-in-hybrids-are-a-wolf-in-sheeps-clothing" class="text-emerald-700 hover:underline" target="_blank" rel="noopener">Transport & Environment - PHEV reality check</a></li>
+          <li><a href="https://eciu.net/media/press-releases/2023/phevs-pollute-and-cost-more-than-tests-suggest" class="text-emerald-700 hover:underline" target="_blank" rel="noopener">ECIU - PHEVs pollute and cost more than tests suggest</a></li>
+          <li><a href="https://www.motorpasion.com/coches-hibridos-alternativos/hibridos-enchufables-no-se-enchufan-contaminan-gasolina" class="text-emerald-700 hover:underline" target="_blank" rel="noopener">Motorpasión - Si no cargas tu PHEV contaminas como un gasolina</a></li>
+          <li><a href="https://www.sciencedirect.com/science/article/pii/S0306261921012149" class="text-emerald-700 hover:underline" target="_blank" rel="noopener">ScienceDirect - Real-world emissions and consumption study of PHEVs</a></li>
+        </ul>
+      </div>
+
+      <footer class="mt-10 pt-6 border-t text-sm text-gray-600">
+        <p>¿Tienes dudas sobre si un híbrido enchufable es adecuado para tu situación? ¿Quieres saber cómo calcular si podrías aprovechar realmente el modo eléctrico de un PHEV? ¿Necesitas ayuda para comparar opciones entre PHEV, híbrido convencional o eléctrico puro? Contacta conmigo y te ayudaré a tomar la decisión más informada.</p>
+      </footer>
+
+      <!-- Artículos relacionados -->
+      <aside class="mt-12">
+        <h2 class="text-2xl font-bold mb-4">Artículos relacionados</h2>
+        <ul class="list-disc ml-5 text-emerald-800 space-y-2">
+          <li><a class="hover:underline" href="ahorrar-electricidad-cargando-coche-electrico.html">Cómo ahorrar en electricidad cargando tu coche eléctrico</a></li>
+          <li><a class="hover:underline" href="ventajas-fiscales-coche-electrico-espana-2025.html">Ventajas fiscales del coche eléctrico en España 2025</a></li>
+          <li><a class="hover:underline" href="coches-electricos-baratos-espana-2025.html">Coches eléctricos baratos en España 2025</a></li>
+          <li><a class="hover:underline" href="../calculadoras.html">Calculadora de ahorro: eléctrico vs combustión</a></li>
+          <li><a class="hover:underline" href="../guias.html">Todas las guías sobre coches eléctricos</a></li>
+        </ul>
+      </aside>
+
+      <!-- Sobre el autor -->
+      <section class="mt-12 bg-emerald-50 border border-emerald-100 rounded-xl p-6">
+        <h2 class="text-2xl font-bold mb-2">Sobre el autor</h2>
+        <p class="text-gray-700">Apasionado de la movilidad eléctrica con más de 50.000 km de experiencia en viajes por carretera. Comparto lo aprendido para que tu transición a la electrificación sea más sencilla y disfrutes cada kilómetro, sin sorpresas.</p>
+      </section>
+      <script async="async" data-cfasync="false" src="//pl28052676.effectivegatecpm.com/2f2bf98ebb38fc325879c099d716122f/invoke.js"></script>
+  <div id="container-2f2bf98ebb38fc325879c099d716122f"></div>
+    </article>
+  </main>
+
+  <footer class="bg-gris-oscuro text-white py-12 mt-16">
+    <div class="container mx-auto px-4">
+    <div class="flex flex-col md:flex-row gap-8">
+      <div class="flex-1">
+        <div class="flex items-start space-x-3 mb-2">
+          <div class="bg-white rounded-lg p-1">
+            <img src="../imagenes/logo.webp" alt="Electromovilidad 24" class="h-16 w-auto">
+          </div>
+          <div>
+            <h3 class="text-xl font-bold">Electromovilidad 24</h3>
+            <p class="text-gray-300">Tu fuente confiable de información sobre movilidad eléctrica.</p>
+          </div>
+        </div>
+      </div>
+      <div class="flex-1">
+        <h4 class="text-lg font-semibold mb-2">Enlaces Útiles</h4>
+        <div class="flex flex-wrap gap-4">
+          <a href="../index.html" class="text-gray-300 hover:text-verde-principal transition-colors">Inicio</a>
+          <a href="../index.html#news-section" class="text-gray-300 hover:text-verde-principal transition-colors">Noticias</a>
+          <a href="../comparativas.html" class="text-gray-300 hover:text-verde-principal transition-colors">Comparativas</a>
+          <a href="../reviews.html" class="text-gray-300 hover:text-verde-principal transition-colors">Reviews</a>
+          <a href="../guias.html" class="text-gray-300 hover:text-verde-principal transition-colors">Guías</a>
+          <a href="../calculadoras.html" class="text-gray-300 hover:text-verde-principal transition-colors">Calculadoras</a>
+          <a href="../sobre.html" class="text-gray-300 hover:text-verde-principal transition-colors">Sobre mí</a>
+        </div>
+      </div>
+    </div>
+
+      <div class="border-t border-gray-700 mt-8 pt-8 text-center">
+        <p class="text-gray-400">
+          2025 Electromovilidad 24 - Siguiendo la revolución eléctrica en tiempo real
+        </p>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    // Menú móvil
+    document.getElementById('mobile-menu-btn').addEventListener('click', function() {
+      const menu = document.getElementById('mobile-nav');
+      menu.classList.toggle('hidden');
+    });
+  </script>
+  <script type='text/javascript' src='//pl28052810.effectivegatecpm.com/87/85/ba/8785baa66295effbd2aec6714ef57340.js'></script>
+</body>
+</html>
