@@ -1,5 +1,15 @@
 [ 
  {
+  "id": 139,
+  "title": "El primer Porsche de la historia fue eléctrico: el origen olvidado de la leyenda",
+  "summary": "Cuando pensamos en Porsche, imaginamos el rugido de un 911, pero la historia oculta de la marca es sorprendente: el primer vehículo diseñado por Ferdinand Porsche en 1898 fue completamente eléctrico. El Egger-Lohner C.2 Phaeton (conocido como P1) tenía un motor eléctrico de 3-5 HP y 80 km de autonomía. En 1900, Porsche presentó el Lohner-Porsche con motores en los cubos de las ruedas y el Semper Vivus, considerado el primer híbrido funcional del mundo. Se fabricaron unos 300 vehículos, incluyendo taxis y coches de bomberos en Viena. Más de 125 años después, con el Taycan, Porsche vuelve a sus orígenes eléctricos.",
+  "category": "Noticias",
+  "image": "https://images.unsplash.com/photo-1503376780353-7e6692767b70?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8cG9yc2NoZXxlbnwwfDB8MHx8fDI%3D",
+  "link": "articulos/primer-porsche-historia-electrico-origen-leyenda.html",
+  "date": "2026-01-20",
+  "readTime": "9 min"
+},
+ {
   "id": 138,
   "title": "¿Explotan las baterías de litio en ascensores? Desmontamos el mito viral",
   "summary": "Circula un vídeo viral que afirma que una batería de litio explotó en un ascensor porque las puertas metálicas crearon un 'campo electromagnético'. La explosión fue real (ocurrió en Cantón, China, en 2021), pero la explicación es científicamente falsa. La causa real fue el thermal runaway o embalamiento térmico, un fenómeno bien documentado donde una celda se sobrecalienta de forma incontrolada. Explicamos qué es el thermal runaway, por qué la física desmiente el mito del 'ascensor magnético', cuáles son las causas reales de los incendios de baterías y cómo usar tus dispositivos de litio de forma segura.",
