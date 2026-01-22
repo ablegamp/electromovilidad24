@@ -711,6 +711,11 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://www.electromovilidad24.com/articulos/impacto-coches-electricos-red-electrica-espana.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://www.electromovilidad24.com/articulos/impuesto-asfalto-coste-cargar-sin-garaje.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -1447,11 +1452,6 @@
   </url>
   <url>
     <loc>https://www.electromovilidad24.com/guias.html</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://www.electromovilidad24.com/imagenes/coches-electricos-mas-baratos-2026-comparativa.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
