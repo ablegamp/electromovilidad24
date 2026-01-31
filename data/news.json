@@ -1,5 +1,15 @@
 [ 
  {
+  "id": 143,
+  "title": "Por primera vez, los coches electrificados superan a los de gasolina en Europa",
+  "summary": "Hito histórico en 2025: los electrificados (híbridos 34,5% + BEV 17,4% + PHEV 17,4%) superan a la gasolina (26,6%). Los BEV crecen +51% en diciembre. Diésel cae al 8,9%. España destaca con +111,7% en PHEV. Alemania lidera con +43,2% en eléctricos. Datos oficiales ACEA y ANFAC.",
+  "category": "Noticias",
+  "image": "https://images.unsplash.com/photo-1671785253964-bdb43087ed99?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mjh8fGNvY2hlJTIwZWwlQzMlQTljdHJpY298ZW58MHwwfDB8fHwy",
+  "link": "articulos/coches-electrificados-superan-gasolina-europa-2025.html",
+  "date": "2026-01-31",
+  "readTime": "10 min"
+},
+ {
   "id": 142,
   "title": "Tesla lanza en España su sistema Full Self-Driving: ya puede probarse en 5 ciudades",
   "summary": "Tesla ha activado en España su sistema de conducción autónoma supervisada Full Self-Driving (FSD). Desde el 26 de enero de 2026, cualquier interesado puede reservar una experiencia de prueba gratuita en Madrid, Barcelona, Valencia, Sevilla y Málaga. El sistema permite que el coche gestione dirección, aceleración, frenado, cambios de carril e intersecciones, aunque siempre bajo supervisión del conductor. Las pruebas estarán disponibles hasta el 31 de abril y son compatibles con Model S, 3, X e Y. Se espera que la homologación europea avance en febrero de 2026 tras la aprobación de la autoridad holandesa RDW.",
