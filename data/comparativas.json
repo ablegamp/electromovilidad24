@@ -1,4 +1,14 @@
 [  
+  {
+  "id": 42,
+  "title": "Los 5 SUV eléctricos más interesantes por menos de 35.000 € en 2026",
+  "summary": "Comparativa de los mejores SUV eléctricos asequibles: MG ZS EV (desde ~22.000€, 440 km), Volvo EX30 (~28.600€, 476 km), Škoda Epiq (~25.000€, 400 km), BYD Atto 3 (~33.000€, 420 km) y Tesla Model Y (desde ~44.490€, 455 km). El MG ZS EV gana en precio; el Volvo EX30 en calidad premium; el Epiq en relación precio-autonomía. Fuentes: Volvo España, MG Motor, QuéCocheMeCompro, ACEA, Autoronda.",
+  "category": "Comparativas",
+  "image": "../imagenes/volvo-ex30-2025.png",
+  "link": "articulos/suv-electricos-baratos-menos-35000-euros-2026.html",
+  "date": "2026-02-01",
+  "readTime": "12 min"
+}, 
    {
   "id": 41,
   "title": "Skoda Epiq vs Renault 5 eléctrico: ¿Cuál es el eléctrico barato ganador en 2026?",
