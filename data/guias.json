@@ -1,5 +1,16 @@
 [
-{
+
+ {
+  "id": 88,
+  "title": "¿Cuánto cuesta realmente recorrer 20.000 km al año con un coche eléctrico en 2026?",
+  "summary": "Análisis del coste real de 20.000 km/año con un EV en 2026. Carga en casa: 400-800€, carga pública: 2.000-2.600€, mixto 80/20: ~960€. Comparativa: gasolina ~2.030€/año, diésel ~1.540€/año. El eléctrico con carga doméstica es hasta 5 veces más barato. Tabla comparativa completa y factores adicionales de ahorro. Fuentes: NAVIT, AUVE, Geoportal MITECO.",
+  "category": "Guías",
+  "image": "https://images.unsplash.com/photo-1763625903516-7346f11b3a01?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjN8fGNvY2hlJTIwZWwlQzMlQTljdHJpY28lMjBtYW50ZW5pbWllbnRvfGVufDB8MHwwfHx8Mg%3D%3D",
+  "link": "articulos/coste-20000-km-coche-electrico-2026.html",
+  "date": "2026-02-01",
+  "readTime": "12 min"
+}, 
+  {
   "id": 87,
   "title": "¿Qué pasa si un coche eléctrico se queda sin batería en la autopista?",
   "summary": "Guía sobre qué ocurre si tu coche eléctrico se queda sin batería. Según The AA, solo el 1,85% de asistencias a EVs son por batería agotada. Los coches activan 'modo tortuga' que da 1-5 km extra. Quedarse sin batería NO es sancionable, pero no señalizar sí (multas 80-200€). Remolque con grúa plataforma plana obligatorio. Protocolo de actuación y consejos para evitarlo. Fuentes: The AA, RAC, RACE, La Vanguardia.",
