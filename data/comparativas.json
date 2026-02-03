@@ -2,7 +2,7 @@
   {
   "id": 42,
   "title": "Los 5 SUV eléctricos más interesantes por menos de 35.000 € en 2026",
-  "summary": "Comparativa de los mejores SUV eléctricos asequibles: MG ZS EV (desde ~22.000€, 440 km), Volvo EX30 (~28.600€, 476 km), Škoda Epiq (~25.000€, 400 km), BYD Atto 3 (~33.000€, 420 km) y Tesla Model Y (desde ~44.490€, 455 km). El MG ZS EV gana en precio; el Volvo EX30 en calidad premium; el Epiq en relación precio-autonomía. Fuentes: Volvo España, MG Motor, QuéCocheMeCompro, ACEA, Autoronda.",
+  "summary": "SUV eléctricos asequibles <35.000€: MG ZS EV (~22.000€, 440 km), Volvo EX30 (~28.600€, 476 km), Škoda Epiq (~25.000€, 400 km), BYD Atto 3 (~33.000€, 420 km) y Tesla Model Y (~44.490€, 455 km). MG gana en precio; Volvo en calidad.",
   "category": "Comparativas",
   "image": "../imagenes/volvo-ex30-2025.png",
   "link": "articulos/suv-electricos-baratos-menos-35000-euros-2026.html",
@@ -12,7 +12,7 @@
    {
   "id": 41,
   "title": "Skoda Epiq vs Renault 5 eléctrico: ¿Cuál es el eléctrico barato ganador en 2026?",
-  "summary": "Comparativa completa entre el Skoda Epiq (~26.000€, SUV 425 km autonomía) y Renault 5 E-Tech (desde 23.821€, urbano 310-412 km). El R5 gana en precio y uso urbano; el Epiq en espacio (475 L maletero) y versatilidad familiar. Ambos acceden a ayudas Plan Auto+/MOVES. Fuentes: Renault España, Motorpasión, Autoronda, Carscoops.",
+  "summary": "Skoda Epiq (~26.000€, SUV 425 km) vs Renault 5 E-Tech (desde 23.821€, urbano 310-412 km). R5 gana en precio y uso urbano; Epiq en espacio (475 L maletero) y versatilidad familiar. Ambos acceden a ayudas Plan Auto+/MOVES.",
   "category": "Comparativas",
   "image": "../imagenes/skoda-epic.png",
   "link": "articulos/skoda-epiq-vs-renault-5-electrico-comparativa.html",
@@ -22,7 +22,7 @@
    {
   "id": 40,
   "title": "Tesla Model Y vs BYD Seal U en 2026: ¿Cuál es mejor compra hoy?",
-  "summary": "Comparativa completa entre el Tesla Model Y y el BYD Seal U, dos de los SUV eléctricos más demandados en España. El Tesla destaca por su red de Superchargers, autonomía de hasta 533 km WLTP, carga rápida de 250 kW y Autopilot de serie. El BYD responde con mejor equipamiento de serie (HUD, sonido Dynaudio, techo panorámico), carga bidireccional V2L y precio desde 42.290€. Analizamos autonomía, prestaciones, espacio, tecnología y precios con tabla comparativa detallada. ¿Cuál elegir según tu perfil?",
+  "summary": "Tesla Model Y vs BYD Seal U: Tesla destaca por Superchargers, autonomía 533 km, carga 250 kW y Autopilot. BYD responde con mejor equipamiento (HUD, sonido Dynaudio), carga V2L y precio desde 42.290€.",
   "category": "Comparativas",
   "image": "imagenes/byd-seal-u.png",
   "link": "articulos/tesla-model-y-vs-byd-seal-u-comparativa-2026.html",
@@ -32,7 +32,7 @@
    {
   "id": 39,
   "title": "BMW iX3 2026 vs Audi Q6 e-tron: Comparativa de SUV eléctricos premium",
-  "summary": "Comparativa completa entre el BMW iX3 2026 (Neue Klasse) y el Audi Q6 e-tron. El BMW destaca por su arquitectura de 800V con autonomía de hasta 805 km WLTP, carga ultrarrápida de 400 kW (350 km en 10 min) y batería de 108,7 kWh. El Audi responde con 490 CV, 0-100 en 4,4s y precio desde 66.370€. Analizamos potencia, consumo, espacio, tecnología y precio con tabla comparativa detallada. ¿Cuál es el mejor SUV eléctrico de lujo del momento?",
+  "summary": "BMW iX3 2026 vs Audi Q6 e-tron: BMW destaca por arquitectura 800V, autonomía 805 km WLTP, carga 400 kW (350 km en 10 min) y batería 108,7 kWh. Audi responde con 490 CV, 0-100 en 4,4s y precio desde 66.370€.",
   "category": "Comparativas",
   "image": "imagenes/bmw-ix3-electrico.png",
   "link": "articulos/bmw-ix3-2026-vs-audi-q6-etron-comparativa.html",
@@ -42,7 +42,7 @@
    {
   "id": 38,
   "title": "Los 5 coches eléctricos más baratos que llegarán en 2026: precios, autonomía y fechas",
-  "summary": "Comparativa completa de los coches eléctricos más asequibles confirmados para 2026: Kia EV2 (448 km, desde 27.000€), Citroën ë-C3 (320 km, desde 23.300€), Renault Twingo EV (por debajo de 20.000€), Volkswagen ID.1 (20.000-22.000€) y BYD Seagull (20.000-23.000€). Tabla comparativa, análisis de cada modelo con datos oficiales, impacto de las baterías LFP en la bajada de precios según BloombergNEF, y qué cambiará en el mercado español con la llegada de estos vehículos.",
+  "summary": "EV más baratos 2026: Kia EV2 (448 km, desde 27.000€), Citroën ë-C3 (320 km, desde 23.300€), Renault Twingo EV (<20.000€), VW ID.1 (20.000-22.000€) y BYD Seagull (20.000-23.000€). Impacto baterías LFP en precios.",
   "category": "Comparativas",
   "image": "imagenes/citroen-ec3.png",
   "link": "articulos/coches-electricos-mas-baratos-2026-comparativa.html",
@@ -52,7 +52,7 @@
    {
   "id": 37,
   "title": "Esta marca de eléctricos duplica el kilometraje de la competencia en España (y los datos lo demuestran)",
-  "summary": "Un análisis de 200.000 coches eléctricos en España revela qué marca acumula más kilómetros reales. Los datos desmontan el mito del 'coche urbano' y muestran diferencias de hasta 60.000 km entre fabricantes. Descubre quién lidera y por qué.",
+  "summary": "Análisis de 200.000 EV en España revela qué marca acumula más kilómetros reales. Datos desmontan mito del 'coche urbano' y muestran diferencias de hasta 60.000 km entre fabricantes.",
   "category": "Comparativas",
   "image": "https://images.unsplash.com/photo-1707341596498-7cac3cd6a581?w=600&auto=format&fit=crop&q=60",
   "link": "articulos/coches-electricos-mas-kilometros-espana.html",
@@ -62,7 +62,7 @@
    {
   "id": 36,
   "title": "Una marca arrasa en el ranking de los mejores coches de 2025: estos son los 5 elegidos",
-  "summary": "Los expertos han elegido los 5 mejores coches híbridos de 2025 y una sola marca coloca 3 modelos en el podio. Comparativa completa con consumos reales, precios y ventajas de cada modelo. Descubre cuál se adapta mejor a tu perfil.",
+  "summary": "Expertos eligen 5 mejores coches híbridos 2025: una sola marca coloca 3 modelos en el podio. Comparativa con consumos reales, precios y ventajas de cada modelo.",
   "category": "Comparativas",
   "image": "https://images.unsplash.com/photo-1688696772514-f505f118ca51?w=600&auto=format&fit=crop&q=60",
   "link": "articulos/mejores-coches-hibridos-2025.html",
@@ -72,7 +72,7 @@
    {
   "id": 35,
   "title": "Tres hermanos enfrentados: Solo uno de estos SUVs eléctricos justifica realmente su precio en 2025",
-  "summary": "Comparativa definitiva 2025: Enfrentamos al nuevo Hyundai Ioniq 5, Kia EV6 y Genesis GV70 Electrified. Misma arquitectura de 800V pero personalidades opuestas. Analizamos autonomía, tecnología y precio para descubrir qué modelo del grupo coreano es la compra maestra.",
+  "summary": "Comparativa 2025: Hyundai Ioniq 5 vs Kia EV6 vs Genesis GV70 Electrified. Misma arquitectura 800V pero personalidades opuestas. Analizamos autonomía, tecnología y precio para descubrir la mejor compra del grupo coreano.",
   "category": "Comparativas",
   "image": "imagenes/ioniq-5-2025.png",
   "link": "articulos/comparativa-ioniq5-ev6-genesis-gv70-2025.html",
@@ -82,7 +82,7 @@
   {
     "id": 34,
     "title": "El detalle oculto que puede arruinar tu compra de coche eléctrico en 2026",
-    "summary": "Comparativa exhaustiva de garantías, servicio técnico y repuestos entre marcas chinas (BYD, MG, NIO) y europeas (VW, Renault, BMW). Descubre qué fabricante ofrece mejor respaldo postventa antes de decidir.",
+    "summary": "Comparativa garantías, servicio técnico y repuestos entre marcas chinas (BYD, MG, NIO) y europeas (VW, Renault, BMW). Descubre qué fabricante ofrece mejor respaldo postventa.",
     "category": "Comparativas",
     "image": "https://images.unsplash.com/photo-1727098353953-929512ce7b90?w=1200&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Y29jaGUlMjBjaGlubyUyMGVsJUMzJUE5Y3RyaWNvfGVufDB8MHwwfHx8Mg%3D%3D",
     "link": "articulos/marcas-chinas-vs-europeas-garantia-servicio-repuestos-2026.html",
@@ -93,7 +93,7 @@
   {
   "id": 33,
   "title": "BYD Dolphin vs Citroën ë-C3 vs Renault 5 E-Tech: comparativa definitiva 2025",
-  "summary": "Análisis detallado entre los tres eléctricos urbanos más vendidos de 2025: BYD Dolphin, Citroën ë-C3 y Renault 5 E-Tech. Comparativa de precios, autonomía real, equipamiento y experiencia de conducción.",
+  "summary": "BYD Dolphin vs Citroën ë-C3 vs Renault 5 E-Tech: comparativa de los tres eléctricos urbanos más vendidos de 2025. Análisis de precios, autonomía real, equipamiento y conducción.",
   "category": "Comparativas",
   "image": "../imagenes/byd-dolphin.png",
   "link": "articulos/byd-dolphin-vs-citroen-ec3-vs-renault-5-comparativa.html",
@@ -103,7 +103,7 @@
   {
   "id": 32,
   "title": "Waybox de Endesa vs Wallbox Pulsar Plus: comparativa de potencia, funciones y coste total",
-  "summary": "Comparativa completa entre Waybox de Endesa y Wallbox Pulsar Plus: potencia de carga, funciones inteligentes, conectividad, instalación y coste total. Descubre cuál es mejor para tu coche eléctrico.",
+  "summary": "Waybox Endesa vs Wallbox Pulsar Plus: comparativa de potencia de carga, funciones inteligentes, conectividad, instalación y coste total. Descubre cuál es mejor para tu EV.",
   "category": "Comparativas",
   "image": "https://images.unsplash.com/photo-1704475289650-6ab9fc4a0a5b?w=800&auto=format&fit=crop&q=60",
   "link": "articulos/waybox-endesa-vs-wallbox-pulsar-plus-comparativa.html",
@@ -113,7 +113,7 @@
   {
   "id": 31,
   "title": "Qué coche eléctrico tiene más autonomía en 2025: el resultado que nadie esperaba",
-  "summary": "Ranking completo de los 10 coches eléctricos con más autonomía en 2025. Descubre qué modelo lidera con más de 800 km, comparativa de autonomía real vs WLTP y las mejores opciones calidad-precio por rango de presupuesto.",
+  "summary": "Ranking 10 coches eléctricos con más autonomía en 2025. Descubre qué modelo lidera con más de 800 km, comparativa autonomía real vs WLTP y mejores opciones calidad-precio.",
   "category": "Comparativas",
   "image": "https://images.unsplash.com/photo-1617886322009-e02db73a70ee?w=800&auto=format&fit=crop&q=60",
   "link": "articulos/que-coche-electrico-tiene-mas-autonomia.html",
@@ -123,7 +123,7 @@
   {
   "id": 30,
   "title": "SUV eléctricos chinos más esperados de 2026: comparativa completa",
-  "summary": "Análisis detallado de los SUV eléctricos chinos que llegarán en 2026: BYD Sea Lion 07, MG Marvel R, Xpeng G6/G9, Omoda 7 EV, Leapmotor C11 y Zeekr 7X. Comparativa de precios, autonomía y características técnicas.",
+  "summary": "SUV eléctricos chinos 2026: BYD Sea Lion 07, MG Marvel R, Xpeng G6/G9, Omoda 7 EV, Leapmotor C11 y Zeekr 7X. Comparativa de precios, autonomía y características técnicas.",
   "category": "Comparativas",
   "image": "../imagenes/byd-sea-lion-07.png",
   "link": "articulos/suv-electricos-chinos-esperados-2026.html",
@@ -133,7 +133,7 @@
   {
   "id": 29,
   "title": "Tesla Model Y vs Mercedes GLC Eléctrico: Comparativa Premium 2025",
-  "summary": "Análisis detallado entre el Tesla Model Y y el nuevo Mercedes GLC Eléctrico 2025. Comparativa de autonomía real, tecnología de conducción autónoma, espacio interior, experiencia de carga y precios en España. Descubre cuál es el mejor SUV premium eléctrico para ti.",
+  "summary": "Tesla Model Y vs Mercedes GLC Eléctrico: comparativa de autonomía real, tecnología autónoma, espacio interior, experiencia de carga y precios en España.",
   "category": "Comparativas",
   "image": "../imagenes/tesla-model-y-2025-2.png",
   "link": "articulos/tesla-model-y-vs-mercedes-glc-electrico-comparativa-2025.html",
@@ -143,7 +143,7 @@
   {
   "id": 28,
   "title": "Volvo EX30 vs Tesla Model Y: comparativa definitiva 2025",
-  "summary": "Comparativa completa entre el Volvo EX30 y Tesla Model Y 2025: autonomía real, precio tras ayudas MOVES, calidad interior, tecnología y espacio. Descubre cuál es el mejor SUV eléctrico premium para ti.",
+  "summary": "Volvo EX30 vs Tesla Model Y 2025: comparativa de autonomía real, precio tras ayudas MOVES, calidad interior, tecnología y espacio. Descubre cuál es el mejor SUV premium.",
   "category": "Comparativas",
   "image": "../imagenes/volvo-ex30-2025.png",
   "link": "articulos/volvo-ex30-vs-tesla-model-y-comparativa.html",
@@ -153,7 +153,7 @@
   {
   "id": 27,
   "title": "Hyundai Kona Electric 2025 vs KIA EV3: ¿Cuál es el Mejor Urbano Eléctrico?",
-  "summary": "Comparativa completa entre el Hyundai Kona Electric 2025 y el KIA EV3. Analizamos autonomía real, tecnología, espacio y precios para decidir cuál es el mejor eléctrico compacto del mercado.",
+  "summary": "Hyundai Kona Electric 2025 vs KIA EV3: comparativa de autonomía real, tecnología, espacio y precios para decidir cuál es el mejor eléctrico compacto del mercado.",
   "category": "Comparativas",
   "image": "../imagenes/hyundai-kona-electrico.png",
   "link": "articulos/hyundai-kona-electric-2025-vs-kia-ev3.html",
@@ -163,7 +163,7 @@
   {
   "id": 26,
   "title": "BYD Atto 3 vs MG ZS EV (2025): ¿Cuál es el Mejor SUV Eléctrico Barato?",
-  "summary": "Comparativa a fondo entre el BYD Atto 3 y el MG ZS EV. Analizamos autonomía real, batería, precios, espacio y tecnología para decidir cuál es el mejor SUV eléctrico asequible del mercado.",
+  "summary": "BYD Atto 3 vs MG ZS EV: comparativa de autonomía real, batería, precios, espacio y tecnología para decidir cuál es el mejor SUV eléctrico asequible del mercado.",
   "category": "Comparativas",
   "image": "../imagenes/byd-atto3.png",
   "link": "articulos/byd-atto-3-vs-mg-zs-ev.html",
@@ -173,7 +173,7 @@
   {
   "id": 25,
   "title": "BYD Dolphin vs MG4 2025: ¿Cuál comprar? Análisis completo",
-  "summary": "Comparativa completa BYD Dolphin vs MG4: Blade Battery vs tracción trasera deportiva. Análisis de autonomía, precio, equipamiento y conducción. Te ayudo a decidir cuál es mejor para ti.",
+  "summary": "BYD Dolphin vs MG4: Blade Battery vs tracción trasera deportiva. Comparativa de autonomía, precio, equipamiento y conducción. Te ayudo a decidir cuál es mejor para ti.",
   "category": "Comparativas",
   "image": "../imagenes/byd-dolphin.png",
   "link": "articulos/comparativa-byd-dolphin-vs-mg4-2025.html",
@@ -183,7 +183,7 @@
   {
   "id": 24,
   "title": "Los 5 Mejores Coches Eléctricos por Menos de 30.000€ en España 2025",
-  "summary": "Descubre los 5 mejores coches eléctricos por menos de 30.000€ en España. Comparativa actualizada con modelos accesibles, autonomía real y características destacadas.",
+  "summary": "5 mejores coches eléctricos <30.000€ en España. Comparativa actualizada con modelos accesibles, autonomía real y características destacadas.",
   "category": "Comparativas",
   "image": "../imagenes/mg4-electrico-2025-2.png",
   "link": "articulos/mejores-coches-electricos-menos-30000-euros.html",
@@ -193,7 +193,7 @@
   {
   "id": 23,
   "title": "BYD Seal vs Tesla Model 3 (2025): comparativa completa del eléctrico chino que desafía a Tesla",
-  "summary": "Análisis detallado comparando el BYD Seal y el Tesla Model 3 2025 en términos de diseño, autonomía, tecnología, precios y experiencia de conducción. Descubre si el chino puede competir con el rey de los sedanes eléctricos.",
+  "summary": "BYD Seal vs Tesla Model 3: comparativa de diseño, autonomía, tecnología, precios y conducción. Descubre si el chino puede competir con el rey de los sedanes eléctricos.",
   "category": "Comparativas",
   "image": "../imagenes/byd-seal.png",
   "link": "articulos/byd-seal-vs-tesla-model-3-2025-comparativa.html",
@@ -203,7 +203,7 @@
   {
   "id": 22,
   "title": "Renault Megane E-Tech vs Volkswagen ID.3 (2025): comparativa completa de prestaciones, autonomía y precio",
-  "summary": "Análisis detallado comparando el Renault Megane E-Tech y el Volkswagen ID.3 2025 en términos de diseño, autonomía, tecnología, precios y experiencia de conducción.",
+  "summary": "Renault Megane E-Tech vs Volkswagen ID.3: comparativa de diseño, autonomía, tecnología, precios y experiencia de conducción.",
   "category": "Comparativas",
   "image": "../imagenes/Renault Mégane E-Tech.png",
   "link": "articulos/renault-megane-e-tech-vs-volkswagen-id3-2025-comparativa.html",
@@ -213,7 +213,7 @@
   {
   "id": 21,
   "title": "Mejores SUV Eléctricos Familiares 2025: Comparativa de 7 Modelos TOP",
-  "summary": "Comparativa exhaustiva de los 7 mejores SUV eléctricos para familias: Tesla Model Y, Skoda Enyaq iV, Hyundai Ioniq 5, Kia EV6, VW ID.4, Mercedes EQB y BYD Tang. Análisis de autonomía, espacio, tecnología y precios desde 35.500€ con ayudas.",
+  "summary": "7 mejores SUV eléctricos para familias: Tesla Model Y, Skoda Enyaq iV, Hyundai Ioniq 5, Kia EV6, VW ID.4, Mercedes EQB y BYD Tang. Análisis de autonomía, espacio, tecnología y precios desde 35.500€.",
   "category": "Comparativas",
   "image": "../imagenes/kia-ev6-gt.png",
   "link": "articulos/mejores-suv-electricos-familiares-2025.html",
@@ -223,7 +223,7 @@
   {
     "id": 20,
     "title": "Los 5 Mejores Coches Eléctricos Baratos en España 2025",
-    "summary": "Análisis detallado de los 5 coches eléctricos más asequibles de 2025, incluyendo Dacia Spring, Citroën ë-C3, Fiat 500e, Renault Twingo E-Tech y MG4. Comparativa con precios desde 18.900€ con ayudas del Plan MOVES.",
+    "summary": "5 coches eléctricos más asequibles de 2025: Dacia Spring, Citroën ë-C3, Fiat 500e, Renault Twingo E-Tech y MG4. Comparativa con precios desde 18.900€ con ayudas Plan MOVES.",
     "category": "Comparativas",
     "image": "../imagenes/byd-dolphin-surf.png",
     "link": "articulos/mejores-coches-electricos-baratos-2025.html",
@@ -233,7 +233,7 @@
   {
     "id": 19,
     "title": "Tesla Model Y vs Polestar 2 (2025): comparativa completa de prestaciones, autonomía y precio",
-    "summary": "Análisis detallado comparando los Tesla Model Y y Polestar 2 2025 en términos de diseño, autonomía, tecnología, precios y experiencia de conducción.",
+    "summary": "Tesla Model Y vs Polestar 2: comparativa de diseño, autonomía, tecnología, precios y experiencia de conducción.",
     "category": "Comparativas",
     "image": "../imagenes/polestar-2-2.png",
     "link": "articulos/tesla-model-y-vs-polestar-2-2025-comparativa.html",
@@ -243,7 +243,7 @@
   {
     "id": 18,
     "title": "Coches eléctricos con más valor de reventa: ¿vale la pena un Tesla usado?",
-    "summary": "Analizamos qué coches eléctricos mantienen mejor su valor con el paso del tiempo. Descubre si un Tesla usado sigue siendo una buena inversión frente a modelos europeos y chinos más recientes.",
+    "summary": "¿Qué EV mantienen mejor su valor? Descubre si un Tesla usado sigue siendo buena inversión frente a modelos europeos y chinos más recientes.",
     "category": "Comparativas",
     "image": "../imagenes/Tesla-model3-long-range.png",
     "link": "articulos/coches-electricos-valor-reventa-tesla-usado-2025.html",
@@ -253,7 +253,7 @@
   {
     "id": 17,
     "title": "Tesla Model Y vs Hyundai Ioniq 5: autonomía, precio y cuál comprar en 2025",
-    "summary": "Comparativa completa entre Tesla Model Y y Hyundai Ioniq 5 en 2025: autonomía real, precios, prestaciones, carga rápida y tecnología. Descubre cuál SUV eléctrico elegir según tus necesidades.",
+    "summary": "Tesla Model Y vs Hyundai Ioniq 5: comparativa de autonomía real, precios, prestaciones, carga rápida y tecnología. Descubre cuál SUV eléctrico elegir según tus necesidades.",
     "category": "Comparativas",
     "image": "../imagenes/tesla-model-y-2025-urbano.png",
     "link": "articulos/tesla-model-y-vs-hyundai-ioniq-5-2025.html",
@@ -263,7 +263,7 @@
   {
     "id": 16,
     "title": "Coches eléctricos chinos vs europeos: diferencias, precios y fiabilidad en 2026",
-    "summary": "Comparativa completa entre coches eléctricos chinos (BYD, MG, NIO) y europeos (Volkswagen, Renault, BMW) en 2026: diseño, autonomía, precios, fiabilidad y garantía.",
+    "summary": "Coches eléctricos chinos (BYD, MG, NIO) vs europeos (VW, Renault, BMW) en 2026: comparativa de diseño, autonomía, precios, fiabilidad y garantía.",
     "category": "Comparativas",
     "image": "https://images.unsplash.com/photo-1635451048957-3beb7175f57f?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjY2fHxjb2NoZXMlMjBlbGVjdHJpY29zfGVufDB8fDB8fHwy&auto=format&fit=crop&q=60&w=500",
     "link": "articulos/coches-electricos-chinos-vs-europeos-2026.html",
@@ -273,7 +273,7 @@
   {
     "id": 15,
     "title": "Coches eléctricos chinos que llegan a España en 2026: marcas y modelos confirmados",
-    "summary": "Descubre qué marcas chinas de coches eléctricos desembarcarán en España en 2026. Análisis completo de modelos como BYD Dolphin 2, NIO ET5 Touring, XPeng G6 y más marcas emergentes con precios y fechas de llegada.",
+    "summary": "Marcas chinas de EV que desembarcan en España 2026: BYD Dolphin 2, NIO ET5 Touring, XPeng G6 y más marcas emergentes con precios y fechas de llegada.",
     "category": "Comparativas",
     "image": "../imagenes/nio-et5-touring.png",
     "link": "articulos/coches-electricos-chinos-espana-2026.html",
@@ -283,7 +283,7 @@
   {
     "id": 14,
     "title": "Los mejores coches eléctricos baratos en España 2025: guía completa y precios",
-    "summary": "Descubre los mejores coches eléctricos baratos disponibles en España en 2025. Comparativa completa de modelos económicos como Dacia Spring, Citroën ë-C3, Leapmotor T03 y opciones chinas con precios desde 17.000€.",
+    "summary": "Mejores coches eléctricos baratos España 2025: comparativa de Dacia Spring, Citroën ë-C3, Leapmotor T03 y opciones chinas con precios desde 17.000€.",
     "category": "Comparativas",
     "image": "../imagenes/dacia-spring-electrico.png",
     "link": "articulos/los-mejores-coches-electricos-baratos-espana-2025.html",
@@ -293,7 +293,7 @@
   {
     "id": 13,
     "title": "Plan MOVES 2026 vs 2025: diferencias clave y qué cambia en las ayudas",
-    "summary": "Comparativa detallada entre el Plan MOVES 2026 y 2025: presupuesto, ayudas que cambian, incentivos nuevos y cómo afecta a compradores y concesionarios.",
+    "summary": "Plan MOVES 2026 vs 2025: comparativa de presupuesto, ayudas que cambian, incentivos nuevos y cómo afecta a compradores y concesionarios.",
     "category": "Comparativas",
     "image": "../imagenes/movesiv.png",
     "link": "articulos/plan-moves-2026-vs-2025-diferencias.html",
@@ -303,7 +303,7 @@
   {
     "id": 12,
     "title": "SUV eléctricos con más autonomía por menos de 40.000 euros: guía completa 2025",
-    "summary": "Descubre los SUV eléctricos con mayor autonomía real disponibles en España por menos de 40.000 euros. Comparativa completa de modelos como Hyundai Kona, Kia e-Niro, Volkswagen ID.3, MG ZS EV y más opciones asequibles.",
+    "summary": "SUV eléctricos con mayor autonomía <40.000€: comparativa de Hyundai Kona, Kia e-Niro, VW ID.3, MG ZS EV y más opciones asequibles.",
     "category": "Comparativas",
     "image": "../imagenes/mejores-suv-electricos-2025.png",
     "link": "articulos/suv-electricos-mas-autonomia-menos-40000-2025.html",
@@ -313,7 +313,7 @@
   {
     "id": 11,
     "title": "Los mejores coches eléctricos pequeños de 2025",
-    "summary": "Descubre los mejores coches eléctricos pequeños más eficientes y asequibles de 2025. Comparativa completa de Fiat 500e, Renault Twingo E-Tech, Citroën ë-C3, Dacia Spring, Peugeot e-208, Mini Cooper SE y Volkswagen ID.2all.",
+    "summary": "Mejores coches eléctricos pequeños 2025: comparativa de Fiat 500e, Renault Twingo E-Tech, Citroën ë-C3, Dacia Spring, Peugeot e-208, Mini Cooper SE y VW ID.2all.",
     "category": "Comparativas",
     "image": "../imagenes/fiat-500-electrico-2025.png",
     "link": "articulos/mejores-coches-electricos-pequenos-2025.html",
@@ -323,7 +323,7 @@
   {
     "id": 10,
     "title": "6 coches eléctricos más baratos con 250 km de autonomía real: guía completa 2025",
-    "summary": "Descubre los 6 mejores coches eléctricos económicos de 2025 con autonomía real superior a 250 km. Comparativa completa con Citroën ë-C3, Renault Twingo E-Tech, Fiat 500e, Dacia Spring, Leapmotor T03 y BYD Dolphin.",
+    "summary": "6 EV económicos 2025 con >250 km autonomía: Citroën ë-C3, Renault Twingo E-Tech, Fiat 500e, Dacia Spring, Leapmotor T03 y BYD Dolphin.",
     "category": "Comparativas",
     "image": "../imagenes/citroen-ec3.png",
     "link": "articulos/coches-electricos-baratos-250km-autonomia-2025.html",
@@ -333,7 +333,7 @@
   {
     "id": 9,
     "title": "Los coches eléctricos con mayor autonomía en 2025: guía y comparativa completa",
-    "summary": "Descubre los coches eléctricos con más autonomía en 2025. Comparativa completa de autonomía real, baterías y precios de Tesla Model 3, Hyundai Ioniq 6, Mercedes EQE, BMW i4 y más modelos líderes.",
+    "summary": "EV con más autonomía 2025: comparativa de Tesla Model 3, Hyundai Ioniq 6, Mercedes EQE, BMW i4 y más modelos líderes.",
     "category": "Comparativas",
     "image": "../imagenes/Tesla-model3-long-range.png",
     "link": "articulos/coches-electricos-mayor-autonomia-2025.html",
@@ -343,7 +343,7 @@
   {
     "id": 8,
     "title": "Coche eléctrico barato chino 2025: comparativa, precios y modelos destacados",
-    "summary": "Descubre los mejores coches eléctricos chinos más baratos de 2025. Comparativa completa de precios, autonomía y características de BYD Dolphin, MG4 Electric, Leapmotor T03, Dacia Spring y Ora Funky Cat.",
+    "summary": "EV chinos baratos 2025: comparativa de BYD Dolphin, MG4 Electric, Leapmotor T03, Dacia Spring y Ora Funky Cat.",
     "category": "Comparativas",
     "image": "../imagenes/mg4-electrico.png",
     "link": "articulos/coche-electrico-barato-chino-2025.html",
@@ -353,7 +353,7 @@
   {
     "id": 7,
     "title": "Mejor coche eléctrico calidad-precio en 2025: ranking y recomendaciones",
-    "summary": "Descubre cuál es el mejor coche eléctrico calidad-precio en 2025. Ranking completo con Dacia Spring, MG4 Electric, Fiat 500 y más modelos recomendados para diferentes necesidades.",
+    "summary": "Mejor EV calidad-precio 2025: ranking con Dacia Spring, MG4 Electric, Fiat 500 y más modelos recomendados.",
     "category": "Comparativas",
     "image": "../imagenes/Un_grupo_de_coches_electricos.png",
     "link": "articulos/mejor-coche-electrico-calidad-precio-2025.html",
@@ -363,7 +363,7 @@
   {
     "id": 5,
     "title": "Mejores SUV eléctricos 2025: ranking, autonomía y precios en España",
-    "summary": "Ranking completo de los mejores SUV eléctricos 2025 en España. Comparativa de modelos como Tesla Model Y, Hyundai Ioniq 5, Kia EV6 y más con autonomía real y precios.",
+    "summary": "Mejores SUV eléctricos 2025: comparativa de Tesla Model Y, Hyundai Ioniq 5, Kia EV6 y más con autonomía real y precios.",
     "category": "Comparativas",
     "image": "../imagenes/mejores-suv-electricos-2025.png",
     "link": "articulos/mejores-suv-electricos-2025.html",
@@ -373,7 +373,7 @@
   {
     "id": 4,
     "title": "Mejores coches híbridos enchufables 2025: ranking, precios y autonomía",
-    "summary": "Ranking completo de los mejores coches híbridos enchufables 2025 en España. Comparativa de modelos como Toyota RAV4 PHEV, Kia Niro PHEV, Hyundai Tucson PHEV y más.",
+    "summary": "Mejores híbridos enchufables 2025: comparativa de Toyota RAV4 PHEV, Kia Niro PHEV, Hyundai Tucson PHEV y más.",
     "category": "Comparativas",
     "image": "../imagenes/mejores-coches-hibridos-enchufables-2025.png",
     "link": "articulos/mejores-hibridos-enchufables-2025.html",
@@ -383,7 +383,7 @@
   {
     "id": 3,
     "title": "Vehículos eléctricos vs híbridos: diferencias y ventajas",
-    "summary": "Comparativa completa entre vehículos eléctricos vs híbridos. Descubre diferencias en autonomía, mantenimiento, impacto ambiental y cuál elegir en 2025. Guía práctica para decidir.",
+    "summary": "Vehículos eléctricos vs híbridos: diferencias en autonomía, mantenimiento, impacto ambiental y cuál elegir en 2025.",
     "category": "Comparativas",
     "image": "../imagenes/ev7.webp",
     "link": "articulos/vehiculos-electricos-vs-hibridos-comparativa-2025.html",
@@ -393,7 +393,7 @@
   {
     "id": 2,
     "title": "Confort en viajes largos con coche eléctrico: Planificación y realidad",
-    "summary": "Descubre cómo afecta la planificación de paradas y la infraestructura al confort en viajes largos con coche eléctrico. Comparativa real de experiencias y consejos prácticos.",
+    "summary": "Planificación de paradas e infraestructura en viajes largos con EV. Comparativa real de experiencias y consejos prácticos.",
     "category": "Comparativas",
     "image": "../imagenes/ev4.webp",
     "link": "articulos/confort-viajes-largos-electricos-2025.html",
@@ -403,7 +403,7 @@
   {
     "id": 1,
     "title": "Autonomía real vs oficial: ¿cuántos kilómetros hace realmente tu coche eléctrico?",
-    "summary": "Descubre la diferencia entre la autonomía prometida y la real en los principales modelos de coches eléctricos del mercado. Datos reales de usuarios y pruebas independientes.",
+    "summary": "Autonomía real vs oficial en EV: diferencia entre prometida y real en principales modelos. Datos reales de usuarios y pruebas independientes.",
     "category": "Comparativas",
     "image": "../imagenes/comparativa1.jpg",
     "link": "articulos/comparativa-autonomia-real-vs-oficial.html",
