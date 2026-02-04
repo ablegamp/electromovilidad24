@@ -1,5 +1,15 @@
 [
 {
+  "id": 90,
+  "title": "BYD God's Eye 5.0: El sistema de conducción asistida que planta cara a Tesla FSD",
+  "summary": "BYD despliega God's Eye 5.0 en China, ya instalado en 2,3 millones de coches. IA avanzada, aprendizaje por refuerzo y tres niveles (C, B, A) con LiDAR. Comparativa con Tesla FSD: sensores, costes (~2.105$ vs ~2.360$) y estrategia de democratización desde 9.300€.",
+  "category": "Tecnología",
+  "image": "https://images.unsplash.com/photo-1564569148486-ba2ef1f05fac?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8YnlkfGVufDB8MHwwfHx8Mg%3D%3D",
+  "link": "articulos/byd-gods-eye-5-conduccion-asistida-tesla-fsd.html",
+  "date": "2026-02-04",
+  "readTime": "12 min"
+},
+  {
   "id": 89,
   "title": "¿Se deprecian más los coches eléctricos que los gasolina? Datos 2020-2025",
   "summary": "Análisis de depreciación EV vs combustión. Los eléctricos pierden ~58,8% en 5 años vs ~45,6% gasolina. Casos: Tesla Model 3/Y pierden 50-55%, Cybertruck 37-38% en 2 años. MG y chinos retienen 60,7% a 3 años. La brecha se reduce conforme madura el mercado.",

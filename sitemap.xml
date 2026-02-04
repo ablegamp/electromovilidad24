@@ -371,6 +371,11 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://www.electromovilidad24.com/articulos/coches-electrificados-superan-gasolina-europa-2025.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://www.electromovilidad24.com/articulos/coches-enchufables-mas-vendidos-espana-2025.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -437,6 +442,11 @@
   </url>
   <url>
     <loc>https://www.electromovilidad24.com/articulos/contaminan-mas-coches-electricos-combustion-analisis-completo.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.electromovilidad24.com/articulos/coste-20000-km-coche-electrico-2026.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -522,6 +532,11 @@
   </url>
   <url>
     <loc>https://www.electromovilidad24.com/articulos/depreciacion-coches-electricos-valor-reventa-2025.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.electromovilidad24.com/articulos/depreciacion-coches-electricos-vs-gasolina-2025.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -1131,6 +1146,11 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://www.electromovilidad24.com/articulos/que-pasa-coche-electrico-sin-bateria-autopista.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://www.electromovilidad24.com/articulos/quien-paga-carga-coche-electrico-viaje-grupo.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -1246,6 +1266,16 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://www.electromovilidad24.com/articulos/skoda-epiq-2026-review-suv-electrico-espana.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.electromovilidad24.com/articulos/skoda-epiq-vs-renault-5-electrico-comparativa.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://www.electromovilidad24.com/articulos/skoda-record-ventas-espana-2025.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -1257,6 +1287,11 @@
   </url>
   <url>
     <loc>https://www.electromovilidad24.com/articulos/suv-electrico-11000-euros-descuento-desafia-tesla.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.electromovilidad24.com/articulos/suv-electricos-baratos-menos-35000-euros-2026.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
