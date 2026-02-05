@@ -6,6 +6,11 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://www.electromovilidad24.com/articulos/93-espanoles-desconocimiento-coches-electricos.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://www.electromovilidad24.com/articulos/ahorrar-electricidad-cargando-coche-electrico.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -192,6 +197,11 @@
   </url>
   <url>
     <loc>https://www.electromovilidad24.com/articulos/byd-ti7-hibrido-2026.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.electromovilidad24.com/articulos/cae-deduccion-fiscal-coches-electricos-decreto-omnibus.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -961,6 +971,11 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://www.electromovilidad24.com/articulos/mg-iguala-ayudas-plan-auto-plus-2026.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://www.electromovilidad24.com/articulos/mg-s5-ev-2025.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -1097,6 +1112,11 @@
   </url>
   <url>
     <loc>https://www.electromovilidad24.com/articulos/precio-electricidad-coste-recarga-coche-electrico-2026.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.electromovilidad24.com/articulos/preclimatizacion-bateria-coches-electricos.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
