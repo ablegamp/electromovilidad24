@@ -1,5 +1,15 @@
 [ 
- {
+{
+  "id": 144,
+  "title": "Cae la deducción fiscal del 15% para coches eléctricos tras rechazar el Congreso el decreto ómnibus",
+  "summary": "El Congreso rechaza el 27/01/2026 el decreto ómnibus con 178 votos en contra y 171 a favor, eliminando la deducción del 15% en IRPF (hasta 3.000€) para compra de eléctricos y la prórroga del Plan Moves III. ANFAC y Faconauto reclaman estabilidad tras alcanzar 245.000 electrificados vendidos en 2025 (18% de cuota). Gobierno aprueba nuevo decreto el 03/02 que recupera ayudas, pendiente de convalidación parlamentaria. Fuentes: Europa Press, Congreso, Heraldo.",
+  "category": "Noticias",
+  "image": "https://images.unsplash.com/photo-1594535182308-8ffefbb661e1?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8Y29jaGUlMjBlbGVjdHJpY298ZW58MHwwfDB8fHwy",
+  "link": "articulos/cae-deduccion-fiscal-coches-electricos-decreto-omnibus.html",
+  "date": "2026-02-05",
+  "readTime": "8 min"
+}, 
+{
   "id": 143,
   "title": "Por primera vez, los coches electrificados superan a los de gasolina en Europa",
   "summary": "Hito histórico en 2025: los electrificados (híbridos 34,5% + BEV 17,4% + PHEV 17,4%) superan a la gasolina (26,6%). Los BEV crecen +51% en diciembre. Diésel cae al 8,9%. España destaca con +111,7% en PHEV. Alemania lidera con +43,2% en eléctricos. Datos oficiales ACEA y ANFAC.",
