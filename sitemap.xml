@@ -61,6 +61,11 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://www.electromovilidad24.com/articulos/ayudas-7500-euros-autonomos-pymes-coches-electricos-2026.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://www.electromovilidad24.com/articulos/ayudas-coches-electricos-comunidades-autonomas-2026.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -677,6 +682,11 @@
   </url>
   <url>
     <loc>https://www.electromovilidad24.com/articulos/geely-ex2-electrico-mas-vendido-china-2025-europa.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.electromovilidad24.com/articulos/geely-ex5-suv-electrico-espana-2026.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
