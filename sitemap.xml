@@ -111,6 +111,11 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://www.electromovilidad24.com/articulos/baterias-lfp-carga-100-precision-bms.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://www.electromovilidad24.com/articulos/baterias-lfp-vs-ncm-diferencias-ventajas-eleccion-2026.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -657,6 +662,11 @@
   </url>
   <url>
     <loc>https://www.electromovilidad24.com/articulos/fiat-topolino-micro-coche-electrico-urbano.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.electromovilidad24.com/articulos/financiar-coche-electrico-2026-sin-pagar-de-mas.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -1367,6 +1377,11 @@
   </url>
   <url>
     <loc>https://www.electromovilidad24.com/articulos/temperatura-autonomia-coches-electricos-2025.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.electromovilidad24.com/articulos/tesla-elimina-denominacion-standard-modelos-2026.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
