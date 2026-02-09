@@ -1,6 +1,16 @@
 [
 {
-  "id": 149,
+  "id": 94,
+  "title": "Software de pago en los coches: el futuro que nadie pidió",
+  "summary": "Suscripciones mensuales por asientos calefactados, potencia bloqueada por software, conducción autónoma de pago. BMW, Mercedes, Volkswagen y Tesla ya cobran por funciones que vienen instaladas en el coche. Casos reales, regulación europea y qué debe comprobar el comprador antes de firmar.",
+  "category": "Guías",
+  "image": "https://images.unsplash.com/photo-1603638725210-96aa7cecd2c5?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjN8fHRlc2xhfGVufDB8MHwwfHx8Mg%3D%3D",
+  "link": "articulos/software-pago-coches-suscripciones-funciones.html",
+  "date": "2026-02-09",
+  "readTime": "9 min"
+},
+  {
+  "id": 93,
   "title": "Cómo financiar un coche eléctrico en 2026 sin pagar de más",
   "summary": "Banco vs concesionario vs renting: comparativa real con cifras 2026. Tipos BCE al 2,65%, préstamos al consumo entre 7-9% TAE. Hasta 3.960 € de diferencia en intereses según la opción. Ayudas MOVES compatibles. Checklist antes de firmar con los puntos clave que no debes pasar por alto.",
   "category": "Guías",
@@ -10,7 +20,7 @@
   "readTime": "12 min"
 },
   {
-  "id": 148,
+  "id": 92,
   "title": "Baterías LFP en coches eléctricos: por qué la carga al 100 % mejora la precisión (y no la salud de la batería)",
   "summary": "Guía técnica sobre baterías LFP. Curva de voltaje plana dificulta estimación del BMS. Tesla recomienda carga semanal al 100%, Ford mensual. No mejora vida útil: solo calibra el sistema para lecturas precisas. Sin calibración: autonomía errática. Coches LFP: Tesla Model 3/Y RWD, BYD, Ford Mach-E, MG4. Rangos 20-80% óptimos para longevidad.",
   "category": "Guías",
@@ -20,7 +30,7 @@
   "readTime": "8 min"
 },
   {
-  "id": 147,
+  "id": 91,
   "title": "Preclimatización de batería en coches eléctricos: qué es y por qué importa",
   "summary": "Guía completa sobre preacondicionamiento térmico de baterías EV. Temperatura óptima 20-30°C. Beneficios: recupera hasta 40% autonomía perdida en invierno, reduce tiempo carga rápida de 45 a 20 minutos, prolonga vida útil batería. Usa energía red (no batería). Automático en Tesla/VW al planificar carga. Programable vía app en Hyundai/Kia/BMW. Esencial climas extremos y viajes largos.",
   "category": "Guías",
