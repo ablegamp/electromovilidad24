@@ -631,6 +631,11 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://www.electromovilidad24.com/articulos/europa-contra-coche-regulacion-exceso-normativo.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://www.electromovilidad24.com/articulos/europa-normativa-coches-electricos-baratos-2025.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -682,6 +687,11 @@
   </url>
   <url>
     <loc>https://www.electromovilidad24.com/articulos/furgonetas-camiones-electricos-autonomos-pymes-2026.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.electromovilidad24.com/articulos/futuro-baterias-coches-electricos-reciclaje-segunda-vida.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -1011,6 +1021,11 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://www.electromovilidad24.com/articulos/mg4-urban-2026-electrico-asequible-espana.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://www.electromovilidad24.com/articulos/mito-autonomia-coches-electricos-400km-suficientes.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -1022,6 +1037,11 @@
   </url>
   <url>
     <loc>https://www.electromovilidad24.com/articulos/movilidad-electrica-pierde-fuelle-2025.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.electromovilidad24.com/articulos/muerte-diesel-barato-coste-real-coche-2010-2026.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
