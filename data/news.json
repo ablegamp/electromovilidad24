@@ -1,5 +1,15 @@
 [ 
 {
+  "id": 153,
+  "title": "Toyota insiste: los híbridos contaminan menos que los eléctricos. ¿Tiene razón?",
+  "summary": "Akio Toyoda afirma que 27 millones de híbridos Toyota equivalen a 9 millones de eléctricos en impacto ambiental. Analizamos sus argumentos sobre el ciclo de vida, la deuda de carbono en fabricación y lo que dice la ciencia: los eléctricos compensan su mayor huella inicial en 30.000-80.000 km.",
+  "category": "Noticias",
+  "image": "https://images.unsplash.com/photo-1669109777226-73e0ce597658?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzF8fHRveW90YXxlbnwwfDB8MHx8fDI%3D",
+  "link": "articulos/toyota-hibridos-vs-electricos-debate-emisiones.html",
+  "date": "2026-02-13",
+  "readTime": "10 min"
+},
+  {
   "id": 152,
   "title": "Bastø Electric: el ferry eléctrico más grande del mundo ya navega en Noruega",
   "summary": "El MF Bastø Electric es el ferry totalmente eléctrico más grande del mundo en operación. Con 139 metros de eslora, baterías de 4,3 MWh, carga rápida de 9 MW y capacidad para 600 pasajeros y 200 coches, conecta Moss y Horten en el fiordo de Oslo reduciendo un 75% las emisiones.",
