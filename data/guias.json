@@ -1,6 +1,16 @@
 [
 {
-    "id": 158,
+    "id": 101,
+    "title": "Diferencia entre kW y kWh en coches eléctricos: qué significan y por qué importan",
+    "summary": "Explicación clara de la diferencia entre kW y kWh en coches eléctricos. Qué mide cada unidad, cómo afecta a la potencia del motor, la capacidad de la batería, la velocidad de carga y la autonomía. Con analogías sencillas, ejemplos reales de modelos en España y comparación con coches de combustión. Fuentes: El Debate, JD Power, Motor1, APS y Sustainability Times.",
+    "category": "Guías",
+    "image": "https://images.unsplash.com/photo-1763543007050-4dac73ffc67f?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8a3d8ZW58MHwwfDB8fHwy",
+    "link": "articulos/diferencia-kw-kwh-coches-electricos.html",
+    "date": "2026-02-18",
+    "readTime": "9 min"
+},
+  {
+    "id": 100,
     "title": "¿Por qué los coches nuevos parecen durar menos que los de hace 20 años?",
     "summary": "Análisis de por qué los coches modernos generan la percepción de ser menos duraderos: electrónica compleja con más puntos de fallo, motores downsized con mayor estrés mecánico, normativas de emisiones que añaden sistemas propensos a averías y un mantenimiento más caro y dependiente de concesionario. Con datos del informe TÜV 2026, Consumer Reports y testimonios de talleres.",
     "category": "Guías",
