@@ -376,6 +376,11 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://www.electromovilidad24.com/articulos/coches-electricos-impacto-talleres-mecanicos.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://www.electromovilidad24.com/articulos/coches-electricos-mas-baratos-2026-comparativa.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>

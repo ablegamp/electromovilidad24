@@ -1,5 +1,15 @@
 [
 {
+    "id": 103,
+    "title": "Cómo afectan los coches eléctricos al negocio de los talleres mecánicos",
+    "summary": "Los vehículos eléctricos reducen un 28% la facturación media por reparación y un 33% las horas de mano de obra en talleres. Sin embargo, abren nuevas oportunidades: reparaciones tras colisiones 30-50% más caras, servicios especializados en baterías, calibración ADAS y mantenimiento de flotas. La formación en alta tensión y la adaptación tecnológica son clave para la supervivencia del sector. Fuentes: Solera, AM Online, Body Shop Magazine y El País.",
+    "category": "Guías",
+    "image": "https://images.unsplash.com/photo-1771340742493-52fbd5476ccb?w=1200&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDV8fG1lY2FuaWNvJTIwdGFsbGVyJTIwY29jaGVzfGVufDB8MHwwfHx8Mg%3D%3D",
+    "link": "articulos/coches-electricos-impacto-talleres-mecanicos.html",
+    "date": "2026-02-20",
+    "readTime": "12 min"
+},
+  {
     "id": 102,
     "title": "¿Se acabó el reinado del SUV? El regreso de compactos y berlinas eléctricas en 2026",
     "summary": "El dominio de los SUV muestra señales de estancamiento mientras compactos y berlinas eléctricas regresan con fuerza. Menor peso, mejor aerodinámica, consumos de 13-17 kWh/100 km frente a 18-22 del SUV, y precios más competitivos. Modelos como el Kia EV4 lideran una nueva ola de alternativas eficientes que ya rivalizan en autonomía con los todocaminos. Fuentes: Kaiser Associates, daze.eu, APMC y Wikipedia.",
