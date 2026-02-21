@@ -1,5 +1,15 @@
 [ 
 {
+    "id": 160,
+    "title": "Plan Auto+: las ayudas para coches eléctricos no llegarán hasta mayo-junio pero serán retroactivas desde enero",
+    "summary": "El Plan Auto+ sustituye al MOVES con 400 M€ y ayudas de hasta 4.500€ aplicadas como descuento directo en la compra. Las solicitudes no se abrirán hasta mayo-junio de 2026 pero serán retroactivas desde el 1 de enero. El retraso ya frena las ventas de eléctricos.",
+    "category": "Noticias",
+    "image": "https://images.unsplash.com/photo-1616361715039-11dde2199a21?w=1200&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NTN8fGNvY2hlJTIwZWwlQzMlQTljdHJpY28lMjB8ZW58MHwwfDB8fHwy",
+    "link": "articulos/plan-auto-plus-ayudas-coches-electricos-espana-2026.html",
+    "date": "2026-02-21",
+    "readTime": "10 min"
+},
+    {
     "id": 159,
     "title": "España supera las 100.000 matriculaciones de coches eléctricos en 2025: récord histórico",
     "summary": "España supera por primera vez las 100.000 matriculaciones de coches eléctricos puros en 2025, con un crecimiento del 59% interanual. Los electrificados rozan el 20% del mercado y los puntos de recarga públicos superan los 50.000.",
