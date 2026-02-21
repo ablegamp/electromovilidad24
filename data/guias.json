@@ -1,5 +1,15 @@
 [
 {
+    "id": 160,
+    "title": "¿Se paga solo un coche eléctrico? Calcula cuándo tu cuota equivale a 0€ gracias al ahorro en combustible",
+    "summary": "Analizamos con datos reales cuánto puedes ahorrar al mes con un coche eléctrico frente a gasolina en España. Un conductor que haga 2.000 km/mes puede ahorrar 154€ mensuales en combustible, reduciendo la cuota real de 350€ a 196€.",
+    "category": "Guías",
+    "image": "https://images.unsplash.com/photo-1600490819528-42405785433a?w=1200&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDZ8fGNvY2hlJTIwZWwlQzMlQTljdHJpY28lMjB8ZW58MHwwfDB8fHwy",
+    "link": "articulos/se-paga-solo-coche-electrico-ahorro-combustible-cuota.html",
+    "date": "2026-02-22",
+    "readTime": "10 min"
+},
+    {
     "id": 103,
     "title": "Cómo afectan los coches eléctricos al negocio de los talleres mecánicos",
     "summary": "Los vehículos eléctricos reducen un 28% la facturación media por reparación y un 33% las horas de mano de obra en talleres. Sin embargo, abren nuevas oportunidades: reparaciones tras colisiones 30-50% más caras, servicios especializados en baterías, calibración ADAS y mantenimiento de flotas. La formación en alta tensión y la adaptación tecnológica son clave para la supervivencia del sector. Fuentes: Solera, AM Online, Body Shop Magazine y El País.",
