@@ -1,5 +1,15 @@
 [  
 {
+    "id": 35,
+    "title": "Jaecoo SHS 8: review del SUV eléctrico del grupo Chery que quiere conquistar España",
+    "summary": "Review completa del Jaecoo SHS 8: SUV eléctrico con motor de 160 kW (218 CV), batería de 72 kWh, hasta 450 km de autonomía anunciada, carga rápida del 10 al 80% en 40 minutos, garantía de 7 años/150.000 km y equipamiento tecnológico de serie con pantalla de 12,3 pulgadas, ADAS completo y cámaras 360°.",
+    "category": "Reviews",
+    "image": "imagenes/jaecoo-shs-8.png",
+    "link": "articulos/jaecoo-shs-8-review-suv-electrico.html",
+    "date": "2026-01-22",
+    "readTime": "12 min"
+},
+    {
     "id": 34,
     "title": "Skoda Elroq: review del SUV compacto 100% eléctrico que quiere cambiar las reglas",
     "summary": "Review completa del Skoda Elroq 100% eléctrico: hasta 578 km de autonomía WLTP, baterías de 55 a 77 kWh, carga rápida del 10 al 80% en 28 minutos, desde 28.250 € antes de ayudas y 100.000 unidades producidas. Cuatro versiones: Elroq 50, 60, 85 y 85x con tracción total.",
