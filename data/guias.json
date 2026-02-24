@@ -1,6 +1,16 @@
 [
 {
-    "id": 162,
+  "id": 107,
+  "title": "Las marcas generalistas ya no quieren serlo: Skoda, Peugeot, Cupra y Renault se visten de premium",
+  "summary": "Skoda, Peugeot, Cupra y Renault están abandonando su posicionamiento generalista para adoptar estrategias premium encubiertas. Los precios suben hasta un 15% y la frontera con las marcas de lujo se difumina. Analizamos por qué lo hacen y qué significa para el consumidor.",
+  "category": "Guías",
+  "image": "https://images.unsplash.com/photo-1750830331454-86df5c088ca7?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fGNvY2hlJTIwZWxlY3RyaWNvJTIwYm9uaXRvfGVufDB8MHwwfHx8Mg%3D%3D",
+  "link": "articulos/marcas-generalistas-premium-encubierto-skoda-peugeot-cupra-renault.html",
+  "date": "2026-02-24",
+  "readTime": "11 min"
+},
+  {
+    "id":106,
     "title": "Dos gestos gratuitos que alargan la vida de la batería de tu coche eléctrico",
     "summary": "Geotab analiza 22.700 coches eléctricos y revela que la degradación media es del 2,3% anual. Pero puede duplicarse si abusas de la carga rápida. Dos hábitos sencillos y sin coste pueden reducirla a la mitad.",
     "category": "Guías",
@@ -10,7 +20,7 @@
     "readTime": "9 min"
 },
   {
-    "id": 161,
+    "id": 105,
     "title": "Comprar coche al contado vs renting: qué dice la OCU y cómo afecta al coche eléctrico",
     "summary": "La OCU confirma que comprar al contado sigue siendo más barato, pero el renting acelera la electrificación. Analizamos cifras, depreciación y cuándo conviene cada opción si te planteas un coche eléctrico en España.",
     "category": "Análisis",
@@ -20,7 +30,7 @@
     "readTime": "9 min"
 },
   {
-    "id": 160,
+    "id": 104,
     "title": "¿Se paga solo un coche eléctrico? Calcula cuándo tu cuota equivale a 0€ gracias al ahorro en combustible",
     "summary": "Analizamos con datos reales cuánto puedes ahorrar al mes con un coche eléctrico frente a gasolina en España. Un conductor que haga 2.000 km/mes puede ahorrar 154€ mensuales en combustible, reduciendo la cuota real de 350€ a 196€.",
     "category": "Guías",
