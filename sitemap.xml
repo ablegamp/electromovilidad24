@@ -36,6 +36,11 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://www.electromovilidad24.com/articulos/anuario-aedive-2025-2026-movilidad-electrica-espana.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://www.electromovilidad24.com/articulos/app-reve-puntos-recarga-espana.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>

@@ -1,5 +1,15 @@
 [ 
 {
+    "id": 161,
+    "title": "El informe que acaba de cambiar todo lo que creíamos sobre el coche eléctrico en España",
+    "summary": "El Anuario AEDIVE 2025-2026 revela cifras históricas: 395 millones invertidos en recarga pública, 254.783 vehículos electrificados matriculados en 2025 (20% del mercado) y más de 854.000 unidades en circulación. El sector pide certidumbre regulatoria y señala carencias del Plan Auto+.",
+    "category": "Noticias",
+    "image": "https://images.unsplash.com/photo-1707341596498-7cac3cd6a581?w=1200&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y29jaGUlMjBlbGVjdHJpY28lMjBib25pdG98ZW58MHwwfDB8fHwy",
+    "link": "articulos/anuario-aedive-2025-2026-movilidad-electrica-espana.html",
+    "date": "2026-02-24",
+    "readTime": "9 min"
+},
+{
     "id": 160,
     "title": "Plan Auto+: las ayudas para coches eléctricos no llegarán hasta mayo-junio pero serán retroactivas desde enero",
     "summary": "El Plan Auto+ sustituye al MOVES con 400 M€ y ayudas de hasta 4.500€ aplicadas como descuento directo en la compra. Las solicitudes no se abrirán hasta mayo-junio de 2026 pero serán retroactivas desde el 1 de enero. El retraso ya frena las ventas de eléctricos.",
