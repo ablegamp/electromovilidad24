@@ -1,5 +1,15 @@
 [ 
 {
+    "id": 162,
+    "title": "El papel de la Inteligencia Artificial que ya está revolucionando los coches eléctricos",
+    "summary": "Analizamos cómo las redes neuronales y el machine learning están transformando la conducción predictiva, la gestión térmica de baterías y la seguridad vial. El mercado de IA automotriz crecerá hasta 1,8 billones para 2035.",
+    "category": "Noticias",
+    "image": "https://images.unsplash.com/photo-1713345248737-2698000f143d?w=1200&auto=format&fit=crop&q=60",
+    "link": "noticias/ia-coches-electricos-transformacion-futuro.html",
+    "date": "2026-02-25",
+    "readTime": "12 min"
+},
+{
     "id": 161,
     "title": "El informe que acaba de cambiar todo lo que creíamos sobre el coche eléctrico en España",
     "summary": "El Anuario AEDIVE 2025-2026 revela cifras históricas: 395 millones invertidos en recarga pública, 254.783 vehículos electrificados matriculados en 2025 (20% del mercado) y más de 854.000 unidades en circulación. El sector pide certidumbre regulatoria y señala carencias del Plan Auto+.",
