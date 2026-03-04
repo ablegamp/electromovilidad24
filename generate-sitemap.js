@@ -64,7 +64,7 @@ function findHtmlFiles(dir) {
 
       if (stat.isDirectory()) {
         // Ignorar directorios de sistema
-        if (!item.startsWith('.') && item !== 'node_modules') {
+        if (!item.startsWith('.') && item !== 'node_modules' && item !== 'imagenes') {
           scanDirectory(fullPath);
         }
       } else if (stat.isFile() && item.endsWith('.html')) {
