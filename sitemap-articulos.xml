@@ -1279,6 +1279,12 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://www.electromovilidad24.com/articulos/mejores-coches-hibridos-no-enchufables-2026.html</loc>
+    <lastmod>2026-03-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://www.electromovilidad24.com/articulos/mejores-empresas-renting-coches-electricos-espana-2026.html</loc>
     <lastmod>2026-02-18</lastmod>
     <changefreq>monthly</changefreq>
@@ -1413,6 +1419,12 @@
   <url>
     <loc>https://www.electromovilidad24.com/articulos/nueva-version-nissan-electrico-iconico.html</loc>
     <lastmod>2026-02-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.electromovilidad24.com/articulos/obligacion-cambiar-coche-antes-2035.html</loc>
+    <lastmod>2026-03-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -1635,6 +1647,12 @@
   <url>
     <loc>https://www.electromovilidad24.com/articulos/que-pasa-coche-electrico-sin-bateria-autopista.html</loc>
     <lastmod>2026-02-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.electromovilidad24.com/articulos/que-pasa-si-se-moja-bateria-coche-electrico.html</loc>
+    <lastmod>2026-03-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
