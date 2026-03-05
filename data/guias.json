@@ -1,5 +1,15 @@
 [
 {
+  "id": 112,
+  "title": "¿Nos obligarán a cambiar de coche antes de 2035? Lo que dice la normativa europea",
+  "summary": "¿Es cierto que tendrás que cambiar tu coche de gasolina o diésel antes de 2035? Te explicamos qué dice realmente la normativa europea, qué restricciones habrá y cómo te afectará según tu situación.",
+  "category": "Guías",
+  "image": "https://images.pexels.com/photos/11554668/pexels-photo-11554668.jpeg",
+  "link": "articulos/obligacion-cambiar-coche-antes-2035.html",
+  "date": "2026-03-05",
+  "readTime": "9 min"
+},
+  {
   "id": 111,
   "title": "¿Qué pasa si se moja la batería de un coche eléctrico? Toda la verdad",
   "summary": "Guía completa sobre qué ocurre si se moja la batería de un coche eléctrico: seguridad bajo lluvia, protección IP67/IP68, riesgos en inundaciones, sistemas de desconexión automática y qué hacer tras una inmersión.",
