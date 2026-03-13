@@ -79,6 +79,26 @@
       "source": "/articulos/comprar-renting-suscripcion-coche-2026.html",
       "destination": "/articulos/renting-vs-comprar-coche-electrico-2026.html",
       "permanent": true
-    }
+    },
+    {
+      "source": "/articulos/el-gigante-chino-de-electricos",
+      "destination": "/articulos/coches-electricos-mas-baratos-2026-comparativa.html",
+      "permanent": true
+    },
+    {
+      "source": "/articulos/el-gigante-chino-de-electricos.html",
+      "destination": "/articulos/coches-electricos-mas-baratos-2026-comparativa.html",
+      "permanent": true
+    },
+    {
+      "source": "/articulos/5-coches-mas-baratos-que-llegaran-en-2026",
+      "destination": "/articulos/coches-electricos-mas-baratos-2026-comparativa.html",
+      "permanent": true
+    },
+    {
+      "source": "/articulos/5-coches-mas-baratos-que-llegaran-en-2026.html",
+      "destination": "/articulos/coches-electricos-mas-baratos-2026-comparativa.html",
+      "permanent": true
+  }
   ]
 }
