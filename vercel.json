@@ -1,0 +1,84 @@
+{
+  "redirects": [
+    {
+      "source": "/articulos/plan-auto-plus-anuncio-gobierno",
+      "destination": "/articulos/plan-moves-2026-previsiones-ayudas.html",
+      "permanent": true
+    },
+    {
+      "source": "/articulos/plan-auto-plus-anuncio-gobierno.html",
+      "destination": "/articulos/plan-moves-2026-previsiones-ayudas.html",
+      "permanent": true
+    },
+    {
+      "source": "/articulos/gobierno-prohibicion-coches-hibridos-2035-solo-electricos",
+      "destination": "/articulos/hibridos-2035-que-pasara-realmente.html",
+      "permanent": true
+    },
+    {
+      "source": "/articulos/gobierno-prohibicion-coches-hibridos-2035-solo-electricos.html",
+      "destination": "/articulos/hibridos-2035-que-pasara-realmente.html",
+      "permanent": true
+    },
+    {
+      "source": "/articulos/gobierno-prohibicion-hibridos-2035-solo-electricos",
+      "destination": "/articulos/hibridos-2035-que-pasara-realmente.html",
+      "permanent": true
+    },
+    {
+      "source": "/articulos/gobierno-prohibicion-hibridos-2035-solo-electricos.html",
+      "destination": "/articulos/hibridos-2035-que-pasara-realmente.html",
+      "permanent": true
+    },
+    {
+      "source": "/articulos/que-es-coche-hibrido-no-enchufable",
+      "destination": "/articulos/coches-hibridos-no-enchufables-2025.html",
+      "permanent": true
+    },
+    {
+      "source": "/articulos/que-es-coche-hibrido-no-enchufable.html",
+      "destination": "/articulos/coches-hibridos-no-enchufables-2025.html",
+      "permanent": true
+    },
+    {
+      "source": "/articulos/depreciacion-coches-electricos-vs-gasolina-2025",
+      "destination": "/articulos/coches-electricos-valor-reventa-tesla-usado-2025.html",
+      "permanent": true
+    },
+    {
+      "source": "/articulos/depreciacion-coches-electricos-vs-gasolina-2025.html",
+      "destination": "/articulos/coches-electricos-valor-reventa-tesla-usado-2025.html",
+      "permanent": true
+    },
+    {
+      "source": "/articulos/depreciacion-coches-electricos-valor-reventa-2025",
+      "destination": "/articulos/coches-electricos-valor-reventa-tesla-usado-2025.html",
+      "permanent": true
+    },
+    {
+      "source": "/articulos/depreciacion-coches-electricos-valor-reventa-2025.html",
+      "destination": "/articulos/coches-electricos-valor-reventa-tesla-usado-2025.html",
+      "permanent": true
+    },
+    {
+      "source": "/articulos/renting-vs-compra-coches-electricos",
+      "destination": "/articulos/renting-vs-comprar-coche-electrico-2026.html",
+      "permanent": true
+    },
+    {
+      "source": "/articulos/renting-vs-compra-coches-electricos.html",
+      "destination": "/articulos/renting-vs-comprar-coche-electrico-2026.html",
+      "permanent": true
+    },
+    {
+      "source": "/articulos/comprar-renting-suscripcion-coche-2026",
+      "destination": "/articulos/renting-vs-comprar-coche-electrico-2026.html",
+      "permanent": true
+    },
+    {
+      "source": "/articulos/comprar-renting-suscripcion-coche-2026.html",
+      "destination": "/articulos/renting-vs-comprar-coche-electrico-2026.html",
+      "permanent": true
+    }
+  ]
+}
