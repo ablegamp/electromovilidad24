@@ -1,11 +1,13 @@
 [  
-{ 
-    "id": 36, 
-    "title": "Nissan Juke Eléctrico 2026: precio, autonomía y fecha de llegada a España", 
-    "category": "Reviews", 
-    "link": "articulos/nissan-juke-electrico-2026-precio-autonomia-espana.html", 
-    "date": "2026-03-14", 
-    "readTime": "9 min" 
+{
+    "id": 36,
+    "title": "Nissan Juke Eléctrico 2026: precio, autonomía y fecha de llegada a España",
+    "summary": "Todo lo que sabemos del nuevo Nissan Juke eléctrico: plataforma CMF-EV compartida con el Renault 4 E-Tech, dos versiones de batería (52 y 75 kWh), autonomía estimada de hasta 480 km WLTP, precio desde 35.000€ y llegada prevista a los concesionarios españoles en el último trimestre de 2026.",
+    "category": "Reviews",
+    "image": "imagenes/nissan-juke-2026.png",
+    "link": "articulos/nissan-juke-electrico-2026-precio-autonomia-espana.html",
+    "date": "2026-03-14",
+    "readTime": "9 min"
 },
     {
     "id": 35,
