@@ -1,5 +1,15 @@
 [ 
 {
+  "id": 169,
+  "title": "El coche eléctrico solar que cuesta menos de 6.000€ y se carga solo",
+  "summary": "Bako Motors presenta el Bee, un microcoche eléctrico con paneles solares integrados que puede recorrer hasta 50 km diarios sin enchufarse. Con un precio revolucionario de 5.700€, podría democratizar la movilidad eléctrica en todo el mundo.",
+  "category": "Noticias",
+  "image": "imagenes/bee-solar.png",
+  "link": "articulos/coche-electrico-solar-barato-bako-motors-bee.html",
+  "date": "2026-03-17",
+  "readTime": "8 min"
+},
+{
   "id": 168,
   "title": "Tesla inicia producción masiva de baterías 4680: más autonomía y menor coste",
   "summary": "Tesla anuncia la producción en masa de las baterías 4680 en Giga Texas. Mayor densidad energética, reducción de costes y más autonomía para el Cybertruck y futuros modelos. El avance marca un salto impactante en la movilidad eléctrica.",
