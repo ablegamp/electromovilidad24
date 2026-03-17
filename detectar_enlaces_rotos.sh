@@ -3,7 +3,7 @@
 echo "🔍 Detectando enlaces rotos en el sitio web..."
 echo "=========================================="
 
-BASE_DIR="/home/jmartinf/Documentos/movilidadelectrica24/movilidadelectrica24"
+BASE_DIR="/home/jmartinf/Documentos/electromovilidad24"
 ARTICULOS_DIR="$BASE_DIR/articulos"
 RESULT_FILE="$BASE_DIR/enlaces_rotos.txt"
 
