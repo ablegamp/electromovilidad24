@@ -613,12 +613,6 @@
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://www.electromovilidad24.com/articulos/comprar-renting-suscripcion-coche-2026.html</loc>
-    <lastmod>2026-03-04</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
     <loc>https://www.electromovilidad24.com/articulos/confort-viajes-largos-electricos-2025.html</loc>
     <lastmod>2026-02-18</lastmod>
     <changefreq>monthly</changefreq>
@@ -746,18 +740,6 @@
   </url>
   <url>
     <loc>https://www.electromovilidad24.com/articulos/democratizacion-coche-electrico-2026.html</loc>
-    <lastmod>2026-02-18</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://www.electromovilidad24.com/articulos/depreciacion-coches-electricos-valor-reventa-2025.html</loc>
-    <lastmod>2026-03-16</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://www.electromovilidad24.com/articulos/depreciacion-coches-electricos-vs-gasolina-2025.html</loc>
     <lastmod>2026-02-18</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -989,18 +971,6 @@
     <lastmod>2026-02-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.electromovilidad24.com/articulos/gobierno-prohibicion-coches-hibridos-2035-solo-electricos.html</loc>
-    <lastmod>2026-03-16</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://www.electromovilidad24.com/articulos/gobierno-prohibicion-hibridos-2035-solo-electricos.html</loc>
-    <lastmod>2026-02-18</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://www.electromovilidad24.com/articulos/grok-tesla-inteligencia-artificial-europa.html</loc>
@@ -1537,12 +1507,6 @@
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://www.electromovilidad24.com/articulos/plan-auto-plus-anuncio-gobierno.html</loc>
-    <lastmod>2026-02-18</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
     <loc>https://www.electromovilidad24.com/articulos/plan-auto-plus-ayudas-coches-electricos-espana-2026.html</loc>
     <lastmod>2026-02-25</lastmod>
     <changefreq>weekly</changefreq>
@@ -1711,12 +1675,6 @@
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://www.electromovilidad24.com/articulos/que-es-coche-hibrido-no-enchufable.html</loc>
-    <lastmod>2026-03-16</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
     <loc>https://www.electromovilidad24.com/articulos/que-pasa-coche-electrico-sin-bateria-autopista.html</loc>
     <lastmod>2026-02-18</lastmod>
     <changefreq>weekly</changefreq>
@@ -1793,18 +1751,6 @@
     <lastmod>2026-03-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://www.electromovilidad24.com/articulos/renting-vs-compra-coches-electricos-empresas-autonomos.html</loc>
-    <lastmod>2026-02-18</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://www.electromovilidad24.com/articulos/renting-vs-compra-coches-electricos.html</loc>
-    <lastmod>2026-02-18</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://www.electromovilidad24.com/articulos/renting-vs-comprar-coche-electrico-2026.html</loc>
@@ -1913,6 +1859,12 @@
     <lastmod>2026-02-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.electromovilidad24.com/articulos/stellantis-vigo-17-millones-coches-espana-hub-electrico.html</loc>
+    <lastmod>2026-03-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://www.electromovilidad24.com/articulos/suv-electrico-11000-euros-descuento-desafia-tesla.html</loc>
@@ -2240,7 +2192,7 @@
   </url>
   <url>
     <loc>https://www.electromovilidad24.com/articulos/zeekr-espana-modelos-precios-concesionarios-2026.html</loc>
-    <lastmod>2026-03-12</lastmod>
+    <lastmod>2026-03-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>

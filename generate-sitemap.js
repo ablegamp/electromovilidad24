@@ -8,6 +8,16 @@
 const fs = require('fs');
 const path = require('path');
 
+// Cargar configuración de redirecciones 301 desde vercel.json
+let redirects301 = [];
+try {
+  const vercelConfig = JSON.parse(fs.readFileSync('vercel.json', 'utf8'));
+  redirects301 = vercelConfig.redirects ? vercelConfig.redirects.map(r => r.source.replace('/articulos/', '')) : [];
+  console.log(`🔍 Cargadas ${redirects301.length} redirecciones 301 desde vercel.json`);
+} catch (error) {
+  console.log('⚠️  No se pudo cargar vercel.json, continuando sin exclusiones');
+}
+
 // Configuración de prioridades y frecuencias de cambio
 const PAGE_CONFIG = {
   'index.html': { priority: '1.0', changefreq: 'daily' },
@@ -68,9 +78,16 @@ function findHtmlFiles(dir) {
           scanDirectory(fullPath);
         }
       } else if (stat.isFile() && item.endsWith('.html')) {
-        // Excluir páginas legales y otras que no queremos en el sitemap principal
-        if (!['privacidad.html', 'terminos.html'].includes(item)) {
+        const relativePath = path.relative('.', fullPath).replace(/\\/g, '/');
+        
+        // Excluir páginas legales y URLs con redirección 301
+        const shouldExclude = ['privacidad.html', 'terminos.html'].includes(item) || 
+                              redirects301.some(redirect => relativePath.includes(redirect));
+        
+        if (!shouldExclude) {
           files.push(fullPath);
+        } else if (redirects301.some(redirect => relativePath.includes(redirect))) {
+          console.log(`🚫 Excluyendo URL con redirección 301: ${relativePath}`);
         }
       }
     }
