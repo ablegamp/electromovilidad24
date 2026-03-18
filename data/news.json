@@ -1,5 +1,15 @@
 [ 
 {
+  "id": 170,
+  "title": "Stellantis Vigo alcanza 17 millones de coches: España, hub del vehículo eléctrico",
+  "summary": "La planta gallega celebra un hito histórico con el Opel Combo Electric como protagonista. Con inversiones superiores a 1.000 millones de euros, España se consolida como centro europeo de producción de coches eléctricos.",
+  "category": "Noticias",
+  "image": "imagenes/opel-combo-electric.png",
+  "link": "articulos/stellantis-vigo-17-millones-coches-espana-hub-electrico.html",
+  "date": "2026-03-18",
+  "readTime": "8 min"
+},
+{
   "id": 169,
   "title": "El coche eléctrico solar que cuesta menos de 6.000€ y se carga solo",
   "summary": "Bako Motors presenta el Bee, un microcoche eléctrico con paneles solares integrados que puede recorrer hasta 50 km diarios sin enchufarse. Con un precio revolucionario de 5.700€, podría democratizar la movilidad eléctrica en todo el mundo.",
