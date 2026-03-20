@@ -1,5 +1,15 @@
 [
 {
+    "id": 123,
+    "title": "Autonomía real vs WLTP: por qué tu coche eléctrico no llega a los km del catálogo",
+    "summary": "Guía técnica sobre la diferencia entre autonomía WLTP y autonomía real en coches eléctricos. Cuánto pierdes en autopista (hasta un 40%), en invierno (hasta un 35%), con climatización, y por qué el ciclo WLTP se mide en condiciones que no reflejan el uso real. Con tablas de modelos populares y fórmula para calcularlo tú mismo.",
+    "category": "Guías",
+    "image": "https://images.unsplash.com/photo-1721816436045-b1e437357de5?w=400&auto=format&fit=crop&q=60",
+    "link": "articulos/autonomia-real-vs-wltp-coches-electricos-por-que-difieren.html",
+    "date": "2026-03-20",
+    "readTime": "11 min"
+},
+  {
   "id": 122,
   "title": "¿Es obligatorio el boletín eléctrico al instalar un cargador de coche eléctrico?",
   "summary": "Guía completa sobre el boletín eléctrico para instalar un punto de recarga en España: cuándo es obligatorio, normativa REBT e ITC-BT-52, casos prácticos en garaje comunitario, vivienda unifamiliar y empresa, coste del certificado y quién puede emitirlo.",

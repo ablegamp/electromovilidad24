@@ -79,6 +79,12 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://www.electromovilidad24.com/articulos/autonomia-real-vs-wltp-coches-electricos-por-que-difieren.html</loc>
+    <lastmod>2026-03-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://www.electromovilidad24.com/articulos/ayudas-7500-euros-autonomos-pymes-coches-electricos-2026.html</loc>
     <lastmod>2026-02-18</lastmod>
     <changefreq>weekly</changefreq>
@@ -193,6 +199,12 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://www.electromovilidad24.com/articulos/boletin-electrico-instalar-cargador-coche-electrico.html</loc>
+    <lastmod>2026-03-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://www.electromovilidad24.com/articulos/byd-atto-2-review-precios-autonomia-espana.html</loc>
     <lastmod>2026-02-18</lastmod>
     <changefreq>weekly</changefreq>
@@ -249,6 +261,12 @@
   <url>
     <loc>https://www.electromovilidad24.com/articulos/byd-red-cargadores-espana.html</loc>
     <lastmod>2026-03-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.electromovilidad24.com/articulos/byd-seagull-dolphin-surf-precio-espana-2026.html</loc>
+    <lastmod>2026-03-20</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -686,7 +704,7 @@
   </url>
   <url>
     <loc>https://www.electromovilidad24.com/articulos/cuanto-tarda-cargar-coche-electrico.html</loc>
-    <lastmod>2026-02-18</lastmod>
+    <lastmod>2026-03-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -2183,6 +2201,12 @@
     <lastmod>2026-03-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.electromovilidad24.com/articulos/zeekr-8x-hyper-precio-espana-especificaciones-2026.html</loc>
+    <lastmod>2026-03-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://www.electromovilidad24.com/articulos/zeekr-alemania-lanzamiento-tres-modelos.html</loc>

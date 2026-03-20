@@ -1,0 +1,582 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
+  <meta name="googlebot" content="index, follow" />
+  <meta name="theme-color" content="#10B981" />
+  <meta name="msapplication-TileColor" content="#10B981" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+  <meta name="format-detection" content="telephone=no" />
+  <title>Autonomía Real vs WLTP: Por Qué Tu Eléctrico No Llega a los Km del Catálogo</title>
+  <meta name="description" content="Por qué la autonomía real de un coche eléctrico no coincide con el WLTP del catálogo. Cuánto pierdes en invierno, en autopista, con el aire acondicionado y cómo calcularlo tú mismo." />
+  <link rel="canonical" href="https://www.electromovilidad24.com/articulos/autonomia-real-vs-wltp-coches-electricos-por-que-difieren.html" />
+  <meta property="og:type" content="article" />
+  <meta property="og:title" content="Autonomía Real vs WLTP: Por Qué Tu Eléctrico No Llega a los Km del Catálogo" />
+  <meta property="og:description" content="Por qué la autonomía real de un coche eléctrico no coincide con el WLTP del catálogo. Cuánto pierdes en invierno, en autopista, con el aire acondicionado y cómo calcularlo tú mismo." />
+  <meta property="og:image" content="https://images.unsplash.com/photo-1721816436045-b1e437357de5?w=1200&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTQ1fHxhdXRvbm9taWElMjBjb2NoZSUyMGVsZWN0cmljb3xlbnwwfDB8MHx8fDI%3D" />
+  <meta property="og:image:alt" content="Coche eléctrico pantalla autonomía real vs WLTP" />
+  <meta property="og:locale" content="es_ES" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Autonomía Real vs WLTP: Por Qué Tu Eléctrico No Llega a los Km del Catálogo" />
+  <meta name="twitter:description" content="Por qué la autonomía real de un coche eléctrico no coincide con el WLTP del catálogo. Cuánto pierdes en invierno, en autopista, con el aire acondicionado y cómo calcularlo tú mismo." />
+  <meta name="twitter:image" content="https://images.unsplash.com/photo-1721816436045-b1e437357de5?w=1200&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTQ1fHxhdXRvbm9taWElMjBjb2NoZSUyMGVsZWN0cmljb3xlbnwwfDB8MHx8fDI%3D" />
+  <meta name="author" content="Movilidad Eléctrica 24" />
+  <link rel="icon" type="image/svg+xml" href="../favicon.svg">
+  <link rel="shortcut icon" href="../favicon.svg">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.0/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <script>
+    tailwind.config = { theme: { extend: { fontFamily: { inter: ['Inter','sans-serif'] }, colors: { 'verde-principal':'#10B981','gris-oscuro':'#1F2937','gris-claro':'#F9FAFB' } } } }
+  </script>
+  <style>
+    body { font-family: 'Inter', sans-serif; }
+    .article-content p { margin: 1rem 0; line-height: 1.75; }
+    .article-content h2 { margin-top: 2rem; margin-bottom: 1rem; font-size: 1.75rem; font-weight: 800; color: #065f46; }
+    .article-content h3 { margin-top: 1.5rem; margin-bottom: 0.75rem; font-size: 1.5rem; font-weight: 700; }
+    .highlight-box { background: linear-gradient(135deg, #ecfdf5 0%, #d1fae5 100%); border-left: 4px solid #10B981; padding: 1.5rem; margin: 1.5rem 0; border-radius: 0.5rem; }
+    .stat-box { background: linear-gradient(135deg, #dbeafe 0%, #bfdbfe 100%); border-left: 4px solid #3b82f6; padding: 1.5rem; margin: 1.5rem 0; border-radius: 0.5rem; }
+    .warning-box { background: linear-gradient(135deg, #fef3c7 0%, #fde68a 100%); border-left: 4px solid #f59e0b; padding: 1.5rem; margin: 1.5rem 0; border-radius: 0.5rem; }
+    .info-box { background: linear-gradient(135deg, #f0f9ff 0%, #e0f2fe 100%); border-left: 4px solid #0ea5e9; padding: 1.5rem; margin: 1.5rem 0; border-radius: 0.5rem; }
+    .comparison-table { width: 100%; border-collapse: collapse; margin: 1.5rem 0; box-shadow: 0 1px 3px rgba(0,0,0,0.1); border-radius: 0.5rem; overflow: hidden; }
+    .comparison-table th, .comparison-table td { border: 1px solid #e5e7eb; padding: 0.75rem 1rem; text-align: left; }
+    .comparison-table thead th { background: linear-gradient(135deg, #065f46, #10B981); color: white; font-weight: 600; }
+    .comparison-table tbody tr:hover { background-color: #f9fafb; }
+  </style>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Autonomía Real vs WLTP: Por Qué Tu Eléctrico No Llega a los Km del Catálogo",
+    "datePublished": "2026-03-20T09:00:00+01:00",
+    "dateModified": "2026-03-20T09:00:00+01:00",
+    "author": { "@type": "Person", "name": "Movilidad Eléctrica 24" },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Movilidad Eléctrica 24",
+      "logo": { "@type": "ImageObject", "url": "https://www.electromovilidad24.com/imagenes/logo.webp" }
+    },
+    "image": "https://images.unsplash.com/photo-1721816436045-b1e437357de5?w=1200&auto=format&fit=crop&q=60",
+    "description": "Por qué la autonomía real de un coche eléctrico no coincide con el WLTP del catálogo. Cuánto pierdes en invierno, en autopista, con el aire acondicionado y cómo calcularlo tú mismo.",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://www.electromovilidad24.com/articulos/autonomia-real-vs-wltp-coches-electricos-por-que-difieren.html"
+    },
+    "keywords": ["autonomía real coche eléctrico", "WLTP vs autonomía real", "por qué eléctrico no llega autonomía", "autonomía invierno coche eléctrico", "WLTP explicado"]
+  }
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "¿Cuánto menos autonomía real da un coche eléctrico respecto al WLTP?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "En condiciones mixtas habituales, la autonomía real de un coche eléctrico suele ser entre un 10% y un 20% inferior a la cifra WLTP del catálogo. En autopista a 120-130 km/h constantes, la reducción puede llegar al 30-40%. En ciudad, sin embargo, algunos modelos igualan o incluso superan el WLTP gracias a la recuperación de energía en frenadas."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "¿Cuánta autonomía pierde un coche eléctrico en invierno?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "En invierno, con temperaturas por debajo de 5°C, un coche eléctrico puede perder entre un 20% y un 40% de su autonomía respecto al WLTP. La pérdida tiene dos causas: la batería de litio rinde peor a bajas temperaturas, y la calefacción consume entre 2 y 5 kWh adicionales por cada 100 km."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "¿Qué es el ciclo WLTP y por qué no refleja la autonomía real?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "El WLTP (Worldwide Harmonized Light-duty Vehicle Test Procedure) es el protocolo oficial europeo para medir la autonomía de los coches eléctricos. Las pruebas se realizan en laboratorio a una temperatura controlada de 23°C, a una velocidad media de 46,5 km/h y sin climatización activa. Estas condiciones son más favorables que las del uso cotidiano real, de ahí la diferencia con la autonomía real."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "¿Cómo puedo calcular la autonomía real de un coche eléctrico?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "La fórmula es sencilla: divide la capacidad útil de la batería (en kWh) entre el consumo real esperado (en kWh/100 km) y multiplica por 100. Por ejemplo, un coche con 60 kWh de batería útil y un consumo real de 18 kWh/100 km tendrá una autonomía real de 60 ÷ 18 × 100 = 333 km. El consumo real depende de la velocidad, temperatura y estilo de conducción."
+        }
+      }
+    ]
+  }
+  </script>
+</head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-5PD6Y58MK5"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-5PD6Y58MK5');
+</script>
+<body class="bg-gray-50 text-gray-900">
+
+  <header class="bg-white shadow-lg sticky top-0 z-50">
+    <div class="container mx-auto px-4 py-4">
+      <div class="flex items-center justify-between">
+        <a href="../index.html" class="flex items-center space-x-3">
+          <div class="bg-white rounded-lg p-1">
+            <img src="../imagenes/logo.webp" alt="Electromovilidad 24" class="h-16 w-auto">
+          </div>
+          <div>
+            <h1 class="text-2xl md:text-3xl font-bold text-gris-oscuro">Electromovilidad 24</h1>
+            <p class="text-sm text-gray-600">Descubre el futuro de la movilidad</p>
+          </div>
+        </a>
+        <button id="mobile-menu-btn" class="md:hidden bg-verde-principal text-white p-2 rounded-lg">
+          <i class="fas fa-bars"></i>
+        </button>
+      </div>
+      <nav class="mt-4">
+        <ul id="nav-menu" class="hidden md:flex space-x-8 text-gris-oscuro font-medium">
+          <li><a href="../index.html" class="hover:text-verde-principal transition-colors duration-200">Inicio</a></li>
+          <li><a href="../comparativas.html" class="hover:text-verde-principal transition-colors duration-200">Comparativas</a></li>
+          <li><a href="../reviews.html" class="hover:text-verde-principal transition-colors duration-200">Reviews</a></li>
+          <li><a href="../guias.html" class="hover:text-verde-principal transition-colors duration-200 border-b-2 border-verde-principal pb-1">Guías</a></li>
+          <li><a href="../calculadoras.html" class="hover:text-verde-principal transition-colors duration-200">Calculadoras</a></li>
+          <li><a href="../sobre.html" class="hover:text-verde-principal transition-colors duration-200">Sobre mí</a></li>
+          <li><a href="../contacto.html" class="hover:text-verde-principal transition-colors duration-200">Contacto</a></li>
+        </ul>
+        <ul id="mobile-nav" class="md:hidden hidden flex-col space-y-3 mt-4 bg-gray-50 p-4 rounded-lg">
+          <li><a href="../index.html" class="block text-gris-oscuro hover:text-verde-principal font-medium">Inicio</a></li>
+          <li><a href="../index.html#news-section" class="block text-gris-oscuro hover:text-verde-principal font-medium">Noticias</a></li>
+          <li><a href="../comparativas.html" class="block text-gris-oscuro hover:text-verde-principal font-medium">Comparativas</a></li>
+          <li><a href="../reviews.html" class="block text-gris-oscuro hover:text-verde-principal font-medium">Reviews</a></li>
+          <li><a href="../guias.html" class="block text-gris-oscuro hover:text-verde-principal font-medium">Guías</a></li>
+          <li><a href="../calculadoras.html" class="block text-gris-oscuro hover:text-verde-principal font-medium">Calculadoras</a></li>
+          <li><a href="../sobre.html" class="block text-gris-oscuro hover:text-verde-principal font-medium">Sobre mí</a></li>
+          <li><a href="../contacto.html" class="block text-gris-oscuro hover:text-verde-principal font-medium">Contacto</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="max-w-4xl mx-auto px-4 py-8">
+    <article>
+      <header class="mb-6">
+        <p class="text-sm text-gray-500 flex items-center space-x-2 flex-wrap gap-2">
+          <i class="fas fa-calendar-alt"></i>
+          <time datetime="2026-03-20">20 de marzo de 2026</time>
+          <span class="mx-2">•</span>
+          <span class="bg-blue-500 text-white px-2 py-0.5 rounded text-xs">Guía</span>
+          <span class="mx-2">•</span>
+          <span>Lectura: 11 min</span>
+        </p>
+        <h1 class="text-3xl md:text-4xl font-extrabold leading-tight mt-2">Autonomía real vs WLTP: por qué tu coche eléctrico no llega a los kilómetros del catálogo — y cuánto pierdes realmente</h1>
+        <p class="mt-3 text-lg text-gray-700">Compras un coche eléctrico con 450 km de autonomía según el catálogo. Llega el primer invierno, enciendes la calefacción, te metes en la autopista y el ordenador de a bordo te dice que tienes 290 km. ¿Te han engañado? No exactamente. Pero sí hay cosas que nadie te explica bien antes de firmar. Aquí lo hago.</p>
+      </header>
+
+      <!-- Breadcrumbs -->
+      <nav aria-label="breadcrumbs" class="text-sm text-gray-600 mb-4">
+        <ol class="flex flex-wrap items-center gap-2">
+          <li><a href="../index.html" class="text-emerald-700 hover:underline">Inicio</a></li>
+          <li>/</li>
+          <li><a href="../guias.html" class="text-emerald-700 hover:underline">Guías</a></li>
+          <li>/</li>
+          <li aria-current="page" class="text-gray-800">Autonomía real vs WLTP</li>
+        </ol>
+      </nav>
+
+      <!-- Índice -->
+      <nav class="bg-emerald-50 border border-emerald-100 rounded-lg p-4 mb-6 text-sm">
+        <p class="font-semibold text-emerald-800 mb-2">Contenido</p>
+        <ol class="list-decimal ml-5 space-y-1 text-emerald-900">
+          <li><a class="hover:underline" href="#wltp">Qué es el WLTP y cómo funciona la prueba</a></li>
+          <li><a class="hover:underline" href="#diferencia">Cuánto difiere realmente: entre el 10% y el 40%</a></li>
+          <li><a class="hover:underline" href="#velocidad">El factor que más autonomía te roba: la velocidad</a></li>
+          <li><a class="hover:underline" href="#temperatura">El invierno: el gran enemigo de la batería</a></li>
+          <li><a class="hover:underline" href="#climatizacion">Aire acondicionado y calefacción: cuánto consumen</a></li>
+          <li><a class="hover:underline" href="#otros">Otros factores que influyen menos pero importan</a></li>
+          <li><a class="hover:underline" href="#tabla">Autonomía real estimada de modelos populares en España</a></li>
+          <li><a class="hover:underline" href="#calcular">Cómo calcular tú mismo la autonomía real</a></li>
+          <li><a class="hover:underline" href="#ciudad">La excepción: en ciudad puedes superar el WLTP</a></li>
+          <li><a class="hover:underline" href="#conclusion">Lo que deberían publicar los fabricantes y no publican</a></li>
+          <li><a class="hover:underline" href="#faq">Preguntas frecuentes</a></li>
+        </ol>
+      </nav>
+
+      <!-- Hero Image -->
+      <div class="mb-8 rounded-lg overflow-hidden shadow-xl">
+        <img
+          src="https://images.unsplash.com/photo-1721816436045-b1e437357de5?w=1200&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTQ1fHxhdXRvbm9taWElMjBjb2NoZSUyMGVsZWN0cmljb3xlbnwwfDB8MHx8fDI%3D"
+          alt="Pantalla autonomía coche eléctrico diferencia WLTP real"
+          class="w-full h-auto"
+          loading="eager"
+        >
+        <p class="text-sm text-gray-500 p-2 bg-gray-50 text-center">Lo que marca el catálogo y lo que marca el ordenador de a bordo no siempre coinciden — y hay razones técnicas muy concretas para eso</p>
+      </div>
+
+      <div class="article-content">
+
+        <h2 id="wltp">Qué es el WLTP y cómo funciona la prueba</h2>
+
+        <p>Para entender por qué la autonomía real no coincide con la del catálogo, hay que entender primero cómo se mide esa cifra oficial. El <strong>WLTP (Worldwide Harmonized Light-duty Vehicle Test Procedure)</strong> es el protocolo de homologación que usan todos los fabricantes en Europa desde 2017 para medir la autonomía de los eléctricos y el consumo de los de combustión.</p>
+
+        <p>El ciclo WLTP es, sobre el papel, más realista que el antiguo NEDC que usábamos antes — ese era tan optimista que los fabricantes llegaban a publicar consumos de gasolina que eran directamente ciencia ficción. Pero "más realista que el NEDC" no significa "igual que la vida real". El protocolo WLTP define condiciones muy concretas:</p>
+
+        <div class="stat-box">
+          <p class="font-semibold mb-3">📋 Condiciones de la prueba WLTP:</p>
+          <ul class="space-y-2">
+            <li>• <strong>Temperatura ambiente:</strong> 23°C — la más favorable para una batería de litio</li>
+            <li>• <strong>Velocidad media:</strong> 46,5 km/h — mezcla de urbano, extra-urbano y autopista</li>
+            <li>• <strong>Duración del ciclo:</strong> 30 minutos recorriendo 23,3 km</li>
+            <li>• <strong>Climatización:</strong> desactivada durante la prueba</li>
+            <li>• <strong>Carga del vehículo:</strong> sin pasajeros ni equipaje extra</li>
+            <li>• <strong>Neumáticos:</strong> con la presión óptima, recién ajustada</li>
+          </ul>
+        </div>
+
+        <p>¿Ves el problema? Veintitrés grados, sin climatización, a velocidad media baja y sin carga. Esas son las condiciones de laboratorio en las que se mide la autonomía que después aparece en el catálogo con letra grande. En condiciones reales, casi ninguna de esas variables se cumple simultáneamente.</p>
+
+        <p>Además — y esto me parece lo más importante — los fabricantes pueden elegir, dentro del protocolo WLTP, la <strong>configuración más favorable de su modelo</strong>: las llantas más pequeñas (menos resistencia al rodamiento), los neumáticos más eficientes de su gama, la versión con menos equipamiento opcional que pesa menos. La cifra WLTP que publican corresponde siempre al mejor escenario posible dentro de las normas. No es trampa, pero tampoco es lo que vas a ver tú en el ordenador de a bordo.</p>
+
+        <h2 id="diferencia">Cuánto difiere realmente: entre el 10% y el 40%</h2>
+
+        <p>La respuesta corta es: depende mucho de cómo y dónde conduzcas. Pero los datos son bastante consistentes.</p>
+
+        <p>Un análisis de la OCU sobre 31 fabricantes de coches eléctricos concluyó que la autonomía real media es entre un <strong>9% y un 22% inferior</strong> a la cifra WLTP declarada. Ese es el rango habitual en condiciones mixtas de temperatura moderada. Pero cuando las condiciones se ponen más exigentes — invierno, autopista, climatización a tope — la diferencia puede llegar al <strong>30-40%</strong>.</p>
+
+        <div class="warning-box">
+          <p class="font-semibold mb-2">⚠️ El rango real de diferencia según escenario:</p>
+          <ul class="space-y-2">
+            <li>• <strong>Ciudad con temperaturas suaves:</strong> 0-10% menos que WLTP (algunos modelos igualan o superan)</li>
+            <li>• <strong>Carretera mixta, 20°C:</strong> 10-15% menos que WLTP</li>
+            <li>• <strong>Autopista a 120 km/h, 20°C:</strong> 20-30% menos que WLTP</li>
+            <li>• <strong>Autopista a 130 km/h, invierno:</strong> 30-40% menos que WLTP</li>
+            <li>• <strong>Invierno urbano con calefacción:</strong> 20-35% menos que WLTP</li>
+          </ul>
+        </div>
+
+        <p>Esto significa que si compras un coche con 400 km WLTP, en el peor escenario real — autopista en invierno a 130 km/h con calefacción — podrías quedarte en 240-280 km. Sigue siendo suficiente para la mayoría de usos, pero conviene saberlo antes, no después.</p>
+
+        <h2 id="velocidad">El factor que más autonomía te roba: la velocidad</h2>
+
+        <p>Si tuviera que señalar un solo factor como el principal culpable de la diferencia entre WLTP y realidad, sería la velocidad. La resistencia aerodinámica crece con el <strong>cuadrado de la velocidad</strong> — eso significa que pasar de 90 a 120 km/h no duplica el consumo, lo cuadruplica casi. Un coche que consume 15 kWh/100 km a 90 km/h puede consumir 22-25 kWh/100 km a 130 km/h.</p>
+
+        <p>Pruebas independientes de ArenaEV con siete modelos eléctricos a diferentes velocidades constantes confirmaron que a 130 km/h, la autonomía cae entre un <strong>30% y un 40%</strong> respecto al WLTP. Es el factor individual más grande de todos.</p>
+
+        <div class="overflow-x-auto my-6">
+          <table class="comparison-table w-full text-sm">
+            <thead>
+              <tr>
+                <th class="py-3 px-4 text-left">Velocidad</th>
+                <th class="py-3 px-4 text-center">Pérdida vs WLTP</th>
+                <th class="py-3 px-4 text-center">Ejemplo (400 km WLTP)</th>
+                <th class="py-3 px-4 text-center">Consumo típico</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr class="border-b border-gray-200 bg-green-50">
+                <td class="py-3 px-4 font-semibold">Ciudad (~40 km/h)</td>
+                <td class="py-3 px-4 text-center text-green-700 font-bold">0% o positivo</td>
+                <td class="py-3 px-4 text-center">400-430 km</td>
+                <td class="py-3 px-4 text-center">12-14 kWh/100km</td>
+              </tr>
+              <tr class="border-b border-gray-200">
+                <td class="py-3 px-4 font-semibold">Carretera (90 km/h)</td>
+                <td class="py-3 px-4 text-center">10-15%</td>
+                <td class="py-3 px-4 text-center">340-360 km</td>
+                <td class="py-3 px-4 text-center">16-18 kWh/100km</td>
+              </tr>
+              <tr class="border-b border-gray-200">
+                <td class="py-3 px-4 font-semibold">Autopista (120 km/h)</td>
+                <td class="py-3 px-4 text-center text-amber-700">20-25%</td>
+                <td class="py-3 px-4 text-center">300-320 km</td>
+                <td class="py-3 px-4 text-center">20-23 kWh/100km</td>
+              </tr>
+              <tr>
+                <td class="py-3 px-4 font-semibold">Autopista (130 km/h)</td>
+                <td class="py-3 px-4 text-center text-red-700 font-bold">30-40%</td>
+                <td class="py-3 px-4 text-center">240-280 km</td>
+                <td class="py-3 px-4 text-center">24-28 kWh/100km</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <p>La conclusión práctica es clara: <strong>si haces viajes largos en autopista, aplica siempre un descuento del 25-35% sobre el WLTP</strong> para planificar tus paradas de carga. Y si vas a 130 km/h habitual, bájalo a tu cabeza un 40%.</p>
+
+        <h2 id="temperatura">El invierno: el gran enemigo de la batería</h2>
+
+        <p>El frío y las baterías de litio no se llevan bien. Es química pura: a bajas temperaturas, las reacciones electroquímicas dentro de las celdas se ralentizan, la resistencia interna aumenta y la capacidad efectiva de la batería cae. Además, el electrolito se vuelve más viscoso, lo que dificulta el movimiento de los iones de litio entre los electrodos.</p>
+
+        <p>El efecto es doble y se suma: por un lado, la batería tiene menos capacidad real en frío. Por otro, la calefacción —que en un eléctrico es eléctrica, no gratuita como en un coche de combustión donde el motor ya calienta— consume entre <strong>2 y 5 kWh adicionales por cada 100 km</strong> según la temperatura exterior y el tamaño del habitáculo.</p>
+
+        <div class="info-box">
+          <p class="font-semibold mb-2">🌡️ Pérdida de autonomía por temperatura (estimación media):</p>
+          <ul class="space-y-2">
+            <li>• <strong>Por encima de 20°C:</strong> Condiciones óptimas — se aproxima al WLTP</li>
+            <li>• <strong>Entre 10°C y 20°C:</strong> Pérdida de ~5-10%</li>
+            <li>• <strong>Entre 0°C y 10°C:</strong> Pérdida de ~15-20%</li>
+            <li>• <strong>Entre -5°C y 0°C:</strong> Pérdida de ~25-35%</li>
+            <li>• <strong>Por debajo de -10°C:</strong> Pérdida de hasta un 40%</li>
+          </ul>
+          <p class="mt-2 text-sm">Datos basados en estudios de Recurrent y pruebas independientes en condiciones invernales. Los modelos con bomba de calor de serie reducen estas pérdidas significativamente.</p>
+        </div>
+
+        <p>Aquí hay una diferencia importante entre tecnologías de batería que vale la pena conocer. Las baterías <strong>NCM</strong> (níquel-cobalto-manganeso, las que usan Tesla o muchos modelos europeos) aguantan mejor el frío extremo que las <strong>LFP</strong> (litio-ferrofosfato, las que usa BYD o las versiones base de Tesla). Las LFP son más baratas y duran más ciclos, pero se comportan peor a temperaturas muy bajas. Si vives en zonas con inviernos duros, es un factor a considerar antes de comprar.</p>
+
+        <p>El consejo más práctico que puedo dar sobre el frío: <strong>precalienta la batería y el habitáculo mientras el coche está enchufado</strong>, no una vez en marcha. Así llegas al punto de carga óptimo sin haber gastado batería en calentar. La mayoría de apps de los fabricantes lo permiten programar.</p>
+
+        <h2 id="climatizacion">Aire acondicionado y calefacción: cuánto consumen</h2>
+
+        <p>En un coche de combustión, la calefacción es básicamente gratis — el motor ya genera calor y simplemente lo aprovechas. En un eléctrico, ese calor no existe: tienes que generarlo con electricidad. Es uno de los aspectos que más sorprenden a los que se pasan al eléctrico el primer invierno.</p>
+
+        <p>La calefacción eléctrica resistiva tradicional puede consumir entre 3 y 6 kW en condiciones de frío intenso. Sobre un coche que consume 18 kWh/100 km en carretera, añadir 4 kW de calefacción eleva el consumo a 22 kWh/100 km — un aumento del 22% que se traduce directamente en menos kilómetros.</p>
+
+        <p>Por eso la <strong>bomba de calor</strong> es una opción tan relevante. En lugar de generar calor por resistencia eléctrica, la bomba de calor extrae calor del exterior y lo amplifica, consumiendo entre 2 y 4 veces menos energía que la resistencia para el mismo efecto. En modelos como el Tesla Model Y, el Hyundai IONIQ 5 o el BYD Seal la bomba de calor viene de serie o como opción, y la diferencia en invierno es perceptible.</p>
+
+        <div class="highlight-box">
+          <p class="font-semibold mb-2">💡 Consumo estimado de climatización:</p>
+          <ul class="space-y-2">
+            <li>• <strong>Calefacción resistiva (invierno, -5°C):</strong> 3-6 kW adicionales</li>
+            <li>• <strong>Bomba de calor (invierno, -5°C):</strong> 1-2 kW adicionales</li>
+            <li>• <strong>Aire acondicionado (verano, 35°C):</strong> 1-3 kW adicionales</li>
+          </ul>
+          <p class="mt-2 text-sm">La bomba de calor reduce el impacto de la climatización en la autonomía hasta 3 veces respecto a la resistencia eléctrica. Vale la pena como opción si vives en zonas con inviernos fríos.</p>
+        </div>
+
+        <p>El aire acondicionado en verano también consume, aunque bastante menos que la calefacción en invierno. Con calor extremo y el AC a tope, puedes esperar una pérdida adicional de entre el 5% y el 15% de autonomía — notable, pero manejable.</p>
+
+        <h2 id="otros">Otros factores que influyen menos pero importan</h2>
+
+        <p>Velocidad, temperatura y climatización son los tres grandes. Pero hay otros factores que contribuyen a la diferencia entre WLTP y realidad que merece la pena conocer:</p>
+
+        <p><strong>Peso y carga:</strong> Cada 100 kg adicionales aumentan el consumo en torno a 0,5-1 kWh/100 km. Si vas con cuatro personas y el maletero lleno, no es lo mismo que conducir solo. No es dramático, pero suma.</p>
+
+        <p><strong>Presión de los neumáticos:</strong> Un neumático con 0,5 bares menos de presión puede aumentar el consumo entre un 1% y un 3%. Parece poco, pero en un eléctrico al que le sacas cada kWh, importa. Comprueba la presión mensualmente.</p>
+
+        <p><strong>Desnivel y orografía:</strong> Subir puertos de montaña consume mucho más de lo previsto. Bajarlos recupera energía, pero no al 100% — la eficiencia de la regeneración suele estar entre el 60% y el 75%. Si haces rutas con muchos desniveles, recalcula.</p>
+
+        <p><strong>Degradación de la batería:</strong> Con el tiempo, la capacidad máxima de cualquier batería disminuye. Una batería con 5 años de uso y buenas prácticas de carga habrá perdido entre un 5% y un 15% de su capacidad original. No es alarmante, pero es otro factor a considerar en coches de segunda mano.</p>
+
+        <p><strong>Estilo de conducción:</strong> Aceleraciones bruscas y frenadas tardías consumen bastante más que una conducción anticipativa. En ciudad, conducir de forma suave puede mejorar la autonomía real hasta un 20% respecto a una conducción agresiva.</p>
+
+        <h2 id="tabla">Autonomía real estimada de modelos populares en España</h2>
+
+        <p>Aquí viene la tabla que más me hubiera gustado tener yo cuando estaba estudiando qué eléctrico comprar. Autonomía WLTP oficial frente a estimación real en condiciones mixtas habituales en España — temperatura moderada, mezcla de ciudad, carretera y algo de autopista:</p>
+
+        <div class="overflow-x-auto my-6">
+          <table class="comparison-table w-full text-sm">
+            <thead>
+              <tr>
+                <th class="py-3 px-4 text-left">Modelo</th>
+                <th class="py-3 px-4 text-center">WLTP oficial</th>
+                <th class="py-3 px-4 text-center">Real mixto (~20°C)</th>
+                <th class="py-3 px-4 text-center">Real autopista 120 km/h</th>
+                <th class="py-3 px-4 text-center">Real invierno</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr class="border-b border-gray-200">
+                <td class="py-3 px-4 font-semibold">Tesla Model 3 Long Range</td>
+                <td class="py-3 px-4 text-center">629 km</td>
+                <td class="py-3 px-4 text-center font-semibold text-emerald-700">~530 km</td>
+                <td class="py-3 px-4 text-center">~430 km</td>
+                <td class="py-3 px-4 text-center">~390 km</td>
+              </tr>
+              <tr class="border-b border-gray-200">
+                <td class="py-3 px-4 font-semibold">Hyundai IONIQ 6 LR</td>
+                <td class="py-3 px-4 text-center">614 km</td>
+                <td class="py-3 px-4 text-center font-semibold text-emerald-700">~510 km</td>
+                <td class="py-3 px-4 text-center">~420 km</td>
+                <td class="py-3 px-4 text-center">~380 km</td>
+              </tr>
+              <tr class="border-b border-gray-200">
+                <td class="py-3 px-4 font-semibold">BYD Seal Excellence RWD</td>
+                <td class="py-3 px-4 text-center">570 km</td>
+                <td class="py-3 px-4 text-center font-semibold text-emerald-700">~470 km</td>
+                <td class="py-3 px-4 text-center">~380 km</td>
+                <td class="py-3 px-4 text-center">~340 km</td>
+              </tr>
+              <tr class="border-b border-gray-200">
+                <td class="py-3 px-4 font-semibold">Volkswagen ID.4 Pro</td>
+                <td class="py-3 px-4 text-center">559 km</td>
+                <td class="py-3 px-4 text-center font-semibold text-emerald-700">~460 km</td>
+                <td class="py-3 px-4 text-center">~370 km</td>
+                <td class="py-3 px-4 text-center">~330 km</td>
+              </tr>
+              <tr class="border-b border-gray-200">
+                <td class="py-3 px-4 font-semibold">Kia EV6 Long Range</td>
+                <td class="py-3 px-4 text-center">528 km</td>
+                <td class="py-3 px-4 text-center font-semibold text-emerald-700">~440 km</td>
+                <td class="py-3 px-4 text-center">~360 km</td>
+                <td class="py-3 px-4 text-center">~320 km</td>
+              </tr>
+              <tr class="border-b border-gray-200">
+                <td class="py-3 px-4 font-semibold">Tesla Model 3 RWD</td>
+                <td class="py-3 px-4 text-center">513 km</td>
+                <td class="py-3 px-4 text-center font-semibold text-emerald-700">~430 km</td>
+                <td class="py-3 px-4 text-center">~350 km</td>
+                <td class="py-3 px-4 text-center">~310 km</td>
+              </tr>
+              <tr class="border-b border-gray-200">
+                <td class="py-3 px-4 font-semibold">Hyundai IONIQ 5 LR</td>
+                <td class="py-3 px-4 text-center">481 km</td>
+                <td class="py-3 px-4 text-center font-semibold text-emerald-700">~400 km</td>
+                <td class="py-3 px-4 text-center">~330 km</td>
+                <td class="py-3 px-4 text-center">~295 km</td>
+              </tr>
+              <tr class="border-b border-gray-200">
+                <td class="py-3 px-4 font-semibold">Citroën ë-C3 (44 kWh)</td>
+                <td class="py-3 px-4 text-center">320 km</td>
+                <td class="py-3 px-4 text-center font-semibold text-emerald-700">~270 km</td>
+                <td class="py-3 px-4 text-center">~215 km</td>
+                <td class="py-3 px-4 text-center">~195 km</td>
+              </tr>
+              <tr>
+                <td class="py-3 px-4 font-semibold">BYD Dolphin Surf Boost</td>
+                <td class="py-3 px-4 text-center">322 km</td>
+                <td class="py-3 px-4 text-center font-semibold text-emerald-700">~270 km</td>
+                <td class="py-3 px-4 text-center">~215 km</td>
+                <td class="py-3 px-4 text-center">~195 km</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <p class="text-sm text-gray-500 italic">Estimaciones basadas en pruebas independientes y datos de consumo real reportados por usuarios. Los valores reales pueden variar según el modelo exacto, equipamiento y hábitos de conducción.</p>
+
+        <h2 id="calcular">Cómo calcular tú mismo la autonomía real</h2>
+
+        <p>No necesitas esperar a que alguien te diga cuánto va a hacer tu coche. La fórmula es sencilla y funciona bien como estimación:</p>
+
+        <div class="highlight-box">
+          <p class="font-semibold mb-3">🔢 Fórmula para calcular la autonomía real:</p>
+          <p class="text-lg font-mono bg-white p-3 rounded border border-emerald-200">Autonomía real = (Batería útil en kWh ÷ Consumo real en kWh/100km) × 100</p>
+          <p class="mt-3"><strong>Ejemplo práctico:</strong> Un BYD Seal con 82,5 kWh de batería útil y un consumo real de 20 kWh/100 km en autopista daría: (82,5 ÷ 20) × 100 = <strong>412 km reales en autopista</strong>.</p>
+          <p class="mt-2 text-sm">Para el consumo real, usa como referencia: ciudad 13-15 kWh/100km · carretera 16-18 kWh/100km · autopista 120km/h 20-24 kWh/100km · autopista invierno 22-28 kWh/100km.</p>
+        </div>
+
+        <p>Lo más útil es buscar foros y comunidades de propietarios del modelo que te interesa. Los usuarios reales suelen compartir sus consumos habituales y esos datos son mucho más fiables que cualquier cifra de marketing.</p>
+
+        <h2 id="ciudad">La excepción: en ciudad puedes superar el WLTP</h2>
+
+        <p>Hasta ahora he hablado de cuánto menos hace tu eléctrico respecto al catálogo. Pero hay una excepción importante que merece su propio apartado: en ciudad, los coches eléctricos a menudo <strong>igualan o superan el WLTP</strong>.</p>
+
+        <p>La razón es la <strong>recuperación de energía en frenadas</strong> (frenado regenerativo). Cada vez que reduces velocidad o frenas, el motor eléctrico actúa como generador y devuelve energía a la batería. En ciudad, donde hay constantes paradas, semáforos y reducción de velocidad, este sistema puede recuperar entre el 15% y el 25% de la energía consumida.</p>
+
+        <p>Además, en ciudad se circula lento — la resistencia aerodinámica es mínima — y el motor eléctrico trabaja en rangos de carga donde es más eficiente. El resultado es que muchos urbanos eléctricos hacen en ciudad significativamente más kilómetros que en carretera. El BYD Dolphin Surf, por ejemplo, tiene 322 km WLTP combinado pero 507 km en ciclo urbano.</p>
+
+        <p>Esto tiene una implicación práctica importante: <strong>si usas el coche principalmente en ciudad, los datos WLTP del catálogo son, si acaso, conservadores</strong>. La autonomía real urbana suele ser mejor.</p>
+
+        <h2 id="conclusion">Lo que deberían publicar los fabricantes y no publican</h2>
+
+        <p>Esto es algo que me parece un problema real del sector y que, como consumidor, considero que debería cambiar. Los fabricantes publican el WLTP porque es lo que marca la ley — y ese dato es útil para comparar modelos entre sí. Pero es insuficiente como información de compra real.</p>
+
+        <p>Lo que debería ser obligatorio publicar, y que algunos fabricantes empiezan a incluir voluntariamente, es la <strong>autonomía en ciclo de autopista</strong> a 120 km/h y la <strong>autonomía en condiciones de invierno</strong> a 0°C. Esos dos datos le dicen al comprador mucho más sobre cómo va a usar el coche en el mundo real que el WLTP medido en laboratorio a 23°C sin climatización.</p>
+
+        <p>La OCU lleva años pidiendo exactamente esto. Algunos fabricantes como Renault ya publican voluntariamente datos de autonomía en varios escenarios. Poco a poco el sector avanza hacia más transparencia, pero todavía queda camino.</p>
+
+        <p>Mientras tanto, mi consejo es siempre el mismo: <strong>aplica un 20% de descuento mental sobre el WLTP para uso mixto habitual, y un 30-35% si vas a hacer muchos kilómetros de autopista o vives donde los inviernos son fríos de verdad</strong>. Con ese ajuste, el coche que elijas no te dará sorpresas.</p>
+
+        <p class="mt-6 text-sm text-gray-500 italic">Publicado el 20 de marzo de 2026. Los consumos y autonomías reales indicados en las tablas son estimaciones basadas en pruebas independientes y datos de usuarios reales. Los valores concretos varían según modelo, equipamiento y condiciones de uso.</p>
+
+      </div>
+
+      <!-- FAQ -->
+      <div class="bg-gray-50 rounded-lg p-6 my-8">
+        <h2 id="faq" class="text-2xl font-bold text-gris-oscuro mb-6 flex items-center">
+          <i class="fas fa-question-circle text-verde-principal mr-3"></i>
+          Preguntas frecuentes
+        </h2>
+        <div class="space-y-6">
+          <div class="border-b border-gray-200 pb-4">
+            <h3 class="text-lg font-semibold text-gris-oscuro mb-2">🔹 ¿Cuánto menos autonomía real da un coche eléctrico respecto al WLTP?</h3>
+            <p class="text-gray-700">En condiciones mixtas habituales, la autonomía real suele ser entre un 10% y un 20% inferior al WLTP. En autopista a 120-130 km/h, la reducción puede llegar al 30-40%. En ciudad con temperaturas suaves, algunos modelos igualan o incluso superan el WLTP gracias al frenado regenerativo.</p>
+          </div>
+          <div class="border-b border-gray-200 pb-4">
+            <h3 class="text-lg font-semibold text-gris-oscuro mb-2">🔹 ¿Cuánta autonomía pierde un coche eléctrico en invierno?</h3>
+            <p class="text-gray-700">Con temperaturas por debajo de 5°C, la pérdida suele estar entre el 20% y el 35% respecto al WLTP. La causa es doble: la batería rinde menos en frío y la calefacción consume energía adicional. Los coches con bomba de calor de serie reducen esta pérdida significativamente.</p>
+          </div>
+          <div class="border-b border-gray-200 pb-4">
+            <h3 class="text-lg font-semibold text-gris-oscuro mb-2">🔹 ¿Qué es el WLTP y por qué no refleja la autonomía real?</h3>
+            <p class="text-gray-700">El WLTP es el protocolo oficial europeo de homologación. Las pruebas se hacen a 23°C, sin climatización, a velocidad media baja y sin carga. Además, los fabricantes pueden usar la configuración más favorable de cada modelo. Son condiciones más favorables que las del uso cotidiano real.</p>
+          </div>
+          <div class="border-b border-gray-200 pb-4">
+            <h3 class="text-lg font-semibold text-gris-oscuro mb-2">🔹 ¿Cómo puedo calcular la autonomía real de un coche eléctrico?</h3>
+            <p class="text-gray-700">Divide la capacidad útil de la batería (kWh) entre el consumo real esperado (kWh/100 km) y multiplica por 100. Para el consumo real usa como referencia: ciudad 13-15 kWh/100km, carretera 16-18 kWh/100km, autopista a 120 km/h 20-24 kWh/100km.</p>
+          </div>
+          <div>
+            <h3 class="text-lg font-semibold text-gris-oscuro mb-2">🔹 ¿La autonomía del coche eléctrico empeora con los años?</h3>
+            <p class="text-gray-700">Sí, pero menos de lo que mucha gente cree. Con buenas prácticas de carga (evitar cargar al 100% habitualmente en baterías NCM, no dejar la batería muy baja), una batería bien cuidada pierde entre un 5% y un 15% de capacidad en los primeros 5 años. Las baterías LFP, como las de BYD, se degradan menos y toleran mejor las cargas completas.</p>
+          </div>
+        </div>
+      </div>
+
+      <footer class="mt-10 pt-6 border-t text-sm text-gray-600">
+        <p>¿Te ha sorprendido alguna vez la diferencia entre lo que marcaba el catálogo y lo que veías en el ordenador de a bordo? Es una de las experiencias más comunes entre nuevos propietarios de eléctrico. Si quieres saber más sobre cómo sacarle el máximo partido a la autonomía de tu coche, échale un vistazo a nuestra guía sobre <a href="ahorrar-electricidad-cargando-coche-electrico.html" class="text-emerald-700 hover:underline">cómo ahorrar cargando tu coche eléctrico</a>.</p>
+      </footer>
+
+      <!-- Artículos relacionados -->
+      <aside class="mt-12">
+        <h2 class="text-2xl font-bold mb-4">Artículos relacionados</h2>
+        <ul class="list-disc ml-5 text-emerald-800 space-y-2">
+          <li><a class="hover:underline" href="mito-autonomia-coches-electricos-400km-suficientes.html">El mito de la autonomía: por qué 400 km son más que suficientes</a></li>
+          <li><a class="hover:underline" href="baterias-lfp-vs-ncm-diferencias-ventajas-eleccion-2026.html">Baterías LFP vs NCM: diferencias y cuál elegir</a></li>
+          <li><a class="hover:underline" href="tarifas-luz-cargar-coche-electrico-casa-2025-2026.html">Mejor tarifa de luz para cargar el coche eléctrico en casa</a></li>
+          <li><a class="hover:underline" href="puntos-carga-espana-guia-completa-2025.html">Dónde cargar el coche eléctrico en España: mapa y redes</a></li>
+          <li><a class="hover:underline" href="../guias.html">Todas las guías sobre movilidad eléctrica</a></li>
+        </ul>
+      </aside>
+
+      <!-- Sobre el autor -->
+      <section class="mt-12 bg-emerald-50 border border-emerald-100 rounded-xl p-6">
+        <h2 class="text-2xl font-bold mb-2">Sobre el autor</h2>
+        <p class="text-gray-700">Apasionado de la movilidad eléctrica con más de 15.000 km de experiencia en viajes por carretera. Comparto lo aprendido para que tu transición a la electrificación sea más sencilla y disfrutes cada kilómetro, sin sorpresas.</p>
+      </section>
+      <script async="async" data-cfasync="false" src="//pl28052676.effectivegatecpm.com/2f2bf98ebb38fc325879c099d716122f/invoke.js"></script>
+      <div id="container-2f2bf98ebb38fc325879c099d716122f"></div>
+    </article>
+  </main>
+
+  <footer class="bg-gris-oscuro text-white py-12 mt-16">
+    <div class="container mx-auto px-4">
+      <div class="flex flex-col md:flex-row gap-8">
+        <div class="flex-1">
+          <div class="flex items-start space-x-3 mb-2">
+            <div class="bg-white rounded-lg p-1">
+              <img src="../imagenes/logo.webp" alt="Electromovilidad 24" class="h-16 w-auto">
+            </div>
+            <div>
+              <h3 class="text-xl font-bold">Electromovilidad 24</h3>
+              <p class="text-gray-300">Tu fuente confiable de información sobre movilidad eléctrica.</p>
+            </div>
+          </div>
+        </div>
+        <div class="flex-1">
+          <h4 class="text-lg font-semibold mb-2">Enlaces Útiles</h4>
+          <div class="flex flex-wrap gap-4">
+            <a href="../index.html" class="text-gray-300 hover:text-verde-principal transition-colors">Inicio</a>
+            <a href="../index.html#news-section" class="text-gray-300 hover:text-verde-principal transition-colors">Noticias</a>
+            <a href="../comparativas.html" class="text-gray-300 hover:text-verde-principal transition-colors">Comparativas</a>
+            <a href="../reviews.html" class="text-gray-300 hover:text-verde-principal transition-colors">Reviews</a>
+            <a href="../guias.html" class="text-gray-300 hover:text-verde-principal transition-colors">Guías</a>
+            <a href="../calculadoras.html" class="text-gray-300 hover:text-verde-principal transition-colors">Calculadoras</a>
+            <a href="../sobre.html" class="text-gray-300 hover:text-verde-principal transition-colors">Sobre mí</a>
+          </div>
+        </div>
+      </div>
+      <div class="border-t border-gray-700 mt-8 pt-8 text-center">
+        <p class="text-gray-400">2026 Electromovilidad 24 - Siguiendo la revolución eléctrica en tiempo real</p>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('mobile-menu-btn').addEventListener('click', function() {
+      const menu = document.getElementById('mobile-nav');
+      menu.classList.toggle('hidden');
+    });
+  </script>
+  <script type='text/javascript' src='//pl28052810.effectivegatecpm.com/87/85/ba/8785baa66295effbd2aec6714ef57340.js'></script>
+</body>
+</html>
