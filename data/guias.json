@@ -1,5 +1,15 @@
 [
 {
+    "id": 125,
+    "title": "Mi primer mes con un coche eléctrico: lo que nadie me contó (y lo que menos esperaba)",
+    "summary": "¿Cómo es realmente vivir con un coche eléctrico el primer mes? Experiencia real sin cargador en casa: ansiedad de autonomía, carga pública en España, ahorro real, cambios de hábitos y las sorpresas que nadie te cuenta antes de dar el salto.",
+    "category": "Guías",
+    "image": "https://images.unsplash.com/photo-1677448224593-f66a387793a5?w=400&auto=format&fit=crop&q=60",
+    "link": "articulos/primer-mes-coche-electrico-experiencia.html",
+    "date": "2026-03-21",
+    "readTime": "9 min"
+},
+    {
     "id": 124,
     "title": "Plan Renove 2026: qué es, qué comunidades lo tienen y cuánto puedes ahorrar",
     "summary": "¿Existe el Plan Renove en 2026? No con ese nombre a nivel nacional, pero sí hay equivalentes reales: el Plan Auto+ con hasta 7.000€ por achatarramiento, el Plan Mueve Madrid, el Plan Renova de Galicia y el ADER CAR de La Rioja. Guía completa con cuantías, requisitos y compatibilidad entre planes.",
