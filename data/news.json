@@ -1,5 +1,15 @@
 [ 
 {
+  "id": 172,
+  "title": "La paradoja del coche eléctrico en España: pocas ventas, pero los usuarios más satisfechos del mercado",
+  "summary": "España está a la cola de Europa en matriculaciones de coches eléctricos, pero más del 90% de sus propietarios no volvería a la combustión. Analizamos el Efecto de No Retorno, las barreras reales que frenan las ventas y por qué el problema no es el coche, sino el acceso a él.",
+  "category": "Noticias",
+  "image": "https://images.unsplash.com/photo-1594446545939-a34b083e9a7c?w=600&auto=format&fit=crop&q=60",
+  "link": "articulos/paradoja-coche-electrico-espana-pocas-ventas-usuarios-satisfechos.html",
+  "date": "2026-03-23",
+  "readTime": "10 min"
+},
+{
   "id": 171,
   "title": "España acelera la movilidad eléctrica: nuevas obligaciones para empresas, ayudas y avances tecnológicos",
   "summary": "El Gobierno reduce a 12 meses el plazo para planes de movilidad sostenible en empresas, anuncia 5.000M€ en energía, lanza el Plan Auto+ y la industria tecnológica alcanza los 900 km de autonomía. Análisis completo de las medidas que aceleran la electrificación en España.",
