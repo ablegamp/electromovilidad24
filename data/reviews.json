@@ -1,5 +1,15 @@
 [  
 {
+  "id": 41,
+  "title": "Review smart #5: el SUV eléctrico que redefine por completo la marca",
+  "summary": "Analizamos a fondo el smart #5: arquitectura de 800V, carga ultrarrápida a 400 kW en 18 minutos, hasta 590 km de autonomía y una versión BRABUS de 646 CV. El SUV más ambicioso de smart compite con Tesla Model Y e Ioniq 5 desde 48.000€.",
+  "category": "Reviews",
+  "image": "../imagenes/smart%235.png",
+  "link": "articulos/review-smart-5-suv-electrico.html",
+  "date": "2026-03-24",
+  "readTime": "11 min"
+},
+{
   "id": 40,
   "title": "Avatr 11 en España 2026: precio estimado, autonomía WLTP de hasta 475 km y tecnología Huawei Inside",
   "summary": "Review del Avatr 11, el SUV eléctrico premium de Avatr Technology (Changan + Huawei + CATL). Potencia AWD de 578 CV, batería CATL de hasta 116,79 kWh y autonomía de hasta 475 km WLTP. Analizo qué implica la tecnología Huawei Inside con 3 LiDAR, y cuándo podría llegar a España durante 2026.",
