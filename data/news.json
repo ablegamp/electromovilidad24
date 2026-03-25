@@ -1,5 +1,15 @@
 [ 
 {
+  "id": 174,
+  "title": "BMW lanza nueva generación eléctrica con 900 km de autonomía y carga de 400 km en 10 minutos",
+  "summary": "BMW revoluciona la movilidad eléctrica con la plataforma Neue Klasse: hasta 900 km de autonomía real, carga ultrarrápida de 400 km en 10 minutos y tecnología premium. La ansiedad por la autonomía llega a su fin.",
+  "category": "Noticias",
+  "image": "../imagenes/bmw-ix3-electrico.png",
+  "link": "articulos/bmw-neue-klasse-900-km-autonomia.html",
+  "date": "2026-03-25",
+  "readTime": "10 min"
+},
+{
   "id": 173,
   "title": "Toyota amplía las ayudas del Plan Auto+ con incentivos adicionales para el C-HR+ Electric y el bZ4X",
   "summary": "Toyota España refuerza los incentivos del Plan Auto+ para sus modelos eléctricos puros. Analizamos los descuentos para el C-HR+ Electric y el bZ4X, cómo combinarlos con el Plan MOVES y la deducción del 15% en IRPF, y cuánto puedes ahorrar realmente.",
