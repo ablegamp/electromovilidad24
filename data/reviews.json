@@ -1,6 +1,16 @@
 [  
 {
-  "id": 179,
+  "id": 43,
+  "title": "Toyota Hilux eléctrico (BEV) 2025: la pick-up indestructible se electrifica",
+  "summary": "Review completa del Toyota Hilux eléctrico BEV 2025: 196 CV, doble motor AWD, 240-260 km de autonomía WLTP, batería de 59,2 kWh y carga rápida en 30 minutos. Todo sobre la primera Hilux 100% eléctrica.",
+  "category": "Reviews",
+  "image": "../imagenes/toyota-hilux.png",
+  "link": "articulos/toyota-hilux-electrico-bev-review.html",
+  "date": "2025-03-28",
+  "readTime": "12 min"
+},
+  {
+  "id": 42,
   "title": "CUPRA Raval 2026: el eléctrico español de 26.000€ que quiere democratizar el mercado",
   "summary": "Review completa del CUPRA Raval 2026: el primer urbano eléctrico fabricado en Martorell con hasta 450 km de autonomía, desde 26.000€ y versión deportiva VZ de 226 CV. El coche que puede cambiar las reglas del eléctrico asequible en España.",
   "category": "Reviews",
