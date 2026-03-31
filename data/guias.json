@@ -1,5 +1,16 @@
 [
+
 {
+  "id": 128,
+  "title": "¿Es realmente sostenible el coche eléctrico? Análisis completo del ciclo de vida",
+  "summary": "Análisis honesto y documentado sobre la sostenibilidad real del coche eléctrico recorriendo el ciclo de vida completo: fabricación de baterías, emisiones, origen de la electricidad, reciclaje y segunda vida. Consejos prácticos para entender qué aporta de verdad y dónde aún hay límites.",
+  "category": "Guías",
+  "image": "https://cdn.pixabay.com/photo/2018/01/30/02/06/car-3117778_1280.jpg",
+  "link": "articulos/es-realmente-sostenible-coche-electrico.html",
+  "date": "2026-03-31",
+  "readTime": "14 min"
+},
+  {
   "id": 127,
   "title": "Opinión: El gran problema del coche eléctrico ya no es la batería, es el precio (y está a punto de cambiar)",
   "summary": "La autonomía del coche eléctrico ya no es el cuello de botella: los modelos actuales ofrecen 400-600 km reales. El verdadero freno es el precio de compra, pero la llegada de eléctricos por debajo de 25.000€ marca el inicio del punto de inflexión. Análisis de opinión con datos y el paralelismo con los smartphones.",
