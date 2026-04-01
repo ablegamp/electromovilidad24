@@ -1,5 +1,14 @@
 [
-
+{
+  "id": 179,
+  "title": "La guerra del coche eléctrico ya no es tecnológica, es geopolítica",
+  "summary": "Análisis de la batalla geopolítica por el dominio del coche eléctrico: China controla el 70% de producción de baterías, Europa lucha por autonomía estratégica y EE.UU. invierte en reshoring industrial. Claves, datos verificables y consecuencias para el consumidor europeo en 2026.",
+  "category": "Guías",
+  "image": "https://cdn.pixabay.com/photo/2019/08/03/13/10/electric-car-4381728_1280.jpg",
+  "link": "articulos/guerra-geopolitica-coche-electrico-2026.html",
+  "date": "2026-04-01",
+  "readTime": "10 min"
+},
 {
   "id": 128,
   "title": "¿Es realmente sostenible el coche eléctrico? Análisis completo del ciclo de vida",
