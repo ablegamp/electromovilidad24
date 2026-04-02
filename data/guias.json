@@ -1,5 +1,15 @@
 [
 {
+  "id": 130,
+  "title": "El gran error: pensar que todos necesitamos un coche eléctrico",
+  "summary": "Análisis crítico sobre el discurso dominante de la electrificación: sustituir todos los coches de combustión por eléctricos no resolverá los problemas de movilidad urbana. El verdadero cambio pasa por repensar si necesitamos tantos coches, invertir en transporte público y diseñar ciudades de proximidad. Menos coches, no solo coches distintos.",
+  "category": "Guías",
+  "image": "https://cdn.pixabay.com/photo/2019/06/15/20/21/electric-car-4276419_1280.jpg",
+  "link": "articulos/gran-error-todos-necesitamos-coche-electrico.html",
+  "date": "2026-04-02",
+  "readTime": "9 min"
+},
+  {
   "id": 129,
   "title": "La guerra del coche eléctrico ya no es tecnológica, es geopolítica",
   "summary": "Análisis de la batalla geopolítica por el dominio del coche eléctrico: China controla el 70% de producción de baterías, Europa lucha por autonomía estratégica y EE.UU. invierte en reshoring industrial. Claves, datos verificables y consecuencias para el consumidor europeo en 2026.",
