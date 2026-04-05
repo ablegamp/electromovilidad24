@@ -99,6 +99,881 @@
       "source": "/articulos/5-coches-mas-baratos-que-llegaran-en-2026.html",
       "destination": "/articulos/coches-electricos-mas-baratos-2026-comparativa.html",
       "permanent": true
-  }
+    },
+    {
+      "source": "/articulos/articulos/plan-moves-2025-requisitos-ayudas-comunidades.html",
+      "destination": "/articulos/plan-moves-2026-previsiones-ayudas.html",
+      "permanent": true
+    },
+    {
+      "source": "/articulos/articulos/carga-bidireccional-coches-electricos.html",
+      "destination": "/articulos/carga-bidireccional-coches-electricos-ahorro.html",
+      "permanent": true
+    },
+    {
+      "source": "/articulos/cargadores-ultrarapidos-350kw-2025.html",
+      "destination": "/articulos/cargadores-coches-electricos-rapidos-ultrarrapidos.html",
+      "permanent": true
+    },
+    {
+      "source": "/articulos/cupra-born-analisis-precio-autonomia-2025.html",
+      "destination": "/articulos/cupra-tavascan-2025-analisis-completo.html",
+      "permanent": true
+    },
+    {
+      "source": "/articulos/volkswagen-id5-2025-analisis-precio-autonomia.html",
+      "destination": "/articulos/volkswagen-id-buzz-vuelta-mundo-80000-km.html",
+      "permanent": true
+    },
+    {
+      "source": "/articulos/comparativa-compactos-electricos-2025.html",
+      "destination": "/articulos/comparativa-byd-dolphin-vs-mg4-2025.html",
+      "permanent": true
+    },
+    {
+      "source": "/articulos/diseno-furgonetas-electricas-ultima-milla.html",
+      "destination": "/articulos/kia-pv5-mejor-furgoneta-electrica-mundo.html",
+      "permanent": true
+    },
+    {
+      "source": "/articulos/soluciones-carga-empresas-flotas.html",
+      "destination": "/articulos/furgonetas-camiones-electricos-autonomos-pymes-2026.html",
+      "permanent": true
+    },
+    {
+      "source": "/articulos/como-cargar-correctamente-coche-electrico-preservar-bateria.html",
+      "destination": "/articulos/como-alargar-vida-bateria-coche-electrico.html",
+      "permanent": true
+    },
+    {
+      "source": "/articulos/ayudas-fiscales-vehiculos-electricos-empresas.html",
+      "destination": "/articulos/deduccion-irpf-coche-electrico-2026.html",
+      "permanent": true
+    },
+    {
+      "source": "/articulos/honda-jazz-e-hev-analisis-completo.html",
+      "destination": "/articulos/mejores-hibridos-enchufables-2025.html",
+      "permanent": true
+    },
+    {
+      "source": "/articulos/vehiculos-comerciales-electricos-espana-2025.html",
+      "destination": "/articulos/furgonetas-camiones-electricos-autonomos-pymes-2026.html",
+      "permanent": true
+    },
+    {
+      "source": "/articulos/movilidad-empresarial-sostenible-2025.html",
+      "destination": "/articulos/furgonetas-camiones-electricos-autonomos-pymes-2026.html",
+      "permanent": true
+    },
+    {
+      "source": "/articulos/novedades-segmento-electrico-2025.html",
+      "destination": "/articulos/novedades-coches-electricos-2026.html",
+      "permanent": true
+    },
+    {
+      "source": "/articulos/analisis-mg4-electric-vale-pena-2025.html",
+      "destination": "/articulos/mg4-urban-2026-electrico-asequible-espana.html",
+      "permanent": true
+    },
+    {
+      "source": "/guias/coche-electrico-sin-garaje-soluciones.html",
+      "destination": "/articulos/cargar-coche-electrico-sin-garaje.html",
+      "permanent": true
+    },
+    {
+      "source": "/guias/como-instalar-punto-recarga-comunidad-vecinos.html",
+      "destination": "/articulos/cargar-coche-electrico-comunidad-vecinos.html",
+      "permanent": true
+    },
+    {
+      "source": "/guias/primer-coche-electrico-comparativa.html",
+      "destination": "/articulos/primer-mes-coche-electrico-experiencia.html",
+      "permanent": true
+    },
+    {
+      "source": "/guias/tipos-conectores-coches-electricos.html",
+      "destination": "/articulos/conectores-coches-electricos-2026.html",
+      "permanent": true
+    },
+    {
+      "source": "/guias/plan-moves-2025-ayudas-compra-vehiculos-electricos.html",
+      "destination": "/articulos/plan-moves-2026-previsiones-ayudas.html",
+      "permanent": true
+    },
+    {
+      "source": "/guias/ahorrar-electricidad-cargando-coche-electrico.html",
+      "destination": "/articulos/ahorrar-electricidad-cargando-coche-electrico.html",
+      "permanent": true
+    },
+    {
+      "source": "/guias/red-carga-rapida-espana.html",
+      "destination": "/articulos/puntos-recarga-madrid-situacion-planes-2025-2026.html",
+      "permanent": true
+    },
+    {
+      "source": "/comparativas/dacia-spring-vs-citroen-ec3-comparativa.html",
+      "destination": "/articulos/dacia-jogger-review-2025.html",
+      "permanent": true
+    },
+    {
+      "source": "/comparativas/hyundai-kona-electric-2025-vs-kia-ev3.html",
+      "destination": "/articulos/kia-ev3-precio-autonomia-espana-2025.html",
+      "permanent": true
+    },
+    {
+      "source": "/comparativas/mejores-berlinas-electricas-2025.html",
+      "destination": "/articulos/sedanes-electricos-gama-media-2025.html",
+      "permanent": true
+    },
+    {
+      "source": "/comparativas/mejores-suv-hibridos-enchufables-2025.html",
+      "destination": "/articulos/mejores-suv-hibridos-enchufables-2025.html",
+      "permanent": true
+    },
+    {
+      "source": "/comparativas/mejores-coches-electricos-autonomia-2025.html",
+      "destination": "/articulos/mejores-suv-electricos-autonomia-menos-40000-2025.html",
+      "permanent": true
+    },
+    {
+      "source": "/comparativas/byd-atto-3-vs-mg-zs-ev.html",
+      "destination": "/articulos/comparativa-byd-dolphin-vs-mg4-2025.html",
+      "permanent": true
+    },
+    {
+      "source": "/imagenes/kia-pv-2025-png",
+      "destination": "/imagenes/kia-pv5.png",
+      "permanent": true
+    },
+    {
+      "source": "/imagenes/coches-electricos-baratos-espana-2025.html",
+      "destination": "/articulos/coches-electricos-mas-baratos-2026-comparativa.html",
+      "permanent": true
+    },
+    {
+      "source": "/imagenes/plan-moves-2025-requisitos-ayudas-comunidades.html",
+      "destination": "/articulos/plan-moves-2026-previsiones-ayudas.html",
+      "permanent": true
+    },
+    {
+      "source": "/imagenes/coches-electricos-mas-baratos-2026-comparativa.html",
+      "destination": "/articulos/coches-electricos-mas-baratos-2026-comparativa.html",
+      "permanent": true
+    },
+    {
+      "source": "/imagenes/degradacion-baterias-coches-electricos-estudio-2025.html",
+      "destination": "/articulos/cuanto-dura-bateria-coche-electrico.html",
+      "permanent": true
+    },
+    {
+      "source": "/imagenes/ahorrar-electricidad-cargando-coche-electrico.html",
+      "destination": "/articulos/ahorrar-electricidad-cargando-coche-electrico.html",
+      "permanent": true
+    },
+    {
+      "source": "/articulos/los-coches-electricos-baratos-espana-2025.html",
+      "destination": "/articulos/coches-electricos-mas-baratos-2026-comparativa.html",
+      "permanent": true
+    },
+    {
+      "source": "/articulos/seguro-coche-electrico-que-coberturas-necesitas.html",
+      "destination": "/articulos/seguro-coches-electricos-comparativa-coberturas-ahorrar.html",
+      "permanent": true
+    },
+    {
+      "source": "/articulos/foro-propietarios-coches-electricos-2026.html",
+      "destination": "/articulos/cuanto-dura-bateria-coche-electrico.html",
+      "permanent": true
+    },
+    {
+      "source": "/articulos/guia-conduccion-segura-coches-electricos.html",
+      "destination": "/articulos/consejos-conduccion-eficiente-vehiculo-electrico.html",
+      "permanent": true
+    },
+    {
+      "source": "/articulos/guia-seguridad-vial-coches-electricos.html",
+      "destination": "/articulos/seguridad-coches-electricos-accidente-mitos-datos.html",
+      "permanent": true
+    },
+    {
+      "source": "/articulos/coches-electricos-chinos-espana-2025.html",
+      "destination": "/articulos/coches-electricos-chinos-espana-2026.html",
+      "permanent": true
+    },
+    {
+      "source": "/articulos/guia-completa-plan-moves-2025.html",
+      "destination": "/articulos/plan-moves-2026-previsiones-ayudas.html",
+      "permanent": true
+    },
+    {
+      "source": "/articulos/guia-ayudas-compra-coches-electricos-2025.html",
+      "destination": "/articulos/ayudas-subvenciones-coches-electricos-espana-2025.html",
+      "permanent": true
+    },
+    {
+      "source": "/articulos/tesla-model-s-plaid-2025-precio-ficha-tecnica.html",
+      "destination": "/articulos/tesla-model-s-plaid-2025-precio-caracteristicas.html",
+      "permanent": true
+    },
+    {
+      "source": "/articulos/sistemas-emergencia-coches-electricos.html",
+      "destination": "/articulos/mecanismo-emergencia-oculto-coches-electricos.html",
+      "permanent": true
+    },
+    {
+      "source": "/articulos/seguridad-coches-electricos-riesgos-reales.html",
+      "destination": "/articulos/seguridad-coches-electricos-accidente-mitos-datos.html",
+      "permanent": true
+    },
+    {
+      "source": "/articulos/bateria-12v-tesla-fallo-como-actuar.html",
+      "destination": "/articulos/que-pasa-coche-electrico-sin-bateria-autopista.html",
+      "permanent": true
+    },
+    {
+      "source": "/articulos/puntos-carga-rapida-espana-2025.html",
+      "destination": "/articulos/puntos-recarga-madrid-situacion-planes-2025-2026.html",
+      "permanent": true
+    },
+    {
+      "source": "/articulos/guia-mantenimiento-coche-electrico-2025.html",
+      "destination": "/articulos/guia-completa-mantenimiento-cuidados-coche-electrico-2025.html",
+      "permanent": true
+    },
+    {
+      "source": "/articulos/mg-coches-electricos-espana-2025.html",
+      "destination": "/articulos/mg4-urban-2026-electrico-asequible-espana.html",
+      "permanent": true
+    },
+    {
+      "source": "/articulos/guia-mantenimiento-bateria-coche-electrico.html",
+      "destination": "/articulos/como-alargar-vida-bateria-coche-electrico.html",
+      "permanent": true
+    },
+    {
+      "source": "/articulos/baterias-coches-electricos-evolucion.html",
+      "destination": "/articulos/baterias-lfp-vs-ncm-diferencias-ventajas-eleccion-2026.html",
+      "permanent": true
+    },
+    {
+      "source": "/articulos/volkswagen-id4-2025-review.html",
+      "destination": "/articulos/volkswagen-id-buzz-vuelta-mundo-80000-km.html",
+      "permanent": true
+    },
+    {
+      "source": "/articulos/guia-ayudas-puntos-recarga-2026.html",
+      "destination": "/articulos/puntos-recarga-madrid-situacion-planes-2025-2026.html",
+      "permanent": true
+    },
+    {
+      "source": "/articulos/incendios-coches-electricos-mitos-realidad.html",
+      "destination": "/articulos/seguridad-coches-electricos-accidente-mitos-datos.html",
+      "permanent": true
+    },
+    {
+      "source": "/articulos/chery-bateria-estado-solido-1500-km-autonomia.html",
+      "destination": "/articulos/baterias-estado-solido-coches-electricos-2027.html",
+      "permanent": true
+    },
+    {
+      "source": "/articulos/byd-atto3-2025-review.html",
+      "destination": "/articulos/byd-atto-3-analisis-precio-ficha-tecnica.html",
+      "permanent": true
+    },
+    {
+      "source": "/articulos/avances-baterias-estado-solido-2025.html",
+      "destination": "/articulos/baterias-estado-solido-coches-electricos-2027.html",
+      "permanent": true
+    },
+    {
+      "source": "/articulos/guia-puntos-recarga-particulares-2025.html",
+      "destination": "/articulos/cargar-coche-electrico-comunidad-vecinos.html",
+      "permanent": true
+    },
+    {
+      "source": "/articulos/baterias-litio-precio-2030.html",
+      "destination": "/articulos/precio-baterias-coches-electricos-menos-3000-euros-2030.html",
+      "permanent": true
+    },
+    {
+      "source": "/articulos/instalar-paneles-solares-coche-electrico.html",
+      "destination": "/articulos/cargar-coche-electrico-placas-solares-autoconsumo.html",
+      "permanent": true
+    },
+    {
+      "source": "/articulos/comparativa-berlinas-deportivas-electricas.html",
+      "destination": "/articulos/sedanes-electricos-gama-media-2025.html",
+      "permanent": true
+    },
+    {
+      "source": "/articulos/mejores-tarifas-electricas-coche-electrico-2025.html",
+      "destination": "/articulos/tarifas-luz-cargar-coche-electrico-casa-2025-2026.html",
+      "permanent": true
+    },
+    {
+      "source": "/articulos/review-tesla-model-3-2025.html",
+      "destination": "/articulos/tesla-model-3-2025-precios-versiones.html",
+      "permanent": true
+    },
+    {
+      "source": "/articulos/guia-compra-coche-electrico-usado-2025.html",
+      "destination": "/articulos/guia-compra-coche-electrico-usado.html",
+      "permanent": true
+    },
+    {
+      "source": "/articulos/guia-baterias-coches-electricos-todo-lo-que-necesitas-saber.html",
+      "destination": "/articulos/baterias-lfp-vs-ncm-diferencias-ventajas-eleccion-2026.html",
+      "permanent": true
+    },
+    {
+      "source": "/articulos/mejores-baterias-coches-electricos-2025.html",
+      "destination": "/articulos/baterias-lfp-vs-ncm-diferencias-ventajas-eleccion-2026.html",
+      "permanent": true
+    },
+    {
+      "source": "/articulos/novedades-coches-electricos-2026.html",
+      "destination": "/articulos/nuevos-coches-electricos-2026.html",
+      "permanent": true
+    },
+    {
+      "source": "/articulos/reviews.html",
+      "destination": "/reviews.html",
+      "permanent": true
+    },
+    {
+      "source": "/articulos/comparativas.html",
+      "destination": "/comparativas.html",
+      "permanent": true
+    },
+    {
+      "source": "/articulos/tesla-model-3-2025-review.html",
+      "destination": "/articulos/tesla-model-3-2025-precios-versiones.html",
+      "permanent": true
+    },
+    {
+      "source": "/articulos/comparativa-tesla-model-y-vs-competencia-2025.html",
+      "destination": "/articulos/tesla-model-y-mas-vendido-espana-2025.html",
+      "permanent": true
+    },
+    {
+      "source": "/articulos/coches-electricos-asequibles-2026.html",
+      "destination": "/articulos/coches-electricos-mas-baratos-2026-comparativa.html",
+      "permanent": true
+    },
+    {
+      "source": "/articulos/sedanes-electricos-gama-media-2025.html",
+      "destination": "/articulos/sedanes-electricos-gama-media-2025.html",
+      "permanent": true
+    },
+    {
+      "source": "/articulos/viajar-en-coche-electrico-guia-principiantes-2025.html",
+      "destination": "/articulos/consejos-viajar-coche-electrico-espana.html",
+      "permanent": true
+    },
+    {
+      "source": "/articulos/porsche-taycan-carga-rapida-800v.html",
+      "destination": "/articulos/tecnologia-800v-coches-electricos.html",
+      "permanent": true
+    },
+    {
+      "source": "/articulos/guia-puntos-recarga-rapida-espana-2025.html",
+      "destination": "/articulos/puntos-recarga-madrid-situacion-planes-2025-2026.html",
+      "permanent": true
+    },
+    {
+      "source": "/articulos/garantias-coches-electricos-que-cubren-y-que-no.html",
+      "destination": "/articulos/garantia-bateria-coche-electrico-guia.html",
+      "permanent": true
+    },
+    {
+      "source": "/articulos/volkswagen-id4-guia-compra-2025.html",
+      "destination": "/articulos/volkswagen-id-buzz-vuelta-mundo-80000-km.html",
+      "permanent": true
+    },
+    {
+      "source": "/articulos/alianzas-entre-marcas-chinas-y-europeas-2026.html",
+      "destination": "/articulos/opinion-coches-electricos-chinos-premium.html",
+      "permanent": true
+    },
+    {
+      "source": "/articulos/comprar-suv-electrico-2025-guia-comparativa.html",
+      "destination": "/articulos/mejores-suv-electricos-autonomia-menos-40000-2025.html",
+      "permanent": true
+    },
+    {
+      "source": "/articulos/hyundai-ioniq-5-v2l-carga-bidireccional.html",
+      "destination": "/articulos/carga-bidireccional-coches-electricos-ahorro.html",
+      "permanent": true
+    },
+    {
+      "source": "/articulos/movilidad-sostenible-espana-2025-2030.html",
+      "destination": "/articulos/ceve-2025-record-participacion-movilidad-electrica-espana.html",
+      "permanent": true
+    },
+    {
+      "source": "/articulos/review-kia-ev3-suv-electrico-barato.html",
+      "destination": "/articulos/kia-ev3-precio-autonomia-espana-2025.html",
+      "permanent": true
+    },
+    {
+      "source": "/articulos/autonomia-real-coches-electricos-2025.html",
+      "destination": "/articulos/autonomia-real-vs-wltp-coches-electricos-por-que-difieren.html",
+      "permanent": true
+    },
+    {
+      "source": "/articulos/deduccion-por-puntos-de-recarga-2025.html",
+      "destination": "/articulos/puntos-recarga-madrid-situacion-planes-2025-2026.html",
+      "permanent": true
+    },
+    {
+      "source": "/articulos/expansion-redes-servicio-coches-electricos-espana.html",
+      "destination": "/articulos/expansion-red-carga-rapida-espana-2025.html",
+      "permanent": true
+    },
+    {
+      "source": "/articulos/estadisticas-vehiculos-electricos-espana-2025.html",
+      "destination": "/articulos/estadisticas-ventas-coches-electricos-espana-2025.html",
+      "permanent": true
+    },
+    {
+      "source": "/articulos/como-ahorrar-electricidad-cargando-coche-electrico.html",
+      "destination": "/articulos/ahorrar-electricidad-cargando-coche-electrico.html",
+      "permanent": true
+    },
+    {
+      "source": "/articulos/baterias-estado-solido-ventajas-desventajas.html",
+      "destination": "/articulos/baterias-estado-solido-coches-electricos-2027.html",
+      "permanent": true
+    },
+    {
+      "source": "/articulos/mejores-coches-electricos-2025-precio-calidad.html",
+      "destination": "/articulos/coches-electricos-mas-baratos-2026-comparativa.html",
+      "permanent": true
+    },
+    {
+      "source": "/articulos/impacto-aranceles-coches-electricos-chinos-2025.html",
+      "destination": "/articulos/opinion-coches-electricos-chinos-premium.html",
+      "permanent": true
+    },
+    {
+      "source": "/articulos/comparativa-suv-electricos-2025.html",
+      "destination": "/articulos/mejores-suv-electricos-autonomia-menos-40000-2025.html",
+      "permanent": true
+    },
+    {
+      "source": "/articulos/plan-moves-2026.html",
+      "destination": "/articulos/plan-moves-2026-previsiones-ayudas.html",
+      "permanent": true
+    },
+    {
+      "source": "/articulos/baterias-coches-electricos-duracion-mantenimiento.html",
+      "destination": "/articulos/cuanto-dura-bateria-coche-electrico.html",
+      "permanent": true
+    },
+    {
+      "source": "/articulos/tesla-model-y-review-2025.html",
+      "destination": "/articulos/tesla-model-y-2025-analisis-precio-autonomia.html",
+      "permanent": true
+    },
+    {
+      "source": "/articulos/mejores-sistemas-audio-coches-electricos-2025.html",
+      "destination": "/articulos/mejores-suv-electricos-autonomia-menos-40000-2025.html",
+      "permanent": true
+    },
+    {
+      "source": "/articulos/renault-5-electrico-precio-caracteristicas-lanzamiento.html",
+      "destination": "/articulos/renault-5-electrico-precio-caracteristicas.html",
+      "permanent": true
+    },
+    {
+      "source": "/articulos/coches-electricos-urbanos-mas-vendidos-2025.html",
+      "destination": "/articulos/coches-electricos-mas-vendidos-espana-2025.html",
+      "permanent": true
+    },
+    {
+      "source": "/articulos/plan-auto-plus-2025-anuncio-gobierno.html",
+      "destination": "/articulos/plan-moves-2026-previsiones-ayudas.html",
+      "permanent": true
+    },
+    {
+      "source": "/articulos/renault-megane-e-tech-analisis-2025.html",
+      "destination": "/articulos/renault-5-electrico-precio-caracteristicas.html",
+      "permanent": true
+    },
+    {
+      "source": "/articulos/mejores-coche-electrico-calidad-precio-2025.html",
+      "destination": "/articulos/coches-electricos-mas-baratos-2026-comparativa.html",
+      "permanent": true
+    },
+    {
+      "source": "/articulos/coches-electricos-chinos-empresas-2025.html",
+      "destination": "/articulos/coches-electricos-chinos-espana-2026.html",
+      "permanent": true
+    },
+    {
+      "source": "/articulos/evolucion-grupo-hyundai-kia-electromovilidad.html",
+      "destination": "/articulos/hyundai-ioniq-5-2025-review.html",
+      "permanent": true
+    },
+    {
+      "source": "/articulos/carga-casa-vs-publica-ventajas-desventajas.html",
+      "destination": "/articulos/cargar-coche-electrico-en-casa-guia-completa.html",
+      "permanent": true
+    },
+    {
+      "source": "/articulos/guia-completa-wallbox-instalacion-precios-2026.html",
+      "destination": "/articulos/como-cargar-coche-electrico-en-casa-guia-completa.html",
+      "permanent": true
+    },
+    {
+      "source": "/articulos/byd-seal-u-review-2025.html",
+      "destination": "/articulos/byd-seal-vs-tesla-model-3-2025-comparativa.html",
+      "permanent": true
+    },
+    {
+      "source": "/articulos/hibrido-enchufable-vs-electrico-cual-elegir.html",
+      "destination": "/articulos/hibrido-enchufable-vs-electrico-diferencias-2025.html",
+      "permanent": true
+    },
+    {
+      "source": "/articulos/mejores-suvs-electricos-2025.html",
+      "destination": "/articulos/mejores-suv-electricos-autonomia-menos-40000-2025.html",
+      "permanent": true
+    },
+    {
+      "source": "/articulos/hyundai-ioniq-5-2025-review.html",
+      "destination": "/articulos/hyundai-kona-2024-precio-autonomia-espana.html",
+      "permanent": true
+    },
+    {
+      "source": "/articulos/autonomia-real-coches-electricos.html",
+      "destination": "/articulos/autonomia-real-vs-wltp-coches-electricos-por-que-difieren.html",
+      "permanent": true
+    },
+    {
+      "source": "/articulos/mg-zs-ev-2025-precio-ficha-tecnica.html",
+      "destination": "/articulos/mg4-urban-2026-electrico-asequible-espana.html",
+      "permanent": true
+    },
+    {
+      "source": "/articulos/tesla-model-y-2025-analisis-precio-autonomia.html",
+      "destination": "/articulos/tesla-model-y-mas-vendido-espana-2025.html",
+      "permanent": true
+    },
+    {
+      "source": "/articulos/sobre.html",
+      "destination": "/sobre.html",
+      "permanent": true
+    },
+    {
+      "source": "/articulos/byd-seal-review-2025.html",
+      "destination": "/articulos/byd-seal-vs-tesla-model-3-2025-comparativa.html",
+      "permanent": true
+    },
+    {
+      "source": "/articulos/mejores-coches-electricos-climas-frios-2025.html",
+      "destination": "/articulos/coches-electricos-frio-versus-calor-bateria.html",
+      "permanent": true
+    },
+    {
+      "source": "/articulos/kia-ev9-analisis-completo-2025.html",
+      "destination": "/articulos/kia-ev9-gt-2026-potencia-disenio-premium.html",
+      "permanent": true
+    },
+    {
+      "source": "/articulos/calculadoras.html",
+      "destination": "/calculadoras.html",
+      "permanent": true
+    },
+    {
+      "source": "/articulos/mercedes-eqe-suv-precio-caracteristicas-2025.html",
+      "destination": "/articulos/bmw-ix-analisis-precio-autonomia.html",
+      "permanent": true
+    },
+    {
+      "source": "/articulos/coches-electricos-familiar-espacio-2025.html",
+      "destination": "/articulos/furgonetas-camiones-electricos-autonomos-pymes-2026.html",
+      "permanent": true
+    },
+    {
+      "source": "/articulos/tesla-model-x-precio-especificaciones-2025.html",
+      "destination": "/articulos/tesla-model-s-plaid-2025-precio-caracteristicas.html",
+      "permanent": true
+    },
+    {
+      "source": "/articulos/hyundai-kona-2024-precio-autonomia-espana.html",
+      "destination": "/articulos/hyundai-kona-electric-2024-precio-autonomia-espana.html",
+      "permanent": true
+    },
+    {
+      "source": "/articulos/viajar-en-coche-electrico-guia-principiantes-2025.html",
+      "destination": "/articulos/consejos-viajar-coche-electrico-espana.html",
+      "permanent": true
+    },
+    {
+      "source": "/articulos/guia-instalacion-wallbox-casa-2026.html",
+      "destination": "/articulos/como-cargar-coche-electrico-en-casa-guia-completa.html",
+      "permanent": true
+    },
+    {
+      "source": "/articulos/mejores-apps-cargar-coche-electrico-2025.html",
+      "destination": "/articulos/mejor-app-cargar-coche-electrico-2025.html",
+      "permanent": true
+    },
+    {
+      "source": "/articulos/mejores-cargadores-domesticos-2025.html",
+      "destination": "/articulos/cargadores-coches-electricos-rapidos-ultrarrapidos.html",
+      "permanent": true
+    },
+    {
+      "source": "/articulos/guia-plan-moves-2025.html",
+      "destination": "/articulos/plan-moves-2026-previsiones-ayudas.html",
+      "permanent": true
+    },
+    {
+      "source": "/articulos/guia-compra-coche-electrico-2025.html",
+      "destination": "/articulos/primer-mes-coche-electrico-experiencia.html",
+      "permanent": true
+    },
+    {
+      "source": "/articulos/mejores-ofertas-coches-electricos-2025.html",
+      "destination": "/articulos/coches-electricos-mas-baratos-2026-comparativa.html",
+      "permanent": true
+    },
+    {
+      "source": "/articulos/review-dacia-spring-2025.html",
+      "destination": "/articulos/dacia-jogger-review-2025.html",
+      "permanent": true
+    },
+    {
+      "source": "/articulos/consejos-conduccion-eficiente-vehiculo-electrico.html",
+      "destination": "/articulos/consejos-conduccion-eficiente-coche-electrico.html",
+      "permanent": true
+    },
+    {
+      "source": "/articulos/mantenimiento-coche-electrico-guia-completa.html",
+      "destination": "/articulos/guia-completa-mantenimiento-cuidados-coche-electrico-2025.html",
+      "permanent": true
+    },
+    {
+      "source": "/articulos/tesla-model-y-mas-vendido-espana-2025.html",
+      "destination": "/articulos/tesla-model-y-2025-analisis-precio-autonomia.html",
+      "permanent": true
+    },
+    {
+      "source": "/articulos/precios-coches-electricos-premium-2025.html",
+      "destination": "/articulos/coches-electricos-mas-baratos-2026-comparativa.html",
+      "permanent": true
+    },
+    {
+      "source": "/articulos/byd-dolphin-review-2025.html",
+      "destination": "/articulos/comparativa-byd-dolphin-vs-mg4-2025.html",
+      "permanent": true
+    },
+    {
+      "source": "/articulos/expansion-red-carga-rapida-espana-2025.html",
+      "destination": "/articulos/puntos-recarga-madrid-situacion-planes-2025-2026.html",
+      "permanent": true
+    },
+    {
+      "source": "/articulos/baterias-lfp-vs-ncm-ventajas-desventajas.html",
+      "destination": "/articulos/baterias-lfp-vs-ncm-diferencias-ventajas-eleccion-2026.html",
+      "permanent": true
+    },
+    {
+      "source": "/articulos/tipos-conectores-coches-electricos.html",
+      "destination": "/articulos/conectores-coches-electricos-2026.html",
+      "permanent": true
+    },
+    {
+      "source": "/articulos/mejores-coches-electricos-2025.html",
+      "destination": "/articulos/coches-electricos-mas-vendidos-espana-2025.html",
+      "permanent": true
+    },
+    {
+      "source": "/articulos/mejores-suv-hibridos-enchufables-2025.html",
+      "destination": "/articulos/mejores-hibridos-enchufables-2025.html",
+      "permanent": true
+    },
+    {
+      "source": "/articulos/guias/guia-compra-coche-electrico-usado.html",
+      "destination": "/articulos/guia-compra-coche-electrico-usado.html",
+      "permanent": true
+    },
+    {
+      "source": "/articulos/guias/mejores-coches-electricos-2025.html",
+      "destination": "/articulos/coches-electricos-mas-vendidos-espana-2025.html",
+      "permanent": true
+    },
+    {
+      "source": "/articulos/baterias-estado-solido-2025-avances-y-cuando-llegaran.html",
+      "destination": "/articulos/baterias-estado-solido-coches-electricos-2027.html",
+      "permanent": true
+    },
+    {
+      "source": "/articulos/carga-rapida-vs-lenta-coche-electrico.html",
+      "destination": "/articulos/cargadores-coches-electricos-rapidos-ultrarrapidos.html",
+      "permanent": true
+    },
+    {
+      "source": "/articulos/index.html",
+      "destination": "/index.html",
+      "permanent": true
+    },
+    {
+      "source": "/articulos/mejores-coche-electrico-calidad-precio-2025.html",
+      "destination": "/articulos/coches-electricos-mas-baratos-2026-comparativa.html",
+      "permanent": true
+    },
+    {
+      "source": "/noticias.html",
+      "destination": "/index.html",
+      "permanent": true
+    },
+    {
+      "source": "/articulos.html",
+      "destination": "/index.html",
+      "permanent": true
+    },
+    {
+      "source": "/articulos/cuanto-duran-las-baterias-coches-electricos.html",
+      "destination": "/articulos/cuanto-dura-bateria-coche-electrico.html",
+      "permanent": true
+    },
+    {
+      "source": "/articulos/carga-rapida-800v-ventajas-desventajas.html",
+      "destination": "/articulos/tecnologia-800v-coches-electricos.html",
+      "permanent": true
+    },
+    {
+      "source": "/calculadoras/calcular-ahorro-coche-electrico.html",
+      "destination": "/calculadoras.html",
+      "permanent": true
+    },
+    {
+      "source": "/calculadoras/calcular-ahorro-coche-electrico-vs-gasolina.html",
+      "destination": "/calculadoras.html",
+      "permanent": true
+    },
+    {
+      "source": "/calculadoras/calcular-coste-recarga-casa.html",
+      "destination": "/calculadoras.html",
+      "permanent": true
+    },
+    {
+      "source": "/calculadoras/calculadora-coste-recarga-casa.html",
+      "destination": "/calculadoras.html",
+      "permanent": true
+    },
+    {
+      "source": "/calculadoras/calculadora-ahorro-coche-electrico.html",
+      "destination": "/calculadoras.html",
+      "permanent": true
+    },
+    {
+      "source": "/calculadoras/calculadora-ahorro-coche-electrico-vs-gasolina.html",
+      "destination": "/calculadoras.html",
+      "permanent": true
+    },
+    {
+      "source": "/electromovilidad24.com/Redirig",
+      "destination": "/index.html",
+      "permanent": true
+    },
+    {
+      "source": "/coches-electricos",
+      "destination": "/index.html",
+      "permanent": true
+    },
+    {
+      "source": "/noticias",
+      "destination": "/index.html",
+      "permanent": true
+    },
+    {
+      "source": "/sobre-mi",
+      "destination": "/sobre.html",
+      "permanent": true
+    },
+    {
+      "source": "/http://electromovilidad24.com/guias/coche-electrico-sin-garaje-soluciones.html",
+      "destination": "/articulos/cargar-coche-electrico-sin-garaje.html",
+      "permanent": true
+    },
+    {
+      "source": "/http://electromovilidad24.com/guias/como-instalar-punto-recarga-comunidad-vecinos.html",
+      "destination": "/articulos/cargar-coche-electrico-comunidad-vecinos.html",
+      "permanent": true
+    },
+    {
+      "source": "/noticias/tesla-elimina-denominacion-standard-modelos-2026.html",
+      "destination": "/articulos/tesla-model-3-2025-precios-versiones.html",
+      "permanent": true
+    },
+    {
+      "source": "/articulos/leapmotor-t03-electrico-2025.html",
+      "destination": "/articulos/leapmotor-lafa-5-espana-2026.html",
+      "permanent": true
+    },
+    {
+      "source": "/articulos/toyota-yaris-hybrid-2025-precio-caracteristicas.html",
+      "destination": "/articulos/toyota-plan-auto-plus-ayudas-chr-electric-bz4x.html",
+      "permanent": true
+    },
+    {
+      "source": "/articulos/revolucion-precios-baterias-electricas-2030.html",
+      "destination": "/articulos/precio-baterias-coches-electricos-menos-3000-euros-2030.html",
+      "permanent": true
+    },
+    {
+      "source": "/articulos/carga-bidireccional-coches-electricos-ahorro.html",
+      "destination": "/articulos/carga-bidireccional-coches-electricos.html",
+      "permanent": true
+    },
+    {
+      "source": "/articulos/guia-valor-residual-coches-electricos-2026.html",
+      "destination": "/articulos/coches-electricos-valor-reventa-tesla-usado-2025.html",
+      "permanent": true
+    },
+    {
+      "source": "/articulos/mejores-marcas-coches-electricos-fiabilidad-2026.html",
+      "destination": "/articulos/garantia-bateria-coche-electrico-guia.html",
+      "permanent": true
+    },
+    {
+      "source": "/articulos/consejos-viajar-coche-electrico-espana.html",
+      "destination": "/articulos/viajar-coche-electrico-consejos-practicos.html",
+      "permanent": true
+    },
+    {
+      "source": "/articulos/consejos-conduccion-eficiente-coche-electrico.html",
+      "destination": "/articulos/movilidad-sostenible-espana-2025-2030.html",
+      "permanent": true
+    },
+    {
+      "source": "/articulos/movilidad-sostenible-espana-2025-2030.html",
+      "destination": "/articulos/ceve-2025-record-participacion-movilidad-electrica-espana.html",
+      "permanent": true
+    },
+    {
+      "source": "/articulos/bmw-ix-analisis-precio-autonomia.html",
+      "destination": "/articulos/mejores-suv-electricos-autonomia-menos-40000-2025.html",
+      "permanent": true
+    },
+    {
+      "source": "/articulos/renault-5-electrico-precio-caracteristicas.html",
+      "destination": "/articulos/renault-5-electrico-precio-caracteristicas-lanzamiento.html",
+      "permanent": true
+    },
+    {
+      "source": "/articulos/estadisticas-ventas-coches-electricos-espana-2025.html",
+      "destination": "/articulos/record-ventas-coches-electricos-espana-2025.html",
+      "permanent": true
+    },
+    {
+      "source": "/articulos/sedanes-electricos-gama-media-2025.html",
+      "destination": "/articulos/sedanes-electricos-gama-media-2025.html",
+      "permanent": true
+    }
   ]
 }
