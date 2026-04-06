@@ -871,12 +871,12 @@
       "permanent": true
     },
     {
-      "source": "/http://electromovilidad24.com/guias/coche-electrico-sin-garaje-soluciones.html",
+      "source": "/guias/coche-electrico-sin-garaje-soluciones.html",
       "destination": "/articulos/cargar-coche-electrico-sin-garaje.html",
       "permanent": true
     },
     {
-      "source": "/http://electromovilidad24.com/guias/como-instalar-punto-recarga-comunidad-vecinos.html",
+      "source": "/guias/como-instalar-punto-recarga-comunidad-vecinos.html",
       "destination": "/articulos/cargar-coche-electrico-comunidad-vecinos.html",
       "permanent": true
     },
