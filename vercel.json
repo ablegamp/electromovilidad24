@@ -461,11 +461,6 @@
       "permanent": true
     },
     {
-      "source": "/articulos/sedanes-electricos-gama-media-2025.html",
-      "destination": "/articulos/sedanes-electricos-gama-media-2025.html",
-      "permanent": true
-    },
-    {
       "source": "/articulos/viajar-en-coche-electrico-guia-principiantes-2025.html",
       "destination": "/articulos/consejos-viajar-coche-electrico-espana.html",
       "permanent": true
@@ -961,18 +956,8 @@
       "permanent": true
     },
     {
-      "source": "/articulos/renault-5-electrico-precio-caracteristicas.html",
-      "destination": "/articulos/renault-5-electrico-precio-caracteristicas-lanzamiento.html",
-      "permanent": true
-    },
-    {
       "source": "/articulos/estadisticas-ventas-coches-electricos-espana-2025.html",
       "destination": "/articulos/record-ventas-coches-electricos-espana-2025.html",
-      "permanent": true
-    },
-    {
-      "source": "/articulos/sedanes-electricos-gama-media-2025.html",
-      "destination": "/articulos/sedanes-electricos-gama-media-2025.html",
       "permanent": true
     }
   ]
