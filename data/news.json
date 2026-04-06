@@ -1,5 +1,15 @@
 [ 
 {
+  "id": 181,
+  "title": "El coche eléctrico ya no es solo ecología: es una cuestión de soberanía económica",
+  "summary": "La electrificación del transporte ha dejado de ser un debate medioambiental para convertirse en estrategia de Estado. Dependencia del petróleo, geopolítica, infraestructura insuficiente y nueva legislación: analizamos por qué electrificar la movilidad es ya una prioridad económica irrenunciable para España.",
+  "category": "Noticias",
+  "image": "https://images.unsplash.com/photo-1775114501677-18ba958f38c6?w=1200&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y29jaGUlMjBlbCVDMyVBOWN0cmljb3xlbnwwfDB8Mnx8fDI%3D",
+  "link": "articulos/electrificacion-movilidad-soberania-economica-estrategia.html",
+  "date": "2026-04-06",
+  "readTime": "8 min"
+},
+  {
   "id": 180,
   "title": "El principio del fin del coche de gasolina: una transición inevitable, pero no inmediata",
   "summary": "Análisis sobre el declive estructural del motor de combustión: la regulación europea de 2035, las previsiones de mercado y las inversiones de los fabricantes apuntan a una transición eléctrica inevitable, aunque con matices y un ritmo que no será tan rápido como algunos esperan.",
