@@ -501,11 +501,6 @@
       "permanent": true
     },
     {
-      "source": "/articulos/movilidad-sostenible-espana-2025-2030.html",
-      "destination": "/articulos/ceve-2025-record-participacion-movilidad-electrica-espana.html",
-      "permanent": true
-    },
-    {
       "source": "/articulos/review-kia-ev3-suv-electrico-barato.html",
       "destination": "/articulos/kia-ev3-precio-autonomia-espana-2025.html",
       "permanent": true
@@ -701,11 +696,6 @@
       "permanent": true
     },
     {
-      "source": "/articulos/viajar-en-coche-electrico-guia-principiantes-2025.html",
-      "destination": "/articulos/consejos-viajar-coche-electrico-espana.html",
-      "permanent": true
-    },
-    {
       "source": "/articulos/guia-instalacion-wallbox-casa-2026.html",
       "destination": "/articulos/como-cargar-coche-electrico-en-casa-guia-completa.html",
       "permanent": true
@@ -808,11 +798,6 @@
     {
       "source": "/articulos/index.html",
       "destination": "/index.html",
-      "permanent": true
-    },
-    {
-      "source": "/articulos/mejores-coche-electrico-calidad-precio-2025.html",
-      "destination": "/articulos/coches-electricos-mas-baratos-2026-comparativa.html",
       "permanent": true
     },
     {
