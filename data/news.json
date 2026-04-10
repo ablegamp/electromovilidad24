@@ -1,5 +1,15 @@
 [ 
 {
+  "id": 183,
+  "title": "El gigante silencioso: Geely Auto ya vende en España y demuestra que no es una marca china más",
+  "summary": "Geely Auto ha realizado su primera entrega en España con el Starray EM-i, un SUV híbrido enchufable con hasta 184 km de autonomía eléctrica y garantía de 8 años desde 26.215 euros. El grupo propietario de Volvo y Polestar llega con dos modelos, una red de 20 concesionarios y el objetivo de alcanzar 100 puntos de venta en 2027.",
+  "category": "Noticias",
+  "image": "/imagenes/geely-starray.png",
+  "link": "articulos/geely-auto-espana-primera-entrega-2026.html",
+  "date": "2026-04-10",
+  "readTime": "8 min"
+},
+{
   "id": 182,
   "title": "1 de cada 4 cargadores en España no funciona: la promesa eléctrica choca con la realidad",
   "summary": "El Barómetro de Electromovilidad de ANFAC revela que 17.073 de los 55.077 puntos de recarga públicos están fuera de servicio. Analizamos la brecha entre las cifras y la realidad de la transición eléctrica en 2026, en un contexto en el que Europa flexibiliza sus objetivos y los fabricantes frenan sus planes.",
