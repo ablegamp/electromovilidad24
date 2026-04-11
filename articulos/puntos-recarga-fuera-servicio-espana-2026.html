@@ -1,0 +1,531 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
+  <meta name="googlebot" content="index, follow" />
+  <meta name="theme-color" content="#10B981" />
+  <meta name="msapplication-TileColor" content="#10B981" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+  <meta name="format-detection" content="telephone=no" />
+  <title>1 de cada 4 puntos de recarga no funciona en España: el talón de Aquiles del coche eléctrico - 2026</title>
+  <meta name="description" content="España supera los 55.077 puntos de recarga, pero 17.073 están fuera de servicio. Analizamos la crisis de fiabilidad de la red de carga eléctrica por comunidades, causas y soluciones según datos de ANFAC del Q1 2026." />
+  <link rel="canonical" href="https://www.electromovilidad24.com/articulos/puntos-recarga-fuera-servicio-espana-2026.html" />
+  <!-- Open Graph -->
+  <meta property="og:type" content="article" />
+  <meta property="og:title" content="1 de cada 4 puntos de recarga no funciona en España: el talón de Aquiles del coche eléctrico - 2026" />
+  <meta property="og:description" content="España supera los 55.077 puntos de recarga, pero 17.073 están fuera de servicio. Analizamos la crisis de fiabilidad de la red de carga eléctrica por comunidades, causas y soluciones según datos de ANFAC del Q1 2026." />
+  <meta property="og:image" content="https://images.unsplash.com/photo-1619913387719-a43ee8859d9c?w=1200&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8Y2FyZ2Fkb3IlMjBlbCVDMyVBOWN0cmljb3xlbnwwfDB8MHx8fDI%3D" />
+  <meta property="og:image:alt" content="Cargador eléctrico público fuera de servicio en España" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="800" />
+  <meta property="og:locale" content="es_ES" />
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="1 de cada 4 puntos de recarga no funciona en España: el talón de Aquiles del coche eléctrico" />
+  <meta name="twitter:description" content="España supera los 55.077 puntos de recarga, pero 17.073 están fuera de servicio. El análisis del Q1 2026 según ANFAC." />
+  <meta name="twitter:image" content="https://images.unsplash.com/photo-1619913387719-a43ee8859d9c?w=1200&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8Y2FyZ2Fkb3IlMjBlbCVDMyVBOWN0cmljb3xlbnwwfDB8MHx8fDI%3D" />
+  <meta name="author" content="Movilidad Eléctrica 24" />
+  <link rel="icon" type="image/svg+xml" href="../favicon.svg">
+  <link rel="shortcut icon" href="../favicon.svg">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.0/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <script>
+    tailwind.config = { theme: { extend: { fontFamily: { inter: ['Inter','sans-serif'] }, colors: { 'verde-principal':'#10B981','gris-oscuro':'#1F2937','gris-claro':'#F9FAFB' } } } }
+  </script>
+  <style>
+    body { font-family: 'Inter', sans-serif; }
+    .article-content p { margin: 1rem 0; line-height: 1.75; }
+    .article-content h2 {
+      margin-top: 2rem;
+      margin-bottom: 1rem;
+      font-size: 1.75rem;
+      font-weight: 800;
+      color: #065f46;
+    }
+    .article-content h3 {
+      margin-top: 1.5rem;
+      margin-bottom: 0.75rem;
+      font-size: 1.5rem;
+      font-weight: 700;
+    }
+    .highlight-box {
+      background: linear-gradient(135deg, #ecfdf5 0%, #d1fae5 100%);
+      border-left: 4px solid #10B981;
+      padding: 1.5rem;
+      margin: 1.5rem 0;
+      border-radius: 0.5rem;
+    }
+    .stat-box {
+      background: linear-gradient(135deg, #dbeafe 0%, #bfdbfe 100%);
+      border-left: 4px solid #3b82f6;
+      padding: 1.5rem;
+      margin: 1.5rem 0;
+      border-radius: 0.5rem;
+    }
+    .warning-box {
+      background: linear-gradient(135deg, #fef3c7 0%, #fde68a 100%);
+      border-left: 4px solid #f59e0b;
+      padding: 1.5rem;
+      margin: 1.5rem 0;
+      border-radius: 0.5rem;
+    }
+    .danger-box {
+      background: linear-gradient(135deg, #fee2e2 0%, #fecaca 100%);
+      border-left: 4px solid #ef4444;
+      padding: 1.5rem;
+      margin: 1.5rem 0;
+      border-radius: 0.5rem;
+    }
+    .success-box {
+      background: linear-gradient(135deg, #d1fae5 0%, #a7f3d0 100%);
+      border-left: 4px solid #059669;
+      padding: 1.5rem;
+      margin: 1.5rem 0;
+      border-radius: 0.5rem;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 1.5rem 0;
+      font-size: 0.95rem;
+    }
+    thead {
+      background-color: #065f46;
+      color: white;
+    }
+    th, td {
+      padding: 0.75rem 1rem;
+      text-align: left;
+      border-bottom: 1px solid #d1d5db;
+    }
+    tbody tr:nth-child(even) {
+      background-color: #f0fdf4;
+    }
+    tbody tr:hover {
+      background-color: #d1fae5;
+    }
+  </style>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "NewsArticle",
+    "headline": "1 de cada 4 puntos de recarga no funciona en España: el talón de Aquiles del coche eléctrico",
+    "datePublished": "2026-04-11T09:00:00+02:00",
+    "dateModified": "2026-04-11T09:00:00+02:00",
+    "author": {
+      "@type": "Person",
+      "name": "Movilidad Eléctrica 24"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Movilidad Eléctrica 24",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://www.electromovilidad24.com/imagenes/logo.webp"
+      }
+    },
+    "description": "España supera los 55.077 puntos de recarga en el Q1 2026, pero 17.073 están fuera de servicio. Analizamos las causas, el mapa por comunidades y las soluciones posibles.",
+    "image": "https://images.unsplash.com/photo-1619913387719-a43ee8859d9c?w=1200&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8Y2FyZ2Fkb3IlMjBlbCVDMyVBOWN0cmljb3xlbnwwfDB8MHx8fDI%3D",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://www.electromovilidad24.com/articulos/puntos-recarga-fuera-servicio-espana-2026.html"
+    },
+    "keywords": ["puntos de recarga España", "cargadores eléctricos fuera de servicio", "ANFAC 2026", "infraestructura recarga eléctrica", "movilidad eléctrica España"]
+  }
+  </script>
+</head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-5PD6Y58MK5"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-5PD6Y58MK5');
+</script>
+<body class="bg-gray-50 text-gray-900">
+  <header class="bg-white shadow-lg sticky top-0 z-50">
+    <div class="container mx-auto px-4 py-4">
+      <div class="flex items-center justify-between">
+        <a href="../index.html" class="flex items-center space-x-3">
+          <div class="bg-white rounded-lg p-1">
+            <img src="../imagenes/logo.webp" alt="Electromovilidad 24" class="h-16 w-auto">
+          </div>
+          <div>
+            <h1 class="text-2xl md:text-3xl font-bold text-gris-oscuro">Electromovilidad 24</h1>
+            <p class="text-sm text-gray-600">Descubre el futuro de la movilidad</p>
+          </div>
+        </a>
+        <button id="mobile-menu-btn" class="md:hidden bg-verde-principal text-white p-2 rounded-lg">
+          <i class="fas fa-bars"></i>
+        </button>
+      </div>
+      <nav class="mt-4">
+        <ul id="nav-menu" class="hidden md:flex space-x-8 text-gris-oscuro font-medium">
+          <li><a href="../index.html" class="hover:text-verde-principal transition-colors duration-200 border-b-2 border-verde-principal pb-1">Inicio</a></li>
+          <li><a href="../comparativas.html" class="hover:text-verde-principal transition-colors duration-200">Comparativas</a></li>
+          <li><a href="../reviews.html" class="hover:text-verde-principal transition-colors duration-200">Reviews</a></li>
+          <li><a href="../guias.html" class="hover:text-verde-principal transition-colors duration-200">Guías</a></li>
+          <li><a href="../calculadoras.html" class="hover:text-verde-principal transition-colors duration-200">Calculadoras</a></li>
+          <li><a href="../sobre.html" class="hover:text-verde-principal transition-colors duration-200">Sobre mí</a></li>
+          <li><a href="../contacto.html" class="hover:text-verde-principal transition-colors duration-200">Contacto</a></li>
+        </ul>
+        <ul id="mobile-nav" class="md:hidden hidden flex-col space-y-3 mt-4 bg-gray-50 p-4 rounded-lg">
+          <li><a href="../index.html" class="block text-gris-oscuro hover:text-verde-principal font-medium">Inicio</a></li>
+          <li><a href="../index.html#news-section" class="block text-gris-oscuro hover:text-verde-principal font-medium">Noticias</a></li>
+          <li><a href="../comparativas.html" class="block text-gris-oscuro hover:text-verde-principal font-medium">Comparativas</a></li>
+          <li><a href="../reviews.html" class="block text-gris-oscuro hover:text-verde-principal font-medium">Reviews</a></li>
+          <li><a href="../guias.html" class="block text-gris-oscuro hover:text-verde-principal font-medium">Guías</a></li>
+          <li><a href="../calculadoras.html" class="block text-gris-oscuro hover:text-verde-principal font-medium">Calculadoras</a></li>
+          <li><a href="../sobre.html" class="block text-gris-oscuro hover:text-verde-principal font-medium">Sobre mí</a></li>
+          <li><a href="../contacto.html" class="block text-gris-oscuro hover:text-verde-principal font-medium">Contacto</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="max-w-4xl mx-auto px-4 py-8">
+    <article>
+      <header class="mb-6">
+        <p class="text-sm text-gray-500 flex items-center space-x-2">
+          <i class="fas fa-calendar-alt"></i>
+          <time datetime="2026-04-11">11 de abril de 2026</time>
+          <span class="mx-2">•</span>
+          <span class="bg-blue-500 text-white px-2 py-0.5 rounded text-xs">Noticia</span>
+          <span class="mx-2">•</span>
+          <span>Lectura: 8 min</span>
+        </p>
+        <h1 class="text-3xl md:text-4xl font-extrabold leading-tight mt-2">El talón de Aquiles de la movilidad eléctrica: 1 de cada 4 puntos de recarga no funciona en España</h1>
+        <p class="mt-3 text-lg text-gray-700">España supera los 55.000 puntos de recarga pública, pero <strong>17.073 están fuera de servicio</strong>. Los últimos datos de ANFAC para el primer trimestre de 2026 revelan una paradoja inquietante: la red crece, pero su fiabilidad no avanza al mismo ritmo. Y eso, para el conductor eléctrico, lo cambia todo.</p>
+      </header>
+
+      <!-- Breadcrumbs -->
+      <nav aria-label="breadcrumbs" class="text-sm text-gray-600 mb-4">
+        <ol class="flex flex-wrap items-center gap-2">
+          <li><a href="../index.html" class="text-emerald-700 hover:underline">Inicio</a></li>
+          <li>/</li>
+          <li><a href="../index.html#news-section" class="text-emerald-700 hover:underline">Noticias</a></li>
+          <li>/</li>
+          <li aria-current="page" class="text-gray-800">Puntos de recarga fuera de servicio en España 2026</li>
+        </ol>
+      </nav>
+
+      <!-- Índice -->
+      <nav class="bg-emerald-50 border border-emerald-100 rounded-lg p-4 mb-6 text-sm">
+        <p class="font-semibold text-emerald-800 mb-2">Contenido</p>
+        <ol class="list-decimal ml-5 space-y-1 text-emerald-900">
+          <li><a class="hover:underline" href="#paradoja">La paradoja del crecimiento: más puntos, pero menos fiables</a></li>
+          <li><a class="hover:underline" href="#mapa">El mapa de la inoperancia: comunidades con más del 40% de cargadores fuera de servicio</a></li>
+          <li><a class="hover:underline" href="#causas">Las causas: averías, burocracia y falta de mantenimiento</a></li>
+          <li><a class="hover:underline" href="#potencia">El lastre de la baja potencia: el 69% de los puntos son lentos</a></li>
+          <li><a class="hover:underline" href="#europa">El contexto europeo: España a la cola de la fiabilidad</a></li>
+          <li><a class="hover:underline" href="#soluciones">Soluciones: ¿hacia dónde vamos?</a></li>
+          <li><a class="hover:underline" href="#conclusion">Conclusión</a></li>
+          <li><a class="hover:underline" href="#fuentes">Fuentes</a></li>
+        </ol>
+      </nav>
+
+      <!-- Hero Image -->
+      <div class="mb-8 rounded-lg overflow-hidden shadow-xl">
+        <img
+          src="https://images.unsplash.com/photo-1619913387719-a43ee8859d9c?w=1200&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8Y2FyZ2Fkb3IlMjBlbCVDMyVBOWN0cmljb3xlbnwwfDB8MHx8fDI%3D"
+          alt="Cargador eléctrico público fuera de servicio en España"
+          class="w-full h-auto"
+          loading="lazy"
+        >
+        <p class="text-sm text-gray-500 p-2 bg-gray-50 text-center">Más de 17.000 puntos de recarga pública están fuera de servicio en España según los datos del primer trimestre de 2026</p>
+      </div>
+
+      <div class="article-content">
+
+        <p>Los números de titulares siempre suenan bien. España ha superado los 55.077 puntos de recarga de acceso público durante el primer trimestre de 2026, lo que representa un crecimiento del 3,8% respecto al cierre de 2025 y la instalación de 2.005 nuevos puntos solo en esos tres meses. Cualquiera diría que el país avanza a buen ritmo hacia la electrificación del transporte.</p>
+
+        <p>Pero hay un dato que no suele aparecer en los titulares optimistas: <strong>17.073 de esos 55.077 puntos están fuera de servicio</strong>. Uno de cada cuatro. Esa es la realidad que recoge el <a href="https://anfac.com/el-primer-trimestre-de-2026-registra-2-005-nuevos-puntos-de-recarga-con-un-total-de-55-077-en-espana/" target="_blank" rel="noopener noreferrer" class="text-emerald-700 hover:underline">informe trimestral de ANFAC</a> para el Q1 de 2026, y es la que más debería preocuparnos si queremos que el coche eléctrico deje de ser percibido como un vehículo de segundo uso o de entorno urbano.</p>
+
+        <h2 id="paradoja">La paradoja del crecimiento: más puntos, pero menos fiables</h2>
+
+        <p>El ritmo de instalación se ha acelerado. Los 2.005 nuevos puntos del primer trimestre duplican el crecimiento registrado en el cuarto trimestre de 2025, y el 15% de esas nuevas incorporaciones corresponde a puntos de muy alta potencia (igual o superior a 250 kW), lo que equivale a casi la mitad de todo lo que se instaló en esa categoría durante todo el año 2025. Son datos positivos, sin duda.</p>
+
+        <p>El problema es lo que ocurre en paralelo. <strong>En ese mismo trimestre se han registrado 733 nuevos puntos fuera de servicio</strong>. Es decir, por cada tres cargadores que se instalan, aproximadamente uno engrosa la lista de inoperativos. Y eso, acumulado en el tiempo, da como resultado una red donde más de 17.000 puntos están físicamente presentes pero son completamente inútiles para el conductor que los necesita.</p>
+
+        <div class="danger-box">
+          <p class="font-semibold mb-2">🔴 El dato que cambia la perspectiva:</p>
+          <p>Si todos los puntos instalados funcionaran correctamente, España alcanzaría los <strong>72.150 puntos de recarga operativos</strong>. La brecha entre lo que existe y lo que funciona es de más de 17.000 puntos. Una infraestructura fantasma que distorsiona los indicadores y genera una falsa sensación de avance.</p>
+        </div>
+
+        <p>La pregunta es inevitable: ¿de qué sirve invertir recursos públicos y privados en ampliar una red cuando una cuarta parte de lo que ya existe permanece inutilizable? Según <a href="https://www.xataka.com/movilidad/espana-tiene-72-000-puntos-recarga-para-coches-electricos-problema-uno-cada-cuatro-no-funciona" target="_blank" rel="noopener noreferrer" class="text-emerald-700 hover:underline">el análisis publicado por Xataka</a>, esta situación es uno de los principales frenos a la confianza del conductor en la movilidad eléctrica.</p>
+
+        <h2 id="mapa">El mapa de la inoperancia: comunidades con más del 40% de cargadores fuera de servicio</h2>
+
+        <p>El problema no se distribuye de forma homogénea en el territorio. ANFAC ha desglosado los datos por comunidades autónomas, y las diferencias son tan pronunciadas que resultan difíciles de ignorar. Hay territorios donde prácticamente uno de cada dos puntos instalados no funciona, y otros donde la situación, sin ser perfecta, es significativamente mejor.</p>
+
+        <table>
+          <thead>
+            <tr>
+              <th>Comunidad Autónoma</th>
+              <th>% de puntos fuera de servicio</th>
+              <th>Situación</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><strong>Baleares</strong></td>
+              <td>45,5%</td>
+              <td>🔴 Crítica</td>
+            </tr>
+            <tr>
+              <td><strong>Galicia</strong></td>
+              <td>39,5%</td>
+              <td>🔴 Muy grave</td>
+            </tr>
+            <tr>
+              <td><strong>La Rioja</strong></td>
+              <td>37,5%</td>
+              <td>🟠 Grave</td>
+            </tr>
+            <tr>
+              <td><strong>Comunitat Valenciana</strong></td>
+              <td>35,5%</td>
+              <td>🟠 Grave</td>
+            </tr>
+            <tr>
+              <td><strong>Extremadura</strong></td>
+              <td>26,1%</td>
+              <td>🟡 Preocupante</td>
+            </tr>
+            <tr>
+              <td><strong>Castilla y León</strong></td>
+              <td>22,4%</td>
+              <td>🟢 Mejor situación</td>
+            </tr>
+            <tr>
+              <td><strong>Aragón</strong></td>
+              <td>22,4%</td>
+              <td>🟢 Mejor situación</td>
+            </tr>
+          </tbody>
+        </table>
+
+        <p>Baleares encabeza el ranking negativo con casi la mitad de sus puntos de recarga fuera de servicio. Una situación especialmente paradójica para un territorio insular donde la movilidad eléctrica debería tener un papel protagonista por razones medioambientales y logísticas. Galicia, con casi un 40% de inoperativos, y La Rioja con un 37,5%, completan el podio de las comunidades con la infraestructura menos fiable.</p>
+
+        <p>En el otro extremo, Aragón y Castilla y León presentan los porcentajes más bajos de puntos fuera de servicio, aunque con una tasa del 22,4% tampoco pueden considerarse un ejemplo de excelencia. La diferencia entre unas comunidades y otras no es accidental: refleja desigualdades en la gestión pública, los procedimientos de conexión a la red eléctrica y los planes de mantenimiento exigidos a los operadores.</p>
+
+        <p>Tal y como señala <a href="https://motor.elpais.com/coches-electricos/espana-mejora-en-coche-electrico-pero-falla-en-lo-clave-uno-de-cada-cuatro-puntos-de-recarga-no-funciona/" target="_blank" rel="noopener noreferrer" class="text-emerald-700 hover:underline">Motor EL PAÍS en su análisis del informe</a>, solo ocho comunidades superan la media nacional en el indicador global de electromovilidad: Navarra, Castilla-La Mancha, Castilla y León, Cantabria, Cataluña, Aragón, Asturias y Baleares. Una lista que, en el caso de Baleares, resulta contradictoria con sus altos porcentajes de cargadores inoperativos.</p>
+
+        <h2 id="causas">Las causas: averías, burocracia y falta de mantenimiento</h2>
+
+        <p>¿Por qué hay tantos puntos de recarga que no funcionan? La respuesta no es única. ANFAC identifica varias causas que se solapan y se retroalimentan entre sí.</p>
+
+        <div class="warning-box">
+          <p class="font-semibold mb-3">⚠️ Principales causas de los puntos fuera de servicio:</p>
+          <ul class="space-y-2">
+            <li><strong>Averías sin reparar:</strong> Muchos cargadores se estropean y los plazos de reparación son excesivamente largos. La falta de personal técnico especializado y los tiempos de respuesta de los operadores alargan innecesariamente el tiempo en que un punto permanece inutilizable.</li>
+            <li><strong>Trabas administrativas:</strong> Una parte significativa de los puntos están físicamente instalados, pero no se han podido conectar a la red de distribución eléctrica por problemas burocráticos con las distribuidoras o por retrasos en los permisos.</li>
+            <li><strong>Ausencia de mantenimiento preventivo:</strong> En muchos casos, la inversión se centra en la instalación inicial sin prever un plan de mantenimiento continuo que garantice la operatividad a largo plazo.</li>
+            <li><strong>Datos basados en reporting colaborativo:</strong> ANFAC utiliza información de los usuarios a través de la app <strong>Electromaps</strong> para elaborar este mapa de averías. Esto significa que la cifra real de inoperativos podría ser incluso mayor, ya que depende de que los usuarios reporten las incidencias.</li>
+          </ul>
+        </div>
+
+        <p>Este último punto es especialmente relevante. El hecho de que el sistema de detección de averías dependa de una plataforma colaborativa implica que hay puntos fuera de servicio que nadie ha reportado y que, por tanto, no aparecen en las estadísticas. La cifra de 17.073 podría ser, en realidad, una subestimación del problema real.</p>
+
+        <p>Como recoge <a href="https://www.abc.es/motor/economia/espana-frena-avance-electromovilidad-segun-barometro-anfac-20260408150444-nt.html" target="_blank" rel="noopener noreferrer" class="text-emerald-700 hover:underline">ABC en su cobertura del barómetro de ANFAC</a>, el indicador global de electromovilidad en España se sitúa en 25,4 puntos sobre 100, frente a la media europea de 38. Y el indicador de penetración del vehículo electrificado, aunque ha crecido 2,5 puntos hasta los 35,9, muestra señales de estancamiento vinculadas en parte al agotamiento del Plan MOVES III.</p>
+
+        <h2 id="potencia">El lastre de la baja potencia: el 69% de los puntos son lentos</h2>
+
+        <p>La fiabilidad no es el único problema de la red española. Hay otro factor que limita profundamente la experiencia del usuario eléctrico: la potencia disponible. De los 55.077 puntos registrados, el <strong>69% son de baja potencia, con 22 kW o menos</strong>, lo que implica tiempos mínimos de carga de tres horas para la mayoría de los vehículos. Para cargas rápidas en viajes, estas potencias son prácticamente inútiles.</p>
+
+        <table>
+          <thead>
+            <tr>
+              <th>Rango de potencia</th>
+              <th>Número de puntos</th>
+              <th>Tipo de uso</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>≤ 22 kW (baja potencia)</td>
+              <td>~37.975</td>
+              <td>Carga lenta (hogar, parking)</td>
+            </tr>
+            <tr>
+              <td>22 – 50 kW</td>
+              <td>2.253</td>
+              <td>Carga semi-rápida</td>
+            </tr>
+            <tr>
+              <td>50 – 150 kW</td>
+              <td>9.015</td>
+              <td>Carga rápida</td>
+            </tr>
+            <tr>
+              <td>150 – 250 kW</td>
+              <td>3.206</td>
+              <td>Carga ultrarrápida</td>
+            </tr>
+            <tr>
+              <td>≥ 250 kW</td>
+              <td>2.469</td>
+              <td>Carga muy alta potencia</td>
+            </tr>
+          </tbody>
+        </table>
+
+        <p>Solo el 31% de la infraestructura pública española cuenta con potencias superiores a 22 kW, muy lejos del objetivo del 55% fijado por ANFAC para el conjunto de 2026. Aunque los puntos de muy alta potencia (≥250 kW) han crecido significativamente en el trimestre —309 nuevos puntos, equivalentes al 43% de todo lo instalado en esa categoría durante 2025—, siguen siendo una minoría anecdótica frente al peso aplastante de los cargadores lentos.</p>
+
+        <div class="stat-box">
+          <p class="font-semibold mb-2">📊 Lo que dicen desde ANFAC:</p>
+          <p>"Este es un punto crítico para el despliegue del vehículo eléctrico como vehículo de 'todo uso' frente a la percepción actual de utilización de este como segundo o tercer vehículo para zonas urbanas."</p>
+          <p class="mt-2 text-sm text-gray-600">Fuente: <a href="https://anfac.com/el-primer-trimestre-de-2026-registra-2-005-nuevos-puntos-de-recarga-con-un-total-de-55-077-en-espana/" target="_blank" rel="noopener noreferrer" class="text-blue-700 hover:underline">Informe ANFAC Q1 2026</a></p>
+        </div>
+
+        <p>Esa cita lo resume todo. Mientras la red de alta potencia no alcance una cobertura territorial suficiente, el coche eléctrico seguirá siendo percibido como una opción de movilidad urbana, no como un sustituto real del vehículo de combustión para todos los perfiles de conductor. Como señala <a href="https://www.hibridosyelectricos.com/coches/espana-supera-55000-puntos-recarga-pero-despliegue-se-ralentiza-sigue-lejos-europa_86178_102.html" target="_blank" rel="noopener noreferrer" class="text-emerald-700 hover:underline">Híbridos y Eléctricos</a>, España sigue lejos de Europa en este indicador clave.</p>
+
+        <h2 id="europa">El contexto europeo: España a la cola de la fiabilidad</h2>
+
+        <p>Para entender la magnitud del problema, ayuda mirarlo desde fuera. La media de la Unión Europea en el indicador global de electromovilidad se sitúa en 38 puntos sobre 100. España está en 25,4. No es una diferencia menor: es una brecha de casi 13 puntos que refleja un retraso estructural en la planificación, la inversión y la gestión de la infraestructura.</p>
+
+        <p>Países como Noruega o los Países Bajos no solo tienen más puntos de recarga por habitante, sino que sus redes son notablemente más fiables y están mejor distribuidas en el territorio. La diferencia no es solo cuantitativa, sino cualitativa: se trata de sistemas gestionados con exigencias de mantenimiento reales, procedimientos administrativos ágiles para la conexión a la red y una cultura de servicio orientada al usuario.</p>
+
+        <p>España, en cambio, ha priorizado históricamente las métricas de instalación frente a las de operatividad. El resultado es una red que, sobre el papel, crece con rapidez, pero que en la práctica ofrece una experiencia fragmentada e impredecible para el conductor eléctrico.</p>
+
+        <h2 id="soluciones">Soluciones: ¿hacia dónde vamos?</h2>
+
+        <p>El diagnóstico está claro. La pregunta es qué se puede hacer para revertir esta situación. Hay iniciativas en marcha, aunque con alcance y velocidad discutibles.</p>
+
+        <p>El <strong>Plan Auto+ 2026</strong>, dotado con 400 millones de euros, incluye medidas específicas para el despliegue de infraestructura de recarga, con especial atención a eliminar las denominadas "zonas sombra" donde actualmente no existe ningún punto público. También se mantiene la deducción en el IRPF del 15% por la instalación de puntos de recarga en viviendas particulares, una medida que incentiva la carga privada pero no resuelve el problema de la red pública.</p>
+
+        <div class="success-box">
+          <p class="font-semibold mb-3">✅ Medidas urgentes que se necesitan:</p>
+          <ul class="space-y-2">
+            <li>📋 <strong>Simplificar los trámites burocráticos</strong> para la conexión de nuevos puntos a la red de distribución eléctrica, eliminando los cuellos de botella administrativos que mantienen cargadores instalados pero sin conectar.</li>
+            <li>🔧 <strong>Exigir a los operadores planes de mantenimiento</strong> con compromisos de tiempo máximo de reparación como condición para obtener y mantener las licencias de operación.</li>
+            <li>🚫 <strong>Priorizar la reparación de puntos averiados</strong> antes de autorizar nuevas instalaciones en zonas ya cubiertas, para mejorar la calidad antes que la cantidad.</li>
+            <li>📱 <strong>Mejorar los sistemas de reporte de averías</strong> con canales oficiales que no dependan exclusivamente de plataformas colaborativas, para tener datos más precisos y reaccionar con mayor rapidez.</li>
+            <li>⚡ <strong>Acelerar el despliegue de alta potencia</strong> en corredores de larga distancia y áreas periurbanas para que el coche eléctrico sea una opción viable para todos los perfiles de movilidad.</li>
+          </ul>
+        </div>
+
+        <p>Desde el sector, la demanda es clara. No se trata solo de invertir más, sino de invertir mejor y de exigir más a los operadores que ya han recibido ayudas públicas para instalar infraestructura que, en demasiados casos, no funciona. El dinero público debe ir acompañado de compromisos de calidad de servicio medibles y ejecutables.</p>
+
+        <h2 id="conclusion">Conclusión: cantidad no es calidad</h2>
+
+        <p>Los 55.077 puntos de recarga son un hito. Son un número que merece ser reconocido como reflejo del esfuerzo inversor de los últimos años. Pero los 17.073 que no funcionan son una losa que pesa sobre la credibilidad de todo el sistema.</p>
+
+        <p>La movilidad eléctrica no necesita solo más cargadores. Necesita cargadores que funcionen cuando se los necesita, que sean lo suficientemente rápidos para no convertir una parada en un problema logístico, y que estén donde los conductores realmente los requieren. Mientras no se resuelva el problema de la fiabilidad, la desconfianza del conductor medio seguirá siendo el principal freno a la electrificación masiva.</p>
+
+        <p>Y esa desconfianza no se combate con titulares de récords. Se combate con una red que responda. Con un cargador que esté operativo cuando llegas con la batería al 10% después de un viaje de dos horas. Con la certeza de que el punto que aparece en el mapa de tu coche no va a estar envuelto en una cinta de avería cuando llegues a él.</p>
+
+        <p>España tiene los mimbres para construir una red de recarga a la altura de sus ambiciones en electrificación. Pero necesita dar un giro de prioridades: de construir a mantener, de instalar a operar, de crecer en cantidad a mejorar en calidad. El tiempo apremia, y los conductores eléctricos —cada vez más numerosos— lo saben perfectamente.</p>
+
+        <h2 id="fuentes">Fuentes</h2>
+
+        <div class="bg-gray-100 rounded-lg p-5 mt-4">
+          <p class="font-semibold text-gray-800 mb-3">📌 Referencias utilizadas en este artículo:</p>
+          <ul class="space-y-3 text-sm text-gray-700">
+            <li>
+              <strong>ANFAC – Datos oficiales Q1 2026:</strong><br>
+              <a href="https://anfac.com/el-primer-trimestre-de-2026-registra-2-005-nuevos-puntos-de-recarga-con-un-total-de-55-077-en-espana/" target="_blank" rel="noopener noreferrer" class="text-emerald-700 hover:underline break-all">https://anfac.com/el-primer-trimestre-de-2026-registra-2-005-nuevos-puntos-de-recarga-con-un-total-de-55-077-en-espana/</a>
+            </li>
+            <li>
+              <strong>Xataka – Análisis por comunidades autónomas:</strong><br>
+              <a href="https://www.xataka.com/movilidad/espana-tiene-72-000-puntos-recarga-para-coches-electricos-problema-uno-cada-cuatro-no-funciona" target="_blank" rel="noopener noreferrer" class="text-emerald-700 hover:underline break-all">https://www.xataka.com/movilidad/espana-tiene-72-000-puntos-recarga-para-coches-electricos-problema-uno-cada-cuatro-no-funciona</a>
+            </li>
+            <li>
+              <strong>Motor EL PAÍS – Indicadores por comunidades:</strong><br>
+              <a href="https://motor.elpais.com/coches-electricos/espana-mejora-en-coche-electrico-pero-falla-en-lo-clave-uno-de-cada-cuatro-puntos-de-recarga-no-funciona/" target="_blank" rel="noopener noreferrer" class="text-emerald-700 hover:underline break-all">https://motor.elpais.com/coches-electricos/espana-mejora-en-coche-electrico-pero-falla-en-lo-clave-uno-de-cada-cuatro-puntos-de-recarga-no-funciona/</a>
+            </li>
+            <li>
+              <strong>ABC – Ralentización del avance de la electromovilidad:</strong><br>
+              <a href="https://www.abc.es/motor/economia/espana-frena-avance-electromovilidad-segun-barometro-anfac-20260408150444-nt.html" target="_blank" rel="noopener noreferrer" class="text-emerald-700 hover:underline break-all">https://www.abc.es/motor/economia/espana-frena-avance-electromovilidad-segun-barometro-anfac-20260408150444-nt.html</a>
+            </li>
+            <li>
+              <strong>Híbridos y Eléctricos – Despliegue y objetivos 2026:</strong><br>
+              <a href="https://www.hibridosyelectricos.com/coches/espana-supera-55000-puntos-recarga-pero-despliegue-se-ralentiza-sigue-lejos-europa_86178_102.html" target="_blank" rel="noopener noreferrer" class="text-emerald-700 hover:underline break-all">https://www.hibridosyelectricos.com/coches/espana-supera-55000-puntos-recarga-pero-despliegue-se-ralentiza-sigue-lejos-europa_86178_102.html</a>
+            </li>
+            <li>
+              <strong>El Economista – Análisis del despliegue:</strong><br>
+              <a href="https://www.eleconomista.es/motor/noticias/13859611/04/26/espana-se-prepara-para-el-coche-electrico-en-2026-la-red-de-recarga-ha-crecido-y-supera-los-55000-puntos.html" target="_blank" rel="noopener noreferrer" class="text-emerald-700 hover:underline break-all">https://www.eleconomista.es/motor/noticias/13859611/04/26/espana-se-prepara-para-el-coche-electrico-en-2026-la-red-de-recarga-ha-crecido-y-supera-los-55000-puntos.html</a>
+            </li>
+            <li>
+              <strong>El Desmarque – Crecimiento y puntos fuera de servicio:</strong><br>
+              <a href="https://www.eldesmarque.com/coches-y-motos/20260409/espana-recarga-crecimiento-empieza-frenarse_18_018826032.html" target="_blank" rel="noopener noreferrer" class="text-emerald-700 hover:underline break-all">https://www.eldesmarque.com/coches-y-motos/20260409/espana-recarga-crecimiento-empieza-frenarse_18_018826032.html</a>
+            </li>
+          </ul>
+        </div>
+
+      </div>
+
+      <footer class="mt-10 pt-6 border-t text-sm text-gray-600">
+        <p>¿Quieres saber más sobre el estado de la infraestructura de recarga en tu comunidad o cómo planificar tus viajes en coche eléctrico evitando los puntos más problemáticos? Contacta conmigo y te ayudo a resolver tus dudas sobre movilidad eléctrica en España.</p>
+      </footer>
+
+      <!-- Artículos relacionados -->
+      <aside class="mt-12">
+        <h2 class="text-2xl font-bold mb-4">Artículos relacionados</h2>
+        <ul class="list-disc ml-5 text-emerald-800 space-y-2">
+          <li><a class="hover:underline" href="ahorrar-electricidad-cargando-coche-electrico.html">Cómo ahorrar en electricidad cargando tu coche eléctrico – Guía 2025</a></li>
+          <li><a class="hover:underline" href="plan-moves-2025-requisitos-ayudas-comunidades.html">Plan MOVES 2025: todas las ayudas disponibles por comunidades</a></li>
+          <li><a class="hover:underline" href="ventajas-fiscales-coche-electrico-espana-2025.html">Deducciones fiscales y ventajas por tener un coche eléctrico en España 2025</a></li>
+          <li><a class="hover:underline" href="coches-electricos-baratos-espana-2025.html">Coches eléctricos baratos en España 2025 – Guía completa</a></li>
+          <li><a class="hover:underline" href="../calculadoras.html">Calculadora de ahorro: eléctrico vs gasolina</a></li>
+        </ul>
+      </aside>
+
+      <!-- Sobre el autor -->
+      <section class="mt-12 bg-emerald-50 border border-emerald-100 rounded-xl p-6">
+        <h2 class="text-2xl font-bold mb-2">Sobre el autor</h2>
+        <p class="text-gray-700">Apasionado de la movilidad eléctrica con más de 15.000 km de experiencia en viajes por carretera. Comparto lo aprendido para que tu transición a la electrificación sea más sencilla y disfrutes cada kilómetro, sin sorpresas.</p>
+      </section>
+      <script async="async" data-cfasync="false" src="//pl28052676.effectivegatecpm.com/2f2bf98ebb38fc325879c099d716122f/invoke.js"></script>
+      <div id="container-2f2bf98ebb38fc325879c099d716122f"></div>
+    </article>
+  </main>
+
+  <footer class="bg-gris-oscuro text-white py-12 mt-16">
+    <div class="container mx-auto px-4">
+      <div class="flex flex-col md:flex-row gap-8">
+        <div class="flex-1">
+          <div class="flex items-start space-x-3 mb-2">
+            <div class="bg-white rounded-lg p-1">
+              <img src="../imagenes/logo.webp" alt="Electromovilidad 24" class="h-16 w-auto">
+            </div>
+            <div>
+              <h3 class="text-xl font-bold">Electromovilidad 24</h3>
+              <p class="text-gray-300">Tu fuente confiable de información sobre movilidad eléctrica.</p>
+            </div>
+          </div>
+        </div>
+        <div class="flex-1">
+          <h4 class="text-lg font-semibold mb-2">Enlaces Útiles</h4>
+          <div class="flex flex-wrap gap-4">
+            <a href="../index.html" class="text-gray-300 hover:text-verde-principal transition-colors">Inicio</a>
+            <a href="../index.html#news-section" class="text-gray-300 hover:text-verde-principal transition-colors">Noticias</a>
+            <a href="../comparativas.html" class="text-gray-300 hover:text-verde-principal transition-colors">Comparativas</a>
+            <a href="../reviews.html" class="text-gray-300 hover:text-verde-principal transition-colors">Reviews</a>
+            <a href="../guias.html" class="text-gray-300 hover:text-verde-principal transition-colors">Guías</a>
+            <a href="../calculadoras.html" class="text-gray-300 hover:text-verde-principal transition-colors">Calculadoras</a>
+            <a href="../sobre.html" class="text-gray-300 hover:text-verde-principal transition-colors">Sobre mí</a>
+          </div>
+        </div>
+      </div>
+      <div class="border-t border-gray-700 mt-8 pt-8 text-center">
+        <p class="text-gray-400">
+          2026 Electromovilidad 24 - Siguiendo la revolución eléctrica en tiempo real
+        </p>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('mobile-menu-btn').addEventListener('click', function() {
+      const menu = document.getElementById('mobile-nav');
+      menu.classList.toggle('hidden');
+    });
+  </script>
+  <script type='text/javascript' src='//pl28052810.effectivegatecpm.com/87/85/ba/8785baa66295effbd2aec6714ef57340.js'></script>
+</body>
+</html>
