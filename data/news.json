@@ -1,5 +1,15 @@
 [ 
 {
+  "id": 186,
+  "title": "El mercado de segunda mano se rinde a la batería: 24.000 análisis confirman que el coche eléctrico usado es una compra segura",
+  "summary": "Un estudio de Arval con 24.000 certificados de baterías en 11 países europeos demuestra que los coches eléctricos retienen más del 90% de su capacidad tras 160.000 km. Las ventas de eléctricos usados crecen un 48,8% en el primer trimestre de 2026 y el Pasaporte Digital de Batería llega en 2027.",
+  "category": "Noticias",
+  "image": "https://images.unsplash.com/photo-1776142519218-7ab357d3fc14?w=1200&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y29jaGUlMjBlbGVjdHJpY298ZW58MHwwfDJ8fHwy",
+  "link": "articulos/estudio-arval-baterias-coches-electricos-segunda-mano-2026.html",
+  "date": "2026-04-14",
+  "readTime": "8 min"
+},
+{
   "id": 185,
   "title": "El talón de Aquiles de la movilidad eléctrica: 1 de cada 4 puntos de recarga no funciona en España",
   "summary": "España supera los 55.077 puntos de recarga pública en el Q1 2026, pero 17.073 están fuera de servicio. Baleares lidera el ranking negativo con el 45,5% de cargadores inoperativos. Analizamos las causas, el mapa por comunidades y lo que urge cambiar.",
