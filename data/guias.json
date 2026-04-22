@@ -1,5 +1,15 @@
 [
 {
+  "id": 137,
+  "title": "Tu concesionario no quiere que compres un eléctrico (y esta es la razón)",
+  "summary": "Hay una batalla silenciosa en los puntos de venta: muchos concesionarios tradicionales desaconsejan el coche eléctrico por razones económicas muy concretas. Analizamos por qué los talleres pierden ingresos con el eléctrico, cómo afecta a las comisiones de los vendedores y qué dice el informe de Transport & Environment sobre la experiencia de compra real en más de 300 concesionarios europeos.",
+  "category": "Guías",
+  "image": "https://images.unsplash.com/photo-1775752197294-d82d72033305?w=1200&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mzh8fGNvY2hlJTIwZWxlY3RyaWNvfGVufDB8MHwyfHx8Mg%3D%3D",
+  "link": "articulos/concesionarios-sabotean-coche-electrico.html",
+  "date": "2026-04-23",
+  "readTime": "9 min"
+},
+  {
   "id": 136,
   "title": "Comprar el coche pero alquilar la batería: el nuevo modelo que divide a los conductores",
   "summary": "NIO y otros fabricantes chinos introducen en Europa el modelo BaaS (Battery as a Service): pagas el coche, pero la batería es de ellos. Analizamos si tiene sentido pagar 52.500€ sin batería más una cuota mensual, o desembolsar 66.000€ por el paquete completo, con comparativa real de cuotas, punto de equilibrio y análisis por perfiles de usuario.",
