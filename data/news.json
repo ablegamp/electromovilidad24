@@ -1,5 +1,15 @@
 [ 
 {
+  "id": 189,
+  "title": "Tesla cancela su coche barato y lo apuesta todo al Cybercab: ¿el mayor acierto o el mayor error?",
+  "summary": "Elon Musk confirma el inicio de la producción del Cybercab, el robotaxi sin volante ni pedales, y abandona definitivamente el sueño del coche eléctrico asequible. Entregas por debajo de expectativas, caída bursátil del 20% y la sombra de Waymo: analizamos la apuesta más arriesgada de Tesla.",
+  "category": "Noticias",
+  "image": "https://images.unsplash.com/photo-1637704758039-ec844dc00819?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fHRlc2xhfGVufDB8MHwwfHx8Mg%3D%3D",
+  "link": "articulos/tesla-cybercab-produccion-apuesta-conduccion-autonoma-2026.html",
+  "date": "2026-04-24",
+  "readTime": "8 min"
+},
+  {
   "id": 188,
   "title": "BYD: récord de ventas y caída de beneficios, la gran paradoja del gigante chino",
   "summary": "BYD cerró 2025 vendiendo 4,6 millones de vehículos, un máximo histórico, pero con un beneficio neto un 19% inferior al año anterior. Guerra de precios, 100.000 despidos y pérdida de liderazgo en China frente a una expansión internacional que apunta a Europa como tabla de salvación.",
