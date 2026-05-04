@@ -1,0 +1,561 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
+  <meta name="googlebot" content="index, follow" />
+  <meta name="theme-color" content="#10B981" />
+  <meta name="msapplication-TileColor" content="#10B981" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+  <meta name="format-detection" content="telephone=no" />
+  <title>Autonomía real vs WLTP: el ranking que los fabricantes no quieren que veas - Guía 2026</title>
+  <meta name="description" content="El ranking de MOTORK desvela la brecha entre la autonomía prometida y la real en coches eléctricos. Estudios de la OCU, ACL y El Prix confirman diferencias de hasta el 41%. Todo sobre WLTP, CLTC y por qué nadie te lo cuenta." />
+  <link rel="canonical" href="https://www.electromovilidad24.com/articulos/ranking-autonomia-real-coches-electricos-wltp-mentira.html" />
+  <!-- Open Graph -->
+  <meta property="og:type" content="article" />
+  <meta property="og:title" content="Autonomía real vs WLTP: el ranking que los fabricantes no quieren que veas - Guía 2026" />
+  <meta property="og:description" content="El ranking de MOTORK desvela la brecha entre la autonomía prometida y la real en coches eléctricos. Estudios de la OCU, ACL y El Prix confirman diferencias de hasta el 41%. Todo sobre WLTP, CLTC y por qué nadie te lo cuenta." />
+  <meta property="og:image" content="https://images.unsplash.com/photo-1694889648476-3777d917b91c?w=1200&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NTJ8fGNvY2hlJTIwZWxlY3RyaWNvfGVufDB8MHwwfHx8Mg%3D%3D" />
+  <meta property="og:image:alt" content="Coche eléctrico en carretera con indicador de batería y autonomía restante en el salpicadero" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="800" />
+  <meta property="og:locale" content="es_ES" />
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Autonomía real vs WLTP: el ranking que los fabricantes no quieren que veas - Guía 2026" />
+  <meta name="twitter:description" content="El ranking de MOTORK desvela la brecha entre la autonomía prometida y la real en coches eléctricos. Estudios de la OCU, ACL y El Prix confirman diferencias de hasta el 41%. Todo sobre WLTP, CLTC y por qué nadie te lo cuenta." />
+  <meta name="author" content="Movilidad Eléctrica 24" />
+  <link rel="icon" type="image/svg+xml" href="../favicon.svg">
+  <link rel="shortcut icon" href="../favicon.svg">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.0/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <script>
+    tailwind.config = { theme: { extend: { fontFamily: { inter: ['Inter','sans-serif'] }, colors: { 'verde-principal':'#10B981','gris-oscuro':'#1F2937','gris-claro':'#F9FAFB' } } } }
+  </script>
+  <style>
+    body { font-family: 'Inter', sans-serif; }
+    .article-content p { margin: 1rem 0; line-height: 1.75; }
+    .article-content h2 {
+      margin-top: 2rem;
+      margin-bottom: 1rem;
+      font-size: 1.75rem;
+      font-weight: 800;
+      color: #065f46;
+    }
+    .article-content h3 {
+      margin-top: 1.5rem;
+      margin-bottom: 0.75rem;
+      font-size: 1.5rem;
+      font-weight: 700;
+    }
+    .highlight-box {
+      background: linear-gradient(135deg, #ecfdf5 0%, #d1fae5 100%);
+      border-left: 4px solid #10B981;
+      padding: 1.5rem;
+      margin: 1.5rem 0;
+      border-radius: 0.5rem;
+    }
+    .stat-box {
+      background: linear-gradient(135deg, #dbeafe 0%, #bfdbfe 100%);
+      border-left: 4px solid #3b82f6;
+      padding: 1.5rem;
+      margin: 1.5rem 0;
+      border-radius: 0.5rem;
+    }
+    .warning-box {
+      background: linear-gradient(135deg, #fef3c7 0%, #fde68a 100%);
+      border-left: 4px solid #f59e0b;
+      padding: 1.5rem;
+      margin: 1.5rem 0;
+      border-radius: 0.5rem;
+    }
+    .danger-box {
+      background: linear-gradient(135deg, #fee2e2 0%, #fecaca 100%);
+      border-left: 4px solid #ef4444;
+      padding: 1.5rem;
+      margin: 1.5rem 0;
+      border-radius: 0.5rem;
+    }
+    .success-box {
+      background: linear-gradient(135deg, #d1fae5 0%, #a7f3d0 100%);
+      border-left: 4px solid #059669;
+      padding: 1.5rem;
+      margin: 1.5rem 0;
+      border-radius: 0.5rem;
+    }
+    .source-tag {
+      font-size: 0.75rem;
+      color: #6b7280;
+      font-style: italic;
+    }
+    table { width: 100%; border-collapse: collapse; margin: 1.5rem 0; font-size: 0.9rem; }
+    th { background-color: #065f46; color: white; padding: 0.75rem; text-align: left; }
+    td { padding: 0.75rem; border-bottom: 1px solid #e5e7eb; vertical-align: top; }
+    tr:nth-child(even) { background-color: #f9fafb; }
+  </style>
+  <!-- Datos estructurados JSON-LD -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Autonomía real vs WLTP: el ranking que los fabricantes no quieren que veas",
+    "datePublished": "2026-05-04T09:00:00+02:00",
+    "dateModified": "2026-05-04T09:00:00+02:00",
+    "author": {
+      "@type": "Person",
+      "name": "Movilidad Eléctrica 24"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Movilidad Eléctrica 24",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://www.electromovilidad24.com/imagenes/logo.webp"
+      }
+    },
+    "description": "El ranking de MOTORK desvela la brecha entre la autonomía prometida y la real en coches eléctricos. Estudios de la OCU, ACL y El Prix confirman diferencias de hasta el 41%. Todo sobre WLTP, CLTC y por qué nadie te lo cuenta.",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://www.electromovilidad24.com/articulos/ranking-autonomia-real-coches-electricos-wltp-mentira.html"
+    },
+    "keywords": ["autonomía real coche eléctrico", "WLTP vs autonomía real", "CLTC vs WLTP", "ranking MOTORK autonomía", "brecha autonomía eléctrico", "homologación coches eléctricos"]
+  }
+  </script>
+  <!-- FAQ Schema JSON-LD -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "¿Cuánto difiere la autonomía real de un coche eléctrico respecto al WLTP?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Según un estudio de la OCU de 2025 sobre 31 modelos eléctricos, la autonomía real media es entre un 9% y un 22% inferior a la cifra WLTP en condiciones normales. En condiciones más exigentes (invierno, autopista, climatización encendida), la diferencia puede alcanzar el 30-40%. Un estudio de Auto Touring ACL (Luxemburgo, abril de 2026) con 14 modelos en condiciones invernales reales registró una diferencia media del 41,3% entre la autonomía WLTP anunciada y la realmente medida."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "¿Qué diferencia hay entre el ciclo WLTP y el CLTC?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "El WLTP es el ciclo de homologación europeo y el más exigente de los dos, aunque sigue siendo una prueba de laboratorio con condiciones favorables (23°C, climatización desactivada, llantas pequeñas). El CLTC es el ciclo chino, mucho menos exigente: está basado en patrones de conducción urbana con más paradas, velocidades medias más bajas y menos tiempo en carretera rápida. En la práctica, los vehículos obtienen autonomías entre un 15% y un 30% más altas bajo CLTC que bajo WLTP. Muchas marcas chinas publicitan sus modelos con la cifra CLTC, más alta, lo que puede confundir al comprador europeo."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "¿Qué es el ranking de MOTORK y cómo mide la autonomía real?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "MOTORK es un portal especializado que publica un ranking de los 100 mejores coches eléctricos por autonomía y eficiencia basándose exclusivamente en pruebas propias realizadas desde 2019 en condiciones de conducción real, no en datos de homologación ni cifras de fabricantes. Sus pruebas se realizan en recorridos reales de autovía a velocidades medias de 90-100 km/h, siempre con el mismo conductor y estilo de conducción, y cada vehículo incluye un vídeo completo del recorrido para garantizar la transparencia total."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "¿Es ilegal que los fabricantes publiquen cifras WLTP tan optimistas?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "No, es completamente legal. Los fabricantes cumplen con el protocolo WLTP aprobado por la Unión Europea, que está diseñado para estandarizar y comparar modelos entre sí, no para predecir la autonomía en condiciones reales de uso. Dentro del protocolo, los fabricantes pueden elegir configuraciones más favorables de su modelo (llantas más pequeñas, neumáticos más eficientes, menos equipamiento). El debate real es si la UE debería exigir un etiquetado de autonomía real junto a la cifra WLTP, como ocurre en otros países con las emisiones de CO2."
+        }
+      }
+    ]
+  }
+  </script>
+</head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-5PD6Y58MK5"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-5PD6Y58MK5');
+</script>
+<body class="bg-gray-50 text-gray-900">
+  <header class="bg-white shadow-lg sticky top-0 z-50">
+    <div class="container mx-auto px-4 py-4">
+      <div class="flex items-center justify-between">
+        <a href="../index.html" class="flex items-center space-x-3">
+          <div class="bg-white rounded-lg p-1">
+            <img src="../imagenes/logo.webp" alt="Electromovilidad 24" class="h-16 w-auto">
+          </div>
+          <div>
+            <h1 class="text-2xl md:text-3xl font-bold text-gris-oscuro">Electromovilidad 24</h1>
+            <p class="text-sm text-gray-600">Descubre el futuro de la movilidad</p>
+          </div>
+        </a>
+        <button id="mobile-menu-btn" class="md:hidden bg-verde-principal text-white p-2 rounded-lg">
+          <i class="fas fa-bars"></i>
+        </button>
+      </div>
+      <nav class="mt-4">
+        <ul id="nav-menu" class="hidden md:flex space-x-8 text-gris-oscuro font-medium">
+          <li><a href="../index.html" class="hover:text-verde-principal transition-colors duration-200">Inicio</a></li>
+          <li><a href="../comparativas.html" class="hover:text-verde-principal transition-colors duration-200">Comparativas</a></li>
+          <li><a href="../reviews.html" class="hover:text-verde-principal transition-colors duration-200">Reviews</a></li>
+          <li><a href="../guias.html" class="hover:text-verde-principal transition-colors duration-200 border-b-2 border-verde-principal pb-1">Guías</a></li>
+          <li><a href="../calculadoras.html" class="hover:text-verde-principal transition-colors duration-200">Calculadoras</a></li>
+          <li><a href="../sobre.html" class="hover:text-verde-principal transition-colors duration-200">Sobre mí</a></li>
+          <li><a href="../contacto.html" class="hover:text-verde-principal transition-colors duration-200">Contacto</a></li>
+        </ul>
+        <!-- Menú móvil -->
+        <ul id="mobile-nav" class="md:hidden hidden flex-col space-y-3 mt-4 bg-gray-50 p-4 rounded-lg">
+          <li><a href="../index.html" class="block text-gris-oscuro hover:text-verde-principal font-medium">Inicio</a></li>
+          <li><a href="../index.html#news-section" class="block text-gris-oscuro hover:text-verde-principal font-medium">Noticias</a></li>
+          <li><a href="../comparativas.html" class="block text-gris-oscuro hover:text-verde-principal font-medium">Comparativas</a></li>
+          <li><a href="../reviews.html" class="block text-gris-oscuro hover:text-verde-principal font-medium">Reviews</a></li>
+          <li><a href="../guias.html" class="block text-gris-oscuro hover:text-verde-principal font-medium">Guías</a></li>
+          <li><a href="../calculadoras.html" class="block text-gris-oscuro hover:text-verde-principal font-medium">Calculadoras</a></li>
+          <li><a href="../sobre.html" class="block text-gris-oscuro hover:text-verde-principal font-medium">Sobre mí</a></li>
+          <li><a href="../contacto.html" class="block text-gris-oscuro hover:text-verde-principal font-medium">Contacto</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="max-w-4xl mx-auto px-4 py-8">
+    <article>
+      <header class="mb-6">
+        <p class="text-sm text-gray-500 flex items-center space-x-2">
+          <i class="fas fa-calendar-alt"></i>
+          <time datetime="2026-05-04">4 de mayo de 2026</time>
+          <span class="mx-2">•</span>
+          <span class="bg-green-500 text-white px-2 py-0.5 rounded text-xs">Guía</span>
+          <span class="mx-2">•</span>
+          <span>Lectura: 10 min</span>
+        </p>
+        <h1 class="text-3xl md:text-4xl font-extrabold leading-tight mt-2">Autonomía real vs WLTP: el ranking que los fabricantes no quieren que veas</h1>
+        <p class="mt-3 text-lg text-gray-700">El catálogo dice 500 km. La realidad, en invierno y a velocidad de autopista, puede quedarse en 300. No es un accidente ni una coincidencia: es el resultado de un sistema de homologación diseñado para estandarizar, no para informar. El ranking de MOTORK cambia las reglas del juego, y aquí te explico por qué importa.</p>
+      </header>
+
+      <!-- Breadcrumbs visibles -->
+      <nav aria-label="breadcrumbs" class="text-sm text-gray-600 mb-4">
+        <ol class="flex flex-wrap items-center gap-2">
+          <li><a href="../index.html" class="text-emerald-700 hover:underline">Inicio</a></li>
+          <li>/</li>
+          <li><a href="../guias.html" class="text-emerald-700 hover:underline">Guías</a></li>
+          <li>/</li>
+          <li aria-current="page" class="text-gray-800">Autonomía real vs WLTP: el ranking que los fabricantes no quieren que veas</li>
+        </ol>
+      </nav>
+
+      <!-- Índice del contenido -->
+      <nav class="bg-emerald-50 border border-emerald-100 rounded-lg p-4 mb-6 text-sm">
+        <p class="font-semibold text-emerald-800 mb-2">Contenido</p>
+        <ol class="list-decimal ml-5 space-y-1 text-emerald-900">
+          <li><a class="hover:underline" href="#problema">El problema que nadie quiere nombrar</a></li>
+          <li><a class="hover:underline" href="#wltp-cltc">WLTP y CLTC: qué miden y por qué no te cuentan todo</a></li>
+          <li><a class="hover:underline" href="#motork">El ranking de MOTORK: metodología y por qué marca la diferencia</a></li>
+          <li><a class="hover:underline" href="#datos">Los datos demoledores: estudios reales con cifras reales</a></li>
+          <li><a class="hover:underline" href="#legal">¿Es esto un Dieselgate eléctrico silencioso?</a></li>
+          <li><a class="hover:underline" href="#tabla">Tabla resumen: estudios y brechas detectadas</a></li>
+          <li><a class="hover:underline" href="#conclusion">Qué puedes hacer tú como comprador</a></li>
+          <li><a class="hover:underline" href="#faq">Preguntas frecuentes</a></li>
+        </ol>
+      </nav>
+
+      <!-- Hero Image -->
+      <div class="mb-8 rounded-lg overflow-hidden shadow-xl">
+        <img
+          src="https://images.unsplash.com/photo-1694889648476-3777d917b91c?w=1200&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NTJ8fGNvY2hlJTIwZWxlY3RyaWNvfGVufDB8MHwwfHx8Mg%3D%3D"
+          alt="Coche eléctrico en carretera con indicador de batería y autonomía restante visible en el salpicadero"
+          class="w-full h-auto"
+          loading="lazy"
+        >
+        <p class="text-sm text-gray-500 p-2 bg-gray-50 text-center">La cifra de autonomía en el salpicadero y la del catálogo raramente coinciden en condiciones de conducción real</p>
+      </div>
+
+      <div class="article-content">
+
+        <h2 id="problema">El problema que nadie quiere nombrar</h2>
+
+        <p>Imagina que planificas un viaje familiar en invierno, digamos de Madrid a Valencia, unos 360 km. El coche eléctrico que has comprado anuncia 480 km de autonomía en el catálogo. Los números cuadran, incluso con margen. Sales tranquilo. Y entonces llega el primer aviso: la batería baja más rápido de lo previsto. La calefacción está encendida, circuláis a 110 km/h por la A-3 y la temperatura exterior ronda los 4 grados. A mitad de trayecto, el margen que creías tener ha desaparecido.</p>
+
+        <p>Este escenario no es una exageración. Es la experiencia cotidiana de miles de propietarios de coches eléctricos en Europa, y tiene una explicación muy concreta: <strong>la autonomía que anuncia el fabricante en el catálogo se obtiene en un laboratorio bajo condiciones que difícilmente se reproducen en la vida real</strong>. La temperatura es de 23 grados, la climatización está apagada, la velocidad media no supera los 46 km/h y las llantas son las más pequeñas y eficientes del catálogo. Bienvenido al mundo del ciclo WLTP.</p>
+
+        <p>Lo que me parece más relevante de todo esto no es que exista una diferencia —eso es inevitable en cualquier prueba estandarizada— sino que <strong>esa diferencia nunca se comunica de forma clara al consumidor</strong>, y que ninguna autoridad europea exige hoy en día un etiquetado de autonomía real junto a la cifra homologada. Ahí está el verdadero problema.</p>
+
+        <div class="danger-box">
+          <p class="font-semibold mb-2">🚨 La cifra que nadie te dice en el concesionario:</p>
+          <p>La autonomía WLTP que aparece en la ficha técnica y en la publicidad es una cifra de laboratorio obtenida en condiciones óptimas. En conducción real —especialmente en invierno, en autopista y con climatización— la diferencia puede superar el 40%. Ningún concesionario está obligado a informarte de esto.</p>
+        </div>
+
+        <h2 id="wltp-cltc">WLTP y CLTC: qué miden y por qué no te cuentan todo</h2>
+
+        <p>Para entender el problema en profundidad, es necesario conocer los dos grandes ciclos de homologación que gobiernan el mercado eléctrico mundial en 2026.</p>
+
+        <p><strong>El ciclo WLTP</strong> (<em>Worldwide Harmonised Light Vehicle Test Procedure</em>) es el estándar europeo desde 2017. Sustituyo al antiguo NEDC, que era aún más optimista, y supuso una mejora real en términos de realismo. Sin embargo, sigue siendo una prueba de laboratorio con condiciones que favorecen al fabricante: temperatura controlada de 23°C, climatización desactivada, velocidad media de 46,5 km/h y una estructura de cuatro fases (baja, media, alta y muy alta velocidad) en la que el tiempo a alta velocidad es limitado. Además, y esto es crucial, <strong>los fabricantes pueden elegir dentro del protocolo la configuración más favorable de su modelo</strong>: las llantas más pequeñas disponibles en el catálogo, los neumáticos de menor resistencia al rodamiento y la versión con menos equipamiento opcional para reducir el peso. Todo dentro de la legalidad, todo dentro de las reglas del juego. <span class="source-tag">Fuente: Diariomotor, análisis WLTP vs autonomía real.</span></p>
+
+        <p><strong>El ciclo CLTC</strong> (<em>China Light-duty Vehicle Test Cycle</em>) es el estándar chino y el más permisivo de todos los que existen actualmente. Fue desarrollado tomando como referencia los patrones de conducción urbanos de China: más arranques y paradas, velocidades medias notablemente inferiores y muy poco tiempo en circulación a alta velocidad. El resultado es que los vehículos obtienen <strong>autonomías entre un 15% y un 30% más altas bajo CLTC que bajo WLTP</strong>. La razón técnica es directa: la aerodinámica penaliza con fuerza a velocidades elevadas, y el CLTC apenas las incluye. <span class="source-tag">Fuente: El País Motor, "La gran brecha entre las homologaciones CLTC y WLTP".</span></p>
+
+        <div class="warning-box">
+          <p class="font-semibold mb-2">⚠️ El truco del CLTC en la publicidad de marcas chinas:</p>
+          <p>Muchos modelos de marcas chinas que llegan a España publican en sus materiales de marketing la cifra CLTC —la más alta— en un tamaño de letra prominente. La cifra WLTP aparece después, en letra más pequeña, en la ficha técnica. El comprador que no conoce la diferencia entre ambos ciclos toma como referencia la primera que ve. Esta práctica es legal, pero su efecto sobre las expectativas del consumidor es muy real.</p>
+        </div>
+
+        <h2 id="motork">El ranking de MOTORK: metodología y por qué marca la diferencia</h2>
+
+        <p>En este contexto de opacidad regulatoria, la iniciativa del portal MOTORK cobra un valor especial. A 4 de mayo de 2026, MOTORK ha publicado su ranking actualizado de los 100 mejores coches eléctricos por autonomía y eficiencia, y lo que lo diferencia de cualquier otra clasificación del mercado es su principio fundamental: <strong>ningún dato procede de los fabricantes ni de los ciclos de homologación</strong>.</p>
+
+        <p>La metodología de MOTORK se basa en pruebas propias realizadas desde 2019 bajo condiciones fijas y reproducibles:</p>
+
+        <ul class="list-disc ml-6 my-4 space-y-2">
+          <li>Recorrido real por autovía, simulando un viaje interurbano típico.</li>
+          <li>Velocidad media equivalente entre 90 y 100 km/h, que es la que realmente circula la mayoría de conductores en carretera.</li>
+          <li>Salida siempre desde parado, sin precalentamiento artificial de la batería.</li>
+          <li>Trayecto con subidas, bajadas y tramos variados, no circuitos cerrados ni rutas planas seleccionadas a conveniencia.</li>
+          <li>El conductor y el estilo de conducción son siempre los mismos, eliminando la variable humana.</li>
+          <li><strong>Cada vehículo incluye un vídeo completo del recorrido</strong>, publicado íntegramente, para que cualquier persona pueda verificar las condiciones de la prueba.</li>
+        </ul>
+
+        <p>Este último punto es el que convierte al ranking de MOTORK en algo cualitativamente distinto: la transparencia radical. No hay datos que fiar, hay vídeos que ver. <span class="source-tag">Fuente: MOTORK, ranking actualizado a 4 de mayo de 2026.</span></p>
+
+        <div class="highlight-box">
+          <p class="font-semibold mb-2">💡 Por qué el ranking de MOTORK importa aunque no sea perfecto:</p>
+          <p>Ninguna prueba externa puede reproducir exactamente las condiciones de cada conductor en cada trayecto. Pero la metodología de MOTORK tiene una virtud que el WLTP no tiene: es consistente, es transparente y está diseñada para el uso real, no para el laboratorio. En un mercado donde la información honesta escasea, eso tiene un valor enorme para el comprador.</p>
+        </div>
+
+        <h2 id="datos">Los datos demoledores: estudios reales con cifras reales</h2>
+
+        <p>MOTORK no está solo en sus conclusiones. En los últimos meses, varios estudios independientes han cuantificado la brecha entre la autonomía homologada y la real, y los números son consistentemente preocupantes.</p>
+
+        <p><strong>Estudio de la OCU (2025):</strong> La Organización de Consumidores y Usuarios analizó 31 modelos eléctricos en circulación real y concluyó que la autonomía media es entre un <strong>9% y un 22% inferior</strong> a la cifra WLTP en condiciones normales de uso. En condiciones más exigentes —invierno, autopista, climatización encendida— la diferencia puede alcanzar el <strong>30-40%</strong>. <span class="source-tag">Fuente: Movilidad Eléctrica / OCU, 2025.</span></p>
+
+        <p><strong>Estudio de Auto Touring ACL (Luxemburgo, abril de 2026):</strong> Esta organización de automovilistas testeó 14 modelos eléctricos en condiciones invernales reales —carretera, calefacción en funcionamiento, velocidad de autopista—. La diferencia media fue del <strong>41,3%</strong> entre la autonomía WLTP anunciada y la realmente registrada. En algunos modelos, el consumo fue hasta un <strong>57% superior</strong> al homologado. <span class="source-tag">Fuente: Paperjam.lu, "Autonomy of electric cars: gaps of over 41%", abril de 2026.</span></p>
+
+        <p><strong>El Prix (Noruega, invierno de 2026):</strong> Esta prueba noruega es probablemente la más extrema del planeta para coches eléctricos, con temperaturas que en la edición de 2026 llegaron a los -24°C. Los 25 vehículos participantes sufrieron una pérdida media de autonomía del <strong>38%</strong> respecto a sus cifras WLTP. Un dato que, aunque corresponde a condiciones excepcionales, ilustra hasta dónde puede llegar la diferencia en climas fríos como los del norte de España en invierno. <span class="source-tag">Fuente: InsideEVs, "Winter extreme cold range test El Prix 2026".</span></p>
+
+        <p><strong>Test de la AAA (Australia, abril de 2026):</strong> La Asociación Australiana de Automovilistas evaluó varios modelos en condiciones reales. El BYD Dolphin registró una autonomía real un <strong>24% inferior</strong> a su homologación NEDC (aunque solo un 9% inferior al WLTP, lo que evidencia que el WLTP es más exigente que el NEDC). El BYD Sealion 7 tuvo un <strong>17% menos</strong> de rango real que su cifra NEDC. <span class="source-tag">Fuente: Drive.com.au, "BYD Sealion 7 among cars found to be less efficient in latest real-world testing", abril de 2026.</span></p>
+
+        <p><strong>Consumer Reports (EE.UU., abril de 2026):</strong> La organización estadounidense de consumidores testeó 27 coches eléctricos en condiciones reales de autopista. La mayoría de modelos se quedaron por debajo de su homologación EPA —el estándar americano, considerado el más realista de todos—. Aunque 13 modelos lograron superar las cifras anunciadas, la tendencia general confirmó que la autonomía real en autopista es sistemáticamente inferior a la homologada incluso con el ciclo más exigente del mundo. <span class="source-tag">Fuente: Consumer Reports, abril de 2026.</span></p>
+
+        <h2 id="legal">¿Es esto un Dieselgate eléctrico silencioso?</h2>
+
+        <p>La pregunta es incómoda, pero es necesario hacerla. En 2015, el escándalo Dieselgate sacudió a la industria del automóvil: Volkswagen había manipulado el software de sus motores diésel para superar las pruebas de emisiones en laboratorio mientras emitían hasta 40 veces más dióxido de nitrógeno en circulación real. La comparación con la situación actual de la autonomía eléctrica tiene sus límites —nadie está manipulando nada, los fabricantes cumplen estrictamente el protocolo— pero la analogía en términos de brecha entre laboratorio y realidad es difícilmente ignorable.</p>
+
+        <p>La diferencia fundamental es que <strong>el Dieselgate fue una trampa activa</strong>, mientras que lo que ocurre con la autonomía eléctrica es una <strong>trampa pasiva</strong>: un sistema de homologación que, sin ninguna manipulación por parte de los fabricantes, produce cifras que el consumidor medio interpreta como promesas de uso real que no se cumplen. El resultado sobre la confianza del comprador es similar.</p>
+
+        <p>El debate de fondo es claro: <strong>¿debería la Unión Europea exigir un etiquetado de autonomía real junto a la cifra WLTP?</strong> Hoy no existe ninguna obligación en ese sentido. La DGT no exige ninguna información complementaria sobre la autonomía real en condiciones de uso habitual. Y mientras eso no cambie, la responsabilidad de informarse recae enteramente sobre el comprador.</p>
+
+        <div class="stat-box">
+          <p class="font-semibold mb-2">📋 La novedad regulatoria que puede cambiar algo: el Pasaporte Digital de Batería</p>
+          <p>A partir de 2027, la Unión Europea exigirá el llamado "Pasaporte Digital de Batería", un documento electrónico que certifica el estado de salud real de la batería de cada vehículo. Aunque no resuelve directamente el problema de la autonomía homologada, aumenta la transparencia sobre la degradación real de la batería con el tiempo, lo que es especialmente relevante en el mercado de ocasión. Es un paso en la dirección correcta, aunque insuficiente por sí solo. <span class="source-tag">Fuente: Híbridos y Eléctricos, abril de 2026.</span></p>
+        </div>
+
+        <h2 id="tabla">Tabla resumen: estudios y brechas detectadas</h2>
+
+        <div class="overflow-x-auto my-6">
+          <table>
+            <thead>
+              <tr>
+                <th>Estudio / Fuente</th>
+                <th>Fecha</th>
+                <th>Muestra</th>
+                <th>Condiciones</th>
+                <th>Brecha media detectada</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><strong>OCU</strong></td>
+                <td>2025</td>
+                <td>31 modelos</td>
+                <td>Conducción mixta real</td>
+                <td>9%-22% inferior al WLTP (hasta 40% en condiciones extremas)</td>
+              </tr>
+              <tr>
+                <td><strong>Auto Touring ACL (Luxemburgo)</strong></td>
+                <td>Abril 2026</td>
+                <td>14 modelos</td>
+                <td>Invierno real, autopista, calefacción encendida</td>
+                <td><strong>41,3%</strong> inferior al WLTP; consumo hasta 57% superior al homologado</td>
+              </tr>
+              <tr>
+                <td><strong>El Prix (Noruega)</strong></td>
+                <td>Invierno 2026</td>
+                <td>25 modelos</td>
+                <td>Temperaturas hasta -24°C</td>
+                <td><strong>38%</strong> inferior al WLTP</td>
+              </tr>
+              <tr>
+                <td><strong>AAA (Australia)</strong></td>
+                <td>Abril 2026</td>
+                <td>Varios modelos BYD y otros</td>
+                <td>Conducción real mixta</td>
+                <td>BYD Dolphin: 24% inferior al NEDC / 9% inferior al WLTP</td>
+              </tr>
+              <tr>
+                <td><strong>Consumer Reports (EE.UU.)</strong></td>
+                <td>Abril 2026</td>
+                <td>27 modelos</td>
+                <td>Autopista a velocidad real</td>
+                <td>Mayoría por debajo del EPA (el más realista); 13 modelos superaron las cifras anunciadas</td>
+              </tr>
+              <tr>
+                <td><strong>MOTORK</strong></td>
+                <td>Actualizado mayo 2026</td>
+                <td>100 modelos</td>
+                <td>Autovía real, 90-100 km/h, conductor fijo, vídeo publicado</td>
+                <td>Variable por modelo; metodología 100% transparente y verificable</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <h2 id="conclusion">Qué puedes hacer tú como comprador</h2>
+
+        <p>La situación regulatoria no va a cambiar de un día para otro. Pero el comprador informado puede tomar decisiones mucho más acertadas si sabe dónde buscar los datos correctos. Estas son las recomendaciones prácticas que se extraen de todo lo anterior:</p>
+
+        <ul class="list-disc ml-6 my-4 space-y-2">
+          <li><strong>Consulta el ranking de MOTORK</strong> antes de decidir un modelo. Es el recurso más transparente disponible en español para comparar autonomía real en condiciones de autovía.</li>
+          <li><strong>Desconfía del CLTC.</strong> Si una marca anuncia un modelo con cifra CLTC de forma prominente, busca siempre la cifra WLTP antes de hacer cálculos. La diferencia puede ser de 80-100 km.</li>
+          <li><strong>Aplica un factor de corrección del 20-30%</strong> sobre la cifra WLTP para estimar tu autonomía real en verano y del 35-45% en invierno en autopista. Así planificarás las paradas de carga con margen real.</li>
+          <li><strong>Pregunta en el concesionario por la autonomía en ciclo de autopista</strong>, que algunos fabricantes ya publican en sus fichas técnicas como dato complementario. Si no saben responder, es una señal.</li>
+          <li><strong>Consulta nuestra guía sobre autonomía real vs WLTP</strong> para profundizar en los factores que más influyen en la diferencia: temperatura, velocidad, climatización y estilo de conducción.</li>
+        </ul>
+
+        <div class="success-box">
+          <p class="font-semibold mb-2">✅ La pregunta que deberías lanzar a tus representantes:</p>
+          <p>¿Por qué la DGT y la Comisión Europea no exigen una etiqueta de autonomía real junto a la cifra WLTP? En un mercado donde la confianza del consumidor es el principal freno a la adopción masiva del vehículo eléctrico, la transparencia no es un lujo: es una necesidad. Si crees que esto debería cambiar, es una conversación que vale la pena tener con quienes tienen capacidad de legislarlo.</p>
+        </div>
+
+        <p>El coche eléctrico tiene ventajas reales e innegables en costes de uso, mantenimiento e impacto ambiental, como hemos analizado en otros artículos de esta web. Pero esas ventajas solo se consolidan si el comprador toma decisiones informadas. Y para eso, la información honesta es la única herramienta que funciona. El ranking de MOTORK es un paso en esa dirección. Ojalá no sea el único.</p>
+
+        <h2 id="faq">Preguntas frecuentes</h2>
+
+        <div class="faq-section bg-gray-50 rounded-lg p-6 my-8">
+          <h3 class="text-2xl font-bold text-gris-oscuro mb-6 flex items-center">
+            <i class="fas fa-question-circle text-verde-principal mr-3"></i>
+            FAQ – Autonomía real vs WLTP
+          </h3>
+
+          <div class="space-y-6">
+            <div class="faq-item border-b border-gray-200 pb-4">
+              <h4 class="text-lg font-semibold text-gris-oscuro mb-2">
+                🔹 ¿Cuánto difiere la autonomía real de un coche eléctrico respecto al WLTP?
+              </h4>
+              <p class="text-gray-700">
+                Según el estudio de la OCU de 2025 sobre 31 modelos, la autonomía real media es entre un 9% y un 22% inferior a la cifra WLTP en condiciones normales. En condiciones más exigentes —invierno, autopista, climatización encendida— la diferencia puede alcanzar el 30-40%. El estudio de Auto Touring ACL de Luxemburgo (abril de 2026), con 14 modelos en condiciones invernales reales, registró una diferencia media del 41,3% entre la autonomía WLTP anunciada y la realmente medida.
+              </p>
+            </div>
+
+            <div class="faq-item border-b border-gray-200 pb-4">
+              <h4 class="text-lg font-semibold text-gris-oscuro mb-2">
+                🔹 ¿Qué diferencia hay entre el ciclo WLTP y el CLTC?
+              </h4>
+              <p class="text-gray-700">
+                El WLTP es el ciclo de homologación europeo, más exigente que el antiguo NEDC, pero sigue siendo una prueba de laboratorio realizada a 23°C y con climatización desactivada. El CLTC es el ciclo chino, basado en patrones urbanos con velocidades medias más bajas y menos tiempo a alta velocidad. Los vehículos obtienen autonomías entre un 15% y un 30% más altas bajo CLTC que bajo WLTP. Muchas marcas chinas publican la cifra CLTC de forma prominente en su publicidad, lo que puede inducir a error al comprador europeo.
+              </p>
+            </div>
+
+            <div class="faq-item border-b border-gray-200 pb-4">
+              <h4 class="text-lg font-semibold text-gris-oscuro mb-2">
+                🔹 ¿Qué es el ranking de MOTORK y cómo mide la autonomía real?
+              </h4>
+              <p class="text-gray-700">
+                MOTORK es un portal especializado que publica un ranking de los 100 mejores coches eléctricos por autonomía y eficiencia, basándose exclusivamente en pruebas propias realizadas desde 2019 en condiciones reales de autovía, a velocidades medias de 90-100 km/h, con el mismo conductor en todos los casos y publicando el vídeo completo de cada prueba para máxima transparencia. No utiliza datos de fabricantes ni de ciclos de homologación.
+              </p>
+            </div>
+
+            <div class="faq-item">
+              <h4 class="text-lg font-semibold text-gris-oscuro mb-2">
+                🔹 ¿Es ilegal que los fabricantes publiquen cifras WLTP tan optimistas?
+              </h4>
+              <p class="text-gray-700">
+                No, es completamente legal. Los fabricantes cumplen con el protocolo WLTP aprobado por la Unión Europea, que está diseñado para estandarizar comparativas entre modelos, no para predecir el uso real. Dentro del protocolo, los fabricantes pueden elegir la configuración más favorable de su vehículo (llantas más pequeñas, neumáticos más eficientes, menos equipamiento). El debate real es si la UE debería exigir un etiquetado de autonomía real junto a la cifra WLTP, algo que hoy no ocurre en ningún estado miembro.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Fuentes -->
+        <div class="bg-gray-100 rounded-lg p-5 mt-8 text-sm text-gray-700">
+          <p class="font-semibold mb-3 text-gray-900">📌 Fuentes consultadas</p>
+          <ul class="space-y-1 list-disc ml-5">
+            <li>MOTORK, ranking de autonomía real actualizado a 4 de mayo de 2026. <a href="https://motork.com/ranking-ev-resultados" class="text-emerald-700 hover:underline" target="_blank" rel="noopener noreferrer">motork.com/ranking-ev-resultados</a></li>
+            <li>Diariomotor, "Crítica a la autonomía WLTP de coches eléctricos vs autonomía real". <a href="https://www.diariomotor.com/noticia/critica-autonomia-wltp-coches-electricos-vs-autonomia-real-opinion/" class="text-emerald-700 hover:underline" target="_blank" rel="noopener noreferrer">diariomotor.com</a></li>
+            <li>El País Motor, "La gran brecha entre las homologaciones CLTC y WLTP". <a href="https://motor.elpais.com/actualidad/la-gran-brecha-entre-las-homologaciones-cltc-y-wltp-el-dato-que-deberias-revisar-antes-de-comprar-un-coche-electrico/" class="text-emerald-700 hover:underline" target="_blank" rel="noopener noreferrer">motor.elpais.com</a></li>
+            <li>Movilidad Eléctrica / OCU, estudio sobre autonomía real de coches eléctricos, 2025. <a href="https://movilidadelectrica.com/autonomia-real-coches-electricos/" class="text-emerald-700 hover:underline" target="_blank" rel="noopener noreferrer">movilidadelectrica.com</a></li>
+            <li>Paperjam.lu, "Autonomy of electric cars: gaps of over 41%", Auto Touring ACL, abril de 2026. <a href="https://en.paperjam.lu/article/autonomy-of-electric-cars-gaps-of-over-41" class="text-emerald-700 hover:underline" target="_blank" rel="noopener noreferrer">paperjam.lu</a></li>
+            <li>InsideEVs, "Winter extreme cold range test El Prix 2026". <a href="https://insideevs.com/news/785827/winter-extreme-cold-range-test-el-prix-2026/" class="text-emerald-700 hover:underline" target="_blank" rel="noopener noreferrer">insideevs.com</a></li>
+            <li>Drive.com.au, "BYD Sealion 7 among cars found to be less efficient in latest real-world testing", AAA, abril de 2026. <a href="https://www.drive.com.au/news/byd-sealion-7-gwm-haval-jolion-among-cars-found-to-be-less-efficient-in-latest-real-world-testing/" class="text-emerald-700 hover:underline" target="_blank" rel="noopener noreferrer">drive.com.au</a></li>
+            <li>Consumer Reports, test de autonomía real en autopista de 27 modelos eléctricos, abril de 2026.</li>
+            <li>Híbridos y Eléctricos, "Pasaporte Digital de Batería UE 2027", abril de 2026.</li>
+          </ul>
+        </div>
+
+      </div>
+
+      <footer class="mt-10 pt-6 border-t text-sm text-gray-600">
+        <p>¿Tienes dudas sobre qué autonomía real puedes esperar de un modelo concreto que estás valorando? ¿Quieres saber cómo afecta la temperatura o el estilo de conducción a tu batería? Escríbeme a través de la sección de <a href="../contacto.html" class="text-emerald-700 hover:underline">contacto</a> e intentaré orientarte con los datos más actualizados disponibles.</p>
+      </footer>
+
+      <!-- Artículos relacionados -->
+      <aside class="mt-12">
+        <h2 class="text-2xl font-bold mb-4">Artículos relacionados</h2>
+        <ul class="list-disc ml-5 text-emerald-800 space-y-2">
+          <li><a class="hover:underline" href="autonomia-real-vs-wltp-coches-electricos-por-que-difieren.html">Autonomía real vs WLTP: por qué difieren y cómo calcularlo para tu caso</a></li>
+          <li><a class="hover:underline" href="diferencias-conducir-coche-electrico-combustion.html">Las 6 diferencias reales entre conducir un coche eléctrico y uno de combustión</a></li>
+          <li><a class="hover:underline" href="ahorrar-electricidad-cargando-coche-electrico.html">Cómo ahorrar en electricidad cargando tu coche eléctrico - Guía 2025</a></li>
+          <li><a class="hover:underline" href="coches-electricos-baratos-espana-2025.html">Coches eléctricos baratos en España 2025 - Guía completa</a></li>
+          <li><a class="hover:underline" href="../calculadoras.html">Calculadora de ahorro: eléctrico vs gasolina</a></li>
+        </ul>
+      </aside>
+
+      <!-- Sobre el autor -->
+      <section class="mt-12 bg-emerald-50 border border-emerald-100 rounded-xl p-6">
+        <h2 class="text-2xl font-bold mb-2">Sobre el autor</h2>
+        <p class="text-gray-700">Apasionado de la movilidad eléctrica con más de 15.000 km de experiencia en viajes por carretera. Comparto lo aprendido para que tu transición a la electrificación sea más sencilla y disfrutes cada kilómetro, sin sorpresas.</p>
+      </section>
+      <script async="async" data-cfasync="false" src="//pl28052676.effectivegatecpm.com/2f2bf98ebb38fc325879c099d716122f/invoke.js"></script>
+      <div id="container-2f2bf98ebb38fc325879c099d716122f"></div>
+    </article>
+  </main>
+
+  <footer class="bg-gris-oscuro text-white py-12 mt-16">
+    <div class="container mx-auto px-4">
+      <div class="flex flex-col md:flex-row gap-8">
+        <div class="flex-1">
+          <div class="flex items-start space-x-3 mb-2">
+            <div class="bg-white rounded-lg p-1">
+              <img src="../imagenes/logo.webp" alt="Electromovilidad 24" class="h-16 w-auto">
+            </div>
+            <div>
+              <h3 class="text-xl font-bold">Electromovilidad 24</h3>
+              <p class="text-gray-300">Tu fuente confiable de información sobre movilidad eléctrica.</p>
+            </div>
+          </div>
+        </div>
+        <div class="flex-1">
+          <h4 class="text-lg font-semibold mb-2">Enlaces Útiles</h4>
+          <div class="flex flex-wrap gap-4">
+            <a href="../index.html" class="text-gray-300 hover:text-verde-principal transition-colors">Inicio</a>
+            <a href="../index.html#news-section" class="text-gray-300 hover:text-verde-principal transition-colors">Noticias</a>
+            <a href="../comparativas.html" class="text-gray-300 hover:text-verde-principal transition-colors">Comparativas</a>
+            <a href="../reviews.html" class="text-gray-300 hover:text-verde-principal transition-colors">Reviews</a>
+            <a href="../guias.html" class="text-gray-300 hover:text-verde-principal transition-colors">Guías</a>
+            <a href="../calculadoras.html" class="text-gray-300 hover:text-verde-principal transition-colors">Calculadoras</a>
+            <a href="../sobre.html" class="text-gray-300 hover:text-verde-principal transition-colors">Sobre mí</a>
+          </div>
+        </div>
+      </div>
+      <div class="border-t border-gray-700 mt-8 pt-8 text-center">
+        <p class="text-gray-400">
+          2026 Electromovilidad 24 - Siguiendo la revolución eléctrica en tiempo real
+        </p>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('mobile-menu-btn').addEventListener('click', function() {
+      const menu = document.getElementById('mobile-nav');
+      menu.classList.toggle('hidden');
+    });
+  </script>
+  <script type='text/javascript' src='//pl28052810.effectivegatecpm.com/87/85/ba/8785baa66295effbd2aec6714ef57340.js'></script>
+</body>
+</html>
