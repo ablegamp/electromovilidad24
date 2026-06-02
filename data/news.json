@@ -1,5 +1,15 @@
 [
   {
+  "id": 213,
+  "title": "Bruselas aprueba 200 millones de euros para fabricar baterías de coches eléctricos en España",
+  "summary": "La Comisión Europea autoriza un programa español de 200 millones de euros para impulsar la fabricación de baterías, almacenamiento energético y tecnologías clave para el vehículo eléctrico.",
+  "category": "Noticias",
+  "image": "https://images.unsplash.com/photo-1698223817326-a107c584c871?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NjJ8fGVsZWN0cmljJTIwY2FyJTIwYmF0dGVyeXxlbnwwfDB8MHx8fDI%3D",
+  "link": "articulos/bruselas-200-millones-fabricacion-baterias-espana-2026.html",
+  "date": "2026-06-02",
+  "readTime": "7 min"
+},
+  {
   "id": 212,
   "title": "Las ayudas Auto+ ya habrían comprometido 156 millones de euros: el sector teme que los fondos se agoten antes de octubre",
   "summary": "Faconauto estima que el nuevo programa Auto+, sucesor del Plan MOVES, ya ha comprometido cerca de 156 millones de euros pese a que sus bases reguladoras siguen sin publicarse en el BOE. Al ritmo actual, los 400 millones presupuestados para 2026 podrían agotarse en torno a octubre, lo que obligaría al Gobierno a aprobar una ampliación presupuestaria.",
