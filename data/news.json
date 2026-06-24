@@ -1,14 +1,14 @@
 [
   {
-  "id": 217,
-  "title": "Los coches eléctricos que costarán menos de 25.000 euros en España: la gran revolución de 2026 y 2027",
-  "summary": "Una nueva generación de modelos europeos está rompiendo la barrera de los 25.000 euros. Citroën ë-C3, Fiat Grande Panda, Renault 5 E-Tech, Hyundai Inster y el prometedor Twingo E-Tech por debajo de los 20.000 euros. La era del eléctrico asequible ya no es una promesa: está aquí.",
-  "category": "Noticia",
-  "image": "/imagenes/renault-twingo-e-tech.png",
-  "link": "articulos/coches-electricos-menos-25000-euros-espana-2026-2027.html",
-  "date": "2026-06-16",
-  "readTime": "9 min"
-},
+    "id": 217,
+    "title": "Los coches eléctricos que costarán menos de 25.000 euros en España: la gran revolución de 2026 y 2027",
+    "summary": "Una nueva generación de modelos europeos está rompiendo la barrera de los 25.000 euros. Citroën ë-C3, Fiat Grande Panda, Renault 5 E-Tech, Hyundai Inster y el prometedor Twingo E-Tech por debajo de los 20.000 euros. La era del eléctrico asequible ya no es una promesa: está aquí.",
+    "category": "Noticia",
+    "image": "/imagenes/renault-twingo-e-tech.png",
+    "link": "articulos/coches-electricos-menos-25000-euros-espana-2026-2027.html",
+    "date": "2026-06-16",
+    "readTime": "9 min"
+  },
   {
     "id": 216,
     "title": "España no tiene un problema de cargadores: tiene un problema para activarlos",
