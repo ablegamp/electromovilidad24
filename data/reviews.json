@@ -1,125 +1,135 @@
-[  
-{
-  "id": 51,
-  "title": "Volkswagen ID.3 Neo 2026: precio en España, autonomía, novedades y opinión",
-  "summary": "Volkswagen renueva en profundidad su compacto eléctrico y lo rebautiza como ID.3 Neo. Analizamos las mejoras en interior, la nueva gama de motores de hasta 231 CV, la autonomía de hasta 628 km WLTP y lo que pagarías realmente en España, desde 25.000€ con financiación hasta los 35.800€ de PVP oficial.",
-  "category": "Reviews",
-  "image": "https://images.unsplash.com/photo-1655286366299-492c76b5e678?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8aWQuM3xlbnwwfDB8MHx8fDI%3D",
-  "link": "articulos/volkswagen-id3-neo-2026-precio-espana-autonomia-opinion.html",
-  "date": "2026-07-10",
-  "readTime": "9 min"
-},
-{
-  "id": 50,
-  "title": "Zeekr 7X en España: ficha técnica, precios y cuánto pagarías realmente con el Plan Auto+",
-  "summary": "El SUV eléctrico premium de Zeekr llega a España con arquitectura de 800V, carga del 10 al 80% en solo 13 minutos y hasta 630 CV. Analizamos sus tres versiones, qué ayudas del Plan Auto+ puedes aplicar y si puede plantar cara al Tesla Model Y en el segmento premium.",
-  "category": "Reviews",
-  "image": "/imagenes/zeekr-7x.png",
-  "link": "articulos/zeekr-7x-precio-espana-plan-auto-plus-2026.html",
-  "date": "2026-05-27",
-  "readTime": "9 min"
-},
-{
-  "id": 49,
-  "title": "BYD Seagull 2026: el coche de 11.400 € con LiDAR que no llegará tan barato a Europa",
-  "summary": "BYD integra un sensor LiDAR y el sistema God's Eye B en su modelo más económico, el Seagull 2026. Desde 8.800 € en China, analizamos el salto tecnológico, la estrategia industrial detrás del movimiento y por qué en Europa el Dolphin Surf cuesta más del doble.",
-  "category": "Reviews",
-  "image": "/imagenes/byd-seagull.png",
-  "link": "articulos/byd-seagull-2026-lidar-god-eye-analisis.html",
-  "date": "2026-05-13",
-  "readTime": "9 min"
-},
-{
-  "id": 48,
-  "title": "BYD Atto 3 2026 (Gen 3): 630 km, carga en 9 minutos y 15.000€ en China",
-  "summary": "Análisis completo del nuevo BYD Atto 3 2026 de tercera generación: 630 km CLTC, Flash Charging de 1.500 kW, precio desde 15.000€ en China... y 42.990€ en Europa. ¿Qué significa esto para el mercado?",
-  "category": "Reviews",
-  "image": "/imagenes/byd-atto3.png",
-  "link": "articulos/byd-atto-3-2026-gen3-analisis.html",
-  "date": "2026-05-12",
-  "readTime": "11 min"
-},
-{
-  "id": 47,
-  "title": "Haval Big Dog Plus: desde 19.000 € y más de 1.000 km de autonomía — el rival chino que desafía las reglas",
-  "summary": "El Haval Big Dog Plus PHEV llega a España con el desembarco de GWM en junio de 2026. Más de 1.000 km de autonomía combinada, etiqueta CERO, capacidad todoterreno real con diferencial bloqueable y un precio que con ayudas podría bajar de 20.000 €. Analizamos el SUV que pone nerviosos a Toyota, Hyundai y Ford.",
-  "category": "Reviews",
-  "image": "/imagenes/haval-big-dog.png",
-  "link": "articulos/haval-big-dog-plus-gwm-espana-precio-autonomia.html",
-  "date": "2026-05-08",
-  "readTime": "10 min"
-},
+[
   {
-  "id": 46,
-  "title": "BYD Denza Z9GT: el shooting brake de 1.156 CV que quiere redefinir el lujo eléctrico en Europa",
-  "summary": "Denza, la marca premium de BYD, aterriza en Europa con su Z9GT: un shooting brake de lujo con 1.156 CV, 630 km de autonomía y carga ultrarrápida de 1.500 kW desde 101.000€. Con Daniel Craig como embajador, BYD declara la guerra a Porsche y Audi en su propio terreno.",
-  "category": "Reviews",
-  "image": "../imagenes/denza-z9gt.png",
-  "link": "articulos/byd-denza-z9gt-review-analisis-2026.html",
-  "date": "2026-04-13",
-  "readTime": "12 min"
-},
-{
-  "id": 45,
-  "title": "NIO ES9: un coloso tecnológico de 697 CV que llega a un mercado donde la marca apenas vende",
-  "summary": "NIO ha iniciado la preventa del SUV eléctrico de producción masiva más grande fabricado en China. 697 CV, steer-by-wire, 47 altavoces y precio desde 52.500€ (BaaS). Pero en Alemania vendió un solo coche en enero de 2026. Analizamos la paradoja del ES9 y su futuro en Europa.",
-  "category": "Reviews",
-  "image": "../imagenes/nio-es9.png",
-  "link": "articulos/nio-es9-review-opinion-europa-2026.html",
-  "date": "2026-04-12",
-  "readTime": "9 min"
-},
+    "id": 52,
+    "title": "Peugeot E-308 2026: precio en España, autonomía, opinión y todos los cambios",
+    "summary": "El compacto eléctrico francés llega renovado con hasta 450 km de autonomía WLTP, nuevo frontal y tecnologías como Plug & Charge y Vehicle-to-Load. Analizamos su motor de 156 CV, la batería de 55,4 kWh útiles, el precio en España desde 36.500€ y si sigue mereciendo la pena frente al Volkswagen ID.3, el Cupra Born o el Renault Mégane E-Tech.",
+    "category": "Reviews",
+    "image": "imagenes/peugeot-e-308.png",
+    "link": "articulos/peugeot-e-308-2026-precio-autonomia-opinion.html",
+    "date": "2026-07-24",
+    "readTime": "9 min"
+  },
   {
-  "id": 44,
-  "title": "BYD Seal 06 GT: ¿el «Golf GTI eléctrico» que puede con todo o un espejismo con aranceles?",
-  "summary": "BYD presenta el Seal 06 GT con 620 km de autonomía CLTC, carga del 10% al 97% en 9 minutos y 17.700€ en China. Analizamos cuánto costaría realmente en España con aranceles del 17%, IVA e importación, y lo comparamos con el MG4, el ID.3 y el Cupra Born.",
-  "category": "Reviews",
-  "image": "../imagenes/byd-seal-6-gt.png",
-  "link": "articulos/byd-seal-06-gt-review-precio-espana-2026.html",
-  "date": "2026-04-07",
-  "readTime": "10 min"
-},
+    "id": 51,
+    "title": "Volkswagen ID.3 Neo 2026: precio en España, autonomía, novedades y opinión",
+    "summary": "Volkswagen renueva en profundidad su compacto eléctrico y lo rebautiza como ID.3 Neo. Analizamos las mejoras en interior, la nueva gama de motores de hasta 231 CV, la autonomía de hasta 628 km WLTP y lo que pagarías realmente en España, desde 25.000€ con financiación hasta los 35.800€ de PVP oficial.",
+    "category": "Reviews",
+    "image": "https://images.unsplash.com/photo-1655286366299-492c76b5e678?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8aWQuM3xlbnwwfDB8MHx8fDI%3D",
+    "link": "articulos/volkswagen-id3-neo-2026-precio-espana-autonomia-opinion.html",
+    "date": "2026-07-10",
+    "readTime": "9 min"
+  },
   {
-  "id": 43,
-  "title": "Toyota Hilux eléctrico (BEV) 2025: la pick-up indestructible se electrifica",
-  "summary": "Review completa del Toyota Hilux eléctrico BEV 2025: 196 CV, doble motor AWD, 240-260 km de autonomía WLTP, batería de 59,2 kWh y carga rápida en 30 minutos. Todo sobre la primera Hilux 100% eléctrica.",
-  "category": "Reviews",
-  "image": "../imagenes/toyota-hilux.png",
-  "link": "articulos/toyota-hilux-electrico-bev-review.html",
-  "date": "2025-03-28",
-  "readTime": "12 min"
-},
+    "id": 50,
+    "title": "Zeekr 7X en España: ficha técnica, precios y cuánto pagarías realmente con el Plan Auto+",
+    "summary": "El SUV eléctrico premium de Zeekr llega a España con arquitectura de 800V, carga del 10 al 80% en solo 13 minutos y hasta 630 CV. Analizamos sus tres versiones, qué ayudas del Plan Auto+ puedes aplicar y si puede plantar cara al Tesla Model Y en el segmento premium.",
+    "category": "Reviews",
+    "image": "/imagenes/zeekr-7x.png",
+    "link": "articulos/zeekr-7x-precio-espana-plan-auto-plus-2026.html",
+    "date": "2026-05-27",
+    "readTime": "9 min"
+  },
   {
-  "id": 42,
-  "title": "CUPRA Raval 2026: el eléctrico español de 26.000€ que quiere democratizar el mercado",
-  "summary": "Review completa del CUPRA Raval 2026: el primer urbano eléctrico fabricado en Martorell con hasta 450 km de autonomía, desde 26.000€ y versión deportiva VZ de 226 CV. El coche que puede cambiar las reglas del eléctrico asequible en España.",
-  "category": "Reviews",
-  "image": "../imagenes/cupra-raval.png",
-  "link": "articulos/review-cupra-raval-2026-electrico-espanol.html",
-  "date": "2026-03-27",
-  "readTime": "12 min"
-},
-{
-  "id": 41,
-  "title": "Review smart #5: el SUV eléctrico que redefine por completo la marca",
-  "summary": "Analizamos a fondo el smart #5: arquitectura de 800V, carga ultrarrápida a 400 kW en 18 minutos, hasta 590 km de autonomía y una versión BRABUS de 646 CV. El SUV más ambicioso de smart compite con Tesla Model Y e Ioniq 5 desde 48.000€.",
-  "category": "Reviews",
-  "image": "../imagenes/smart%235.png",
-  "link": "articulos/review-smart-5-suv-electrico.html",
-  "date": "2026-03-24",
-  "readTime": "11 min"
-},
-{
-  "id": 40,
-  "title": "Avatr 11 en España 2026: precio estimado, autonomía WLTP de hasta 475 km y tecnología Huawei Inside",
-  "summary": "Review del Avatr 11, el SUV eléctrico premium de Avatr Technology (Changan + Huawei + CATL). Potencia AWD de 578 CV, batería CATL de hasta 116,79 kWh y autonomía de hasta 475 km WLTP. Analizo qué implica la tecnología Huawei Inside con 3 LiDAR, y cuándo podría llegar a España durante 2026.",
-  "category": "Reviews",
-  "image": "imagenes/avatr11.png",
-  "link": "articulos/avatr-11-review-suv-electrico-lujo-huawei.html",
-  "date": "2026-03-23",
-  "readTime": "11 min"
-},
-    {
+    "id": 49,
+    "title": "BYD Seagull 2026: el coche de 11.400 € con LiDAR que no llegará tan barato a Europa",
+    "summary": "BYD integra un sensor LiDAR y el sistema God's Eye B en su modelo más económico, el Seagull 2026. Desde 8.800 € en China, analizamos el salto tecnológico, la estrategia industrial detrás del movimiento y por qué en Europa el Dolphin Surf cuesta más del doble.",
+    "category": "Reviews",
+    "image": "/imagenes/byd-seagull.png",
+    "link": "articulos/byd-seagull-2026-lidar-god-eye-analisis.html",
+    "date": "2026-05-13",
+    "readTime": "9 min"
+  },
+  {
+    "id": 48,
+    "title": "BYD Atto 3 2026 (Gen 3): 630 km, carga en 9 minutos y 15.000€ en China",
+    "summary": "Análisis completo del nuevo BYD Atto 3 2026 de tercera generación: 630 km CLTC, Flash Charging de 1.500 kW, precio desde 15.000€ en China... y 42.990€ en Europa. ¿Qué significa esto para el mercado?",
+    "category": "Reviews",
+    "image": "/imagenes/byd-atto3.png",
+    "link": "articulos/byd-atto-3-2026-gen3-analisis.html",
+    "date": "2026-05-12",
+    "readTime": "11 min"
+  },
+  {
+    "id": 47,
+    "title": "Haval Big Dog Plus: desde 19.000 € y más de 1.000 km de autonomía — el rival chino que desafía las reglas",
+    "summary": "El Haval Big Dog Plus PHEV llega a España con el desembarco de GWM en junio de 2026. Más de 1.000 km de autonomía combinada, etiqueta CERO, capacidad todoterreno real con diferencial bloqueable y un precio que con ayudas podría bajar de 20.000 €. Analizamos el SUV que pone nerviosos a Toyota, Hyundai y Ford.",
+    "category": "Reviews",
+    "image": "/imagenes/haval-big-dog.png",
+    "link": "articulos/haval-big-dog-plus-gwm-espana-precio-autonomia.html",
+    "date": "2026-05-08",
+    "readTime": "10 min"
+  },
+  {
+    "id": 46,
+    "title": "BYD Denza Z9GT: el shooting brake de 1.156 CV que quiere redefinir el lujo eléctrico en Europa",
+    "summary": "Denza, la marca premium de BYD, aterriza en Europa con su Z9GT: un shooting brake de lujo con 1.156 CV, 630 km de autonomía y carga ultrarrápida de 1.500 kW desde 101.000€. Con Daniel Craig como embajador, BYD declara la guerra a Porsche y Audi en su propio terreno.",
+    "category": "Reviews",
+    "image": "../imagenes/denza-z9gt.png",
+    "link": "articulos/byd-denza-z9gt-review-analisis-2026.html",
+    "date": "2026-04-13",
+    "readTime": "12 min"
+  },
+  {
+    "id": 45,
+    "title": "NIO ES9: un coloso tecnológico de 697 CV que llega a un mercado donde la marca apenas vende",
+    "summary": "NIO ha iniciado la preventa del SUV eléctrico de producción masiva más grande fabricado en China. 697 CV, steer-by-wire, 47 altavoces y precio desde 52.500€ (BaaS). Pero en Alemania vendió un solo coche en enero de 2026. Analizamos la paradoja del ES9 y su futuro en Europa.",
+    "category": "Reviews",
+    "image": "../imagenes/nio-es9.png",
+    "link": "articulos/nio-es9-review-opinion-europa-2026.html",
+    "date": "2026-04-12",
+    "readTime": "9 min"
+  },
+  {
+    "id": 44,
+    "title": "BYD Seal 06 GT: ¿el «Golf GTI eléctrico» que puede con todo o un espejismo con aranceles?",
+    "summary": "BYD presenta el Seal 06 GT con 620 km de autonomía CLTC, carga del 10% al 97% en 9 minutos y 17.700€ en China. Analizamos cuánto costaría realmente en España con aranceles del 17%, IVA e importación, y lo comparamos con el MG4, el ID.3 y el Cupra Born.",
+    "category": "Reviews",
+    "image": "../imagenes/byd-seal-6-gt.png",
+    "link": "articulos/byd-seal-06-gt-review-precio-espana-2026.html",
+    "date": "2026-04-07",
+    "readTime": "10 min"
+  },
+  {
+    "id": 43,
+    "title": "Toyota Hilux eléctrico (BEV) 2025: la pick-up indestructible se electrifica",
+    "summary": "Review completa del Toyota Hilux eléctrico BEV 2025: 196 CV, doble motor AWD, 240-260 km de autonomía WLTP, batería de 59,2 kWh y carga rápida en 30 minutos. Todo sobre la primera Hilux 100% eléctrica.",
+    "category": "Reviews",
+    "image": "../imagenes/toyota-hilux.png",
+    "link": "articulos/toyota-hilux-electrico-bev-review.html",
+    "date": "2025-03-28",
+    "readTime": "12 min"
+  },
+  {
+    "id": 42,
+    "title": "CUPRA Raval 2026: el eléctrico español de 26.000€ que quiere democratizar el mercado",
+    "summary": "Review completa del CUPRA Raval 2026: el primer urbano eléctrico fabricado en Martorell con hasta 450 km de autonomía, desde 26.000€ y versión deportiva VZ de 226 CV. El coche que puede cambiar las reglas del eléctrico asequible en España.",
+    "category": "Reviews",
+    "image": "../imagenes/cupra-raval.png",
+    "link": "articulos/review-cupra-raval-2026-electrico-espanol.html",
+    "date": "2026-03-27",
+    "readTime": "12 min"
+  },
+  {
+    "id": 41,
+    "title": "Review smart #5: el SUV eléctrico que redefine por completo la marca",
+    "summary": "Analizamos a fondo el smart #5: arquitectura de 800V, carga ultrarrápida a 400 kW en 18 minutos, hasta 590 km de autonomía y una versión BRABUS de 646 CV. El SUV más ambicioso de smart compite con Tesla Model Y e Ioniq 5 desde 48.000€.",
+    "category": "Reviews",
+    "image": "../imagenes/smart%235.png",
+    "link": "articulos/review-smart-5-suv-electrico.html",
+    "date": "2026-03-24",
+    "readTime": "11 min"
+  },
+  {
+    "id": 40,
+    "title": "Avatr 11 en España 2026: precio estimado, autonomía WLTP de hasta 475 km y tecnología Huawei Inside",
+    "summary": "Review del Avatr 11, el SUV eléctrico premium de Avatr Technology (Changan + Huawei + CATL). Potencia AWD de 578 CV, batería CATL de hasta 116,79 kWh y autonomía de hasta 475 km WLTP. Analizo qué implica la tecnología Huawei Inside con 3 LiDAR, y cuándo podría llegar a España durante 2026.",
+    "category": "Reviews",
+    "image": "imagenes/avatr11.png",
+    "link": "articulos/avatr-11-review-suv-electrico-lujo-huawei.html",
+    "date": "2026-03-23",
+    "readTime": "11 min"
+  },
+  {
     "id": 39,
     "title": "BYD Seagull en España 2026: precio real, autonomía y por qué se llama Dolphin Surf",
     "summary": "El BYD Seagull ya está en España como BYD Dolphin Surf: desde 12.955€ con financiación y ayudas del Plan Auto+, batería Blade LFP de 30 o 43,2 kWh, autonomía WLTP de hasta 322 km, carga bidireccional V2L de serie, 5 estrellas Euro NCAP y garantía de 8 años en batería. Análisis completo de versiones, precios reales y a quién le conviene.",
@@ -128,8 +138,8 @@
     "link": "articulos/byd-seagull-dolphin-surf-precio-espana-2026.html",
     "date": "2026-03-19",
     "readTime": "10 min"
-},
-    {
+  },
+  {
     "id": 38,
     "title": "Zeekr 8X Hyper 2026: precio en España, 1.380 CV y más de 1.000 km de autonomía combinada",
     "summary": "Análisis del Zeekr 8X Hyper: el SUV híbrido enchufable más potente del mundo con 1.380 CV, batería CATL de 70 kWh, autonomía eléctrica de hasta 328 km y carga del 20 al 80% en solo 9 minutos. Precio estimado desde 65.000€ en Europa y posible llegada a España en 2027.",
@@ -138,8 +148,8 @@
     "link": "articulos/zeekr-8x-hyper-precio-espana-especificaciones-2026.html",
     "date": "2026-03-18",
     "readTime": "10 min"
-},
-    {
+  },
+  {
     "id": 37,
     "title": "Ford Mustang Mach-E 2026: novedades, especificaciones y todo lo que debes saber",
     "summary": "Análisis completo del Ford Mustang Mach-E 2026: edición GT California Special con 480 CV inspirada en el Mustang de 1968, autonomía de hasta 555 km WLTP, nuevos paquetes de equipamiento, el debate del frunk de pago y cómo se posiciona frente al Tesla Model Y y el Hyundai Ioniq 5.",
@@ -148,8 +158,8 @@
     "link": "articulos/ford-mustang-mach-e-2026-novedades-especificaciones.html",
     "date": "2026-03-15",
     "readTime": "9 min"
-},
-    {
+  },
+  {
     "id": 36,
     "title": "Nissan Juke Eléctrico 2026: precio, autonomía y fecha de llegada a España",
     "summary": "Todo lo que sabemos del nuevo Nissan Juke eléctrico: plataforma CMF-EV compartida con el Renault 4 E-Tech, dos versiones de batería (52 y 75 kWh), autonomía estimada de hasta 480 km WLTP, precio desde 35.000€ y llegada prevista a los concesionarios españoles en el último trimestre de 2026.",
@@ -158,8 +168,8 @@
     "link": "articulos/nissan-juke-electrico-2026-precio-autonomia-espana.html",
     "date": "2026-03-14",
     "readTime": "9 min"
-},
-    {
+  },
+  {
     "id": 35,
     "title": "Jaecoo SHS 8: review del SUV eléctrico del grupo Chery que quiere conquistar España",
     "summary": "Review completa del Jaecoo SHS 8: SUV eléctrico con motor de 160 kW (218 CV), batería de 72 kWh, hasta 450 km de autonomía anunciada, carga rápida del 10 al 80% en 40 minutos, garantía de 7 años/150.000 km y equipamiento tecnológico de serie con pantalla de 12,3 pulgadas, ADAS completo y cámaras 360°.",
@@ -168,8 +178,8 @@
     "link": "articulos/jaecoo-shs-8-review-suv-electrico.html",
     "date": "2026-01-22",
     "readTime": "12 min"
-},
-    {
+  },
+  {
     "id": 34,
     "title": "Skoda Elroq: review del SUV compacto 100% eléctrico que quiere cambiar las reglas",
     "summary": "Review completa del Skoda Elroq 100% eléctrico: hasta 578 km de autonomía WLTP, baterías de 55 a 77 kWh, carga rápida del 10 al 80% en 28 minutos, desde 28.250 € antes de ayudas y 100.000 unidades producidas. Cuatro versiones: Elroq 50, 60, 85 y 85x con tracción total.",
@@ -178,8 +188,8 @@
     "link": "articulos/review-skoda-elroq-suv-electrico.html",
     "date": "2026-02-18",
     "readTime": "12 min"
-},
-{
+  },
+  {
     "id": 33,
     "title": "BYD ATTO 2: review completa, precios con ayudas y autonomía real en España",
     "summary": "Review completa del BYD ATTO 2 en España: SUV eléctrico compacto con hasta 604 km WLTP, baterías de 45,1 y 64,8 kWh, carga rápida del 30 al 80% en 19 minutos y precios desde 18.665 € con Plan Auto+ y CAE. Tres versiones: Active, Boost y Comfort.",
@@ -188,8 +198,8 @@
     "link": "articulos/byd-atto-2-review-precios-autonomia-espana.html",
     "date": "2026-02-17",
     "readTime": "12 min"
-},
-{
+  },
+  {
     "id": 32,
     "title": "Nissan Ariya 2025: review completa del SUV eléctrico que quiere plantar cara a Tesla y Hyundai",
     "summary": "Review completa del Nissan Ariya: SUV 100% eléctrico con hasta 533 km de autonomía WLTP, baterías de 63 y 87 kWh, tracción total e-4orce de 335 CV, carga rápida CCS a 130 kW y 5 estrellas Euro NCAP. Disponible en España desde ~44.000€ antes de ayudas.",
@@ -198,8 +208,8 @@
     "link": "articulos/nissan-ariya-review-suv-electrico.html",
     "date": "2026-02-15",
     "readTime": "12 min"
-},
-    {
+  },
+  {
     "id": 31,
     "title": "Ford E-Tourneo Courier: review del monovolumen eléctrico familiar con 288 km y hasta 2.162 litros de maletero",
     "summary": "Ford E-Tourneo Courier: monovolumen 100% eléctrico con motor de 136 CV, batería de 43 kWh, 288 km de autonomía WLTP, carga rápida a 100 kW y hasta 2.162 litros de maletero. Tres acabados (Trend, Titanium, Active) desde ~32.000€. Ya disponible en concesionarios españoles.",
@@ -208,8 +218,8 @@
     "link": "articulos/ford-e-tourneo-courier-review-electrico-familiar.html",
     "date": "2026-02-14",
     "readTime": "9 min"
-},
-    {
+  },
+  {
     "id": 30,
     "title": "MG4 Urban 2026: el eléctrico urbano accesible con hasta 415 km que quiere ser superventas en España",
     "summary": "MG4 Urban 2026: nueva variante del MG4 con tracción delantera, baterías LFP de 43 o 54 kWh, hasta 415 km de autonomía WLTP y precios desde ~27.000€. Equipamiento completo con pantalla de 15,6\", V2L y asistentes de conducción. Llegada a España prevista para el segundo trimestre de 2026.",
@@ -218,8 +228,8 @@
     "link": "articulos/mg4-urban-2026-electrico-asequible-espana.html",
     "date": "2026-02-11",
     "readTime": "9 min"
-},
-    {
+  },
+  {
     "id": 29,
     "title": "Geely EX5: el SUV eléctrico chino que llega a España en 2026 con hasta 610 km de autonomía",
     "summary": "Geely EX5: SUV 100% eléctrico con 215 CV, hasta 610 km de autonomía (CLTC) y 5 estrellas Euro NCAP. Llega a España en 2026 con carga rápida (30-80% en 20-28 min). Geely, propietario de Volvo, ya tiene acuerdos con concesionarios españoles.",
@@ -228,8 +238,8 @@
     "link": "articulos/geely-ex5-suv-electrico-espana-2026.html",
     "date": "2026-02-06",
     "readTime": "9 min"
-}, 
-{
+  },
+  {
     "id": 28,
     "title": "Geely EX2: el eléctrico más vendido en China en 2025 (465.775 unidades) llega a Europa",
     "summary": "Geely EX2: eléctrico urbano más vendido en China 2025 (465.775 unidades). Hatchback compacto de 4,13m con hasta 410 km autonomía CLTC, 78-116 CV y precio desde 8.400€. Llega a Europa desde Reino Unido en verano 2026.",
@@ -238,8 +248,8 @@
     "link": "articulos/geely-ex2-electrico-mas-vendido-china-2025-europa.html",
     "date": "2026-02-04",
     "readTime": "12 min"
-},
- {
+  },
+  {
     "id": 27,
     "title": "Škoda Epiq 2026: el SUV eléctrico asequible fabricado en España con 425 km de autonomía desde 26.000€",
     "summary": "Škoda Epiq 2026: SUV eléctrico compacto fabricado en Navarra con 208 CV, 425 km autonomía WLTP y batería LFP de 52 kWh. Carga rápida a 130 kW y precio desde 26.000€. Revoluciona el segmento de acceso.",
@@ -248,8 +258,8 @@
     "link": "articulos/skoda-epiq-2026-review-suv-electrico-espana.html",
     "date": "2026-01-30",
     "readTime": "12 min"
-},
- {
+  },
+  {
     "id": 26,
     "title": "BYD Atto 3 Evo 2026: 308 CV, más autonomía y carga ultrarrápida llegan a España en febrero",
     "summary": "BYD Atto 3 Evo 2026: renovación del SUV superventas con 308 CV, batería de 74,8 kWh y 500 km autonomía WLTP. Posible arquitectura 800V con carga rápida a 150 kW. Llega a España en febrero 2026.",
@@ -258,8 +268,8 @@
     "link": "articulos/byd-atto-3-evo-febrero-2026-espana.html",
     "date": "2026-01-29",
     "readTime": "9 min"
-},
- {
+  },
+  {
     "id": 25,
     "title": "El SUV chino con un dato que Porsche y Tesla preferirían que no supieras",
     "summary": "XPeng G9 2026: SUV eléctrico chino con 567 CV, 520-570 km autonomía WLTP y arquitectura 800V. Carga del 10-80% en 20 minutos. Precio desde 57.490€, compite con Tesla Model X, BMW iX y Porsche Cayenne.",
@@ -268,8 +278,8 @@
     "link": "articulos/xpeng-g9-2026-suv-electrico-800v-analisis.html",
     "date": "2025-12-24",
     "readTime": "12 min"
-},
- {
+  },
+  {
     "id": 24,
     "title": "El sedán eléctrico coreano que puede destronar al Tesla Model 3 - Review completa",
     "summary": "Kia presenta el EV4, un sedán eléctrico con 600 km de autonomía WLTP, carga del 10% al 80% en solo 18 minutos gracias a su arquitectura de 800V, y un precio original desde 45.990€. Analizamos sus especificaciones, tecnología, prestaciones y cómo se compara frente al Tesla Model 3.",
@@ -278,9 +288,8 @@
     "link": "articulos/review-kia-ev4-sedan-electrico.html",
     "date": "2025-12-14",
     "readTime": "10 min"
-},
-    
-    {
+  },
+  {
     "id": 23,
     "title": "Esta marca coreana ha presentado un coche que parece más de PlayStation que de carretera",
     "summary": "Kia sorprende con el Vision Meta Turismo Concept, un coche eléctrico futurista que fusiona conducción con gaming: HUD de realidad aumentada, controles tipo joystick, asientos hápticos y conexión al metaverso. ¿Es esto el futuro del automóvil o pura ciencia ficción?",
@@ -289,8 +298,8 @@
     "link": "articulos/kia-vision-meta-turismo-concept-coche-gaming.html",
     "date": "2025-12-12",
     "readTime": "12 min"
-},
-    {
+  },
+  {
     "id": 22,
     "title": "Tesla Model 3 Standard en España: el eléctrico que NADIE esperaba por este precio",
     "summary": "Tesla revoluciona el mercado español con el lanzamiento del Model 3 Standard a 33.970€, casi 10.000€ menos que antes. Con ayudas del Plan MOVES puede quedarse por debajo de 27.000€. Analizamos por qué este movimiento cambia las reglas del juego en el sector de los coches eléctricos.",
@@ -299,9 +308,8 @@
     "link": "articulos/tesla-model-3-standard-espana-precio-2025.html",
     "date": "2025-12-06",
     "readTime": "8 min"
-},
-    
-    {
+  },
+  {
     "id": 21,
     "title": "Omoda 5 EV 2025: El SUV eléctrico renovado que sorprende por su relación calidad-precio",
     "summary": "Análisis completo del renovado Omoda 5 EV 2025: diseño renovado, 450 km de autonomía WLTP, carga rápida mejorada y tecnología de última generación. Todo sobre el SUV eléctrico de Chery que está revolucionando el segmento con su excelente relación calidad-precio.",
@@ -310,7 +318,8 @@
     "link": "articulos/omoda-5-ev-2025-renovado-analisis.html",
     "date": "2025-12-04",
     "readTime": "15 min"
-  },  {
+  },
+  {
     "id": 20,
     "title": "BYD Dolphin: el coche eléctrico que está dejando en ridículo a Volkswagen y Tesla",
     "summary": "Review completa del BYD Dolphin 2025: el eléctrico chino que arrasa en Europa desde 25.490€. Batería Blade, 427 km de autonomía, y una relación calidad-precio que nadie puede igualar. Descubre por qué las marcas europeas están nerviosas.",
@@ -319,7 +328,8 @@
     "link": "articulos/review-byd-dolphin-2025.html",
     "date": "2025-12-04",
     "readTime": "15 min"
-  },  {
+  },
+  {
     "id": 19,
     "title": "Kia Seltos híbrido 2026: precio, lanzamiento y claves para España",
     "summary": "Todo lo que debes saber del Kia Seltos híbrido antes de su llegada: motor 1.6 HEV con etiqueta ECO, precio previsto por debajo de 28.000 €, calendario de lanzamiento y comparación con sus rivales.",
@@ -328,7 +338,8 @@
     "link": "articulos/kia-seltos-suv-hibrido-europa-2026.html",
     "date": "2025-12-03",
     "readTime": "12 min"
-  },  {
+  },
+  {
     "id": 18,
     "title": "Dacia Jogger 2025: el híbrido familiar barato con maletero XXL (review)",
     "summary": "Review informativa del Dacia Jogger Hybrid 2025: nuevo motor híbrido hasta 155 CV, consumo desde 4,6 l/100 km, opción de 7 plazas y 607 litros de maletero. Ideal para familias que buscan espacio y coste contenido.",
@@ -349,14 +360,14 @@
     "readTime": "12 min"
   },
   {
-  "id": 16,
-  "title": "Toyota C-HR+ Eléctrico 2025: Review Completa Tras 1.000 km de Prueba",
-  "summary": "Review exhaustiva del Toyota C-HR+ eléctrico: autonomía real de 440 km, interior de calidad premium, tecnología avanzada y precio desde 45.900€. Probamos el primer SUV compacto eléctrico de Toyota durante más de 1.000 km en condiciones reales.",
-  "category": "Reviews",
-  "image": "../imagenes/toyota-c-hr+.png",
-  "link": "articulos/toyota-c-hr-plus-electrico-review-completa-2025.html",
-  "date": "2025-11-01",
-  "readTime": "15 min"
+    "id": 16,
+    "title": "Toyota C-HR+ Eléctrico 2025: Review Completa Tras 1.000 km de Prueba",
+    "summary": "Review exhaustiva del Toyota C-HR+ eléctrico: autonomía real de 440 km, interior de calidad premium, tecnología avanzada y precio desde 45.900€. Probamos el primer SUV compacto eléctrico de Toyota durante más de 1.000 km en condiciones reales.",
+    "category": "Reviews",
+    "image": "../imagenes/toyota-c-hr+.png",
+    "link": "articulos/toyota-c-hr-plus-electrico-review-completa-2025.html",
+    "date": "2025-11-01",
+    "readTime": "15 min"
   },
   {
     "id": 15,
@@ -508,4 +519,4 @@
     "date": "2025-06-20",
     "readTime": "8 min"
   }
-] 
+]
