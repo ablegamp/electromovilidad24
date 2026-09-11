@@ -1,5 +1,15 @@
 [
   {
+    "id": 157,
+    "title": "Cómo comprobar la batería de un coche eléctrico usado antes de comprarlo",
+    "summary": "SOH, garantía, autonomía real, diagnóstico OBD, prueba de carga y certificado de batería: todo lo que debes revisar antes de pagar por un eléctrico de segunda mano. Incluye datos del mayor estudio mundial sobre degradación de baterías (más de 500.000 pruebas de AVILOO), el análisis de Geotab con 22.700 vehículos y las recomendaciones de la OCU.",
+    "category": "Guías",
+    "image": "/imagenes/bateria-coche-electrico.png",
+    "link": "articulos/como-comprobar-bateria-coche-electrico-segunda-mano.html",
+    "date": "2026-09-11",
+    "readTime": "12 min"
+},
+  {
     "id": 155,
     "title": "Cuánto cuesta instalar V2H en España en 2026 y cuándo merece la pena",
     "summary": "Tu coche eléctrico puede convertirse en una batería para tu casa, pero necesitas mucho más que un vehículo con carga bidireccional. Analizo qué necesitas realmente, cuánto cuesta orientativamente, qué coches son compatibles y en qué casos empieza a compensar frente a un wallbox convencional.",
