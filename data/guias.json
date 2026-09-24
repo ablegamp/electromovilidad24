@@ -1,5 +1,15 @@
 [
-    {
+  {
+  "id": 57,
+  "title": "Futuros Coches Eléctricos: Así Serán los Coches que Vienen",
+  "summary": "Más allá de los lanzamientos concretos, analizamos las tendencias reales que marcarán la próxima generación de eléctricos: autonomías de hasta 900 km WLTP, baterías de estado sólido y semisólidas, carga en menos de 20 minutos, eléctricos pequeños más asequibles, tecnología bidireccional V2H/V2G y el papel creciente de España en la fabricación. Con ejemplos de BMW, Toyota, Nissan, Mercedes-Benz, Hyundai, Volkswagen, Renault, Kia y BYD.",
+  "category": "Guías",
+  "image": "/imagenes/renault-twingo-e-tech.png",
+  "link": "articulos/futuros-coches-electricos-tendencias.html",
+  "date": "2026-09-24",
+  "readTime": "12 min"
+},  
+  {
   "id": 158,
   "title": "Cómo Comprar un Coche Eléctrico sin Equivocarte: Checklist Definitiva 2026",
   "summary": "Guía paso a paso para firmar con los ojos abiertos: uso real y kilómetros, autonomía WLTP frente a necesidad diaria, batería, carga en casa o pública, potencia 10-80%, precio al contado frente a TAE, ayudas Auto+ 2026, deducción IRPF 15%, etiqueta Cero, garantía de batería y prueba de conducción. Incluye checklist de 20 puntos y tabla para comparar tres modelos.",
