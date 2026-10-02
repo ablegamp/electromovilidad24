@@ -1,5 +1,15 @@
 [
   {
+    "id": 159,
+    "title": "Los coches eléctricos superan a los gasolina en España por primera vez: septiembre marca un hito",
+    "summary": "ANFAC confirma que los eléctricos puros fueron la segunda tecnología más vendida en septiembre de 2026, con 17.366 unidades y un 71,7% más que el año anterior, superando a los gasolina. Analizo los datos clave, el matiz de los híbridos convencionales y cómo el Tesla Model 3 se convirtió en el coche más vendido del mes.",
+    "category": "Noticias",
+    "image": "imagenes/cupra-raval.png",
+    "link": "articulos/coches-electricos-superan-gasolina-espana-septiembre-2026.html",
+    "date": "2026-10-02",
+    "readTime": "8 min"
+  },
+  {
     "id": 158,
     "title": "¿Son realmente suficientes los cargadores públicos de España? La respuesta no está en contar enchufes",
     "summary": "AEDIVE contabiliza 52.746 puntos de recarga operativos a 1 de septiembre de 2026, mientras ANFAC alerta de que casi 18.000 puntos instalados aún no funcionan. Analizo qué dicen realmente los últimos datos sobre potencia, distribución territorial y crecimiento de la red frente al parque eléctrico español.",
@@ -8,7 +18,7 @@
     "link": "articulos/son-suficientes-cargadores-publicos-espana-2026.html",
     "date": "2026-09-17",
     "readTime": "9 min"
-},
+  },
   {
     "id": 157,
     "title": "El coche eléctrico ya cuesta un 33% menos por kilómetro que un gasolina: ¿cuánto puedes ahorrar en España?",
@@ -18,7 +28,7 @@
     "link": "articulos/coche-electrico-33-por-ciento-mas-barato-gasolina-icct.html",
     "date": "2026-09-08",
     "readTime": "9 min"
-},
+  },
   {
     "id": 156,
     "title": "España vende más coches eléctricos que nunca, pero Europa nos saca ventaja: ¿qué estamos haciendo mal?",
@@ -28,7 +38,7 @@
     "link": "articulos/espana-vs-europa-ventas-coches-electricos-2026.html",
     "date": "2026-09-04",
     "readTime": "10 min"
-},
+  },
   {
     "id": 155,
     "title": "Volkswagen pone en duda el futuro de SEAT después de 2030: la electrificación será decisiva",
@@ -38,7 +48,7 @@
     "link": "articulos/futuro-seat-volkswagen-2030.html",
     "date": "2026-09-04",
     "readTime": "9 min"
-},
+  },
   {
     "id": 154,
     "title": "Los coches eléctricos e híbridos enchufables ya rozan el 28% de las ventas en España: el mercado cambia de rumbo",
@@ -48,7 +58,7 @@
     "link": "articulos/electrificados-27-por-ciento-ventas-agosto-2026.html",
     "date": "2026-09-01",
     "readTime": "8 min"
-},
+  },
   {
     "id": 227,
     "title": "El diésel vuelve a ser más barato que la gasolina: ¿puede plantar cara al coche eléctrico?",
@@ -58,7 +68,7 @@
     "link": "articulos/diesel-mas-barato-gasolina-septiembre-2026-vs-electrico.html",
     "date": "2026-09-01",
     "readTime": "9 min"
-},
+  },
   {
     "id": 226,
     "title": "El techo solar para coches eléctricos ya está listo para producirse en masa: ¿lo estrenará BYD?",
@@ -68,7 +78,7 @@
     "link": "articulos/techo-solar-fuyao-byd-720w-coches-electricos.html",
     "date": "2026-09-01",
     "readTime": "8 min"
-},
+  },
   {
     "id": 225,
     "title": "Xiaomi confirma que sus coches eléctricos llegarán a Europa en 2027: ¿cuándo llegarán a España?",
@@ -78,7 +88,7 @@
     "link": "articulos/xiaomi-coches-electricos-europa-2027.html",
     "date": "2026-08-31",
     "readTime": "9 min"
-},
+  },
   {
     "id": 224,
     "title": "Estos son los coches eléctricos más fiables según la OCU: BMW y Smart lideran por delante de Tesla y BYD",
