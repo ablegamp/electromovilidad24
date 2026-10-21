@@ -1,0 +1,620 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- SEO mejorado -->
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
+  <meta name="googlebot" content="index, follow" />
+  <meta name="theme-color" content="#10B981" />
+  <meta name="msapplication-TileColor" content="#10B981" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+  <meta name="format-detection" content="telephone=no" />
+  <title>Cómo interpretar la ficha técnica de un coche eléctrico: kWh, kW y autonomía</title>
+  <meta name="description" content="Aprende a interpretar la ficha técnica de un coche eléctrico: capacidad de batería, kWh, kW, autonomía WLTP, consumo y potencia de carga. Guía clara con ejemplos y una tabla de unidades." />
+  <link rel="canonical" href="https://www.electromovilidad24.com/articulos/como-interpretar-ficha-tecnica-coche-electrico.html" />
+  <!-- Open Graph -->
+  <meta property="og:type" content="article" />
+  <meta property="og:title" content="Cómo interpretar la ficha técnica de un coche eléctrico: kWh, kW y autonomía" />
+  <meta property="og:description" content="Aprende a interpretar la ficha técnica de un coche eléctrico: capacidad de batería, kWh, kW, autonomía WLTP, consumo y potencia de carga. Guía clara con ejemplos y una tabla de unidades." />
+  <meta property="og:image" content="https://www.electromovilidad24.com/imagenes/denza-z9gt.png" />
+  <meta property="og:image:alt" content="Panel de instrumentos de un coche eléctrico mostrando autonomía, consumo y potencia de batería" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="800" />
+  <meta property="og:locale" content="es_ES" />
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Cómo interpretar la ficha técnica de un coche eléctrico: kWh, kW y autonomía" />
+  <meta name="twitter:description" content="Aprende a interpretar la ficha técnica de un coche eléctrico: capacidad de batería, kWh, kW, autonomía WLTP, consumo y potencia de carga. Guía clara con ejemplos y una tabla de unidades." />
+  <meta name="twitter:image" content="https://www.electromovilidad24.com/imagenes/denza-z9gt.png" />
+  <meta name="author" content="Movilidad Eléctrica 24" />
+  <link rel="icon" type="image/svg+xml" href="../favicon.svg">
+  <link rel="shortcut icon" href="../favicon.svg">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.0/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <script>
+    tailwind.config = { theme: { extend: { fontFamily: { inter: ['Inter','sans-serif'] }, colors: { 'verde-principal':'#10B981','gris-oscuro':'#1F2937','gris-claro':'#F9FAFB' } } } }
+  </script>
+  <style>
+    body { font-family: 'Inter', sans-serif; }
+    .article-content p { margin: 1rem 0; line-height: 1.75; }
+    .article-content h2 {
+      margin-top: 2rem;
+      margin-bottom: 1rem;
+      font-size: 1.75rem;
+      font-weight: 800;
+      color: #065f46;
+    }
+    .article-content h3 {
+      margin-top: 1.5rem;
+      margin-bottom: 0.75rem;
+      font-size: 1.5rem;
+      font-weight: 700;
+    }
+    .highlight-box {
+      background: linear-gradient(135deg, #ecfdf5 0%, #d1fae5 100%);
+      border-left: 4px solid #10B981;
+      padding: 1.5rem;
+      margin: 1.5rem 0;
+      border-radius: 0.5rem;
+    }
+    .stat-box {
+      background: linear-gradient(135deg, #dbeafe 0%, #bfdbfe 100%);
+      border-left: 4px solid #3b82f6;
+      padding: 1.5rem;
+      margin: 1.5rem 0;
+      border-radius: 0.5rem;
+    }
+    .warning-box {
+      background: linear-gradient(135deg, #fef3c7 0%, #fde68a 100%);
+      border-left: 4px solid #f59e0b;
+      padding: 1.5rem;
+      margin: 1.5rem 0;
+      border-radius: 0.5rem;
+    }
+    .success-box {
+      background: linear-gradient(135deg, #d1fae5 0%, #a7f3d0 100%);
+      border-left: 4px solid #059669;
+      padding: 1.5rem;
+      margin: 1.5rem 0;
+      border-radius: 0.5rem;
+    }
+    .source-card {
+      background: #ffffff;
+      border: 1px solid #e5e7eb;
+      border-radius: 0.75rem;
+      padding: 1.25rem;
+      margin: 1rem 0;
+      transition: box-shadow 0.2s ease;
+    }
+    .source-card:hover {
+      box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+    }
+    .article-content table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 1.5rem 0;
+      font-size: 0.95rem;
+    }
+    .article-content th {
+      background-color: #065f46;
+      color: white;
+      text-align: left;
+      padding: 0.75rem 1rem;
+    }
+    .article-content td {
+      padding: 0.75rem 1rem;
+      border-bottom: 1px solid #e5e7eb;
+    }
+    .article-content tr:nth-child(even) {
+      background-color: #f9fafb;
+    }
+    .formula-box {
+      background: #1F2937;
+      color: #d1fae5;
+      padding: 1.25rem 1.5rem;
+      border-radius: 0.5rem;
+      font-size: 1.1rem;
+      text-align: center;
+      margin: 1.5rem 0;
+      font-weight: 600;
+    }
+  </style>
+  <!-- Datos estructurados JSON-LD -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Cómo interpretar la ficha técnica de un coche eléctrico: kWh, kW y autonomía",
+    "datePublished": "2026-10-21T09:00:00+02:00",
+    "dateModified": "2026-10-21T09:00:00+02:00",
+    "author": {
+      "@type": "Person",
+      "name": "Movilidad Eléctrica 24"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Movilidad Eléctrica 24",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://www.electromovilidad24.com/imagenes/logo.webp"
+      }
+    },
+    "description": "Guía para entender la ficha técnica de un coche eléctrico: capacidad de batería, potencia, autonomía WLTP, consumo y potencia de carga AC y DC.",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://www.electromovilidad24.com/articulos/como-interpretar-ficha-tecnica-coche-electrico.html"
+    },
+    "keywords": ["ficha técnica coche eléctrico", "kWh coche eléctrico", "kW coche eléctrico", "autonomía WLTP", "potencia de carga coche eléctrico", "consumo kWh 100 km"]
+  }
+  </script>
+  <!-- FAQ Schema JSON-LD -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "¿Cuál es la diferencia entre kWh y kW en un coche eléctrico?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Los kWh (kilovatios hora) miden la cantidad de energía que puede almacenar la batería, es decir, el tamaño del depósito. Los kW (kilovatios) miden la potencia, es decir, la velocidad a la que se entrega o se recibe esa energía, ya sea por el motor o por el cargador. Un coche puede tener una batería grande en kWh y una potencia de carga baja en kW, o al revés, por lo que conviene mirar ambos datos por separado."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "¿La autonomía WLTP es la autonomía real del coche?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "No necesariamente. La autonomía WLTP es una cifra obtenida mediante un procedimiento de homologación normalizado, pensado para poder comparar vehículos bajo las mismas condiciones de ensayo. En el uso diario, factores como el frío, la velocidad en autopista, el uso de la climatización, el desnivel del trayecto o la carga del vehículo pueden reducir o, en algunos casos, aumentar la autonomía respecto a la cifra homologada."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "¿Por qué mi coche no carga a la potencia máxima que indica la ficha técnica?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "La potencia máxima de carga que aparece en la ficha técnica (por ejemplo, 150 kW en corriente continua) es un pico puntual, no una potencia constante durante toda la sesión. La potencia real varía según el porcentaje de batería, la temperatura de las celdas y la estrategia de gestión del propio vehículo. Por eso es más útil fijarse también en el tiempo declarado por el fabricante para una recarga del 10% al 80%, cuando ese dato está disponible."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "¿Qué significa que un coche admita 11 kW en AC si lo conecto a un cargador de 22 kW?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Significa que, aunque el punto de carga pueda entregar hasta 22 kW en corriente alterna, el coche solo podrá aceptar un máximo de 11 kW porque ese es el límite de su cargador interno. La potencia de carga en AC está limitada siempre por el componente más restrictivo, ya sea el vehículo o la instalación, por lo que conectar el coche a un punto más potente no aumenta su velocidad de carga por encima de su propio límite."
+        }
+      }
+    ]
+  }
+  </script>
+</head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-5PD6Y58MK5"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-5PD6Y58MK5');
+</script>
+<body class="bg-gray-50 text-gray-900">
+  <header class="bg-white shadow-lg sticky top-0 z-50">
+    <div class="container mx-auto px-4 py-4">
+      <div class="flex items-center justify-between">
+        <a href="../index.html" class="flex items-center space-x-3">
+          <div class="bg-white rounded-lg p-1">
+            <img src="../imagenes/logo.webp" alt="Electromovilidad 24" class="h-16 w-auto">
+          </div>
+          <div>
+            <h1 class="text-2xl md:text-3xl font-bold text-gris-oscuro">Electromovilidad 24</h1>
+            <p class="text-sm text-gray-600">Descubre el futuro de la movilidad</p>
+          </div>
+        </a>
+        <button id="mobile-menu-btn" class="md:hidden bg-verde-principal text-white p-2 rounded-lg">
+          <i class="fas fa-bars"></i>
+        </button>
+      </div>
+      <nav class="mt-4">
+        <ul id="nav-menu" class="hidden md:flex space-x-8 text-gris-oscuro font-medium">
+          <li><a href="../index.html" class="hover:text-verde-principal transition-colors duration-200 border-b-2 border-verde-principal pb-1">Inicio</a></li>
+          <li><a href="../comparativas.html" class="hover:text-verde-principal transition-colors duration-200">Comparativas</a></li>
+          <li><a href="../reviews.html" class="hover:text-verde-principal transition-colors duration-200">Reviews</a></li>
+          <li><a href="../guias.html" class="hover:text-verde-principal transition-colors duration-200">Guías</a></li>
+          <li><a href="../calculadoras.html" class="hover:text-verde-principal transition-colors duration-200">Calculadoras</a></li>
+          <li><a href="../sobre.html" class="hover:text-verde-principal transition-colors duration-200">Sobre mí</a></li>
+          <li><a href="../contacto.html" class="hover:text-verde-principal transition-colors duration-200">Contacto</a></li>
+        </ul>
+
+        <!-- Menú móvil -->
+        <ul id="mobile-nav" class="md:hidden hidden flex-col space-y-3 mt-4 bg-gray-50 p-4 rounded-lg">
+            <li><a href="../index.html" class="block text-gris-oscuro hover:text-verde-principal font-medium">Inicio</a></li>
+            <li><a href="../index.html#news-section" class="block text-gris-oscuro hover:text-verde-principal font-medium">Noticias</a></li>
+            <li><a href="../comparativas.html" class="block text-gris-oscuro hover:text-verde-principal font-medium">Comparativas</a></li>
+            <li><a href="../reviews.html" class="block text-gris-oscuro hover:text-verde-principal font-medium">Reviews</a></li>
+            <li><a href="../guias.html" class="block text-gris-oscuro hover:text-verde-principal font-medium">Guías</a></li>
+            <li><a href="../calculadoras.html" class="block text-gris-oscuro hover:text-verde-principal font-medium">Calculadoras</a></li>
+            <li><a href="../sobre.html" class="block text-gris-oscuro hover:text-verde-principal font-medium">Sobre mí</a></li>
+            <li><a href="../contacto.html" class="block text-gris-oscuro hover:text-verde-principal font-medium">Contacto</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="max-w-4xl mx-auto px-4 py-8">
+    <article>
+      <header class="mb-6">
+        <p class="text-sm text-gray-500 flex items-center space-x-2">
+          <i class="fas fa-calendar-alt"></i>
+          <time datetime="2026-10-21">21 de octubre de 2026</time>
+          <span class="mx-2">•</span>
+          <span class="bg-green-500 text-white px-2 py-0.5 rounded text-xs">Guía</span>
+          <span class="mx-2">•</span>
+          <span>Lectura: 9 min</span>
+        </p>
+        <h1 class="text-3xl md:text-4xl font-extrabold leading-tight mt-2">Cómo leer la ficha técnica de un coche eléctrico: batería, potencia y carga</h1>
+        <p class="mt-3 text-lg text-gray-700">Si estás comparando varios modelos eléctricos, probablemente te hayas encontrado con una lista de números —kWh, kW, WLTP, kWh/100 km— que no siempre queda claro qué significan ni para qué sirven. En esta guía te explico, <strong>con ejemplos sencillos</strong>, cómo interpretar cada dato de la ficha técnica y cuáles son las confusiones más habituales que conviene evitar antes de decidirte por un coche.</p>
+      </header>
+
+      <!-- Breadcrumbs visibles -->
+      <nav aria-label="breadcrumbs" class="text-sm text-gray-600 mb-4">
+        <ol class="flex flex-wrap items-center gap-2">
+          <li><a href="../index.html" class="text-emerald-700 hover:underline">Inicio</a></li>
+          <li>/</li>
+          <li><a href="../guias.html" class="text-emerald-700 hover:underline">Guías</a></li>
+          <li>/</li>
+          <li aria-current="page" class="text-gray-800">Ficha técnica coche eléctrico</li>
+        </ol>
+      </nav>
+
+      <!-- Índice del contenido -->
+      <nav class="bg-emerald-50 border border-emerald-100 rounded-lg p-4 mb-6 text-sm">
+        <p class="font-semibold text-emerald-800 mb-2">Contenido</p>
+        <ol class="list-decimal ml-5 space-y-1 text-emerald-900">
+          <li><a class="hover:underline" href="#kwh-kw">kWh y kW: no son lo mismo</a></li>
+          <li><a class="hover:underline" href="#capacidad">Capacidad de batería: ¿bruta o útil?</a></li>
+          <li><a class="hover:underline" href="#wltp">Autonomía WLTP: qué significa realmente</a></li>
+          <li><a class="hover:underline" href="#ac-dc">Potencia de carga AC y DC</a></li>
+          <li><a class="hover:underline" href="#potencia-maxima">Potencia máxima de carga: cuidado con el número más grande</a></li>
+          <li><a class="hover:underline" href="#consumo">Consumo: ¿16 o 20 kWh/100 km?</a></li>
+          <li><a class="hover:underline" href="#checklist">Checklist antes de comparar dos coches</a></li>
+          <li><a class="hover:underline" href="#fuentes">Fuentes consultadas</a></li>
+          <li><a class="hover:underline" href="#faq">Preguntas frecuentes</a></li>
+        </ol>
+      </nav>
+
+      <!-- Hero Image -->
+      <div class="mb-8 rounded-lg overflow-hidden shadow-xl">
+        <img 
+          src="../imagenes/denza-z9gt.png" 
+          alt="Panel de instrumentos de un coche eléctrico mostrando autonomía, consumo y potencia de batería" 
+          class="w-full h-auto"
+          loading="lazy"
+        >
+        <p class="text-sm text-gray-500 p-2 bg-gray-50 text-center">Saber interpretar correctamente la ficha técnica te ayuda a comparar coches eléctricos con criterio, más allá de la cifra de autonomía</p>
+      </div>
+
+      <div class="article-content">
+        <p>Cada vez que publico en EM24 sobre un modelo nuevo, me doy cuenta de que la ficha técnica es la parte que más dudas genera entre los lectores. No es extraño: un coche eléctrico viene acompañado de una lista de datos —kWh, kW, WLTP, kWh/100 km— que no siempre se explican bien, y que además se prestan a confusión si no sabes qué estás mirando exactamente.</p>
+
+        <p>En esta guía no voy a comparar modelos ni a decirte cuál comprar. Mi objetivo es que, la próxima vez que abras la ficha técnica de cualquier coche eléctrico, sepas <strong>qué significa cada número</strong>, para qué sirve y, sobre todo, qué confusiones evitar. Así podrás leer con criterio propio cualquier comparativa, incluidas las que publicamos aquí.</p>
+
+        <h2 id="kwh-kw">1. kWh y kW: no son lo mismo</h2>
+
+        <p>Empezamos por la confusión más habitual, y probablemente la más importante de resolver antes de seguir leyendo cualquier ficha técnica.</p>
+
+        <table>
+          <thead>
+            <tr>
+              <th>Dato de la ficha</th>
+              <th>Qué significa</th>
+              <th>Para qué sirve</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><strong>Batería: 60 kWh</strong></td>
+              <td>Cantidad de energía que puede almacenar</td>
+              <td>Orienta sobre la autonomía potencial</td>
+            </tr>
+            <tr>
+              <td><strong>Potencia: 150 kW</strong></td>
+              <td>Potencia máxima del motor o sistema</td>
+              <td>Indica capacidad de entrega de energía, no autonomía</td>
+            </tr>
+            <tr>
+              <td><strong>Carga rápida: 100 kW</strong></td>
+              <td>Potencia máxima de carga en corriente continua</td>
+              <td>Ayuda a estimar cuánto tardará en recargar</td>
+            </tr>
+            <tr>
+              <td><strong>Consumo: 16 kWh/100 km</strong></td>
+              <td>Energía utilizada para recorrer 100 km</td>
+              <td>Permite comparar eficiencia</td>
+            </tr>
+          </tbody>
+        </table>
+
+        <p>Una analogía que uso a menudo para explicarlo: los <strong>kWh son el tamaño del depósito</strong> y los <strong>kW son el caudal</strong> al que se entrega o se recibe esa energía. Un depósito grande (muchos kWh) no implica que se llene rápido, igual que un grifo potente (muchos kW) no implica que el depósito sea grande. Son dos magnitudes distintas que hay que mirar por separado.</p>
+
+        <p>La Revista de la DGT dedica un artículo específico a explicar estas unidades y su aplicación a los coches eléctricos, por si quieres profundizar en la parte más técnica.</p>
+
+        <div class="source-card">
+          <p class="font-semibold text-gris-oscuro mb-1">🔹 Revista DGT — Términos eléctricos: kW, kWh y consumo</p>
+          <a href="https://revista.dgt.es/es/motor/noticias/2020/10OCTUBRE/1023-Terminos-Electricos.shtml" target="_blank" rel="noopener noreferrer" class="text-emerald-700 hover:underline font-medium text-sm">Leer el artículo de la DGT →</a>
+        </div>
+
+        <h2 id="capacidad">2. Capacidad de batería: ¿bruta o útil?</h2>
+
+        <p>Aquí llega otro matiz que suele pasar desapercibido. No todas las fichas técnicas indican la capacidad de la batería de la misma manera:</p>
+
+        <ul class="list-disc ml-6 my-4 space-y-2">
+          <li><strong>Capacidad bruta:</strong> energía total del paquete de baterías, incluyendo un margen que el fabricante reserva y que el conductor no puede usar.</li>
+          <li><strong>Capacidad útil:</strong> energía que el coche realmente permite utilizar para conducir.</li>
+        </ul>
+
+        <p>Esto significa que si dos coches anuncian baterías de "60 kWh", no necesariamente tienen la misma capacidad disponible para el conductor. Uno puede estar dando la cifra bruta y otro la útil, y la diferencia entre ambas puede ser de varios kWh. Cuando el fabricante publique ambos datos, lo más honesto a la hora de comparar es fijarte en la <strong>capacidad útil</strong>, que es la que realmente determina cuánta energía tienes disponible en cada carga.</p>
+
+        <div class="warning-box">
+          <p class="font-semibold mb-2">⚠️ Un apunte importante:</p>
+          <p>No voy a darte porcentajes generales sobre cuánta diferencia suele haber entre capacidad bruta y útil, porque varían según el modelo y la estrategia de gestión de batería de cada fabricante. Lo que sí te recomiendo es buscar siempre ambos datos en la ficha técnica oficial del coche que te interese, en vez de dar por hecho que son iguales.</p>
+        </div>
+
+        <h2 id="wltp">3. Autonomía WLTP: qué significa realmente</h2>
+
+        <p>La autonomía WLTP es probablemente el dato que más peso tiene en la decisión de compra, y también el que genera más expectativas que luego no siempre se cumplen en el día a día. Por eso merece una explicación clara.</p>
+
+        <p>WLTP son las siglas de <em>Worldwide Harmonized Light Vehicles Test Procedure</em>, un procedimiento de homologación normalizado que se utiliza para medir, entre otras cosas, la autonomía de los coches eléctricos. La cifra que obtiene cada modelo sirve para <strong>comparar vehículos bajo unas condiciones de ensayo comunes</strong>, pero no es una garantía de que el coche vaya a recorrer esa distancia exacta en cualquier situación real.</p>
+
+        <p>Hay varios factores que pueden modificar el consumo y, por tanto, la autonomía real respecto a la cifra homologada:</p>
+
+        <ul class="list-disc ml-6 my-4 space-y-2">
+          <li>El frío (reduce el rendimiento de la batería y aumenta el consumo de climatización)</li>
+          <li>La velocidad sostenida en autopista</li>
+          <li>El uso de la climatización, tanto calefacción como aire acondicionado</li>
+          <li>El desnivel del trayecto</li>
+          <li>La carga del vehículo (ocupantes, equipaje, remolque)</li>
+        </ul>
+
+        <p>Para ilustrar cómo se relaciona la capacidad de la batería con la autonomía teórica, pongamos un ejemplo hipotético: un coche con <strong>60 kWh útiles</strong> y un consumo homologado de <strong>15 kWh/100 km</strong> tendría una autonomía teórica de:</p>
+
+        <div class="formula-box">
+          60 kWh ÷ 15 kWh/100 km × 100 = 400 km
+        </div>
+
+        <p>Es una estimación matemática a partir de dos datos de la ficha técnica, no una promesa de autonomía real en cualquier circunstancia. El procedimiento oficial de homologación WLTP está recogido en la normativa europea publicada en el BOE.</p>
+
+        <div class="source-card">
+          <p class="font-semibold text-gris-oscuro mb-1">🔹 BOE — Reglamento WLTP y medición de autonomía eléctrica</p>
+          <a href="https://boe.es/buscar/doc.php?id=DOUE-L-2022-81645&lang=es" target="_blank" rel="noopener noreferrer" class="text-emerald-700 hover:underline font-medium text-sm">Consultar la normativa →</a>
+        </div>
+
+        <h2 id="ac-dc">4. Potencia de carga AC y DC</h2>
+
+        <p>Otro punto en el que conviene detenerse es la diferencia entre los dos tipos de carga que suelen aparecer en la ficha técnica, porque cada uno tiene sus propios límites:</p>
+
+        <ul class="list-disc ml-6 my-4 space-y-2">
+          <li><strong>Carga AC (corriente alterna):</strong> la que usas habitualmente en casa o en puntos públicos de carga lenta/media. La velocidad depende, entre otros factores, de la potencia que admite el cargador interno del vehículo y de la instalación eléctrica a la que lo conectes.</li>
+          <li><strong>Carga DC (corriente continua):</strong> la de los cargadores rápidos. Aquí el propio cargador externo suministra la energía directamente a la batería, sin pasar por el cargador interno del coche. La potencia efectiva depende de lo que permitan tanto el vehículo como la estación, además de las condiciones de la carga en ese momento.</li>
+        </ul>
+
+        <p>Un ejemplo que suele aclarar bastante esta diferencia: si un coche admite un máximo de <strong>11 kW en AC</strong>, conectarlo a un punto de carga de <strong>22 kW</strong> no significa que vaya a cargar a 22 kW. El límite lo marca siempre el componente más restrictivo, en este caso el cargador interno del propio coche.</p>
+
+        <p>La normativa española distingue los distintos modos de carga y los equipos asociados a la infraestructura, por si quieres consultar la regulación técnica con más detalle.</p>
+
+        <div class="source-card">
+          <p class="font-semibold text-gris-oscuro mb-1">🔹 BOE — Modos de carga e infraestructura de recarga</p>
+          <a href="https://www.boe.es/buscar/act.php?id=BOE-A-2014-13681" target="_blank" rel="noopener noreferrer" class="text-emerald-700 hover:underline font-medium text-sm">Consultar el reglamento →</a>
+        </div>
+
+        <h2 id="potencia-maxima">5. Potencia máxima de carga: cuidado con el número más grande</h2>
+
+        <p>Este es uno de los apartados que más me gusta explicar, porque es donde más fácil resulta llevarse una idea equivocada solo mirando un número grande en la ficha técnica.</p>
+
+        <p>Un fabricante puede anunciar una <strong>potencia máxima de carga rápida de 150 kW</strong>, pero esa cifra no significa que el coche vaya a mantener esa potencia durante toda la sesión de carga. En la práctica, la potencia varía a lo largo del proceso según:</p>
+
+        <ul class="list-disc ml-6 my-4 space-y-2">
+          <li>El porcentaje de batería en ese momento (suele ser mayor con la batería más vacía)</li>
+          <li>La temperatura de las celdas</li>
+          <li>La estrategia de gestión térmica y de carga del propio vehículo</li>
+        </ul>
+
+        <div class="highlight-box">
+          <p class="font-semibold mb-2">💡 Un dato más útil que la potencia pico:</p>
+          <p>Para comparar coches que se vayan a usar en viajes largos, te recomiendo fijarte también en el <strong>tiempo declarado por el fabricante para una recarga del 10% al 80%</strong>, cuando ese dato esté disponible y se haya medido en condiciones comparables. Esa cifra suele reflejar mejor la experiencia real de carga que el pico máximo aislado.</p>
+        </div>
+
+        <h2 id="consumo">6. Consumo: ¿16 o 20 kWh/100 km?</h2>
+
+        <p>El consumo expresado en kWh/100 km es, para mí, uno de los datos más infravalorados de la ficha técnica, y sin embargo es clave para entender la eficiencia real de un coche.</p>
+
+        <ul class="list-disc ml-6 my-4 space-y-2">
+          <li>Cuanto <strong>menor</strong> sea el consumo en kWh/100 km, más eficiente es el coche, siempre que se comparen condiciones equivalentes (mismo ciclo de homologación, por ejemplo).</li>
+          <li>Un coche con más batería <strong>no es necesariamente más eficiente</strong>: puede tener más autonomía simplemente por tener un depósito más grande, no por gastar menos energía.</li>
+          <li>La autonomía final depende siempre de la combinación entre la energía disponible y el consumo del vehículo.</li>
+        </ul>
+
+        <p>Por eso, si quieres estimar la autonomía aproximada de cualquier coche eléctrico a partir de su ficha técnica, puedes usar esta fórmula sencilla:</p>
+
+        <div class="formula-box">
+          Autonomía aproximada = (batería útil ÷ consumo) × 100
+        </div>
+
+        <p>Es la misma operación que hemos visto en el ejemplo de la autonomía WLTP, y te sirve como herramienta rápida para comparar cualquier par de modelos con solo dos datos de su ficha técnica.</p>
+
+        <h2 id="checklist">Checklist antes de comparar dos coches eléctricos</h2>
+
+        <p>Para cerrar esta guía, te dejo un pequeño checklist que suelo recomendar antes de poner dos fichas técnicas una al lado de la otra:</p>
+
+        <div class="success-box">
+          <p class="font-semibold mb-3">✅ Antes de comparar dos coches eléctricos, comprueba:</p>
+          <ul class="space-y-2">
+            <li>☐ Capacidad útil de batería, si está publicada (no solo la bruta)</li>
+            <li>☐ Autonomía WLTP</li>
+            <li>☐ Consumo homologado en kWh/100 km</li>
+            <li>☐ Potencia máxima de carga AC</li>
+            <li>☐ Potencia máxima de carga DC</li>
+            <li>☐ Tiempo de recarga declarado (por ejemplo, del 10% al 80%) y condiciones de ese dato</li>
+            <li>☐ Garantía de batería y condiciones asociadas</li>
+          </ul>
+        </div>
+
+        <p>Con estos siete puntos claros, cualquier ficha técnica deja de ser una lista de números difíciles de interpretar y se convierte en una herramienta útil para comparar modelos con criterio propio, más allá del titular de autonomía o del número más grande de potencia de carga.</p>
+
+        <h2 id="fuentes">Fuentes consultadas para esta guía</h2>
+
+        <p>Para elaborar esta guía he recurrido a fuentes oficiales y normativas, que te dejo por si quieres consultar la información de primera mano:</p>
+
+        <div class="source-card">
+          <p class="font-semibold text-gris-oscuro mb-1">🔹 Revista DGT — Términos eléctricos: kW, kWh y consumo</p>
+          <p class="text-gray-700 text-sm mb-2">Explicación oficial de la DGT sobre las unidades eléctricas aplicadas a los coches: kW, kWh y consumo.</p>
+          <a href="https://revista.dgt.es/es/motor/noticias/2020/10OCTUBRE/1023-Terminos-Electricos.shtml" target="_blank" rel="noopener noreferrer" class="text-emerald-700 hover:underline font-medium">Leer el artículo →</a>
+        </div>
+
+        <div class="source-card">
+          <p class="font-semibold text-gris-oscuro mb-1">🔹 BOE — Reglamento WLTP y medición de autonomía eléctrica</p>
+          <p class="text-gray-700 text-sm mb-2">Normativa europea que regula el procedimiento de homologación WLTP, incluida la medición de autonomía de vehículos eléctricos.</p>
+          <a href="https://boe.es/buscar/doc.php?id=DOUE-L-2022-81645&lang=es" target="_blank" rel="noopener noreferrer" class="text-emerald-700 hover:underline font-medium">Consultar el reglamento →</a>
+        </div>
+
+        <div class="source-card">
+          <p class="font-semibold text-gris-oscuro mb-1">🔹 BOE — Modos de carga e infraestructura de recarga</p>
+          <p class="text-gray-700 text-sm mb-2">Reglamento español que distingue los distintos modos de carga y los equipos asociados a la infraestructura eléctrica.</p>
+          <a href="https://www.boe.es/buscar/act.php?id=BOE-A-2014-13681" target="_blank" rel="noopener noreferrer" class="text-emerald-700 hover:underline font-medium">Consultar el reglamento →</a>
+        </div>
+
+        <div class="source-card">
+          <p class="font-semibold text-gris-oscuro mb-1">🔹 DGT — Categorías de vehículos eléctricos</p>
+          <p class="text-gray-700 text-sm mb-2">Información oficial sobre la clasificación y el distintivo ambiental de los vehículos eléctricos en España.</p>
+          <a href="https://www-pro.dgt.es/nuestros-servicios/tu-vehiculo/tus-vehiculos/distintivo-ambiental/etiqueta-cero/" target="_blank" rel="noopener noreferrer" class="text-emerald-700 hover:underline font-medium">Consultar la información →</a>
+        </div>
+
+        <h2 id="faq">Preguntas frecuentes sobre la ficha técnica de un coche eléctrico</h2>
+
+        <div class="faq-section bg-gray-50 rounded-lg p-6 my-8">
+          <h3 class="text-2xl font-bold text-gris-oscuro mb-6 flex items-center">
+            <i class="fas fa-question-circle text-verde-principal mr-3"></i>
+            FAQ – Ficha técnica de coches eléctricos
+          </h3>
+
+          <div class="space-y-6">
+            <div class="faq-item border-b border-gray-200 pb-4">
+              <h4 class="text-lg font-semibold text-gris-oscuro mb-2">
+                🔹 ¿Cuál es la diferencia entre kWh y kW en un coche eléctrico?
+              </h4>
+              <p class="text-gray-700">
+                Los kWh (kilovatios hora) miden la cantidad de energía que puede almacenar la batería, es decir, el tamaño del depósito. Los kW (kilovatios) miden la potencia, es decir, la velocidad a la que se entrega o se recibe esa energía, ya sea por el motor o por el cargador. Un coche puede tener una batería grande en kWh y una potencia de carga baja en kW, o al revés, por lo que conviene mirar ambos datos por separado antes de comparar modelos.
+              </p>
+            </div>
+
+            <div class="faq-item border-b border-gray-200 pb-4">
+              <h4 class="text-lg font-semibold text-gris-oscuro mb-2">
+                🔹 ¿La autonomía WLTP es la autonomía real del coche?
+              </h4>
+              <p class="text-gray-700">
+                No necesariamente. La autonomía WLTP es una cifra obtenida mediante un procedimiento de homologación normalizado, pensado para poder comparar vehículos bajo las mismas condiciones de ensayo. En el uso diario, factores como el frío, la velocidad en autopista, el uso de la climatización, el desnivel del trayecto o la carga del vehículo pueden reducir, o en algunos casos aumentar, la autonomía respecto a la cifra homologada.
+              </p>
+            </div>
+
+            <div class="faq-item border-b border-gray-200 pb-4">
+              <h4 class="text-lg font-semibold text-gris-oscuro mb-2">
+                🔹 ¿Por qué mi coche no carga a la potencia máxima que indica la ficha técnica?
+              </h4>
+              <p class="text-gray-700">
+                La potencia máxima de carga que aparece en la ficha técnica (por ejemplo, 150 kW en corriente continua) es un pico puntual, no una potencia constante durante toda la sesión. La potencia real varía según el porcentaje de batería, la temperatura de las celdas y la estrategia de gestión del propio vehículo. Por eso es más útil fijarse también en el tiempo declarado por el fabricante para una recarga del 10% al 80%, cuando ese dato está disponible.
+              </p>
+            </div>
+
+            <div class="faq-item">
+              <h4 class="text-lg font-semibold text-gris-oscuro mb-2">
+                🔹 ¿Qué significa que un coche admita 11 kW en AC si lo conecto a un cargador de 22 kW?
+              </h4>
+              <p class="text-gray-700">
+                Significa que, aunque el punto de carga pueda entregar hasta 22 kW en corriente alterna, el coche solo podrá aceptar un máximo de 11 kW porque ese es el límite de su cargador interno. La potencia de carga en AC está limitada siempre por el componente más restrictivo, ya sea el vehículo o la instalación, por lo que conectar el coche a un punto más potente no aumenta su velocidad de carga por encima de su propio límite.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <h3>En resumen</h3>
+
+        <p>La ficha técnica de un coche eléctrico deja de ser un galimatías en cuanto distingues con claridad qué mide cada unidad: los kWh indican capacidad de energía, los kW indican potencia, la autonomía WLTP es una referencia homologada y no una promesa, y el consumo en kWh/100 km es el dato que realmente te habla de la eficiencia del vehículo.</p>
+
+        <p>La próxima vez que compares dos modelos, te animo a pasar el checklist de esta guía antes de fijarte solo en la cifra de autonomía del titular. Son cinco minutos que te ayudarán a entender mejor qué estás comparando realmente, y a leer con otros ojos cualquier ficha técnica que te encuentres a partir de ahora.</p>
+      </div>
+
+      <footer class="mt-10 pt-6 border-t text-sm text-gray-600">
+        <p>¿Tienes dudas sobre cómo interpretar la ficha técnica de un modelo concreto, o quieres que comparemos juntos varios coches eléctricos con estos criterios? Contacta conmigo y lo revisamos.</p>
+      </footer>
+
+      <!-- Artículos relacionados -->
+      <aside class="mt-12">
+        <h2 class="text-2xl font-bold mb-4">Artículos relacionados</h2>
+        <ul class="list-disc ml-5 text-emerald-800 space-y-2">
+          <li><a class="hover:underline" href="ahorrar-electricidad-cargando-coche-electrico.html">Cómo ahorrar en electricidad cargando tu coche eléctrico</a></li>
+          <li><a class="hover:underline" href="coches-electricos-baratos-espana-2025.html">Coches eléctricos baratos en España 2025 - Guía completa</a></li>
+          <li><a class="hover:underline" href="../calculadoras.html">Calculadora de ahorro: eléctrico vs gasolina</a></li>
+          <li><a class="hover:underline" href="../comparativas.html">Todas las comparativas de coches eléctricos</a></li>
+          <li><a class="hover:underline" href="../guias.html">Todas las guías sobre coches eléctricos</a></li>
+        </ul>
+      </aside>
+
+      <!-- Sobre el autor -->
+      <section class="mt-12 bg-emerald-50 border border-emerald-100 rounded-xl p-6">
+        <h2 class="text-2xl font-bold mb-2">Sobre el autor</h2>
+        <p class="text-gray-700">Apasionado de la movilidad eléctrica con más de 15.000 km de experiencia en viajes por carretera. Comparto lo aprendido para que tu transición a la electrificación sea más sencilla y disfrutes cada kilómetro, sin sorpresas.</p>
+      </section>
+      <script async="async" data-cfasync="false" src="//pl28052676.effectivegatecpm.com/2f2bf98ebb38fc325879c099d716122f/invoke.js"></script>
+  <div id="container-2f2bf98ebb38fc325879c099d716122f"></div>
+    </article>
+  </main>
+
+  <footer class="bg-gris-oscuro text-white py-12 mt-16">
+    <div class="container mx-auto px-4">
+    <div class="flex flex-col md:flex-row gap-8">
+      <div class="flex-1">
+        <div class="flex items-start space-x-3 mb-2">
+          <div class="bg-white rounded-lg p-1">
+            <img src="../imagenes/logo.webp" alt="Electromovilidad 24" class="h-16 w-auto">
+          </div>
+          <div>
+            <h3 class="text-xl font-bold">Electromovilidad 24</h3>
+            <p class="text-gray-300">Tu fuente confiable de información sobre movilidad eléctrica.</p>
+          </div>
+        </div>
+      </div>
+      <div class="flex-1">
+        <h4 class="text-lg font-semibold mb-2">Enlaces Útiles</h4>
+        <div class="flex flex-wrap gap-4">
+          <a href="../index.html" class="text-gray-300 hover:text-verde-principal transition-colors">Inicio</a>
+          <a href="../index.html#news-section" class="text-gray-300 hover:text-verde-principal transition-colors">Noticias</a>
+          <a href="../comparativas.html" class="text-gray-300 hover:text-verde-principal transition-colors">Comparativas</a>
+          <a href="../reviews.html" class="text-gray-300 hover:text-verde-principal transition-colors">Reviews</a>
+          <a href="../guias.html" class="text-gray-300 hover:text-verde-principal transition-colors">Guías</a>
+          <a href="../calculadoras.html" class="text-gray-300 hover:text-verde-principal transition-colors">Calculadoras</a>
+          <a href="../sobre.html" class="text-gray-300 hover:text-verde-principal transition-colors">Sobre mí</a>
+        </div>
+      </div>
+    </div>
+
+      <div class="border-t border-gray-700 mt-8 pt-8 text-center">
+        <p class="text-gray-400">
+          2026 Electromovilidad 24 - Siguiendo la revolución eléctrica en tiempo real
+        </p>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    // Menú móvil
+    document.getElementById('mobile-menu-btn').addEventListener('click', function() {
+      const menu = document.getElementById('mobile-nav');
+      menu.classList.toggle('hidden');
+    });
+  </script>
+  <script type='text/javascript' src='//pl28052810.effectivegatecpm.com/87/85/ba/8785baa66295effbd2aec6714ef57340.js'></script>
+</body>
+</html>
