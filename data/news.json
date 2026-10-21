@@ -1,4 +1,15 @@
 [
+  
+  {
+    "id": 160,
+    "title": "Waymo llega a Madrid: los robotaxis eléctricos de Google preparan su desembarco en España",
+    "summary": "Waymo, la filial de conducción autónoma de Alphabet, anunció el 20 de octubre de 2026 su despliegue en la Comunidad de Madrid con robotaxis eléctricos Jaguar I-PACE, con el objetivo de recibir a sus primeros pasajeros en 2027. Repaso los datos confirmados, las zonas de pruebas, el nivel de autonomía SAE 4 y qué significa este anuncio para la movilidad eléctrica en España.",
+    "category": "Noticias",
+    "image": "https://images.unsplash.com/photo-1750628179849-75c250cbc2e5?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D",
+    "link": "articulos/waymo-robotaxis-madrid-espana-2027.html",
+    "date": "2026-10-21",
+    "readTime": "8 min"
+  },
   {
     "id": 159,
     "title": "Los coches eléctricos superan a los gasolina en España por primera vez: septiembre marca un hito",
