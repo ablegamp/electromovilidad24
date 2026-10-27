@@ -1,5 +1,14 @@
 [
-  
+  {
+    "id": 161,
+    "title": "España dispara un 153% la producción de coches eléctricos en septiembre",
+    "summary": "ANFAC confirma que la fabricación de vehículos 100% eléctricos en España creció un 153,3% en septiembre de 2026, impulsada por nuevos modelos en Martorell, Navarra y Vitoria, mientras la producción total de vehículos cae un 0,5%.",
+    "category": "Noticias",
+    "image": "../imagenes/Un_SUV_eléctrico.png",
+    "link": "articulos/produccion-coches-electricos-espana-septiembre-2026.html",
+    "date": "2026-10-27",
+    "readTime": "7 min"
+},
   {
     "id": 160,
     "title": "Waymo llega a Madrid: los robotaxis eléctricos de Google preparan su desembarco en España",
