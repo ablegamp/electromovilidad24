@@ -1,5 +1,15 @@
 [
   {
+    "id": 59,
+    "title": "Pasaporte digital de baterías: qué es y cómo afectará al coche eléctrico",
+    "summary": "Guía sobre el Battery Passport europeo: qué es, cuándo será obligatorio en 2027, qué datos incluirá (capacidad, vida útil, estado de salud) y quién podrá consultarlos realmente. Analizamos cómo afectará a la compra de coches eléctricos de segunda mano y qué pasa con los vehículos que ya circulan.",
+    "category": "Guías",
+    "image": "imagenes/pasaporte-bateria.jpeg",
+    "link": "articulos/pasaporte-digital-baterias-coche-electrico-2027.html",
+    "date": "2026-10-30",
+    "readTime": "9 min"
+  },
+  {
     "id": 58,
     "title": "Cómo interpretar la ficha técnica de un coche eléctrico: kWh, kW y autonomía",
     "summary": "Guía práctica para entender de una vez los datos que aparecen en la ficha técnica de cualquier coche eléctrico: diferencia entre kWh y kW, capacidad de batería bruta frente a útil, qué significa realmente la autonomía WLTP, cómo funciona la carga en AC y DC, y por qué la potencia máxima de carga no es lo único que importa.",
